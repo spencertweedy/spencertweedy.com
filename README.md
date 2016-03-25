@@ -1,1 +1,0 @@
-# spencertweedy.github.io
