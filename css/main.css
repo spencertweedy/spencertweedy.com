@@ -178,16 +178,17 @@ li:last-child {
 
 /* Section styles */
 
-#projects h3 {
+#releases h3 {
     display: none;
 }
 
-#projects li span {
+#releases li span {
     font-size: 0.8em;
     color: #888;
 }
 
-#recent-posts .new {
+#recent-posts li:first-child:before {
+    content: 'New';
     background: gold;
     text-transform: uppercase;
     padding: 4px 6px;

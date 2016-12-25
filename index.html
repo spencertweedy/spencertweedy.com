@@ -4,14 +4,20 @@ layout: default
 
 <div class="col">
     <section id="intro">
-        <h2>I play drums and work on music projects.</h2>
+        <h2>{{ site.description }}</h2>
     </section>
 
-    <section id="projects">
-        <h3>Projects</h3>
+    <section id="releases">
+        <h3>Releases</h3>
         <ul>
             {% for release in site.data.releases %}
-            <li><a href="{{ release.listen }}" style="color:{{ release.color }};"><em>{{ release.title }}</em> by {{ release.artist }}</a> <span>({{ release.year }})</span></li>
+            <li>
+                <a href="{{ release.listen }}" style="color:{{ release.color }};">
+                    {% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}
+                    {% if release.artist %} by {{ release.artist }}{% endif %}
+                </a> 
+                <span>({{ release.year }})</span>
+            </li>
             {% endfor %}
         </ul>
     </section>
@@ -21,9 +27,9 @@ layout: default
     <section id="recent-posts">
         <h3>Recent Posts</h3>
         <ol>
-            <li><span class="new">New</span><a href="#">Geezer Love EP</a></li>
-            <li><a href="#">Tweedy on tour in AUS/NZ/Japan</a></li>
-            <li><a href="#">Recent post 3…</a></li>
+            {% for post in site.posts %}
+            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+            {% endfor %}
             <li><a href="#">Archives</a></li>
         </ol>
     </section>

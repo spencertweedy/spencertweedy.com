@@ -1,5 +1,4 @@
 - title: "Geezer Love"
-  artist: ""
   year: "2016"
   color: "#1E4C62"
   listen: "https://spencertweedy.bandcamp.com/album/geezer-love"
@@ -14,19 +13,19 @@
   artist: "Wilco"
   year: "2016"
   color: "#00B24A"
-  listen: "https://spencertweedy.bandcamp.com/album/geezer-love"
+  listen: ""
 
 - title: "Aviary Act II"
   artist: "Eryn Allen Kane"
   year: "2016"
   color: "#FF0000"
-  listen: "https://spencertweedy.bandcamp.com/album/geezer-love"
+  listen: ""
 
 - title: "Star Wars"
   artist: "Wilco"
   year: "2015"
   color: "#2B363E"
-  listen: "https://spencertweedy.bandcamp.com/album/geezer-love"
+  listen: ""
 
 - title: "joy"
   artist: "Beta Males"
@@ -34,7 +33,7 @@
   color: "#00763B"
   listen: "https://betamalesmusic.bandcamp.com/album/joy"
 
-- title: "Don't Lose This"
+- title: "Don’t Lose This"
   artist: "Pops Staples"
   year: "2015"
   color: "#D70000"
@@ -44,7 +43,7 @@
   artist: "Beck"
   year: "2014"
   color: "#00233E"
-  listen: "https://spencertweedy.bandcamp.com/album/geezer-love"
+  listen: ""
 
 - title: "Sukierae"
   artist: "Tweedy"
@@ -52,8 +51,8 @@
   color: "#DA5B37"
   listen: "http://hyperurl.co/boc782"
 
-- title: "Temple State"
-  artist: ""
+- title: '“Temple State”'
+  song: true
   year: "2014"
   color: "#574860"
   listen: "https://spencertweedy.bandcamp.com/track/temple-state"
@@ -70,8 +69,8 @@
   color: "#8A0000"
   listen: "http://hyperurl.co/uagqjz"
 
-- title: "Rushmore"
-  artist: ""
+- title: '“Rushmore”'
+  song: true
   year: "2012"
   color: "#8B336B"
   listen: "https://spencertweedy.bandcamp.com/track/rushmore"
