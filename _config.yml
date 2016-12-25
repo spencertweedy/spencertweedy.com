@@ -9,11 +9,19 @@
 title: Spencer Tweedy
 email: spencer@spencertweedy.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I play drums and work on music projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://spencertweedy.com" # the base hostname & protocol for your site
+
+phone: "(773) 888 4152"
+twitter: "spencertweedy"
+facebook: "spencertweedy"
+tinyletter: ""
+
+typekit: ""
+
+cover_photo_path: ""
+cover_photo_credit: ""
 
 # Build settings
 markdown: kramdown

@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div id="wrapper">
+      {% include header.html %}
+      
+      <div id="cover-photo-container">
+        <div id="cover-photo"><img src="{{ "/assets/bg.jpg" | prepend: site.baseurl }}" /></div>
       </div>
+
+      <main>
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
-
   </body>
-
 </html>

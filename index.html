@@ -2,22 +2,48 @@
 layout: default
 ---
 
-<div class="home">
+<div class="col">
+    <section id="intro">
+        <h2>I play drums and work on music projects.</h2>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
+    <section id="projects">
+        <h3>Projects</h3>
+        <ul>
+            {% for release in site.data.releases %}
+            <li><a href="{{ release.listen }}" style="color:{{ release.color }};"><em>{{ release.title }}</em> by {{ release.artist }}</a> <span>({{ release.year }})</span></li>
+            {% endfor %}
+        </ul>
+    </section>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="col">
+    <section id="recent-posts">
+        <h3>Recent Posts</h3>
+        <ol>
+            <li><span class="new">New</span><a href="#">Geezer Love EP</a></li>
+            <li><a href="#">Tweedy on tour in AUS/NZ/Japan</a></li>
+            <li><a href="#">Recent post 3…</a></li>
+            <li><a href="#">Archives</a></li>
+        </ol>
+    </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <section id="contact">
+        <h3>Contact</h3>
+        <ul>
+            <li><a href="mailto:spencer@spencertweedy.com">spencer@spencertweedy.com</a></li>
+            <li><a href="tel:+17738884152">(773) 888 4152</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">twitter.com/spencertweedy</a></li>
+            <li><a href="#">facebook.com/spencertweedy</a></li>
+        </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+         <form action="https://tinyletter.com/spencertweedy" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/spencertweedy', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <label for="tlemail">Enter your email address</label>
+            <input type="text" name="email" id="tlemail" aria-label="Enter your email address" placeholder="Your email address" />
+            <input type="hidden" value="1" name="embed"/>
+            <input type="submit" value="Subscribe" />
+        </form>
+    </section>
 </div>
