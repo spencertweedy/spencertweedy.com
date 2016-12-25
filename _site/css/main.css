@@ -266,6 +266,21 @@ footer a {
     border-radius: 2px;
 }
 
+/* Single layout styles */
+
+body.post header, body.page header {
+    margin-top: 12vh;
+}
+
+body.post #cover-photo-container, body.page #cover-photo-container {
+    display: none;
+}
+
+body.post main, body.page main {
+    width: 500px;
+    display: block;
+}
+
 /* Breakpoints */
 
 @media screen and (max-width: 760px) {
