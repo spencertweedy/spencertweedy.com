@@ -11,13 +11,7 @@ layout: default
         <h3>Releases</h3>
         <ul>
             {% for release in site.data.releases %}
-            <li>
-                <a href="{{ release.listen }}" style="color:{{ release.color }};">
-                    {% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}
-                    {% if release.artist %} by {{ release.artist }}{% endif %}
-                </a> 
-                <span>({{ release.year }})</span>
-            </li>
+            <li><a href="{{ release.listen }}" style="color:{{ release.color }};">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>({{ release.year }})</span></li>
             {% endfor %}
         </ul>
     </section>
@@ -27,29 +21,29 @@ layout: default
     <section id="recent-posts">
         <h3>Recent Posts</h3>
         <ol>
-            {% for post in site.posts %}
+            {% for post in site.posts limit:3 %}
             <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
             {% endfor %}
-            <li><a href="#">Archives</a></li>
         </ol>
+        <a href="{{ site.baseurl }}{% link archive.html %}">Archive</a>
     </section>
 
     <section id="contact">
         <h3>Contact</h3>
         <ul>
-            <li><a href="mailto:spencer@spencertweedy.com">spencer@spencertweedy.com</a></li>
-            <li><a href="tel:+17738884152">(773) 888 4152</a></li>
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a href="tel:{{ site.phone[0] }}">{{ site.phone[1] }}</a></li>
         </ul>
         <ul>
-            <li><a href="#">twitter.com/spencertweedy</a></li>
-            <li><a href="#">facebook.com/spencertweedy</a></li>
+            <li><a href="https://twitter.com/{{ site.twitter }}">twitter.com/{{ site.twitter }}</a></li>
+            <li><a href="https://facebook.com/{{ site.facebook }}">facebook.com/{{ site.facebook }}</a></li>
         </ul>
 
-         <form action="https://tinyletter.com/spencertweedy" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/spencertweedy', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        {% if site.tinyletter %}<form action="https://tinyletter.com/{{ site.tinyletter }}" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
             <label for="tlemail">Enter your email address</label>
             <input type="text" name="email" id="tlemail" aria-label="Enter your email address" placeholder="Your email address" />
             <input type="hidden" value="1" name="embed"/>
             <input type="submit" value="Subscribe" />
-        </form>
+        </form>{% endif %}
     </section>
 </div>

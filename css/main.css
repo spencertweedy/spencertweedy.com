@@ -1,3 +1,6 @@
+---
+---
+
 /* CSS reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -104,7 +107,7 @@ footer {
     width: 84%;
     max-width: 840px;
     height: 74%;
-    background: url('/assets/bg.jpg') 50% 50% no-repeat;
+    background: url({{ site.cover_photo_path }}) 50% 50% no-repeat;
     background-size: cover;
     margin: auto;
 }
@@ -176,6 +179,11 @@ li:last-child {
     margin-bottom: 0;
 }
 
+footer a {
+    color: #888;
+    text-decoration: underline;
+}
+
 /* Section styles */
 
 #releases h3 {
@@ -197,6 +205,12 @@ li:last-child {
     position: relative;
     top: -2px;
     margin-right: 0.7em;
+    border-radius: 2px;
+}
+
+#recent-posts ol + a {
+    margin-top: 0.5em;
+    display: block;
 }
 
 #contact a:after {
@@ -251,6 +265,8 @@ li:last-child {
     position: absolute;
     right: 0.7rem;
     top: 0.7rem;
+    cursor: pointer;
+    border-radius: 2px;
 }
 
 /* Breakpoints */
