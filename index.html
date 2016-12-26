@@ -8,7 +8,7 @@ layout: default
     </section>
 
     <section id="releases">
-        <h3>Releases</h3>
+        <h4>Releases</h4>
         <ul>
             {% for release in site.data.releases %}
             <li><a href="{{ release.listen }}" style="color:{{ release.color }};">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>({{ release.year }})</span></li>
@@ -19,7 +19,7 @@ layout: default
 
 <div class="col">
     <section id="recent-posts">
-        <h3>Recent Posts</h3>
+        <h4>Recent Posts</h4>
         <ol>
             {% for post in site.posts limit:3 %}
             <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
@@ -29,7 +29,7 @@ layout: default
     </section>
 
     <section id="contact">
-        <h3>Contact</h3>
+        <h4>Contact</h4>
         <ul>
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             <li><a href="tel:{{ site.phone[0] }}">{{ site.phone[1] }}</a></li>

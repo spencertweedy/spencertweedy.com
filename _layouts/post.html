@@ -2,9 +2,8 @@
 layout: default
 ---
 <article itemscope itemtype="http://schema.org/BlogPosting">
-	{{ page.title }}
-	
 	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+	<h3>{{ page.title }}</h3>
 
 	{{ content }}
 </article>

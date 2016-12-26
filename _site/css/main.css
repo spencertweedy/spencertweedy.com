@@ -42,10 +42,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-em {
+em, i {
     font-style: italic;
 }
-strong {
+b, strong {
     font-weight: 700;
 }
 
@@ -64,7 +64,6 @@ body {
 #wrapper {
     margin: 0 auto;
     width: 100%;
-    min-width: 540px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -141,13 +140,18 @@ h2 {
 }
 
 h3 {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.8em;
     margin: 2em 0 1em;
 }
 
-h3:first-child {
+h4:first-child {
     margin-top: 0;
 }
 
@@ -176,14 +180,27 @@ li:last-child {
     margin-bottom: 0;
 }
 
+time {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    display: block;
+}
+
 footer a {
     color: #888;
     text-decoration: underline;
 }
 
+::selection {
+    background-color: gold;
+    color: black;
+}
+
 /* Section styles */
 
-#releases h3 {
+#releases h4 {
     display: none;
 }
 
@@ -266,7 +283,7 @@ footer a {
     border-radius: 2px;
 }
 
-/* Single layout styles */
+/* Post/page layout styles */
 
 body.post header, body.page header {
     margin-top: 12vh;
@@ -281,12 +298,47 @@ body.post main, body.page main {
     display: block;
 }
 
+article p, article blockquote, article ul, article ol, article img, article embed {
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+
+article {
+    line-height: 1.5em;
+}
+
+article a {
+    color: steelblue;
+}
+
+article blockquote {
+    border-left: 4px solid #000;
+    padding-left: 1em;
+}
+
+article ul, article ol {
+    margin-left: 1.5em;
+}
+
+article ul li {
+    list-style: disc;
+}
+
+article ol li {
+    list-style: decimal;
+}
+
 /* Breakpoints */
 
 @media screen and (max-width: 760px) {
+    h1 {
+        font-size: 1em;
+    }
+
     main {
         display: block;
         width: 500px;
+        padding: 0 20px;
     }
 
     .col:nth-child(1) {
