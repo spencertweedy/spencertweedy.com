@@ -69,7 +69,7 @@ body {
 }
 
 header {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     font-size: 3em;
     text-align: center;
@@ -101,16 +101,13 @@ footer {
 #cover-photo {
     width: 84%;
     max-width: 840px;
-    height: 74%;
+    height: 76%;
     background: url(/assets/bg.jpg) 50% 50% no-repeat;
     background-size: cover;
     margin: 12vh auto 0;
 }
 
 #cover-photo img {
-    max-width: 100%;
-    max-height: 74vh;
-    margin: auto;
     display: none; /* No-CSS fallback */
 }
 
@@ -343,6 +340,7 @@ article ol li {
     main {
         display: block;
         width: 500px;
+        /*max-width: 84%;*/
         padding: 0 20px;
     }
 
