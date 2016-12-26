@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Dec 2016 20:33:10 -0600</pubDate>
-    <lastBuildDate>Sun, 25 Dec 2016 20:33:10 -0600</lastBuildDate>
+    <pubDate>Sun, 25 Dec 2016 22:56:31 -0600</pubDate>
+    <lastBuildDate>Sun, 25 Dec 2016 22:56:31 -0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -35,6 +35,10 @@
       <item>
         <title>Post styling…</title>
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer &lt;a target=&quot;_blank&quot; href=&quot;/&quot;&gt;adipiscing elit&lt;/a&gt;. Aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta. Curabitur sit amet quam id libero suscipit venenatis.&lt;/p&gt;
+
+&lt;img src=&quot;http://cdn3.volusion.com/tcnsq.jlcnf/v/vspfiles/photos/Neve-Sidecar-3.jpg&quot; /&gt;
+
+&lt;p&gt;Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta. Curabitur sit amet quam id libero suscipit venenatis.&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Lorem ipsum dolor sit amet.&lt;/li&gt;
