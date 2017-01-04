@@ -1,0 +1,24 @@
+---
+layout: post
+title: Lana Del Rey & The Fake Game
+date: '2012-03-01T17:50:00-06:00'
+tags: []
+tumblr_url: http://spencertweedy.com/post/18575379025/lana-del-rey-the-fake-game
+---
+I wrote this for Unrequired Listening
+
+I just read this well-written fact-check-of-an-article by Rookie contributor Jessica Hopper about America’s favorite (or least favorite) quasi-guerrilla pop star, Lana Del Rey. I am not a fan of Lana Del Rey’s music—it just ain’t my cup of tea—but it’s frustrating to see all of the ruckus of hatred and lazy snark directed toward her. In the words of the noble Voltaire, who I am just so modestly alike, “I detest what you write, but I would give my life to make it possible for you to continue to write.”
+
+Nothing is fake
+
+Some people are more in-touch with your and my reality. Some people aren’t. “Real” is the ultimate relative term. We’re taught that when we’re toddlers and we fight with a friend on a playdate. You knocked over Little Jimmy’s block tower, and your mom said, “Put yourself in his shoes, future Unrequired Listening reader. Look at it through Little Jimmy’s eyes.” There, then, we’re being taught to be considerate of other people’s feelings, but with that comes this, too: other people have other feelings.
+
+We step in turds when we project our own realities onto others. If Lana Del Rey is from another world—one that doesn’t see taking advantage of great opportunities to do what she loves to do as a surrendering of integrity—then we should let her live in that world. It’s the golden rule, for Jimmy Iovine’s sake. Her idea of integrity doesn’t line up with ours. Who cares? Isn’t that her loss (and her three remaining fans’ gain)?
+
+We shouldn’t look to pop stars as divine arbiters of integrity in the first place. It’s important to hold people of influence to certain standards; they have a level of power that’s more immediately visible than that of the everyday human, and with that power comes a responsibility to positively affect your community (the world). I can’t see how Lana Del Rey has fallen below those standards. If anything, she has exceeded them, by “marching to her own drummer” … by deviating from the female pop archetype while being in the system that produces female archetypes. (For more on that feminist note, read that article.)
+
+A groomed product of major-label pop-mechanics is real. In my own world, not as real as Elizabeth Cotten—pop music is fringed by politics and stereotype and superficiality and lots of things that we enlightened folk scoff at because they sully the spirit. But real nonetheless. To me, “real” music has nothing to do with whether a musician is influenced by people who want to make a lot of money off of them, or if they were given a zillion-dollar deal because some A&R guy liked the way they look, or if their record was produced by robots. As long as the people making the sounds care about the sounds they’re making. If they care enough to put their work towards a song produced by robots, recorded in a room full of people who only care about how they look and sold by greedy douches, then we should care enough to give them a fair chance to make music that we enjoy. (Unfortunately for Lana Del Rey, Saturday Night Live may have taken that fair chance away from us.) As long as there is expression, it is real. Music is music.
+
+I think there’s always expression. Music isn’t a job someone takes just to make ends meet. (Usually, it’s a job someone wishes they could take because they can’t make ends meet.) You can’t do it without your heart in the right place. Maybe in the history of mass media there have been a couple cases of fame-crazed singing automatons who only saw making noises as the golden road to stardom. But to villainize someone because they want to make money by doing what they like to do is just ignorant. We all want to make money. We all want to be able to take care of ourselves and the people we love. (And, apparently, Lana Del Rey doesn’t even need music to do those things—her dad’s got it covered.) If you don’t, somebody’s music is not your problem; you’re a goddamned commie.
+
+I guess people aren’t saying that Lana Del Rey doesn’t care about music, but that she doesn’t work hard for it, and never did. I guess that’s the whole point of the “fake” argument for anybody—that someone else played musical chairs for them, and then gave them the seat (pun not intended). From the looks of the things uncovered by Ms. Hopper, that isn’t the case for Lana Del Rey. I don’t think it’s really the case for anybody. You can’t be pushed to “the top” in a stroller. There may be some assholes wearing fedoras walking alongside you, but you have to make that walk. If Lana Del Rey didn’t care about singing songs, she wouldn’t sing them. If she cares about singing songs, we should let her sing songs.

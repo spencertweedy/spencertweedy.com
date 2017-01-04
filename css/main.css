@@ -267,19 +267,18 @@ footer a {
 }
 
 #contact input[type="submit"] {
-    background: steelblue;
-    color: white;
+    background: none;
+    color: #000;
     border: 0;
-    padding: 0 0.5rem;
-    font-size: 0.8em;
+    padding: 0;
+    font-size: 1em;
     margin: 0;
     height: 1.6rem;
     line-height: 1.6rem;
     position: absolute;
-    right: 0.7rem;
+    right: 1rem;
     top: 0.7rem;
     cursor: pointer;
-    border-radius: 2px;
 }
 
 /* Post/page layout styles */
