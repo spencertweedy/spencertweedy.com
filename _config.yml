@@ -8,7 +8,7 @@
 # Site settings
 title: Spencer Tweedy
 email: spencer@spencertweedy.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   I play drums and work on music projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://spencertweedy.com" # the base hostname & protocol for your site
