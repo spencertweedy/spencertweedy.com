@@ -5,9 +5,9 @@
     <div id="wrapper">
       {% include header.html %}
       
-      <div id="cover-photo-container">
+      {% if page.layout == 'default' %}<div id="cover-photo-container">
         <div id="cover-photo"><img src="{{ site.cover_photo_path }}" /></div>
-      </div>
+      </div>{% endif %}
 
       <main>
         {{ content }}

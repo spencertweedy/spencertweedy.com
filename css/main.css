@@ -112,6 +112,7 @@ footer {
     background: url({{ site.cover_photo_path }}) 50% 50% no-repeat;
     background-size: cover;
     margin: 12vh auto 0;
+    border-radius: 4px;
 }
 
 #cover-photo img {
@@ -289,10 +290,6 @@ footer a {
 
 body.post header, body.page header {
     margin-top: 12vh;
-}
-
-body.post #cover-photo-container, body.page #cover-photo-container {
-    display: none;
 }
 
 body.post main, body.page main {
