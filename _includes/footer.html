@@ -1,3 +1,7 @@
 <footer>
-    <p>Last updated {{ site.time | date: "%m/%d/%Y" }}. Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a>.<br />Made in {{ site.locale }}. Copyright © 2016 {{ site.title }}.</p>
+    <p>
+        Last updated {{ site.time | date: "%m/%d/%Y" }}. Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a>.<br />
+        {% if site.github_repo %}Published on <a href="{{ site.github_repo }}">GitHub Pages</a>.<br />{% endif %}
+        Made in {{ site.locale }}. Copyright © 2016 {{ site.title }}.
+    </p>
 </footer>
