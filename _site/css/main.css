@@ -64,22 +64,22 @@ body {
 #wrapper {
     margin: 0 auto;
     width: 100%;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
 
 header {
-    margin: 12vh 0 0;
+    margin: 12vh auto;
     width: 100%;
     font-size: 3em;
+    padding: 0 20px;
     text-align: center;
 }
 
 main {
     width: 100%;
     max-width: 700px;
-    margin: 12vh auto 2em;
+    margin: 0 auto;
     padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +87,7 @@ main {
 
 footer {
     width: 100%;
-    margin: 0 0 12vh;
+    margin: 2rem 0 12vh;
     text-align: center;
     padding: 0 20px;
     color: #888;
@@ -322,9 +322,23 @@ footer a {
 /* Breakpoints */
 
 @media screen and (max-width: 760px) {
+    header {
+        margin: 8vh auto;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    footer {
+        margin: 2rem 0 8vh;
+    }
+
     #cover-photo-container {
         height: 70vw;
-        margin: 8vh auto;
+        margin: 8vh auto 0;
     }
 
     #cover-photo {
@@ -335,13 +349,6 @@ footer a {
 
     h1 {
         font-size: 0.9em;
-    }
-
-    main {
-        display: block;
-        width: 100%;
-        max-width: 400px;
-        margin: 8vh auto 2em;
     }
 
     .col:nth-child(1) {
