@@ -55,7 +55,7 @@ b, strong {
 
 body {
     font-size: 16px;
-    line-height: 1.3em;
+    line-height: 1.5em;
     font-family: "jaf-facitweb", sans-serif;
     background: #fff;
     color: #000;
@@ -100,7 +100,7 @@ footer {
     padding: 0 20px;
     height: 76vh;
     order: -1;
-    margin: 12vh auto -0.8em;
+    margin: 12vh auto -0.9em;
 }
 
 #cover-photo {
@@ -174,7 +174,7 @@ section:last-child {
 }
 
 li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 li:last-child {
@@ -271,14 +271,6 @@ footer a {
 
 #contact ul {
     margin-bottom: 1em;
-}
-
-#contact li {
-    margin-bottom: 0.3em;
-}
-
-#contact li:last-child {
-    margin-bottom: 0;
 }
 
 #contact form {
