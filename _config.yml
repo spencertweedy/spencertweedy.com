@@ -14,17 +14,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://spencertweedy.com" # the base hostname & protocol for your site
 timezone: America/Chicago
 
+# Content variables
 phone: ["+17738884152","(773) 888 4152"]
 twitter: "spencertweedy"
 facebook: "spencertweedy"
 tinyletter: "spencertweedy"
-
 typekit: ejh7rbn
-
 cover_photo_path: '/assets/bg.jpg'
 cover_photo_credit: ["David Zoubek","http://www.davidzoubek.com"]
-
 locale: "Chicago, IL"
+
+# Collection settings
+collections:
+  redirects:
+    output: true
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-redirect-from
