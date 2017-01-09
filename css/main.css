@@ -192,6 +192,42 @@ time {
     display: block;
 }
 
+article {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+article p, article blockquote, article ul, article ol, article img, article embed {
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+
+article *:last-child {
+    margin-bottom: 0;
+}
+
+article a {
+    color: steelblue;
+}
+
+article blockquote {
+    border-left: 4px solid #000;
+    padding-left: 1em;
+}
+
+article ul, article ol {
+    margin-left: 1.5em;
+}
+
+article ul li {
+    list-style: disc;
+}
+
+article ol li {
+    list-style: decimal;
+}
+
 footer a {
     color: #888;
     text-decoration: underline;
@@ -284,53 +320,6 @@ footer a {
     right: 1rem;
     top: 0.7rem;
     cursor: pointer;
-}
-
-/* Post/page layout styles */
-
-body.post header, body.page header {
-    margin-top: 12vh;
-}
-
-body.post main, body.page main {
-    width: 500px;
-    display: block;
-}
-
-article p, article blockquote, article ul, article ol, article img, article embed {
-    margin-bottom: 1em;
-    max-width: 100%;
-}
-
-article *:last-child {
-    margin-bottom: 0;
-}
-
-article {
-    line-height: 1.5em;
-    /*width: 500px;
-    margin: 0 auto;*/
-}
-
-article a {
-    color: steelblue;
-}
-
-article blockquote {
-    border-left: 4px solid #000;
-    padding-left: 1em;
-}
-
-article ul, article ol {
-    margin-left: 1.5em;
-}
-
-article ul li {
-    list-style: disc;
-}
-
-article ol li {
-    list-style: decimal;
 }
 
 /* Breakpoints */
