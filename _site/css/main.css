@@ -291,7 +291,7 @@ footer a {
     margin: 0;
     padding: 0;
     height: 1.3em;
-    line-height: 1.3em;
+    line-height: 1em;
     border: none;
     outline: none;
 }
@@ -304,7 +304,7 @@ footer a {
     font-size: 1em;
     margin: 0;
     height: 1.6rem;
-    line-height: 1.6rem;
+    line-height: 1rem;
     position: absolute;
     right: 1rem;
     top: 0.7rem;
