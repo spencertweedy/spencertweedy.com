@@ -23,6 +23,7 @@ typekit: ejh7rbn
 cover_photo_path: '/assets/bg.jpg'
 cover_photo_credit: ["David Zoubek","http://www.davidzoubek.com"]
 locale: "Chicago, IL"
+github_repo: "https://github.com/spencertweedy/spencertweedy.github.io"
 
 # Collection settings
 collections:
