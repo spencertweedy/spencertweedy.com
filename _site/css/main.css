@@ -64,6 +64,8 @@ body {
 #wrapper {
     margin: 0 auto;
     width: 100%;
+    max-width: 840px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -76,9 +78,10 @@ header {
 }
 
 main {
-    width: 84%;
+    width: 100%;
     max-width: 700px;
     margin: 12vh auto 2em;
+    padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -87,6 +90,7 @@ footer {
     width: 100%;
     margin: 0 0 12vh;
     text-align: center;
+    padding: 0 20px;
     color: #888;
     font-size: 0.7em;
 }
@@ -94,13 +98,13 @@ footer {
 #cover-photo-container {
     width: 100%;
     height: 100vh;
+    padding: 0 20px;
     order: -1;
     margin: 0 auto -0.8em;
 }
 
 #cover-photo {
-    width: 84%;
-    max-width: 840px;
+    width: 100%;
     height: 76%;
     background: url(/assets/bg.jpg) 50% 50% no-repeat;
     background-size: cover;
@@ -332,14 +336,9 @@ article ol li {
 /* Breakpoints */
 
 @media screen and (max-width: 760px) {
-    #wrapper {
-        width: 320px;
-        padding: 0 20px;
-    }
-
     #cover-photo-container {
-        height: 50vh;
-        margin: 12vh 0;
+        height: 40vh;
+        margin: 8vh auto;
     }
 
     #cover-photo {
@@ -349,12 +348,14 @@ article ol li {
     }
 
     h1 {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     main {
         display: block;
         width: 100%;
+        max-width: 500px;
+        margin: 8vh auto 2em;
     }
 
     .col:nth-child(1) {
