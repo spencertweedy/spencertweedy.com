@@ -337,7 +337,7 @@ article ol li {
 
 @media screen and (max-width: 760px) {
     #cover-photo-container {
-        height: 40vh;
+        height: 70vw;
         margin: 8vh auto;
     }
 
