@@ -1,0 +1,394 @@
+---
+permalink: "/lewitt"
+---
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sol LeWitt's &#60;canvas&#62;</title>
+        
+        <meta name="author" content="Spencer Tweedy" />
+        <meta name="keywords" content="sol lewitt, css3 art, html5 canvas, javascript drawing" />
+        <meta name="description" content="Four HTML5 interpretations of Sol LeWitt's iconic wall art." />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=1280" />
+        
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+            @import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+            
+            body {
+                text-align: center;
+            }
+            
+            h1 {
+                font-family: 'Rock Salt';
+                font-size: 50px;
+                margin-top: 200px;
+            }
+            
+            h1:after {
+                display: block;
+                content: "";
+                border-top: 2px solid #ddd;
+                height: 5px;
+                border-bottom: 2px solid #ddd;
+                width: 100px;
+                margin: 20px auto 40px;
+            }
+            
+            h2 {
+                font-weight: normal;
+                font-size: 24px;
+                font-family: 'Walter Turncoat';
+                margin-bottom: 35px;
+            }
+            
+            h3 {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: normal;
+                color: white;
+                background: black;
+                padding: 10px;
+                display: inline-block;
+                margin-bottom: 30px;
+            }
+            
+            h2 a {
+                color: black;
+                text-decoration: none;
+                border-bottom: 1px solid #bbb;
+            }
+            
+            .container {
+                margin: 200px auto;
+                text-align: left;
+            }
+        </style>
+        
+        <script type="text/javascript">
+            function draw() {
+                var drawingOne = document.getElementById("792");
+                var drawingTwo = document.getElementById("614");
+                var drawingThree = document.getElementById("295");
+                var drawingFour = document.getElementById("391");
+                
+                if(drawingOne.getContext) {
+                    var ctx = drawingOne.getContext("2d");
+                    
+                    // DRAW HERE
+                    ctx.fillRect(10,10,140,580);
+                    ctx.fillRect(160,10,200,400);
+                    ctx.fillRect(160,420,200,170);
+                    ctx.fillRect(370,10,100,300);
+                    ctx.fillRect(370,320,300,270);
+                    ctx.fillRect(480,10,190,300);
+                    ctx.fillRect(680,10,80,580);
+                    ctx.fillRect(770,10,220,200);
+                    ctx.fillRect(770,220,220,370);
+                    ctx.strokeRect(0,0,1000,600);
+                }
+                
+                if(drawingTwo.getContext) {
+                    var ctx = drawingTwo.getContext("2d");
+                    
+                    // DRAW HERE
+                    ctx.fillRect(0,0,1200,500);
+                    ctx.clearRect(20,0,100,180);
+                    ctx.clearRect(20,200,100,280);
+                    ctx.clearRect(140,20,120,200);
+                    ctx.clearRect(140,240,200,260);
+                    ctx.clearRect(280,0,300,140);
+                    ctx.clearRect(280,160,360,60);
+                    ctx.clearRect(360,240,140,240);
+                    ctx.clearRect(660,20,100,460);
+                    ctx.clearRect(600,20,40,120);
+                    ctx.clearRect(520,240,120,240);
+                    ctx.clearRect(780,0,60,200);
+                    ctx.clearRect(780,220,300,100);
+                    ctx.clearRect(780,340,120,160);
+                    ctx.clearRect(920,400,120,100);
+                    ctx.clearRect(920,340,160,40);
+                    ctx.clearRect(1060,400,120,80);
+                    ctx.clearRect(1100,0,80,380);
+                    ctx.clearRect(860,20,120,180);
+                    ctx.clearRect(1000,20,80,180);
+                }
+                
+                if(drawingThree.getContext) {
+                    var ctx = drawingThree.getContext("2d");
+                    
+                    // DRAW HERE
+                    ctx.fillRect(0,0,680,600);
+                    ctx.strokeStyle="white";
+                    ctx.strokeRect(100,60,480,480);
+                    ctx.beginPath();
+                    ctx.lineTo(100,540);
+                    ctx.lineTo(340,60);
+                    ctx.lineTo(580,540);
+                    ctx.stroke();
+                    ctx.beginPath();
+                    ctx.arc(340,300,240,0,Math.PI*2,true);
+                    ctx.closePath();
+                    ctx.stroke();
+                    ctx.beginPath();
+                    ctx.lineTo(100,540);
+                    ctx.lineTo(200,60);
+                    ctx.lineTo(200,540);
+                    ctx.stroke();
+                    ctx.beginPath();
+                    ctx.lineTo(580,540);
+                    ctx.lineTo(480,60);
+                    ctx.lineTo(480,540);
+                    ctx.lineTo(580,60);
+                    ctx.stroke();
+                }
+                
+                if(drawingFour.getContext) {
+                    var ctx = drawingFour.getContext("2d");
+                    
+                    // DRAW HERE
+                    ctx.fillRect(0,0,544,544);
+                    ctx.fillRect(608,0,544,544);
+                    ctx.clearRect(32,32,224,224);
+                    ctx.clearRect(288,32,224,224);
+                    ctx.clearRect(32,288,224,224);
+                    ctx.clearRect(288,288,224,224);
+                    ctx.clearRect(640,32,224,224);
+                    ctx.clearRect(896,32,224,224);
+                    ctx.clearRect(640,288,224,224);
+                    ctx.clearRect(896,288,224,224);
+                    ctx.fillRect(64,32,32,224);
+                    ctx.fillRect(128,32,32,224);
+                    ctx.fillRect(192,32,32,224);
+                    ctx.fillRect(288,64,224,32);
+                    ctx.fillRect(288,128,224,32);
+                    ctx.fillRect(288,192,224,32);
+                    ctx.save();
+                    ctx.translate(608,0);
+                    ctx.fillRect(64,32,32,224);
+                    ctx.fillRect(128,32,32,224);
+                    ctx.fillRect(192,32,32,224);
+                    ctx.fillStyle = "yellow";
+                    ctx.fillRect(288,64,224,32);
+                    ctx.fillRect(288,128,224,32);
+                    ctx.fillRect(288,192,224,32);
+                    ctx.restore();
+                    ctx.save();
+                    ctx.translate(32,288);
+                    ctx.beginPath();
+                    ctx.moveTo(32,0);
+                    ctx.lineTo(0,32);
+                    ctx.lineTo(0,64);
+                    ctx.lineTo(64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64,0);
+                    ctx.lineTo(0,32+64);
+                    ctx.lineTo(0,64+64);
+                    ctx.lineTo(64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64+64,0);
+                    ctx.lineTo(0,32+64+64);
+                    ctx.lineTo(0,64+64+64);
+                    ctx.lineTo(64+64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),0);
+                    ctx.lineTo(0,32+(3*64));
+                    ctx.lineTo(32,32+(3*64));
+                    ctx.lineTo(32+(3*64),32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64);
+                    ctx.lineTo(64,32+(3*64));
+                    ctx.lineTo(64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64);
+                    ctx.lineTo(64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64+64);
+                    ctx.lineTo(64+64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32+64);
+                    ctx.fill();
+                    ctx.restore();
+                    ctx.save();
+                    ctx.translate(288*2-64,288);
+                    ctx.rotate((Math.PI/180)*90);
+                    ctx.beginPath();
+                    ctx.moveTo(32,0);
+                    ctx.lineTo(0,32);
+                    ctx.lineTo(0,64);
+                    ctx.lineTo(64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64,0);
+                    ctx.lineTo(0,32+64);
+                    ctx.lineTo(0,64+64);
+                    ctx.lineTo(64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64+64,0);
+                    ctx.lineTo(0,32+64+64);
+                    ctx.lineTo(0,64+64+64);
+                    ctx.lineTo(64+64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),0);
+                    ctx.lineTo(0,32+(3*64));
+                    ctx.lineTo(32,32+(3*64));
+                    ctx.lineTo(32+(3*64),32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64);
+                    ctx.lineTo(64,32+(3*64));
+                    ctx.lineTo(64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64);
+                    ctx.lineTo(64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64+64);
+                    ctx.lineTo(64+64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32+64);
+                    ctx.fill();
+                    ctx.restore();
+                    ctx.save();
+                    ctx.translate(288*4-32,288);
+                    ctx.rotate((Math.PI/180)*90);
+                    ctx.fillStyle = "blue";
+                    ctx.beginPath();
+                    ctx.moveTo(32,0);
+                    ctx.lineTo(0,32);
+                    ctx.lineTo(0,64);
+                    ctx.lineTo(64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64,0);
+                    ctx.lineTo(0,32+64);
+                    ctx.lineTo(0,64+64);
+                    ctx.lineTo(64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64+64,0);
+                    ctx.lineTo(0,32+64+64);
+                    ctx.lineTo(0,64+64+64);
+                    ctx.lineTo(64+64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),0);
+                    ctx.lineTo(0,32+(3*64));
+                    ctx.lineTo(32,32+(3*64));
+                    ctx.lineTo(32+(3*64),32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64);
+                    ctx.lineTo(64,32+(3*64));
+                    ctx.lineTo(64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64);
+                    ctx.lineTo(64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64+64);
+                    ctx.lineTo(64+64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32+64);
+                    ctx.fill();
+                    ctx.restore();
+                    ctx.save();
+                    ctx.translate(544+96,288);
+                    ctx.fillStyle = "red";
+                    ctx.beginPath();
+                    ctx.moveTo(32,0);
+                    ctx.lineTo(0,32);
+                    ctx.lineTo(0,64);
+                    ctx.lineTo(64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64,0);
+                    ctx.lineTo(0,32+64);
+                    ctx.lineTo(0,64+64);
+                    ctx.lineTo(64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+64+64,0);
+                    ctx.lineTo(0,32+64+64);
+                    ctx.lineTo(0,64+64+64);
+                    ctx.lineTo(64+64+64,0);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),0);
+                    ctx.lineTo(0,32+(3*64));
+                    ctx.lineTo(32,32+(3*64));
+                    ctx.lineTo(32+(3*64),32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64);
+                    ctx.lineTo(64,32+(3*64));
+                    ctx.lineTo(64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64);
+                    ctx.lineTo(64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32);
+                    ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(32+(3*64),64+64+64);
+                    ctx.lineTo(64+64+64,32+(3*64));
+                    ctx.lineTo(64+64+32,32+(3*64));
+                    ctx.lineTo(32+(3*64),64+32+32+32+64);
+                    ctx.fill();
+                    ctx.restore();
+                }
+                
+                else {
+                    document.write("<p>Oops! There's an issue with your dinosaur web browser. Try using <a href='http://www.apple.com/safari/'>Safari</a>.</p>");
+                }
+            }
+        </script>
+    </head>
+    <body onload="draw();">
+        <h1>Sol LeWitt's &#60;canvas&#62;</h1>
+        <h2>Four HTML5 interpretations of <a href="http://www.massmoca.org/lewitt/">Sol LeWitt's iconic wall art</a></h2>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="Sol LeWitt's wall art drawn entirely in HTML5." data-count="horizontal" data-via="spencertweedy">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+        
+        <div class="container" style="width:1000px;">
+            <h3>Wall Drawing No.792</h3>
+            <canvas id="792" width="1000px" height="600px"></canvas>
+        </div>
+        
+        <div class="container" style="width:1200px;">
+            <h3>Wall Drawing No.614</h3>
+            <canvas id="614" width="1200px" height="500px"></canvas>
+        </div>
+        
+        <div class="container" style="width:680px;">
+            <h3>Wall Drawing No.295</h3>
+            <canvas id="295" width="680px" height="600px"></canvas>
+        </div>
+        
+        <div class="container" style="width:1152px;">
+            <h3>Wall Drawing No.321</h3>
+            <canvas id="391" width="1152px" height="544px"></canvas>
+        </div>
+    </body>
+</html>
