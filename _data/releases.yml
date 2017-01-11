@@ -13,19 +13,25 @@
   artist: "Wilco"
   year: "2016"
   color: "#00B24A"
-  listen: ""
+  listen: "http://wilco.lnk.to/schmilco "
+
+- title: "Ranch Generation"
+  artist: "Sk8 City"
+  year: "2016"
+  color: "#200084"
+  listen: "https://sk8city.bandcamp.com/album/ranch-generation-2"
 
 - title: "Aviary Act II"
   artist: "Eryn Allen Kane"
   year: "2016"
   color: "#FF0000"
-  listen: ""
+  listen: "https://soundcloud.com/erynallenkane/sets/aviary-act-ii"
 
 - title: "Star Wars"
   artist: "Wilco"
   year: "2015"
   color: "#2B363E"
-  listen: ""
+  listen: "http://wilcoworld.net/music/star-wars/"
 
 - title: "joy"
   artist: "Beta Males"
