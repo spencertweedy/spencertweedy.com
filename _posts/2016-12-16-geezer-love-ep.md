@@ -2,7 +2,7 @@
 layout: post
 title: "Geezer Love EP"
 date: 2016-12-16
-feature_image: "/assets/geezer-love.png"
+feature_image: "/assets/geezer-love.jpg"
 ---
 My first EP.
 
