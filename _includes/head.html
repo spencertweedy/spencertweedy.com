@@ -9,7 +9,11 @@
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.url }}{% if page.feature_image %}{{ page.feature_image }}{% else %}{{ site.cover_photo_path }}{% endif %}">{% endif %}
+    <meta name="twitter:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">{% endif %}
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
 
     <!-- LOVE & LOGIC -->
 
