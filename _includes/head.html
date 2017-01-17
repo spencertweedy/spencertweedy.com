@@ -5,6 +5,12 @@
     <title>{% if page.title %}{{ page.title | escape }} &#8942; {% endif %}{{ site.title | escape }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    {% if site.twitter %}<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.feature_image %}{{ page.feature_image }}{% else %}{{ site.cover_photo_path }}{% endif %}">{% endif %}
+
     <!-- LOVE & LOGIC -->
 
     <script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
