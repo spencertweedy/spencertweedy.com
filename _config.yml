@@ -15,7 +15,6 @@ url: "http://spencertweedy.com" # the base hostname & protocol for your site
 timezone: America/Chicago
 
 # Content variables
-phone: ["+17738884152","(773) 888 4152"]
 twitter: "spencertweedy"
 facebook: "spencertweedy"
 tinyletter: "spencertweedy"

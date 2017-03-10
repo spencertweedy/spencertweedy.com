@@ -30,14 +30,14 @@ layout: default
 
     <section id="contact">
         <h4>Contact</h4>
-        <ul>
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            <li><a href="tel:{{ site.phone[0] }}">{{ site.phone[1] }}</a></li>
-        </ul>
-        <ul>
-            <li><a href="https://twitter.com/{{ site.twitter }}">twitter.com/{{ site.twitter }}</a></li>
-            <li><a href="https://facebook.com/{{ site.facebook }}">facebook.com/{{ site.facebook }}</a></li>
-        </ul>
+        {% if site.email or site.phone %}<ul>
+            {% if site.email %}<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
+            {% if site.phone %}<li><a href="tel:{{ site.phone[0] }}">{{ site.phone[1] }}</a></li>{% endif %}
+        </ul>{% endif %}
+        {% if site.twitter or site.facebook %}<ul>
+            {% if site.twitter %}<li><a href="https://twitter.com/{{ site.twitter }}">twitter.com/{{ site.twitter }}</a></li>{% endif %}
+            {% if site.facebook %}<li><a href="https://facebook.com/{{ site.facebook }}">facebook.com/{{ site.facebook }}</a></li>{% endif %}
+        </ul>{% endif %}
 
         {% if site.tinyletter %}<form action="https://tinyletter.com/{{ site.tinyletter }}" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
             <label for="tlemail">Enter your email address</label>
