@@ -245,6 +245,10 @@ footer a {
     display: none;
 }
 
+#releases ul {
+    margin-bottom: 1em;
+}
+
 #releases li span {
     font-size: 0.8em;
     color: #888;
