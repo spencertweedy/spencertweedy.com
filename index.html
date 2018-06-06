@@ -10,9 +10,9 @@ layout: default
     <section id="releases">
         <h4>Releases</h4>
         <ul>
-            {% for release in site.data.releases %}
-            <li><a href="{{ release.listen }}" style="color:{{ release.color }};">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>({{ release.year }})</span></li>
-            {% endfor %}
+            {% for release in site.data.releases %}{% if release.home_page %}
+            <li><a href="{{ release.listen }}" style="color:{{ release.color }};">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>{{ release.year }}</span></li>
+            {% endif %}{% endfor %}
         </ul>
     </section>
 </div>
