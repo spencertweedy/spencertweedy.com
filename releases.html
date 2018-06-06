@@ -2,6 +2,10 @@
 layout: page
 title: "Releases"
 ---
-{% for release in site.data.releases %}
-	<li><a href="{{ release.listen }}" style="color:{{ release.color }};">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>{{ release.year }}</span>{% if release.role %} <span>{{ release.role }}</span>{% endif %}</li>
-{% endfor %}
+<section id="releases">
+	<ul>
+		{% for release in site.data.releases %}
+			<li><a href="{{ release.listen }}" style="color:{{ release.color }};">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>{{ release.year }}</span>{% if release.role %} <span>{{ release.role }}</span>{% endif %}</li>
+		{% endfor %}
+	</ul>
+</section>
