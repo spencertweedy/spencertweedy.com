@@ -34,7 +34,7 @@ collections:
     output: true
   longhand_posts:
     output: true
-    layout: post
+    layout: longhand
 
 # Build settings
 markdown: kramdown
