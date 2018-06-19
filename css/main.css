@@ -82,16 +82,13 @@ header {
 main {
     width: 100%;
     margin: 0 auto;
+    max-width: 700px;
     padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
-body.default main {
-    max-width: 700px;
-}
-
-body.post main {
+body.post main, body.page main {
     max-width: 500px;
 }
 
