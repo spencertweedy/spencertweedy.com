@@ -27,9 +27,6 @@ google_analytics: "UA-15153122-1"
 
 # Collection settings
 collections:
-- longhand_posts
-
-collections:
   redirects:
     output: true
   longhand_posts:
