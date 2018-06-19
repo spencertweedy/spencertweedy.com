@@ -27,8 +27,12 @@ google_analytics: "UA-15153122-1"
 
 # Collection settings
 collections:
+- longhand_posts
   redirects:
     output: true
+  longhand_posts:
+    output: true
+    layout: post
 
 # Build settings
 markdown: kramdown
