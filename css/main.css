@@ -81,11 +81,22 @@ header {
 
 main {
     width: 100%;
-    max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
+}
+
+body.default main {
+    max-width: 700px;
+}
+
+body.post main {
+    max-width: 500px;
+}
+
+body.longhand main {
+    max-width: 1200px;
 }
 
 footer {
@@ -194,7 +205,6 @@ time {
 
 article {
     width: 100%;
-    max-width: 500px;
     margin: 0 auto;
     display: block;
 }
