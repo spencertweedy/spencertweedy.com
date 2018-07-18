@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Observations 7-17-18"
+date: 2018-07-17
+---
+* The round man with a white handlebar mustache, wearing all brown, walking through the park eating a sandwich and whole dill pickles out of a ziplock bag. He had three pickles.
+* The gang of daycare toddlers playing in the park, yelling “byeeee” at us and waving as my coworkers and I drove past them in a forklift and golf carts. Us, mimicking their shrill voices, shouting “byeeee” back.
+* The coworker mad, even *disgusted*, that managers had ordered a paper product in yellow instead of blue.
+* I’ve heard multiple groups of twenty-somethings talking about their favorite Spongebob episodes/moments in the past week.
+	* Also, autocorrect error: SpongeBOD.
+* The team of kids’ entertainers (imagineers?) rehearsing as excitedly and sincerely as they would if kids were actually there, playing tag and talking to each other like toddlers. My coworkers and I working on a fence nearby, ogling them, feeling a mixture of wistfulness and a more playful kind of work, judgment at what seems like impossibly chipper demeanors, happiness at the reality that people dedicate their lives to helping others feel joy, and pride that all of us—them in their rainbow parachute, us with zipties and Leathermans, all adding value to life.
+* The young Buddhist monk tending to the garden outside the Buddhist temple, crouched and slowly picking berries/vegetables, talking to an older woman standing on the other side of the fence, living an extraordinary life nestled in a mostly white, very Western neighborhood.
+* The massive, college-football-shirt-wearing dudes who moved out of the way when I walked past them on the sidewalk, reminding me that we’re lucky to have such an elaborate system of rewards and punishments that make it possible for me not to feel scared, generally, when confronted with people who are bigger than me. … Nietzsche hated that shit.
+* The same lesson, learned again, that excessive self-doubt doesn’t right wrongs, doesn’t protect you, doesn’t help others, doesn’t help anyone. It’s just a drag and it can actually put emotional pressure on the person you sought to protect.
