@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Observations 7-19-18"
+date: 2018-07-19
+---
+* The badass, stark red type on the side of a box truck for a chemical company.
+* The neighborhood burger joint that announced itself, in neon letters, as “HOME OF THE BURGER.”
+* The bus ad for a gym that said “Man boobs are sad,” shaming (some) trans people and potential customers all at once.
+	* The realization, later, that the ad might be better if it were, “Man, boobs are sad.”
+* Moving a pyramid of oversized Legos, losing bricks along the way, reattaching them, losing more, reattaching, losing… until, at some point, just playing with Legos.
+* Doing a tight turn on a golf cart, a high-school-aged coworker saying, impressed, “You *nice* for that.”
+* The temp worker complaining to a friend on the phone about making tacos for her boyfriend, who came over to eat them and then left.
+* The truck exhaling like a horse, but more so than a truck usually does. It was cute.
+* The work cart shaking the farts out of me.
+* Nothing makes fatigue surface like talking to a stranger.
+* The older black woman security guards who called me “Tweedy,” whom I brought leftover pizza for the night shift, who told me they’d write me into their wills (as a thanks for the pizza).
+* The Pace bus entirely full of middle-aged, white Cubs fans, brightly lit and blue against orange-gray Ashland.
+* The niceness of the “R” in some versions of Smirnoff Vodka’s logo.
