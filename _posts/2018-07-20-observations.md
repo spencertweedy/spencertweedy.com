@@ -11,7 +11,7 @@ date: 2018-07-20
 * The garbage removal contractor who drives a tinted-window Cadillac with a vanity plate. His employee, whose face looks *exactly* like a French Bulldog, who speaks in an indecipherable Caribbean (?) accent.
 * The high-school-aged coworker, who had been a fan of my tight golf cart turn yesterday, getting fired for making a homophobic comment. Feeling disappointed that he said it. Feeling temporarily hopeless against the huge system of beliefs and cultural norms that need to change in order for him to know better. Feeling uncertain about the degree to which he cared about the incident. Hoping it would be a lesson.
 * The big, uncomfortable-looking dude wearing a mall-type airbrushed hat. The questions it begged.
-* The gruff stagehand holding one of those old-school ice bags to his bald head.
+* The mismatch of gruff, bald stagehand and old-school, satchel-on-head ice bag.
 * The way artists/art almost become secondary, an afterthought, from the perspective of people who really run an event.
 * The ornate, curly tattoo of a woman's name on the arm of a super young coworker.
 * Farting in a freezer truck. On accident the first time. On purpose subsequent times.
