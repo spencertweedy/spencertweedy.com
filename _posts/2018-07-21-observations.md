@@ -1,8 +1,9 @@
 ---
+title: Observations 7-21-18
+date: 2018-07-21 00:00:00 -05:00
 layout: post
-title: "Observations 7-21-18"
-date: 2018-07-21
 ---
+
 - The former Ohio country GOP chairman breaking my brain by resigning in (seemingly sincere) protest of Trump’s Putin stance, then saying, right afterward, he might still vote for Trump in 2020.
 - The security guard wistfully recounting a story about a super skilled chainlink fence assembler: *“The guy was a legend.”*
 - The merch sellers preaching: *“When you wear a beret, you want it to fit right.”*

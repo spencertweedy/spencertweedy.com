@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Archive
-permalink: /archive
+permalink: "/archive"
+layout: page
 ---
+
 <ol>
     {% for post in site.posts %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>

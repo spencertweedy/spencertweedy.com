@@ -1,9 +1,10 @@
 ---
+title: Geezer Love EP
+date: 2016-12-16 00:00:00 -06:00
 layout: post
-title: "Geezer Love EP"
-date: 2016-12-16
 feature_image: "/assets/geezer-love.jpg"
 ---
+
 My first EP.
 
 <div style="text-align:center;">

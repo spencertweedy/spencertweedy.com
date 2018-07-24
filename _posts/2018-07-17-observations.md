@@ -1,8 +1,9 @@
 ---
+title: Observations 7-17-18
+date: 2018-07-17 00:00:00 -05:00
 layout: post
-title: "Observations 7-17-18"
-date: 2018-07-17
 ---
+
 * The round man with a white handlebar mustache, wearing all brown, walking through the park eating a sandwich and whole dill pickles out of a ziplock bag. He had three pickles.
 * The gang of daycare toddlers playing in the park, yelling “byeeee” at us and waving as my coworkers and I drove past them in a forklift and golf carts. Us, mimicking their shrill voices, shouting “byeeee” back.
 * The coworker mad, even *disgusted*, that managers had ordered a paper product in yellow instead of blue.

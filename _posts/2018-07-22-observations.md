@@ -1,8 +1,9 @@
 ---
+title: Observations 7-22-18
+date: 2018-07-22 00:00:00 -05:00
 layout: post
-title: "Observations 7-22-18"
-date: 2018-07-22
 ---
+
 - How backup toilet paper holders are, mainly, a measure of defense against freeloading roommates, one or more get-out-of-jail-free cards from leaving others without toilet paper.
 - How every construction rental company has its own unique flavor of fence base type and sandbag shape.
 - The barometric pressure doing a number on my sinuses.

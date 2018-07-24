@@ -1,8 +1,9 @@
 ---
+title: Observations 7-20-18
+date: 2018-07-20 00:00:00 -05:00
 layout: post
-title: "Observations 7-20-18"
-date: 2018-07-20
 ---
+
 * “Tourists” as a way to refer to touring musicians.
 * Being saved by a friendly dog-walker from parking in a street cleaning zone where there was no notice.
 * The highway sign that read “Posen / Harvey / Midlothian.” The sound of “Midlothian.” On the way back, a bonus: “Dixmoor.”

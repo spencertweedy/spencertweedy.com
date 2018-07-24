@@ -1,8 +1,9 @@
 ---
+title: Observations 7-18-18
+date: 2018-07-18 00:00:00 -05:00
 layout: post
-title: "Observations 7-18-18"
-date: 2018-07-18
 ---
+
 - The park district employee who noticed me struggling to re-secure a fence that I had opened for him and came back to help me with it.
 - A red balloon!!!!
 - The stage assemblers grunting with every lift, feeling it but also almost certainly exaggerating. Sounding like (they want to be) a pirate crew. 

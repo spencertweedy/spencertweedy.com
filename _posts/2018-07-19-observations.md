@@ -1,8 +1,9 @@
 ---
+title: Observations 7-19-18
+date: 2018-07-19 00:00:00 -05:00
 layout: post
-title: "Observations 7-19-18"
-date: 2018-07-19
 ---
+
 * The badass, stark red type on the side of a box truck for a chemical company.
 * The neighborhood burger joint that announced itself, in neon letters, as “HOME OF THE BURGER.”
 * The bus ad for a gym that said “Man boobs are sad,” shaming (some) trans people and potential customers all at once.
