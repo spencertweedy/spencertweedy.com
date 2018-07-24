@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Observations 7-22-18"
+date: 2018-07-22
+---
+- How backup toilet paper holders are, mainly, a measure of defense against freeloading roommates, one or more get-out-of-jail-free cards from leaving others without toilet paper.
+- How every construction rental company has its own unique flavor of fence base type and sandbag shape.
+- The barometric pressure doing a number on my sinuses.
+- The hustle-obsessed coworker throwing ice bags off a truck onto carts, singing NSYNC, refusing a food vendor’s request for help in a really rude way, making her cry, making it up to her. Later, joking to other bro food vendors about it, talking about fucking her. Also later, telling me he still felt bad about making her cry.
+- The French-Bulldog-faced garbage removal man (7-20-18) telling me about his old life in the Caribbean islands, moving to the U.S. in the ‘60s (*”for the pussy”*), becoming a computer repairman, owning fifteen rental buildings in Chicago, selling them all to avoid dealing with “lazy” black tenants (he is black himself), retiring in 1999, working garbage removal part-time, quitting last September but coming back because his boss (7-20-18) needed him and, apparently, because he likes it. His in-laws who stole watches from him. Pointing to the gold watch on his wrist, shrugging, “I only need one.”
+- Feeling proud that a good chunk of the lineup here has performed before at shows I booked in Wisconsin.
+- My big, 40oz, stainless steel water bottle, the one I’ve had for two years, that rolled over in my car with me in May 2017, getting stolen from beneath a tree.
+- (Sandy) Alex G singing through closed teeth.
+- It is amazing how much heavier used porta-potties are than fresh ones.
+- The Lauryn Hill fan lingering in the park for hours after closing, stopping every staff member who happened to pass her, talking about meeting Ms. Hill like a disaster victim in shock. Me, politely trying to figure out how she happened to have an All Access pass around her neck. Her, responding, “I’m very well-connected.”
+- Hammered barbacks on a seesaw.
+- Delirious hugs and beers after festival teardown at 4AM, the familiar buildings off I-94 in pre-dawn.
