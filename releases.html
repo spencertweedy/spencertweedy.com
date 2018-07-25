@@ -9,7 +9,7 @@ layout: page
 		{% for release in releases %}
 			<li style="background:{{ release.color }};">
 				<a href="{{ release.listen }}">
-					<div class="release-image"></div>
+					<div class="release-image"><img src="{{ release.image }}" alt="{{ release.title }} artwork" /></div>
 					<span class="release-title {% if release.song %}song{% endif %}">{{ release.title }}</span>
 					{% if release.artist %}<span class="release-artist">{{ release.artist }}</span>{% endif %}
 					<span class="release-meta">
