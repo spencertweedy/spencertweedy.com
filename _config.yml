@@ -50,3 +50,15 @@ google_analytics: UA-15153122-1
 markdown: kramdown
 gems:
 - jekyll-redirect-from
+defaults:
+  - scope:
+      path: ""
+      type: releases
+    values:
+      artist: ""
+      year: ""
+      color: ""
+      listen: ""
+      image: ""
+      role: ""
+      is_featured: ""
