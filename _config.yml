@@ -6,9 +6,6 @@ collections:
     title: Longhand Posts
     output: true
     layout: longhand
-  observations:
-    title: Observations
-    output: true
   posts:
     title: Posts
     output: true
