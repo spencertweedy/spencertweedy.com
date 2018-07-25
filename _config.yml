@@ -9,20 +9,20 @@ collections:
   observations:
     title: Observations
     output: true
-  releases:
-    title: Releases
-    output: true
   posts:
     title: Posts
     output: true
   redirects:
     title: Redirects
     output: true
+  releases:
+    title: Releases
+    output: true
   uploads:
     title: Uploads
     output: true
 email: spencer@spencertweedy.com
-description: 'I play drums and work on music projects.'
+description: I play drums and work on music projects.
 baseurl: ''
 url: http://spencertweedy.com
 twitter: spencertweedy
