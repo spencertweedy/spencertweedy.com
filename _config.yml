@@ -24,6 +24,16 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: releases
+  values:
+    artist: ''
+    year: ''
+    color: ''
+    listen: ''
+    role: ''
+    is_featured: ''
 email: spencer@spencertweedy.com
 description: I play drums and work on music projects.
 baseurl: ''
@@ -42,14 +52,3 @@ google_analytics: UA-15153122-1
 markdown: kramdown
 gems:
 - jekyll-redirect-from
-defaults:
-  -
-    scope:
-      path: "releases"
-    values:
-      artist: ""
-      year: ""
-      color: ""
-      listen: ""
-      role: ""
-      is_featured: ""
