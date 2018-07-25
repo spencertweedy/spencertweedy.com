@@ -5,7 +5,7 @@ layout: page
 
 <section id="releases-page">
 	<ol>
-		{% assign releases = site.releases | sort:"year" %}
+		{% assign releases = site.releases | sort:"year" | reverse %}
 		{% for release in releases %}
 			<li style="background:{{ release.color }};">
 				<a href="{{ release.listen }}">
