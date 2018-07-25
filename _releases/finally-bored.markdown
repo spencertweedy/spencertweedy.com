@@ -1,6 +1,7 @@
 ---
 title: Finally Bored
 date: 2018-07-25 12:20:00 -05:00
+position: 1
 artist: The Blisters
 year: 2013
 color: "#8A0000"
