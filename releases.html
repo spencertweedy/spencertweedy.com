@@ -3,10 +3,20 @@ title: Releases
 layout: page
 ---
 
-<section id="release-page">
+<section id="releases-page">
 	<ol>
 		{% for release in site.data.releases %}
-			<li style="background:{{ release.color }};"><a href="{{ release.listen }}">{% unless release.song %}<em>{% endunless %}{{ release.title }}{% unless release.song %}</em>{% endunless %}{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>{{ release.year }}</span>{% if release.role %} <span>{{ release.role }}</span>{% endif %}</li>
+			<li style="background:{{ release.color }};">
+				<a href="{{ release.listen }}">
+					<div class="release-image"></div>
+					<span class="release-title {% if release.song %}song{% endif %}">{{ release.title }}</span>
+					{% if release.artist %}<span class="release-artist">{{ release.artist }}</span>{% endif %}
+					<span class="release-meta">
+						{% if release.year %}<span class="release-year">{{ release.year }}</span>{% endif %}
+						{% if release.role %}<span class="release-role">{{ release.role }}</span>{% endif %}
+					</span>
+				</a>
+			</li>
 		{% endfor %}
 	</ol>
 </section>

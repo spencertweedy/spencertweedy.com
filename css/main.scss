@@ -328,19 +328,64 @@ footer a {
 
 /* Releases page styles */
 
-#release-page ol {
-    margin: 0;
-    padding: 0;
-}
+#releases-page {
+    ol {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-#release-page li {
-    list-style-type: none;
-    padding: 1em;
-    color: #fff;
-    border-radius: 4px;
-
-    a {
+    li {
+        list-style-type: none;
+        margin: 0 0 1em 0;
+        padding: 0;
         color: #fff;
+        border-radius: 4px;
+        width: calc(50% - 0.5em);
+        position: relative;
+
+        a {
+            color: #fff;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 1em;
+            box-sizing: border-box;
+        }
+
+        .release-image {
+            width: calc(100% + 2em);
+            height: 200px;
+            margin: -1em 0 1em -1em;
+            background: rgba(255,255,255,0.5);
+            border-radius: 4px 4px 0 0;
+        }
+
+        .release-title {
+            font-style: italic;
+            display: block;
+        }
+
+        .release-artist {
+            display: block;
+        }
+
+        .release-year {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: rgba(0,0,0,0.2);
+            border-radius: 0 4px 0 4px;
+            padding: 0.05em 0.6em;
+            font-size: 0.8em;
+        }
+
+        .release-role {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
     }
 }
 
