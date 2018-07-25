@@ -330,7 +330,7 @@ footer a {
 
 #releases-page {
     ol {
-        margin: 0;
+        margin: 0 0 2em 0;
         padding: 0;
         display: flex;
         flex-wrap: wrap;
@@ -371,16 +371,6 @@ footer a {
 
         .release-artist {
             display: block;
-        }
-
-        .release-year {
-            position: absolute;
-            top: 0;
-            right: 0;
-            background: rgba(0,0,0,0.2);
-            border-radius: 0 4px 0 4px;
-            padding: 0.05em 0.6em;
-            font-size: 0.8em;
         }
 
         .release-role {

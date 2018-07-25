@@ -33,7 +33,7 @@ defaults:
     listen: ''
     image: ''
     role: ''
-    is_song: ''
+    is_single: ''
     is_featured: ''
 email: spencer@spencertweedy.com
 description: I play drums and work on music projects.
