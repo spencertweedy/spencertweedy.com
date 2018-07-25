@@ -202,12 +202,12 @@ time {
 
 article {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 3em;
     display: block;
 }
 
 article p, article blockquote, article ul, article ol, article li, article img, article embed {
-    margin-bottom: 1em;
+    margin: 1em 0;
     max-width: 100%;
 }
 
