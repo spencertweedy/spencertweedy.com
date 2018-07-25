@@ -355,10 +355,13 @@ footer a {
             box-sizing: border-box;
         }
 
-        .release-image img {
+        .release-image {
             width: calc(100% + 2em);
-            margin: -1em 0 1em -1em;
-            border-radius: 4px 4px 0 0;
+            margin: -1em 0 0.5em -1em;
+            
+            img {
+                border-radius: 4px 4px 0 0;
+            }
         }
 
         .release-title {
