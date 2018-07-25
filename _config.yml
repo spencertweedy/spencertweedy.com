@@ -17,7 +17,7 @@ collections:
     output: true
   releases:
     title: Releases
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
