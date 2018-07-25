@@ -246,7 +246,7 @@ footer a {
     color: black;
 }
 
-/* Section styles */
+/* Homepage styles */
 
 #releases h4 {
     display: none;
@@ -259,6 +259,7 @@ footer a {
 #releases li span {
     font-size: 0.8em;
     color: #888;
+    margin-left: 0.5em;
 }
 
 #recent-posts ol {
@@ -323,6 +324,24 @@ footer a {
     right: 1rem;
     top: 0.7rem;
     cursor: pointer;
+}
+
+/* Releases page styles */
+
+#release-page ol {
+    margin: 0;
+    padding: 0;
+}
+
+#release-page li {
+    list-style-type: none;
+    padding: 1em;
+    color: #fff;
+    border-radius: 4px;
+
+    a {
+        color: #fff;
+    }
 }
 
 /* Breakpoints */
