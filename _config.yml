@@ -18,6 +18,8 @@ collections:
   releases:
     title: Releases
     output: false
+    artist: test
+    year: testing
   uploads:
     title: Uploads
     output: true
