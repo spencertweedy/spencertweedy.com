@@ -12,6 +12,7 @@ collections:
   posts:
     title: Posts
     output: true
+    layout: post
   redirects:
     title: Redirects
     output: true
