@@ -261,6 +261,10 @@ footer a {
     color: #888;
 }
 
+#recent-posts ol {
+    margin-bottom: 1em;
+}
+
 #recent-posts li:first-child:before {
     content: 'New';
     background: gold;
@@ -272,11 +276,6 @@ footer a {
     top: -2px;
     margin-right: 0.7em;
     border-radius: 2px;
-}
-
-#recent-posts ol + a {
-    margin-top: 0.5em;
-    display: block;
 }
 
 #contact a:after {
