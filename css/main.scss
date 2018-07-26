@@ -21,6 +21,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -90,6 +91,10 @@ main {
 
 body.post main, body.page main, body.page_alt main {
     max-width: 500px;
+}
+
+body.page_wide main {
+    max-width: 700px;
 }
 
 body.longhand main {
@@ -297,7 +302,8 @@ footer a {
     padding: 0.85em 1em;
     margin: 2em 0 0;
     height: 1.3em;
-    position: relative
+    position: relative;
+    box-sizing: content-box;
 }
 
 #contact form label {
@@ -334,21 +340,19 @@ footer a {
 
 #releases-page {
     ol {
-        margin: 0 0 2em 0;
+        margin: -1em 0 2em -1em;
         padding: 0;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        max-width: calc(700px + 1em);
     }
 
     li {
         list-style-type: none;
-        margin: 0 0 1em 0;
-        padding: 0;
+        margin: 0;
+        padding: 1em 0 0 1em;
         color: #fff;
-        border-radius: 4px;
-        width: calc(50% - 0.5em);
-        position: relative;
+        width: 33.3333%;
 
         a {
             color: #fff;
@@ -357,6 +361,11 @@ footer a {
             height: 100%;
             padding: 1em;
             box-sizing: border-box;
+        }
+
+        .release-inner {
+            border-radius: 4px;
+            height: 100%;
         }
 
         .release-image {
@@ -392,6 +401,10 @@ footer a {
         margin: 8vh auto;
     }
 
+    h1 {
+        font-size: 0.9em;
+    }
+
     main {
         display: block;
         width: 100%;
@@ -413,8 +426,8 @@ footer a {
         margin: 0;
     }
 
-    h1 {
-        font-size: 0.9em;
+    #releases-page li {
+        width: 50%;
     }
 
     .col:nth-child(1) {

@@ -1,6 +1,6 @@
 ---
 title: Releases
-layout: page
+layout: page_wide
 ---
 
 <section id="releases-page">
@@ -11,13 +11,15 @@ layout: page
 		<ol>
 			{% assign releases = year.items | sort:"year" | reverse %}
 			{% for release in releases %}
-				<li style="background:{{ release.color }};">
-					<a href="{{ release.listen }}">
-						<div class="release-image"><img src="{{ release.image }}" alt="{{ release.title }} artwork" /></div>
-						<span class="release-title">{{ release.title }}</span>
-						{% if release.artist %}<span class="release-artist">{{ release.artist }}</span>{% endif %}
-						{% if release.role %}<span class="release-role">{{ release.role }}</span>{% endif %}
-					</a>
+				<li>
+					<div class="release-inner" style="background:{{ release.color }};">
+						<a href="{{ release.listen }}">
+							<div class="release-image"><img src="{{ release.image }}" alt="{{ release.title }} artwork" /></div>
+							<span class="release-title">{{ release.title }}</span>
+							{% if release.artist %}<span class="release-artist">{{ release.artist }}</span>{% endif %}
+							{% if release.role %}<span class="release-role">{{ release.role }}</span>{% endif %}
+						</a>
+					</div>
 				</li>
 			{% endfor %}
 		</ol>
