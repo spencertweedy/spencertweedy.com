@@ -394,6 +394,32 @@ footer a {
     }
 }
 
+/* Posts page styles */
+
+#posts-page {
+    ol {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+        margin: 1em 0;
+        background: #000;
+        color: #fff;
+        border-radius: 4px;
+    }
+
+    li a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+}
+
 /* Breakpoints */
 
 @media screen and (max-width: 760px) {
