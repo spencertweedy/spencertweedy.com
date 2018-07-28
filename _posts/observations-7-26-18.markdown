@@ -1,6 +1,5 @@
 ---
 title: Observations 7-26-18
-date: 2018-07-26 00:00:00 -05:00
 categories:
 - observations
 ---
