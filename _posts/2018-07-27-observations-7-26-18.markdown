@@ -5,7 +5,7 @@ categories:
 - observations
 ---
 
-- The badass, tiny, older white lady, crossing the street and stopping traffic with her cart, wearing pink shorts and a big sun hat, enthusiastically waving “thank you” at the cars she stopped.
+- The badass, tiny, older white lady, crossing the street and stopping traffic with her cart, wearing pink shorts and a big sun hat, enthusiastically waving *thank you* at the cars she stopped.
 - Her moon, the overweight, bearded white dude with stains on his shirt, wheeling a cart with three thirty-racks of Busch Lite and Little Debbie’s snacks in it.
 - The construction worker whose beard looked dyed black, repairing a sidewalk seemingly by himself, throwing two-by-fours off of a tilted dump truck and grimacing.
 - The dental surgeon’s office.
