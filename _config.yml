@@ -53,5 +53,6 @@ locale: Chicago, IL
 github_repo: https://github.com/spencertweedy/spencertweedy.github.io
 google_analytics: UA-15153122-1
 markdown: kramdown
+permalink: none
 gems:
 - jekyll-redirect-from
