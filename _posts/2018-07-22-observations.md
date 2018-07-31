@@ -1,6 +1,8 @@
 ---
 title: Observations 7-22-18
 date: 2018-07-22 00:00:00 -05:00
+categories:
+- observations
 layout: post
 ---
 
