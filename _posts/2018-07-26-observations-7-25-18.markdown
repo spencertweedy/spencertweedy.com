@@ -1,6 +1,8 @@
 ---
 title: Observations 7-25-18
 date: 2018-07-26 12:20:00 -05:00
+categories:
+- observations
 ---
 
 - The window curtains clichédly blowing in the wind, letting in a sliver of bloomy light every time they split apart.
