@@ -39,7 +39,7 @@ defaults:
     is_featured: ''
 email: spencer@spencertweedy.com
 description: I play drums and work on music projects.
-baseurl: ''
+baseurl: 
 url: http://spencertweedy.com
 twitter: spencertweedy
 facebook: spencertweedy
