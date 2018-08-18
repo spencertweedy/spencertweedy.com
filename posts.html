@@ -1,13 +1,18 @@
 ---
 title: Posts
 permalink: "/posts"
-layout: page
+layout: posts_feed
 ---
 
-<section id="posts-page">
-	<ol>
-	    {% for post in site.posts %}
-	    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-	    {% endfor %}
-	</ol>
-</section>
+<ol id="posts-feed-list">
+    {% for post in site.posts %}
+    <li>
+    	<article itemscope itemtype="http://schema.org/BlogPosting">
+			<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+
+			{{ post.content }}
+		</article>
+    </li>
+    {% endfor %}
+</ol>

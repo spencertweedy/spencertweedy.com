@@ -9,15 +9,4 @@ layout: default
 	{{ content }}
 </article>
 
-<section class="post-footer">
-	<img src="/assets/drums.gif" alt="Animated drumming figure" />
-
-	<section class="post-footer-inner">
-		{% if site.tinyletter %}<form action="https://tinyletter.com/{{ site.tinyletter }}" class="subscribe-form" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-            <label for="tlemail">Enter your email address</label>
-            <input type="text" name="email" id="tlemail" aria-label="Enter your email address" placeholder="Your email address" />
-            <input type="hidden" value="1" name="embed"/>
-            <input type="submit" value="Subscribe" />
-        </form>{% endif %}
-	</section>
-</section>
+{% include post-footer.html %}

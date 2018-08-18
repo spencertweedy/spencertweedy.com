@@ -89,7 +89,7 @@ main {
     flex-wrap: wrap;
 }
 
-body.post main, body.page main, body.page_alt main {
+body.post main, body.page main, body.page_alt main, body.posts_feed main {
     max-width: 500px;
 }
 
@@ -184,6 +184,20 @@ footer {
     right: 1rem;
     top: 0.7rem;
     cursor: pointer;
+}
+
+.post-footer {
+    width: 100%;
+    display: block;
+
+    img {
+        margin: 1em auto 2em;
+        display: block;
+    }
+
+    .post-footer-inner {
+
+    }
 }
 
 /* Page elements */
@@ -395,46 +409,20 @@ footer a {
     }
 }
 
-/* Posts page styles */
+/* Posts feed page styles */
 
-#posts-page {
-    ol {
-        margin: 0;
-        padding: 0;
-    }
-
-    li {
-        list-style-type: none;
-        margin: 1em 0;
-        background: #000;
-        color: #fff;
-        border-radius: 4px;
-    }
-
-    li a {
-        color: #fff;
-        display: block;
-        width: 100%;
-        height: 100%;
-        padding: 1em;
-        box-sizing: border-box;
-    }
+#posts-feed-list > li:after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 8px;
+    background: url(/assets/twave.gif);
+    background-size: contain;
+    margin: 4em auto;
 }
 
-/* Post page styles */
-
-.post-footer {
-    width: 100%;
-    display: block;
-
-    img {
-        margin: 1em auto 2em;
-        display: block;
-    }
-
-    .post-footer-inner {
-
-    }
+#posts-feed-list > li:last-child:after {
+    display: none;
 }
 
 /* Breakpoints */
