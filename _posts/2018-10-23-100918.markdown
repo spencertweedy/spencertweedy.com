@@ -1,0 +1,17 @@
+---
+title: Observations 10-9-18
+date: 2018-10-23 01:12:00 -05:00
+categories:
+- observations
+---
+
+- How quiet the outside world is after spending the morning in a wood shop.
+- The YouTube channel where these guys just cut stuff in half with a super high-power waterjet.
+- Meeting a dachshund named Sinatra.
+- My mom “ragecrafting” political buttons (e.g. “Fuck Trump,” “Fuck Lindsey Graham”) in cute ‘70s pastel colors.
+- The hipness of the National Geospatial-Intelligence Agency, whose website links not only to its SoundCloud but also to its public GitHub repositories and a Medium publication.
+- My friend telling me that I look like a turtle, but a hot turtle, not like Mitch McConnell.
+- How Field Notes donated $10 for each of the first 500 notebooks sold in their Puerto Rico edition.
+- Low-tech Magazine’s new solar-powered website inspiring me so much my chest hurt (via Coudal).
+	- Wondering whether their solar-powered server design, which they explained in a guide, could be packaged into a turnkey product so more people can have solar-powered (and decentralized!) websites, or if that would defeat the DIY and recycled-parts nature of it.
+	- How being aware of my draw on the website’s solar energy store caused me to avoid opening pages redundantly (e.g. navigating back and forth from the homepage to subpages), a cool but not necessarily positive effect of the experiment. I wouldn’t want users of a solar-powered website of my own to feel restricted in any way.
