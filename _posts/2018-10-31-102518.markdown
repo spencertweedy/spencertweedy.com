@@ -1,0 +1,17 @@
+---
+title: Observations 10-25-18
+date: 2018-10-31 00:33:00 -05:00
+categories:
+- observations
+---
+
+- The house painters' plastic enclosures making a dorm building look like E.T.'s quarantine.
+- The professor drinking Soylent.
+- Pulling splinters out of my hands for hours after sculpture class.
+- Trying to donate blood, but the needle going in wrong? I'm not sure what happened, but the phlebotomist was freaked out by it and had to call for backup. They told me it would bruise but my arm's been mostly fine.
+	- The attendant at the registration table, matter-of-factly: “I don't eat on Blood Drive Day.”
+	- The phlebotomists *having a blast* in the donation bus.
+	- The donation bus smelling exactly like a tour bus.
+	- Seeing one of the blood bags again, after years of avoiding seeing them.
+- Feeling let down that the Pitchfork site barely loads on my phone because of all the ads and video web bloat. I know that publications have to make money and that advertising in 2018 generally requires lots of tracking scripts and video engagement. But there has to be a way to please advertisers, make money, and still serve a usable website. Of all big online publications, I would expect Pitchfork to be the one that cares about that and leads the pack on a return to static-ish websites. Because they care about what *young people* care about, and I'm pretty sure every young person is clamoring for performant, user-respectful, lightweight websites right now.
+	- I miss decknetwork.net.
