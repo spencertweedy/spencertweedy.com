@@ -59,6 +59,16 @@ textarea {
 @font-face {
     font-family: 'ISO';
     src:  url('/assets/font/iso-v0.4-reg.woff2') format('woff2'), url('/assets/font/iso-v0.4-reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ISO';
+    src:  url('/assets/font/iso-v0.4-bold.woff2') format('woff2'), url('/assets/font/iso-v0.4-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -82,16 +92,13 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {
-    font-weight: normal;
-}
-
 header#site-header {
     position: relative;
 }
 
 header#site-header h1 {
     text-transform: uppercase;
+    font-weight: normal;
     font-size: 38px; /*Make relative*/
 }
 
@@ -139,14 +146,15 @@ article.post {
     margin-bottom: 60px;
 }
 
-article.post h1 {
+article.post header h1 {
     text-transform: uppercase;
     font-size: 19px;
+    font-weight: normal;
     display: inline-block;
     margin: 0;
 }
 
-article.post h1:after {
+article.post header h1:after {
     content: '';
     display: block;
     width: 100%;
@@ -156,7 +164,7 @@ article.post h1:after {
     border-radius: 1px;
 }
 
-article.post h1 a {
+article.post header h1 a {
     text-decoration: none;
 }
 
@@ -174,16 +182,19 @@ section.post-content a {
 section.post-content ul, section.post-content ol {
     margin: 0;
     padding: 0;
+}
+
+section.post-content ul {
     list-style-type: none;
 }
 
 section.post-content li {
-    margin: 15px 0;
+    margin: 1em 0;
     padding: 0;
     position: relative;
 }
 
-section.post-content li:before {
+section.post-content ul li:before {
     content: '';
     display: inline-block;
     position: absolute;
