@@ -1,6 +1,7 @@
 ---
 title: Observations
 permalink: "/observations"
+position: 1
 layout: default-observations
 ---
 

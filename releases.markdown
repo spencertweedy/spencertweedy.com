@@ -1,6 +1,7 @@
 ---
 title: Releases
 permalink: "/releases"
+position: 3
 layout: page-classic
 ---
 
