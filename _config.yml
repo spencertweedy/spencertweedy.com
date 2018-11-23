@@ -25,6 +25,7 @@ defaults:
     type: posts
   values:
     layout: post
+    image: 
 - scope:
     path: ''
     type: releases
