@@ -89,16 +89,8 @@ main {
     flex-wrap: wrap;
 }
 
-body.post main, body.page main, body.page_alt main, body.posts_feed main {
+body.post main, body.page main {
     max-width: 500px;
-}
-
-body.page_wide main {
-    max-width: 700px;
-}
-
-body.longhand main {
-    max-width: 1200px;
 }
 
 footer {
