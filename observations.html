@@ -4,7 +4,7 @@ permalink: "/observations"
 layout: default-observations
 ---
 
-{% for post in site.posts %}<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+{% for post in site.posts limit:30 %}<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<header class="post-header">
 		<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 	</header>
