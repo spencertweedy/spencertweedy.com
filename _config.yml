@@ -2,10 +2,6 @@
 title: Spencer Tweedy
 timezone: America/Chicago
 collections:
-  longhand_posts:
-    title: Longhand Posts
-    output: true
-    layout: longhand
   posts:
     title: Posts
     output: true
