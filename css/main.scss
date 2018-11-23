@@ -103,11 +103,20 @@ body.longhand main {
 
 footer {
     width: 100%;
+    display: block;
     margin: 2rem 0 12vh;
-    text-align: center;
     padding: 0 20px;
-    color: #888;
-    font-size: 0.7em;
+    
+    p {
+        text-align: center;
+        color: #888;
+        font-size: 0.7em;
+    }
+
+    img {
+        margin: 1em auto 2em;
+        display: block;
+    }
 }
 
 #cover-photo-container {
@@ -184,20 +193,6 @@ footer {
     right: 1rem;
     top: 0.7rem;
     cursor: pointer;
-}
-
-.post-footer {
-    width: 100%;
-    display: block;
-
-    img {
-        margin: 1em auto 2em;
-        display: block;
-    }
-
-    .post-footer-inner {
-
-    }
 }
 
 /* Page elements */

@@ -15,7 +15,7 @@ layout: default
             <li><a href="{{ release.listen }}" style="color:{{ release.color }};"><em>{{ release.title }}</em>{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>{{ release.year }}</span></li>
             {% endif %}{% endfor %}
         </ul>
-        <a href="/releases.html">View all releases &#8669;</a>
+        <a href="{{ site.baseurl }}{% link releases.html %}">View all releases &#8669;</a>
     </section>
 </div>
 
@@ -27,7 +27,7 @@ layout: default
             <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
             {% endfor %}
         </ol>
-        <a href="{{ site.baseurl }}{% link posts.html %}">View all posts &#8669;</a>
+        <a href="{{ site.baseurl }}{% link observations.html %}">View all posts &#8669;</a>
     </section>
 
     <section id="contact">

@@ -1,8 +1,8 @@
 ---
 title: Releases
-layout: page_wide
+permalink: "/releases"
+layout: page-classic
 ---
-
 <section id="releases-page">
 	{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
 	{% for year in releases_by_year %}
