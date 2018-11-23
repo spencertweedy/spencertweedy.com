@@ -14,3 +14,5 @@ layout: page
             <input type="submit" value="Subscribe" />
         </form>
 </section>{% endif %}
+
+## [Subscribe via RSS]({{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }})
