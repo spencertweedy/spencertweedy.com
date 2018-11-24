@@ -316,7 +316,11 @@ small {
         margin: 60px 30px;
     }
 
-    section.post-content li:before {
+    section.post-content {
+    	text-align: left;
+    }
+
+    section.post-content ul li:before {
         left: -18px;
     }
 }
