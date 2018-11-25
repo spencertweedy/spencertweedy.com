@@ -233,6 +233,10 @@ article.post:nth-child(even) aside.post-aside img {
     transform: rotate(-2deg); /* Rotate post asides for even posts */
 }
 
+form.subscribe-form label {
+    display: none;
+}
+
 footer#site-footer {
     margin-top: 90px;
     text-align: center;
