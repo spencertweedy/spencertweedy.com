@@ -7,6 +7,6 @@ color: "#00B24A"
 listen: http://wilco.lnk.to/schmilco
 image: "/uploads/schmilco.jpg"
 role: Drumming
-is_featured: true
+is_featured: false
 ---
 
