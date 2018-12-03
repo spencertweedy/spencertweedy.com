@@ -181,11 +181,15 @@ section.post-content a {
 
 section.post-content ul, section.post-content ol {
     margin: 0;
-    padding: 0;
+    padding-inline-start: 25px;
 }
 
 section.post-content ul {
     list-style-type: none;
+}
+
+section.post-content > ul {
+    padding: 0;
 }
 
 section.post-content li {
