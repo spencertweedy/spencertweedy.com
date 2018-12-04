@@ -22,6 +22,7 @@ defaults:
   values:
     layout: post
     image: 
+    image_caption: 
 - scope:
     path: ''
     type: releases
