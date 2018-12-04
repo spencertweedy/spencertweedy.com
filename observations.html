@@ -13,7 +13,7 @@ layout: default-observations
 		{{ post.content }}
 	</section>
 	
-	{% if post.image %}<aside class="post-aside"><img src="{{ post.image }}"></aside>{% endif %}
+	{% if post.image %}<aside class="post-aside"><img src="{{ post.image }}">{% if post.image_caption %}<p><small>{{ post.image_caption }}</small></p>{% endif %}</aside>{% endif %}
 
 	<footer class="post-footer">
 		<small><a href="{{ post.url | prepend: site.baseurl }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a></small>
