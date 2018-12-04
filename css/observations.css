@@ -240,7 +240,7 @@ aside.post-aside img {
 aside.post-aside p {
     width: 320px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0.5em auto;
 }
 
 form.subscribe-form label {
@@ -299,7 +299,7 @@ small {
         margin: 0;
     }
 
-    aside.post-aside img, article.post:nth-child(even) aside.post-aside img {
+    aside.post-aside, article.post:nth-child(even) aside.post-aside {
         transform: none;
     }
 }
