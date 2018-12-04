@@ -217,6 +217,11 @@ aside.post-aside {
     box-sizing: border-box;
     width: 25%;
     min-width: calc(100% - 640px);
+    transform: rotate(2deg);
+}
+
+article.post:nth-child(even) aside.post-aside {
+    transform: rotate(-2deg); /* Rotate post asides for even posts */
 }
 
 aside.post-aside:hover {
@@ -229,12 +234,13 @@ aside.post-aside img {
     display: block;
     margin: 0 auto;
     border-radius: 4px;
-    transform: rotate(2deg);
     filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);
 }
 
-article.post:nth-child(even) aside.post-aside img {
-    transform: rotate(-2deg); /* Rotate post asides for even posts */
+aside.post-aside p {
+    width: 320px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 form.subscribe-form label {
