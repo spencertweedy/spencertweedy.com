@@ -4,6 +4,8 @@ date: 2018-12-04 14:52:00 -06:00
 categories:
 - observations
 image: "/uploads/Graham_Harman_at_MACBA.png"
+image_caption: Philosopher Graham Harman, whose work I haven't read, but whose Wikipedia
+  portrait is cool.
 ---
 
 - Learning about Old Testament Bible stuff from Sammy, who's taking a class about it in college right now:
