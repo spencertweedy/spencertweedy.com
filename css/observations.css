@@ -199,14 +199,12 @@ section.post-content li {
 }
 
 section.post-content ul li:before {
-    content: '';
+    content: '\2726';
     display: inline-block;
     position: absolute;
-    height: 10px;
-    width: 10px;
-    background-image:url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='#000' fill-rule='nonzero'/></svg>");
-    left: -25px;
-    top: 6px;
+    left: -24px;
+    top: -1px;
+    font-size: 1.2em;
 }
 
 aside.post-aside {
@@ -335,7 +333,7 @@ small {
     }
 
     section.post-content ul li:before {
-        left: -18px;
+        left: -20px;
     }
 }
 
