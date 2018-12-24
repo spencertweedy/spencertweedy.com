@@ -1,0 +1,20 @@
+---
+title: Observations 12-9-18
+date: 2018-12-24 10:24:00 -06:00
+categories:
+- observations
+---
+
+- The cookies that Julia baked at the studio.
+- The coffee shop whose name and logo look like a Shellac rip-off: “Shellates.”
+- Cory Doctorow’s review of *WTF* by Tim O’Reilly, all about how false conflicts between things we love (like Facebook, or Woody Allen movies) and things that do harm (like Facebook’s lobbyism, or Woody Allen) privilege the harm-doer and undermine our efforts to keep and improve the thing we love.
+	- “The progressive insistence that the baby is inseparable from the bathwater works to the favor of big business and big tech. If technology's critics insist that you have to choose between Facebook and surveillance and manipulation, they affirm Facebook's own position. But if critics insist that Facebook has deliberately, cynically married something wonderful with something terrible, they invite people to join their case and fight for a good Facebook, rather than demanding a kind of antitech hairshirt that insists that you have to give up, not demand better.”
+	- [Related, 12-23-18: A Tufts research study found that most people won’t quit Facebook unless you give them $1,000 to do it (via Motherboard).]
+- The stuff I learned from Tom Whitwell’s “52 things I learned in 2018” post (via Kottke):
+	- That Elon Musk’s Boring Company flamethrower isn’t actually a flamethrower, it’s a torch, and it’s marked up something like 500%.
+	- The money laundering scheme where people algorithmically make, sell, and buy fake books filled with gibberish on Amazon.
+	- That acoustic guitars were twice as prevalent as electric guitars on the Billboard 200 in 2015.
+	- That nuclear testing has likely led to as many cancer deaths over time in the US as were killed by the US’s bombs on Nagasaki and Hiroshima.
+	- That some Chinese companies have been requiring their employees to wear brain wave sensors (e.g. train conductors).
+	- That the Tunisian government offers its citizens one year of paid “startup leave” to take off from work and start their own company. A very American, Homestead Act-y idea that seems unimaginable in present-day America.
+- Ridley’s idea about a scientific basis to astrology, where ancient cultures (rightly) intuited that everything is materially connected, and they just made some best guesses about the specific consequences of those connections. That is, the planets being aligned in a particular way actually does minutely affect gravity on earth or cause a cascade of events (butterfly-effect-style) that changes your life. But that doesn’t necessarily mean that we can trace aspects of our lives to those influences or codify them in any way.
