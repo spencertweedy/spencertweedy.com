@@ -1,0 +1,12 @@
+---
+title: Observations 12-17-18
+date: 2019-01-05 11:49:00 -06:00
+categories:
+- observations
+---
+
+- The chipped paint and patinated metal on the bases of IV stands in contrast with the sterile white plastic of all the other machines in Zaid’s hospital room [12-2-18].
+- How the screen showing Zaid’s vitals shows another patient’s vitals, too, a weird connection between him and a stranger in another room.
+- How we have a lot of common knowledge about relatively low-tech stuff, like cooking and health, and not very much common knowledge (or not very *common* common knowledge) about things like internet password hygiene, data back-up durability, social media etiquette, etcetera. It’s interesting to imagine a world where there are mnemonic phrases and children’s stories about computer-y topics that are just as prevalent as those about non-computer-y topics. *Look both ways before you cross the street, and never daisy-chain your passwords.*
+- Switching back to Firefox after years of using Safari and Google Chrome because I don’t want to contribute to Google’s outsize control over HTML/CSS/JS standards. As markets for independent native (non-web) software decline, as web traffic coalesces around a few social media platforms, and—most of all—as ad-tech gets sneakier and more ubiquitous, we have more and more interest in preserving the democratic-ish processes that have governed open web standards so far (for more detail see Ferdy Christant’s “The State of Web Browsers” articles).
+	- Google’s browser dominance (not to mention its email dominance with Gmail, or Amazon Web Services’ cloud dominance) seems like yet another reason we should completely reimagine antitrust law for the information economy. You can’t just break up Facebook, for example, into a bunch of “Baby ‘Books” (like Baby Bells) because its value comes from its network effect. So we need tech-informed antitrust law that distributes control over, but preserves the unity of, big stores of data, rather than ham-fistedly breaking companies up to foster competition.
