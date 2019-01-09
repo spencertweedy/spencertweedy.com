@@ -4,7 +4,7 @@ date: 2018-12-24 11:14:00 -06:00
 categories:
 - observations
 image: "/uploads/IMG_5171.jpg"
-image_caption: The \#resistance school bus.
+image_caption: 'The #resistance school bus.'
 ---
 
 - That (the act of) assuming gets a bad rap. It doesn’t always make an “ass out of ‘u’ and ‘me’.”
