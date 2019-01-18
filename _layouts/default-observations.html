@@ -11,10 +11,9 @@
 	    <section class="clearfix">
 			{% if site.author or site.locale %}<p>{% if site.author %}Author: <a href="{{ site.url }}">{{ site.author }}</a><br>{% endif %}
 			{% if site.locale %}Location: {{ site.locale }}{% endif %}</p>{% endif %}
-			<p>Newest: <a href="{{ site.categories.observations.first.url }}">{{ site.categories.observations.first.title | slice: 13, 8 }}</a><br>
-			Oldest: <a href="{{ site.categories.observations.last.url }}">{{ site.categories.observations.last.title | slice: 13, 8 }}</a></p>
+			<p><a href="{{ site.baseurl }}{% link about-obs.html %}">About This Site</a><br>
+			<a href="{{ site.baseurl }}{% link subscribe.html %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a></p>
 		</section>
-		<a href="{{ site.baseurl }}{% link subscribe.html %}" class="subscribe-button">Subscribe</a>
 	</header>
 
     <main id="site-content">

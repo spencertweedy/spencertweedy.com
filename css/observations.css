@@ -122,19 +122,43 @@ header#site-header > section p {
     margin: 0 60px 0 0;
 }
 
-header#site-header a.subscribe-button {
-    position: fixed;
-    font-size: 0.88em;
-    top: 15px;
-    right: 15px;
-    background: #222;
-    color: #fff;
-    text-decoration: none; /*delete if becomes redundant*/
-    padding: 0.4em 0.8em;
-    border-radius: 4px;
-    animation: fadeIn 0.25s;
-    animation-delay: 2s;
-    animation-fill-mode: both;
+header#site-header a.subscribe-button span {
+    animation-name: colorScroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1,end);
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+2) {
+  animation-delay: 0.143s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+3) {
+  animation-delay: 0.286s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+4) {
+  animation-delay: 0.429s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+5) {
+  animation-delay: 0.571s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+6) {
+  animation-delay: 0.714s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+7) {
+  animation-delay: 0.857s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+8) {
+  animation-delay: 1.000s;
+}
+
+header#site-header a.subscribe-button span:nth-of-type(7n+9) {
+  animation-delay: 1.143s;
 }
 
 main#site-content {
@@ -272,9 +296,15 @@ small {
     100% { transform: scaleX(1) translateY(0); opacity: 1; }
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+@keyframes colorScroll {
+    0% { color: red; }
+    14.29% { color: orange; }
+    28.57% { color: yellow; }
+    42.86% { color: green; }
+    57.14% { color: blue; }
+    71.43% { color: indigo; }
+    85.71% { color: violet; }
+    100% { color: transparent; }
 }
 
 /* ==========================================================================
@@ -311,13 +341,6 @@ small {
 
     header#site-header svg.site-logo {
         position: static;
-    }
-
-    header#site-header a.subscribe-button {
-        position: static;
-        display: inline-block;
-        margin-top: 15px;
-        animation: none;
     }
 
     main#site-content {
