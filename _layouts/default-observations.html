@@ -18,18 +18,18 @@
 
     <main id="site-content">
       {{ content }}
+      <p><a href="{{ site.baseurl }}{% link observations/archive.html %}">Browse the archive &rarr;</a></p>
     </main>
 
     <footer id="site-footer">
-    	<nav>
+    	<p>{% include tinyletter.html %}</p>
+    	<small><nav>
     		<a href="{{ site.baseurl }}/">Homepage</a>
-    		<a href="{{ site.baseurl }}/observations">Observations Home</a>
-    		<a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a>
-    		<a href="{{ site.baseurl }}{% link observations/subscribe.html %}">Subscribe</a>
-    		<a href="{{ site.baseurl }}{% link observations/about.html %}">About</a>
-    	</nav>
-		<img src="/assets/drums.gif" alt="Animated drumming figure">
+    		<a href="{{ site.baseurl }}{% link observations/about.html %}">About This Site</a>
+    		<a href="{{ site.baseurl }}{% link observations/about.html %}">Contact</a>
+    	</nav></small>
 		<small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
+		<img src="/assets/drums.gif" alt="Animated drumming figure">
 		{% include quantcast.html %}
 	</footer>
   </body>
