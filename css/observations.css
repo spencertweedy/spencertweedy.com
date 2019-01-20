@@ -288,6 +288,7 @@ footer#site-footer nav {
 footer#site-footer nav a:not(:last-of-type):after {
     content: '•';
     margin-left: 0.5em;
+    display: inline-block;
 }
 
 small {
