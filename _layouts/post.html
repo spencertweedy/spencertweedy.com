@@ -14,6 +14,6 @@ layout: default-observations
 	{% if page.image %}<aside class="post-aside"><img src="{{ page.image }}">{% if page.image_caption %}<p><small>{{ page.image_caption }}</small></p>{% endif %}</aside>{% endif %}
 
 	<footer class="post-footer">
-		<small>Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></small>
+		<small>Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> &bull; <a href="mailto:spencer@penguinmail.com?Subject={{ page.title }}">Reply</a></small>
 	</footer>
 </article>
