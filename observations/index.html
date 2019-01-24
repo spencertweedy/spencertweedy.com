@@ -19,3 +19,5 @@ layout: default-observations
 		<small><a href="{{ post.url | prepend: site.baseurl }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a></small>
 	</footer>
 </article>{% endfor %}
+
+<p><a href="{{ site.baseurl }}{% link observations/archive.html %}">Browse the archive &rarr;</a></p>

@@ -18,15 +18,14 @@
 
     <main id="site-content">
       {{ content }}
-      <p><a href="{{ site.baseurl }}{% link observations/archive.html %}">Browse the archive &rarr;</a></p>
     </main>
 
     <footer id="site-footer">
     	<p>{% include tinyletter.html %}</p>
     	<small><nav>
-    		<a href="{{ site.baseurl }}/">Homepage</a>
-    		<a href="{{ site.baseurl }}{% link observations/about.html %}">About This Site</a>
-    		<a href="{{ site.baseurl }}{% link observations/about.html %}">Contact</a>
+    		<a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a>
+    		<a href="{{ site.baseurl }}{% link observations/about.html %}">Info</a>
     	</nav></small>
 		<small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
 		<img src="/assets/drums.gif" alt="Animated drumming figure">
