@@ -267,10 +267,6 @@ aside.post-aside p {
     margin: 0.5em auto;
 }
 
-form.subscribe-form label {
-    display: none;
-}
-
 footer#site-footer {
     margin-top: 90px;
     text-align: center;
