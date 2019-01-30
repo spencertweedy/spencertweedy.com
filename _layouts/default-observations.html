@@ -21,11 +21,11 @@
     </main>
 
     <footer id="site-footer">
-    	<small><nav>
+    	<nav>
     		<a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a>
     		<a href="{{ site.baseurl }}{% link observations/info.html %}">Info</a>
-    	</nav></small>
+    	</nav>
       {% unless page.layout == "page" %}<p>{% include tinyletter.html %}</p>{% endunless %}
 		  <small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
 		  <img src="/assets/drums.gif" alt="Animated drumming figure">
