@@ -19,4 +19,3 @@ layout: default-observations
 		<small><a href="{{ post.url | prepend: site.baseurl }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a> &bull; <a href="mailto:spencer@penguinmail.com?Subject={{ post.title }}">Reply</a></small>
 	</footer>
 </article>{% endfor %}
-
