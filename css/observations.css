@@ -277,6 +277,7 @@ footer#site-footer {
 footer#site-footer img {
     display: block;
     margin: 1em auto 0;
+    width: 28px;
 }
 
 footer#site-footer nav {
