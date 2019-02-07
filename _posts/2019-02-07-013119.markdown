@@ -1,0 +1,10 @@
+---
+title: Observations 1-31-19
+date: 2019-02-07 09:21:00 -06:00
+categories:
+- observations
+---
+
+- Worrying that we’re already on the road to accidentally electing Howard Schultz because we seem to talk about him more than we talk about other, non-billionaire, non-dilettante candidates. i.e., we’re doing the 2016 thing.
+- Wondering what happened to the call for a Congressional Digital Service (like the Executive Branch’s U.S. Digital Service).
+- Another Evgeny Morozov *Guardian* article from 2018, emphasizing the importance of cities: “Our digital future [is] mostly an interplay of two conflicting dynamics: one of data extractivism – propelled primarily by big tech’s dependence on new sources of data; and one of data distributism – propelled by all those opposed to big tech’s rapid ascendance. […] To be credible and effective, the leftwing distributist agenda needs to overcome a great obstacle: citizens’ falling trust in the state as a vehicle of advancing their interests. […] The distributist left, thus, should not balk at proposing ambitious political reforms to go along with their new data ownership regime. These must openly acknowledge that the most meaningful scale at which a radical change in democratic political culture can occur today is not the nation state, as some on the left and the right are prone to believe, but, rather the city.”
