@@ -1,6 +1,12 @@
-{% if site.tinyletter %}<form action="https://tinyletter.com/{{ site.tinyletter }}" class="subscribe-form" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-  <label for="tlemail" class="visuallyhidden">Enter your email address</label>
-  <input type="text" name="email" id="tlemail" aria-label="Enter your email address" placeholder="Your email address" />
-  <input type="hidden" value="1" name="embed"/>
-  <input type="submit" value="Subscribe" />
+{% if site.buttondown %}<form
+  action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown }}"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/{{ site.buttondown }}', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+	<label for="bd-email" class="visuallyhidden">Enter your email address</label>
+	<input type="email" name="email" id="bd-email" aria-label="Enter your email address" placeholder="Your email address">
+	<input type="hidden" value="1" name="embed">
+	<input type="submit" value="Subscribe">
 </form>{% endif %}

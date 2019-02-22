@@ -297,7 +297,7 @@ small {
 
 /* Form styles */
 
-input[type="text"] {
+input[type="text"], input[type="email"] {
 	border: 2px solid #000;
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
