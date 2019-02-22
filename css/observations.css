@@ -375,7 +375,7 @@ input[type="submit"] {
     }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 460px) {
     body {
         margin: 60px 30px;
     }
@@ -386,6 +386,19 @@ input[type="submit"] {
 
     section.post-content ul li:before {
         left: -18px;
+    }
+
+    input[type="text"], input[type="email"] {
+    	display: block;
+    	margin: 0.5em 0;
+    	width: 100%;
+    	box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+    	display: block;
+    	width: 100%;
+    	box-sizing: border-box;
     }
 }
 
