@@ -26,7 +26,7 @@
         <a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a>
     		<a href="{{ site.baseurl }}{% link observations/info.html %}">Info</a>
     	</nav>
-      {% unless page.layout == "page" %}<p>{% include tinyletter.html %}</p>{% endunless %}
+      {% unless page.layout == "page" %}<p>{% include subscribe-box.html %}</p>{% endunless %}
 		  <small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
 		  <img src="/assets/drums.gif" alt="Animated drumming figure">
   		{% include quantcast.html %}

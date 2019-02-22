@@ -1,7 +1,7 @@
 <footer id="site-footer">
 	{% if page.layout == 'post' %}<img src="/assets/drums.gif" alt="Animated drumming figure">
 
-	{% include tinyletter.html %}{% endif %}
+	{% include subscribe-box.html %}{% endif %}
 
     <p>
         {% if page.layout == 'default' %}Last updated {{ site.time | date: "%m/%d/%Y" }} &bull; Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br />

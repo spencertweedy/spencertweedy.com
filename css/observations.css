@@ -295,6 +295,24 @@ small {
     color: rgba(0,0,0,0.44);
 }
 
+/* Form styles */
+
+input[type="text"] {
+	border: 2px solid #000;
+	border-radius: 4px;
+	padding: 0.6em 0.7em 0.5em;
+}
+
+input[type="submit"] {
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #000;
+	border-radius: 4px;
+	padding: 0.6em 0.7em 0.5em;
+}
+
+/* Animations */
+
 @keyframes rotate {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
