@@ -5,4 +5,4 @@ categories:
 - observations
 ---
 
-- Eating Golden Nugget pancakes for breakfast and dinner.
+- Eating Golden Nugget pancakes for breakfast and dinner (the same order).
