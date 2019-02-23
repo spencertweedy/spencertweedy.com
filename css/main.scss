@@ -149,9 +149,8 @@ footer {
 
 .subscribe-form {
     border: 1px solid #000;
-    padding: 0.85em 1em;
+    padding: 0.65em 1em 0.85em;
     margin: 0 auto;
-    max-width: 320px;
     height: 1.3em;
     position: relative;
     box-sizing: content-box;
@@ -161,7 +160,7 @@ footer {
     display: none;
 }
 
-.subscribe-form input[type="text"] {
+.subscribe-form input[type="email"] {
     width: 65%;
     font-size: 1em;
     margin: 0;
@@ -179,11 +178,11 @@ footer {
     padding: 0;
     font-size: 1em;
     margin: 0;
-    height: 1.6rem;
+    height: 1.3em;
     line-height: 1rem;
     position: absolute;
     right: 1rem;
-    top: 0.7rem;
+    top: 0.75em;
     cursor: pointer;
 }
 
