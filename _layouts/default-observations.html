@@ -11,7 +11,7 @@
 	    <section class="clearfix">
 			{% if site.author or site.locale %}<p>{% if site.author %}Author: <a href="{{ site.url }}">{{ site.author }}</a><br>{% endif %}
 			{% if site.locale %}Location: {{ site.locale }}{% endif %}</p>{% endif %}
-			<p><a href="{{ site.baseurl }}{% link observations/about.html %}">About</a><br>
+			<p><a href="{{ site.baseurl }}{% link observations/about.md %}">About</a><br>
 			<a href="{{ site.baseurl }}{% link observations/subscribe.html %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a></p>
 		</section>
 	</header>
@@ -24,7 +24,7 @@
     	<nav>
     		<a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a>
-    		<a href="{{ site.baseurl }}{% link observations/about.html %}">About</a>
+    		<a href="{{ site.baseurl }}{% link observations/about.md %}">About</a>
         <a href="mailto:spencer@penguinmail.com" title="Email Spencer Tweedy">Contact</a>
     	</nav>
       {% unless page.layout == "page" %}<p>{% include subscribe-box.html %}</p>{% endunless %}

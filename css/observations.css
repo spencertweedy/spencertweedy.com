@@ -194,6 +194,16 @@ article.post header h1 a {
     text-decoration: none;
 }
 
+article.post h2 {
+	font-size: 1.4em;
+	line-height: 1.35em;
+}
+
+article.post h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
 section.post-content {
     margin: 15px 0;
     width: 75%;
