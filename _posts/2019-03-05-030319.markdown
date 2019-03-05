@@ -1,0 +1,8 @@
+---
+title: Observations 3-3-19
+date: 2019-03-05 17:26:00 -06:00
+categories:
+- observations
+---
+
+- The chart by economist Mark Perry showing the growth of healthcare and education costs since 1998 versus the stagnation or decline in cost of cars, clothes, and consumer electronics (via Kottke[.]org).
