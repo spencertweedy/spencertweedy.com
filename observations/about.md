@@ -20,13 +20,11 @@ The limitations of **OBSERVATIONS** make it easier for me to write.
 
 The bullet points remind me to keep every item to its topic sentence, which I find harder to do in full paragraph form. And in an anal, analytic sort of way, they help me feel like I’m getting the full list of my ideas across, even if I recognize that the mind is an amorphous blob and there’s no such thing as the “full list” of ideas in the first place.
 
-The high-minded-sounding, unwritten prefix, “I observed…,” helps me write about stuff that's external to me. It also allows me to avoid the rote diary-writing question of “What did I do today?” There are people who can answer that question beautifully and interestingly, but I’ve never felt like one of them. Maybe more than anything, this process of fitting everything into a box behind “I observed…” has helped me feel like blogging is fun and worthwhile again.
+The high-minded-sounding, unwritten prefix, “I observed…,” helps me write about stuff that's external to me. It also allows me to avoid the rote diary-writing question of “What did I do today?” There are people who can answer that question beautifully and interestingly, but I’ve never felt like one of them. Maybe more than anything, this process of fitting everything into a box behind “I observed…” has helped me feel like blogging is fun and hopefully not too vain again.
 
-Writing **OBSERVATIONS** has other positive health benefits for me. My mind feels clearer when I have a single, unified place for the stuff I want to write down. That can bring me back to the (unhealthy) fallacy I mentioned earlier, that it’s possible to consolidate your thoughts into a perfect, absolute account. But there’s still something helpful about having a running narrative in one dependable place. I feel more oriented when I can situate thoughts there.
+Writing **OBSERVATIONS** has had other health benefits for me. My mind feels clearer when I have a single, unified place for the stuff I want to write down. Of course, that can also bring me back to the fallacy I mentioned earlier, that it’s possible to collect your thoughts into a perfect, absolute account. But there’s still something helpful about having a running narrative in one dependable place. I feel more oriented when I can situate thoughts there (here).
 
-So that’s what this blog is doing for me, and I hope it’s doing something of some kind, in some quantity, for you…
-
-Writing **OBSERVATIONS** has helped me in all those ways so far, and I’m excited to keep it going. So thank you, Pickle Man. And thank you for reading.
+So that’s what this blog is doing for me—thank you, Pickle Man, thank you, Heather—and I hope it can do something positive of some kind, in some quantity, for you, too. Either way, thank you for reading.
 
 ## Nerd Info
 
@@ -36,7 +34,7 @@ I write notes and posts in [Bear](https://bear.app/) (using [Markdown](https://d
 
 **OBSERVATIONS** is set in [ISO by Scribble Tone](https://www.futurefonts.xyz/scribble-tone/iso). The asterisk logo is [“Connections”](https://thenounproject.com/icon/1207551/) and the list markers are a modified [“Star”](https://thenounproject.com/icon/1696194/) from the Noun Project.
 
-For all the posts (and stats about them), please see the [archive page](https://spencertweedy.com/observations/archive). You can also [subscribe to the newsletter](https://spencertweedy.com/observations/subscribe) or [send me an email](mailto:spencer@penguinmail.com).
+For all the posts (and stats about them), please see the [archive](https://spencertweedy.com/observations/archive). You can also [subscribe to the newsletter](https://spencertweedy.com/observations/subscribe) or [send me an email](mailto:spencer@penguinmail.com).
 
 Thanks again,  
 Spencer
