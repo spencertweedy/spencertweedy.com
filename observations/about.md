@@ -10,9 +10,9 @@ I owe it all to the guy eating whole dill pickles out of a ziplock bag in Union 
 
 I was working at a music festival in the park when he walked by, handlebar mustache, all-brown outfit (broutfit), pickle bag and all. There was something so exciting, so picturesque about him, I had to write it down. [So I did](https://spencertweedy.com/observations/071718.html). And then I wrote down other things about my day, and about the day after that, and after that. And I haven’t stopped since.
 
-I had been looking for a reason to start writing on the internet again, anyway. My friend Heather Whinna bought this domain name for me in 2004, when I was about nine, because she didn't want it to get gobbled up by porn sites (a fate which she thought, reasonably, was likely for all un-purchased domains in 2004). I used it to blog from ages twelve to sixteenish and it became a really important part of my life during that time. I grew up feeling connected to people (mostly Wilco fans) and heard because I had an outlet here.
+I had been looking for a reason to start writing on the internet again, anyway. My friend Heather Whinna bought this domain name for me in 2004, when I was about nine, because she didn't want it to get gobbled up by porn sites (a fate which she thought, reasonably, was likely for all un-purchased domains in 2004). I used it to blog from ages twelve to sixteenish and it became a really important part of my life during that time. I grew up feeling connected to people (mostly Wilco fans) because I had an outlet here.
 
-But at some point, blogging started to feel weird. I’m not sure if it was the shift to social media, or if I just became a more private person, but I lost the motivation to do it (in public, at least). And it took this bullet-pointy way of writing, and the Pickle Man, to make me start again.
+But at some point, blogging started to feel weird. I’m not sure if it was the shift to social media, or if I just became more private, but I lost the motivation to do it. And it took this bullet-pointy way of writing, and the Pickle Man, to make me start again.
 
 ## Blogging Medicine
 
@@ -24,7 +24,7 @@ The high-minded-sounding, unwritten prefix, “I observed…,” helps me write 
 
 Writing **OBSERVATIONS** has had other health benefits for me. My mind feels clearer when I have a single, unified place for the stuff I want to write down. Of course, that can also bring me back to the fallacy I mentioned earlier, that it’s possible to collect your thoughts into a perfect, absolute account. But there’s still something helpful about having a running narrative in one dependable place. I feel more oriented when I can situate thoughts there (here).
 
-So that’s what this blog is doing for me—thank you, Pickle Man, thank you, Heather—and I hope it can do something positive of some kind, in some quantity, for you, too. Either way, thank you for reading.
+So that’s what this blog is doing for me—*thank you, Pickle Man, thank you, Heather*—and I hope it does something positive for you, too. Either way, thanks for stopping by and reading!
 
 ## Nerd Info
 
@@ -34,7 +34,7 @@ I write notes and posts in [Bear](https://bear.app/) (using [Markdown](https://d
 
 **OBSERVATIONS** is set in [ISO by Scribble Tone](https://www.futurefonts.xyz/scribble-tone/iso). The asterisk logo is [“Connections”](https://thenounproject.com/icon/1207551/) and the list markers are a modified [“Star”](https://thenounproject.com/icon/1696194/) from the Noun Project.
 
-For all the posts (and stats about them), please see the [archive](https://spencertweedy.com/observations/archive). You can also [subscribe to the newsletter](https://spencertweedy.com/observations/subscribe) or [send me an email](mailto:spencer@penguinmail.com).
+For all the posts (and stats about them), please see the [archive page](https://spencertweedy.com/observations/archive). To subscribe via email, please see the [subscribe page](https://spencertweedy.com/observations/subscribe). And to send me an email, please see the [contact page](https://spencertweedy.com/observations/contact).
 
 Thanks again,  
 Spencer
