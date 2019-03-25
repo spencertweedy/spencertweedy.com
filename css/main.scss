@@ -311,21 +311,23 @@ footer a {
     margin-left: 0.5em;
 }
 
-#recent-posts ol {
-    margin-bottom: 1em;
+#projects-list a:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    position: relative;
+    top: 2px;
+    margin-right: 0.4em;
 }
 
-#recent-posts li:first-child:before {
-    content: 'New';
-    background: gold;
-    text-transform: uppercase;
-    padding: 4px 6px;
-    color: #000;
-    font-size: 0.6em;
-    position: relative;
-    top: -2px;
-    margin-right: 0.7em;
-    border-radius: 2px;
+#projects-list .observations-link:before {
+    background-image: url("/assets/project_logos/observations_tiny.png");
+}
+
+#projects-list .fjord-link:before {
+    background-image: url("/assets/project_logos/fjord_audio_tiny.png");
 }
 
 #contact a:after {

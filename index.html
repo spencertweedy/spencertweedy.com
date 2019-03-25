@@ -20,14 +20,12 @@ layout: default
 </div>
 
 <div class="col">
-    <section id="recent-posts">
-        <h4>Recent Posts</h4>
+    <section id="projects-list">
+        <h4>Projects</h4>
         <ol>
-            {% for post in site.posts limit:3 %}
-            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-            {% endfor %}
+            <li><a href="{{ site.baseurl }}/observations" class="observations-link">Observations</a></li>
+            <li><a href="https://fjordaudio.com/" class="fjord-link">Fjord Audio</a></li>
         </ol>
-        <a href="{{ site.baseurl }}{% link observations/index.html %}">View all posts &#8669;</a>
     </section>
 
     <section id="contact">
