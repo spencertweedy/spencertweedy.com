@@ -7,6 +7,6 @@ color: "#FFB300"
 listen: http://theblisters.com/album/cured
 image: "/uploads/cured.jpg"
 role: Drumming, producing
-is_featured: true
+is_featured: false
 ---
 
