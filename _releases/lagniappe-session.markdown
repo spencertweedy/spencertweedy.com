@@ -8,6 +8,6 @@ listen: https://aquariumdrunkard.com/2018/11/13/the-lagniappe-sessions-the-racco
 image: "/uploads/raccoonists_lagniappe.jpg"
 role: Drums
 is_single: true
-is_featured: true
+is_featured: false
 ---
 
