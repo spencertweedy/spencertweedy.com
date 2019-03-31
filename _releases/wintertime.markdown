@@ -8,6 +8,6 @@ listen: https://norahjones.lnk.to/Wintertime
 image: "/uploads/norah_jones_wintertime.jpg"
 role: Drums
 is_single: true
-is_featured: true
+is_featured: false
 ---
 
