@@ -7,6 +7,6 @@ color: "#DA5B37"
 listen: https://antirecords.bandcamp.com/album/sukierae
 image: "/uploads/sukierae.jpg"
 role: Drumming
-is_featured: true
+is_featured: false
 ---
 
