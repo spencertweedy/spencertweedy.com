@@ -7,6 +7,6 @@ color: "#0F0F0F"
 listen: https://jefftweedy.bandcamp.com/
 image: "/uploads/warm-jeff-tweedy.jpg"
 role: Drums
-is_featured: true
+is_featured: false
 ---
 
