@@ -36,12 +36,13 @@ defaults:
     is_single: ''
     is_featured: ''
 email: spencer@penguinmail.com
-description: I play drums and work on music projects.
+description: Hi! I play drums.
 author: Spencer Tweedy
 baseurl: 
 url: https://spencertweedy.com
 twitter: spencertweedy
 facebook: spencertweedy
+instagram: spencertweedy
 buttondown: spencer
 typekit: ejh7rbn
 cover_photo_path: "/assets/bg.jpg"

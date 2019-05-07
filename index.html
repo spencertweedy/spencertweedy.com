@@ -2,43 +2,19 @@
 layout: default
 ---
 
-<div class="col">
-    <section id="intro">
-        <h2>{{ site.description }}</h2>
-    </section>
-
-    <section id="releases">
-        <h4>Releases</h4>
-        <ul>
-            {% assign releases = site.releases | sort:"year" | reverse %}
-            {% for release in releases %}{% if release.is_featured == true %}
-            <li><a href="{{ release.listen }}" style="color:{{ release.color }};"><em>{{ release.title }}</em>{% if release.artist %} by {{ release.artist }}{% endif %}</a> <span>{{ release.year }}</span></li>
-            {% endif %}{% endfor %}
-        </ul>
-        <a href="{{ site.baseurl }}{% link releases.html %}">View all releases &#8669;</a>
-    </section>
-</div>
-
-<div class="col">
-    <section id="projects-list">
-        <h4>Projects</h4>
-        <ol>
-            <li><a href="{{ site.baseurl }}/observations" class="observations-link">Observations</a></li>
-            <li><a href="https://fjordaudio.com/" class="fjord-link">Fjord Audio</a></li>
-        </ol>
-    </section>
-
-    <section id="contact">
-        <h4>Contact</h4>
-        {% if site.email or site.phone %}<ul>
-            {% if site.email %}<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
-            {% if site.phone %}<li><a href="tel:{{ site.phone[0] }}">{{ site.phone[1] }}</a></li>{% endif %}
-        </ul>{% endif %}
-        {% if site.twitter or site.facebook %}<ul>
-            {% if site.twitter %}<li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>{% endif %}
-            {% if site.facebook %}<li><a href="https://facebook.com/{{ site.facebook }}">Facebook</a></li>{% endif %}
-        </ul>{% endif %}
-
-        {% include subscribe-box.html %}
-    </section>
-</div>
+<p>Hi! My name is Spencer.</p>
+<p>I play drums and make records in Chicago. Most recently, I've worked on
+    {% assign releases = site.releases | sort:"year" | reverse %}
+    {% for release in releases limit:3 %}
+		{% if forloop.last == true %}
+			and 
+		{% endif %}
+		<span><a href="{{ release.listen }}" style="color:{{ release.color }}; border-color:{{ release.color }};"><em>{{ release.title }}</em></a>{% if release.artist %} by {{ release.artist | replace: "Jeff Tweedy", "my dad" | replace: "Spencer Tweedy", "me" }}{% endif %}</span>{% unless forloop.last == true %}, {% endunless %}
+	{%- endfor -%}.
+    Here's a <a href="{{ site.baseurl }}{% link releases.html %}">full list</a> of the records I've helped make.
+</p>
+<p>I write, mostly for my blog, <a href="{{ site.baseurl }}/observations" class="with-icon observations-link">Observations</a>. And I design stuff, mostly for my company, <a href="https://fjordaudio.com/" class="with-icon fjord-link">Fjord Audio</a>.</p>
+<p>I want to do more politicky, people-helpy work. I also want to learn more about woodworking. FYI.</p>
+<p>Here's how to <a href="{{ site.baseurl }}{% link contact.html %}">contact me</a>. And here's where to sign up for my <a href="{{ site.baseurl }}{% link observations/subscribe.html %}">monthly newsletter</a>.</p>
+<p>Thanks for coming here 😭 ❤️<br>
+Spencer</p>

@@ -57,23 +57,27 @@ b, strong {
 
 /* Page parts */
 
-body {
-    font-size: 16px;
-    line-height: 1.5em;
+html {
+    font-size: 18px;
+    line-height: 1.8em;
     font-family: "jaf-facitweb", sans-serif;
+}
+
+body {
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
     background: #fff;
-    color: #000;
+    color: #3a3a3a;
 }
 
 #wrapper {
     margin: 0 auto;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 header {
-    margin: 12vh auto;
+    margin: 12vh auto 8vh;
     width: 100%;
     font-size: 3em;
     padding: 0 20px;
@@ -83,10 +87,9 @@ header {
 main {
     width: 100%;
     max-width: 700px;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 body.post main, body.page main {
@@ -94,16 +97,10 @@ body.post main, body.page main {
 }
 
 footer {
-    width: 100%;
-    display: block;
-    margin: 2rem 0 12vh;
-    padding: 0 20px;
-    
-    p {
-        text-align: center;
-        color: #888;
-        font-size: 0.7em;
-    }
+    @extend main;
+    margin: 1rem auto 10vh;
+    font-size: 0.7em;
+    color: #AAA;
 
     img {
         margin: 1em auto 2em;
@@ -113,11 +110,11 @@ footer {
 
 #cover-photo-container {
     width: 100%;
-    max-width: 840px;
+    max-width: 960px;
     padding: 0 20px;
     height: 76vh;
     order: -1;
-    margin: 12vh auto -0.9em;
+    margin: 12vh auto -1em;
 }
 
 #cover-photo {
@@ -133,60 +130,39 @@ footer {
     display: none; /* No-CSS fallback */
 }
 
-.col a {
-    color: #000;
-}
-
-.col:nth-child(1) {
-    flex-basis: 60%;
-    padding-right: 2em;
-    box-sizing: border-box;
-}
-
-.col:nth-child(2) {
-    flex-basis: 40%;
-}
-
 .subscribe-form {
-    border: 1px solid #000;
-    padding: 0.65em 1em 0.85em;
     margin: 0 auto;
-    height: 1.3em;
-    position: relative;
-    box-sizing: content-box;
+    font-size: 1em;
+}
+
+input[type="text"], input[type="email"] {
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 0.5em 0.7em;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: inherit;
 }
 
 .subscribe-form label {
     display: none;
 }
 
-.subscribe-form input[type="email"] {
-    width: 65%;
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
-    height: 1.3em;
-    line-height: 1em;
-    border: none;
-    outline: none;
-}
-
-.subscribe-form input[type="submit"] {
-    background: none;
-    color: #000;
-    border: 0;
-    padding: 0;
-    font-size: 1em;
-    margin: 0;
-    height: 1.3em;
-    line-height: 1rem;
-    position: absolute;
-    right: 1rem;
-    top: 0.75em;
-    cursor: pointer;
-}
-
 /* Page elements */
+
+h1 {
+    height: 0.75em;
+}
 
 h1, h1 a, h1 a:hover {
     font-family: "chippewa-falls";
@@ -194,6 +170,7 @@ h1, h1 a, h1 a:hover {
     font-weight: normal;
     color: #000;
     text-decoration: none;
+    border-bottom: none;
 }
 
 h2 {
@@ -221,20 +198,31 @@ h4:first-child {
 }
 
 a {
-    color: steelblue;
+    color: inherit;
     text-decoration: none;
+    border-bottom: 1px solid #CACACA;
 }
 
-a:hover {
-    text-decoration: underline;
+a.with-icon {
+    margin-left: 22px;
+    position: relative;
+    white-space: nowrap;
 }
 
-section {
-    margin-bottom: 2em;
+a.with-icon:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    position: absolute;
+    top: 5px;
+    left: -20px;
 }
 
-section:last-child {
-    margin-bottom: 0;
+p {
+    margin: 1em 0;
+    line-height: 1.7em;
 }
 
 li {
@@ -285,11 +273,6 @@ article ol li {
     list-style: decimal;
 }
 
-footer a {
-    color: #888;
-    text-decoration: underline;
-}
-
 ::selection {
     background-color: gold;
     color: black;
@@ -297,46 +280,12 @@ footer a {
 
 /* Homepage styles */
 
-#releases h4 {
-    display: none;
-}
-
-#releases ul {
-    margin-bottom: 1em;
-}
-
-#releases li span {
-    font-size: 0.8em;
-    color: #888;
-    margin-left: 0.5em;
-}
-
-#projects-list a:before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-size: 16px 16px;
-    position: relative;
-    top: 2px;
-    margin-right: 0.4em;
-}
-
-#projects-list .observations-link:before {
+.observations-link:before {
     background-image: url("/assets/project_logos/observations_tiny.png");
 }
 
-#projects-list .fjord-link:before {
+.fjord-link:before {
     background-image: url("/assets/project_logos/fjord_audio_tiny.png");
-}
-
-#contact a:after {
-    content: ' \21DD';
-    text-decoration: none;
-}
-
-#contact ul {
-    margin-bottom: 1em;
 }
 
 /* Releases page styles */
@@ -427,7 +376,6 @@ footer a {
     main {
         display: block;
         width: 100%;
-        max-width: 400px;
     }
 
     footer {
@@ -448,9 +396,19 @@ footer a {
     #releases-page li {
         width: 50%;
     }
+}
 
-    .col:nth-child(1) {
-        padding: 0;
-        margin-bottom: 2em;
+@media screen and (max-width: 500px) {
+    input[type="text"], input[type="email"] {
+        display: block;
+        margin: 0.5em 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
     }
 }

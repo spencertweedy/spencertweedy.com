@@ -1,0 +1,10 @@
+---
+title: Contact
+permalink: "/contact"
+layout: page-classic
+---
+
+<p>
+	{% if site.email %}<a href="mailto:{{ site.email }}">{{ site.email }}</a><br>{% endif %}
+	{% if site.phone %}<a href="tel:{{ site.phone[0] }}">{{ site.phone[1] }}</a>{% endif %}
+</p>
