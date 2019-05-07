@@ -6,9 +6,9 @@ layout: page
 
 ## Observations is a daily blog published on a not-so-daily basis by [Spencer Tweedy](https://spencertweedy.com/).
 
-I owe it all to the guy eating whole dill pickles out of a ziplock bag in Union Park, Chicago, July 2018.
+I owe this blog to the man eating whole dill pickles out of a ziplock bag in Union Park, Chicago, July 2018.
 
-I was working at a music festival in the park when he walked by, handlebar mustache, all-brown outfit (broutfit), pickle bag and all. There was something so exciting, so picturesque about him, I had to write it down. [So I did](https://spencertweedy.com/observations/071718.html). And then I wrote down other things about my day, and about the day after that, and after that. And I haven’t stopped since.
+I was working for a music festival in the park when he walked by, handlebar mustache, all-brown outfit (broutfit), pickle bag and all. There was something so exciting, so picturesque about schtick, I had to write about it. [So I did](https://spencertweedy.com/observations/071718.html). And then I wrote about the rest of my day, and about the day after that, and after that. And I haven’t stopped since.
 
 I had been looking for a reason to start writing on the internet again, anyway. My friend Heather Whinna bought this domain name for me in 2004, when I was about nine, because she didn't want it to get gobbled up by porn sites (a fate which she thought, reasonably, was likely for all un-purchased domains in 2004). I used it to blog from ages twelve to sixteenish and it became a really important part of my life during that time. I grew up feeling connected to people (mostly Wilco fans) because I had an outlet here.
 
