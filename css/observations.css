@@ -270,7 +270,7 @@ aside.post-aside img {
     display: block;
     margin: 0 auto;
     border-radius: 4px;
-    filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);
+    /*filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);*/
 }
 
 aside.post-aside p {
