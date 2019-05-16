@@ -1,0 +1,12 @@
+---
+title: Observations 5-9-19
+date: 2019-05-16 01:21:00 -05:00
+categories:
+- observations
+---
+
+- The Vox article about Dr. Gary Bloch, who “prescribes income” to his patients (helps them apply for social benefit programs):
+	- “[Studies since the 1960s] looked across every geographic location, across every disease, across accidents and trauma and growing up in poverty. Then they drilled down further into the biological markers and epigenetics — changes in the way genes are expressed as a result of people living in adverse social situations. […] There’s an incredibly strong body of evidence that proves the link between poverty and poor health outcomes.”
+	- “We have two full-time people, permanent salaried staff funded by the government, who are focused only on improving our patients’ income security. They’ll sit with patients individually and work on financial literacy and getting bank accounts and getting them to file their taxes.”
+	- “The challenge is getting governments to think long-term — to convince people who are elected for four years to be willing to take a chance on something that won’t see outcomes until probably long after they’re out of power.”
+	- Paraphrasing Rudolf Virchow: “Politics is just medicine writ large.”
