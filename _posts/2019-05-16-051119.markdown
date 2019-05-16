@@ -7,6 +7,6 @@ image: "/uploads/IMG_7087-squashed.jpg"
 image_caption: Rickshaws outside their stable.
 ---
 
-- Stumbling upon one of the garages where rickshaw drivers park their rickshaws at night.
+- Stumbling upon one of the garages where rickshaw drivers park their rickshaws.
 	- Their LED strips lighting up the night.
 - This badass micro-nonfiction tweet from Pam Grier, Ph.D: “In 1976, I placed Richard Pryor’s injured horse in the back seat of my 4 door Jaguar to take to the Vet. I drive down the 405 with Richard in the passenger seat wearing his bathrobe, Ginger his horse thinking I’m crazy, drivers following us, we saved her life that day.”
