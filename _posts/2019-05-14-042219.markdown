@@ -5,5 +5,5 @@ categories:
 - observations
 ---
 
-- Getting a Facebook friend request from my Rabbi.
+- Getting a Facebook friend request from my rabbi.
 - Potting plants with Casey.
