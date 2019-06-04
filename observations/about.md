@@ -18,13 +18,15 @@ But at some point, blogging started to feel weird. I think a combination of the 
 
 The limitations of **OBSERVATIONS** make it easier for me to write.
 
-The bullet points remind me to keep every item to its topic sentence, which I find harder to do in full paragraph form. And in an anal, analytic sort of way, they help me feel like I’m getting the full list of my ideas across, even if I recognize that the mind is an amorphous blob and there’s no such thing as the “full list” of ideas in the first place.
+The bullet points free me from worrying about the whole arc of a paragraph, or of multiple paragraphs, while writing. I can just think of each things as its own, relatively self-contained nugget, and make that nugget read well. (Only after that do I rearrange nuggets and maybe give them some sort of structure.) In an anal, analytic sort of way, they also help me feel like I’m getting the full list of my ideas across, even if I recognize that there’s no such thing as the “full list” of ideas in the first place.
 
-The high-minded-sounding, unwritten prefix, “I observed…,” helps me write about stuff that's external to me. It also allows me to avoid the rote diary-writing question of “What did I do today?” There are people who can answer that question beautifully and interestingly, but I’ve never felt like one of them. Maybe more than anything, this process of fitting everything into a box behind “I observed…” has helped me feel like blogging is fun and hopefully not too vain again.
+The sorta self-helpy-sounding, unwritten prefix before every item, "I observed…," forces the bullet points into a particular grammatical form and tense, which similarly frees me from thinking too hard about how to structure the sentence. I think that it also helps me avoid the sometimes boring diary-writing prompt of *What did you do today?* There are people who can answer that question beautifully and interestingly, but I find it much more fun and shareable to take little notes and squish them together like this.
 
-Writing **OBSERVATIONS** has had other health benefits for me. My mind feels clearer when I have a single, unified place for the stuff I want to write down. Of course, that can also bring me back to the fallacy I mentioned earlier, that it’s possible to collect your thoughts into a perfect, absolute account. But there’s still something helpful about having a running narrative in one dependable place. I feel more oriented when I can situate thoughts there (here).
+My mind feels a lot clearer when I have a single, unified place to write (and share) things, and **OBSERVATIONS** has given that back to me. When notes are sprawled out over all sorts of apps and notebooks I feel disoriented because they’re not situated in time, and unproductive because I never return to address them. The process of writing these, reviewing them, and then eventually publishing them makes me feel less stuffed-up.
 
-So that’s what this blog is doing for me—*thank you, Pickle Man, thank you, Heather*—and I hope it does something positive for you, too. Either way, thanks for stopping by and reading!
+The unified, sorta all-encompassing nature of writing like that *could* make me feel anxious; it could bring me back to the “full list of ideas” fallacy from above and make me worry about leaving things out or otherwise failing to make the notes an exhaustive, perfect account (of what’s going on, what I’m reading or listening to, what else? The list could go on, which is my first hint that exhaustiveness would be futile). But so far I’ve been able to avoid feeling like **OBSERVATIONS** is anything but a weird, partial, accidental record. And it’s fun to write it.
+
+Thank you, Pickle Man. Thank you, Heather. And thank you for reading!
 
 ## Nerd Info
 
@@ -36,5 +38,5 @@ I write notes and posts in [Bear](https://bear.app/) (using [Markdown](https://d
 
 For all the posts (and stats about them), please see the [archive page](https://spencertweedy.com/observations/archive). To subscribe via email, please see the [subscribe page](https://spencertweedy.com/observations/subscribe). And to send me an email, please see the [contact page](https://spencertweedy.com/observations/contact).
 
-Thanks again,  
+Thank you &#128522;  
 Spencer
