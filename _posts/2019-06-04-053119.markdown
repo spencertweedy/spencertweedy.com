@@ -3,6 +3,8 @@ title: Observations 5-31-19
 date: 2019-06-04 09:29:00 -05:00
 categories:
 - observations
+image: "/uploads/IMG_7336-squashed.jpg"
+image_caption: A photo of Basil in my chair [6-1-19].
 ---
 
 - Basil sitting in my childhood miniature recliner chair.
