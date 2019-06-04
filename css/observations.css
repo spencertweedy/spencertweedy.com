@@ -126,6 +126,7 @@ header#site-header > section p {
 
 header#site-header a.subscribe-button {
 	background: #222;
+	border: 1px solid #fff;
 	padding: 0.7em 1em;
 	border-radius: 2em;
 	position: fixed;
