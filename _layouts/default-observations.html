@@ -13,7 +13,7 @@
 			{% if site.locale %}Location: {{ site.locale }}{% endif %}</p>{% endif %}
 			<p><a href="{{ site.baseurl }}{% link observations/about.md %}">About</a><br>
         <a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a><br>
-        <a href="{{ site.baseurl }}{% link observations/subscribe.html %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a></p>
+        {% unless page.layout == "page" %}<a href="{{ site.baseurl }}{% link observations/subscribe.html %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a>{% endunless %}</p>
 		</section>
 	</header>
 
