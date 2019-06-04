@@ -308,17 +308,19 @@ aside.post-aside p {
 
 footer#site-footer {
     margin-top: 60px;
-    text-align: center;
+    font-size: 0.88em;
+    color: rgba(0,0,0,0.44);
 }
 
 footer#site-footer img {
     display: block;
-    margin: 1em auto 0;
-    width: 28px;
+    margin: 0.4em 0 0;
+    width: 24px;
 }
 
-footer#site-footer nav {
-    margin-bottom: 1em;
+footer#site-footer p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 footer#site-footer nav a:not(:last-of-type):after {
@@ -328,7 +330,7 @@ footer#site-footer nav a:not(:last-of-type):after {
 }
 
 small {
-    font-size: 0.88em;
+	font-size: 0.88em;
     color: rgba(0,0,0,0.44);
 }
 
