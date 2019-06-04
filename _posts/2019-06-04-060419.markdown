@@ -1,5 +1,5 @@
 ---
-title: Observations 6-4-19
+title: Observations 6-3-19
 date: 2019-06-04 14:21:00 -05:00
 categories:
 - observations
