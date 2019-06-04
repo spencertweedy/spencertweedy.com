@@ -79,6 +79,7 @@ body {
     margin: 90px 160px;
     font-size: 17px;
     line-height: 1.35em;
+    background-color: #fff;
 }
 
 body.default-observations {
