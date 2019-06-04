@@ -24,11 +24,10 @@
     <footer id="site-footer">
     	<nav>
     		<a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}{% link observations/about.md %}">About</a>
         <a href="{{ site.baseurl }}{% link observations/archive.html %}">Archive</a>
-    		<a href="{{ site.baseurl }}{% link observations/about.md %}">About</a>
         <a href="{{ site.baseurl }}{% link observations/contact.md %}" title="Email Spencer Tweedy">Contact</a>
     	</nav>
-      {% unless page.layout == "page" %}<p>{% include subscribe-box.html %}</p>{% endunless %}
 		  <small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
 		  <img src="/assets/drums.gif" alt="Animated drumming figure">
   		{% include quantcast.html %}
