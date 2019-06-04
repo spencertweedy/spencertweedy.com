@@ -10,7 +10,7 @@ I owe this blog to the man eating whole dill pickles out of a ziplock bag in Uni
 
 I was working for a music festival in the park when he walked by, handlebar mustache, all-brown outfit (broutfit), pickle bag and all. There was something so exciting, so picturesque about schtick, I had to write about it. [So I did](https://spencertweedy.com/observations/071718.html). And then I wrote about the rest of my day, and about the day after that, and after that. And I haven’t stopped since.
 
-I had been looking for a reason to start blogging again. My friend Heather Whinna bought this domain name for me in 2004, when I was about nine (because she didn't want it to get gobbled up by porn sites, a fate which she thought, reasonably, was likely for all un-purchased domains in 2004), and I used it to blog from ages twelve to sixteenish. It became a really important part of my life then; I grew up feeling connected to people (a lot of whom were Wilco fans) because I had an outlet here.
+I had been looking for a reason to start writing on the internet again, anyway. My friend Heather Whinna bought this domain name for me in 2004, when I was about nine (because she didn't want it to get gobbled up by porn sites, a fate which she thought, reasonably, was likely for all un-purchased domains in 2004), and I used it to blog from ages twelve to sixteenish. It became a really important part of my life then; I grew up feeling connected to people (a lot of whom were Wilco fans) because I had an outlet here.
 
 But at some point, blogging started to feel weird. I think a combination of the shift to social media and my own growing up made writing online, diary-style, feel frivolous. And it took this bullet-pointy technique, and the Pickle Man, to make me start again.
 
