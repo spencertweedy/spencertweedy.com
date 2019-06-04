@@ -124,6 +124,31 @@ header#site-header > section p {
     margin: 0 60px 0 0;
 }
 
+header#site-header a.subscribe-button {
+	background: #222;
+	padding: 0.7em 1em;
+	border-radius: 2em;
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	display: block;
+	z-index: 2;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-delay: 5s;
+	animation-fill-mode: backwards;
+	transition: transform 0.1s;
+}
+
+header#site-header a.subscribe-button:hover {
+	transform: scale(1.05);
+}
+
+header#site-header a.subscribe-button:active {
+	transform: scale(1.05) translateY(2px);
+}
+
 header#site-header a.subscribe-button span {
     animation-name: colorScroll;
     animation-duration: 2s;
@@ -333,14 +358,19 @@ input[type="submit"] {
     100% { transform: scaleX(1) translateY(0); opacity: 1; }
 }
 
+@keyframes fadeIn {
+	0% { opacity: 0; cursor: default; }
+	100% { opacity: 1; cursor: pointer; }
+}
+
 @keyframes colorScroll {
-    0% { color: red; }
-    14.29% { color: orange; }
-    28.57% { color: yellow; }
-    42.86% { color: green; }
-    57.14% { color: blue; }
-    71.43% { color: indigo; }
-    85.71% { color: violet; }
+    0% { color: hsl(87, 47%, 52%); }
+    14.29% { color: hsl(87, 47%, 58%); }
+    28.57% { color: hsl(87, 47%, 64%); }
+    42.86% { color: hsl(87, 47%, 70%); }
+    57.14% { color: hsl(87, 47%, 76%); }
+    71.43% { color: hsl(87, 47%, 82%); }
+    85.71% { color: hsl(87, 47%, 88%); }
     100% { color: transparent; }
 }
 
@@ -383,6 +413,22 @@ input[type="submit"] {
     main#site-content {
         margin-top: 60px;
     }
+
+    header#site-header a.subscribe-button {
+		bottom: 1rem;
+		right: initial;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 0.88em;
+	}
+
+	header#site-header a.subscribe-button:hover {
+		transform: translateX(-50%) scale(1.05);
+	}
+
+	header#site-header a.subscribe-button:active {
+		transform: translateX(-50%) scale(1.05) translateY(2px);
+	}
 }
 
 @media only screen and (max-width: 460px) {
