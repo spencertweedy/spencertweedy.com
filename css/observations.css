@@ -586,7 +586,8 @@ input[type="submit"] {
     /* Custom print styles */
 
     body {
-        margin: 60px 60px;
+        margin: 30px 90px 60px 60px;
+        font-size: 14px;
     }
 
     header#site-header svg.site-logo {
@@ -604,6 +605,7 @@ input[type="submit"] {
     section.post-content {
         width: 100%;
         max-width: 100%;
+        text-align: left;
     }
 
     article.post header h1 {
