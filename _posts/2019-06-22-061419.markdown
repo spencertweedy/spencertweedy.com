@@ -1,0 +1,9 @@
+---
+title: Observations 6-14-19
+date: 2019-06-22 18:13:00 -05:00
+categories:
+- observations
+---
+
+- Almost getting caught in an ingenious Shopify scam: emails from alleged customers asking whether a (fake) exorbitant price on your website is a typo (with a link to spam).
+- Still thinking about the step-by-step example of product design thinking that Paul Ford gave in “Going Deep on a Checkbox,” an essay from his Track Changes newsletter (published in 2016 but read by me the other day).
