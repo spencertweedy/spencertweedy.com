@@ -1,0 +1,12 @@
+---
+title: Observations 6-13-19
+date: 2019-06-22 18:07:00 -05:00
+categories:
+- observations
+---
+
+- The sickly sweet cherry smell outside—like Bottle Caps candy.
+- Laura Snapes’s interview with Bill Callahan.
+- How John McPhee (still) writes with a command line program that was custom-made for him by a fellow professor in the 1980s (*New York Times Magazine*).
+	- McPhee describing how he puts all the pieces of a text into order before he even sits down to write, so that when he *does* start, he just has to connect them into prose: “Every organizational aspect was behind me. The procedure eliminated nearly all distraction and concentrated just the material I had to deal with in a given day or week. It painted me into a corner, yes, but in doing so it freed me to write.”
+- This tweet by @dontsave: “there should be a way to convey warmth in emails without using the exclamation mark. my proposal is U263C, unicode sun with rays / thanks ☼ / dave”
