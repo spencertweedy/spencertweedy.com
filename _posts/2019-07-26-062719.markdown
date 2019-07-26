@@ -1,0 +1,10 @@
+---
+title: Observations 6-27-19
+date: 2019-07-26 16:20:00 -05:00
+categories:
+- observations
+---
+
+- Roasting in a hot tub.
+- Learning about the Year 2038 problem and leap seconds on Wikipedia.
+- The idea that people with the “fixer” personality type are like emotional first responders.
