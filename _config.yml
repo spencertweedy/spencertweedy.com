@@ -21,8 +21,8 @@ defaults:
     type: posts
   values:
     layout: post
-    image: 
-    image_caption: 
+    image:
+    image_caption:
 - scope:
     path: ''
     type: releases
@@ -38,7 +38,7 @@ defaults:
 email: spencer@penguinmail.com
 description: Hi! I play drums.
 author: Spencer Tweedy
-baseurl: 
+baseurl:
 url: https://spencertweedy.com
 twitter: spencertweedy
 facebook: spencertweedy
@@ -51,7 +51,6 @@ cover_photo_credit:
 - https://www.davidzoubek.com
 locale: Chicago, IL
 github_repo: https://github.com/spencertweedy/spencertweedy.github.io
-quantcast: p-P2am1-BU2Leay
 markdown: kramdown
 permalink: none
 plugins:
