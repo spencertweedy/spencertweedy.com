@@ -7,13 +7,13 @@ html {
 }
 
 ::-moz-selection {
-    background: #000;
+    background: #222;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #000;
+    background: #222;
     color: #fff;
     text-shadow: none;
 }
@@ -190,6 +190,17 @@ header#site-header a.subscribe-button span:nth-of-type(7n+9) {
   animation-delay: 1.143s;
 }
 
+header#site-header p.announcement {
+  color: blue;
+  animation-name: seesaw;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  display: inline-block; /* so that rotate axis is actually the center of the element */
+}
+
 main#site-content {
     margin-top: 90px;
 }
@@ -337,15 +348,15 @@ small {
 /* Form styles */
 
 input[type="text"], input[type="email"] {
-	border: 2px solid #000;
+	border: 2px solid #222;
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
 }
 
 input[type="submit"] {
-	background-color: #000;
+	background-color: #222;
 	color: #fff;
-	border: 2px solid #000;
+	border: 2px solid #222;
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
 }
@@ -378,6 +389,11 @@ input[type="submit"] {
     100% { color: transparent; }
 }
 
+@keyframes seesaw {
+  0% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -393,7 +409,7 @@ input[type="submit"] {
         width: 100%;
         padding-left: 0;
     }
-    
+
     aside.post-aside, article.post:nth-child(even) aside.post-aside {
         transform: none;
     }
@@ -626,7 +642,7 @@ input[type="submit"] {
         width: 100%;
         padding-left: 0;
     }
-    
+
     aside.post-aside, article.post:nth-child(even) aside.post-aside {
         transform: none;
     }
