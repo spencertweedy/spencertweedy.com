@@ -7,7 +7,7 @@ layout: default
     {% assign releases = site.releases | sort:"year" | reverse %}
     {% for release in releases limit:3 %}
 		{% if forloop.last == true %}
-			and 
+			and
 		{% endif %}
 		<span><a href="{{ release.listen }}" style="color:{{ release.color }}; border-color:{{ release.color }};"><em>{{ release.title }}</em></a>{% if release.artist %} by {{ release.artist | replace: "Jeff Tweedy", "my dad" | replace: "Spencer Tweedy", "me" }}{% endif %}</span>{% unless forloop.last == true %}, {% endunless %}
 	{%- endfor -%}.

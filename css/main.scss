@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -156,6 +156,29 @@ input[type="submit"] {
 
 .subscribe-form label {
     display: none;
+}
+
+#banner {
+  padding: 20px 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+#banner a {
+  border-bottom: none;
+}
+
+#banner p {
+  margin: 0;
+  padding: 0.2em 0.7em;
+  background-color: #8abe4b;
+  color: #fff;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+#banner p span {
+  text-decoration: underline;
 }
 
 /* Page elements */
@@ -323,7 +346,7 @@ article ol li {
         .release-image {
             width: calc(100% + 2em);
             margin: -1em 0 0.5em -1em;
-            
+
             img {
                 border-radius: 4px 4px 0 0;
                 margin: 0;
