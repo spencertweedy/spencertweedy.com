@@ -1,0 +1,9 @@
+---
+title: Observations 9-8-19
+date: 2019-10-03 18:31:00 -05:00
+categories:
+- observations
+---
+
+- Trying to parse Timothy Taylor’s super esoteric but interesting Edge.org essay about the Boeing 737 MAX.
+	- “We have a useful but also dangerous tendency to view our constructed artefacts as if they were natural kinds, akin to chemical elements or biological species, and therefore ascribe to them the idea of shared essential characteristics.”
