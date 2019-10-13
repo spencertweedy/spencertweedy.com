@@ -5,4 +5,4 @@ categories:
 - observations
 ---
 
-- “The Magic of Your Love” by Majestic Arrows.
+- The string intro in “The Magic of Your Love” by Majestic Arrows.
