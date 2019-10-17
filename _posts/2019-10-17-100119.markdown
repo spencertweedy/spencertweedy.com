@@ -1,5 +1,5 @@
 ---
-title: Observations 10-17-19
+title: Observations 10-1-19
 date: 2019-10-17 16:30:00 -05:00
 categories:
 - observations
