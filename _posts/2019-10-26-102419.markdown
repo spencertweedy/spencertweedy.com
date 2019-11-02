@@ -5,5 +5,5 @@ categories:
 - observations
 ---
 
-- The sad, gruff harmonica player talking about wanting to sing with the blues musicians in his hometown, Lansing, Michigan, but being excluded by them (“so fucking cliquey, man”). So he moved to Illinois, “where the money is.” He already feels like the blues guys in Chicago are friendlier.
+- The bar patron talking about playing harmonica with the blues musicians in his hometown of Lansing, Michigan, but being excluded when he tries to sing with them (“so fucking cliquey, man”). So he moved to rural Illinois, “where the money is,” and he already feels like the blues guys in Chicago are friendlier.
 	- The first words he said to me: “Where’s the pisser?”
