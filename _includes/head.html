@@ -2,12 +2,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>{% if page.title %}{{ page.title | escape }} &#8942; {% endif %}{{ site.title | escape }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- LOVE & LOGIC -->
-    
+
     <!-- Social media tags -->
     {% if site.twitter %}<meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
@@ -21,9 +21,10 @@
 
     {% if site.typekit %}{% unless page.layout == 'default-observations' or page.layout == 'post' or page.layout == 'page' %}<script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>{% endunless %}{% endif %}
-    
-    {% if page.layout == 'default-observations' or page.layout == 'post' or page.layout == 'page' %}<link rel="stylesheet" href="{{ "/css/observations.normalize.min.css" | prepend: site.baseurl }}">
+
+    {% if page.layout == 'default-observations' or page.layout == 'default-observations-newsletter' or page.layout == 'post' or page.layout == 'page' %}<link rel="stylesheet" href="{{ "/css/observations.normalize.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/observations.css" | prepend: site.baseurl }}">{% else %}<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">{% endif %}
+    {% if page.layout == 'default-observations-newsletter' %}<link rel="stylesheet" href="{{ "/css/observations-newsletter.css" | prepend: site.baseurl }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
