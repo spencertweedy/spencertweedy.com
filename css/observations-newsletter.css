@@ -1,6 +1,7 @@
 body.default-observations-newsletter {
-    max-width: 500px;
-    margin: 60px auto;
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 0 28px;
 }
 
 header#site-header {
@@ -21,6 +22,13 @@ main#site-content {
   margin-top: 0;
 }
 
+main#site-content img {
+  max-width: 100%;
+  display: block;
+  margin: 2em auto;
+  border-radius: 4px;
+}
+
 article.post header {
   text-align: center;
 }
@@ -30,8 +38,14 @@ article.post header h1::after {
 }
 
 section.post-content {
-  margin-top: 60px;
+  margin-top: 40px;
   width: 100%;
+}
+
+section.post-content a.date-code {
+  font-size: 0.88em;
+  color: rgba(0,0,0,0.44);
+  text-decoration: none;
 }
 
 footer#site-footer {
