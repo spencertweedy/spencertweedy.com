@@ -342,7 +342,7 @@ footer#site-footer nav a:not(:last-of-type):after {
 
 small {
 	font-size: 0.88em;
-    color: rgba(0,0,0,0.44);
+  color: rgba(0,0,0,0.44);
 }
 
 /* Form styles */
