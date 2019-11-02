@@ -13,5 +13,8 @@ layout: default-observations-newsletter
 		{{ post.content }}
 	</section>
 
-	{% if post.image %}<aside class="post-aside"><img src="{{ post.image }}">{% if post.image_caption %}<p><small>{{ post.image_caption }}</small></p>{% endif %}</aside>{% endif %}
+	<section class="post-links">
+		<p><a href="#">Reply to me &rarr;</a><br>
+			<a href="#">Read the daily posts &rarr;</a></p>
+	</section>
 </article>{% endfor %}

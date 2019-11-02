@@ -1,3 +1,7 @@
+a {
+  text-decoration: underline;
+}
+
 body.default-observations-newsletter {
     max-width: 640px;
     margin: 40px auto;
@@ -29,6 +33,10 @@ main#site-content img {
   border-radius: 4px;
 }
 
+article.post {
+  margin-bottom: 0;
+}
+
 article.post header {
   text-align: center;
 }
@@ -42,14 +50,33 @@ section.post-content {
   width: 100%;
 }
 
+section.post-content ul li:before {
+  background-image: url("/assets/star@3x.png");
+  background-size: 10px;
+}
+
 section.post-content a.date-code {
   font-size: 0.88em;
   color: rgba(0,0,0,0.44);
   text-decoration: none;
 }
 
+section.post-links {
+  text-align: center;
+  margin-top: 40px;
+}
+
 footer#site-footer {
   text-align: center;
+  margin-top: 1em;
+}
+
+footer#site-footer a {
+  text-decoration: underline;
+}
+
+footer#site-footer p {
+  margin-bottom: 1em;
 }
 
 footer#site-footer img {
