@@ -14,7 +14,7 @@ layout: default-observations-newsletter
 	</section>
 
 	<section class="post-links">
-		<p><a href="#">Reply to me &rarr;</a><br>
-			<a href="#">Read the daily posts &rarr;</a></p>
+		<p><a href="mailto:{{ site.email }}?subject={{ post.title }}">Reply to me &rarr;</a><br>
+			<a href="{{ site.baseurl }}/observations">Read the daily posts &rarr;</a></p>
 	</section>
 </article>{% endfor %}
