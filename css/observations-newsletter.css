@@ -57,6 +57,12 @@ section.post-content {
   text-align: left;
 }
 
+section.post-content h2 {
+  display: block;
+  margin: 1em 0;
+  text-align: center;
+}
+
 /* This style and the one below it is trying to counteract 25px in main observations stylsheet… */
 section.post-content ul {
   padding-inline-start: 0;
