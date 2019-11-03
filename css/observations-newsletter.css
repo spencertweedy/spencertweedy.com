@@ -50,6 +50,9 @@ article.post header {
 article.post header h1:after {
   content: none;
   display: none;
+  height: 0;
+  margin: 0;
+  background: transparent;
 }
 
 section.post-content {
@@ -57,12 +60,8 @@ section.post-content {
   width: 100%;
 }
 
-section.post-content ul li:before {
-  content: '';
-  display: inline-block;
+body.default-observations-newsletter section.post-content ul li:before {
   position: initial;
-  height: 10px;
-  width: 10px;
   margin-left: -18px;
   margin-right: 8px;
   background-image: url("/assets/star@3x.png");
