@@ -41,7 +41,8 @@ article.post header {
   text-align: center;
 }
 
-article.post header h1::after {
+article.post header h1:after {
+  content: none;
   display: none;
 }
 
