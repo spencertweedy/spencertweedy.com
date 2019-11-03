@@ -1,9 +1,19 @@
 ---
 title: November Newsletter
-date: 2019-11-02 19:06:25.001000000 -05:00
-categories:
-- newsletter
+date: 2019-11-03 13:32:00 -06:00
 ---
+
+![photo](https://ci3.googleusercontent.com/proxy/nZTwDc_MT_IFZ-vv9bEMoHWHrUNDZnCZWh7Bv8r8NrFhfNdPxJNQb3lrXD-A6X1Cqs8=s0-d-e1-ft#https://i.imgur.com/HOmeR7v.jpg)
+
+Hi everybody,
+
+Welcome back to the Observations newsletter. If you forgot what this is or where you signed up, this is the newsletter where I (Spencer Tweedy) send the past month’s highlights from my blog, Observations, as well as upcoming shows and things I’m working on. It’s supposed to go out once a month, but it’s been so long since the last one that I graduated college since then. Oops. (I plan on sending on the first Saturday of the month from now on.) If you’re still interested in being on the list, hi, and thank you, and if you’re not, feel free to unsubscribe, no worries.
+
+Before the blog posts: in August, I announced a paperback compendium of the first full year of Observations. I took all the entries from July 17, 2018 to July 18, 2019 and edited them down into a cute little 144-page book with illustrations by Lauren Gallagher. I love it because in editing the posts, I was able to connect them in ways they aren’t connected on the blog. I also think it’s worth checking out for Lauren’s illustrations alone. I ordered 300 copies from the printer and I start shipping them on Tuesday, so if you order before then your copy will still go out in the first round of shipments!
+
+----
+
+## Chihuahua Corner
 
 - The horses running through a makeshift farm parking lot at the memorial service for my friend’s mom. 10-25
 * The just-beginning-to-turn leaves on the drive from New York City to Maine. 10-7
