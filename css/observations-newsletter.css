@@ -47,26 +47,18 @@ article.post header {
   text-align: center;
 }
 
-article.post header h1:after {
-  content: none;
-  display: none;
-  height: 0;
-  margin: 0;
-  background: transparent;
-}
+/* article.post header h1:after {
+  These styles are in main observations.css because of annoying Campaign Monitor import glitch?
+} */
 
 section.post-content {
   margin-top: 40px;
   width: 100%;
 }
 
-body.default-observations-newsletter section.post-content ul li:before {
-  position: initial;
-  margin-left: -18px;
-  margin-right: 8px;
-  background-image: url("/assets/star@3x.png");
-  background-size: 10px;
-}
+/* section.post-content ul li:before {
+  These styles are in main observations.css because of annoying Campaign Monitor import glitch?
+} */
 
 section.post-content a.date-code {
   font-size: 0.88em;
