@@ -2,6 +2,9 @@
 title: Spencer Tweedy
 timezone: America/Chicago
 collections:
+  newsletters:
+    title: Newsletters
+    output: true
   posts:
     title: Posts
     output: true
