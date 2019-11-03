@@ -20,11 +20,14 @@ Before the blog posts: in August, I announced a paperback compendium of the firs
 * The orthodox kids — payos, tzitzit, and everything — playing with garden tools and a hammer next to my relatives’ sukkah. 10-20
 * The cashier at the corner store insisting I look exactly like Barry Manilow. 10-28
 
+----
+
 * Playing catch in the park with Andrew, Adam, and Hugh. 10-28
 * Going to the batting cages with Casey (at the Bunny Hutch Novelty Golf, for Chicagoans — go keep them open!). 10-9
 * Popping washed-up kelp pods on the beach in Santa Barbara. 10-4
 * Installing a new car battery with Mom on Instagram Live. 10-16
 * Walking with Mom and her Team Susan Miller Tweedy at the Light the Night Walk for Leukemia & Lymphoma Society. 10-19
+
 
 * The sold-out Cosmic Country Showcase at the Hideout. 10-25
 * Playing drums as Doug Clifford in Casey’s Creedence Clearwater Revival Halloween cover band. 10-29
