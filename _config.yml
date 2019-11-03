@@ -4,7 +4,7 @@ timezone: America/Chicago
 collections:
   newsletters:
     title: Newsletters
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
