@@ -3,6 +3,12 @@ a {
 }
 
 body.default-observations-newsletter {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div#page-wrapper {
     max-width: 640px;
     margin: 40px auto;
     padding: 0 28px;
@@ -52,6 +58,13 @@ section.post-content {
 }
 
 section.post-content ul li:before {
+  content: '';
+  display: inline-block;
+  position: initial;
+  height: 10px;
+  width: 10px;
+  margin-left: -18px;
+  margin-right: 8px;
   background-image: url("/assets/star@3x.png");
   background-size: 10px;
 }
