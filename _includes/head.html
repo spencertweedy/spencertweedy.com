@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.layout == 'default-observations-newsletter' %}<meta name="robots" content="noindex, nofollow">{% endif %}
 
     <title>{% if page.title %}{{ page.title | escape }} &#8942; {% endif %}{{ site.title | escape }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
