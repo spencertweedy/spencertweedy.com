@@ -57,7 +57,7 @@ section.post-content {
   text-align: left;
 }
 
-section.post-content ul {
+section.post-content > ul {
   padding-inline-start: 0;
 }
 
