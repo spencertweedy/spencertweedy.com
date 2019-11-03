@@ -7,7 +7,7 @@ date: 2019-11-03 13:32:00 -06:00
 
 Hi!
 
-Here’s the November edition of the Observations newsletter. If you’re new since last time, or forgot, this is the newsletter where I round up my favorite posts from <a href="https://spencertweedy.com/observations">Observations</a>, my daily list blog. (If you’re not interested anymore, <unsubscribe>unsubscribe here</unsubscribe>, no problem.)
+Here’s the November edition of Observations, my monthly roundup of favorite posts from <a href="https://spencertweedy.com/observations">my daily list blog</a>. (If you’re not interested anymore, no problem  — <unsubscribe>unsubscribe instantly</unsubscribe>.)
 
 I’m trying out a custom design this month, to match the website. If it looks weird in your email viewer, or if you find the new format annoying, please <a href="mailto:spencer@penguinmail.com?subject=Newsletter design">let me know</a> so I can adjust it.
 
@@ -15,7 +15,7 @@ Also: the <a href="https://observations.website/">Observations: Year One</a> pap
 
 And thank you for reading. Here’s the roundup.
 
-# Last Month
+## Last Month
 
 * The horses running through a makeshift farm parking lot at the memorial service for my friend’s mom. <a class="date-code" href="https://spencertweedy.com/observations/102519.html">10-25</a>
 * The just-beginning-to-turn leaves on the drive from New York City to Maine. <a class="date-code" href="https://spencertweedy.com/observations/100719.html">10-7</a>
@@ -34,11 +34,11 @@ And thank you for reading. Here’s the roundup.
 * The sold-out Cosmic Country Showcase at the Hideout. <a class="date-code" href="https://spencertweedy.com/observations/102519.html">10-25</a>
 * Playing drums as Doug Clifford in Casey’s Creedence Clearwater Revival Halloween cover band. <a class="date-code" href="https://spencertweedy.com/observations/102919.html">10-29</a>
 * Liam’s beautiful duet with Andrew Sa at the Hungry Brain. <a class="date-code" href="https://spencertweedy.com/observations/102619.html">10-26</a>
-* Tim Daisy’s amazing drumming. <a class="date-code" href="https://spencertweedy.com/observations/102019.html">10-20</a>
+* Tim Daisy’s super clear, amazing drumming. <a class="date-code" href="https://spencertweedy.com/observations/102019.html">10-20</a>
 
 ---
 
-* Our bizarrely wintery, snowy Halloween in Chicago. <a class="date-code" href="https://spencertweedy.com/observations/103119.html">10-31</a>
+* Our snowy Halloween in Chicago. <a class="date-code" href="https://spencertweedy.com/observations/103119.html">10-31</a>
 	* Hanging around a fire pit (which Mom masterfully lit) and handing out candy to trick-or-treaters with Mom, Casey, and Basil, who was wrapped in many blanket layers.
 	* The big tree limb that fell into the street from the weight of snow, thankfully on no one and no cars.
 * The type of knowledge that you can only find out in a Sim City-type setting: how many bugs you’ve ever unknowingly eaten, how many hours you’ve ever slept, the number of people who’ve stepped on a particular one-inch square, etcetera. I like imagining movie montages that reveal that type of info. <a class="date-code" href="https://spencertweedy.com/observations/103019.html">10-30</a>
@@ -49,7 +49,7 @@ And thank you for reading. Here’s the roundup.
 * The surprisingly poignant disposable camera photos of a 1998 furry convention on Flickr. <a class="date-code" href="https://spencertweedy.com/observations/102119.html">10-21</a>
 * The full-grown coyote at the end of our block. <a class="date-code" href="https://spencertweedy.com/observations/102319.html">10-23</a>
 
----
+## ❇
 
 If you want to read the rest of the daily posts, <a href="https://spencertweedy.com/observations">those are here</a>, and if you want to send me a message about this edition, you can <a href="mailto:spencer@penguinmail.com?subject=November 2019">email me here</a>.
 
