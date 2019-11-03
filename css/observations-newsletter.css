@@ -76,14 +76,9 @@ section.post-content a.date-code {
   text-decoration: none;
 }
 
-section.post-links {
-  text-align: center;
-  margin-top: 40px;
-}
-
 footer#site-footer {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 40px;
 }
 
 footer#site-footer a {
