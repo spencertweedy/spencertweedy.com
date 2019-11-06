@@ -371,14 +371,16 @@ input[type="text"], input[type="email"] {
 	border: 2px solid #222;
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
+  line-height: 1.35rem;
 }
 
-input[type="submit"] {
+input[type="submit"], button[type="submit"] {
 	background-color: #222;
 	color: #fff;
 	border: 2px solid #222;
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
+  line-height: 1.35rem;
 }
 
 /* Animations */
@@ -491,7 +493,7 @@ input[type="submit"] {
     	box-sizing: border-box;
     }
 
-    input[type="submit"] {
+    input[type="submit"], button[type="submit"] {
     	display: block;
     	width: 100%;
     	box-sizing: border-box;

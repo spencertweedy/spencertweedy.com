@@ -1,12 +1,6 @@
-{% if site.buttondown %}<form
-  action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown }}"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/{{ site.buttondown }}', 'popupwindow')"
-  class="embeddable-buttondown-form subscribe-form"
->
-	<label for="bd-email" class="visuallyhidden">Enter your email address</label>
-	<input type="email" name="email" id="bd-email" aria-label="Enter your email address" placeholder="Your email address">
-	<input type="hidden" value="1" name="embed">
-	<input type="submit" value="Subscribe">
-</form>{% endif %}
+<form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E90561964B37F7B90B8406CFAF31D9BBFA664D3207AE8D9BED23C099B373E6D2DEEB68DF6BB06EBE4DA90873CDA29F28ACF886E">
+  <label for="fieldEmail" class="visuallyhidden">Enter your email address</label>
+  <input aria-label="Email" class="js-cm-email-input" id="fieldEmail" maxlength="200" name="cm-gjjdri-gjjdri" required="" type="email" placeholder="Your email address">
+  <button type="submit">Subscribe</button>
+</form>
+<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
