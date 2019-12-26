@@ -2,19 +2,14 @@
 layout: default
 ---
 
-<p>Hi! My name is Spencer.</p>
-<p>I play drums and make records in Chicago. Most recently, I've worked on
-    {% assign releases = site.releases | sort:"year" | reverse %}
-    {% for release in releases limit:3 %}
-		{% if forloop.last == true %}
-			and
-		{% endif %}
-		<span><a href="{{ release.listen }}" style="color:{{ release.color }}; border-color:{{ release.color }};"><em>{{ release.title }}</em></a>{% if release.artist %} by {{ release.artist | replace: "Jeff Tweedy", "my dad" | replace: "Spencer Tweedy", "me" }}{% endif %}</span>{% unless forloop.last == true %}, {% endunless %}
-	{%- endfor -%}.
-    Here's a <a href="{{ site.baseurl }}{% link releases.html %}">full list</a> of the records I've helped make.
-</p>
-<p>I write, mostly for my blog, <a href="{{ site.baseurl }}/observations" class="with-icon observations-link">Observations</a>. And I design stuff, mostly for my company, <a href="https://fjordaudio.com/" class="with-icon fjord-link">Fjord Audio</a>.</p>
-<p>I want to do some politicky, people-helpy work. I also want to learn more about woodworking.</p>
-<p>Here's how to <a href="{{ site.baseurl }}{% link contact.html %}">contact me</a>. And here's where to sign up for my <a href="{{ site.baseurl }}{% link observations/subscribe.html %}">monthly newsletter</a>.</p>
-<p>Thanks for coming here 😭 ❤️<br>
-Spencer</p>
+<p>Hi! I play drums and <a href="{{ site.baseurl }}{% link releases.html %}">help make records</a> in Chicago.</p>
+<p>I have two EPs out:
+  {% assign my_releases = site.releases | where: "artist","Spencer Tweedy" | sort:"year" | reverse %}
+  {% for release in my_releases limit:2 %}
+    <span><a href="{{ release.listen }}" style="color:{{ release.color }}; border-color:{{ release.color }};"><em>{{ release.title }}</em></a></span>{% unless forloop.last == true %} and {% endunless %}
+  {%- endfor -%}.
+I write a daily blog called <a href="{{ site.baseurl }}/observations" class="with-icon observations-link">Observations</a>. And I run a tiny audio equipment company called <a href="https://fjordaudio.com/" class="with-icon fjord-link">Fjord Audio</a>.</p>
+<p>If you want, you can <a href="{{ site.baseurl }}{% link observations/subscribe.html %}">sign up</a> for my once-a-month newsletter.</p>
+<p>Thank you ☺&#xFE0E;</p>
+<p>Spencer<br>
+<a href="mailto:spencer@penguinmail.com">spencer@penguinmail.com</a></p>
