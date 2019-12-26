@@ -91,6 +91,11 @@ a {
     text-decoration: none;
 }
 
+a:focus { /* For accessibility */
+  outline: 4px solid hsl(87, 47%, 52%);
+  outline-offset: 4px;
+}
+
 a:hover {
     text-decoration: underline;
 }
