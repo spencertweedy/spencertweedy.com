@@ -5,4 +5,4 @@ categories:
 - observations
 ---
 
-- Sleeping with an external hard drive purring on my desk.
+- Sleeping with an external hard drive purring on my desk, backing up.
