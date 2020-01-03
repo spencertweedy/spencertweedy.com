@@ -1,8 +1,7 @@
 ---
 title: January 2020
 date: 2020-01-03 13:49:00 -06:00
-categories:
-- observations
+layout: default-observations-newsletter
 ---
 
 ![A Christmas tree backstage at the Chicago Theater.](/uploads/IMG_0889-squashed.jpg)
