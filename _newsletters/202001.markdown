@@ -1,24 +1,25 @@
 ---
 title: January 2020
 date: 2020-01-03 13:49:00 -06:00
-published: false
 ---
 
 ![A Christmas tree backstage at the Chicago Theater.](/uploads/IMG_0889-squashed.jpg)
 
 Hi everybody,
 
-This is a quick newsletter to say hi and happy New Year. I skipped the December newsletter, so in case you’ve forgotten, I’m [Spencer Tweedy](https://spencertweedy.com/), and this is the once-a-month roundup of posts from my blog, [Observations](https://spencertweedy.com/observations). If you want to leave the list for any reason, unsubscribe here, no problem.
+This is a quick newsletter to say hi and happy New Year. I skipped the December newsletter, so in case you’ve forgotten, I’m [Spencer Tweedy](https://spencertweedy.com/), and this is the once-a-month roundup of posts from my blog, [Observations](https://spencertweedy.com/observations). If you want to leave the list for any reason, <unsubscribe>unsubscribe here</unsubscribe>, no problem.
 
-I wanted to say thank you for reading Observations in 2019. Writing the blog, this newsletter, and self-publishing the first Observations book were some of my favorite things last year and I’m really grateful to all of you for reading, facilitating, making it feel worthwhile. I’m looking forward to lots more in 2020. I want to stick to this newsletter — the first Friday of the month (instead of Saturday), once a month, under five minutes to read. If you have other hankerings or ideas for the newsletter, please let me know.
+I wanted to say thank you for reading Observations in 2019. Writing the blog, this newsletter, and self-publishing the first Observations book were some of my favorite things last year and I’m really grateful to all of you for reading, facilitating, making it feel worthwhile. I’m looking forward to lots more in 2020.
 
-The Year One book is sold out online, but there are still eight or so copies at the non-profit Secret Agent Supply Store in Chicago. I highly recommend visiting them, if not to buy Observations, then to see their other gifts and support the work that their parent, 826CHI, does for Chicago kids.
-
-BUTTON
+The [Year One](https://observations.website/) book is sold out online, but there are still eight or so copies at the non-profit [Secret Agent Supply](https://secretagentsupply.com/) in Chicago. I highly recommend visiting them, if not to buy Observations, then to see their other gifts and support the work that their parent, 826CHI, does for Chicago kids.
 
 Thank you again and I hope your holidays are as fun and as stressless as they can be. ❤️
 
 Spencer
+
+***
+
+## Observations
 
 - The dump truck with a bunch of rubber flaps strung beneath it, like scales on a centipede’s underbelly. [11-18]
 - The Orthodox Jewish man (with tzitzi) at a bar, dancing to house music, clapping on the downbeats. [11-30]
@@ -41,5 +42,5 @@ Spencer
 - The Christmas tree in the corner backstage, spooky-looking and beautiful. [12-18]
 - Playing in Sima Cunningham’s Aux Thom New Year’s Eve party at Constellation. The funnest. [12-31]
 
-reply
-browse the archive
+[Reply to me &rarr;](mailto:spencer@penguinmail.com?subject=Observations January 2020)
+[Browse the archive &rarr;](https://spencertweedy.com/observations/archive)
