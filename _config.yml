@@ -5,6 +5,7 @@ collections:
   newsletters:
     title: Newsletters
     output: true
+    permalink: /observations/newsletters/:title:output_ext
   posts:
     title: Posts
     output: true
@@ -24,8 +25,8 @@ defaults:
     type: posts
   values:
     layout: post
-    image: 
-    image_caption: 
+    image:
+    image_caption:
 - scope:
     path: ''
     type: releases
@@ -38,10 +39,15 @@ defaults:
     role: ''
     is_single: ''
     is_featured: ''
+- scope:
+    path: ''
+    type: newsletters
+  values:
+    layout: "obs-newsletter"
 email: spencer@penguinmail.com
 description: Hi! I play drums.
 author: Spencer Tweedy
-baseurl: 
+baseurl:
 url: https://spencertweedy.com
 twitter: spencertweedy
 facebook: spencertweedy
