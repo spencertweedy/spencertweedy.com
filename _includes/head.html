@@ -20,7 +20,7 @@
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
 
-    {% if site.typekit %}{% unless page.layout == 'default-observations' or page.layout == 'post' or page.layout == 'page' or page.layout == 'default-observations-newsletter' %}<script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
+    {% if site.typekit %}{% unless page.layout == 'default-observations' or page.layout == 'post' or page.layout == 'page' or page.layout == 'default-observations-newsletter' or page.layout == 'obs-newsletter' %}<script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>{% endunless %}{% endif %}
 
     {% if page.layout == 'default-observations' or page.layout == 'default-observations-newsletter' or page.layout == 'post' or page.layout == 'page' or page.layout == 'obs-newsletter' %}<link rel="stylesheet" href="{{ "/css/observations.normalize.min.css" | prepend: site.baseurl }}">
