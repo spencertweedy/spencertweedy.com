@@ -234,7 +234,8 @@ article.post header h1:after {
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
-body.default-observations-newsletter article.post header h1:after {
+body.default-observations-newsletter article.post header h1:after,
+body.obs-newsletter article.post header h1:after {
   content: none;
   display: none;
   height: 0;
@@ -298,7 +299,8 @@ section.post-content ul li:before {
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
-body.default-observations-newsletter section.post-content ul li:before {
+body.default-observations-newsletter section.post-content ul li:before,
+body.obs-newsletter section.post-content ul li:before {
   position: initial;
   margin-left: -18px;
   margin-right: 8px;

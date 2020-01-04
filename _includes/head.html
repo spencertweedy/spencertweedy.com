@@ -23,9 +23,9 @@
     {% if site.typekit %}{% unless page.layout == 'default-observations' or page.layout == 'post' or page.layout == 'page' or page.layout == 'default-observations-newsletter' %}<script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>{% endunless %}{% endif %}
 
-    {% if page.layout == 'default-observations' or page.layout == 'default-observations-newsletter' or page.layout == 'post' or page.layout == 'page' %}<link rel="stylesheet" href="{{ "/css/observations.normalize.min.css" | prepend: site.baseurl }}">
+    {% if page.layout == 'default-observations' or page.layout == 'default-observations-newsletter' or page.layout == 'post' or page.layout == 'page' or page.layout == 'obs-newsletter' %}<link rel="stylesheet" href="{{ "/css/observations.normalize.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/observations.css" | prepend: site.baseurl }}">{% else %}<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">{% endif %}
-    {% if page.layout == 'default-observations-newsletter' %}<link rel="stylesheet" href="{{ "/css/observations-newsletter.css" | prepend: site.baseurl }}">{% endif %}
+    {% if page.layout == 'default-observations-newsletter' or page.layout == 'obs-newsletter' %}<link rel="stylesheet" href="{{ "/css/observations-newsletter.css" | prepend: site.baseurl }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
