@@ -1,0 +1,8 @@
+---
+title: Observations 1-13-20
+date: 2020-02-16 11:58:00 -06:00
+categories:
+- observations
+---
+
+- A mountain to move: getting everyone to back up their data and switch to persistent file formats [a la [12-17-18](https://spencertweedy.com/observations/121718.html)].
