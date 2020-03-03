@@ -58,6 +58,6 @@ cover_photo_credit:
 locale: Chicago, IL
 github_repo: https://github.com/spencertweedy/spencertweedy.github.io
 markdown: kramdown
-permalink: none
+permalink: /:categories/:title/
 include:
   - _redirects
