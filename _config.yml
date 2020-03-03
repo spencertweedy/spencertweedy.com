@@ -2,6 +2,10 @@
 title: Spencer Tweedy
 timezone: America/Chicago
 collections:
+  observations:
+    title: Observations
+    output: true
+    permalink: "/observations/:title/"
   newsletters:
     title: Newsletters
     output: true
