@@ -2,17 +2,21 @@ backend:
   name: git-gateway
 media_folder: "content/_uploads" # Tells Netlify CMS where to read/write uploads in the source folder
 public_folder: "/uploads" # Tells Netlify CMS where to read uploads in the ouput folder
+display_url: https://spencertweedy.com # Used in the UI
+logo_url: https://spencertweedy.com/assets/observations.svg
 # Define collections (must manually keep up-to-date with site generator config)
 collections:
   - name: "observations" # Used in routes, e.g., /admin/collections/blog
     label: "Observations" # Used in the UI
+    label_singular: "Observations Post" # Used in the UI
     folder: "content/_observations" # The path to the folder where the documents are stored
+    editor:
+      preview: false # Because Netlify CMS has poor Liquid support
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", default: "Observations M-D-YY"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image caption", name: "image_caption", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
