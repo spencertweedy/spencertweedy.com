@@ -1,6 +1,9 @@
 # This is the file that defines all the page redirects for Netlify.
 # It has nothing to do with the static site generator.
 
+# Netlify CMS admin fails if trailing slash isn't included, so…
+/admin    /admin/
+
 # Redirecting the old Tumblr posts.
 # If I use a /post/:id/:slug scheme again in the future, this rule will conflict with it.
 /post/:id/:slug    https://tumblr.spencertweedy.com/post/:id/:slug
