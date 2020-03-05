@@ -2,14 +2,14 @@
 title: Spencer Tweedy
 timezone: America/Chicago
 collections:
-  observations:
-    title: Observations
-    output: true
-    permalink: "/observations/:title/"
   newsletters:
     title: Newsletters
     output: true
     permalink: "/observations/newsletters/:title:output_ext"
+  observations:
+    title: Observations
+    output: true
+    permalink: "/observations/:title/"
   posts:
     title: Posts
     output: true
@@ -20,41 +20,41 @@ collections:
   uploads:
     title: Uploads
     output: true
-collections_dir: content
 defaults:
-  - scope:
-      path: ""
-      type: "observations"
-    values:
-      layout: "post"
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-      image:
-      image_caption:
-  - scope:
-      path: ''
-      type: releases
-    values:
-      artist: ''
-      year: ''
-      color: ''
-      listen: ''
-      image: ''
-      role: ''
-      is_single: ''
-      is_featured: ''
-  - scope:
-      path: ''
-      type: newsletters
-    values:
-      layout: obs-newsletter
+- scope:
+    path: ''
+    type: observations
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    image: 
+    image_caption: 
+- scope:
+    path: ''
+    type: releases
+  values:
+    artist: ''
+    year: ''
+    color: ''
+    listen: ''
+    image: ''
+    role: ''
+    is_single: ''
+    is_featured: ''
+- scope:
+    path: ''
+    type: newsletters
+  values:
+    layout: obs-newsletter
+collections_dir: content
 email: spencer@penguinmail.com
 description: Hi! I play drums.
 author: Spencer Tweedy
-baseurl:
+baseurl: 
 url: https://spencertweedy.com
 twitter: spencertweedy
 facebook: spencertweedy
@@ -68,6 +68,6 @@ cover_photo_credit:
 locale: Chicago, IL
 github_repo: https://github.com/spencertweedy/spencertweedy.github.io
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: "/:categories/:title/"
 include:
-  - _redirects
+- _redirects
