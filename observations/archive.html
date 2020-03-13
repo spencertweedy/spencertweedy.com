@@ -5,12 +5,12 @@ layout: page
 ---
 
 <p>Working on a better, more useful archive page! In the meantime…</p>
-<p>Newest: <a href="{{ site.observations.first.url }}">{{ site.observations.first.title | slice: 13, 8 }}</a><br>
-Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.last.title | slice: 13, 8 }}</a></p>
+<p>Newest: <a href="{{ site.observations.first.url }}">{{ site.observations.last.title | slice: 13, 8 }}</a><br>
+Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.title | slice: 13, 8 }}</a></p>
 <p>Post count: {{ site.observations | size }}</p>
 <hr>
 <ul>
-  {% for post in site.observations %}
+  {% for post in site.observations reversed %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
