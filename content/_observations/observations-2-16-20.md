@@ -1,0 +1,8 @@
+---
+layout: post
+title: Observations 2-16-20
+date: 2020-03-13T21:21:43.426Z
+---
+- Noticing that a building in my neighborhood, which had always been a dismal cube with no windows, is being renovated and they cut big windows into it.
+- Parneshia Jones’s beautiful poem “2020: The Day After.”
+- The phrase “morning trucksong” from a poem by Billy Lombardo.
