@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
 
-    <!-- Define page title and description -->
     <title>{% if page.title %}{{ page.title | escape }} &#8942; {% endif %}{{ site.title | escape }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
@@ -13,26 +12,24 @@
         ~~~~~~~~~~~~
     -->
 
-    <!-- Define viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Define viewport -->
 
-    <!-- Link favicon and Apple icon -->
-    <link rel="icon" type="image/x-icon" href="{% link favicon.ico %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% link apple-touch-icon.png %}">
+    <link rel="icon" type="image/x-icon" href="{% link favicon.ico %}"><!-- Link favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% link apple-touch-icon.png %}"><!-- Link Apple icon -->
 
-    <!-- Import Adobe Fonts -->
-    {% if site.typekit and page.layout == 'default' %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
+    {% if site.typekit and page.layout == 'default' %}
+        <link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css"><!-- Import Adobe Fonts (Typekit) -->
+    {% endif %}
 
-    <!-- Import stylesheets -->
-    {% if page.layout contains 'obs' %}<link rel="stylesheet" href="{% link css/observations.normalize.min.css %}">
-    <link rel="stylesheet" href="{% link css/observations.css %}">
-    {% else %}<link rel="stylesheet" href="{% link css/main.scss %}">{% endif %}
+    {% if page.layout contains 'obs' %}
+        <link rel="stylesheet" href="{% link css/observations.normalize.min.css %}"><!-- Import CSS -->
+        <link rel="stylesheet" href="{% link css/observations.css %}"><!-- Import CSS -->
+    {% else %}
+        <link rel="stylesheet" href="{% link css/main.scss %}"><!-- Import CSS -->
+    {% endif %}
 
-    <!-- Link RSS feed -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}">
-
-    <!-- Define canonical URL -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}"><!-- Link RSS feed -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"><!-- Define canonical URL -->
 
     <!-- Social media tags -->
     {% if site.twitter %}<meta name="twitter:card" content="summary_large_image">
