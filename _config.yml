@@ -71,3 +71,5 @@ markdown: kramdown
 permalink: "/:categories/:title/"
 include:
 - _redirects
+jekyll_tidy:
+  compress_html: false
