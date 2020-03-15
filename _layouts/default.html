@@ -17,14 +17,11 @@
     <link rel="icon" type="image/x-icon" href="{% link favicon.ico %}"><!-- Link favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{% link apple-touch-icon.png %}"><!-- Link Apple icon -->
 
-    {% if site.typekit and page.layout == 'default' %}
-        <link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css"><!-- Import Adobe Fonts (Typekit) -->
-    {% endif %}
-
     {% if page.layout contains 'obs' %}
         <link rel="stylesheet" href="{% link css/observations.normalize.min.css %}"><!-- Import CSS -->
         <link rel="stylesheet" href="{% link css/observations.css %}"><!-- Import CSS -->
     {% else %}
+        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css"><!-- Import Adobe Fonts (Typekit) -->{% endif %}
         <link rel="stylesheet" href="{% link css/main.scss %}"><!-- Import CSS -->
     {% endif %}
 
