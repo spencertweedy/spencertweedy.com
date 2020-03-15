@@ -36,7 +36,4 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 
-### Netlify ###
-.netlify/
-
 # End of https://www.gitignore.io/api/macos
