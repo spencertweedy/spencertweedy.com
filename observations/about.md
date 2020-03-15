@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/observations/about"
-layout: page
+layout: obs-page
 ---
 
 ## Observations is a daily blog published on a not-so-daily basis by [Spencer Tweedy](https://spencertweedy.com/).
