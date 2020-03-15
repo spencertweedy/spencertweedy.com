@@ -51,10 +51,16 @@
 
 <body class="{{ page.layout }}">
 	<div id="wrapper">
-{% include header.html %}{% comment %} No indentation in order to preserve HTML indent hierarchy {% endcomment %}
+		{% if page.layout == 'default' and site.cover_photo_path %}<div id="cover-photo-container">
+			<div id="cover-photo"><img src="{{ site.cover_photo_path }}"></div>
+		</div>{% endif %}
+
+		<header id="site-header">
+		    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+		</header>
 
 		<main id="site-content">
-{{ content }}
+{{ content }}{% comment %} No indentation in order to preserve HTML hierarchy {% endcomment %}
 		</main>
 
 		<footer id="site-footer">
