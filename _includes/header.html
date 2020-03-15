@@ -1,9 +1,7 @@
-{% if page.layout == 'default' %}
-<div id="cover-photo-container">
-	<div id="cover-photo"><img src="{{ site.cover_photo_path }}" /></div>
-</div>
-{% endif %}
+		{% if page.layout == 'default' and site.cover_photo_path %}<div id="cover-photo-container">
+			<div id="cover-photo"><img src="{{ site.cover_photo_path }}"></div>
+		</div>{% endif %}
 
-<header id="site-header">
-    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-</header>
+		<header id="site-header">
+		    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+		</header>
