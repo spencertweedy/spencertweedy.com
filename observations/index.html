@@ -5,18 +5,27 @@ layout: obs
 ---
 
 {% assign observations = site.observations | reverse %}
-{% for post in observations limit:30 %}<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<header class="post-header">
-		<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-	</header>
+{% for post in observations limit:30 %}
+	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+		<header class="post-header">
+			<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+		</header>
 
-	<section class="post-content">
-		{{ post.content }}
-	</section>
+		<section class="post-content">
+			{{ post.content }}
+		</section>
 
-	{% if post.image %}<aside class="post-aside"><img src="{{ post.image }}">{% if post.image_caption %}<p><small>{{ post.image_caption }}</small></p>{% endif %}</aside>{% endif %}
+		{% if post.image %}
+			<aside class="post-aside">
+				<img src="{{ post.image }}">
+				{% if post.image_caption %}
+					<p><small>{{ post.image_caption }}</small></p>
+				{% endif %}
+			</aside>
+		{% endif %}
 
-	<footer class="post-footer">
-		<small><a href="{{ post.url | prepend: site.baseurl }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a> &bull; <a href="mailto:spencer@penguinmail.com?Subject={{ post.title }}">Reply</a></small>
-	</footer>
-</article>{% endfor %}
+		<footer class="post-footer">
+			<small><a href="{{ post.url | prepend: site.baseurl }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a> &bull; <a href="mailto:spencer@penguinmail.com?Subject={{ post.title }}">Reply</a></small>
+		</footer>
+	</article>
+{% endfor %}
