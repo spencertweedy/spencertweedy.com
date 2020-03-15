@@ -92,10 +92,6 @@ main {
     padding: 0 20px;
 }
 
-body.post main, body.page main {
-    max-width: 500px;
-}
-
 footer {
     @extend main;
     margin: 1rem auto 10vh;
