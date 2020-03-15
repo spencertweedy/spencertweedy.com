@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p>Hi! I play drums and <a href="{{ site.baseurl }}{% link releases.html %}">help make records</a> in Chicago.</p>
+<p>Hi! I play drums and <a href="{{ site.baseurl }}{% link pages/releases.html %}">help make records</a> in Chicago.</p>
 <p>I have two EPs out:
   {% assign my_releases = site.releases | where: "artist","Spencer Tweedy" | sort:"year" | reverse %}
   {% for release in my_releases limit:2 %}
