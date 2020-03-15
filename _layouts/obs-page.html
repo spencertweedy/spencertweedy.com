@@ -14,6 +14,10 @@ layout: obs
 	{% if page.image %}
 		<aside class="post-aside">
 			<img src="{{ page.image }}">
+
+			{% if page.image_caption %}
+				<p><small>{{ page.image_caption }}</small></p>
+			{% endif %}
 		</aside>
 	{% endif %}
 </article>
