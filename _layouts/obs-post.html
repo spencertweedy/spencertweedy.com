@@ -1,0 +1,19 @@
+---
+layout: default-observations
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-header">
+		<h1>{{ page.title }}</h1>
+	</header>
+
+	<section class="post-content">
+		{{ page.content }}
+	</section>
+	
+	{% if page.image %}<aside class="post-aside"><img src="{{ page.image }}">{% if page.image_caption %}<p><small>{{ page.image_caption }}</small></p>{% endif %}</aside>{% endif %}
+
+	<footer class="post-footer">
+		<small>Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m-%-d-%y" }}</time> &bull; <a href="mailto:spencer@penguinmail.com?Subject={{ page.title }}">Reply</a>{% if page.next != nil %} &bull; <a href="{{ page.next.url }}">Next post</a>{% endif %}{% if page.previous != nil %} &bull; <a href="{{ page.previous.url }}">Previous post</a>{% endif %}</small>
+	</footer>
+</article>
