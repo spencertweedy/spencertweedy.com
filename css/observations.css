@@ -82,7 +82,7 @@ body {
     background-color: #fff;
 }
 
-body.default-observations {
+body.obs {
     animation: pageStart 0.25s; /* Animate only on observations home */
 }
 
