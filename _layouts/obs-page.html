@@ -11,5 +11,9 @@ layout: obs
 		{{ content }}
 	</section>
 	
-	{% if page.image %}<aside class="post-aside"><img src="{{ page.image }}"></aside>{% endif %}
+	{% if page.image %}
+		<aside class="post-aside">
+			<img src="{{ page.image }}">
+		</aside>
+	{% endif %}
 </article>
