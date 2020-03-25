@@ -20,3 +20,21 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Image caption", name: "image_caption", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+  - name: "releases" # Used in routes, e.g., /admin/collections/blog
+    label: "Releases" # Used in the UI
+    label_singular: "Release" # Used in the UI
+    folder: "content/_releases" # The path to the folder where the documents are stored
+    editor:
+      preview: false # Because Netlify CMS has poor Liquid support
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Artist", name: "artist", widget: "string"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Color", name: "color", widget: "string"}
+      - {label: "Listen URL", name: "listen", widget: "string", required: false}
+      - {label: "Role", name: "role", widget: "string", required: false}
+      - {label: "Is it a single?", name: "is_single", widget: "boolean", default: false}
+      - {label: "Feature it?", name: "is_featured", widget: "boolean", default: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
