@@ -64,36 +64,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ----------------
+   Generic elements
+   ---------------- */
+
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+  --text-color: hsl(0, 0%, 23%);
+  --background-color: white;
+
+  font-size: 1.125em;
+  line-height: 1.8em;
+  font-family: "jaf-facitweb", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: var(--text-color);
+  color: var(--background-color);
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: var(--text-color);
+  color: var(--background-color);
   text-shadow: none;
-}
-
-/* Page parts */
-
-html {
-    font-size: 18px;
-    line-height: 1.8em;
-    font-family: "jaf-facitweb", sans-serif;
-}
-
-body {
-    font-size: inherit;
-    line-height: inherit;
-    font-family: inherit;
-    background: #fff;
-    color: #3a3a3a;
 }
 
 #wrapper {
@@ -317,11 +312,6 @@ article ul li {
 
 article ol li {
     list-style: decimal;
-}
-
-::selection {
-    background-color: gold;
-    color: black;
 }
 
 /* Homepage styles */
