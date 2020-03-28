@@ -19,7 +19,6 @@
 
     <link rel="stylesheet" href="{% link assets/css/normalize.css %}"><!-- Import CSS -->
     {% if page.layout contains 'obs' %}
-        <link rel="stylesheet" href="{% link assets/css/observations.normalize.min.css %}"><!-- Import CSS -->
         <link rel="stylesheet" href="{% link assets/css/observations.css %}"><!-- Import CSS -->
     {% else %}
         {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css"><!-- Import Adobe Fonts (Typekit) -->{% endif %}
