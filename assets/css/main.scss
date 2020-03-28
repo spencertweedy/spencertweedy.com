@@ -1,6 +1,10 @@
 ---
 ---
 
+/* The front matter indicators above are there so that Jekyll
+ * processes this Sass into CSS
+ */
+
 /* Credit to HTML5 Boilerplate v7.3.0 (main.css 2.0.0) for
  * the opinionated defaults, helper classes, and print styles
  * https://github.com/h5bp/main.css
@@ -75,10 +79,6 @@ html {
   background: #b3d4fc;
   text-shadow: none;
 }
-
-
-
-
 
 /* Page parts */
 
