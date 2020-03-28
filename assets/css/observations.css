@@ -290,7 +290,7 @@ section.post-content ul, section.post-content ol {
 }
 
 section.post-content ul {
-  list-style-type: none;
+  list-style-image: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='black' fill-rule='nonzero'/></svg>");
 }
 
 section.post-content > ul {
@@ -300,19 +300,6 @@ section.post-content > ul {
 section.post-content li {
   margin: 1em 0;
   padding: 0;
-  position: relative;
-}
-
-section.post-content ul li:before {
-  content: ''; /* Required in order for element to display */
-  display: inline-block;
-  position: absolute;
-  height: 0.625rem;
-  width: 0.625rem;
-  background-size: cover;
-  background-image: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='black' fill-rule='nonzero'/></svg>");
-  left: -1.5625rem;
-  top: 0.3125rem;
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
