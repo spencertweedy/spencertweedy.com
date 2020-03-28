@@ -1,30 +1,16 @@
 /* Credit to HTML5 Boilerplate v5.0 (main.css 2.0.0) for some styles */
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-::-moz-selection {
-    background: #222;
-    color: #fff;
-    text-shadow: none;
-}
-
-::selection {
-    background: #222;
-    color: #fff;
-    text-shadow: none;
-}
+/* --------------------------------------
+   HTML5 Boilerplate opinionated defaults
+   -------------------------------------- */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1.5em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1.5em 0;
+  padding: 0;
 }
 
 audio,
@@ -33,62 +19,64 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* -----
+   Fonts
+   ----- */
 
 @font-face {
-    font-family: 'ISO';
-    src:  url('/assets/font/ISOv0.5-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'ISO';
+  src:  url('/assets/font/ISOv0.5-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'ISO';
-    src:  url('/assets/font/ISOv0.5-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'ISO';
+  src:  url('/assets/font/ISOv0.5-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ----------------
+   Generic elements
+   ---------------- */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 body {
-    font-family: 'ISO', monospace, sans-serif;
-    margin: 90px 160px;
-    font-size: 17px;
-    line-height: 1.35em;
-    background-color: #fff;
+  font-family: 'ISO', monospace, sans-serif;
+  margin: 90px 160px;
+  font-size: 17px;
+  line-height: 1.35em;
+  background-color: #fff;
 }
 
 body.obs {
-    animation: pageStart 0.25s; /* Animate only on observations home */
+  animation: pageStart 0.25s; /* Animate only on observations home */
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 a:focus { /* For accessibility */
@@ -97,37 +85,37 @@ a:focus { /* For accessibility */
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 header#site-header {
-    position: relative;
+  position: relative;
 }
 
 header#site-header h1 {
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 38px; /*Make relative*/
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 38px; /*Make relative*/
 }
 
 header#site-header h1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header#site-header svg.site-logo {
-    position: absolute;
-    left: -78px;
-    top: -15px;
-    animation: rotate 30s linear infinite;
+  position: absolute;
+  left: -78px;
+  top: -15px;
+  animation: rotate 30s linear infinite;
 }
 
 header#site-header > section {
-    margin-top: 30px; /*Make vertical rhythm fill-in*/
+  margin-top: 30px; /*Make vertical rhythm fill-in*/
 }
 
 header#site-header > section p {
-    float: left;
-    margin: 0 60px 0 0;
+  float: left;
+  margin: 0 60px 0 0;
 }
 
 header#site-header a.subscribe-button {
@@ -157,10 +145,10 @@ header#site-header a.subscribe-button:active {
 }
 
 header#site-header a.subscribe-button span {
-    animation-name: colorScroll;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(1,end);
+  animation-name: colorScroll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1,end);
 }
 
 header#site-header a.subscribe-button span:nth-of-type(7n+2) {
@@ -207,30 +195,30 @@ header#site-header p.announcement {
 }
 
 main#site-content {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 article.post {
-    position: relative;
-    margin-bottom: 60px;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 article.post header h1 {
-    text-transform: uppercase;
-    font-size: 19px;
-    font-weight: normal;
-    display: inline-block;
-    margin: 0;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0;
 }
 
 article.post header h1:after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    margin: 4px 0;
-    background: #222;
-    border-radius: 1px;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 4px 0;
+  background: #222;
+  border-radius: 1px;
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
@@ -244,7 +232,7 @@ body.obs-newsletter article.post header h1:after {
 }
 
 article.post header h1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 article.post h2 {
@@ -258,44 +246,44 @@ article.post h3 {
 }
 
 section.post-content {
-    margin: 15px 0;
-    width: 75%;
-    max-width: 640px;
-    text-align: justify;
+  margin: 15px 0;
+  width: 75%;
+  max-width: 640px;
+  text-align: justify;
 }
 
 section.post-content a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 section.post-content ul, section.post-content ol {
-    margin: 0;
-    padding-inline-start: 25px;
+  margin: 0;
+  padding-inline-start: 25px;
 }
 
 section.post-content ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 section.post-content > ul {
-    padding: 0;
+  padding: 0;
 }
 
 section.post-content li {
-    margin: 1em 0;
-    padding: 0;
-    position: relative;
+  margin: 1em 0;
+  padding: 0;
+  position: relative;
 }
 
 section.post-content ul li:before {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    background-image:url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='black' fill-rule='nonzero'/></svg>");
-    left: -25px;
-    top: 5px;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-image:url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='black' fill-rule='nonzero'/></svg>");
+  left: -25px;
+  top: 5px;
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
@@ -311,49 +299,49 @@ body.obs-newsletter section.post-content ul li:before {
 }
 
 aside.post-aside {
-    position: absolute;
-    top: 45px;
-    right: 0px;
-    padding-left: 60px;
-    box-sizing: border-box;
-    width: 25%;
-    min-width: calc(100% - 640px);
-    transform: rotate(2deg);
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  width: 25%;
+  min-width: calc(100% - 640px);
+  transform: rotate(2deg);
 }
 
 article.post:nth-child(even) aside.post-aside {
-    transform: rotate(-2deg); /* Rotate post asides for even posts */
+  transform: rotate(-2deg); /* Rotate post asides for even posts */
 }
 
 aside.post-aside:hover {
-    z-index: 999; /* In case they are overlapping due to absolute positioning */
+  z-index: 999; /* In case they are overlapping due to absolute positioning */
 }
 
 aside.post-aside img {
-    width: 320px;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    border-radius: 4px;
-    /*filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);*/
+  width: 320px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  /*filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);*/
 }
 
 aside.post-aside p {
-    width: 320px;
-    max-width: 100%;
-    margin: 0.5em auto;
+  width: 320px;
+  max-width: 100%;
+  margin: 0.5em auto;
 }
 
 footer#site-footer {
-    margin-top: 60px;
-    font-size: 0.88em;
-    color: rgba(0,0,0,0.44);
+  margin-top: 60px;
+  font-size: 0.88em;
+  color: rgba(0,0,0,0.44);
 }
 
 footer#site-footer img {
-    display: block;
-    margin: 0.4em 0 0;
-    width: 24px;
+  display: block;
+  margin: 0.4em 0 0;
+  width: 24px;
 }
 
 footer#site-footer p {
@@ -362,9 +350,9 @@ footer#site-footer p {
 }
 
 footer#site-footer nav a:not(:last-of-type):after {
-    content: '•';
-    margin-left: 0.5em;
-    display: inline-block;
+  content: '•';
+  margin-left: 0.5em;
+  display: inline-block;
 }
 
 small {
@@ -390,16 +378,34 @@ input[type="submit"], button[type="submit"] {
   line-height: 1.35rem;
 }
 
-/* Animations */
+/* ---------------
+   Pseudo elements
+   --------------- */
+
+::-moz-selection {
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* ----------
+   Animations
+   ---------- */
 
 @keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @keyframes pageStart {
-    0% { transform: scaleX(0.95) translateY(50px); opacity: 0; }
-    100% { transform: scaleX(1) translateY(0); opacity: 1; }
+  0% { transform: scaleX(0.95) translateY(50px); opacity: 0; }
+  100% { transform: scaleX(1) translateY(0); opacity: 1; }
 }
 
 @keyframes fadeIn {
@@ -408,14 +414,14 @@ input[type="submit"], button[type="submit"] {
 }
 
 @keyframes colorScroll {
-    0% { color: hsl(87, 47%, 52%); }
-    14.29% { color: hsl(87, 47%, 58%); }
-    28.57% { color: hsl(87, 47%, 64%); }
-    42.86% { color: hsl(87, 47%, 70%); }
-    57.14% { color: hsl(87, 47%, 76%); }
-    71.43% { color: hsl(87, 47%, 82%); }
-    85.71% { color: hsl(87, 47%, 88%); }
-    100% { color: transparent; }
+  0% { color: hsl(87, 47%, 52%); }
+  14.29% { color: hsl(87, 47%, 58%); }
+  28.57% { color: hsl(87, 47%, 64%); }
+  42.86% { color: hsl(87, 47%, 70%); }
+  57.14% { color: hsl(87, 47%, 76%); }
+  71.43% { color: hsl(87, 47%, 82%); }
+  85.71% { color: hsl(87, 47%, 88%); }
+  100% { color: transparent; }
 }
 
 @keyframes seesaw {
@@ -423,47 +429,47 @@ input[type="submit"], button[type="submit"] {
   100% { transform: rotate(2deg); }
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
+/* ------------------
+   Media query styles
+   ------------------ */
 
 @media only screen and (max-width: 960px) {
-    section.post-content {
-        width: 100%;
-    }
+  section.post-content {
+    width: 100%;
+  }
 
-    aside.post-aside {
-        position: static;
-        margin: 15px 0;
-        width: 100%;
-        padding-left: 0;
-    }
+  aside.post-aside {
+    position: static;
+    margin: 15px 0;
+    width: 100%;
+    padding-left: 0;
+  }
 
-    aside.post-aside, article.post:nth-child(even) aside.post-aside {
-        transform: none;
-    }
+  aside.post-aside, article.post:nth-child(even) aside.post-aside {
+    transform: none;
+  }
 
-    aside.post-aside img, aside.post-aside p {
-        width: 320px;
-        max-width: 100%;
-        margin: 0.5em 0;
-    }
+  aside.post-aside img, aside.post-aside p {
+    width: 320px;
+    max-width: 100%;
+    margin: 0.5em 0;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    body {
-        margin: 60px 60px;
-    }
+  body {
+    margin: 60px 60px;
+  }
 
-    header#site-header svg.site-logo {
-        position: static;
-    }
+  header#site-header svg.site-logo {
+    position: static;
+  }
 
-    main#site-content {
-        margin-top: 60px;
-    }
+  main#site-content {
+    margin-top: 60px;
+  }
 
-    header#site-header a.subscribe-button {
+  header#site-header a.subscribe-button {
 		bottom: 1rem;
 		right: initial;
 		left: 50%;
@@ -481,204 +487,232 @@ input[type="submit"], button[type="submit"] {
 }
 
 @media only screen and (max-width: 460px) {
-    body {
-        margin: 60px 30px;
-    }
+  body {
+    margin: 60px 30px;
+  }
 
-    section.post-content {
-    	text-align: left;
-    }
+  section.post-content {
+  	text-align: left;
+  }
 
-    section.post-content ul li:before {
-        left: -18px;
-    }
+  section.post-content ul li:before {
+    left: -18px;
+  }
 
-    input[type="text"], input[type="email"] {
-    	display: block;
-    	margin: 0.5em 0;
-    	width: 100%;
-    	box-sizing: border-box;
-    }
+  input[type="text"], input[type="email"] {
+  	display: block;
+  	margin: 0.5em 0;
+  	width: 100%;
+  	box-sizing: border-box;
+  }
 
-    input[type="submit"], button[type="submit"] {
-    	display: block;
-    	width: 100%;
-    	box-sizing: border-box;
-    }
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
+  input[type="submit"], button[type="submit"] {
+  	display: block;
+  	width: 100%;
+  	box-sizing: border-box;
+  }
 }
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+/*
+ * Hide visually and from screen readers
+ */
+
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
 }
 
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*  causes content to wrap 1 word per line:
+*  https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
 }
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*  `contenteditable` attribute is included anywhere else in the document.
+*  Otherwise it causes space to appear at the top and bottom of elements
+*  that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*  `:before` to contain the top-margins of child elements.
+*/
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
+  clear: both;
 }
 
 /* ==========================================================================
-   Print styles
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  *,
+  *:before,
+  *:after {
+  background: transparent !important;
+  color: #000 !important;
+  /* Black prints faster */
+  box-shadow: none !important;
+  text-shadow: none !important;
+  }
+  a,
+  a:visited {
+  text-decoration: underline;
+  }
+  a[href]:after {
+  content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+  content: " (" attr(title) ")";
+  }
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+  content: "";
+  }
+  pre {
+  white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+  border: 1px solid #999;
+  page-break-inside: avoid;
+  }
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+  display: table-header-group;
+  }
+  tr,
+  img {
+  page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+  orphans: 3;
+  widows: 3;
+  }
+  h2,
+  h3 {
+  page-break-after: avoid;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  /* -------------------
+     Custom print styles
+     ------------------- */
 
-    /* Custom scope */
-    .site-header a[href]:after,
-    .post-content a[href]:after,
-    .site-footer a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  body {
+    margin: 30px 90px 60px 60px;
+    font-size: 14px;
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  header#site-header svg.site-logo {
+    position: static;
+  }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  main#site-content {
+    margin-top: 60px;
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  header#site-header a.subscribe-button {
+    display: none;
+  }
 
-    thead {
-        display: table-header-group;
-    }
+  section.post-content {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  article.post header h1 {
+    text-decoration: underline;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  article.post header h1:after {
+    display: none;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  section.post-content ul {
+    list-style-type: disc;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  aside.post-aside {
+    position: static;
+    margin: 15px 0;
+    width: 100%;
+    padding-left: 0;
+  }
 
-    /* Custom print styles */
+  aside.post-aside, article.post:nth-child(even) aside.post-aside {
+    transform: none;
+  }
 
-    body {
-        margin: 30px 90px 60px 60px;
-        font-size: 14px;
-    }
-
-    header#site-header svg.site-logo {
-        position: static;
-    }
-
-    main#site-content {
-        margin-top: 60px;
-    }
-
-    header#site-header a.subscribe-button {
-		display: none;
-	}
-
-    section.post-content {
-        width: 100%;
-        max-width: 100%;
-        text-align: left;
-    }
-
-    article.post header h1 {
-    	text-decoration: underline;
-	}
-
-	article.post header h1:after {
-		display: none;
-	}
-
-	section.post-content ul {
-	    list-style-type: disc;
-	}
-
-    aside.post-aside {
-        position: static;
-        margin: 15px 0;
-        width: 100%;
-        padding-left: 0;
-    }
-
-    aside.post-aside, article.post:nth-child(even) aside.post-aside {
-        transform: none;
-    }
-
-    aside.post-aside img, aside.post-aside p {
-        width: 320px;
-        max-width: 100%;
-        margin: 0.5em 0;
-    }
+  aside.post-aside img, aside.post-aside p {
+    width: 320px;
+    max-width: 100%;
+    margin: 0.5em 0;
+  }
 }
