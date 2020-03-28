@@ -38,7 +38,7 @@ textarea {
 
 @font-face {
   font-family: 'ISO';
-  src:  url('/assets/font/ISOv0.5-Regular.woff') format('woff');
+  src: url('/assets/font/ISOv0.5-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@ textarea {
 
 @font-face {
   font-family: 'ISO';
-  src:  url('/assets/font/ISOv0.5-Bold.woff') format('woff');
+  src: url('/assets/font/ISOv0.5-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -57,7 +57,13 @@ textarea {
    ---------------- */
 
 html {
-  color: #222;
+  --text-color: #222;
+  --text-color-lighter: rgba(0,0,0,0.44);
+  --button-color: #222;
+  --button-text-color: #fff;
+  --background-color: #fff;
+
+  color: var(--text-color);
   font-size: 1em;
   line-height: 1.4;
 }
@@ -67,7 +73,7 @@ body {
   margin: 90px 160px;
   font-size: 17px;
   line-height: 1.35em;
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 
 body.obs {
@@ -91,7 +97,7 @@ a:hover {
 
 small {
   font-size: 0.88em;
-  color: rgba(0,0,0,0.44);
+  color: var(--text-color-lighter);
 }
 
 /* -------------
@@ -129,8 +135,8 @@ header#site-header > section p {
 }
 
 header#site-header a.subscribe-button {
-	background: #222;
-	border: 1px solid #fff;
+	background: var(--button-color);
+	border: 1px solid var(--background-color);
 	padding: 0.7em 1em;
 	border-radius: 2em;
 	position: fixed;
@@ -235,7 +241,7 @@ article.post header h1:after {
   width: 100%;
   height: 2px;
   margin: 4px 0;
-  background: #222;
+  background: var(--text-color); /* Equivalent of a border-color style, so should be same as text color */
   border-radius: 1px;
 }
 
@@ -357,7 +363,7 @@ aside.post-aside p {
 footer#site-footer {
   margin-top: 60px;
   font-size: 0.88em;
-  color: rgba(0,0,0,0.44);
+  color: var(--text-color-lighter);
 }
 
 footer#site-footer img {
@@ -382,16 +388,16 @@ footer#site-footer nav a:not(:last-of-type):after {
    ----------- */
 
 input[type="text"], input[type="email"] {
-	border: 2px solid #222;
+	border: 2px solid var(--button-color);
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
 }
 
 input[type="submit"], button[type="submit"] {
-	background-color: #222;
-	color: #fff;
-	border: 2px solid #222;
+	background-color: var(--button-color);
+	color: var(--button-text-color);
+	border: 2px solid var(--button-color);
 	border-radius: 4px;
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
@@ -402,14 +408,14 @@ input[type="submit"], button[type="submit"] {
    --------------- */
 
 ::-moz-selection {
-  background: #222;
-  color: #fff;
+  background: var(--text-color);
+  color: var(--background-color);
   text-shadow: none;
 }
 
 ::selection {
-  background: #222;
-  color: #fff;
+  background: var(--text-color);
+  color: var(--background-color);
   text-shadow: none;
 }
 
