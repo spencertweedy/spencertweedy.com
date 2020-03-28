@@ -74,7 +74,7 @@ html {
 body {
   font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
   line-height: 1.35em;
-  margin: 90px 160px;
+  margin: calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 5.333);
   background-color: var(--background-color);
 }
 
@@ -113,7 +113,7 @@ header#site-header {
 header#site-header h1 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 38px; /*Make relative*/
+  font-size: 2.375rem;
 }
 
 header#site-header h1 a {
@@ -122,18 +122,18 @@ header#site-header h1 a {
 
 header#site-header svg.site-logo {
   position: absolute;
-  left: -78px;
-  top: -15px;
+  left: -4.875rem;
+  top: -0.9375rem;
   animation: rotate 30s linear infinite;
 }
 
 header#site-header > section {
-  margin-top: 30px; /*Make vertical rhythm fill-in*/
+  margin-top: var(--spacing-unit);
 }
 
 header#site-header > section p {
   float: left;
-  margin: 0 60px 0 0;
+  margin: 0 calc(var(--spacing-unit) * 2) 0 0;
 }
 
 header#site-header a.subscribe-button {
@@ -217,7 +217,7 @@ header#site-header p.announcement {
    ------------------- */
 
 main#site-content {
-  margin-top: 90px;
+  margin-top: calc(var(--spacing-unit) * 3);
 }
 
 /* -----------
@@ -226,12 +226,12 @@ main#site-content {
 
 article.post {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: calc(var(--spacing-unit) * 2);
 }
 
 article.post header h1 {
   text-transform: uppercase;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: normal;
   display: inline-block;
   margin: 0;
@@ -272,7 +272,7 @@ article.post h3 {
 }
 
 section.post-content {
-  margin: 15px 0;
+  margin: calc(var(--spacing-unit) / 2) 0;
   width: 75%;
   max-width: 640px;
   text-align: justify;
@@ -326,9 +326,9 @@ body.obs-newsletter section.post-content ul li:before {
 
 aside.post-aside {
   position: absolute;
-  top: 45px;
+  top: calc(var(--spacing-unit) * 1.5);
   right: 0px;
-  padding-left: 60px;
+  padding-left: calc(var(--spacing-unit) * 2);
   box-sizing: border-box;
   width: 25%;
   min-width: calc(100% - 640px);
