@@ -337,7 +337,7 @@ aside.post-aside img {
   width: calc(var(--max-width) / 2);
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: -50% auto 0;
   border-radius: var(--border-radius);
 }
 
