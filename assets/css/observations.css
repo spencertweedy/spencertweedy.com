@@ -63,13 +63,13 @@ html {
   --button-text-color: #fff;
   --background-color: #fff;
 
-  color: var(--text-color);
+  font-family: 'ISO', monospace, sans-serif;
   font-size: 1.0625em; /* 17px when browser default is 16px */
   line-height: 1.35em;
+  color: var(--text-color);
 }
 
 body {
-  font-family: 'ISO', monospace, sans-serif;
   margin: 90px 160px;
   background-color: var(--background-color);
 }
