@@ -315,8 +315,9 @@ a.with-icon:before {
       display: block;
       width: 100%;
       height: 100%;
-      padding: 1em;
+      padding: 1em 1em 0.5em;
       box-sizing: border-box;
+      border-bottom: none; /* Override generic style */
     }
 
     .release-inner {
