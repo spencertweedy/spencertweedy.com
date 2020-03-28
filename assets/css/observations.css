@@ -511,10 +511,6 @@ input[type="submit"], button[type="submit"] {
   	text-align: left;
   }
 
-  section.post-content ul li:before {
-    left: -1.125rem;
-  }
-
   input[type="text"], input[type="email"] {
   	display: block;
   	margin: 0.5em 0;
