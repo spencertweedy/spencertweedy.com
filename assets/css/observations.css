@@ -62,9 +62,11 @@ html {
   --text-color-lighter: rgba(0,0,0,0.44);
   --button-color: #222;
   --button-text-color: #fff;
+  --accent-color: hsl(87, 47%, 52%);
 
   --border-radius: 0.235rem;
   --spacing-unit: 1.875rem;
+  --max-width: 640px;
 
   font-family: 'ISO', monospace, sans-serif;
   font-size: 1em; /* rem calculations assume 16px browser default */
@@ -89,8 +91,8 @@ a {
 
 /* For accessibility */
 a:focus {
-  outline: 4px solid hsl(87, 47%, 52%);
-  outline-offset: 4px;
+  outline: 0.25rem solid var(--accent-color);
+  outline-offset: 0.25rem;
 }
 
 a:hover {
@@ -138,7 +140,7 @@ header#site-header > section p {
 
 header#site-header a.subscribe-button {
 	background: var(--button-color);
-	border: 1px solid var(--background-color);
+	border: 0.0625rem solid var(--background-color);
 	padding: 0.7em 1em;
 	border-radius: 2em;
 	position: fixed;
@@ -159,7 +161,7 @@ header#site-header a.subscribe-button:hover {
 }
 
 header#site-header a.subscribe-button:active {
-	transform: scale(1.05) translateY(2px);
+	transform: scale(1.05) translateY(0.125rem);
 }
 
 header#site-header a.subscribe-button span {
@@ -225,7 +227,7 @@ main#site-content {
    ----------- */
 
 article.post {
-  position: relative;
+  position: relative; /* For children's absolute positioning */
   margin-bottom: calc(var(--spacing-unit) * 2);
 }
 
@@ -238,13 +240,13 @@ article.post header h1 {
 }
 
 article.post header h1:after {
-  content: '';
+  content: ''; /* Required in order for element to display */
   display: block;
   width: 100%;
-  height: 2px;
-  margin: 4px 0;
+  height: 0.125rem;
+  margin: 0.25rem 0;
   background: var(--text-color); /* Equivalent of a border-color style, so should be same as text color */
-  border-radius: 1px;
+  border-radius: 0.0625rem;
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
@@ -274,7 +276,7 @@ article.post h3 {
 section.post-content {
   margin: calc(var(--spacing-unit) / 2) 0;
   width: 75%;
-  max-width: 640px;
+  max-width: var(--max-width);
   text-align: justify;
 }
 
@@ -284,7 +286,7 @@ section.post-content a {
 
 section.post-content ul, section.post-content ol {
   margin: 0;
-  padding-inline-start: 25px;
+  padding-inline-start: 1.5625rem;
 }
 
 section.post-content ul {
@@ -302,24 +304,25 @@ section.post-content li {
 }
 
 section.post-content ul li:before {
-  content: '';
+  content: ''; /* Required in order for element to display */
   display: inline-block;
   position: absolute;
-  height: 10px;
-  width: 10px;
-  background-image:url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='black' fill-rule='nonzero'/></svg>");
-  left: -25px;
-  top: 5px;
+  height: 0.625rem;
+  width: 0.625rem;
+  background-size: cover;
+  background-image: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='black' fill-rule='nonzero'/></svg>");
+  left: -1.5625rem;
+  top: 0.3125rem;
 }
 
 /* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
 body.default-observations-newsletter section.post-content ul li:before,
 body.obs-newsletter section.post-content ul li:before {
   position: initial;
-  margin-left: -18px;
-  margin-right: 8px;
+  margin-left: -1.125rem;
+  margin-right: 0.5rem;
   background-image: url("/assets/star@3x.png");
-  background-size: 10px;
+  background-size: 0.625rem;
   left: 0;
   top: 0;
 }
@@ -327,11 +330,11 @@ body.obs-newsletter section.post-content ul li:before {
 aside.post-aside {
   position: absolute;
   top: calc(var(--spacing-unit) * 1.5);
-  right: 0px;
+  right: 0;
   padding-left: calc(var(--spacing-unit) * 2);
   box-sizing: border-box;
   width: 25%;
-  min-width: calc(100% - 640px);
+  min-width: calc(100% - var(--max-width));
   transform: rotate(2deg);
 }
 
@@ -344,16 +347,15 @@ aside.post-aside:hover {
 }
 
 aside.post-aside img {
-  width: 320px;
+  width: calc(var(--max-width) / 2);
   max-width: 100%;
   display: block;
   margin: 0 auto;
   border-radius: var(--border-radius);
-  /*filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);*/
 }
 
 aside.post-aside p {
-  width: 320px;
+  width: calc(var(--max-width) / 2);
   max-width: 100%;
   margin: 0.5em auto;
 }
@@ -363,7 +365,7 @@ aside.post-aside p {
    ------------- */
 
 footer#site-footer {
-  margin-top: 60px;
+  margin-top: calc(var(--spacing-unit) * 2);
   font-size: 0.88em;
   color: var(--text-color-lighter);
 }
@@ -371,7 +373,7 @@ footer#site-footer {
 footer#site-footer img {
   display: block;
   margin: 0.4em 0 0;
-  width: 24px;
+  width: 1.5rem;
 }
 
 footer#site-footer p {
@@ -390,7 +392,7 @@ footer#site-footer nav a:not(:last-of-type):after {
    ----------- */
 
 input[type="text"], input[type="email"] {
-	border: 2px solid var(--button-color);
+	border: 0.125rem solid var(--button-color);
 	border-radius: var(--border-radius);
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
@@ -399,7 +401,7 @@ input[type="text"], input[type="email"] {
 input[type="submit"], button[type="submit"] {
 	background-color: var(--button-color);
 	color: var(--button-text-color);
-	border: 2px solid var(--button-color);
+	border: 0.125rem solid var(--button-color);
 	border-radius: var(--border-radius);
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
@@ -431,7 +433,7 @@ input[type="submit"], button[type="submit"] {
 }
 
 @keyframes pageStart {
-  0% { transform: scaleX(0.95) translateY(50px); opacity: 0; }
+  0% { transform: scaleX(0.95) translateY(10vh); opacity: 0; }
   100% { transform: scaleX(1) translateY(0); opacity: 1; }
 }
 
@@ -467,7 +469,7 @@ input[type="submit"], button[type="submit"] {
 
   aside.post-aside {
     position: static;
-    margin: 15px 0;
+    margin: calc(var(--spacing-unit) / 2) 0;
     width: 100%;
     padding-left: 0;
   }
@@ -477,7 +479,7 @@ input[type="submit"], button[type="submit"] {
   }
 
   aside.post-aside img, aside.post-aside p {
-    width: 320px;
+    width: calc(var(--max-width) / 2);
     max-width: 100%;
     margin: 0.5em 0;
   }
@@ -485,7 +487,7 @@ input[type="submit"], button[type="submit"] {
 
 @media only screen and (max-width: 800px) {
   body {
-    margin: 60px 60px;
+    margin: calc(var(--spacing-unit) * 2);
   }
 
   header#site-header svg.site-logo {
@@ -493,7 +495,7 @@ input[type="submit"], button[type="submit"] {
   }
 
   main#site-content {
-    margin-top: 60px;
+    margin-top: calc(var(--spacing-unit) * 2);
   }
 
   header#site-header a.subscribe-button {
@@ -509,13 +511,13 @@ input[type="submit"], button[type="submit"] {
 	}
 
 	header#site-header a.subscribe-button:active {
-		transform: translateX(-50%) scale(1.05) translateY(2px);
+		transform: translateX(-50%) scale(1.05) translateY(0.125rem);
 	}
 }
 
 @media only screen and (max-width: 460px) {
   body {
-    margin: 60px 30px;
+    margin: calc(var(--spacing-unit) * 2) var(--spacing-unit);
   }
 
   section.post-content {
@@ -523,7 +525,7 @@ input[type="submit"], button[type="submit"] {
   }
 
   section.post-content ul li:before {
-    left: -18px;
+    left: -1.125rem;
   }
 
   input[type="text"], input[type="email"] {
