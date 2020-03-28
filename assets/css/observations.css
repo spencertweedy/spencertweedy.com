@@ -57,19 +57,23 @@ textarea {
    ---------------- */
 
 html {
+  --background-color: #fff;
   --text-color: #222;
   --text-color-lighter: rgba(0,0,0,0.44);
   --button-color: #222;
   --button-text-color: #fff;
-  --background-color: #fff;
+
+  --border-radius: 0.235rem;
+  --spacing-unit: 1.875rem;
 
   font-family: 'ISO', monospace, sans-serif;
-  font-size: 1.0625em; /* 17px when browser default is 16px */
-  line-height: 1.35em;
+  font-size: 1em; /* rem calculations assume 16px browser default */
   color: var(--text-color);
 }
 
 body {
+  font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
+  line-height: 1.35em;
   margin: 90px 160px;
   background-color: var(--background-color);
 }
@@ -344,7 +348,7 @@ aside.post-aside img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   /*filter: sepia(100%) saturate(500%) hue-rotate(350deg) contrast(80%) brightness(120%);*/
 }
 
@@ -387,7 +391,7 @@ footer#site-footer nav a:not(:last-of-type):after {
 
 input[type="text"], input[type="email"] {
 	border: 2px solid var(--button-color);
-	border-radius: 4px;
+	border-radius: var(--border-radius);
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
 }
@@ -396,7 +400,7 @@ input[type="submit"], button[type="submit"] {
 	background-color: var(--button-color);
 	color: var(--button-text-color);
 	border: 2px solid var(--button-color);
-	border-radius: 4px;
+	border-radius: var(--border-radius);
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
 }
