@@ -70,7 +70,10 @@ textarea {
 
 html {
   --text-color: hsl(0, 0%, 23%);
+  --text-color-lighter: hsl(0, 0%, 67%);
   --background-color: white;
+  --link-border-color: hsl(0, 0%, 79%);
+  --banner-color: hsl(87, 47%, 52%);
 
   font-size: 1.125em;
   line-height: 1.8em;
@@ -79,359 +82,338 @@ html {
   background-color: var(--background-color);
 }
 
-
-
-header {
-    margin: 12vh auto 8vh;
-    width: 100%;
-    font-size: 3em;
-    padding: 0 20px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-main {
-    width: 100%;
-    max-width: 700px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-footer {
-    @extend main;
-    margin: 1rem auto 10vh;
-    font-size: 0.7em;
-    color: #AAA;
-
-    img {
-        margin: 1em auto 2em;
-        display: block;
-    }
-}
-
-#cover-photo-container {
-    width: 100%;
-    max-width: 960px;
-    padding: 0 20px;
-    height: 76vh;
-    order: -1;
-    margin: 12vh auto -1em;
-    box-sizing: border-box;
-}
-
-#cover-photo {
-    width: 100%;
-    height: 100%;
-    background: url("{{ site.cover_photo_path }}") 50% 50% no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    border-radius: 4px;
-}
-
-#cover-photo img {
-    display: none; /* No-CSS fallback */
-}
-
-.subscribe-form {
-    margin: 0 auto;
-    font-size: 1em;
-}
-
-input[type="text"], input[type="email"] {
-    border: 2px solid #000;
-    border-radius: 4px;
-    padding: 0.5em 0.7em;
-    font-size: 1em;
-    font-family: inherit;
-}
-
-input[type="submit"] {
-    background-color: #000;
-    color: #fff;
-    border: 2px solid #000;
-    border-radius: 4px;
-    padding: 0.5em 0.7em;
-    cursor: pointer;
-    font-size: 1em;
-    font-family: inherit;
-}
-
-.subscribe-form label {
-    display: none;
-}
-
-#banner {
-  padding: 20px 20px 0;
-  width: 100%;
-  text-align: center;
-}
-
-#banner a {
-  border-bottom: none;
-}
-
-#banner p {
-  margin: 0;
-  padding: 0.2em 0.7em;
-  background-color: #8abe4b;
-  color: #fff;
-  display: inline-block;
-  border-radius: 40px;
-}
-
-#banner p span {
-  text-decoration: underline;
-}
-
-/* Page elements */
-
-h1 {
-    height: 0.75em;
-}
-
-h1, h1 a, h1 a:hover {
-    font-family: "chippewa-falls";
-    font-size: 1.1em;
-    font-weight: normal;
-    color: #000;
-    text-decoration: none;
-    border-bottom: none;
-}
-
-h2 {
-
-}
-
 h3 {
-    font-size: 1.3em;
-    margin-bottom: 2rem;
+  font-size: 1.3em;
+  margin-bottom: 2rem;
+  font-weight: normal;
 }
 
 h3 a {
-    color: #000;
+  color: inherit;
 }
 
 h4 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 0.8em;
-    margin: 2em 0 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin: 2em 0 1em;
 }
 
 h4:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid #CACACA;
-}
-
-a.with-icon {
-    margin-left: 22px;
-    position: relative;
-    white-space: nowrap;
-}
-
-a.with-icon:before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-size: 16px 16px;
-    position: absolute;
-    top: 5px;
-    left: -20px;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-border-color);
 }
 
 p {
-    margin: 1em 0;
-    line-height: 1.7em;
+  margin: 1em 0;
+  line-height: 1.7em;
 }
 
 li {
-    margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 li:last-child {
-    margin-bottom: 0;
-}
-
-time {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.8em;
-    margin-bottom: 1em;
-    display: block;
+  margin-bottom: 0;
 }
 
 article {
-    width: 100%;
-    margin: 0 auto 2em;
-    display: block;
+  width: 100%;
+  margin: 0 auto 2em;
+  display: block;
 }
 
-article p, article blockquote, article ul, article ol, article li, article img, article embed {
-    margin: 1em 0;
-    max-width: 100%;
+article p,
+article blockquote,
+article ul,
+article ol,
+article li,
+article img,
+article embed {
+  margin: 1em 0;
+  max-width: 100%;
 }
 
 article *:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 article blockquote {
-    border-left: 4px solid #000;
-    padding-left: 1em;
+  border-left: 4px solid var(--text-color);
+  padding-left: 1em;
 }
 
 article ul, article ol {
-    margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 article ul li {
-    list-style: disc;
+  list-style: disc;
 }
 
 article ol li {
-    list-style: decimal;
+  list-style: decimal;
 }
 
-/* Homepage styles */
+input[type="text"], input[type="email"] {
+  border: 2px solid var(--text-color);
+  border-radius: 4px;
+  padding: 0.5em 0.7em;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+input[type="submit"] {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 0.5em 0.7em;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+/* ------------------
+   Frame of the house
+   ------------------ */
+
+header, main, footer {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+header {
+  margin-top: 12vh;
+  margin-bottom: 8vh;
+  font-size: 3em;
+  text-align: center;
+}
+
+main, footer {
+  max-width: 700px;   
+}
+
+footer {
+  margin-top: 1rem;
+  margin-bottom: 10vh;
+  font-size: 0.7em;
+  color: var(--text-color-lighter);
+}
+
+/* -------------
+   Header styles
+   ------------- */
+
+#site-header h1 {
+  height: 0.75em;
+}
+
+#site-header h1,
+#site-header h1 a,
+#site-header h1 a:hover {
+  font-family: "chippewa-falls";
+  font-size: 1.1em;
+  font-weight: normal;
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#cover-photo-container {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 20px;
+  height: 76vh;
+  order: -1;
+  margin: 12vh auto -1em;
+  box-sizing: border-box;
+}
+
+#cover-photo {
+  width: 100%;
+  height: 100%;
+  background: url("{{ site.cover_photo_path }}") 50% 50% no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+#cover-photo img {
+  display: none; /* No-CSS fallback */
+}
+
+/* -------------
+   Footer styles
+   ------------- */
+
+footer img {
+  margin: 1em auto 2em;
+  display: block;
+}
+
+/* ---------------
+   Homepage styles
+   --------------- */
+
+a.with-icon {
+  margin-left: 22px;
+  position: relative;
+  white-space: nowrap;
+}
+
+a.with-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  position: absolute;
+  top: 5px;
+  left: -20px;
+}
 
 .observations-link:before {
-    background-image: url("/assets/project_logos/observations_tiny.png");
+  background-image: url("/assets/project_logos/observations_tiny.png");
 }
 
 .fjord-link:before {
-    background-image: url("/assets/project_logos/fjord_audio_tiny.png");
+  background-image: url("/assets/project_logos/fjord_audio_tiny.png");
 }
 
-/* Releases page styles */
+/* --------------------
+   Releases page styles
+   -------------------- */
 
 #releases-page {
-    ol {
-        margin: -1em 0 2em -1em;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        max-width: calc(700px + 1em);
+  ol {
+    margin: -1em 0 2em -1em;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(700px + 1em);
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0 0 1em;
+    color: var(--background-color);
+    width: 33.3333%;
+    box-sizing: border-box;
+
+    a {
+      color: var(--background-color);
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 1em;
+      box-sizing: border-box;
     }
 
-    li {
-        list-style-type: none;
+    .release-inner {
+      border-radius: 4px;
+      height: 100%;
+    }
+
+    .release-image {
+      width: calc(100% + 2em);
+      margin: -1em 0 0.5em -1em;
+
+      img {
+        border-radius: 4px 4px 0 0;
         margin: 0;
-        padding: 1em 0 0 1em;
-        color: #fff;
-        width: 33.3333%;
-
-        a {
-            color: #fff;
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding: 1em;
-            box-sizing: border-box;
-        }
-
-        .release-inner {
-            border-radius: 4px;
-            height: 100%;
-        }
-
-        .release-image {
-            width: calc(100% + 2em);
-            margin: -1em 0 0.5em -1em;
-
-            img {
-                border-radius: 4px 4px 0 0;
-                margin: 0;
-            }
-        }
-
-        .release-title {
-            font-style: italic;
-            display: block;
-        }
-
-        .release-artist {
-            display: block;
-        }
-
-        .release-role {
-            font-size: 0.8em;
-            opacity: 0.8;
-        }
+      }
     }
+
+    .release-title {
+      font-style: italic;
+      display: block;
+    }
+
+    .release-artist {
+      display: block;
+    }
+
+    .release-role {
+      font-size: 0.8em;
+      opacity: 0.8;
+    }
+  }
 }
 
-/* Posts feed page styles */
+/* ----------------
+   Reusable classes
+   ---------------- */
 
-#posts-feed-list > li:after {
-    content: '';
-    display: block;
-    width: 64px;
-    height: 8px;
-    background: url("/assets/twave.gif");
-    background-size: contain;
-    margin: 4em auto;
+.subscribe-form {
+  margin: 0 auto;
+  font-size: 1em;
 }
 
-#posts-feed-list > li:last-child:after {
-    display: none;
+.subscribe-form label {
+  display: none;
 }
 
-/* Breakpoints */
+/* -----------------
+   Breakpoint styles
+   ----------------- */
 
 @media screen and (max-width: 760px) {
-    header {
-        margin: 8vh auto;
-    }
+  header {
+    margin: 8vh auto;
+  }
 
-    h1 {
-        font-size: 0.9em;
-    }
+  h1 {
+    font-size: 0.9em;
+  }
 
-    main {
-        display: block;
-        width: 100%;
-    }
+  main {
+    display: block;
+    width: 100%;
+  }
 
-    footer {
-        margin: 2rem 0 8vh;
-    }
+  footer {
+    margin: 2rem 0 8vh;
+  }
 
-    #cover-photo-container {
-        height: 70vw;
-        margin: 8vh auto 0;
-    }
+  #cover-photo-container {
+    height: 70vw;
+    margin: 8vh auto 0;
+  }
 
-    #cover-photo {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
+  #cover-photo {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
 
-    #releases-page li {
-        width: 50%;
-    }
+  #releases-page li {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    input[type="text"], input[type="email"] {
-        display: block;
-        margin: 0.5em 0;
-        width: 100%;
-        box-sizing: border-box;
-    }
+  input[type="text"], input[type="email"] {
+    display: block;
+    margin: 0.5em 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-    input[type="submit"] {
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
-    }
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 /* ---------------
@@ -467,8 +449,8 @@ article ol li {
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 *
 * 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*  causes content to wrap 1 word per line:
+*  https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
 
 .sr-only {
@@ -514,11 +496,11 @@ article ol li {
 *
 * For modern browsers
 * 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
+*  `contenteditable` attribute is included anywhere else in the document.
+*  Otherwise it causes space to appear at the top and bottom of elements
+*  that receive the `clearfix` class.
 * 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
+*  `:before` to contain the top-margins of child elements.
 */
 
 .clearfix:before,
@@ -543,57 +525,57 @@ article ol li {
   *,
   *:before,
   *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+  background: transparent !important;
+  color: #000 !important;
+  /* Black prints faster */
+  box-shadow: none !important;
+  text-shadow: none !important;
   }
   a,
   a:visited {
-    text-decoration: underline;
+  text-decoration: underline;
   }
   a[href]:after {
-    content: " (" attr(href) ")";
+  content: " (" attr(href) ")";
   }
   abbr[title]:after {
-    content: " (" attr(title) ")";
+  content: " (" attr(title) ")";
   }
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
-    content: "";
+  content: "";
   }
   pre {
-    white-space: pre-wrap !important;
+  white-space: pre-wrap !important;
   }
   pre,
   blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
+  border: 1px solid #999;
+  page-break-inside: avoid;
   }
   /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
   thead {
-    display: table-header-group;
+  display: table-header-group;
   }
   tr,
   img {
-    page-break-inside: avoid;
+  page-break-inside: avoid;
   }
   p,
   h2,
   h3 {
-    orphans: 3;
-    widows: 3;
+  orphans: 3;
+  widows: 3;
   }
   h2,
   h3 {
-    page-break-after: avoid;
+  page-break-after: avoid;
   }
 }
