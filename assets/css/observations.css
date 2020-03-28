@@ -79,7 +79,8 @@ a {
   text-decoration: none;
 }
 
-a:focus { /* For accessibility */
+/* For accessibility */
+a:focus {
   outline: 4px solid hsl(87, 47%, 52%);
   outline-offset: 4px;
 }
@@ -87,6 +88,15 @@ a:focus { /* For accessibility */
 a:hover {
   text-decoration: underline;
 }
+
+small {
+  font-size: 0.88em;
+  color: rgba(0,0,0,0.44);
+}
+
+/* -------------
+   Header styles
+   ------------- */
 
 header#site-header {
   position: relative;
@@ -194,9 +204,17 @@ header#site-header p.announcement {
   display: inline-block; /* so that rotate axis is actually the center of the element */
 }
 
+/* -------------------
+   Main section styles
+   ------------------- */
+
 main#site-content {
   margin-top: 90px;
 }
+
+/* -----------
+   Post styles
+   ----------- */
 
 article.post {
   position: relative;
@@ -332,6 +350,10 @@ aside.post-aside p {
   margin: 0.5em auto;
 }
 
+/* -------------
+   Footer styles
+   ------------- */
+
 footer#site-footer {
   margin-top: 60px;
   font-size: 0.88em;
@@ -355,12 +377,9 @@ footer#site-footer nav a:not(:last-of-type):after {
   display: inline-block;
 }
 
-small {
-	font-size: 0.88em;
-  color: rgba(0,0,0,0.44);
-}
-
-/* Form styles */
+/* -----------
+   Form styles
+   ----------- */
 
 input[type="text"], input[type="email"] {
 	border: 2px solid #222;
@@ -513,9 +532,9 @@ input[type="submit"], button[type="submit"] {
   }
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
+/* --------------------------------
+   HTML5 Boilerplate helper classes
+   -------------------------------- */
 
 /*
  * Hide visually and from screen readers
@@ -596,11 +615,14 @@ input[type="submit"], button[type="submit"] {
   clear: both;
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+/* ------------------------------
+   HTML5 Boilerplate print styles
+   ------------------------------ */
+
+/* 
+ * Inlined to avoid the additional HTTP request:
+ * https://www.phpied.com/delay-loading-your-print-css/
+ */
 
 @media print {
   *,
