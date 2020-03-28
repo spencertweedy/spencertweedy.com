@@ -64,15 +64,13 @@ html {
   --background-color: #fff;
 
   color: var(--text-color);
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 1.0625em; /* 17px when browser default is 16px */
+  line-height: 1.35em;
 }
 
 body {
   font-family: 'ISO', monospace, sans-serif;
   margin: 90px 160px;
-  font-size: 17px;
-  line-height: 1.35em;
   background-color: var(--background-color);
 }
 
