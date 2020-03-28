@@ -79,22 +79,7 @@ html {
   background-color: var(--background-color);
 }
 
-::-moz-selection {
-  background: var(--text-color);
-  color: var(--background-color);
-  text-shadow: none;
-}
 
-::selection {
-  background: var(--text-color);
-  color: var(--background-color);
-  text-shadow: none;
-}
-
-#wrapper {
-    margin: 0 auto;
-    width: 100%;
-}
 
 header {
     margin: 12vh auto 8vh;
@@ -447,6 +432,22 @@ article ol li {
         width: 100%;
         box-sizing: border-box;
     }
+}
+
+/* ---------------
+   Pseudo elements
+   --------------- */
+
+::-moz-selection {
+  background: var(--text-color);
+  color: var(--background-color);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--text-color);
+  color: var(--background-color);
+  text-shadow: none;
 }
 
 /* ==========================================================================
