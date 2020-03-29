@@ -170,7 +170,7 @@ header#site-header a.subscribe-button:hover {
 }
 
 header#site-header a.subscribe-button:active {
-	transform: scale(1.05) translateY(0.125rem);
+	transform: scale(1);
 }
 
 header#site-header a.subscribe-button span {
@@ -520,7 +520,7 @@ input[type="submit"], button[type="submit"] {
 	}
 
 	header#site-header a.subscribe-button:active {
-		transform: translateX(-50%) scale(1.05) translateY(0.125rem);
+		transform: translateX(-50%) scale(1);
 	}
 }
 
