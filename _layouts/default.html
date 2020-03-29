@@ -45,7 +45,7 @@
 <body class="{{ page.layout }}">
 	{% if page.layout == 'default' and site.cover_photo_path %}
         <div id="cover-photo-container">
-            <div id="cover-photo"><img src="{{ site.cover_photo_path }}"></div>
+            <div id="cover-photo"><img src="{{ site.cover_photo_path }}" alt="{{ site.cover_photo_caption }}"></div>
         </div>
     {% endif %}
 
