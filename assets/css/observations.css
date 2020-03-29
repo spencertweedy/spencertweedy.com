@@ -460,11 +460,11 @@ input[type="submit"], button[type="submit"] {
 
 @media (prefers-color-scheme: dark) {
   html {
-    --background-color:     hsl(0, 0%, 0%);
-    --text-color:           hsl(0, 0%, 87%);
+    --background-color:     hsl(0, 0%, 9%);
+    --text-color:           hsl(0, 0%, 95%);
     --text-color-lighter:   rgba(255,255,255,0.44);
-    --button-color:         hsl(0, 0%, 87%);
-    --button-text-color:    hsl(0, 0%, 0%);
+    --button-color:         hsl(0, 0%, 95%);
+    --button-text-color:    hsl(0, 0%, 9%);
     --button-variant-color: hsl(0, 0%, 13%);
 
     --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 87%)' fill-rule='nonzero'/></svg>");
