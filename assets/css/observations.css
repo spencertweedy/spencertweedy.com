@@ -57,6 +57,11 @@ textarea {
    Generic elements
    ---------------- */
 
+:root {
+  color-scheme: light dark; /* Tells browsers the site supports light and dark modes */
+  /* See media query section for dark mode styles */
+}
+
 html {
   --background-color:     hsl(0, 0%, 100%);
   --text-color:           hsl(0, 0%, 13%);
