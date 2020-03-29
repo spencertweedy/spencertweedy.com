@@ -77,17 +77,6 @@ html {
   color: var(--text-color);
 }
 
-html[data-theme='dark'] {
-  --background-color:     hsl(0, 0%, 0%);
-  --text-color:           hsl(0, 0%, 87%);
-  --text-color-lighter:   rgba(255,255,255,0.44);
-  --button-color:         hsl(0, 0%, 87%);
-  --button-text-color:    hsl(0, 0%, 0%);
-  --button-variant-color: hsl(0, 0%, 13%);
-
-  --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 87%)' fill-rule='nonzero'/></svg>");
-}
-
 body {
   font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
   line-height: 1.35em;
@@ -463,6 +452,19 @@ input[type="submit"], button[type="submit"] {
 /* ------------------
    Media query styles
    ------------------ */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --background-color:     hsl(0, 0%, 0%);
+    --text-color:           hsl(0, 0%, 87%);
+    --text-color-lighter:   rgba(255,255,255,0.44);
+    --button-color:         hsl(0, 0%, 87%);
+    --button-text-color:    hsl(0, 0%, 0%);
+    --button-variant-color: hsl(0, 0%, 13%);
+
+    --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 87%)' fill-rule='nonzero'/></svg>");
+  }
+}
 
 @media only screen and (max-width: 960px) {
   section.post-content {
