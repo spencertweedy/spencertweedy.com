@@ -158,7 +158,7 @@ header#site-header > section p {
 }
 
 header#site-header a.subscribe-button {
-	background: var(--button-color);
+	background: var(--button-variant-color);
 	border: 0.0625rem solid var(--background-color);
 	padding: 0.7em 1em;
 	border-radius: 2em;
