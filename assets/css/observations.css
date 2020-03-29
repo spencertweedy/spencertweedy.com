@@ -401,6 +401,11 @@ input[type="submit"], button[type="submit"] {
 	border-radius: var(--border-radius);
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:active, button[type="submit"]:active {
+  transform: translateY(0.0625rem);
 }
 
 /* ---------------
