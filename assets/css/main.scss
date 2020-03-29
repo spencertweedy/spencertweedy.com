@@ -68,8 +68,14 @@ textarea {
    Generic elements
    ---------------- */
 
+:root {
+  color-scheme: light dark; /* Tells browsers the site supports light and dark modes */
+  /* See media query section for dark mode styles */
+}
+
 html {
   --text-color: hsl(0, 0%, 23%);
+  --text-color-light: white;
   --text-color-lighter: hsl(0, 0%, 67%);
   --text-color-darker: hsl(0, 0%, 0%);
   --background-color: white;
@@ -288,12 +294,12 @@ a.with-icon:before {
     list-style-type: none;
     margin: 0;
     padding: 1em 0 0 1em;
-    color: var(--background-color);
+    color: var(--text-color-light);
     width: 33.3333%;
     box-sizing: border-box;
 
     a {
-      color: var(--background-color);
+      color: inherit;
       display: block;
       width: 100%;
       height: 100%;
@@ -349,6 +355,21 @@ a.with-icon:before {
 /* ------------------
    Media query styles
    ------------------ */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --text-color: hsl(0, 0%, 77%);
+    --text-color-light: white;
+    --text-color-lighter: hsl(0, 0%, 33%);
+    --text-color-darker: hsl(0, 0%, 100%);
+    --background-color: black;
+    --link-border-color: hsl(0, 0%, 21%);
+  }
+
+  .observations-link:before {
+    filter: invert(100%);
+  }
+}
 
 @media screen and (max-width: 760px) {
   header {
