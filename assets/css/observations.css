@@ -144,10 +144,6 @@ header#site-header svg.site-logo {
   animation: rotate 30s linear infinite;
 }
 
-header#site-header svg.site-logo g {
-  fill: var(--text-color);
-}
-
 header#site-header > section {
   margin-top: var(--spacing-unit);
 }
