@@ -2,16 +2,10 @@ a {
   text-decoration: underline;
 }
 
-body.default-observations-newsletter {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-div#page-wrapper {
-    max-width: 640px;
-    margin: 40px auto;
-    padding: 0 28px;
+body.obs-newsletter {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0 28px;
 }
 
 header#site-header {
