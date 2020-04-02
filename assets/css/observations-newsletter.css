@@ -13,9 +13,10 @@ header#site-header {
   position: initial;
 }
 
-header#site-header svg.site-logo {
-  position: initial;
-  animation: none;
+header#site-header img {
+  width: 48px;
+  margin: 0 auto;
+  display: block;
 }
 
 header#site-header h1 {
