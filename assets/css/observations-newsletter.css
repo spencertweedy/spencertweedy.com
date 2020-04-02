@@ -60,10 +60,12 @@ section.post-content h2 {
 /* This style and the one below it is trying to counteract 25px in main observations stylsheet… */
 section.post-content ul {
   padding-inline-start: 0;
+  padding-left: 0;
 }
 
 section.post-content ul ul {
   padding-inline-start: 25px;
+  padding-left: 0;
 }
 
 /* section.post-content ul li:before {
