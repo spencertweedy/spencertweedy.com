@@ -82,7 +82,7 @@
                         <a href="{% link observations/about.md %}">About</a><br>
                         <a href="{% link observations/archive.html %}">Archive</a><br>
                         {% unless page.layout contains "page" %}
-                            <a href="{% link observations/subscribe.html %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a>
+                            <a href="{% link observations/subscribe.md %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a>
                         {% endunless %}
                     </p>
                 </section>
@@ -99,7 +99,7 @@
             {% if page.layout == 'obs-newsletter' %}
                 <hr>
                 <p><a href="{{ site.baseurl }}/observations">Observations</a> is Spencer Tweedy’s blog.</p>
-                <p>New? <a href="{{ site.baseurl }}{% link observations/subscribe.html %}">Subscribe here</a>.</p>
+                <p>New? <a href="{{ site.baseurl }}{% link observations/subscribe.md %}">Subscribe here</a>.</p>
                 <p><unsubscribe>Unsubscribe</unsubscribe> instantly.</p>
                 <img src="/assets/drums.gif" alt="Animated drumming figure">
             {% else %}
@@ -116,7 +116,7 @@
             {% endif %}
 	    {% else %}
             <p>
-		        <a href="{% link observations/subscribe.html %}">Newsletter</a> / {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}">Twitter</a>{% endif %} / {% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}">Instagram</a>{% endif %}<br>
+		        <a href="{% link observations/subscribe.md %}">Newsletter</a> / {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}">Twitter</a>{% endif %} / {% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}">Instagram</a>{% endif %}<br>
 		        Last updated {{ site.time | date: "%m/%d/%Y" }} &bull; Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>
 		        Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}
 		    </p>
