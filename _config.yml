@@ -5,7 +5,7 @@ collections:
   newsletters:
     title: Newsletters
     output: true
-    permalink: "/observations/newsletters/:title:output_ext"
+    permalink: "/observations/newsletters/:title/"
   observations:
     title: Observations
     output: true
