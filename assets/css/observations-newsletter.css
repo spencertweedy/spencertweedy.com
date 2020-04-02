@@ -6,6 +6,7 @@ body.obs-newsletter {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
+  font-size: 1.3em;
 }
 
 header#site-header {
