@@ -27,7 +27,7 @@
     {% endif %}
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}"><!-- Link RSS feed -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"><!-- Define canonical URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><!-- Define canonical URL -->
 
     <!-- Social media tags -->
     <meta name="twitter:card" content="summary_large_image">
