@@ -92,16 +92,24 @@
 
 	<footer id="site-footer">
         {% if page.layout contains 'obs' %}
-            <nav>
-                <a href="{{ site.url }}">Home</a>
-                <a href="{% link observations/about.md %}">About</a>
-                <a href="{% link observations/archive.html %}">Archive</a>
-                <a href="{% link observations/contact.md %}">Contact</a>
-            </nav>
+            {% if page.layout == 'obs-newsletter' %}
+                <hr>
+                <p><a href="{{ site.baseurl }}/observations">Observations</a> is Spencer Tweedy’s blog.</p>
+                <p>New? <a href="{{ site.baseurl }}{% link observations/subscribe.html %}">Subscribe here</a>.</p>
+                <p><unsubscribe>Unsubscribe</unsubscribe> instantly.</p>
+                <img src="/assets/drums.gif" alt="Animated drumming figure">
+            {% else %}
+                <nav>
+                    <a href="{{ site.url }}">Home</a>
+                    <a href="{% link observations/about.md %}">About</a>
+                    <a href="{% link observations/archive.html %}">Archive</a>
+                    <a href="{% link observations/contact.md %}">Contact</a>
+                </nav>
 
-            <p>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+                <p>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
 
-            <img src="/assets/drums.gif" alt="Animated drumming figure">
+                <img src="/assets/drums.gif" alt="Animated drumming figure">
+            {% endif %}
 	    {% else %}
             <p>
 		        <a href="{% link observations/subscribe.html %}">Newsletter</a> / {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}">Twitter</a>{% endif %} / {% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}">Instagram</a>{% endif %}<br>
