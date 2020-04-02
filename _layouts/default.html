@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
@@ -106,8 +106,8 @@
         {% if page.layout contains 'obs' %}
             {% if page.layout == 'obs-newsletter' %}
                 <hr>
-                <p><a href="{{ site.baseurl }}/observations">Observations</a> is Spencer Tweedy’s blog.</p>
-                <p>New? <a href="{{ site.baseurl }}{% link observations/subscribe.md %}">Subscribe here</a>.</p>
+                <p><a href="{{ site.url }}/observations">Observations</a> is Spencer Tweedy’s blog.</p>
+                <p>New? <a href="{% link observations/subscribe.md %}">Subscribe here</a>.</p>
                 <p><unsubscribe>Unsubscribe</unsubscribe> instantly.</p>
                 <img src="{% link assets/drums.gif %}" alt="Animated drumming figure">
             {% else %}
