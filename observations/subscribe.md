@@ -8,8 +8,6 @@ My favorite **OBSERVATIONS** posts from the preceding month, sent on the first S
 
 {% include subscribe-box.html %}
 
-***
-
 You can also subscribe via [Twitter](https://twitter.com/{{ site.obs_twitter }}), [Instagram](https://instagram.com/{{ site.obs_instagram }}), or [RSS]({% link feed.xml %}).
 
 ***
