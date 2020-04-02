@@ -47,6 +47,10 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
+
+    {% unless page.layout == 'obs-newsletter' %}
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><!-- Netlify Identity widget -->
+    {% endunless %}
 </head>
 
 <body class="{{ page.layout }}">
@@ -122,5 +126,21 @@
 		    </p>
         {% endif %}
 	</footer>
+
+    {% unless page.layout == 'obs-newsletter' %}
+        <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+          }
+        </script><!-- Netlify CMS redirect -->
+        <script async defer src="https://sa.spencertweedy.com/app.js"></script>
+        <noscript><img src="https://sa.spencertweedy.com/image.gif" alt=""></noscript>
+    {% endunless %}
 </body>
 </html>
