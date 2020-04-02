@@ -77,7 +77,7 @@ html {
 
   --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 13%)' fill-rule='nonzero'/></svg>");
 
-  font-family: 'ISO', monospace, sans-serif;
+  font-family: 'ISO', 'Andale Mono', 'Monaco', 'Courier', 'Courier New', monospace, sans-serif;
   font-size: 1em; /* rem calculations assume 16px browser default */
   color: var(--text-color);
 }
