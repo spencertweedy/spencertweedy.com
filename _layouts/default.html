@@ -72,7 +72,7 @@
 
 	    <h1 class="site-title">
             {% if page.layout contains 'obs' %}
-                <a href="{% link observations/index.html %}">Observations</a>
+                <a href="{% link pages/observations/index.html %}">Observations</a>
             {% else %}
                 <a href="{{ site.url }}">{{ site.title }}</a>
             {% endif %}
@@ -88,10 +88,10 @@
                         </p>
                     {% endif %}
                     <p>
-                        <a href="{% link observations/about.md %}">About</a><br>
-                        <a href="{% link observations/archive.html %}">Archive</a><br>
+                        <a href="{% link pages/observations/about.md %}">About</a><br>
+                        <a href="{% link pages/observations/archive.html %}">Archive</a><br>
                         {% unless page.layout contains "page" %}
-                            <a href="{% link observations/subscribe.md %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a>
+                            <a href="{% link pages/observations/subscribe.md %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a>
                         {% endunless %}
                     </p>
                 </section>
@@ -108,15 +108,15 @@
             {% if page.layout == 'obs-newsletter' %}
                 <hr>
                 <p><a href="{{ site.url }}/observations">Observations</a> is Spencer Tweedy’s blog.</p>
-                <p>New? <a href="{% link observations/subscribe.md %}">Subscribe here</a>.</p>
+                <p>New? <a href="{% link pages/observations/subscribe.md %}">Subscribe here</a>.</p>
                 <p><unsubscribe>Unsubscribe</unsubscribe> instantly.</p>
                 <img src="{% link assets/drums.gif %}" alt="Animated drumming figure">
             {% else %}
                 <nav>
                     <a href="{{ site.url }}">Home</a>
-                    <a href="{% link observations/about.md %}">About</a>
-                    <a href="{% link observations/archive.html %}">Archive</a>
-                    <a href="{% link observations/contact.md %}">Contact</a>
+                    <a href="{% link pages/observations/about.md %}">About</a>
+                    <a href="{% link pages/observations/archive.html %}">Archive</a>
+                    <a href="{% link pages/observations/contact.md %}">Contact</a>
                 </nav>
 
                 <p>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
@@ -125,7 +125,7 @@
             {% endif %}
 	    {% else %}
             <p>
-		        <a href="{% link observations/subscribe.md %}">Newsletter</a> / {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}">Twitter</a>{% endif %} / {% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}">Instagram</a>{% endif %}<br>
+		        <a href="{% link pages/observations/subscribe.md %}">Newsletter</a> / {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}">Twitter</a>{% endif %} / {% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}">Instagram</a>{% endif %}<br>
 		        Last updated {{ site.time | date: "%m/%d/%Y" }} &bull; Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>
 		        Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}
 		    </p>
