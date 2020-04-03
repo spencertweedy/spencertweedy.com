@@ -7,6 +7,7 @@ body.obs-newsletter {
   margin: 40px auto;
   padding: 0 28px;
   font-size: 1.3em;
+  background-color: transparent;
 }
 
 header#site-header {
