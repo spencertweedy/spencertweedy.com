@@ -20,6 +20,10 @@ header#site-header img {
   display: block;
 }
 
+header#site-header img.light-logo {
+  display: none;
+}
+
 header#site-header h1 {
   margin-bottom: 0.4em;
 }
@@ -95,4 +99,14 @@ footer#site-footer p {
 
 footer#site-footer img {
   margin: 0.4em auto 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  header#site-header img.light-logo {
+    display: block;
+  }
+
+  header#site-header img.dark-logo {
+    display: none;
+  }
 }
