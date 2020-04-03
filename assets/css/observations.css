@@ -69,7 +69,6 @@ html {
   --button-color:         hsl(0, 0%, 13%);
   --button-text-color:    hsl(0, 0%, 100%);
   --accent-color:         hsl(87, 47%, 52%);
-  --button-variant-color: hsl(0, 0%, 13%);
 
   --border-radius: 0.235rem;
   --spacing-unit: 1.875rem;
@@ -148,7 +147,7 @@ header#site-header > section p {
 }
 
 header#site-header a.subscribe-button {
-	background: var(--button-variant-color);
+	background: var(--button-color);
 	border: 0.0625rem solid var(--background-color);
 	padding: 0.7em 1em;
 	border-radius: 2em;
@@ -386,10 +385,12 @@ footer#site-footer nav a:not(:last-of-type):after {
    ----------- */
 
 input[type="text"], input[type="email"] {
+  background-color: var(--background-color);
 	border: 0.125rem solid var(--button-color);
 	border-radius: var(--border-radius);
 	padding: 0.6em 0.7em 0.5em;
   line-height: 1.35rem;
+  color: var(--text-color);
 }
 
 input[type="submit"], button[type="submit"] {
@@ -466,9 +467,8 @@ input[type="submit"]:active, button[type="submit"]:active {
     --background-color:     hsl(0, 0%, 9%);
     --text-color:           hsl(0, 0%, 95%);
     --text-color-lighter:   hsl(0, 0%, 44%);
-    --button-color:         hsl(0, 0%, 95%);
-    --button-text-color:    hsl(0, 0%, 9%);
-    --button-variant-color: hsl(0, 0%, 13%);
+    --button-color:         hsl(0, 0%, 17%);
+    --button-text-color:    hsl(0, 0%, 95%);
 
     --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 87%)' fill-rule='nonzero'/></svg>");
   }
