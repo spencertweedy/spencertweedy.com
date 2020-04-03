@@ -65,7 +65,7 @@ textarea {
 html {
   --background-color:     hsl(0, 0%, 100%);
   --text-color:           hsl(0, 0%, 13%);
-  --text-color-lighter:   rgba(0,0,0,0.44);
+  --text-color-lighter:   hsl(0, 0%, 58%);
   --button-color:         hsl(0, 0%, 13%);
   --button-text-color:    hsl(0, 0%, 100%);
   --accent-color:         hsl(87, 47%, 52%);
@@ -465,7 +465,7 @@ input[type="submit"]:active, button[type="submit"]:active {
   html {
     --background-color:     hsl(0, 0%, 9%);
     --text-color:           hsl(0, 0%, 95%);
-    --text-color-lighter:   rgba(255,255,255,0.44);
+    --text-color-lighter:   hsl(0, 0%, 44%);
     --button-color:         hsl(0, 0%, 95%);
     --button-text-color:    hsl(0, 0%, 9%);
     --button-variant-color: hsl(0, 0%, 13%);
