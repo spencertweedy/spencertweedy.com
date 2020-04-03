@@ -19,8 +19,13 @@
         <meta name="robots" content="noindex, nofollow"><!-- Disallow search engine indexing, etc. -->
     {% endif %}
 
-    <link rel="icon" type="image/x-icon" href="{% link assets/favicon.ico %}"><!-- Link favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/apple-touch-icon.png %}"><!-- Link Apple icon -->
+    {% if page.layout contains 'obs' %}
+        <link rel="icon" type="image/png" href="{% link assets/favicons/obs-favicon.png %}"><!-- Link favicon -->
+        <link rel="apple-touch-icon" sizes="192x192" href="{% link assets/favicons/obs-apple-icon.png %}"><!-- Link Apple icon -->
+    {% else %}
+        <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}"><!-- Link favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}"><!-- Link Apple icon -->
+    {% endif %}
 
     <link rel="stylesheet" href="{% link assets/css/normalize.css %}"><!-- Import CSS -->
     {% if page.layout contains 'obs' %}
