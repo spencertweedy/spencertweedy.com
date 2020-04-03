@@ -1,37 +1,6 @@
-/* Credit to HTML5 Boilerplate v5.0 (main.css 2.0.0) for some styles */
-
-/* --------------------------------------
-   HTML5 Boilerplate opinionated defaults
-   -------------------------------------- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 0.0625rem solid var(--text-color);
-  opacity: 0.3;
-  margin: 1.5em 0;
-  padding: 0;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
+/* 
+ * Credit to HTML5 Boilerplate v5.0 (main.css 2.0.0) for some styles
+ */
 
 /* -----
    Fonts
@@ -110,6 +79,35 @@ a:hover {
 small {
   font-size: 0.88em;
   color: var(--text-color-lighter);
+}
+
+hr {
+  display: block;
+  height: 1px; /* px value is okay because it's just a nonzero value in order for the border to render */
+  border: 0;
+  border-top: 0.0625rem solid var(--button-color);
+  opacity: 0.3;
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
 }
 
 /* -------------
