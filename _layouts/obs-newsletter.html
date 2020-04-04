@@ -1,13 +1,50 @@
----
-layout: obs
----
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
 
-<article class="post">
-	<header class="post-header">
-		<h1>{{ page.title }}</h1>
-	</header>
+    <title>{% if page.title %}{{ page.title | escape }} &#8942; {% endif %}{{ site.title | escape }}</title>
 
-	<section class="post-content">
-		{{ content }}
-	</section>
-</article>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Define viewport -->
+    <meta name="color-scheme" content="light dark"><!-- Define color scheme preference -->
+    <meta name="robots" content="noindex, nofollow"><!-- Disallow search engine indexing, etc. -->
+
+    <link rel="stylesheet" href="{% link assets/css/normalize.css %}"><!-- Import CSS -->
+    <link rel="stylesheet" href="{% link assets/css/observations.css %}"><!-- Import CSS -->
+    <link rel="stylesheet" href="{% link assets/css/observations-newsletter.css %}"><!-- Import CSS -->
+</head>
+
+<body class="{{ page.layout }}">
+	<div id="body">
+		<header id="site-header">
+	        {% comment %} Because email clients have poor SVG support {% endcomment %}
+	        <img src="{% link assets/observations-dark@3x.png %}" class="dark-logo" alt="Observations logo">
+	        <img src="{% link assets/observations-light@3x.png %}" class="light-logo" alt="Observations logo">
+
+		    <h1 class="site-title">
+		        <a href="{% link pages/observations/index.html %}">Observations</a>
+	        </h1>
+		</header>
+
+		<main id="site-content">
+	        <article class="post">
+				<header class="post-header">
+					<h1>{{ page.title }}</h1>
+				</header>
+
+				<section class="post-content">
+					{{ content }}
+				</section>
+			</article>
+		</main>
+
+		<footer id="site-footer">
+	        <hr>
+		    <p><a href="{{ site.url }}/observations">Observations</a> is Spencer Tweedy’s blog.</p>
+		    <p>New? <a href="{% link pages/observations/subscribe.md %}">Subscribe here</a>.</p>
+		    <p><unsubscribe>Unsubscribe</unsubscribe> instantly.</p>
+		    <img src="{% link assets/drums.gif %}" alt="Animated drumming figure">
+		</footer>
+	</div>
+</body>
+</html>
