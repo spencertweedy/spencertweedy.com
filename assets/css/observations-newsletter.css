@@ -98,6 +98,10 @@ footer#site-footer img {
 }
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--background-color); /* Reverting the hard-coded white bg above */
+  }
+
   header#site-header img.light-logo {
     display: block;
   }
