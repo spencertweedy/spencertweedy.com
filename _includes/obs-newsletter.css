@@ -622,10 +622,6 @@ header#site-header img {
   display: block;
 }
 
-header#site-header img.light-logo {
-  display: none;
-}
-
 header#site-header h1 {
   margin-bottom: 0.4em;
 }
