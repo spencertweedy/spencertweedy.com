@@ -719,7 +719,8 @@ footer#site-footer img {
 
 @media (prefers-color-scheme: dark) {
   #body {
-    background: #171717;
+    /*background: #171717;*/
+    background: red;
     color: #F2F2F2;
   }
 
