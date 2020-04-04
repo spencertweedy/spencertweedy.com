@@ -98,3 +98,18 @@ footer#site-footer p {
 footer#site-footer img {
   margin: 0.4em auto 0;
 }
+
+@media (prefers-color-scheme: dark) {
+  #body {
+    background: #171717;
+    color: #F2F2F2;
+  }
+
+  header#site-header img.light-logo {
+    display: block;
+  }
+
+  header#site-header img.dark-logo {
+    display: none;
+  }
+}
