@@ -9,9 +9,9 @@
     <meta name="color-scheme" content="light dark"><!-- Define color scheme preference -->
     <meta name="robots" content="noindex, nofollow"><!-- Disallow search engine indexing, etc. -->
 
-    <link rel="stylesheet" href="{% link assets/css/normalize.css %}"><!-- Import CSS -->
-    <link rel="stylesheet" href="{% link assets/css/observations.css %}"><!-- Import CSS -->
-    <link rel="stylesheet" href="{% link assets/css/observations-newsletter.css %}"><!-- Import CSS -->
+    <style>
+    	{% include observations-newsletter.css %}
+    </style>
 </head>
 
 <body class="{{ page.layout }}">
