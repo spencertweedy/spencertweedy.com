@@ -2,7 +2,7 @@ body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
-  background: white; /* A sad defeat until I can sort out Apple Mail's failure to trigger auto-invert with transparent bg OR the inlining of dark mode media query with Campaign Monitor's CSS inliner */
+  background: transparent; /* So that email clients trigger their fake (inverted) dark mode */
   color: hsl(0, 0%, 13%); /* Because CSS variables have poor support? And because in main stylesheet, 'color' is applied to 'html' element which may not be present in email HTML */
   /* See also dark mode media query below */
 }
@@ -101,8 +101,8 @@ footer#site-footer img {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: white;
-    color: hsl(0, 0%, 13%);
+    background: transparent;
+    color: hsl(0, 0%, 95%);
   }
 
   header#site-header img.light-logo {
