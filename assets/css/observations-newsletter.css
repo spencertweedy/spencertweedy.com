@@ -3,7 +3,8 @@ body {
   margin: 40px auto;
   padding: 0 28px;
   background: transparent; /* So that email clients trigger their fake (inverted) dark mode */
-  color: hsl(0, 0%, 13%); /* Because CSS variables have poor support? */
+  color: hsl(0, 0%, 13%); /* Because CSS variables have poor support? And because in main stylesheet, 'color' is applied to 'html' element which may not be present in email HTML */
+  /* See also dark mode media query below */
 }
 
 a {
@@ -99,6 +100,11 @@ footer#site-footer img {
 }
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+  }
+
   header#site-header img.light-logo {
     display: block;
   }
