@@ -1,10 +1,14 @@
 body {
+  margin: 0;
+}
+
+#body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
   background: #FFFFFF; /* A sad defeat until I can figure out why Apple Mail and Spark, etc. aren't listening to the dark mode styles */
   color: #212121; /* Just in case? */
-  /* See also dark mode media query in main stylesheet */
+  /* See also dark mode media query below */
 }
 
 a {
