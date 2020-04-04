@@ -2,6 +2,8 @@ body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
+  background: transparent; /* So that email clients trigger their fake (inverted) dark mode */
+  color: hsl(0, 0%, 13%); /* Because CSS variables have poor support? */
 }
 
 a {
