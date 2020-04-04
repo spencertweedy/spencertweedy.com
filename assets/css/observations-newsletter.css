@@ -1,12 +1,12 @@
-a {
-  text-decoration: underline;
-}
-
 body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
   background: white; /* A sad defeat… until I can sort out CSS inlining of the dark mode media query styles */
+}
+
+a {
+  text-decoration: underline;
 }
 
 header#site-header {
