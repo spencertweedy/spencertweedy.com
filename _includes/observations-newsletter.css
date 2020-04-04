@@ -493,16 +493,6 @@ article.post header h1 {
   margin: 0;
 }
 
-article.post header h1:after {
-  content: ''; /* Required in order for element to display */
-  display: block;
-  width: 100%;
-  height: 0.125rem;
-  margin: 0.25rem 0;
-  background: var(--text-color); /* Equivalent of a border-color style, so should be same as text color */
-  border-radius: 0.0625rem;
-}
-
 article.post header h1 a {
   text-decoration: none;
 }
@@ -679,14 +669,6 @@ article.post {
 
 article.post header {
   text-align: center;
-}
-
-article.post header h1:after {
-  content: none;
-  display: none;
-  height: 0;
-  margin: 0;
-  background: transparent;
 }
 
 section.post-content {
