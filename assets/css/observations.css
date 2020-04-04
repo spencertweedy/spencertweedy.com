@@ -54,7 +54,7 @@ body {
   font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
   line-height: 1.35em;
   margin: calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 5.333);
-  background-color: var(--background-color);
+  background: var(--background-color);
 }
 
 body.obs {
