@@ -2,7 +2,6 @@ body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
-  background: white; /* A sad defeat… until I can sort out CSS inlining of the dark mode media query styles */
 }
 
 a {
@@ -98,10 +97,6 @@ footer#site-footer img {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--background-color); /* Reverting the hard-coded white bg above */
-  }
-
   header#site-header img.light-logo {
     display: block;
   }
