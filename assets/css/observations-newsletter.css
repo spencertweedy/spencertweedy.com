@@ -2,8 +2,8 @@ body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
-  background: transparent; /* So that email clients trigger their fake (inverted) dark mode */
-  color: #212121; /* Because CSS variables have poor support? And because in main stylesheet, 'color' is applied to 'html' element which may not be present in email HTML */
+  background: #FFFFFF; /* A sad defeat until I can figure out why Apple Mail and Spark, etc. aren't listening to the dark mode styles */
+  color: #212121; /* Just in case? */
   /* See also dark mode media query in main stylesheet */
 }
 
