@@ -380,11 +380,6 @@ template {
    Generic elements
    ---------------- */
 
-:root {
-  color-scheme: light dark; /* Tells browsers the site supports light and dark modes */
-  /* See media query section for dark mode styles */
-}
-
 html {
   --background-color:     hsl(0, 0%, 100%);
   --text-color:           hsl(0, 0%, 13%);
@@ -596,22 +591,6 @@ footer#site-footer nav a:not(:last-of-type):after {
   display: inline-block;
 }
 
-/* ------------------
-   Media query styles
-   ------------------ */
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --background-color:     hsl(0, 0%, 9%);
-    --text-color:           hsl(0, 0%, 95%);
-    --text-color-lighter:   hsl(0, 0%, 44%);
-    --button-color:         hsl(0, 0%, 17%);
-    --button-text-color:    hsl(0, 0%, 95%);
-
-    --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 87%)' fill-rule='nonzero'/></svg>");
-  }
-}
-
 /*
  * NEWSLETTER STYLES
  */
@@ -626,7 +605,6 @@ body {
   padding: 0 28px;
   background: #FFFFFF; /* A sad defeat until I can figure out why Apple Mail and Spark, etc. aren't listening to the dark mode styles */
   color: #212121; /* Just in case? */
-  /* See also dark mode media query below */
 }
 
 a {
@@ -715,20 +693,4 @@ footer#site-footer p {
 
 footer#site-footer img {
   margin: 0.4em auto 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  #body {
-    /*background: #171717;*/
-    background: red;
-    color: #F2F2F2;
-  }
-
-  header#site-header img.light-logo {
-    display: block;
-  }
-
-  header#site-header img.dark-logo {
-    display: none;
-  }
 }
