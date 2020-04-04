@@ -13,7 +13,11 @@
     -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Define viewport -->
-    <meta name="color-scheme" content="light dark"><!-- Define color scheme preference -->
+
+    {% unless page.layout == 'obs-newsletter' %}
+        {% comment %} This conditional is so that newsletter pages don't have this meta tag which tells email clients that dark mode styles are available. Dark mode styles *are* available, but Campaign Monitor's CSS inliner isn't passing them through, so until I can fix that, I'm going to let email clients use their fake auto-invert dark mode. {% endcomment %}
+        <meta name="color-scheme" content="light dark"><!-- Define color scheme preference -->
+    {% endunless %}
 
     {% if page.layout == 'obs-newsletter' %}
         <meta name="robots" content="noindex, nofollow"><!-- Disallow search engine indexing, etc. -->
