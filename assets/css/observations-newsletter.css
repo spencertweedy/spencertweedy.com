@@ -2,7 +2,7 @@ a {
   text-decoration: underline;
 }
 
-body.obs-newsletter {
+body {
   max-width: 640px;
   margin: 40px auto;
   padding: 0 28px;
@@ -76,7 +76,7 @@ section.post-content ul ul {
 
 section.post-content a.date-code {
   font-size: 0.88em;
-  color: rgba(0,0,0,0.44);
+  color: hsl(0, 0%, 58%);
   text-decoration: none;
 }
 
