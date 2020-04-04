@@ -68,6 +68,7 @@
 	<header id="site-header">
         {% if page.layout contains 'obs' %}
             {%  if page.layout == 'obs-newsletter' %}
+                {% comment %} Because email clients have poor SVG support {% endcomment %}
                 <img src="{% link assets/observations-dark@3x.png %}" class="dark-logo" alt="Observations logo">
                 <img src="{% link assets/observations-light@3x.png %}" class="light-logo" alt="Observations logo">
             {% else %}
