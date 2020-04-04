@@ -1,4 +1,4 @@
-a {
+body.obs-newsletter a {
   text-decoration: underline;
 }
 
@@ -9,41 +9,41 @@ body.obs-newsletter {
   background: transparent;
 }
 
-header#site-header {
+body.obs-newsletter header#site-header {
   text-align: center;
   position: initial;
 }
 
-header#site-header img {
+body.obs-newsletter header#site-header img {
   width: 48px;
   margin: 0 auto;
   display: block;
 }
 
-header#site-header img.light-logo {
+body.obs-newsletter header#site-header img.light-logo {
   display: none;
 }
 
-header#site-header h1 {
+body.obs-newsletter header#site-header h1 {
   margin-bottom: 0.4em;
 }
 
-main#site-content {
+body.obs-newsletter main#site-content {
   margin-top: 0;
 }
 
-main#site-content img {
+body.obs-newsletter main#site-content img {
   max-width: 100%;
   display: block;
   margin: 2em auto;
   border-radius: 4px;
 }
 
-article.post {
+body.obs-newsletter article.post {
   margin-bottom: 0;
 }
 
-article.post header {
+body.obs-newsletter article.post header {
   text-align: center;
 }
 
@@ -51,58 +51,58 @@ article.post header {
   These styles are in main observations.css because of annoying Campaign Monitor import glitch?
 } */
 
-section.post-content {
+body.obs-newsletter section.post-content {
   margin-top: 40px;
   width: 100%;
   text-align: left;
 }
 
-section.post-content h2 {
+body.obs-newsletter section.post-content h2 {
   display: block;
   margin: 1em 0;
   text-align: center;
 }
 
 /* This style and the one below it is trying to counteract 25px in main observations stylsheet… */
-section.post-content ul {
+body.obs-newsletter section.post-content ul {
   padding-inline-start: 0;
   padding-left: 0;
 }
 
-section.post-content ul ul {
+body.obs-newsletter section.post-content ul ul {
   padding-inline-start: 25px;
   padding-left: 0;
 }
 
-section.post-content a.date-code {
+body.obs-newsletter section.post-content a.date-code {
   font-size: 0.88em;
-  color: rgba(0,0,0,0.44);
+  color: hsl(0, 0%, 58%);
   text-decoration: none;
 }
 
-footer#site-footer {
+body.obs-newsletter footer#site-footer {
   text-align: center;
   margin-top: 40px;
 }
 
-footer#site-footer a {
+body.obs-newsletter footer#site-footer a {
   text-decoration: underline;
 }
 
-footer#site-footer p {
+body.obs-newsletter footer#site-footer p {
   margin-bottom: 1em;
 }
 
-footer#site-footer img {
+body.obs-newsletter footer#site-footer img {
   margin: 0.4em auto 0;
 }
 
 @media (prefers-color-scheme: dark) {
-  header#site-header img.light-logo {
+  body.obs-newsletter header#site-header img.light-logo {
     display: block;
   }
 
-  header#site-header img.dark-logo {
+  body.obs-newsletter header#site-header img.dark-logo {
     display: none;
   }
 }
