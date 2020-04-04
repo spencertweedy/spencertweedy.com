@@ -307,17 +307,6 @@ section.post-content li {
   padding: 0;
 }
 
-/* These styles are here rather than newsletter stylesheet to work around Campaign Monitor import */
-body.obs-newsletter section.post-content ul li:before {
-  position: initial;
-  margin-left: -1.125rem;
-  margin-right: 0.5rem;
-  background-image: url("/assets/star@3x.png");
-  background-size: 0.625rem;
-  left: 0;
-  top: 0;
-}
-
 aside.post-aside {
   position: absolute;
   top: calc(var(--spacing-unit) * 1.5);

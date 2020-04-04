@@ -73,10 +73,6 @@ section.post-content ul ul {
   padding-left: 0;
 }
 
-/* section.post-content ul li:before {
-  These styles are in main observations.css because of annoying Campaign Monitor import glitch?
-} */
-
 section.post-content a.date-code {
   font-size: 0.88em;
   color: rgba(0,0,0,0.44);
