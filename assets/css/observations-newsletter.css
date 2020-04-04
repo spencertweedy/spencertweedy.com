@@ -1,3 +1,631 @@
+/*
+ * NORMALIZE.CSS HARD-CODE IMPORT
+ */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*
+ * OBSERVATIONS.CSS HARD-CODE IMPORT WITH LOTS OF DELETIONS AND MODS
+ */
+
+/* -----
+   Fonts
+   ----- */
+
+@font-face {
+  font-family: 'ISO';
+  src: url('/assets/font/ISOv0.5-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ISO';
+  src: url('/assets/font/ISOv0.5-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ----------------
+   Generic elements
+   ---------------- */
+
+:root {
+  color-scheme: light dark; /* Tells browsers the site supports light and dark modes */
+  /* See media query section for dark mode styles */
+}
+
+html {
+  --background-color:     hsl(0, 0%, 100%);
+  --text-color:           hsl(0, 0%, 13%);
+  --text-color-lighter:   hsl(0, 0%, 58%);
+  --button-color:         hsl(0, 0%, 13%);
+  --button-text-color:    hsl(0, 0%, 100%);
+  --accent-color:         hsl(87, 47%, 52%);
+
+  --border-radius: 0.235rem;
+  --spacing-unit: 1.875rem;
+  --max-width: 640px;
+
+  --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 13%)' fill-rule='nonzero'/></svg>");
+
+  font-size: 1em; /* rem calculations assume 16px browser default */
+}
+
+body {
+  font-family: 'ISO', 'Monaco', 'Courier', 'Courier New', monospace;
+  font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
+  line-height: 1.35em;
+  margin: calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 5.333);
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* For accessibility */
+a:focus {
+  outline: 0.25rem solid var(--accent-color);
+  outline-offset: 0.25rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+small {
+  font-size: 0.88em;
+  color: var(--text-color-lighter);
+}
+
+hr {
+  display: block;
+  height: 1px; /* px value is okay because it's just a nonzero value in order for the border to render */
+  border: 0;
+  border-top: 0.0625rem solid var(--text-color);
+  opacity: 0.3;
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+/* -------------
+   Header styles
+   ------------- */
+
+header#site-header {
+  position: relative;
+}
+
+header#site-header h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.375rem;
+}
+
+header#site-header h1 a {
+  text-decoration: none;
+}
+
+header#site-header > section {
+  margin-top: var(--spacing-unit);
+}
+
+header#site-header > section p {
+  float: left;
+  margin: 0 calc(var(--spacing-unit) * 2) 0 0;
+}
+
+/* -------------------
+   Main section styles
+   ------------------- */
+
+main#site-content {
+  margin-top: calc(var(--spacing-unit) * 3);
+}
+
+/* -----------
+   Post styles
+   ----------- */
+
+article.post {
+  position: relative; /* For children's absolute positioning */
+  margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+article.post header h1 {
+  text-transform: uppercase;
+  font-size: 1.1875rem;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0;
+}
+
+article.post header h1:after {
+  content: ''; /* Required in order for element to display */
+  display: block;
+  width: 100%;
+  height: 0.125rem;
+  margin: 0.25rem 0;
+  background: var(--text-color); /* Equivalent of a border-color style, so should be same as text color */
+  border-radius: 0.0625rem;
+}
+
+article.post header h1 a {
+  text-decoration: none;
+}
+
+article.post h2 {
+  font-size: 1.4em;
+  line-height: 1.35em;
+}
+
+article.post h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+section.post-content {
+  margin: calc(var(--spacing-unit) / 2) 0;
+  width: 75%;
+  max-width: var(--max-width);
+  text-align: justify;
+}
+
+section.post-content a {
+  text-decoration: underline;
+}
+
+section.post-content ul, section.post-content ol {
+  margin: 0;
+  padding-inline-start: 1.5625rem;
+}
+
+section.post-content ul {
+  list-style-image: var(--star-icon);
+}
+
+section.post-content > ul {
+  padding: 0;
+}
+
+section.post-content li {
+  margin: 1em 0;
+  padding: 0;
+}
+
+aside.post-aside {
+  position: absolute;
+  top: calc(var(--spacing-unit) * 1.5);
+  right: 0;
+  padding-left: calc(var(--spacing-unit) * 2);
+  box-sizing: border-box;
+  width: 25%;
+  min-width: calc(100% - var(--max-width));
+  transform: rotate(2deg);
+}
+
+article.post:nth-child(even) aside.post-aside {
+  transform: rotate(-2deg); /* Rotate post asides for even posts */
+}
+
+aside.post-aside:hover {
+  z-index: 999; /* In case they are overlapping due to absolute positioning */
+}
+
+aside.post-aside img {
+  width: calc(var(--max-width) / 2);
+  max-width: 100%;
+  display: block;
+  margin: -50% auto 0;
+  border-radius: var(--border-radius);
+}
+
+aside.post-aside p {
+  width: calc(var(--max-width) / 2);
+  max-width: 100%;
+  margin: 0.5em auto;
+}
+
+/* -------------
+   Footer styles
+   ------------- */
+
+footer#site-footer {
+  margin-top: calc(var(--spacing-unit) * 2);
+  font-size: 0.88em;
+  color: var(--text-color-lighter);
+}
+
+footer#site-footer img {
+  display: block;
+  margin: 0.4em 0 0;
+  width: 1.5rem;
+}
+
+footer#site-footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer#site-footer nav a:not(:last-of-type):after {
+  content: '•';
+  margin-left: 0.5em;
+  display: inline-block;
+}
+
+/* ------------------
+   Media query styles
+   ------------------ */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --background-color:     hsl(0, 0%, 9%);
+    --text-color:           hsl(0, 0%, 95%);
+    --text-color-lighter:   hsl(0, 0%, 44%);
+    --button-color:         hsl(0, 0%, 17%);
+    --button-text-color:    hsl(0, 0%, 95%);
+
+    --star-icon: url("data:image/svg+xml;utf8,<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><path d='M4.766 9.824a.243.243 0 0 0 .468 0c.871-3.032 1.558-3.719 4.59-4.59a.243.243 0 0 0 0-.468c-3.032-.871-3.719-1.558-4.59-4.59a.244.244 0 0 0-.468 0c-.871 3.032-1.558 3.719-4.59 4.59a.243.243 0 0 0 0 .468c3.032.871 3.719 1.558 4.59 4.59z' fill='hsl(0, 0%, 87%)' fill-rule='nonzero'/></svg>");
+  }
+}
+
+/*
+ * NEWSLETTER STYLES
+ */
+
 body {
   margin: 0;
 }
@@ -53,9 +681,13 @@ article.post header {
   text-align: center;
 }
 
-/* article.post header h1:after {
-  These styles are in main observations.css because of annoying Campaign Monitor import glitch?
-} */
+article.post header h1:after {
+  content: none;
+  display: none;
+  height: 0;
+  margin: 0;
+  background: transparent;
+}
 
 section.post-content {
   margin-top: 40px;
