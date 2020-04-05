@@ -387,7 +387,7 @@ html {
 body {
   font-family: 'ISO', 'Monaco', 'Courier', 'Courier New', monospace;
   font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
-  line-height: 1.35em;
+  line-height: 1.5em;
   background: #FFFFFF;
   color: #212121;
 }
