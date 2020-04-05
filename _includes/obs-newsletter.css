@@ -658,23 +658,6 @@ section.post-content {
   text-align: left;
 }
 
-section.post-content h2 {
-  display: block;
-  margin: 1em 0;
-  text-align: center;
-}
-
-/* This style and the one below it is trying to counteract 25px in main observations stylsheet… */
-section.post-content ul {
-  padding-inline-start: 0;
-  padding-left: 0;
-}
-
-section.post-content ul ul {
-  padding-inline-start: 25px;
-  padding-left: 0;
-}
-
 section.post-content a.date-code {
   font-size: 0.88em;
   color: hsl(0, 0%, 58%);
