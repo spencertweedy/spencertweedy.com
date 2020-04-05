@@ -524,39 +524,6 @@ section.post-content li {
   padding: 0;
 }
 
-aside.post-aside {
-  position: absolute;
-  top: calc(1.875rem * 1.5);
-  right: 0;
-  padding-left: calc(1.875rem * 2);
-  box-sizing: border-box;
-  width: 25%;
-  min-width: calc(100% - var(--max-width));
-  transform: rotate(2deg);
-}
-
-article.post:nth-child(even) aside.post-aside {
-  transform: rotate(-2deg); /* Rotate post asides for even posts */
-}
-
-aside.post-aside:hover {
-  z-index: 999; /* In case they are overlapping due to absolute positioning */
-}
-
-aside.post-aside img {
-  width: calc(var(--max-width) / 2);
-  max-width: 100%;
-  display: block;
-  margin: -50% auto 0;
-  border-radius: 0.235rem;
-}
-
-aside.post-aside p {
-  width: calc(var(--max-width) / 2);
-  max-width: 100%;
-  margin: 0.5em auto;
-}
-
 /* -------------
    Footer styles
    ------------- */
