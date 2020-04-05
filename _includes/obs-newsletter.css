@@ -493,13 +493,20 @@ article.post header h1 a {
 }
 
 article.post h2 {
+  display: block;
+  margin: 1em 0;
   font-size: 1.4em;
   line-height: 1.35em;
 }
 
 article.post h3 {
-  font-size: 1em;
   text-transform: uppercase;
+  font-size: 1.1875rem;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0;
+  border-bottom: 0.125rem solid currentColor;
+  padding-bottom: 0.25rem;
 }
 
 section.post-content {
