@@ -1,3 +1,5 @@
+# Modified from jekyll-archives v2.2.1
+
 require "jekyll"
 
 module Jekyll
