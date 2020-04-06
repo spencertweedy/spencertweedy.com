@@ -36,4 +36,8 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 
+### Ruby ###
+.bundle/
+vendor/
+
 # End of https://www.gitignore.io/api/macos
