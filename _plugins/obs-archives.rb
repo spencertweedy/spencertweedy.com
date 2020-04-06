@@ -32,7 +32,7 @@ module Jekyll
       return if @config.nil?
 
       @site = site
-      @posts = site.collections['observations']
+      @posts = site.collections["observations"]
       @archives = []
 
       @site.config["obs-archives"] = @config
@@ -124,7 +124,12 @@ module Jekyll
     # id    - String used to format post date via `Time.strptime` e.g. %Y, %m, etc.
     def date_attr_hash(posts, id)
       hash = Hash.new { |hsh, key| hsh[key] = [] }
-      posts.each { |post| hash[post.date.strftime(id)] << post }
+      posts.each do |post|
+        unless post.data["datestamp"].nil? # 'datestamp' is my own front matter thing
+          parsed_time = Date.strptime(post.data["datestamp"], "%Y%m")
+          hash[parsed_time.strftime(id)] << post
+        end
+      end
       hash.each_value { |posts| posts.sort!.reverse! }
       hash
     end
