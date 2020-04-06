@@ -200,7 +200,9 @@ module Jekyll
     #
     # Returns a Date.
     def date
-      if @title.is_a? Hash
+      return unless @title.is_a?(Hash)
+
+      @date ||= begin
         args = @title.values.map(&:to_i)
         Date.new(*args)
       end
