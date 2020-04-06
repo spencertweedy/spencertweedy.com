@@ -10,9 +10,6 @@ module Jekyll
       "permalinks" => {
         "year"     => "/:year/",
         "month"    => "/:year/:month/",
-        "day"      => "/:year/:month/:day/",
-        "tag"      => "/tag/:name/",
-        "category" => "/category/:name/",
       },
     }.freeze
 
@@ -37,33 +34,10 @@ module Jekyll
 
       @site.config["obs-archives"] = @config
 
-      read
+      read_dates
       @site.pages.concat(@archives)
 
       @site.config["archives"] = @archives
-    end
-
-    # Read archive data from posts
-    def read
-      read_tags
-      read_categories
-      read_dates
-    end
-
-    def read_tags
-      if enabled? "tags"
-        tags.each do |title, posts|
-          @archives << Archive.new(@site, title, "tag", posts)
-        end
-      end
-    end
-
-    def read_categories
-      if enabled? "categories"
-        categories.each do |title, posts|
-          @archives << Archive.new(@site, title, "category", posts)
-        end
-      end
     end
 
     def read_dates
@@ -71,9 +45,6 @@ module Jekyll
         append_enabled_date_type({ :year => year }, "year", y_posts)
         months(y_posts).each do |month, m_posts|
           append_enabled_date_type({ :year => year, :month => month }, "month", m_posts)
-          days(m_posts).each do |day, d_posts|
-            append_enabled_date_type({ :year => year, :month => month, :day => day }, "day", d_posts)
-          end
         end
       end
     end
@@ -81,14 +52,6 @@ module Jekyll
     # Checks if archive type is enabled in config
     def enabled?(archive)
       @enabled == true || @enabled == "all" || (@enabled.is_a?(Array) && @enabled.include?(archive))
-    end
-
-    def tags
-      @site.tags
-    end
-
-    def categories
-      @site.categories
     end
 
     # Custom `post_attr_hash` method for years
@@ -99,11 +62,6 @@ module Jekyll
     # Custom `post_attr_hash` method for months
     def months(year_posts)
       date_attr_hash(year_posts, "%m")
-    end
-
-    # Custom `post_attr_hash` method for days
-    def days(month_posts)
-      date_attr_hash(month_posts, "%d")
     end
 
     private
@@ -125,8 +83,11 @@ module Jekyll
     def date_attr_hash(posts, id)
       hash = Hash.new { |hsh, key| hsh[key] = [] }
       posts.each do |post|
-        unless post.data["datestamp"].nil? # 'datestamp' is my own front matter thing
+        unless post.data["datestamp"].nil?
+          # Convert the 'datestamp' string into a Ruby DateTime object
           parsed_time = Date.strptime(post.data["datestamp"], "%Y%m")
+
+          # Format the DateTime object and add it into the hash
           hash[parsed_time.strftime(id)] << post
         end
       end
