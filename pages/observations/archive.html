@@ -10,7 +10,6 @@ Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.ti
 <p>Post count: {{ site.observations | size }}</p>
 <hr>
 
-<h2>Monthly archives</h2>
 {% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
 {% for year in months_by_year %}
 <p>
