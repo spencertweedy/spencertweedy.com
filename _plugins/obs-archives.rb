@@ -189,7 +189,7 @@ module Jekyll
         args = @title.values.map(&:to_i)
         date = Date.new(*args)
 
-        @title = date.strftime("%B")
+        @title = date.strftime("%B %Y")
         @title
       elsif @title.is_a? String
         @title
