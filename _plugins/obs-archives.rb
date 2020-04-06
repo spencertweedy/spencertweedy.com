@@ -37,7 +37,7 @@ module Jekyll
       read_dates
       @site.pages.concat(@archives)
 
-      @site.config["archives"] = @archives
+      @site.config["observations-months"] = @archives
     end
 
     def read_dates
