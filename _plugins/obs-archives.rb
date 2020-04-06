@@ -84,10 +84,10 @@ module Jekyll
       hash = Hash.new { |hsh, key| hsh[key] = [] }
       posts.each do |post|
         unless post.data["datestamp"].nil?
-          # Convert the 'datestamp' string into a Ruby DateTime object
+          # Convert the 'datestamp' string into a Ruby Date object
           parsed_time = Date.strptime(post.data["datestamp"], "%Y%m")
 
-          # Format the DateTime object and add it into the hash
+          # Format the Date object and add it into the hash
           hash[parsed_time.strftime(id)] << post
         end
       end
