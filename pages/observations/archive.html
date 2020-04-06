@@ -9,10 +9,10 @@ layout: obs-page
 Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.title | slice: 13, 8 }}</a></p>
 <p>Post count: {{ site.observations | size }}</p>
 <hr>
-<ul>
-  {% for post in site.observations reversed %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+<h3>2020</h3>
+<p>
+	{% for month in site.observations-months %}
+		<a href="{{ month.url }}">{{ month.date }}</a>{% unless forloop.last == true %} / {% endunless %}
+	{% endfor %}
+</p>
