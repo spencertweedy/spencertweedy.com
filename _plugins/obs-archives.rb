@@ -183,14 +183,11 @@ module Jekyll
 
     # Produce a title object suitable for Liquid based on type of archive.
     #
-    # Returns a String (for tag and category archives) and… something else for date archives
+    # Returns a String.
     def title
       if @title.is_a? Hash
-        args = @title.values.map(&:to_i)
-        date = Date.new(*args)
-
-        @title = date.strftime("%B %Y")
-        @title
+        titleString = date.strftime("%B %Y")
+        return titleString
       elsif @title.is_a? String
         @title
       end
