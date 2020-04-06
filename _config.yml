@@ -82,4 +82,4 @@ obs-archives:
   layouts:
     month: obs-month
   permalinks:
-    month: '/archives/:year:month/'
+    month: '/observations/:year:month/'
