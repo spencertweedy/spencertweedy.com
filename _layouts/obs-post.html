@@ -25,8 +25,6 @@ layout: obs
 		<small>
 			Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m-%-d-%y" }}</time>
 			&bull; <a href="mailto:{{ site.email }}?Subject={{ page.title }}">Reply</a>
-			{% if page.next != nil %} &bull; <a href="{{ page.next.url }}">Next post</a>{% endif %}
-			{% if page.previous != nil %} &bull; <a href="{{ page.previous.url }}">Previous post</a>{% endif %}
 		</small>
 	</footer>
 </article>
