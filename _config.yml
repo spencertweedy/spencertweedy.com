@@ -79,7 +79,6 @@ jekyll_tidy:
 obs-archives:
   enabled:
     - month
-  layouts:
-    month: obs-month
+  layout: obs-archive
   permalinks:
     month: '/observations/:year:month/'
