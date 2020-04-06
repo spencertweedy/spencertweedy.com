@@ -76,3 +76,10 @@ exclude:
 - README.md
 jekyll_tidy:
   compress_html: false
+obs-archives:
+  enabled:
+    - month
+  layouts:
+    month: obs-month
+  permalinks:
+    month: '/archives/:year:month/'
