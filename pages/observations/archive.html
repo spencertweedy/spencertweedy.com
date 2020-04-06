@@ -10,9 +10,14 @@ Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.ti
 <p>Post count: {{ site.observations | size }}</p>
 <hr>
 
-<h3>2020</h3>
+<h2>Monthly archives</h2>
+{% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
+{% for year in months_by_year %}
 <p>
-	{% for month in site.observations-months %}
-		<a href="{{ month.url }}">{{ month.date }}</a>{% unless forloop.last == true %} / {% endunless %}
+	<strong>{{ year.name }}</strong><br>
+	{% assign months = year.items | reverse %}
+	{% for month in months %}
+		<a href="{{ month.url }}">{{ month.date | date: "%b" }}</a>{% unless forloop.last == true %} / {% endunless %}
 	{% endfor %}
 </p>
+{% endfor %}
