@@ -228,6 +228,15 @@ main#site-content {
   margin-top: calc(var(--spacing-unit) * 3);
 }
 
+header#page-header {
+  margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+header#page-header h1 {
+  font-size: 1.4em;
+  line-height: 1.35em;
+}
+
 /* -----------
    Post styles
    ----------- */
