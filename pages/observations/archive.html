@@ -11,7 +11,7 @@ Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.ti
 <hr>
 
 {% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
-{% for year in months_by_year %}
+{% for year in months_by_year reversed %}
 <p>
 	<strong>{{ year.name }}</strong><br>
 	{% assign months = year.items | reverse %}
