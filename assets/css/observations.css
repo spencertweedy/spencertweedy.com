@@ -168,6 +168,7 @@ header#site-header a.subscribe-button {
 
 header#site-header a.subscribe-button:hover {
 	transform: scale(1.05);
+  text-decoration: none;
 }
 
 header#site-header a.subscribe-button:active {
