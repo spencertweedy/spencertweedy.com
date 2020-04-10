@@ -4,10 +4,8 @@ permalink: "/observations/archive"
 layout: obs-page
 ---
 
-<p>Working on a better, more useful archive page! In the meantime…</p>
-<p>Newest: <a href="{{ site.observations.first.url }}">{{ site.observations.last.title | slice: 13, 8 }}</a><br>
-Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.title | slice: 13, 8 }}</a></p>
-<p>Post count: {{ site.observations | size }}</p>
+<p>Click <a href="{% link pages/observations/random.html %}">here</a> or on the spinning <strong>OBSERVATIONS</strong> logo to read a random post.</p>
+
 <hr>
 
 {% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
@@ -20,3 +18,5 @@ Oldest: <a href="{{ site.observations.last.url }}">{{ site.observations.first.ti
 	{% endfor %}
 </p>
 {% endfor %}
+
+<p>Post count: {{ site.observations | size }}</p>

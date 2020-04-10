@@ -1,0 +1,18 @@
+---
+title: Random
+permalink: "/observations/random"
+layout: obs-page
+---
+
+<p>Redirecting to a random post…</p>
+
+<script>
+	function linkToRandomBlogPost() {
+		var allPosts = [{% for post in site.observations %}{% unless post.previous == nil %},{% endunless %}"{{ post.url }}"{% endfor %}];
+		
+		var randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)];
+		return randomPostLink;
+	}
+
+	location.replace(linkToRandomBlogPost());
+</script>

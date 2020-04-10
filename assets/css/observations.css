@@ -128,6 +128,10 @@ header#site-header h1 a {
   text-decoration: none;
 }
 
+header#site-header a.site-logo-link:focus {
+  outline: none;
+}
+
 header#site-header svg.site-logo {
   position: absolute;
   left: -4.875rem;
