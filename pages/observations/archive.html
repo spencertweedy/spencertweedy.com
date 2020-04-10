@@ -4,9 +4,13 @@ permalink: "/observations/archive"
 layout: obs-page
 ---
 
-<p>Click <a href="{% link pages/observations/random.html %}">here</a> or on the spinning <strong>OBSERVATIONS</strong> logo to read a random post.</p>
+<p>You can search for particular posts here:</p>
+
+<p>Or: click on the <span class="with-icon observations-link">OBSERVATIONS</span> logo at the top of the page to read a random post.</p>
 
 <hr>
+
+<h2>Browse by month</h2>
 
 {% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
 {% for year in months_by_year reversed %}
@@ -18,5 +22,7 @@ layout: obs-page
 	{% endfor %}
 </p>
 {% endfor %}
+
+<hr>
 
 <p>Post count: {{ site.observations | size }}</p>
