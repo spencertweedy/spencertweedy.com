@@ -399,6 +399,31 @@ input[type="submit"]:active, button[type="submit"]:active {
   transform: translateY(0.0625rem);
 }
 
+/* ----------------
+   Reusable classes
+   ---------------- */
+
+.with-icon {
+  margin-left: 1.2em;
+  position: relative;
+  white-space: nowrap;
+}
+
+.with-icon:before {
+  content: "";
+  display: inline-block;
+  width: 0.888em;
+  height: 0.888em;
+  background-size: 0.888em 0.888em;
+  position: absolute;
+  top: -0.07em;
+  left: -1.15em;
+}
+
+.observations-link:before {
+  background-image: url("/assets/project_logos/observations_tiny.png");
+}
+
 /* ---------------
    Pseudo elements
    --------------- */
