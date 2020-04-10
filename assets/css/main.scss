@@ -270,11 +270,11 @@ a.with-icon:before {
 }
 
 .observations-link:before {
-  background-image: url("/assets/project_logos/observations_tiny.png");
+  background-image: url("{% link assets/project_logos/observations_tiny.png %}");
 }
 
 .fjord-link:before {
-  background-image: url("/assets/project_logos/fjord_audio_tiny.png");
+  background-image: url("{% link assets/project_logos/fjord_audio_tiny.png %}");
 }
 
 /* --------------------
