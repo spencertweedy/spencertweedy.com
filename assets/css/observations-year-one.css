@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'ISO';
-    src: url('{% link assets/year-one/ISOv0.6-Regular.woff %}') format('woff');
+    src: url('{% link assets/fonts/ISOv0.5-Regular.woff %}') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'ISO';
-    src: url('{% link assets/ISOv0.6-Bold.woff %}') format('woff');
+    src: url('{% link assets/fonts/ISOv0.5-Bold.woff %}') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
