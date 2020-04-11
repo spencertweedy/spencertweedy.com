@@ -407,16 +407,16 @@ input[type="submit"]:active, button[type="submit"]:active {
    Reusable classes
    ---------------- */
 
-.inline-icon {
+.inline-logo {
   /*margin-left: 1.4em;
   margin-right: 1.4em;*/
   position: relative;
-  top: 0.09em;
+  top: -0.11em;
   display: inline-block;
   width: 0.888em;
   height: 0.888em;
   background-size: 0.888em 0.888em;
-  background-image: url("{% link assets/project_logos/observations_tiny.png %}");
+  background-image: var(--obs-icon);
 }
 
 /* ---------------
