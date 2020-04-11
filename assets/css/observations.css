@@ -411,7 +411,7 @@ input[type="submit"]:active, button[type="submit"]:active {
   /*margin-left: 1.4em;
   margin-right: 1.4em;*/
   position: relative;
-  top: -0.11em;
+  top: 0.09em;
   display: inline-block;
   width: 0.888em;
   height: 0.888em;
