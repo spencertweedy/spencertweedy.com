@@ -87,6 +87,8 @@ small {
 
 mark {
   background-color: var(--accent-color);
+  padding: 0.25rem;
+  border-radius: var(--border-radius);
 }
 
 hr {
