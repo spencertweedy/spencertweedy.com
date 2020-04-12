@@ -4,7 +4,10 @@ permalink: "/observations/archive"
 layout: obs-page
 ---
 
-<p>Search functionality coming soon…</p>
+<label for="searchField" class="sr-only">Enter your search query</label>
+<input aria-label="Text field for your search query" id="searchField" name="searchField" type="text">
+<button type="submit">Search</button>
+<ul id="resultsContainer"></ul>
 
 <p>Click or tap the <span class="inline-logo"></span> logo at the top of the page to read a random post.</p>
 
@@ -26,3 +29,15 @@ layout: obs-page
 <hr>
 
 <p>Post count: {{ site.observations | size }}</p>
+
+<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+<script>
+	SimpleJekyllSearch({
+		searchInput: document.getElementById('searchField'),
+		resultsContainer: document.getElementById('resultsContainer'),
+		json: '{% link feed.json %}',
+		searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+		noResultsText: 'No results found',
+		limit: 10
+	})
+</script>
