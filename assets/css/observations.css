@@ -85,6 +85,10 @@ small {
   color: var(--text-color-lighter);
 }
 
+mark {
+  background-color: var(--accent-color);
+}
+
 hr {
   display: block;
   height: 1px; /* px value is okay because it's just a nonzero value in order for the border to render */
