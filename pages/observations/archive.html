@@ -475,6 +475,7 @@ layout: obs-page
 		templateMiddleware: function(prop, value, template) {
 			if (prop === 'content') {
 				var terms = document.getElementById('searchField').value // Get the search term from the DOM
+				terms = terms.trim()
 				terms = "\\b" + terms
 				terms = terms.split(" ")
 				terms = terms.join("|\\b")
