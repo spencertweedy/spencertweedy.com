@@ -316,7 +316,7 @@ section.post-content ul {
   list-style-image: var(--star-icon);
 }
 
-/* The div > ul selector here is for the 'Archive' page search results */
+/* The 'div > ul' selector here is for the 'Archive' page search results */
 section.post-content > ul, section.post-content div > ul {
   padding: 0;
 }
