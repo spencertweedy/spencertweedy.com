@@ -4,7 +4,7 @@ permalink: "/observations/archive"
 layout: obs-page
 ---
 
-<p>Search for particular words and phrases:</p>
+<h2>Search</h2>
 <noscript>The search function requires JavaScript.</noscript>
 <form id="searchForm">
 	<label for="searchField" class="sr-only">Text input field for your search query</label>
@@ -14,10 +14,11 @@ layout: obs-page
 <div id="searchResults"></div>
 
 <hr>
+<h2>Random</h2>
 <p>Click or tap the <span class="inline-logo"></span> logo at the top of the page to read a random post.</p>
 
 <hr>
-<p>Or browse by month:</p>
+<h2>Browse by month</h2>
 {% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
 {% for year in months_by_year reversed %}
 <p>
