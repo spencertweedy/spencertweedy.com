@@ -53,6 +53,7 @@ defaults:
 collections_dir: content
 email: spencer@penguinmail.com
 description: Hi! I play drums.
+obs_description: A daily list blog by Spencer Tweedy.
 author: Spencer Tweedy
 url: https://spencertweedy.com
 twitter: spencertweedy
