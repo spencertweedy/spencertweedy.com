@@ -4,7 +4,7 @@ permalink: "/observations/archive"
 layout: obs-page
 ---
 
-<h2>Search</h2>
+<p>Search for words or phrases:</p>
 <noscript>The search function requires JavaScript.</noscript>
 <form id="searchForm">
 	<label for="searchField" class="sr-only">Text input field for your search query</label>
@@ -13,9 +13,7 @@ layout: obs-page
 </form>
 <div id="searchResults"></div>
 
-<hr>
-<h2>Random</h2>
-<p>Click or tap the <span class="inline-logo"></span> logo at the top of the page to read a random post.</p>
+<p>Or: click or tap the <span class="inline-logo"></span> logo at the top of the page to read a random post.</p>
 
 <hr>
 <h2>Browse by month</h2>
@@ -412,7 +410,7 @@ layout: obs-page
 	  }
 
 	  function emptyResultsContainer () {
-	    options.resultsContainer.innerHTML = "<h2>Search results</h2><ul id='resultsList'></ul>"
+	    options.resultsContainer.innerHTML = "<h2>Search results</h2><ul id='resultsList'></ul><hr>"
 	  }
 
 	  function appendToResultsContainer (text) {
