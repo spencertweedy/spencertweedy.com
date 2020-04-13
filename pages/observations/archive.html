@@ -479,7 +479,7 @@ layout: obs-page
 				terms = terms.split(" ")
 				terms = terms.join("|\\b")
 
-				var exp = new RegExp('[^.\(\)?!”]*(' + terms + ')[^.\(\)?!,]*','igm') // Define regex pattern for getting the relevant phrases
+				var exp = new RegExp('[^.\(\)?!”\]]*(' + terms + ')[^.\(\)?!,]*','igm') // Define regex pattern for getting the relevant phrases
 				var exp2 = new RegExp('(' + terms + ')', 'ig') // Define the regex pattern for the `replace` method below to use
 
 				if (exp.test(value)) {
