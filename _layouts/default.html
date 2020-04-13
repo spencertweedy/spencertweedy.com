@@ -35,16 +35,14 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><!-- Define canonical URL -->
 
     <!-- Social media tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">{% endif %}
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
-
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="twitter:card" content="summary_large_image">
+    {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">{% endif %}
+    
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><!-- Netlify Identity widget -->
 </head>
 
