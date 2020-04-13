@@ -67,7 +67,7 @@ cover_photo_credit:
 - https://www.davidzoubek.com
 cover_photo_caption: "A portrait of Spencer Tweedy playing drums by David Zoubek."
 locale: Chicago, IL
-github_repo: https://github.com/spencertweedy/spencertweedy.github.io
+github_repo: https://github.com/spencertweedy/spencertweedy.com
 markdown: kramdown
 permalink: "/:categories/:title/"
 include:
