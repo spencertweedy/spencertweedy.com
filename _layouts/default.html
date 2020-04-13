@@ -3,8 +3,17 @@
 <head>
     <meta charset="utf-8">
 
-    <title>{% if page.title %}{{ page.title | escape }} &#8942; {% endif %}{% if page.layout contains 'obs-' %}Observations &#8942; {% endif %}{{ site.title | escape }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <title>
+        {%- if page.title %}{{ page.title | escape }} &#8942; {% endif -%}
+        {%- if page.layout contains 'obs-' %}Observations &#8942; {% endif -%}
+        {{ site.title | escape -}}
+    </title>
+    <meta name="description" content="
+        {%- if page.layout contains 'obs' -%}
+            {{ site.obs_description }}
+        {%- else -%}
+            {{ site.description }}
+        {%- endif -%}">
 
     <!--
         ~~~~~~~~~~~~
@@ -12,38 +21,62 @@
         ~~~~~~~~~~~~
     -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Define viewport -->
-    <meta name="color-scheme" content="light dark"><!-- Define color scheme preference -->
+    <!-- Define viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Define color scheme preference -->
+    <meta name="color-scheme" content="light dark">
 
+    <!-- Import stylesheets -->
+    <link rel="stylesheet" href="{% link assets/css/normalize.css %}">
     {% if page.layout contains 'obs' %}
-        <link rel="icon" type="image/png" href="{% link assets/favicons/obs-favicon.png %}"><!-- Link favicon -->
-        <link rel="apple-touch-icon" sizes="192x192" href="{% link assets/favicons/obs-apple-icon.png %}"><!-- Link Apple icon -->
+        <link rel="stylesheet" href="{% link assets/css/observations.css %}">
     {% else %}
-        <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}"><!-- Link favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}"><!-- Link Apple icon -->
+        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
+        <link rel="stylesheet" href="{% link assets/css/main.scss %}">
     {% endif %}
 
-    <link rel="stylesheet" href="{% link assets/css/normalize.css %}"><!-- Import CSS -->
+    <!-- Link favicons -->
     {% if page.layout contains 'obs' %}
-        <link rel="stylesheet" href="{% link assets/css/observations.css %}"><!-- Import CSS -->
+        <link rel="icon" type="image/png" href="{% link assets/favicons/obs-favicon.png %}">
+        <link rel="apple-touch-icon" sizes="192x192" href="{% link assets/favicons/obs-apple-icon.png %}">
     {% else %}
-        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css"><!-- Import Adobe Fonts (Typekit) -->{% endif %}
-        <link rel="stylesheet" href="{% link assets/css/main.scss %}"><!-- Import CSS -->
+        <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}">
     {% endif %}
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}"><!-- Link RSS feed -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><!-- Define canonical URL -->
+    <!-- Link RSS feed -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}">
+    
+    <!-- Define canonical URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
     <!-- Social media tags -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="{% if page.feature_image %}{{ page.feature_image | prepend: site.url }}{% else %}{{ site.cover_photo_path | prepend: site.url }}{% endif %}">
+    <meta property="og:title" content="
+        {%- if page.title -%}
+            {{ page.title | escape }}
+        {%- else -%}
+            {%- if page.layout contains 'obs-' %}Observations &#8942; {% endif -%}
+            {{ site.title | escape -}}
+        {%- endif -%}">
+    <meta property="og:description" content="
+        {%- if page.layout contains 'obs' -%}
+            {{ site.obs_description }}
+        {%- else -%}
+            {{ site.description }}
+        {%- endif -%}">
+    <meta property="og:image" content="
+        {%- if page.feature_image -%}
+            {{ page.feature_image | prepend: site.url }}
+        {%- else -%}
+            {{ site.cover_photo_path | prepend: site.url }}
+        {%- endif -%}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta name="twitter:card" content="summary_large_image">
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">{% endif %}
     
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><!-- Netlify Identity widget -->
+    <!-- Netlify Identity widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body class="{{ page.layout }}">
@@ -110,6 +143,7 @@
         {% endif %}
 	</footer>
 
+    <!-- Netlify CMS redirect -->
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -120,7 +154,7 @@
           }
         });
       }
-    </script><!-- Netlify CMS redirect -->
+    </script>
     <script async defer src="https://sa.spencertweedy.com/app.js"></script>
     <noscript><img src="https://sa.spencertweedy.com/image.gif" alt=""></noscript>
 </body>
