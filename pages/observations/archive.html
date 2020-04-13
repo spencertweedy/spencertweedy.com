@@ -4,19 +4,20 @@ permalink: "/observations/archive"
 layout: obs-page
 ---
 
-<noscript>The search function requires JavaScript.</noscript>
 <p>Search for particular words and phrases:</p>
+<noscript>The search function requires JavaScript.</noscript>
 <form id="searchForm">
 	<label for="searchField" class="sr-only">Text input field for your search query</label>
 	<input id="searchField" name="searchField" type="text">
 	<button type="submit">Search</button>
 </form>
-<ul id="resultsList"></ul>
+<div id="searchResults"></div>
 
+<hr>
 <p>Click or tap the <span class="inline-logo"></span> logo at the top of the page to read a random post.</p>
 
 <hr>
-<h2>Browse by month</h2>
+<p>Or browse by month:</p>
 {% assign months_by_year = site.observations-months | group_by_exp:"month", "month.date | date: '%Y'" %}
 {% for year in months_by_year reversed %}
 <p>
@@ -410,13 +411,13 @@ layout: obs-page
 	  }
 
 	  function emptyResultsContainer () {
-	  	// options.searchForm.insertAdjacentHTML("afterend", "<h2>Search results</h2><ul id='resultsList'></ul><hr>")
-	    options.resultsContainer.outerHTML = "<h2>Search results</h2><ul id='resultsList'></ul><hr>"
-	    options.resultsContainer.innerHTML = ''
+	    options.resultsContainer.innerHTML = "<h2>Search results</h2><ul id='resultsList'></ul>"
 	  }
 
 	  function appendToResultsContainer (text) {
-	    options.resultsContainer.innerHTML += text
+	  	// var node = document.createElement("li")
+	  	// node.innerHTML = text
+	    document.getElementById("resultsList").innerHTML += text
 	  }
 
 	  function registerInput () {
@@ -470,7 +471,7 @@ layout: obs-page
 	SimpleJekyllSearch({
 		searchForm: document.getElementById('searchForm'),
 		searchInput: document.getElementById('searchField'),
-		resultsContainer: document.getElementById('resultsList'),
+		resultsContainer: document.getElementById('searchResults'),
 		json: postsJSON,
 		templateMiddleware: function(prop, value, template) {
 			if (prop === 'content') {
