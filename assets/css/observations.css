@@ -35,6 +35,8 @@
 }
 
 html {
+  --obs-black:            hsl(0, 0%, 13%);
+
   --background-color:     hsl(0, 0%, 100%);
   --text-color:           hsl(0, 0%, 13%);
   --text-color-lighter:   hsl(0, 0%, 58%);
@@ -89,6 +91,7 @@ mark {
   background-color: var(--accent-color);
   padding: 0.25rem;
   border-radius: var(--border-radius);
+  color: var(--obs-black);
 }
 
 hr {
