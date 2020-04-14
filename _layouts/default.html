@@ -65,7 +65,9 @@
             {{ site.description }}
         {%- endif -%}">
     <meta property="og:image" content="
-        {%- if page.feature_image -%}
+        {%- if page.layout contains 'obs' -%}
+            {{ site.url }}{% link assets/obs-social.png %}
+        {%- elsif page.feature_image -%}
             {{ page.feature_image | prepend: site.url }}
         {%- else -%}
             {{ site.cover_photo_path | prepend: site.url }}
