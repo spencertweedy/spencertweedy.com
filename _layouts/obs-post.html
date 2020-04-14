@@ -28,3 +28,9 @@ layout: obs
 		</small>
 	</footer>
 </article>
+
+<p>
+	{% if page.next != nil %}<a href="{{ page.next.url }}">&larr; Newer post</a>{% endif %}
+	{% if page.next != nil and page.previous != nil %} &bull; {% endif %}
+	{% if page.previous != nil %}<a href="{{ page.previous.url }}">Older post &rarr;</a>{% endif %}
+</p>
