@@ -4,12 +4,12 @@ permalink: "/observations/subscribe"
 layout: obs-page
 ---
 
-My favorite **OBSERVATIONS** posts from the preceding month, sent on the first Saturday of the month. A less-than-five-minute read.
+Once a month, a less-than-five-minute read.
 {% comment %} The commitments made here are also described in the thank-you email subscribers get, so remember to keep copy in sync. {% endcomment %}
 
 {% include subscribe-box.html %}
 
-[Preview]({{ site.newsletters.last.url }}) the most recent newsletter.
+[Preview]({% link pages/observations/newsletter/latest.html %}) the most recent newsletter.
 
 ***
 
