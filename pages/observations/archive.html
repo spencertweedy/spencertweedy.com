@@ -476,9 +476,8 @@ layout: obs-page
 			if (prop === 'content') {
 				var terms = document.getElementById('searchField').value // Get the search term from the DOM
 				terms = terms.trim()
-				terms = "\\b" + terms
 				terms = terms.split(" ")
-				terms = terms.join("|\\b")
+				terms = terms.join("|")
 
 				var exp = new RegExp('[^.\(\)?!”\]]*(' + terms + ')[^.\(\)?!,]*','igm') // Define regex pattern for getting the relevant phrases
 				var exp2 = new RegExp('(' + terms + ')', 'ig') // Define the regex pattern for the `replace` method below to use
