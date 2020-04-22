@@ -244,6 +244,25 @@ header#page-header h1 {
   line-height: 1.35em;
 }
 
+/* -------------------
+   Announcement styles
+   ------------------- */
+
+section.announcement {
+  background: var(--announcement-background-color);
+  color: var(--announcement-text-color);
+  margin-bottom: calc(var(--spacing-unit) * 2);
+  padding: calc(var(--spacing-unit) / 1.5);
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  width: 75%;
+  max-width: var(--max-width);
+}
+
+section.announcement > * {
+  margin: 0;
+}
+
 /* -----------
    Post styles
    ----------- */
@@ -482,7 +501,7 @@ input[type="submit"]:active, button[type="submit"]:active {
 }
 
 @media only screen and (max-width: 960px) {
-  section.post-content {
+  section.announcement, section.post-content {
     width: 100%;
   }
 
