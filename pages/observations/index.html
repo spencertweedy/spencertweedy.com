@@ -4,6 +4,14 @@ permalink: "/observations"
 layout: obs
 ---
 
+{% for announcement in site.announcements limit:1 %}
+	{% if announcement.is_visible == true %}
+		<section class="announcement" style="--announcement-background-color: {{ announcement.background_color }}; --announcement-text-color: {{ announcement.text_color }};">
+			{{ announcement.content }}
+		</section>
+	{% endif %}
+{% endfor %}
+
 {% assign observations = site.observations | reverse %}
 {% for post in observations limit:30 %}
 	{% include obs-post.html %}
