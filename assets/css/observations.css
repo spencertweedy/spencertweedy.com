@@ -227,17 +227,6 @@ header#site-header a.subscribe-button span:nth-of-type(7n+9) {
   animation-delay: 1.143s;
 }
 
-header#site-header p.announcement {
-  color: blue;
-  animation-name: seesaw;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: backwards;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  display: inline-block; /* so that rotate axis is actually the center of the element */
-}
-
 /* -------------------
    Main section styles
    ------------------- */
@@ -473,11 +462,6 @@ input[type="submit"]:active, button[type="submit"]:active {
   71.43% { color: hsl(87, 47%, 82%); }
   85.71% { color: hsl(87, 47%, 88%); }
   100% { color: transparent; }
-}
-
-@keyframes seesaw {
-  0% { transform: rotate(-2deg); }
-  100% { transform: rotate(2deg); }
 }
 
 /* ------------------
