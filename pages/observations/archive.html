@@ -6,12 +6,12 @@ layout: obs-page
 
 <p>Search for words or phrases:</p>
 <noscript>The search function requires JavaScript.</noscript>
-<form id="searchForm">
-	<label for="searchField" class="sr-only">Text input field for your search query</label>
-	<input id="searchField" type="text" autocomplete="off" tabindex="0" name="searchField">
+<form id="search-form" method="POST" data-netlify="true">
+	<label for="search-field" class="sr-only">Text input field for your search query</label>
+	<input id="search-field" type="text" autocomplete="off" tabindex="0" name="search-field">
 	<button type="submit">Search</button>
 </form>
-<div id="searchResults"></div>
+<div id="search-results"></div>
 
 <p>Or: click or tap the <span class="inline-logo"></span> logo at the top of the page to read a random post.</p>
 
@@ -468,13 +468,13 @@ layout: obs-page
 	]
 
 	SimpleJekyllSearch({
-		searchForm: document.getElementById('searchForm'),
-		searchInput: document.getElementById('searchField'),
-		resultsContainer: document.getElementById('searchResults'),
+		searchForm: document.getElementById('search-form'),
+		searchInput: document.getElementById('search-field'),
+		resultsContainer: document.getElementById('search-results'),
 		json: postsJSON,
 		templateMiddleware: function(prop, value, template) {
 			if (prop === 'content') {
-				var terms = document.getElementById('searchField').value // Get the search term from the DOM
+				var terms = document.getElementById('search-field').value // Get the search term from the DOM
 				terms = terms.trim()
 				terms = terms.split(" ")
 				terms = terms.join("|")
