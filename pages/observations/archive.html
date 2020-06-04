@@ -424,6 +424,12 @@ layout: obs-page
 	    	e.preventDefault()
 	    	emptyResultsContainer()
         	search(options.searchInput.value)
+
+        	// Log the search query anonymously to Netlify Form
+        	var xhttp = new XMLHttpRequest()
+        	var formContent = new FormData(options.searchForm)
+			xhttp.open("POST", location, true)
+			xhttp.send(formContent)
 	    })
 	  }
 
