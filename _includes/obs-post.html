@@ -10,10 +10,6 @@
 	{% if post.image %}
 		<aside class="post-aside">
 			<img src="{{ post.image }}"{% if post.image_caption %} alt="{{ post.image_caption }}"{% endif %}>
-
-			{% if post.image_caption %}
-				<p><small>{{ post.image_caption }}</small></p>
-			{% endif %}
 		</aside>
 	{% endif %}
 
