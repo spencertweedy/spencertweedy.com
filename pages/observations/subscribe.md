@@ -9,7 +9,7 @@ Once a month, a less-than-five-minute read.
 
 {% include subscribe-box.html %}
 
-[Preview]({% link pages/observations/newsletter/latest.html %}) the most recent newsletter.
+[Preview]({{ site.newsletters.last.url }}) the most recent newsletter.
 
 ***
 
