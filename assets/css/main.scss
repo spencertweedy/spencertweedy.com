@@ -328,14 +328,25 @@ a.with-icon:before {
     a:after {
       display: none;
     }
+
     .release-inner {
       border-radius: var(--border-radius);
       height: 100%;
+      transition: all 0.08s;
+
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0.1em 1em rgba(0,0,0,0.1);
+        filter: brightness(1.05);
+      }
     }
 
     .release-image {
-      width: calc(100% + 2em);
+      --margin: 0.5em;
+
+      width: calc(100% + 2em - (var(--margin) * 2));
       margin: -1em 0 0.5em -1em;
+      padding: var(--margin) var(--margin) 0 var(--margin);
 
       img {
         border-radius: var(--border-radius);
