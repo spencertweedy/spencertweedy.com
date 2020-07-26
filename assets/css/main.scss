@@ -229,6 +229,10 @@ footer {
   border-bottom: none;
 }
 
+#site-header h1 a:after {
+  display: none;
+}
+
 #cover-photo-container {
   width: 100%;
   max-width: 960px; /* Okay, this is pushing it… But if <main> and <footer> have absolute max-width, don't want the cover photo to balloon way wider than them… */
