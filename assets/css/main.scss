@@ -325,6 +325,9 @@ a.with-icon:before {
       border-bottom: none; /* Override generic style */
     }
 
+    a:after {
+      display: none;
+    }
     .release-inner {
       border-radius: var(--border-radius);
       height: 100%;
