@@ -80,6 +80,7 @@ html {
   --text-color-darker: hsl(0, 0%, 0%);
   --background-color: white;
   --link-border-color: hsl(0, 0%, 79%);
+  --border-radius: 0.6rem;
 
   font-size: 1.125em;
   line-height: 1.8em;
@@ -232,7 +233,7 @@ footer {
   background: url("{{ site.cover_photo_path }}") 50% 50% no-repeat;
   background-size: cover;
   margin: 0 auto;
-  border-radius: 0.25rem;
+  border-radius: var(--border-radius);
 }
 
 #cover-photo img {
@@ -309,7 +310,7 @@ a.with-icon:before {
     }
 
     .release-inner {
-      border-radius: 0.25rem;
+      border-radius: var(--border-radius);
       height: 100%;
     }
 
@@ -318,7 +319,7 @@ a.with-icon:before {
       margin: -1em 0 0.5em -1em;
 
       img {
-        border-radius: 0.25rem 0.25rem 0 0;
+        border-radius: var(--border-radius);
         margin: 0;
       }
     }
