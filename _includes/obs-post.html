@@ -16,7 +16,6 @@
 	<footer class="post-footer">
 		<small>
 			<a href="{{ post.url }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a>
-			&bull; <a href="mailto:{{ site.email }}?Subject={{ post.title }}">Reply</a>
 		</small>
 	</footer>
 </article>
