@@ -315,6 +315,26 @@ section.post-content a {
   text-decoration: underline;
 }
 
+/* The special link styles! */
+
+section.post-content .pol, section.post-content .prose, section.post-content .music {
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  padding: 0.1em;
+}
+
+section.post-content .pol {
+  background: hsla(30, 90%, 60%, 0.65);
+}
+
+section.post-content .prose {
+  background: hsla(200, 90%, 60%, 0.65);
+}
+
+section.post-content .music {
+  background: hsla(340, 90%, 60%, 0.65);
+}
+
 section.post-content ul, section.post-content ol {
   margin: 0;
   padding-inline-start: 1.5625rem;
