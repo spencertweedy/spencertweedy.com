@@ -94,6 +94,22 @@ mark {
   color: var(--obs-black);
 }
 
+blockquote {
+  position: relative;
+  margin: 0 0 0 1.3em;
+}
+
+blockquote:before {
+  content: ''; /* Required in order for element to display */
+  display: block;
+  height: 100%;
+  width: 0.125rem;
+  position: absolute;
+  background: var(--text-color); /* Equivalent of a border-color style, so should be same as text color */
+  border-radius: 0.0625rem;
+  left: -1.2em;
+}
+
 hr {
   display: block;
   height: 1px; /* px value is okay because it's just a nonzero value in order for the border to render */
