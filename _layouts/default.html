@@ -72,6 +72,13 @@
         {%- else -%}
             {{ site.cover_photo_path | prepend: site.url }}
         {%- endif -%}">
+    <meta property="og:image:alt" content="
+        {%- if page.layout contains 'obs' -%}
+            The Observations blog logo
+        {%- elsif page.feature_image -%}
+        {%- else -%}
+            A black-and-white photo of Spencer Tweedy playing drums in a recording studio
+        {%- endif -%}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta name="twitter:card" content="summary_large_image">
