@@ -362,7 +362,7 @@ template {
 
 @font-face {
   font-family: 'ISO';
-  src: url('{% link assets/fonts/ISOv0.5-Regular.woff %}') format('woff');
+  src: url('{% link assets/fonts/ISOv0.7-Regular.woff2 %}') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -370,7 +370,15 @@ template {
 
 @font-face {
   font-family: 'ISO';
-  src: url('{% link assets/fonts/ISOv0.5-Bold.woff %}') format('woff');
+  src: url('{% link assets/fonts/ISOv0.7-RegularItalic.woff2 %}') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ISO';
+  src: url('{% link assets/fonts/ISOv0.7-Bold.woff2 %}') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
