@@ -165,14 +165,13 @@ header#site-header h1 a {
   text-decoration: none;
 }
 
-header#site-header a.site-logo-link:focus {
-  outline: none;
-}
-
-header#site-header svg.site-logo {
+header#site-header a.site-logo-link {
   position: absolute;
   left: -4.875rem;
   top: -0.9375rem;
+}
+
+header#site-header svg.site-logo {
   animation: rotate 30s linear infinite;
 }
 
