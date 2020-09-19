@@ -40,4 +40,7 @@ Gemfile.lock
 .bundle/
 vendor/
 
+### Nova editor ###
+.nova/
+
 # End of https://www.gitignore.io/api/macos
