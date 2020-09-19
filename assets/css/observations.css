@@ -481,6 +481,11 @@ input[type="submit"]:active, button[type="submit"]:active {
   background-image: var(--obs-icon);
 }
 
+.arrow {
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
 /* ---------------
    Pseudo elements
    --------------- */

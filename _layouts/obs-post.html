@@ -25,7 +25,7 @@ layout: obs
 </article>
 
 <p>
-	{% if page.next != nil %}<a href="{{ page.next.url }}">&larr; Newer post</a>{% endif %}
+	{% if page.next != nil %}<a href="{{ page.next.url }}"><span class="arrow">&larr;</span> Newer post</a>{% endif %}
 	{% if page.next != nil and page.previous != nil %} &bull; {% endif %}
-	{% if page.previous != nil %}<a href="{{ page.previous.url }}">Older post &rarr;</a>{% endif %}
+	{% if page.previous != nil %}<a href="{{ page.previous.url }}">Older post <span class="arrow">&rarr;</span></a>{% endif %}
 </p>
