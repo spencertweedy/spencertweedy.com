@@ -576,7 +576,7 @@ input[type="submit"]:active, button[type="submit"]:active {
     margin: calc(var(--spacing-unit) * 2);
   }
 
-  header#site-header svg.site-logo {
+  header#site-header a.site-logo-link {
     position: static;
   }
 
@@ -783,7 +783,7 @@ input[type="submit"]:active, button[type="submit"]:active {
     font-size: 14px;
   }
 
-  header#site-header svg.site-logo {
+  header#site-header a.site-logo-link {
     position: static;
   }
 
