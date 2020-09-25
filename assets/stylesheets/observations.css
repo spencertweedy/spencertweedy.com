@@ -184,42 +184,22 @@ header#site-header > section p {
   margin: 0 calc(var(--spacing-unit) * 2) 0 0;
 }
 
-header#site-header div#special-nav {
-  position: fixed;
-  bottom: 2em;
-  right: 2em;
-  z-index: 2;
-  /*animation-name: fadeIn;*/ /*temporarily undone for designing the legend*/
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-delay: 5s;
-  animation-fill-mode: backwards;
-}
-
-header#site-header div#special-nav .legend-button {
-  display: inline-block;
-  background: var(--button-color);
-  border: 0.0625rem solid var(--background-color);
-  padding: 0.7em 0.7em;
-  line-height: 1;
-  border-radius: 100%;
-  position: relative;
-}
-
-header#site-header div#special-nav .legend-button .legend-inner {
-  background: white;
-  position: absolute;
-  top: %;
-}
-
 header#site-header a.subscribe-button {
 	background: var(--button-color);
 	border: 0.0625rem solid var(--background-color);
 	padding: 0.7em 1em;
 	border-radius: 2em;
-	display: inline-block;
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	display: block;
+	z-index: 2;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-delay: 5s;
+	animation-fill-mode: backwards;
 	transition: transform 0.1s;
-  line-height: 1;
 }
 
 header#site-header a.subscribe-button:hover {
