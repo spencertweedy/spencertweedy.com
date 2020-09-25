@@ -3,15 +3,17 @@ layout: default
 permalink: "/"
 ---
 
-Hi! I play drums and help make [records]({% link pages/releases.html %}) in Chicago, including two EPs of my own: {% assign my_releases = site.releases | where: "artist","Spencer Tweedy" | sort:"year" | reverse %}{% for release in my_releases limit:2 %}<span><a href="{{ release.listen }}" style="color:{{ release.color }};"><em>{{ release.title }}</em></a></span>{% unless forloop.last == true %} and {% endunless %}{%- endfor %}.
+Hi! I play drums and help make [records]({% link pages/releases.html %}) in Chicago.
 
-I have a book coming out this fall about musicians who self-record, made with Lawrence Azerrad and Daniel Topete, called <a href="https://mirrorsoundbook.com/" style="color: hsl(295, 59%, 60%);">Mirror Sound</a>. It’s available for preorder now.
+<a href="https://jefftweedy.bandcamp.com/album/love-is-the-king"><em>Love Is The King</em></a>, an album by my dad, is out on October 23.
 
-Since the start of quarantine, my family has broadcasted a semi-regular livestream show from our living room, called <a href="https://thetweedyshow.com/" style="color: rgb(75,173,233);">The Tweedy Show</a>. We sell t-shirts and things for social orgs on that site too.
+<a href="https://mirrorsoundbook.com/" style="color: hsl(295, 59%, 60%);"><em>Mirror Sound</em></a>, a book about musicians who self-record by Lawrence Azerrad, Daniel Topete, and me, is out on October 20.
 
-Here, I write <a href="{% link pages/observations/index.html %}" class="with-icon observations-link">Observations</a>, a daily list blog about stuff I saw and things I felt. I also run a tiny audio equipment company called <a href="https://fjordaudio.com/" class="with-icon fjord-link">Fjord Audio</a>.
+<a href="https://thetweedyshow.com/" style="color: rgb(75,173,233);">The Tweedy Show</a> is my family’s livestream show, broadcasted from our living room since the start of quarantine.
 
-You can sign up for my monthly [newsletter]({% link pages/observations/subscribe.md %}), follow me on <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>, and follow me on <a href="https://instagram.com/{{ site.instagram }}">Instagram</a>.
+I also write a daily list blog, <a href="{% link pages/observations/index.html %}" class="with-icon observations-link">Observations</a>, and run a tiny audio equipment company, <a href="https://fjordaudio.com/" class="with-icon fjord-link">Fjord Audio</a>.
+
+You can sign up for my monthly [newsletter]({% link pages/observations/subscribe.md %}), follow me on <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>, or follow me on <a href="https://instagram.com/{{ site.instagram }}">Instagram</a>.
 
 Thank you ☺&#xFE0E;  
 Spencer
