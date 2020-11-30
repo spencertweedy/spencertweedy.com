@@ -422,12 +422,13 @@ small {
 
 hr {
   display: block;
-  height: 1px; /* px value is okay because it's just a nonzero value in order for the border to render */
+  width: 12%;
+  height: 0.125rem;
   border: 0;
-  border-top: 0.0625rem solid currentColor;
-  opacity: 0.3;
-  margin: 1.5em 0;
+  margin: 3em 0;
   padding: 0;
+  background: currentcolor;
+  border-radius: 0.0625rem;
 }
 
 /* -------------
@@ -489,7 +490,7 @@ article.post h3 {
   font-size: 1.1875rem;
   font-weight: normal;
   display: inline-block;
-  margin: 0;
+  margin: 0 0 3em;
   border-bottom: 0.125rem solid currentColor;
   padding-bottom: 0.25rem;
 }
@@ -593,7 +594,7 @@ main#site-content {
 main#site-content img {
   max-width: 100%;
   display: block;
-  margin: 1em auto;
+  margin: 3em auto;
   border-radius: 0.25rem;
 }
 
