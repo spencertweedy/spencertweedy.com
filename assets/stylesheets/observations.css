@@ -556,22 +556,6 @@ input[type="submit"]:active, button[type="submit"]:active {
   main#site-content {
     margin-top: calc(var(--spacing-unit) * 2);
   }
-
-  header#site-header a.subscribe-button {
-		bottom: 1rem;
-		right: initial;
-		left: 50%;
-		transform: translateX(-50%);
-		font-size: 0.88em;
-	}
-
-	header#site-header a.subscribe-button:hover {
-		transform: translateX(-50%) scale(1.05);
-	}
-
-	header#site-header a.subscribe-button:active {
-		transform: translateX(-50%) scale(1);
-	}
 }
 
 @media only screen and (max-width: 460px) {
@@ -762,10 +746,6 @@ input[type="submit"]:active, button[type="submit"]:active {
 
   main#site-content {
     margin-top: 60px;
-  }
-
-  header#site-header a.subscribe-button {
-    display: none;
   }
 
   section.post-content {
