@@ -123,7 +123,6 @@
                 {% endif %}
                 <p>
                     <a href="{% link pages/observations/about.md %}">About</a><br>
-                    <a href="{% link pages/observations/archive.html %}">Archive</a><br>
                     {% unless page.layout contains "page" %}
                         <a href="{% link pages/observations/subscribe.md %}" class="subscribe-button"><span>S</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span></a>
                     {% endunless %}
@@ -139,9 +138,7 @@
 	<footer id="site-footer">
         {% if page.layout contains 'obs' %}
             <nav>
-                <a href="{{ site.url }}">Home</a>
                 <a href="{% link pages/observations/about.md %}">About</a>
-                <a href="{% link pages/observations/archive.html %}">Archive</a>
                 <a href="{% link pages/observations/subscribe.md %}">Newsletter</a>
                 <a href="{% link pages/observations/books/year-one.html %}">Books</a>
                 <a href="{% link pages/observations/contact.md %}">Contact</a>

@@ -184,33 +184,6 @@ header#site-header > section p {
   margin: 0 calc(var(--spacing-unit) * 2) 0 0;
 }
 
-header#site-header a.subscribe-button {
-	background: var(--button-color);
-	border: 0.0625rem solid var(--background-color);
-	padding: 0.7em 1em;
-	border-radius: 2em;
-	position: fixed;
-	bottom: 2em;
-	right: 2em;
-	display: block;
-	z-index: 2;
-	animation-name: fadeIn;
-	animation-duration: 0.5s;
-	animation-iteration-count: 1;
-	animation-delay: 5s;
-	animation-fill-mode: backwards;
-	transition: transform 0.1s;
-}
-
-header#site-header a.subscribe-button:hover {
-	transform: scale(1.05);
-  text-decoration: none;
-}
-
-header#site-header a.subscribe-button:active {
-	transform: scale(1);
-}
-
 header#site-header a.subscribe-button span {
   animation-name: colorScroll;
   animation-duration: 2s;
