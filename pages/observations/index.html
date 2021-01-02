@@ -13,7 +13,7 @@ layout: obs
 {% endfor %}
 
 {% assign observations = site.observations | reverse %}
-{% for post in observations limit:90 %}
+{% for post in observations limit:30 %}
 	{% include obs-post.html %}
 {% endfor %}
 
