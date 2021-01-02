@@ -50,7 +50,11 @@ html {
   --text-color-lighter:   hsl(0, 0%, 58%);
   --button-color:         hsl(0, 0%, 13%);
   --button-text-color:    hsl(0, 0%, 100%);
+  
   --accent-color:         hsl(87, 47%, 52%);
+  --accent-color-hue:     87;
+  --accent-color-sat:     47%;
+  --accent-color-lness:   52%;
 
   --border-radius: 0.235rem;
   --spacing-unit: 1.875rem;
@@ -183,6 +187,14 @@ header#site-header section#site-subtitle {
 header#site-header section#site-subtitle p {
   float: left;
   margin: 0 calc(var(--spacing-unit) * 2) 1em 0;
+}
+
+header#site-header a.subscribe-button {
+  text-decoration: none;
+}
+
+header#site-header a.subscribe-button:hover span {
+  text-decoration: underline;
 }
 
 header#site-header a.subscribe-button span {
@@ -495,13 +507,13 @@ input[type="submit"]:active, button[type="submit"]:active {
 }
 
 @keyframes colorScroll {
-  0% { color: hsl(87, 47%, 52%); }
-  14.29% { color: hsl(87, 47%, 58%); }
-  28.57% { color: hsl(87, 47%, 64%); }
-  42.86% { color: hsl(87, 47%, 70%); }
-  57.14% { color: hsl(87, 47%, 76%); }
-  71.43% { color: hsl(87, 47%, 82%); }
-  85.71% { color: hsl(87, 47%, 88%); }
+  0% { color: var(--accent-color); }
+  14.29% { color: hsl(var(--accent-color-hue), var(--accent-color-sat), calc(var(--accent-color-lness) * (1 + (1 * 0.12)))); }
+  28.57% { color: hsl(var(--accent-color-hue), var(--accent-color-sat), calc(var(--accent-color-lness) * (1 + (2 * 0.12)))); }
+  42.86% { color: hsl(var(--accent-color-hue), var(--accent-color-sat), calc(var(--accent-color-lness) * (1 + (3 * 0.12)))); }
+  57.14% { color: hsl(var(--accent-color-hue), var(--accent-color-sat), calc(var(--accent-color-lness) * (1 + (4 * 0.12)))); }
+  71.43% { color: hsl(var(--accent-color-hue), var(--accent-color-sat), calc(var(--accent-color-lness) * (1 + (5 * 0.12)))); }
+  85.71% { color: hsl(var(--accent-color-hue), var(--accent-color-sat), calc(var(--accent-color-lness) * (1 + (6 * 0.12)))); }
   100% { color: transparent; }
 }
 
