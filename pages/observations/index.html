@@ -13,8 +13,8 @@ layout: obs
 {% endfor %}
 
 {% assign observations = site.observations | reverse %}
-{% for post in observations limit:30 %}
+{% for post in observations limit:90 %}
 	{% include obs-post.html %}
 {% endfor %}
 
-<p><a href="{% link pages/observations/archive.html %}">View the archive</a> <span class="arrow">&rarr;</span></p>
+<p><a href="{% link pages/observations/archive.html %}">View older posts in the archive</a> <span class="arrow">&rarr;</span></p>
