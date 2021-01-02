@@ -105,7 +105,7 @@
             </a>
         {% endif %}
         
-        <h1 class="site-title">
+        <h1 id="site-title">
             {% if page.layout contains 'obs' %}
                 <a href="{% link pages/observations/index.html %}">Observations</a>
             {% else %}
@@ -114,7 +114,7 @@
         </h1>
 
         {% if page.layout contains 'obs' %}
-            <section class="clearfix">
+            <section id="site-subtitle" class="clearfix">
                 {% if site.author or site.locale %}
                     <p>
                         {% if site.author %}Author: <a href="{{ site.url }}">{{ site.author }}</a><br>{% endif %}
