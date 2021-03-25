@@ -151,6 +151,10 @@ textarea {
   resize: vertical;
 }
 
+th, td {
+  padding-right: 1em;
+}
+
 /* -------------
    Header styles
    ------------- */
