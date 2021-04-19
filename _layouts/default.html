@@ -147,7 +147,7 @@
             <img src="{% link assets/drums.gif %}" alt="Animated drumming figure">
 	    {% else %}
             <p>
-		        Last updated {{ site.time | date: "%Y-%m-%d" }} &bull; Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>
+		        Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>
 		        Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }} &bull; <a href="{% link pages/observations/contact.md %}">Contact</a>
 		    </p>
         {% endif %}
