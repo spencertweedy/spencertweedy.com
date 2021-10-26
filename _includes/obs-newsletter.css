@@ -612,7 +612,7 @@ section.post-content {
   text-align: left;
 }
 
-section.post-content a.date-code {
+section.post-content .date-code {
   font-size: 0.88em;
   color: hsl(0, 0%, 58%);
   text-decoration: none;
