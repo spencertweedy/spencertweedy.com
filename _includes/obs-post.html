@@ -15,7 +15,7 @@
 
 	<footer class="post-footer">
 		<small>
-			<a href="{{ post.url }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-m-%-d-%y" }}</time></a>
+			<a href="{{ post.url }}">Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time></a>
 		</small>
 	</footer>
 </article>
