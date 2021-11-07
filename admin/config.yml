@@ -14,7 +14,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{datestamp}}" # Observation post files that Netlify CMS creates will use the `datestamp` field as their slug
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string", default: "Observations M-D-YY"}
+      - {label: "Title", name: "title", widget: "string", default: "Observations YYYY-MM-DD"}
       - {label: "Datestamp", name: "datestamp", widget: "datetime", default: "", format: "YYYYMMDD", dateFormat: "LL", timeFormat: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image", required: false}
