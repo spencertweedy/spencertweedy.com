@@ -619,8 +619,7 @@ section.post-content .date-code {
 }
 
 footer#site-footer {
-  text-align: center;
-  margin-top: 2.5rem;
+  margin: 4rem 0 5rem;
 }
 
 footer#site-footer a {
@@ -632,5 +631,5 @@ footer#site-footer p {
 }
 
 footer#site-footer img {
-  margin: 0.4em auto 0;
+  margin: 0.4em 0 0;
 }
