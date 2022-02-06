@@ -180,6 +180,21 @@ article ol li {
   list-style: decimal;
 }
 
+input[type="email"] {
+  border-radius: calc(var(--border-radius) / 2);
+  border: 0.12rem solid var(--text-color);
+  padding: 0.6em 0.8em;
+}
+
+button[type="submit"] {
+  background: var(--text-color-darker);
+  border: none;
+  padding: 0 0.8em;
+  border-radius: calc(var(--border-radius) / 2);
+  color: var(--background-color);
+  cursor: pointer;
+}
+
 /* ------------------
    Frame of the house
    ------------------ */
@@ -292,6 +307,15 @@ a.with-icon:before {
 
 .fjord-link:before {
   background-image: url("{% link assets/project_logos/fjord_audio_tiny.png %}");
+}
+
+#subForm {
+  display: flex;
+  align-items: stretch;
+  
+  input {
+    margin: 0 0.5em 0 0;
+  }
 }
 
 /* --------------------
