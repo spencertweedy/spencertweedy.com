@@ -4,7 +4,7 @@ permalink: "/observations/subscribe"
 layout: obs-page
 ---
 
-A monthly, less-than-five-minute read.
+A short, monthly read.
 {% comment %} The commitments made here are also described in the thank-you email subscribers get, so remember to keep copy in sync. {% endcomment %}
 
 {% include subscribe-box.html %}
