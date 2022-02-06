@@ -4,4 +4,4 @@ permalink: "/observations/contact"
 layout: obs-page
 ---
 
-## [spencer@penguinmail.com](mailto:spencer@penguinmail.com)
+## {% if site.email %}[{{ site.email }}](mailto:{{ site.email }}){% endif %}
