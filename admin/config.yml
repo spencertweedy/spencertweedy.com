@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: main
 media_folder: "content/_uploads" # Tells Netlify CMS where to read/write uploads in the source folder
 public_folder: "/uploads" # Tells Netlify CMS where to read uploads in the ouput folder
 display_url: "https://spencertweedy.com" # Used in the UI
