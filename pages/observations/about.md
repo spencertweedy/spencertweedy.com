@@ -22,7 +22,7 @@ Publishing Observations scratches an old itch for me. From ages twelve to sixtee
 |Git host|[GitHub]({{ site.github_repo }})|
 |Registrar|[iWantMyName](https://iwantmyname.com/)|
 |Newsletter|[Campaign Monitor](https://www.campaignmonitor.com/)|
-|Anonymous analytics|[Simple Analytics](https://simpleanalytics.com/)|
+|Anonymous analytics|[Umami](https://umami.is/)|
 |Notes|[Bear](https://bear.app/) and [Field Notes](https://fieldnotesbrand.com/)|
 |Syntax|[Markdown](https://daringfireball.net/projects/markdown/)|
 |Vector software|[Sketch](https://www.sketchapp.com/)|
