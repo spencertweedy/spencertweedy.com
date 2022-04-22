@@ -598,6 +598,11 @@ main#site-content img {
   border-radius: 0.25rem;
 }
 
+main#site-content img + small {
+  margin-top: -2.5em;
+  display: block;
+}
+
 article.post {
   margin-bottom: 0;
 }
