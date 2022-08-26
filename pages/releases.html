@@ -14,7 +14,7 @@ layout: page
 			{% for release in releases %}
 				<li>
 					<div class="release-inner" style="background:{{ release.color }};">
-						<a href="{{ release.listen }}">
+						<a href="{{ release.listen }}" target="_blank">
 							<div class="release-image"><img src="{{ release.image }}" alt="{{ release.title }} artwork" /></div>
 							<span class="release-title">{{ release.title }}</span>
 							{% if release.artist %}<span class="release-artist">{{ release.artist }}</span>{% endif %}
