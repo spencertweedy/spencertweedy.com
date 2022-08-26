@@ -4,8 +4,9 @@ permalink: "/observations/subscribe"
 layout: obs-page
 ---
 
-A short, monthly read.
-{% comment %} The commitments made here are also described in the thank-you email subscribers get, so remember to keep copy in sync. {% endcomment %}
+By signing up for this email list, you’ll be subscribing to my ([Spencer Tweedy’s]({% link pages/index.md %}) newsletter, which I only send occasionally and which includes my favorite recent OBSERVATIONS posts.
+
+{% comment %} Make sure to keep any thing described here in line with commitments described in any newsletter service confirmation emails, e.g. regarding frequency or privacy. {% endcomment %}
 
 {% include subscribe-box.html %}
 
