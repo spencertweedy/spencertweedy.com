@@ -10,6 +10,7 @@ collections:
     title: Observations
     output: true
     permalink: "/observations/:title/"
+    sort_by: datestamp
   posts:
     title: Posts
     output: true
