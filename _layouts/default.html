@@ -86,9 +86,6 @@
 
     <!-- Umami analytics -->
     <script async defer data-website-id="95944069-6b4e-4fc8-9d2d-9d858ac2e937" src="https://spoonalytics.net/umami.js"></script>
-    
-    <!-- Netlify Identity widget -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body class="{{ page.layout }}">
@@ -158,18 +155,5 @@
         
         <a href="#site-header" class="sr-only">Back to start</a>
 	</footer>
-
-    <!-- Netlify CMS redirect -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
 </body>
 </html>

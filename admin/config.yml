@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: spencertweedy/spencertweedy.com
+  base_url: https://spoonauth.glitch.me
   branch: main
 media_folder: "content/_uploads" # Tells Netlify CMS where to read/write uploads in the source folder
 public_folder: "/uploads" # Tells Netlify CMS where to read uploads in the ouput folder
