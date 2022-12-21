@@ -147,9 +147,8 @@
             <img src="{% link assets/drums.gif %}" alt="Animated drumming figure">
 	    {% else %}
             <p>
-                <a href="{% link pages/contact.html %}">Contact</a> • <a href="https://twitter.com/{{ site.twitter }}">Twitter</a> &bull; <a href="https://instagram.com/{{ site.instagram }}">Instagram</a><br>
-                Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>
-		        Copyright &copy; {{ site.time | date: "%Y" }} {{ site.title }}
+                {% if site.cover_photo_credit %}Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>{% endif %}
+		        &copy; {{ site.time | date: "%Y" }} {{ site.title }} &bull; Updated {{ site.time | date: "%Y-%m-%d" }} &bull; <a href="{% link pages/contact.html %}">Contact</a>
 		    </p>
         {% endif %}
         
