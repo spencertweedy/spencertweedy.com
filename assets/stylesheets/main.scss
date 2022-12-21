@@ -15,19 +15,6 @@
    ========================================================================== */
 
 /*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
@@ -74,25 +61,40 @@ textarea {
 }
 
 html {
-  --text-color: hsl(0, 0%, 23%);
+  --text-color: hsl(0, 0%, 10%);
   --text-color-light: white;
   --text-color-lighter: hsl(0, 0%, 67%);
   --text-color-darker: hsl(0, 0%, 0%);
   --background-color: white;
   --link-border-color: hsl(0, 0%, 79%);
   --border-radius: 0.6rem;
+  --spacing-unit: 1.6rem;
+  --smidgen-unit: 0.2rem;
 
   font-size: 1.125em;
   line-height: 1.8em;
   font-family: "jaf-facitweb", sans-serif;
+  font-weight: 300;
   color: var(--text-color);
   background-color: var(--background-color);
 }
 
+h2 {
+  font-weight: inherit;
+  font-size: 1.4rem;
+  line-height: 1.6em;
+  margin: 0 0 var(--spacing-unit);
+}
+
 h3 {
-  font-size: 1.3em;
-  margin-bottom: 2rem;
-  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0 0 var(--smidgen-unit);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.4;
+  clear: both;
+  
 }
 
 h3 a {
@@ -114,11 +116,15 @@ h4:first-child {
 a {
   color: inherit;
   position: relative;
+  text-decoration-color: var(--text-color-lighter);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15rem;
 }
 
 p {
-  margin: 1em 0;
+  margin: 0 0 var(--spacing-unit);
   line-height: 1.7em;
+  letter-spacing: -0.01em;
 }
 
 li {
@@ -127,6 +133,20 @@ li {
 
 li:last-child {
   margin-bottom: 0;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1rem;
+  opacity: 0.1;
+  border: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='86' height='17'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3.873 5.37c5.088 5.606 12.457 8.24 22.107 7.903 14.475-.505 19.644-9.36 31.244-9.766 7.733-.27 16.158 2.328 25.275 7.793'/%3E%3C/svg%3E");
+  background-repeat: space;
+  background-size: contain;
+  background-position: center center;
+  margin: calc(var(--spacing-unit) * 2) 0;
+  padding: 0;
 }
 
 article {
@@ -169,14 +189,17 @@ article ol li {
 
 input[type="email"] {
   border-radius: calc(var(--border-radius) / 2);
-  border: 0.12rem solid var(--text-color);
+  border: 1px solid var(--text-color);
   padding: 0.6em 0.8em;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .button, button[type="submit"] {
   background: var(--text-color-darker);
   border: none;
-  padding: 0 0.8em;
+  padding: 0 2em;
   border-radius: calc(var(--border-radius) / 2);
   color: var(--background-color);
   cursor: pointer;
@@ -307,6 +330,7 @@ a.with-icon:before {
 #subForm {
   display: flex;
   align-items: stretch;
+  margin: 0 0 var(--spacing-unit);
   
   input {
     margin: 0 0.5em 0 0;
@@ -401,6 +425,13 @@ a.with-icon:before {
 
 .subscribe-form label {
   display: none;
+}
+
+.inline-pic {
+  max-width: 18%;
+  border-radius: var(--border-radius);
+  float: left;
+  margin: 0 calc(var(--spacing-unit) / 2) var(--spacing-unit) 0;
 }
 
 /* ------------------
