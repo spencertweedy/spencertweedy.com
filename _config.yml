@@ -55,7 +55,7 @@ defaults:
   values:
     layout: obs-newsletter
 collections_dir: content
-email: spencer@penguinmail.com
+email: spencer@spencertweedy.com
 description: Hi! I play drums.
 obs_description: A daily list blog by Spencer Tweedy.
 author: Spencer Tweedy
