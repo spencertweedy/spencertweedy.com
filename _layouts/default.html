@@ -147,7 +147,7 @@
             <img src="{% link assets/drums.gif %}" alt="Animated drumming figure">
 	    {% else %}
             <p>
-                {% if site.cover_photo_credit %}Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>{% endif %}
+                {% if site.cover_photo_credit %}{% if page.layout == 'default' %}Cover photo by <a href="{{ site.cover_photo_credit[1] }}">{{ site.cover_photo_credit[0] }}</a><br>{% endif %}{% endif %}
 		        &copy; {{ site.time | date: "%Y" }} {{ site.title }} &bull; Updated {{ site.time | date: "%Y-%m-%d" }} &bull; <a href="{% link pages/contact.html %}">Contact</a>
 		    </p>
         {% endif %}
