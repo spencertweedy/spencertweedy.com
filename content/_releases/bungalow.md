@@ -3,7 +3,7 @@ title: Bungalow
 artist: Case Oats
 year: "2022"
 image: /uploads/bungalow.jpg
-color: "#ffede2"
+color: "#ad4630"
 listen: https://caseoats.bandcamp.com/track/bungalow
 role: Drums, engineering, producing
 is_single: true
