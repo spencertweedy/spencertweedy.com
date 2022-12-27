@@ -67,6 +67,7 @@ html {
   --text-color-darker: hsl(0, 0%, 0%);
   --background-color: white;
   --link-border-color: hsl(0, 0%, 79%);
+  --accent-color: hsl(87, 47%, 52%);
   --border-radius: 0.6rem;
   --spacing-unit: 1.6rem;
   --smidgen-unit: 0.2rem;
@@ -116,7 +117,7 @@ h4:first-child {
 a {
   color: inherit;
   position: relative;
-  text-decoration-color: var(--text-color-lighter);
+  text-decoration-color: var(--accent-color);
   text-decoration-thickness: 2px;
   text-underline-offset: 0.15rem;
 }
@@ -139,10 +140,10 @@ hr {
   display: block;
   width: 100%;
   height: 1rem;
-  opacity: 0.1;
+  opacity: 0.3;
   border: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='86' height='17'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3.873 5.37c5.088 5.606 12.457 8.24 22.107 7.903 14.475-.505 19.644-9.36 31.244-9.766 7.733-.27 16.158 2.328 25.275 7.793'/%3E%3C/svg%3E");
-  background-repeat: space;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='86' height='17'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23808080' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3.873 5.37c5.088 5.606 12.457 8.24 22.107 7.903 14.475-.505 19.644-9.36 31.244-9.766 7.733-.27 16.158 2.328 25.275 7.793'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
   margin: calc(var(--spacing-unit) * 2) 0;
@@ -162,12 +163,24 @@ article ol,
 article li,
 article img,
 article embed {
-  margin: 1em 0;
+  margin: var(--spacing-unit) 0;
   max-width: 100%;
 }
 
-article *:last-child {
+article > h2 {
+  font-size: 1.7em;
+}
+
+article > *:first-child {
+  margin-top: 0;
+}
+
+article > *:last-child {
   margin-bottom: 0;
+}
+
+article h3 + p {
+  margin-top: 0;
 }
 
 article blockquote {
@@ -196,7 +209,7 @@ input[type="email"] {
   text-align: center;
 }
 
-.button, button[type="submit"] {
+.button, input[type="submit"], button[type="submit"] {
   background: var(--text-color-darker);
   border: none;
   padding: 0 2em;
@@ -240,6 +253,12 @@ footer {
   margin-bottom: 10vh;
   font-size: 0.7em;
   color: var(--text-color-lighter);
+  
+  a {
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: initial;
+  }
 }
 
 /* -------------
@@ -488,6 +507,14 @@ a.with-icon:before {
 }
 
 @media screen and (max-width: 500px) {
+  #subForm {
+    flex-wrap: wrap;
+    
+    input {
+      margin: 0.5em 0;
+    }
+  }
+  
   input[type="text"], input[type="email"] {
     display: block;
     margin: 0.5em 0;
@@ -495,9 +522,10 @@ a.with-icon:before {
     box-sizing: border-box;
   }
 
-  input[type="submit"] {
+  input[type="submit"], button[type="submit"] {
     display: block;
     width: 100%;
+    padding: 0.6em 0.8em;
     box-sizing: border-box;
   }
 }
