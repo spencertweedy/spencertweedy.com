@@ -71,6 +71,7 @@ html {
   --border-radius: 0.6rem;
   --spacing-unit: 1.6rem;
   --smidgen-unit: 0.2rem;
+  --bold-font-weight: 600;
 
   font-size: 1.125em;
   line-height: 1.8em;
@@ -90,7 +91,7 @@ h2 {
 h3 {
   font-size: 0.8em;
   margin: 0 0 var(--smidgen-unit);
-  font-weight: 300;
+  font-weight: inherit;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   opacity: 0.4;
@@ -106,7 +107,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.125rem;
   font-size: 0.8em;
-  font-weight: normal;
+  font-weight: inherit;
   margin: 2em 0 1em;
 }
 
@@ -126,6 +127,10 @@ p {
   margin: 0 0 var(--spacing-unit);
   line-height: 1.7em;
   letter-spacing: -0.01em;
+}
+
+strong {
+  font-weight: var(--bold-font-weight);
 }
 
 li {
@@ -216,7 +221,7 @@ input[type="email"] {
   border-radius: calc(var(--border-radius) / 2);
   color: var(--background-color);
   cursor: pointer;
-  font-weight: normal;
+  font-weight: inherit;
 }
 
 .button {
@@ -275,7 +280,7 @@ footer {
 #site-header h1 a:hover {
   font-family: "chippewa-falls";
   font-size: 1.1em;
-  font-weight: normal;
+  font-weight: inherit;
   color: var(--text-color-darker);
   text-decoration: none;
   border-bottom: none;
