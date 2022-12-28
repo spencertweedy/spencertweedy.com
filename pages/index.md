@@ -5,7 +5,7 @@ permalink: "/"
 
 ## I play drums and [record music]({% link pages/releases.html %}).
 
-*Spoonful* is the letter I send from the road, the studio, or my workshop every week. Join 800+ people following along, unsubscribe anytime with no guilt.
+I send a newsletter from the road, the studio, or my workshop every week. Join 800+ people following along, unsubscribe anytime with no guilt.
 
 {% include subscribe-box.html %}
 
