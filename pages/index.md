@@ -10,7 +10,7 @@ I send a newsletter from the road, the studio, or my workshop every week. Join 8
 {% include subscribe-box.html %}
 
 ### Contact
-[spencer@spencertweedy.com](mailto:spencer@spencertweedy.com)
+[{{ site.email }}](mailto:{{ site.email }})
 
 ***
 
