@@ -5,7 +5,7 @@ permalink: "/"
 
 ## I play drums and [record music]({% link pages/releases.html %}).
 
-I’m experimenting with starting my newsletter again. Updates from the road and the studio, thoughts about music, art, and computers? Join 800+ people following along, unsubscribe anytime with no guilt.
+I’m experimenting with starting my newsletter again. Updates from the road and the studio, notes about music, art, and computers? Join 800+ people following along, unsubscribe anytime with no guilt.
 
 {% include subscribe-box.html %}
 
@@ -19,6 +19,9 @@ Jeff Tweedy, Mavis Staples, Norah Jones, Joan Shelley, Daniel Johnston, Pops Sta
 
 ### My releases
 [*Sleep Is My God*](https://spencertweedy.bandcamp.com/album/sleep-is-my-god) (2019), [*Geezer Love*](https://spencertweedy.bandcamp.com/album/geezer-love) (2016), “[Temple State](https://spencertweedy.bandcamp.com/track/temple-state)” (2014).
+
+### Observations
+Since 2018, I’ve written a daily list blog mostly about things I witness while out ’n’ about. [Read Observations]({% link pages/observations/index.html %}).
 
 ### Mirror Sound
 [![Mirror Sound book cover]({% link _uploads/mirror-sound.jpg %}){: .inline-pic}](https://mirrorsoundbook.com)
