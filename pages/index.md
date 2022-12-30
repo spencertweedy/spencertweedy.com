@@ -5,7 +5,7 @@ permalink: "/"
 
 ## I play drums and [record music]({% link pages/releases.html %}).
 
-I send a newsletter from the road, the studio, or my workshop every week. Join 800+ people following along, unsubscribe anytime with no guilt.
+I’m experimenting with starting my newsletter again. Updates from the road and the studio, thoughts about music, art, and computers? Join 800+ people following along, unsubscribe anytime with no guilt.
 
 {% include subscribe-box.html %}
 
