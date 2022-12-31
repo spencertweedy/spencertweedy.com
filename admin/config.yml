@@ -20,7 +20,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Publish Location", name: "location", widget: "map"}
+      - {label: "Publish Location", name: "location", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: "observations" # Used in routes, e.g., /admin/collections/blog
     label: "Observations" # Used in the UI
