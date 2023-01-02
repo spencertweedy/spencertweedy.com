@@ -8,4 +8,4 @@ You’ve been added to the list. Thank you!
 
 ***
 
-[Return to the homepage]({% link pages/index.md %})
+[Return to the homepage]({% link pages/index.html %})

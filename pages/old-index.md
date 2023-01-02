@@ -1,6 +1,6 @@
 ---
 layout: classic
-permalink: "/"
+permalink: "/old-home"
 ---
 
 ## I play drums and [record music]({% link pages/releases.html %}).
