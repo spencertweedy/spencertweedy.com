@@ -11,4 +11,26 @@
 		src: url('/assets/fonts/FT88-Italic.woff2') format('woff2'), url('/assets/fonts/FT88-Italic.woff') format('woff');
 		font-style: normal;
 	}
+	
+	h3 {
+		@apply text-sm uppercase tracking-widest opacity-40 mb-4;
+	}
+	
+	p {
+		@apply max-w-prose;
+	}
+	
+	p a {
+		@apply underline decoration-lime-600 decoration-2 underline-offset-2;
+	}
+	
+	input[type="email"] {
+		@apply drop-shadow-md bg-white p-4;
+	}
+}
+
+@layer components {
+	.button {
+		@apply drop-shadow-md bg-lime-600 p-4;
+	}
 }
