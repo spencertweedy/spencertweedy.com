@@ -19,3 +19,13 @@ permalink: "/blog"
 	
 	{% unless forloop.last %}<hr>{% endunless -%}
 {% endfor %}
+
+<div class="">
+	{% assign observations = site.observations | reverse %}
+	{% for post in observations limit:30 %}
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="{{ post.url }}">{{ post.title | remove_first: "Observations" }}</a>
+			{{ post.content | markdownify }}
+		</article>
+	{% endfor %}
+</div>
