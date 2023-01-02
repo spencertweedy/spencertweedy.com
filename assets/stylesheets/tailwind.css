@@ -25,12 +25,12 @@
 	}
 	
 	input[type="email"] {
-		@apply drop-shadow-md bg-white p-4;
+		@apply drop-shadow-md bg-white p-4 rounded;
 	}
 }
 
 @layer components {
 	.button {
-		@apply drop-shadow-md bg-lime-600 p-4;
+		@apply drop-shadow-md bg-sky-500 p-4 text-white rounded lowercase font-semibold;
 	}
 }
