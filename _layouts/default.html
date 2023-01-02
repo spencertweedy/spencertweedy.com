@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<div class="my-[10vh] px-[5vw] font-sans font-light">
+	<header id="site-header" class="mb-12">
+		<a href="#site-content" class="sr-only">Skip to content</a>
+			
+		<h1 id="site-title" class="lowercase">
+			<a href="{{ site.url }}">{{ site.title }}</a>
+		</h1>
+	</header>
+	
+	<main id="site-content" class="space-y-12">
+		{{ content }}
+	</main>
+	
+	<footer id="site-footer" class="opacity-20 mt-[10vh] text-xs">
+		<p>
+			Updated {{ site.time | date: "%Y-%m-%d" }} &bull; <a href="{% link pages/contact.html %}">Contact</a>
+		</p>
+		
+		<a href="#site-header" class="sr-only">Back to start</a>
+	</footer>
+</div>

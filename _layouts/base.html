@@ -33,6 +33,7 @@
     {% if page.layout contains 'obs' %}
         <link rel="stylesheet" href="{% link assets/stylesheets/observations.css %}">
     {% elsif page.layout contains 'tailwind' %}
+        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
         <link rel="stylesheet" href="{% link assets/stylesheets/tailwind.css %}">
     {% else %}
         {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
