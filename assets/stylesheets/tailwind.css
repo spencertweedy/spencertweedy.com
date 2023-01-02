@@ -12,6 +12,30 @@
 		font-style: normal;
 	}
 	
+	@font-face {
+		font-family: 'ISO';
+		src: url('/assets/fonts/ISOv0.7-Regular.woff2') format('woff2');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	
+	@font-face {
+		font-family: 'ISO';
+		src: url('/assets/fonts/ISOv0.7-RegularItalic.woff2') format('woff2');
+		font-weight: normal;
+		font-style: italic;
+		font-display: swap;
+	}
+	
+	@font-face {
+		font-family: 'ISO';
+		src: url('/link assets/fonts/ISOv0.7-Bold.woff2') format('woff2');
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+	
 	h3 {
 		@apply text-sm uppercase tracking-widest opacity-40 mb-4;
 	}
@@ -25,12 +49,12 @@
 	}
 	
 	input[type="email"] {
-		@apply drop-shadow-md bg-white p-4 rounded;
+		@apply drop-shadow-md bg-white p-4 rounded-md text-center;
 	}
 }
 
 @layer components {
 	.button {
-		@apply drop-shadow-md bg-sky-500 p-4 text-white rounded lowercase font-semibold;
+		@apply drop-shadow-md bg-sky-500 py-4 px-12 text-white rounded-md lowercase;
 	}
 }
