@@ -2,17 +2,23 @@
 layout: tailwind
 ---
 
-<div class="px-[5vw]">
-	<ul class="font-['FT88_Italic'] text-3xl mb-8 lowercase">
+<section class="font-['FT88_Italic'] text-biggie lowercase -indent-4 ml-4">
+	<ul>
 		<li><a href="{% link pages/releases.html %}">Records that I’ve played on</a></li>
 		<li><a href="https://spencertweedy.bandcamp.com/">My releases</a></li>
 		<li><a href="{% link pages/blog.html %}">My blog</a></li>
-		<li><a href="#" class="line-through">Store</a> <span class="font-sans">in progress</span></li>
-		<li><a href="#" class="line-through">About me</a> <span class="font-sans">in progress</span></li>
+		<li class="flex flex-initial items-center space-x-8"><a href="#" class="line-through">Store</a> <span class="font-sans text-sm opacity-40">in progress</span></li>
+		<li class="flex flex-initial items-center space-x-8"><a href="#" class="line-through">About me</a> <span class="font-sans text-sm opacity-40">in progress</span></li>
 	</ul>
-	
-	<h3>Contact</h3>
-	<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-	
+</section>
+
+<section>
+	<h3>Newsletter</h3>
 	{% include subscribe-box.html %}
-</div>
+	<p class="mt-4">Allow me to write you a letter from the road or the studio. Unsubscribe anytime.</p>
+</section>
+
+<section>
+	<h3>Contact</h3>
+	<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</section>
