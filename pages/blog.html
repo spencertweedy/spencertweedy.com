@@ -4,28 +4,33 @@ title: "My blog"
 permalink: "/blog"
 ---
 
-{% for post in site.posts %}
-	<article itemscope itemtype="http://schema.org/BlogPosting" class="space-y-2 max-w-prose mx-auto">
-		<h2 class="font-semibold"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<div class="flex gap-8">
+	<section class="grow space-y-8">
+		{% for post in site.posts %}
+			<article itemscope itemtype="http://schema.org/BlogPosting" class="space-y-2 max-w-prose mx-auto">
+				<h2 class="font-semibold"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			
+				<div class="">
+					{{ post.excerpt | truncate: 120 }}
+				</div>
+				
+				<p><a href="{{ post.url }}">Read more</a></p>
+				
+				<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+			</article>
+			
+			{% unless forloop.last %}<hr>{% endunless -%}
+		{% endfor %}
+	</section>
 	
-		<div class="">
-			{{ post.excerpt | truncate: 120 }}
-		</div>
-		
-		<p><a href="{{ post.url }}">Open the post</a></p>
-		
-		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-	</article>
-	
-	{% unless forloop.last %}<hr>{% endunless -%}
-{% endfor %}
-
-<div class="">
-	{% assign observations = site.observations | reverse %}
-	{% for post in observations limit:30 %}
-		<article itemscope itemtype="http://schema.org/BlogPosting">
-			<a href="{{ post.url }}">{{ post.title | remove_first: "Observations" }}</a>
-			{{ post.content | markdownify }}
-		</article>
-	{% endfor %}
+	<section class="font-['ISO'] max-w-xs">
+		<h1 class="uppercase">Observations</h1>
+		{% assign observations = site.observations | reverse %}
+		{% for post in observations limit:5 %}
+			<article itemscope itemtype="http://schema.org/BlogPosting">
+				<a href="{{ post.url }}">{{ post.title | remove_first: "Observations" }}</a>
+				{{ post.content | markdownify }}
+			</article>
+		{% endfor %}
+	</section>
 </div>
