@@ -1,8 +1,9 @@
 ---
-layout: tailwind
+layout: default
+permalink: "/"
 ---
 
-<section class="font-['FT88_Italic'] text-biggie lowercase -indent-4 ml-4">
+<section class="font-['FT88_Italic'] text-biggie lowercase -indent-4 ml-4 px-[5vw]">
 	<ul>
 		<li><a href="{% link pages/releases.html %}">Records that I’ve played on</a></li>
 		<li><a href="https://spencertweedy.bandcamp.com/">My releases</a></li>
@@ -12,13 +13,13 @@ layout: tailwind
 	</ul>
 </section>
 
-<section>
+<section class="px-[5vw]">
 	<h3>Newsletter</h3>
 	{% include subscribe-box.html %}
 	<p class="mt-4">Allow me to write you a letter from the road or the studio. Unsubscribe anytime.</p>
 </section>
 
-<section>
+<section class="px-[5vw]">
 	<h3>Contact</h3>
 	<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 </section>

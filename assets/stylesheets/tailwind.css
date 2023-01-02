@@ -17,7 +17,7 @@
 	}
 	
 	p {
-		@apply max-w-prose;
+		@apply max-w-prose leading-relaxed;
 	}
 	
 	p a {
