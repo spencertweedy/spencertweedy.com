@@ -5,15 +5,9 @@
 
     <title>
         {%- if page.title %}{{ page.title | escape }} &#8942; {% endif -%}
-        {%- if page.layout contains 'obs-' %}Observations &#8942; {% endif -%}
         {{ site.title | escape -}}
     </title>
-    <meta name="description" content="
-        {%- if page.layout contains 'obs' -%}
-            {{ site.obs_description }}
-        {%- else -%}
-            {{ site.description }}
-        {%- endif -%}">
+    <meta name="description" content="{{ site.description }}">
 
     <!--
         ~~~~~~~~~~~~
@@ -27,27 +21,18 @@
     <meta name="color-scheme" content="light dark">
 
     <!-- Import stylesheets -->
-    {% unless page.layout contains 'tailwind' %}
+    {% if page.layout contains 'classic' %}
         <link rel="stylesheet" href="{% link assets/stylesheets/normalize.css %}">
-    {% endunless %}
-    {% if page.layout contains 'obs' %}
-        <link rel="stylesheet" href="{% link assets/stylesheets/observations.css %}">
-    {% elsif page.layout contains 'tailwind' %}
-        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
-        <link rel="stylesheet" href="{% link assets/stylesheets/tailwind.css %}">
-    {% else %}
         {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
         <link rel="stylesheet" href="{% link assets/stylesheets/main.scss %}">
+    {% else %}
+        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
+        <link rel="stylesheet" href="{% link assets/stylesheets/tailwind.css %}">
     {% endif %}
 
     <!-- Link favicons -->
-    {% if page.layout contains 'obs' %}
-        <link rel="icon" type="image/png" href="{% link assets/favicons/obs-favicon.png %}">
-        <link rel="apple-touch-icon" sizes="192x192" href="{% link assets/favicons/obs-apple-icon.png %}">
-    {% else %}
-        <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}">
-    {% endif %}
+    <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}">
 
     <!-- Link RSS feed -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}">
@@ -60,27 +45,17 @@
         {%- if page.title -%}
             {{ page.title | escape }}
         {%- else -%}
-            {%- if page.layout contains 'obs-' %}Observations &#8942; {% endif -%}
             {{ site.title | escape -}}
         {%- endif -%}">
-    <meta property="og:description" content="
-        {%- if page.layout contains 'obs' -%}
-            {{ site.obs_description }}
-        {%- else -%}
-            {{ site.description }}
-        {%- endif -%}">
+    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image" content="
-        {%- if page.layout contains 'obs' -%}
-            {{ site.url }}{% link assets/obs-social.png %}
-        {%- elsif page.feature_image -%}
+        {%- if page.feature_image -%}
             {{ page.feature_image | prepend: site.url }}
         {%- else -%}
             {{ site.cover_photo_path | prepend: site.url }}
         {%- endif -%}">
     <meta property="og:image:alt" content="
-        {%- if page.layout contains 'obs' -%}
-            The Observations blog logo
-        {%- elsif page.feature_image -%}
+        {%- if page.feature_image -%}
         {%- else -%}
             A black-and-white photo of Spencer Tweedy playing drums in a recording studio
         {%- endif -%}">
