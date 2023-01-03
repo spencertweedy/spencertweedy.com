@@ -55,18 +55,6 @@ collections:
       - {label: "Is it a single?", name: "is_single", widget: "boolean", default: false}
       - {label: "Feature it?", name: "is_featured", widget: "boolean", default: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-  - name: "announcements"
-    label: "Announcements" # Used in the UI
-    label_singular: "Announcement" # Used in the UI
-    folder: "content/_announcements" # The path to the folder where the documents are stored
-    editor:
-      preview: false # Because Netlify CMS has poor Liquid support
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Background Color", name: "background_color", widget: "string", required: false}
-      - {label: "Text Color", name: "text_color", widget: "string", required: false}
-      - {label: "Make visible?", name: "is_visible", widget: "boolean", default: true}
   - name: "newsletters" # Used in routes, e.g., /admin/collections/blog
     label: "Newsletters" # Used in the UI
     label_singular: "Newsletter" # Used in the UI

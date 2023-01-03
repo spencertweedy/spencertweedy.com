@@ -21,9 +21,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  announcements:
-    title: Announcements
-    output: false
 defaults:
 - scope:
     path: ''
