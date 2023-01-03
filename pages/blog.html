@@ -4,7 +4,7 @@ title: "My blog"
 permalink: "/blog"
 ---
 
-<div class="flex gap-8">
+<div class="flex gap-6 md:gap-12">
 	<section class="grow space-y-8">
 		{% for post in site.posts %}
 			<article itemscope itemtype="http://schema.org/BlogPosting" class="space-y-2 max-w-prose mx-auto">
@@ -23,12 +23,12 @@ permalink: "/blog"
 		{% endfor %}
 	</section>
 	
-	<section class="font-['ISO'] max-w-xs">
-		<h1 class="uppercase">Observations</h1>
+	<section class="font-['ISO'] max-w-xs space-y-8">
+		<h1 class="uppercase text-center"><a href="{% link pages/observations/index.html %}">Observations</a></h1>
 		{% assign observations = site.observations | reverse %}
 		{% for post in observations limit:5 %}
 			<article itemscope itemtype="http://schema.org/BlogPosting">
-				<a href="{{ post.url }}">{{ post.title | remove_first: "Observations" }}</a>
+				<a href="{{ post.url }}" class="opacity-40">{{ post.title | remove_first: "Observations" }}</a>
 				{{ post.content | markdownify }}
 			</article>
 		{% endfor %}
