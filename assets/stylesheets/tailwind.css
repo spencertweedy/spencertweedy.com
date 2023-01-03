@@ -37,7 +37,7 @@
 	}
 	
 	h3 {
-		@apply text-sm uppercase tracking-widest opacity-40 mb-4;
+		@apply text-sm uppercase tracking-widest opacity-40 mb-2;
 	}
 	
 	p {
@@ -45,7 +45,7 @@
 	}
 	
 	p a {
-		@apply underline decoration-lime-600 decoration-2 underline-offset-2;
+		@apply underline decoration-sky-500 decoration-2 underline-offset-2;
 	}
 	
 	input[type="email"] {

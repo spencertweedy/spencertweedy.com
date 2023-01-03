@@ -4,23 +4,27 @@ permalink: "/releases"
 layout: page
 ---
 
-<section id="releases-page">
+<section class="space-y-8">
 	{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
 	{% for year in releases_by_year %}
-		<h4>{{ year.name }}</h4>
+		<div class="text-xl text-center tracking-widest">{{ year.name }} 👇</div>
 
-		<ol>
+		<ol class="grid grid-cols-2 md:grid-cols-4 gap-8">
 			{% assign releases = year.items | sort:"year" | reverse %}
 			{% for release in releases %}
 				<li>
-					<div class="release-inner" style="background:{{ release.color }};">
-						<a href="{{ release.listen }}" target="_blank">
-							<div class="release-image"><img src="{{ release.image }}" alt="{{ release.title }} artwork" /></div>
-							<span class="release-title">{{ release.title }}</span>
-							{% if release.artist %}<span class="release-artist">{{ release.artist }}</span>{% endif %}
-							{% if release.role %}<span class="release-role">{{ release.role }}</span>{% endif %}
-						</a>
-					</div>
+					<a href="{{ release.listen }}" target="_blank">
+						<div class="mb-2">
+							<img src="{{ release.image }}" alt="{{ release.title }} artwork" class="rounded-md" />
+						</div>
+						<div class="space-y-1">
+							<div>
+								<span class="font-semibold underline decoration-2 underline-offset-2 decoration-[{{ release.color }}]">{{ release.title }}</span>
+								{% if release.artist %}<span> by {{ release.artist }}</span>{% endif %}
+							</div>
+							{% if release.role %}<div class="text-sm opacity-40">{{ release.role }}</div>{% endif %}
+						</div>
+					</a>
 				</li>
 			{% endfor %}
 		</ol>
