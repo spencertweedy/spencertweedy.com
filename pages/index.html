@@ -3,23 +3,18 @@ layout: default
 permalink: "/"
 ---
 
-<section class="font-['FT88_Italic'] text-biggie lowercase -indent-4 ml-4 px-[5vw]">
+<section class="font-['FT88_Italic'] text-biggie lowercase -indent-4 ml-4 px-[5vw] my-[5vh]">
 	<ul>
 		<li><a href="{% link pages/releases.html %}">Records I’ve played on</a></li>
 		<li><a href="https://spencertweedy.bandcamp.com/">My releases</a></li>
-		<li><a href="{% link pages/blog.html %}">My blog</a></li>
+		<li><a href="https://spencertweedy.substack.com">Newsletter</a></li>
+		<li><a href="{% link pages/observations/index.html %}">Observations</a></li>
 		<li class="flex flex-initial items-center space-x-8"><a href="#" class="line-through decoration-red-500">Store</a> <span class="font-sans text-sm opacity-40">in progress</span></li>
 		<li class="flex flex-initial items-center space-x-8"><a href="#" class="line-through decoration-red-500">About me</a> <span class="font-sans text-sm opacity-40">in progress</span></li>
 	</ul>
 </section>
 
-<section class="px-[5vw]">
-	<h3>Newsletter</h3>
-	{% include subscribe-box.html %}
-	<p class="mt-4">My letter from the road, the studio, or the workshop. Unsubscribe anytime.</p>
-</section>
-
-<section class="px-[5vw]">
+<section class="px-[5vw] mb-[5vh]">
 	<h3>Contact</h3>
 	<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 </section>
