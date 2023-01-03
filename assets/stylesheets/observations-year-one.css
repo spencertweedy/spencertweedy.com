@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  font-family: 'ISO', monospace, sans-serif;
+  font-family: "ISO", monospace, sans-serif;
   margin: 0 6vw;
 }
 
@@ -136,7 +136,7 @@ h1 {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 50%;
-  max-width: 300px; /* arbitrary; texture image max is 412px */
+  max-width: 300px; /* arbitrary, texture image max is 412px */
   border-radius: 50%;
   background-image: linear-gradient(#76D7EA, #E44081, #F6EB13);
   background-size: 400% 400%;
@@ -243,7 +243,7 @@ img.little-logo {
 }
 
 #product-area ul li:before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   height: 10px;

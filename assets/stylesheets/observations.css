@@ -67,7 +67,7 @@ html {
 }
 
 body {
-  font-family: 'ISO', 'Monaco', 'Courier', 'Courier New', monospace;
+  font-family: "ISO", "Monaco", "Courier", "Courier New", monospace;
   font-size: 1.0625em; /* 17px when browser default is 16px; split out from html font-size so that rem units can refer to the typical 16px browser default, making calculations more elegant */
   line-height: 1.35em;
   margin: calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 5.333);
@@ -112,7 +112,7 @@ blockquote {
 }
 
 blockquote:before {
-  content: ''; /* Required in order for element to display */
+  content: ""; /* Required in order for element to display */
   display: block;
   height: 100%;
   width: 0.125rem;
@@ -279,7 +279,7 @@ article.post header h1 {
 }
 
 article.post header h1:after {
-  content: ''; /* Required in order for element to display */
+  content: ""; /* Required in order for element to display */
   display: block;
   width: 100%;
   height: 0.125rem;
@@ -407,7 +407,7 @@ footer#site-footer p {
 }
 
 footer#site-footer nav a:not(:last-of-type):after {
-  content: '•';
+  content: "•";
   margin-left: 0.5em;
   display: inline-block;
 }
@@ -647,11 +647,11 @@ input[type="submit"]:active, button[type="submit"]:active {
 *
 * For modern browsers
 * 1. The space content is one way to avoid an Opera bug when the
-*  `contenteditable` attribute is included anywhere else in the document.
+*  contenteditable attribute is included anywhere else in the document.
 *  Otherwise it causes space to appear at the top and bottom of elements
-*  that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*  `:before` to contain the top-margins of child elements.
+*  that receive the clearfix class.
+* 2. The use of table rather than block is only necessary if using
+*  :before to contain the top-margins of child elements.
 */
 
 .clearfix:before,
@@ -697,7 +697,7 @@ input[type="submit"]:active, button[type="submit"]:active {
   }
   /*
    * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
+   * or use the javascript: pseudo protocol
    */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
