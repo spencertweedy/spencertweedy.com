@@ -82,8 +82,6 @@ exclude:
 - tailwind.config.js
 - package.json
 - package-lock.json
-jekyll_tidy:
-  compress_html: false
 obs-archives:
   enabled:
     - month
