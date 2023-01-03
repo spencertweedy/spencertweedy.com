@@ -2,7 +2,7 @@
 
 ## Why Is This Repository Public?
 
-I dunno. Just for fun! I reserve all the rights to the site and its content. But I think it’s fun to let people see how things work, if they wanna see it. Plus, I’m an amateur developer, so if you notice something you think I could improve, please tell me about it.
+For fun! I want to let any curious people see how my website works. If you notice anything buggy, please let me know in a comment, email, or pull request.
 
 ## How It Works
 
@@ -17,3 +17,7 @@ Jekyll uses a templating language called [Liquid](https://shopify.github.io/liqu
 [Netlify](https://www.netlify.com/) watches this GitHub repository and automatically builds the site when there are new commits. Certain files, like 'netlify.toml' and '\_redirects' tell Netlify how to build the site.
 
 I manage the site’s content with [Netlify CMS](https://www.netlifycms.org/), which is hosted and configured in the 'admin' folder.
+
+## Copyright/licensing
+
+I reserve all rights to the site and its contents.
