@@ -193,6 +193,10 @@ header#site-header section#site-subtitle p {
   margin: 0 calc(var(--spacing-unit) * 2) 1em 0;
 }
 
+header#site-header section#site-subtitle a {
+  text-decoration: underline;
+}
+
 header#site-header a.subscribe-button {
   text-decoration: none;
 }
