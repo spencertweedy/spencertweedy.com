@@ -8,7 +8,7 @@
 @layer base {
 	@font-face {
 		font-family: 'FT88 Italic';
-		src: url('/assets/fonts/FT88-Italic.woff2') format('woff2'), url('/assets/fonts/FT88-Italic.woff') format('woff');
+		src: url("/assets/fonts/FT88-Italic.woff2") format("woff2"), url("/assets/fonts/FT88-Italic.woff") format("woff");
 		font-style: normal;
 	}
 	
