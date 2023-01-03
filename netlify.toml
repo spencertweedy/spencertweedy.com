@@ -1,6 +1,7 @@
 [build]
 	command = "JEKYLL_ENV=production bundle exec jekyll build" # Tell Netlify what command to use to build the site
 	publish = "_site" # Tell Netlify where the publishable build resides
+	environment = { NODE_VERSION = "18.12.1" }
 
 # If skip_processing = true, all other settings are ignored
 [build.processing]
