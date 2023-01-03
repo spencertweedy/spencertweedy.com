@@ -4,6 +4,9 @@
 # Netlify CMS admin fails if trailing slash isn't included, so…
 /admin    /admin/
 
+# Redirect subscribe page to Substack (as of 2023-01-02)
+/observations/subscribe    https://spencertweedy.substack.com
+
 # Redirecting the old Tumblr posts.
 # If I use a /post/:id/:slug scheme again in the future, this rule will conflict with it.
 /post/:id/:slug    https://tumblr.spencertweedy.com/post/:id/:slug

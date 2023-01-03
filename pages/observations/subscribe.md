@@ -4,6 +4,8 @@ permalink: "/observations/subscribe"
 layout: obs-page
 ---
 
+{% comment %} As of 2023-01-02, there is a Netlify redirect rule (in _redirects) redirecting this page to Substack. {% endcomment %}
+
 By signing up for this email list, you’ll be subscribing to my ([Spencer Tweedy’s]({% link pages/index.html %})) newsletter, which I only send occasionally and which includes my favorite recent OBSERVATIONS posts.
 
 {% comment %} Make sure to keep any thing described here in line with commitments described in any newsletter service confirmation emails, e.g. regarding frequency or privacy. {% endcomment %}
