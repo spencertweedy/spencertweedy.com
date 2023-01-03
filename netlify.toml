@@ -1,5 +1,5 @@
 [build]
-	command = "bundle exec jekyll build" # Tell Netlify what command to use to build the site
+	command = "JEKYLL_ENV=production bundle exec jekyll build" # Tell Netlify what command to use to build the site
 	publish = "_site" # Tell Netlify where the publishable build resides
 
 # If skip_processing = true, all other settings are ignored
