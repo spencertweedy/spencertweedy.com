@@ -10,6 +10,9 @@ module.exports = {
       sans: ['jaf-facitweb', 'sans-serif']
     },
     extend: {
+      colors: {
+        'obs-green': 'hsl(87, 47%, 52%)'
+      },
       fontSize: {
         biggie: 'calc(1em + 2vw)'
       },
