@@ -1,6 +1,5 @@
 ---
 title: Newsletter
-permalink: "/observations/subscribe"
 layout: obs-page
 ---
 
