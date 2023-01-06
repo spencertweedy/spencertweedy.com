@@ -2,8 +2,8 @@ module.exports = {
   content: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
-    './_posts/*.md',
-    './**/*.{html,md}',
+    './content/**/*.{html,md}',
+    './pages/*.{html,md}', // one level deep
   ],
   theme: {
     fontFamily: {
