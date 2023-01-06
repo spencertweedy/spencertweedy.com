@@ -1,4 +1,7 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,nova,jekyll,ruby,node
+### Netlify ###
+.netlify/
+
+# Remaining portion created by https://www.toptal.com/developers/gitignore/api/macos,nova,jekyll,ruby,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,nova,jekyll,ruby,node
 
 ### Jekyll ###
