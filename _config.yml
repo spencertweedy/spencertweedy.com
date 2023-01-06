@@ -71,7 +71,6 @@ include:
 exclude:
 - README.md
 - netlify.toml
-- _redirects
 - postcss.config.js
 - tailwind.config.js
 - package.json
