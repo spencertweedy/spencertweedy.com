@@ -1,4 +1,3 @@
----
 title: Spencer Tweedy
 timezone: America/Chicago
 collections:
@@ -83,10 +82,3 @@ obs-archives:
   layout: obs-archive
   permalinks:
     month: '/observations/:year:month/'
-plugins:
-- jekyll-postcss
-postcss:
-  cache: false
-keep_files:
-- assets/stylesheets/tailwind.css
-- assets/stylesheets/tailwind.css.map

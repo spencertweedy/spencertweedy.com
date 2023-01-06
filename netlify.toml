@@ -1,5 +1,5 @@
 [build]
-	command = "bundle exec jekyll build" # Tell Netlify what command to use to build the site
+	command = "npm run build" # Tell Netlify what command to use to build the site
 	publish = "_site" # Tell Netlify where the publishable build resides
 	environment = { NODE_VERSION = "18.12.1" }
 
@@ -9,7 +9,7 @@
 [build.processing.html]
 	pretty_urls = false
 [build.processing.css]
-	bundle = true
+	bundle = false
 	minify = false
 [build.processing.js]
 	bundle = true
