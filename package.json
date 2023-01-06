@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
     "cssnano": "^5.1.14",
     "postcss": "^8.4.20",
     "postcss-cli": "^10.1.0",
@@ -14,6 +15,7 @@
     "jekyll:build": "JEKYLL_ENV=production bundle exec jekyll build",
     "postcss:dev": "postcss assets/stylesheets/_postcss/main.css --output assets/stylesheets/main.css --watch",
     "postcss:build": "NODE_ENV=production postcss assets/stylesheets/_postcss/main.css --output assets/stylesheets/main.css",
+    "dev": "concurrently --kill-others \"npm run jekyll:dev\" \"npm run postcss:dev\"",
     "build": "npm run postcss:build && npm run jekyll:build"
   }
 }
