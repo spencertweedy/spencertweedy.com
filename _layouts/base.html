@@ -23,14 +23,8 @@
     <meta name="theme-color" content="rgb(252 211 77)">
 
     <!-- Import stylesheets -->
-    {% if page.layout contains 'classic' %}
-        <link rel="stylesheet" href="{% link assets/stylesheets/normalize.css %}">
-        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
-        <link rel="stylesheet" href="{% link assets/stylesheets/main.scss %}">
-    {% else %}
-        {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
-        <link rel="stylesheet" href="{% link assets/stylesheets/_postcss/main.css %}">
-    {% endif %}
+    {% if site.typekit %}<link rel="stylesheet" href="https://use.typekit.net/{{ site.typekit }}.css">{% endif %}
+    <link rel="stylesheet" href="{% link assets/stylesheets/_postcss/main.css %}">
 
     <!-- Link favicons -->
     <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}">
@@ -67,7 +61,7 @@
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">{% endif %}
 
     <!-- Umami analytics -->
-    <script async defer data-website-id="95944069-6b4e-4fc8-9d2d-9d858ac2e937" src="https://spoonalytics.net/umami.js"></script>
+    {% if jekyll.environment == "production" %}<script async defer data-website-id="{{ site.umami_site_id }}" src="https://spoonalytics.net/umami.js"></script>{% endif %}
 </head>
 
 <body class="font-sans font-light bg-amber-300 text-black selection:bg-sky-500 selection:text-white">
@@ -88,7 +82,7 @@
     </main>
     
     <footer id="site-footer" class="opacity-40 text-xs p-[5vw]">
-        <div>Updated {{ site.time | date: "%Y-%m-%d" }} &bull; <a href="{{ site.github_repo }}" target="_blank" class="underline">GitHub</a>{% unless page.url == "/" %} &bull; <a href="{% link pages/index.html %}" class="underline">Home</a>{% endunless %}</div>
+        <div>Updated {{ site.time | date: "%Y-%m-%d" }}{% if site.github_repo %} &bull; <a href="{{ site.github_repo }}" target="_blank" class="underline">GitHub</a>{% endif %}{% unless page.url == "/" %} &bull; <a href="{% link pages/index.html %}" class="underline">Home</a>{% endunless %}</div>
         
         <a href="#site-header" class="sr-only">Back to start</a>
     </footer>
