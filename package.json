@@ -13,8 +13,8 @@
   "scripts": {
     "jekyll:dev": "bundle exec jekyll serve --incremental",
     "jekyll:build": "JEKYLL_ENV=production bundle exec jekyll build",
-    "postcss:dev": "postcss assets/stylesheets/_postcss/main.css --output assets/stylesheets/main.css --watch",
-    "postcss:build": "NODE_ENV=production postcss assets/stylesheets/_postcss/main.css --output assets/stylesheets/main.css",
+    "postcss:dev": "postcss assets/stylesheets/main.css --output assets/stylesheets/_postcss/main.css --watch",
+    "postcss:build": "NODE_ENV=production postcss assets/stylesheets/main.css --output assets/stylesheets/_postcss/main.css",
     "dev": "concurrently --kill-others \"npm run jekyll:dev\" \"npm run postcss:dev\"",
     "build": "npm run postcss:build && npm run jekyll:build"
   }
