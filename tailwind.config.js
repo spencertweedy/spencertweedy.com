@@ -14,7 +14,7 @@ module.exports = {
         'obs-green': 'hsl(87, 47%, 52%)'
       },
       fontSize: {
-        biggie: 'calc(1em + 2vw)'
+        biggie: 'calc(1.4em + 1.6vw)'
       },
       animation: {
         'enter': 'enter 0.4s'
