@@ -4,29 +4,31 @@ permalink: "/discography"
 layout: page
 ---
 
-<section class="space-y-8">
+<section class="space-y-16">
 	{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
 	{% for year in releases_by_year %}
-		<div class="text-xl text-center tracking-widest">{{ year.name }} 👇</div>
-
-		<ol class="grid grid-cols-2 md:grid-cols-4 gap-8">
-			{% assign releases = year.items | sort:"year" | reverse %}
-			{% for release in releases %}
-				<li>
-					<a href="{{ release.listen }}" target="_blank">
-						<div class="mb-2">
-							<img src="{{ release.image }}" alt="{{ release.title }} artwork" class="rounded-md" />
-						</div>
-						<div class="space-y-1">
-							<div>
-								<span class="font-semibold underline decoration-2 underline-offset-2 decoration-[{{ release.color }}]">{{ release.title }}</span>
-								{% if release.artist %}<span> by {{ release.artist }}</span>{% endif %}
+		<div>
+			<div class="mb-4 md:mb-8" style="background-color: white; background: repeating-linear-gradient( -45deg, rgba(14, 165, 233, 0.2), rgba(14, 165, 233, 0.2) 2px, #ffffff 2px, #ffffff 5px );"><h2 class="text-lg tracking-widest bg-white inline-block pr-4">{{ year.name }}</h2></div>
+	
+			<ol class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+				{% assign releases = year.items | sort:"year" | reverse %}
+				{% for release in releases %}
+					<li>
+						<a href="{{ release.listen }}" target="_blank">
+							<div class="mb-2">
+								<img src="{{ release.image }}" alt="{{ release.title }} artwork" class="rounded-md" />
 							</div>
-							{% if release.role %}<div class="text-sm opacity-40">{{ release.role }}</div>{% endif %}
-						</div>
-					</a>
-				</li>
-			{% endfor %}
-		</ol>
+							<div class="space-y-1">
+								<div>
+									<span class="font-semibold underline decoration-2 underline-offset-2 decoration-[{{ release.color }}]">{{ release.title }}</span>
+									{% if release.artist %}<span> by {{ release.artist }}</span>{% endif %}
+								</div>
+								{% if release.role %}<div class="text-sm opacity-40">{{ release.role }}</div>{% endif %}
+							</div>
+						</a>
+					</li>
+				{% endfor %}
+			</ol>
+		</div>
 	{% endfor %}
 </section>
