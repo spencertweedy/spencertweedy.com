@@ -73,6 +73,7 @@
         
             <h1 id="site-title" class="lowercase">
                 <a href="{{ site.url }}">{{ site.title }}</a>
+                {% unless page.url == "/" %}<span class="opacity-40">{{ page.url }}</span>{% endunless %}
             </h1>
         </div>
     </header>
@@ -82,7 +83,7 @@
     </main>
     
     <footer id="site-footer" class="opacity-40 text-xs p-[5vw]">
-        <div>Updated {{ site.time | date: "%Y-%m-%d" }}{% unless page.url == "/colophon" %} &bull; <a href="{% link pages/colophon.html %}" target="_blank" class="underline">Colophon</a>{% endunless %}{% unless page.url == "/" %} &bull; <a href="{% link pages/index.html %}" class="underline">Home</a>{% endunless %}</div>
+        <div>Updated {{ site.time | date: "%Y-%m-%d" }}{% unless page.url == "/colophon" %} &bull; <a href="{% link pages/colophon.html %}" class="underline">Colophon</a>{% endunless %}{% unless page.url == "/" %} &bull; <a href="{% link pages/index.html %}" class="underline">Home</a>{% endunless %}</div>
         
         <a href="#site-header" class="sr-only">Back to start</a>
     </footer>
