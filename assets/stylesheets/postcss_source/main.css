@@ -9,10 +9,6 @@
 		font-style: normal;
 	}
 	
-	h3 {
-		@apply text-sm uppercase tracking-widest opacity-40 mb-2;
-	}
-	
 	p {
 		@apply max-w-prose leading-relaxed;
 	}
@@ -29,5 +25,33 @@
 @layer components {
 	.button {
 		@apply drop-shadow-md bg-sky-500 py-4 px-12 text-white rounded-md lowercase;
+	}
+	
+	.gallery {
+		@apply flex flex-row overflow-scroll items-center snap-x snap-mandatory px-[5vw] gap-[5vw] md:gap-8;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	
+	.gallery::-webkit-scrollbar {
+		display: none;
+	}
+	
+	.gallery-item {
+		@apply w-5/6 md:w-1/3 shrink-0 snap-center;
+	}
+}
+
+@layer utilities {
+	.h2 {
+		@apply uppercase font-semibold tracking-widest;
+	}
+	
+	.h3 {
+		@apply text-sm uppercase tracking-widest opacity-40 mb-2;
+	}
+	
+	.picture {
+		@apply rounded shadow-xl;
 	}
 }
