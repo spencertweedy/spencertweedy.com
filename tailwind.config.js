@@ -3,7 +3,7 @@ module.exports = {
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './content/**/*.{html,md}',
-    './pages/*.{html,md}', // one level deep
+    './pages/**/*.{html,md}', // one level deep
   ],
   theme: {
     fontFamily: {
