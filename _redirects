@@ -11,6 +11,9 @@
 # Rename releases page and permalink
 /releases    /discography
 
+# Create link for Drumprints explainer
+/drumprints    https://spencertweedy.substack.com/p/new-music-drumprints-vol-1
+
 # Redirecting the old Tumblr posts.
 # If I use a /post/:id/:slug scheme again in the future, this rule will conflict with it.
 /post/:id/:slug    https://tumblr.spencertweedy.com/post/:id/:slug
