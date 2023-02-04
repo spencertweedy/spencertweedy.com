@@ -10,11 +10,32 @@
 	}
 	
 	p {
-		@apply max-w-prose leading-relaxed;
+		@apply max-w-prose leading-relaxed my-8;
+	}
+	
+	p:first-child {
+		@apply mt-0;
+	}
+	
+	p:last-child {
+		@apply mb-0;
+	}
+	
+	h1 + p,
+	h2 + p,
+	h3 + p,
+	h4 + p,
+	h5 + p,
+	h6 + p {
+		@apply mt-0;
 	}
 	
 	p a {
 		@apply underline decoration-sky-500 decoration-2 underline-offset-2;
+	}
+	
+	blockquote {
+		@apply border-l-2 border-current pl-4 my-8;
 	}
 	
 	input[type="email"] {
@@ -23,28 +44,18 @@
 }
 
 @layer components {
+	.gallery {
+		@apply flex flex-row overflow-y-visible overflow-x-scroll items-center snap-x snap-mandatory no-scrollbars -my-8 py-16 px-[5vw] gap-[5vw] md:gap-8 [&>*]:shrink-0 [&>*]:snap-center [&>*]:block [&>*]:rounded [&>*]:shadow-xl [&>*]:image-lg;
+	}
+	
 	.button {
 		@apply drop-shadow-md bg-sky-500 py-4 px-12 text-white rounded-md lowercase;
-	}
-	
-	.gallery {
-		@apply flex flex-row overflow-scroll items-center snap-x snap-mandatory px-[5vw] gap-[5vw] md:gap-8;
-		-ms-overflow-style: none;
-		scrollbar-width: none;
-	}
-	
-	.gallery::-webkit-scrollbar {
-		display: none;
-	}
-	
-	.gallery-item {
-		@apply w-5/6 md:w-1/3 shrink-0 snap-center;
 	}
 }
 
 @layer utilities {
 	.h2 {
-		@apply uppercase font-semibold tracking-widest;
+		@apply text-lg uppercase font-semibold tracking-widest mb-4;
 	}
 	
 	.h3 {
@@ -52,6 +63,19 @@
 	}
 	
 	.picture {
-		@apply rounded shadow-xl;
+		@apply rounded shadow-xl my-16;
+	}
+	
+	.image-lg {
+		@apply max-h-[50vh] max-w-[80%];
+	}
+	
+	.no-scrollbars {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	
+	.no-scrollbars::-webkit-scrollbar {
+		display: none;
 	}
 }
