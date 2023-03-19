@@ -7,6 +7,6 @@ color: "#D70000"
 listen: http://hyperurl.co/ncm6eq
 image: "/uploads/dont_lose_this.jpg"
 role: Drumming
-is_featured: false
+is_featured: true
 ---
 

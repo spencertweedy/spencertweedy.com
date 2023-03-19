@@ -7,6 +7,6 @@ color: "#354140"
 listen: https://joanshelley.bandcamp.com/album/joan-shelley
 image: "/uploads/joan_shelley.jpg"
 role: Drumming
-is_featured: false
+is_featured: true
 ---
 

@@ -8,6 +8,6 @@ color: "#6C511A"
 listen: https://mavisstaples.bandcamp.com/album/one-true-vine
 image: "/uploads/one_true_vine.jpg"
 role: Drumming
-is_featured: false
+is_featured: true
 ---
 

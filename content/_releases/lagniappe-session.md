@@ -7,7 +7,7 @@ color: "#168146"
 listen: https://aquariumdrunkard.com/2018/11/13/the-lagniappe-sessions-the-raccoonists/
 image: "/uploads/raccoonists_lagniappe.jpg"
 role: Drums
-is_single: true
+is_single: false
 is_featured: false
 ---
 

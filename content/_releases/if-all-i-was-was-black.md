@@ -7,6 +7,6 @@ color: "#000000"
 listen: https://mavisstaples.bandcamp.com/album/if-all-i-was-was-black
 image: "/uploads/if_all_i_was_was_black.jpg"
 role: Drumming
-is_featured: false
+is_featured: true
 ---
 
