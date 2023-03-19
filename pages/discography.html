@@ -5,6 +5,7 @@ layout: page
 ---
 
 <section class="space-y-8">
+	<p class="text-center max-w-full">You can find my solo releases on <a href="https://spencertweedy.bandcamp.com/">Bandcamp</a> and streaming services.</p>
 	{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
 	{% for year in releases_by_year %}
 		<div>
