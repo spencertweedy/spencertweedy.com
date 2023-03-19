@@ -64,7 +64,7 @@
     {% if jekyll.environment == "production" %}<script async defer data-website-id="{{ site.umami_site_id }}" src="https://spoonalytics.net/umami.js"></script>{% endif %}
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
     <header id="site-header" class="p-[5vw]">
         <a href="#site-content" class="sr-only">Skip to content</a>
         
@@ -78,7 +78,7 @@
         </div>
     </header>
     
-    <main id="site-content">
+    <main id="site-content grow flex flex-col justify-end">
         {{ content }}
     </main>
     
