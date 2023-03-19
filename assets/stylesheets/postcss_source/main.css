@@ -49,7 +49,7 @@
 	}
 	
 	.button {
-		@apply drop-shadow-md bg-sky-500 py-4 px-12 text-white rounded-md lowercase;
+		@apply inline-block shadow-md bg-black py-4 px-12 text-white rounded-full no-underline transition-all hover:shadow-lg hover:scale-[1.02];
 	}
 }
 
