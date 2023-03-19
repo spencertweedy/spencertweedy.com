@@ -45,7 +45,7 @@
 
 @layer components {
 	.gallery {
-		@apply flex flex-row overflow-y-visible overflow-x-scroll items-center snap-x snap-mandatory no-scrollbars -my-8 py-16 px-[5vw] gap-[5vw] md:gap-8 [&>*]:shrink-0 [&>*]:snap-center [&>*]:block [&>*]:rounded [&>*]:shadow-xl [&>*]:image-lg;
+		@apply flex flex-row overflow-y-visible overflow-x-scroll items-center snap-x snap-mandatory no-scrollbars -my-8 py-16 px-[5vw] gap-[5vw] md:gap-8 [&>*]:shrink-0 [&>*]:snap-center [&>*]:block [&>*]:rounded [&>*]:shadow-xl [&>*]:max-h-[40vh] sm:[&>*]:max-h-[50vh] [&>*]:max-w-[90%];
 	}
 	
 	.button {
@@ -64,10 +64,6 @@
 	
 	.picture {
 		@apply rounded shadow-xl my-16;
-	}
-	
-	.image-lg {
-		@apply max-h-[50vh] max-w-[80%];
 	}
 	
 	.no-scrollbars {
