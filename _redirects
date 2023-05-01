@@ -9,7 +9,8 @@
 /subscribe                 https://spencertweedy.substack.com
 
 # Rename releases page and permalink
-/releases    /discography
+/releases    /music
+/discography    /music
 
 # Create link for Drumprints explainer
 /drumprints    https://spencertweedy.substack.com/p/new-music-drumprints-vol-1
