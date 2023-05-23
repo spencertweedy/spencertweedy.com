@@ -61,7 +61,7 @@
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">{% endif %}
 
     <!-- Umami analytics -->
-    {% if jekyll.environment == "production" %}<script async defer data-website-id="{{ site.umami_site_id }}" src="https://spoonalytics.net/umami.js"></script>{% endif %}
+    {% if jekyll.environment == "production" %}<script async src="https://spoonalytics.net/script.js" data-website-id="{{ site.umami_site_id }}"></script>{% endif %}
 </head>
 
 <body class="min-h-screen flex flex-col">
