@@ -17,7 +17,7 @@ layout: base
 			<ol class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 				{% assign releases = year.items | sort:"year" | reverse %}
 				{% for release in releases %}
-					<li class="rounded-md bg-white/90 p-4 transition-all shadow-xl hover:bg-white hover:scale-[1.02]">
+					<li class="rounded-md bg-white/90 p-4 transition-all shadow-xl hover:bg-white hover:scale-[1.02] cursor-pointer">
 						<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center gap-4">
 							<div class="basis-1/4 grow-0 shrink-0">
 								<img src="{{ release.image }}" alt="{{ release.title }} artwork" class="rounded-md" />
