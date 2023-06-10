@@ -18,6 +18,8 @@ Jekyll uses a templating language called [Liquid](https://shopify.github.io/liqu
 
 I manage the site’s content with [Netlify CMS](https://www.netlifycms.org/), which is hosted and configured in the 'admin' folder.
 
+I use [Umami](https://umami.is) to log anonymous, basic traffic data and no third party can access it.
+
 ## Copyright/license
 
 I reserve all rights to the site and its contents.
