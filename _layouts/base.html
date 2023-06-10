@@ -83,7 +83,11 @@
     </main>
     
     <footer id="site-footer" class="opacity-40 text-xs p-[5vw]">
-        <div>Updated {{ site.time | date: "%Y-%m-%d" }}{% unless page.url == "/colophon" %} &bull; <a href="{% link pages/colophon.html %}" class="underline">Colophon</a>{% endunless %}{% unless page.url == "/" %} &bull; <a href="{% link pages/index.html %}" class="underline">Home</a>{% endunless %}</div>
+        <div>
+            {% unless page.url == "/" %} <a href="{% link pages/index.html %}" class="underline">Home</a> &bull; {% endunless %}
+            <a href="{% link pages/observations/index.html %}" class="underline">Observations</a>
+            {% unless page.url == "/colophon" %} &bull; <a href="{% link pages/colophon.html %}" class="underline">Colophon</a>{% endunless %}
+        </div>
         
         <a href="#site-header" class="sr-only">Back to start</a>
     </footer>
