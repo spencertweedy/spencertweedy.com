@@ -6,11 +6,11 @@ module.exports = {
     './pages/**/*.{html,md}', // one level deep
   ],
   theme: {
-    fontFamily: {
-      sans: ['jaf-facitweb', 'sans-serif'],
-      ft88: ['"FT88 Italic"'],
-    },
     extend: {
+      fontFamily: {
+        sans: ['jaf-facitweb', 'sans-serif'],
+        ft88: ['"FT88 Italic"'],
+      },
       colors: {
         'obs-green': 'hsl(87, 47%, 52%)',
       },

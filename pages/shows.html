@@ -1,0 +1,26 @@
+---
+title: Shows
+permalink: "/shows"
+layout: base
+---
+
+<section class="px-[5vw] mt-[5vh] space-y-8 mb-16">
+	<h1 class="font-ft88 text-biggie lowercase -indent-4 ml-4 max-w-prose mb-4">{{ page.title }}</h1>
+	
+	<p>Aug-Nov 2023 schedule drumming with <a href="https://www.waxahatchee.com/">Waxahatchee</a>, <a href="https://www.samevian.com/">Sam Evian</a>, and <a href="https://www.finommusic.com/">Finom</a> :-)</p>
+	
+	<div>	
+		<ol class="space-y-4 max-w-prose">
+			{% assign shows = site.data.shows | sort:"date" %}
+			{% for show in shows %}
+				<li class="">
+					<a href="{{ show.ticket-link }}" target="_blank" class="flex items-center gap-2 rounded-md bg-white/90 p-4 transition-all shadow-xl hover:bg-sky-500 hover:text-white hover:scale-[1.02] cursor-pointer">
+						<div class="shrink-0 font-bold">{{ show.location }}</div>
+						<div class="grow truncate"><span class="link">{{ show.artist }}</span> <span class="opacity-40">at {{ show.venue }}</span></div>
+						<span class="font-mono grow-0 shrink-0">{{ show.date }}</span>
+					</a>
+				</li>
+			{% endfor %}
+		</ol>
+	</div>
+</section>
