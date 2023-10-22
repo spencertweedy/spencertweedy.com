@@ -14,5 +14,3 @@
 [build.processing.js]
 	bundle = true
 	minify = false
-[build.processing.images]
-	compress = true
