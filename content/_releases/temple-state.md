@@ -6,6 +6,6 @@ year: 2014
 color: "#574860"
 listen: https://spencertweedy.bandcamp.com/track/temple-state
 image: "/uploads/temple_state.jpg"
-is_song: true
+is_single: true
 ---
 
