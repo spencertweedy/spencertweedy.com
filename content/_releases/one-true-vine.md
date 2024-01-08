@@ -7,7 +7,7 @@ year: 2013
 color: "#6C511A"
 listen: https://mavisstaples.bandcamp.com/album/one-true-vine
 image: "/uploads/one_true_vine.jpg"
-role: Drumming
+role: Drums
 is_featured: true
 ---
 

@@ -6,6 +6,6 @@ year: 2016
 color: "#FF0000"
 listen: https://soundcloud.com/erynallenkane/sets/aviary-act-ii
 image: "/uploads/aviary_act_II.jpg"
-role: Drumming (partial)
+role: Drums (partial)
 ---
 

@@ -6,7 +6,7 @@ year: 2016
 color: "#00B24A"
 listen: http://wilco.lnk.to/schmilco
 image: "/uploads/schmilco.jpg"
-role: Drumming
+role: Drums
 is_featured: false
 ---
 

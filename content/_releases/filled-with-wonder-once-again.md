@@ -8,5 +8,6 @@ listen: https://deadoceans.com/news/jeff-tweedy-shares-his-version-of-bill-fays-
 role: Drums
 is_single: true
 is_featured: false
+with_dad: true
 date: 2023-10-22T04:59:05.847Z
 ---

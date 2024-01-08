@@ -7,6 +7,7 @@ color: "#0F0F10"
 listen: https://youtu.be/fYkBpJ8y2E4
 image: "/uploads/jeff_tweedy_warmer.jpg"
 role: Drums
+with_dad: true
 is_featured: true
 ---
 
