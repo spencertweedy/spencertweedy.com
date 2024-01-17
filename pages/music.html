@@ -5,32 +5,28 @@ layout: base
 ---
 
 <section class="px-[5vw] mt-[5vh] space-y-8 mb-16">
-	<h1 class="font-ft88 text-biggie lowercase -indent-4 ml-4 max-w-prose mb-4 first-letter:tracking-[0.14em]">{{ page.title }}</h1>
-	<p>You can find my solo releases on <a href="https://spencertweedy.bandcamp.com/">Bandcamp</a> and streaming services.</p>
-	{% assign featured_releases = site.releases | where: "is_featured", true %}
-	<p><strong class="font-semibold">Featured releases:</strong> {% for release in featured_releases %}<a href="{{ release.listen }}">{{ release.title }}</a> by {{ release.artist }}{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>
-	{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
-	{% for year in releases_by_year %}
-		<div>
-			<h2 class="text-lg text-center md:text-start opacity-40 tracking-wider mb-4">{{ year.name }}</h2>
+	<p>I love to make records with family, friends, and other lovely people.</p>
 	
-			<ol class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+	<section class="max-w-screen-md space-y-4">
+		{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
+		{% for year in releases_by_year %}
+			<div class="md:flex md:gap-4">
 				{% assign releases = year.items | sort:"year" | reverse %}
-				{% for release in releases %}
-					<li class="rounded-md bg-white/90 p-4 transition-all shadow-xl hover:bg-white hover:scale-[1.02] cursor-pointer">
-						<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center gap-4">
-							<div class="basis-1/4 grow-0 shrink-0">
-								<img src="{{ release.image }}" alt="{{ release.title }} artwork" class="rounded-md" />
-							</div>
-							<div class="space-y-1">
-								<div class="font-semibold">{{ release.title }}{% if release.is_single == true %} <span class="text-xs font-normal opacity-40 relative left-px bottom-px">(single)</span>{% endif %}</div>
-								{% if release.artist %}<div>{{ release.artist }}</div>{% endif %}
-								{% if release.role %}<div class="text-sm opacity-40">{{ release.role }}</div>{% endif %}
-							</div>
-						</a>
-					</li>
-				{% endfor %}
-			</ol>
-		</div>
-	{% endfor %}
+				<div class="md:w-6 bg-black/5 text-black/30 md:pb-8 px-2 md:px-0 rounded-t-md md:rounded-l-md md:rounded-tr-none relative">
+					<div class="md:sticky md:top-0 md:translate-y-full md:-rotate-90">{{ year.name }}</div>
+				</div>
+				<ol class="divide-y divide-black/10 w-full">
+					{% for release in releases %}
+						<li>
+							<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:bg-sky-500 hover:text-white hover:rounded-md hover:px-2">
+								<div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} album art" class="w-full rounded"></div>
+								<div class="pl-2 md:pl-4 pr-2 w-full flex-grow"><strong class="font-bold">{{ release.artist }}</strong><br class="md:hidden"> <span class="inline-block text-sm md:text-base">{{ release.title }}</span></div>
+								<div class="lowercase opacity-30 text-xs md:text-sm text-end">{{ release.role }}</div>
+							</a>
+						</li>
+					{% endfor %}
+				</ol>
+			</div>
+		{% endfor %}
+	</section>
 </section>

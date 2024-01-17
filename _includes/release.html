@@ -1,0 +1,12 @@
+<li class="bg-black text-white p-2 pb-4 cursor-pointer">
+	<a href="{{ include.listen }}" target="_blank" class="flex flex-col h-full items-center gap-4">
+		<div class="">
+			<img src="{{ include.image }}" alt="{{ include.title }} artwork" class="" />
+		</div>
+		<div class="text-center max-w-full">
+			<div class="truncate"><span class="">{{ include.title }}{% if include.is_single == true %} - Single{% endif %}</span> <span class="opacity-40">{{ include.year }}</span></div>
+			{% if include.artist %}<div class="mb-1">{{ include.artist }}</div>{% endif %}
+			{% if include.role %}<div class="text-xs opacity-40">{{ include.role }}</div>{% endif %}
+		</div>
+	</a>
+</li>
