@@ -76,6 +76,6 @@
 	}
 	
 	.link {
-		@apply underline decoration-sky-500 decoration-2 underline-offset-2;
+		@apply underline text-obs-green decoration-obs-green decoration-1 underline-offset-2;
 	}
 }

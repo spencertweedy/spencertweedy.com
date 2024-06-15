@@ -3,20 +3,28 @@ layout: base
 permalink: "/"
 ---
 
-<section class="font-ft88 text-biggie lowercase -indent-4 ml-4 px-[5vw] my-[5vh] leading-tight">
-	<ul class="space-y-3">
-		<li class="first-letter:tracking-[0.14em]"><a href="{% link pages/music.html %}">Music</a></li>
-		<li><a href="https://spencertweedy.substack.com">Blog</a></li>
-		<li><a href="{% link pages/shows.html %}">Shows</a></li>
-		<li><a href="https://store.spencertweedy.com/">Store</a></li>
+<section class="px-[5vw] my-[5vh] font-serif text-biggie-small">
+	<p>Listen to 50 songs I dram on <a href='https://open.spotify.com/playlist/436dIndWbDPgWtyxo6ax67?si=d1f524aa15af4cde'>Spotify</a>, <a href='https://music.apple.com/us/playlist/50-songs-i-dram/pl.u-6mEZyfBV0g5J'>Apple</a>, or <a href='https://tidal.com/browse/playlist/9d4ae988-7a8a-4cfc-8b65-0e5a1fbf4c88'>Tidal</a></p>
+	
+	<ul class="space-y-2 md:space-y-0 [&_a]:link">
+		<li>Find me on <a href='https://spencertweedy.bandcamp.com/music'>Bandcamp</a>, <a href='https://open.spotify.com/artist/7vVAC0lEXRJiUM0dw1fAmg?si=tOerz0SHSUOnStjGuA_oHQ'>Spotify</a>, <a href='https://music.apple.com/us/artist/spencer-tweedy/1192853169'>Apple</a>, or <a href='https://tidal.com/browse/artist/8415400'>Tidal</a></li>
+		<li>Read <a href='https://store.spencertweedy.com/products/mirror-sound-hardcover-book'>Mirror Sound</a> and <a href='https://store.spencertweedy.com/products/observations-year-two-book'>Observations</a></li>
+		<li>Download my <a href='https://store.spencertweedy.com/products/drumprints-vol-1-digital-download'>free drum samples</a></li>
+		<li>Sign up for <a href='https://spencertweedy.substack.com/'>letters from me</a></li>
+		<li>See a <a href="{% link pages/shows.html %}">show on the road</a></li>
+		<li><a href="mailto:{{ site.email }}">Contact me</a></li>
 	</ul>
 </section>
 
-<section class="px-[5vw] mb-[5vh]">
-	<h3 class="h3">Contact</h3>
-	<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<section class="opacity-40 text-xs p-[5vw] *:underline space-x-1">
+	<a href="{% link pages/music.html %}">Discography</a>
+	<a href="https://store.spencertweedy.com/">Store</a>
+	<a href="{% link pages/observations/index.html %}">Observations</a>
+	<a href="{% link pages/colophon.html %}">Colophon</a>
+	
+	{% unless page.url == "/" %} <a href="{% link pages/index.html %}">Home</a> &bull; {% endunless %}
 </section>
 
-<figure class="max-w-[75vw] sm:max-w-[70vw] block absolute right-[5vw] top-[20vw] sm:top-1/2 sm:-translate-y-1/2 bg-amber-300 -z-10">
-	<img src="{% link assets/spencer-tweedy-cc-drumming.jpg %}" class="max-h-[80vh] mix-blend-overlay saturate-0 opacity-60" alt="Spencer Tweedy playing a red onyx Slingerland drum kit, eyes closed, in front of yellow curtains.">
+<figure class="max-w-[75vw] sm:max-w-[70vw] block absolute right-[5vw] top-[20vw] sm:top-1/2 sm:-translate-y-1/2 bg-zinc-900 -z-10 rounded-3xl">
+	<img src="{% link assets/spencer-tweedy-cc-drumming.jpg %}" class="max-h-[80vh] mix-blend-overlay saturate-0 opacity-60 rounded-3xl" alt="Spencer Tweedy playing a red onyx Slingerland drum kit, eyes closed, in front of yellow curtains.">
 </figure>

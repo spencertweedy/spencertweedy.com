@@ -9,13 +9,16 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['jaf-facitweb', 'sans-serif'],
+        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         ft88: ['"FT88 Italic"'],
+        mono: ['ISO','monospace'],
       },
       colors: {
         'obs-green': 'hsl(87, 47%, 52%)',
       },
       fontSize: {
-        biggie: 'calc(1.6em + 1.6vw)',
+        'biggie': 'calc(1.6em + 1.6vw)',
+        'biggie-small': 'calc(1em + 1vw)',
       },
       animation: {
         'enter': 'enter 0.4s',
