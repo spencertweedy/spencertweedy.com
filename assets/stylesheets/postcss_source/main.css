@@ -78,4 +78,8 @@
 	.link {
 		@apply underline text-obs-green decoration-obs-green decoration-1 underline-offset-2;
 	}
+	
+	.link:hover {
+		@apply brightness-110;
+	}
 }
