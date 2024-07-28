@@ -55,7 +55,7 @@
 
 @layer utilities {
 	.h2 {
-		@apply text-lg uppercase font-semibold tracking-widest mb-4;
+		@apply dark:opacity-40 flex gap-1 mb-2 items-center;
 	}
 	
 	.h3 {
@@ -76,10 +76,14 @@
 	}
 	
 	.link {
-		@apply underline text-obs-green decoration-obs-green decoration-1 underline-offset-2;
+		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-2;
 	}
 	
 	.link:hover {
 		@apply brightness-110;
+	}
+	
+	ul.link-list {
+		@apply space-y-1 [&_a]:link;
 	}
 }
