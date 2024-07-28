@@ -3,12 +3,12 @@
     "postcss-import": "^14.0.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.19",
     "concurrently": "^7.6.0",
     "cssnano": "^5.1.14",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.40",
     "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.4.7"
   },
   "scripts": {
     "jekyll:dev": "bundle exec jekyll serve --incremental",
