@@ -69,8 +69,8 @@
     {% if jekyll.environment == "production" %}<script async src="https://spoonalytics.net/script.js" data-website-id="{{ site.umami_site_id }}"></script>{% endif %}
 </head>
 
-<body class="min-h-screen flex flex-col space-y-[5vw]">
-    <header id="site-header" class="mt-[5vw] px-[5vw]">
+<body class="min-h-screen flex flex-col">
+    <header id="site-header" class="p-[5vw]">
         <a href="#site-content" class="sr-only">Skip to content</a>
         
         <div class="flex items-center gap-2 dark:opacity-40">
@@ -83,7 +83,7 @@
         </div>
     </header>
     
-    <main id="site-content" class="grow flex flex-col justify-end">
+    <main id="site-content" class="grow flex flex-col justify-end py-[5vw]">
         {{ content }}
     </main>
     
