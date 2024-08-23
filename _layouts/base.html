@@ -65,8 +65,8 @@
     <meta name="twitter:card" content="summary_large_image">
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">{% endif %}
 
-    <!-- Umami analytics -->
-    {% if jekyll.environment == "production" %}<script async src="https://spoonalytics.net/script.js" data-website-id="{{ site.umami_site_id }}"></script>{% endif %}
+    <!-- Analytics -->
+    {% if jekyll.environment == "production" %}<script defer data-domain="spencertweedy.com" src="https://plausible.io/js/script.js"></script>{% endif %}
 </head>
 
 <body class="min-h-screen flex flex-col">
