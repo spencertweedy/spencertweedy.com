@@ -4,9 +4,27 @@
 
 @layer base {
 	@font-face {
-		font-family: "FT88 Italic";
-		src: url("/assets/fonts/FT88-Italic.woff2") format("woff2"), url("/assets/fonts/FT88-Italic.woff") format("woff");
+		font-family: "ISO";
+		src: url("{% link assets/fonts/ISOv0.7-Regular.woff2 %}") format("woff2");
+		font-weight: normal;
 		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "ISO";
+		src: url("{% link assets/fonts/ISOv0.7-RegularItalic.woff2 %}") format("woff2");
+		font-weight: normal;
+		font-style: italic;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "ISO";
+		src: url("{% link assets/fonts/ISOv0.7-Bold.woff2 %}") format("woff2");
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
 	}
 	
 	p {
@@ -55,11 +73,11 @@
 
 @layer utilities {
 	.h2 {
-		@apply dark:opacity-40 flex gap-1 mb-2 items-center;
+		@apply opacity-50 font-sans text-sm flex gap-1 mb-2 items-center;
 	}
 	
 	.h3 {
-		@apply text-sm uppercase tracking-widest opacity-40 mb-2;
+		@apply font-sans text-sm uppercase tracking-widest opacity-40 mb-2;
 	}
 	
 	.picture {
@@ -84,6 +102,10 @@
 	}
 	
 	ul.link-list {
-		@apply space-y-1 [&_a]:link;
+		@apply space-y-2 [&_a]:link;
+	}
+
+	.link-list-note {
+		@apply opacity-25 ms-1 font-mono text-xs;
 	}
 }
