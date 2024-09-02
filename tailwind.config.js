@@ -9,8 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['jaf-facitweb', 'sans-serif'],
-        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-        ft88: ['"FT88 Italic"'],
+        serif: ['"Times New Roman"', 'Times', 'Georgia', 'Cambria', 'serif'],
         mono: ['ISO','monospace'],
       },
       colors: {
