@@ -5,7 +5,7 @@
 @layer base {
 	@font-face {
 		font-family: "ISO";
-		src: url("{% link assets/fonts/ISOv0.7-Regular.woff2 %}") format("woff2");
+		src: url("/assets/fonts/ISOv0.7-Regular.woff2") format("woff2");
 		font-weight: normal;
 		font-style: normal;
 		font-display: swap;
@@ -13,7 +13,7 @@
 
 	@font-face {
 		font-family: "ISO";
-		src: url("{% link assets/fonts/ISOv0.7-RegularItalic.woff2 %}") format("woff2");
+		src: url("/assets/fonts/ISOv0.7-RegularItalic.woff2") format("woff2");
 		font-weight: normal;
 		font-style: italic;
 		font-display: swap;
@@ -21,14 +21,14 @@
 
 	@font-face {
 		font-family: "ISO";
-		src: url("{% link assets/fonts/ISOv0.7-Bold.woff2 %}") format("woff2");
+		src: url("/assets/fonts/ISOv0.7-Bold.woff2") format("woff2");
 		font-weight: bold;
 		font-style: normal;
 		font-display: swap;
 	}
 	
 	p {
-		@apply max-w-prose leading-relaxed my-8;
+		@apply max-w-prose leading-relaxed my-4;
 	}
 	
 	p:first-child {
@@ -54,6 +54,10 @@
 	
 	blockquote {
 		@apply border-l-2 border-current pl-4 my-8;
+	}
+
+	article ul {
+		@apply list-disc ms-4;
 	}
 	
 	input[type="email"] {
@@ -94,7 +98,7 @@
 	}
 	
 	.link {
-		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-2;
+		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4;
 	}
 	
 	.link:hover {
