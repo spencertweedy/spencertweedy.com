@@ -20,6 +20,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  wire:
+    title: Wire
+    output: false
 defaults:
 - scope:
     path: ''

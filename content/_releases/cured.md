@@ -6,7 +6,7 @@ year: 2016
 color: "#FFB300"
 listen: http://theblisters.com/album/cured
 image: "/uploads/cured.jpg"
-role: Drumming, producing
+role: Drums, production
 is_featured: false
 ---
 

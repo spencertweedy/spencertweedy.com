@@ -8,5 +8,6 @@ listen: https://lnk.to/showbizkidsWE
 role: Drums, composition
 is_single: false
 is_featured: false
+with_dad: true
 date: 2020-07-28T23:27:57.950Z
 ---

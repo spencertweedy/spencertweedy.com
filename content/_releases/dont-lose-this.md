@@ -6,7 +6,7 @@ year: 2015
 color: "#D70000"
 listen: http://hyperurl.co/ncm6eq
 image: "/uploads/dont_lose_this.jpg"
-role: Drumming
+role: Drums
 is_featured: true
 ---
 

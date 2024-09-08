@@ -7,6 +7,6 @@ year: 2013
 color: "#8A0000"
 listen: http://hyperurl.co/uagqjz
 image: "/uploads/finally_bored.jpg"
-role: Drumming, producing
+role: Drums, production
 ---
 

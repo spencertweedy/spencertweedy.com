@@ -6,6 +6,6 @@ year: 2015
 color: "#2B363E"
 listen: http://wilcoworld.net/music/star-wars/
 image: "/uploads/star_wars.jpg"
-role: Drumming
+role: Drums (partial)
 ---
 

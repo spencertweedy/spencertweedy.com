@@ -3,20 +3,60 @@ layout: base
 permalink: "/"
 ---
 
-<section class="font-ft88 text-biggie lowercase -indent-4 ml-4 px-[5vw] my-[5vh] leading-tight">
-	<ul class="space-y-3">
-		<li class="first-letter:tracking-[0.14em]"><a href="{% link pages/music.html %}">Music</a></li>
-		<li><a href="https://spencertweedy.substack.com"><span class="tracking-[0.1em]">W</span><span class="tracking-[-0.1em]">r</span>iting</a></li>
-		<li><a href="{% link pages/shows.html %}">Shows</a></li>
-	</ul>
-</section>
-
-<section class="px-[5vw] mb-[5vh]">
-	<h3 class="h3">Contact</h3>
-	<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-</section>
-
-<figure class="hidden px-[5vw] mb-[5vh] max-w-[80vw] sm:block sm:mb-0 sm:absolute sm:right-0 sm:top-1/2 sm:-translate-y-1/2 bg-amber-300 -z-10">
-	<img src="{% link assets/spencer-tweedy-cc-drumming.jpg %}" class="max-h-[80vh] pb-2 mix-blend-overlay saturate-0 opacity-60 rounded-3xl" alt="Spencer Tweedy playing a red onyx Slingerland drum kit, eyes closed, in front of yellow curtains.">
-	<figcaption class="uppercase tracking-wider text-xs sm:text-right mix-blend-overlay">Photo by Sarah Elizabeth Larson</figcaption>
-</figure>
+<div class="px-[5vw] space-y-[10vh]">
+	<section>
+		<h2 class="h2">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+		  	<path d="M7.25 1.75a.75.75 0 0 1 1.5 0v1.5a.75.75 0 0 1-1.5 0v-1.5ZM11.536 2.904a.75.75 0 1 1 1.06 1.06l-1.06 1.061a.75.75 0 0 1-1.061-1.06l1.06-1.061ZM14.5 7.5a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 .75-.75ZM4.464 9.975a.75.75 0 0 1 1.061 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061ZM4.5 7.5a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 .75-.75ZM5.525 3.964a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 1.06-1.061l1.061 1.06ZM8.779 7.438a.75.75 0 0 0-1.368.366l-.396 5.283a.75.75 0 0 0 1.212.646l.602-.474.288 1.074a.75.75 0 1 0 1.449-.388l-.288-1.075.759.11a.75.75 0 0 0 .726-1.165L8.78 7.438Z" />
+			</svg>
+			<span>start here</span>
+		</h2>
+		<ul class="link-list">
+			<li><a href="https://lnkfi.re/50dram">50 Songs I Dram playlist</a></li>
+		</ul>
+	</section>
+	
+	<section>		
+		<p class="mb-4">Subscribe to my newsletter. <br>There are 5,000+ of us under this log.</p>
+		<a href="https://spencertweedy.substack.com/" class="plausible-event-name=Substack+Button bg-[#ed7135] px-4 py-2 rounded text-white font-bold inline-block font-sans hover:brightness-110 text-base">Subscribe on Substack</a>
+	</section>
+	
+	<section>
+		<h2 class="h2">music</h2>
+		<ul class="link-list">
+			<li><a href="https://store.spencertweedy.com/products/drumprints-vol-1-digital-download">Drumprints samples</a> <span class="link-list-note">2023</span></li>
+			<li><a href="https://spencertweedy.bandcamp.com/album/sleep-is-my-god">Sleep Is My God EP</a> <span class="link-list-note">2019</span></li>
+			<li><a href="https://spencertweedy.bandcamp.com/album/geezer-love">Geezer Love EP</a> <span class="link-list-note">2016</span></li>
+			<li><a href="https://spencertweedy.bandcamp.com/track/temple-state">Temple State single</a> <span class="link-list-note">2014</span></li>
+			<li><a href="https://spencertweedy.bandcamp.com/track/rushmore">Rushmore single</a> <span class="link-list-note">2012</span></li>
+		</ul>
+	</section>
+	
+	<section>
+		<h2 class="h2">books</h2>
+		<ul class="link-list">
+			<li><a href="https://store.spencertweedy.com/products/mirror-sound-hardcover-book">Mirror Sound</a></li>
+			<li><a href="https://store.spencertweedy.com/products/observations-year-two-book">Observations Y2</a></li>
+			<li><a href="{% link pages/observations/books/year-one.html %}">Observations Y1</a> <span class="link-list-note">(sold out)</span></li>
+			<li><a href="https://www.popthomology.com/2011/04/dont-be-square-buy-spencer-tweedys-book.html">Square Eye</a> <span class="link-list-note">(sold out)</span></li>
+		</ul>
+	</section>
+	
+	<section>
+		<h2 class="h2">more</h2>
+		<ul class="link-list">
+			<li><a href="{% link pages/music.html %}">discography</a></li>
+			<li><a href="{% link pages/shows.html %}">tour dates</a></li>
+			<li><a href="https://store.spencertweedy.com/products/drumprints-vol-1-digital-download">free drum samples</a></li>
+			<li><a href="{% link pages/wire.html %}">wire service</a></li>
+			<li><a href="{% link pages/colophon.html %}">website colophon</a></li>
+			<li><a href="{% link pages/observations/index.html %}">observations archive</a></li>
+			<li><a href="https://literal.club/spencer">books I’m reading</a></li>
+			<li><a href="mailto:{{ site.email }}">contact me</a></li>
+		</ul>
+	</section>
+	
+	<figure class="block w-1/2 my-[5vw] sm:my-0 sm:w-auto sm:max-w-[70vw] sm:fixed sm:right-[5vw] sm:bottom-[5vw] bg-amber-400 dark:brightness-50 -z-10">
+		<img src="{% link assets/spencer-tweedy-cc-drumming.jpg %}" class="sm:max-h-[25vh] mix-blend-overlay saturate-0" alt="Spencer Tweedy playing a red onyx Slingerland drum kit, eyes closed, in front of yellow curtains.">
+	</figure>
+</div>

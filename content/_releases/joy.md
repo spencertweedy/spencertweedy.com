@@ -6,6 +6,6 @@ year: 2015
 color: "#00763B"
 listen: https://betamalesmusic.bandcamp.com/album/joy
 image: "/uploads/joy.jpg"
-role: Drumming, engineering
+role: Drums, engineering
 ---
 
