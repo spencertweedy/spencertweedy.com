@@ -71,7 +71,7 @@
 	}
 	
 	.button {
-		@apply inline-block shadow-md bg-black py-4 px-12 text-white rounded-full no-underline transition-all hover:shadow-lg hover:scale-[1.02];
+		@apply inline-block bg-blue-600 dark:bg-obs-green py-2 px-4 text-white dark:text-black no-underline transition-all hover:brightness-110;
 	}
 }
 
@@ -98,11 +98,7 @@
 	}
 	
 	.link {
-		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4;
-	}
-	
-	.link:hover {
-		@apply brightness-110;
+		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
 	}
 	
 	ul.link-list {
