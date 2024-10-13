@@ -5,6 +5,6 @@ date: 2024-10-13
 tags: israel-palestine
 ---
 
-“Don’t cry, Sohmor,” Safieddine said. “You can’t have dignity without young blood.”
+> “Don’t cry, Sohmor,” Safieddine said. “You can’t have dignity without young blood.”
 
 (Since this article was published, Israel killed Safieddine. He was the presumed successor to Hassan Nasrallah, the leader of Hezbollah.)
