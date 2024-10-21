@@ -5,24 +5,24 @@ layout: base
 ---
 
 <section class="px-[5vw] mt-[5vh] space-y-8 mb-16">
-	<p><a href="https://lnkfi.re/50dram">Listen to 50 Songs I Dram</a></p>
-	<p><a href="mailto:me@spencertweedy.com?subject=Recording%20inquiry">Contact me</a> if you wanna!</p>
+	<p>These are records I’ve helped make. I love recording with friends, family, and <a href="mailto:me@spencertweedy.com?subject=Recording%20inquiry">friends-to-be</a>.</p>
+	<p>For convenient listening I made a playlist, <a href="https://lnkfi.re/50dram">50 Songs I Dram</a>. You can also listen to my solo releases on <a href='https://spencertweedy.bandcamp.com/music'>Bandcamp</a>, <a href='https://open.spotify.com/artist/7vVAC0lEXRJiUM0dw1fAmg?si=tOerz0SHSUOnStjGuA_oHQ'>Spotify</a>, <a href='https://music.apple.com/us/artist/spencer-tweedy/1192853169'>Apple Music</a>, and <a href='https://tidal.com/browse/artist/8415400?u'>Tidal</a>.</p>
 	
-	<section class="max-w-screen-md space-y-4 font-sans text-base">
+	<section class="max-w-screen-md space-y-4 text-base">
 		{% assign releases_by_year = site.releases | group_by:"year" | reverse %}
 		{% for year in releases_by_year %}
-			<div class="md:flex md:gap-4">
+			<div class="">
 				{% assign releases = year.items | sort:"year" | reverse %}
-				<div class="md:w-6 bg-white/5 text-white/30 md:pb-8 px-2 md:px-0 rounded-t-md md:rounded-l-md md:rounded-tr-none relative">
-					<div class="md:sticky md:top-0 md:translate-y-full md:-rotate-90">{{ year.name }}</div>
+				<div class="">
+					<div class="text-lg font-bold">{{ year.name }}</div>
 				</div>
-				<ol class="divide-y divide-white/10 w-full">
+				<ol class="divide-y-2 divide-dotted divide-white/20 w-full">
 					{% for release in releases %}
 						<li>
-							<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:bg-obs-green hover:text-white hover:rounded-md hover:px-2">
-								<div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full rounded"></div>
-								<div class="pl-2 md:pl-4 pr-2 w-full flex-grow"><strong class="font-bold">{{ release.artist }}</strong><br class="md:hidden"> <span class="inline-block text-sm md:text-base">{{ release.title }}</span></div>
-								<div class="lowercase opacity-30 text-xs md:text-sm text-end">{{ release.role }}</div>
+							<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:bg-white/10 hover:text-white">
+								<div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full"></div>
+								<div class="pl-2 md:pl-4 pr-2 w-full flex-grow"><span class="">{{ release.artist }}</span><br><span class="inline-block text-sm md:text-base italic opacity-40">{{ release.title }}</span></div>
+								<div class="lowercase opacity-40 text-xs md:text-sm text-end">{{ release.role }}</div>
 							</a>
 						</li>
 					{% endfor %}
