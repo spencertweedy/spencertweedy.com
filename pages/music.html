@@ -1,14 +1,14 @@
 ---
 title: Music
 permalink: "/music"
-layout: base
+layout: page
 ---
 
-<section class="px-[5vw] mt-[5vh] space-y-8 mb-16">
+<div class="space-y-8">
 	<p>These are records I’ve helped make. I love recording with friends, family, and <a href="mailto:me@spencertweedy.com?subject=Recording%20inquiry">friends-to-be</a>.</p>
 	<p>For convenient listening I made a playlist, <a href="https://lnkfi.re/50dram">50 Songs I Dram</a>. You can also listen to my solo releases on <a href='https://spencertweedy.bandcamp.com/music'>Bandcamp</a>, <a href='https://open.spotify.com/artist/7vVAC0lEXRJiUM0dw1fAmg?si=tOerz0SHSUOnStjGuA_oHQ'>Spotify</a>, <a href='https://music.apple.com/us/artist/spencer-tweedy/1192853169'>Apple Music</a>, and <a href='https://tidal.com/browse/artist/8415400?u'>Tidal</a>.</p>
 	
-	<section class="max-w-screen-md space-y-4 text-base">
+	<section class="space-y-4 text-base">
 		{% assign releases_by_year = site.releases | group_by: "year" | sort: "name" | reverse %}
 		{% for year in releases_by_year %}
 			<div class="">
@@ -30,4 +30,4 @@ layout: base
 			</div>
 		{% endfor %}
 	</section>
-</section>
+</div>
