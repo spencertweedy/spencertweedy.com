@@ -16,10 +16,10 @@ layout: base
 				<div class="">
 					<div class="text-lg font-bold">{{ year.name }}</div>
 				</div>
-				<ol class="divide-y-2 divide-dotted divide-white/20 w-full">
+				<ol class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
 					{% for release in releases %}
 						<li>
-							<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:bg-white/10 hover:text-white">
+							<a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:text-obs-green hover:bg-obs-green/20">
 								<div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full"></div>
 								<div class="pl-2 md:pl-4 pr-2 w-full flex-grow"><span class="">{{ release.artist }}</span><br><span class="inline-block text-sm md:text-base italic opacity-40">{{ release.title }}</span></div>
 								<div class="lowercase opacity-40 text-xs md:text-sm text-end">{{ release.role }}</div>
