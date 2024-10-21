@@ -17,6 +17,7 @@ collections:
   releases:
     title: Releases
     output: false
+    sort_by: year
   uploads:
     title: Uploads
     output: true
