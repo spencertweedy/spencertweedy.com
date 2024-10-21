@@ -1,7 +1,7 @@
 ---
 title: Behold A Raccoon In The Darkness
 artist: Deerhoof with The Raccoonists
-year: "2011"
+year: 2011
 image: /uploads/behold-a-raccoon-in-the-darkness.jpg
 color: "#ffffff"
 listen: https://polyvinylrecords.com/product/behold_a_raccoon_in_the_

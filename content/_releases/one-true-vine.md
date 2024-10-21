@@ -1,7 +1,6 @@
 ---
 title: One True Vine
 date: 2018-07-25 12:22:00 -05:00
-position: 0
 artist: Mavis Staples
 year: 2013
 color: "#6C511A"
