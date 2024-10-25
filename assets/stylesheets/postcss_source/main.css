@@ -63,6 +63,10 @@
 	input[type="email"] {
 		@apply drop-shadow-md bg-white p-4 rounded-md text-center;
 	}
+
+	summary {
+		@apply cursor-pointer;
+	}
 }
 
 @layer components {
@@ -102,7 +106,11 @@
 	}
 	
 	ul.link-list {
-		@apply space-y-2 [&_a]:link;
+		@apply space-y-2 ms-[0.3rem] ps-[0.6rem] border-l dark:border-white/25;
+	}
+
+	ul.link-list a {
+		@apply link;
 	}
 
 	.link-list-note {
