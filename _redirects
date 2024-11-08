@@ -4,6 +4,9 @@
 # Netlify CMS admin fails if trailing slash isn't included, so…
 /admin    /admin/
 
+# Direct /songs to Bandcamp for now
+/songs    https://spencertweedy.bandcamp.com/
+
 # Redirect subscribe page to Substack (as of 2023-01-02)
 /observations/subscribe    https://spencertweedy.substack.com
 /subscribe                 https://spencertweedy.substack.com
