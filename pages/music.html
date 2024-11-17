@@ -13,8 +13,11 @@ layout: page
 		{% for year in releases_by_year %}
 			<div class="">
 				{% assign releases = year.items | reverse %}
+				{% assign LPs = releases | where: "type", "LP" %}
+				{% assign EPs = releases | where: "type", "EP" %}
+				{% assign singles = releases | where: "type", "single" %}
 				<div class="">
-					<div class="text-lg font-bold">{{ year.name }}</div>
+					<span class="text-lg font-bold">{{ year.name }}</span> <span class="ms-2 opacity-40 text-xs md:text-sm">{{ LPs.size }} LPs, {{ EPs.size }} EPs, and {{ singles.size }} singles</span>
 				</div>
 				<ol class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
 					{% for release in releases %}
