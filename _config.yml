@@ -72,6 +72,9 @@ locale: Chicago
 github_repo: https://github.com/spencertweedy/spencertweedy.com
 markdown: kramdown
 permalink: "/:categories/:title/"
+csv_reader:
+  converters:
+    - all
 include:
 - _redirects
 exclude:

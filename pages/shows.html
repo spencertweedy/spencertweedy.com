@@ -4,22 +4,51 @@ permalink: "/shows"
 layout: page
 ---
 
-<div class="space-y-8">	
-	<p>I’m touring with Waxahatchee in 2024. <a href="https://www.waxahatchee.com/shows">Dates here</a>.</p>
-	<p>I also often play with <a href="https://www.finommusic.com/tour">Finom</a>.</p>
-	
-	<!-- <div>	
-		<ol class="space-y-4 max-w-prose">
-			{% assign shows = site.data.shows | sort:"date" %}
-			{% for show in shows %}
-				<li class="">
-					<a href="{{ show.ticket-link }}" target="_blank" class="flex items-center gap-2 rounded-md bg-white/90 p-4 transition-all shadow-xl hover:bg-sky-500 hover:text-white hover:scale-[1.02] cursor-pointer">
-						<div class="shrink-0 font-bold">{{ show.location }}</div>
-						<div class="grow truncate"><span class="link">{{ show.artist }}</span> <span class="opacity-40">at {{ show.venue }}</span></div>
-						<span class="font-mono grow-0 shrink-0">{{ show.date }}</span>
-					</a>
+<div class="space-y-8">
+	<p>Playin on the road.</p>
+	<ol class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
+		{% assign shows = site.data.shows | sort:"Date" %}
+		{% assign today_date = "now" | date: "%s" %}
+		{% for show in shows %}
+			{% assign show_date = show["Date"] | date: "%s" %}
+			{% if show_date > today_date %}
+				<li>
+					<div class="flex flex-row h-full items-center py-2 transition-all hover:text-obs-green hover:bg-obs-green/20">
+						<div class="pl-2 md:pl-4 pr-2 w-full flex-grow">
+							<span class="font-mono me-2 opacity-40 text-xs">{{ show["Date"] }}</span>
+							<span class="">{{ show["Artist"] }}</span>
+							<span class="">&#10139;</span>
+							<span class="">{{ show["Location"] }}</span>
+							<span class="opacity-40 text-xs uppercase font-mono ps-1">{{ show["Venue"] }}</span>
+						</div>
+						{% if show["Link"] %}<a href="{{ show['Link'] }}" class="button text-xs md:text-sm text-end">Tickets</a>{% endif %}
+					</div>
 				</li>
-			{% endfor %}
-		</ol>
-	</div> -->
+			{% endif %}
+		{% endfor %}
+	</ol>
+
+	<div class="text-lg font-bold">Past shows</div>
+	<ol class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
+		{% assign shows = site.data.shows | sort:"Date" | reverse %}
+		{% assign today_date = "now" | date: "%s" %}
+		{% for show in shows %}
+			{% assign show_date = show["Date"] | date: "%s" %}
+			{% if today_date > show_date %}
+				<li>
+					<div class="flex flex-row h-full items-center py-2 transition-all hover:text-obs-green hover:bg-obs-green/20">
+						<div class="pl-2 md:pl-4 pr-2 w-full flex-grow">
+							<span class="font-mono me-2 opacity-40 text-xs">{{ show["Date"] }}</span>
+							<span class="">{{ show["Artist"] }}</span>
+							<span class="">&#10139;</span>
+							<span class="">{{ show["Location"] }}</span>
+							<span class="opacity-40 text-xs uppercase font-mono ps-1">{{ show["Venue"] }}</span>
+						</div>
+						{% if show["Link"] %}<a href="{{ show['Link'] }}" class="button text-xs md:text-sm text-end">Tickets</a>{% endif %}
+					</div>
+				</li>
+			{% endif %}
+		{% endfor %}
+		<p>…and many more before Sept 2021 :-)</p>
+	</ol>
 </div>
