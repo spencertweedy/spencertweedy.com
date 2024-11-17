@@ -2,7 +2,7 @@
 title: Through You / Police
 artist: The Blisters
 year: "2013"
-image: /uploads/blisters-police-through-you-single.jpg
+image: /uploads/releases/blisters-police-through-you-single.jpg
 color: "#c64326"
 listen: https://www.discogs.com/release/11865970-The-Blisters-Through-You-Police
 role: Drums

@@ -2,7 +2,7 @@
 title: The Deepest Well
 artist: Eric Diamond
 year: "2024"
-image: /uploads/eric-diamond-the-deepest-well.jpg
+image: /uploads/releases/eric-diamond-the-deepest-well.jpg
 color: "#87743d"
 listen: https://ericdiamond.bandcamp.com/album/the-deepest-well
 role: Drums

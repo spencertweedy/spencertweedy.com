@@ -2,7 +2,7 @@
 title: Live at the Chapel of St. Phillip Neri
 artist: Joan Shelley
 year: "2022"
-image: /uploads/joan-shelley-live-chapel.jpg
+image: /uploads/releases/joan-shelley-live-chapel.jpg
 color: "#899788"
 listen: https://joanshelley.bandcamp.com/album/live-at-the-chapel-of-st-phillip-neri
 role: Drums & background vocals

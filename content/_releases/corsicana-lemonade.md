@@ -2,7 +2,7 @@
 title: Corsicana Lemonade
 artist: White Denim
 year: "2013"
-image: /uploads/white-denim-corsicana-lemonade.png
+image: /uploads/releases/white-denim-corsicana-lemonade.jpg
 color: "#faf3c5"
 listen: https://whitedenimmusic.com/music
 role: drums ("A Place To Start")

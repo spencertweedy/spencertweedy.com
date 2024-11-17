@@ -2,7 +2,7 @@
 title: Due North
 artist: Liam Kazar
 year: "2021"
-image: /uploads/due-north.jpg
+image: /uploads/releases/due-north.jpg
 color: "#f8ea94"
 listen: https://liamkazar.bandcamp.com/album/due-north
 role: Drums

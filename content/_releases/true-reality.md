@@ -2,7 +2,7 @@
 title: True Reality
 artist: Henry True
 year: "2021"
-image: /uploads/true-reality.jpg
+image: /uploads/releases/true-reality.jpg
 color: "#000000"
 listen: https://henrytrue.bandcamp.com/album/true-reality
 role: Drums, engineering, production

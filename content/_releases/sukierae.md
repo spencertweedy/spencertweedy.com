@@ -5,7 +5,7 @@ artist: Tweedy
 year: 2014
 color: "#DA5B37"
 listen: https://antirecords.bandcamp.com/album/sukierae
-image: "/uploads/sukierae.jpg"
+image: "/uploads/releases/sukierae.jpg"
 role: Drums
 with_dad: true
 is_featured: true

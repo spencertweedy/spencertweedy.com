@@ -2,7 +2,7 @@
 title: Audiotree
 artist: Liam Kazar
 year: "2022"
-image: /uploads/liam-kazar-on-audiotree-live-album-cover-web.png
+image: /uploads/releases/liam-kazar-on-audiotree-live-album-cover-web.jpg
 color: "#dcdccf"
 listen: https://audiotree.tv/session/liam-kazar
 role: Drums

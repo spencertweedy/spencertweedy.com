@@ -2,7 +2,7 @@
 title: Lightning vs Sunshine
 artist: Horizon of Darkness
 year: "2023"
-image: /uploads/horizon-of-darkness.jpg
+image: /uploads/releases/horizon-of-darkness.jpg
 color: "#02446a"
 listen: https://horizonofdarkness1.bandcamp.com/album/lightning-vs-sunshine
 role: Drums

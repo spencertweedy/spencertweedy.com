@@ -2,7 +2,7 @@
 title: Fifteen Songs
 artist: Eric Diamond
 year: "2022"
-image: /uploads/eric-diamond-fifteen-songs.jpg
+image: /uploads/releases/eric-diamond-fifteen-songs.jpg
 color: "#5f7ba1"
 listen: https://ericdiamond.bandcamp.com/album/fifteen-songs
 role: Drums

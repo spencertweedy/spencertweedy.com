@@ -2,7 +2,7 @@
 title: Wilcovered
 artist: Various Artists
 year: "2020"
-image: /uploads/wilcovered.jpg
+image: /uploads/releases/wilcovered.jpg
 color: "#db346b"
 listen: https://recordstoreday.com/SpecialRelease/12289
 role: Drums ("Sunloathe")

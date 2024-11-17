@@ -2,7 +2,7 @@
 title: Shoes Too Tight
 artist: Liam Kazar
 year: "2020"
-image: /uploads/a2841627264_10.jpg
+image: /uploads/releases/a2841627264_10.jpg
 color: "#C2573A"
 listen: https://liamkazar.bandcamp.com/track/shoes-too-tight
 role: Drums

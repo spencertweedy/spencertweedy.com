@@ -5,7 +5,7 @@ artist: Eryn Allen Kane
 year: 2016
 color: "#FF0000"
 listen: https://soundcloud.com/erynallenkane/sets/aviary-act-ii
-image: "/uploads/aviary_act_II.jpg"
+image: "/uploads/releases/aviary_act_II.jpg"
 role: Drums (partial)
 type: EP
 ---

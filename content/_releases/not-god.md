@@ -2,7 +2,7 @@
 title: Not God
 artist: Finom
 year: "2024"
-image: /uploads/not-god.jpg
+image: /uploads/releases/not-god.jpg
 color: "#c1694c"
 listen: https://finom.bandcamp.com/album/not-god
 role: Drums

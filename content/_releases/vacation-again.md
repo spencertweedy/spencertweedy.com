@@ -2,7 +2,7 @@
 title: Vacation Again
 artist: Lucky Cloud
 year: "2024"
-image: /uploads/lucky-cloud-vacation-again.jpg
+image: /uploads/releases/lucky-cloud-vacation-again.jpg
 color: "#dcddb7"
 listen: https://lucky-cloud.bandcamp.com/album/vacation-again
 role: Drums

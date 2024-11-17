@@ -2,7 +2,7 @@
 title: GOOSE
 artist: Mol Sullivan
 year: "2024"
-image: /uploads/mol-sullivan-goose.jpg
+image: /uploads/releases/mol-sullivan-goose.jpg
 color: "#dedede"
 listen: https://molsullivan.bandcamp.com/album/goose
 role: Drums

@@ -5,7 +5,7 @@ artist: The Raccoonists
 year: 2018
 color: "#168146"
 listen: https://aquariumdrunkard.com/2018/11/13/the-lagniappe-sessions-the-raccoonists/
-image: "/uploads/raccoonists_lagniappe.jpg"
+image: "/uploads/releases/raccoonists_lagniappe.jpg"
 role: Drums
 type: EP
 is_featured: false

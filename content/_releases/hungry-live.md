@@ -2,7 +2,7 @@
 title: Hungry (Live)
 artist: Finom
 year: "2024"
-image: /uploads/finom-hungry.jpg
+image: /uploads/releases/finom-hungry.jpg
 color: "#f2f3e5"
 listen: https://finom.bandcamp.com/album/hungry-live
 role: Drums

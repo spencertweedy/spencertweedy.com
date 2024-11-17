@@ -5,7 +5,7 @@ artist: The Blisters
 year: 2016
 color: "#FFB300"
 listen: http://theblisters.com/album/cured
-image: "/uploads/cured.jpg"
+image: "/uploads/releases/cured.jpg"
 role: Drums, production
 is_featured: false
 type: LP

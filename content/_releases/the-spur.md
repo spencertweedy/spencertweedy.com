@@ -2,7 +2,7 @@
 title: The Spur
 artist: Joan Shelley
 year: "2022"
-image: /uploads/joanshelleythespur_highrescvr_1080x.jpg.webp
+image: /uploads/releases/the-spur.jpg
 color: "#9e9286"
 listen: https://joanshelley.bandcamp.com/album/the-spur
 role: Drums (partial)

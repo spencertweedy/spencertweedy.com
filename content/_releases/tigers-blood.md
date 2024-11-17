@@ -2,7 +2,7 @@
 title: Tigers Blood
 artist: Waxahatchee
 year: "2024"
-image: /uploads/waxahatchee-tigers-blood.jpg
+image: /uploads/releases/waxahatchee-tigers-blood.jpg
 color: "#ad2217"
 listen: https://waxahatchee.bandcamp.com/album/tigers-blood
 role: Drums, background vocals

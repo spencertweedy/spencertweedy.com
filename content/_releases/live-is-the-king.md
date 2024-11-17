@@ -2,7 +2,7 @@
 title: Live Is The King
 artist: Jeff Tweedy
 year: "2021"
-image: /uploads/live-is-the-king.jpg
+image: /uploads/releases/live-is-the-king.jpg
 color: "#151a24"
 listen: https://jefftweedy.bandcamp.com/album/love-is-the-king-live-is-the-king
 role: Drums

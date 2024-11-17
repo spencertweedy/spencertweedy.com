@@ -2,7 +2,7 @@
 title: Maybe April
 artist: Maybe April
 year: "2016"
-image: /uploads/maybe-april.png
+image: /uploads/releases/maybe-april.jpg
 color: "#e2e2e2"
 listen: https://open.spotify.com/album/5vZVK6saj3BXKYKc25QPsv
 role: Drums (partial)

@@ -5,7 +5,7 @@ artist: Spencer Tweedy
 year: "2024"
 color: "#000000"
 listen: https://spencertweedy.bandcamp.com/track/thinking-will-kill-you
-image: "/uploads/thinking-will-kill-you.jpg"
+image: "/uploads/releases/thinking-will-kill-you.jpg"
 type: single
 is_featured: false
 ---

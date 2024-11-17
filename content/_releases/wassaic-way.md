@@ -2,7 +2,7 @@
 title: Wassaic Way
 artist: Sarah Lee Guthrie & Johnny Irion
 year: "2013"
-image: /uploads/wassaic-way.jpg
+image: /uploads/releases/wassaic-way.jpg
 color: "#974031"
 listen: https://www.discogs.com/release/4946852-Sarah-Lee-Guthrie-Johnny-Irion-Wassaic-Way
 role: Drums (partial)

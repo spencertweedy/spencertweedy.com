@@ -2,7 +2,7 @@
 title: Albatross
 artist: Penny Marvel
 year: "2023"
-image: /uploads/albatross-penny-marvel.jpg
+image: /uploads/releases/albatross-penny-marvel.jpg
 color: "#e2c491"
 listen: https://pennymarvel.bandcamp.com/track/albatross
 role: Drums

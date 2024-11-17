@@ -5,7 +5,7 @@ artist: Wilco
 year: 2015
 color: "#2B363E"
 listen: http://wilcoworld.net/music/star-wars/
-image: "/uploads/star_wars.jpg"
+image: "/uploads/releases/star_wars.jpg"
 role: Drums (partial)
 type: LP
 ---

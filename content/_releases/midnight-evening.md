@@ -5,7 +5,7 @@ artist: Daisies
 year: 2018
 color: "#040404"
 listen: https://daisiescult.bandcamp.com/album/midnight-evening
-image: "/uploads/daisies_midnight_evening.jpg"
+image: "/uploads/releases/daisies_midnight_evening.jpg"
 role: Drums, bass
 type: EP
 ---
