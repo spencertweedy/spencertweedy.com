@@ -9,4 +9,5 @@ role: Drums
 is_single: false
 is_featured: false
 date: 2022-01-06T19:28:25.897Z
+type: EP
 ---

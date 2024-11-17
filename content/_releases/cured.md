@@ -8,5 +8,6 @@ listen: http://theblisters.com/album/cured
 image: "/uploads/cured.jpg"
 role: Drums, production
 is_featured: false
+type: LP
 ---
 

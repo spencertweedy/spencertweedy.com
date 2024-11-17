@@ -7,5 +7,6 @@ color: "#4E5838"
 listen: https://huechicago.bandcamp.com/album/untitled
 image: "/uploads/untitled.jpg"
 role: Drums, engineering
+type: LP
 ---
 

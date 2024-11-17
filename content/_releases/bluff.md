@@ -7,6 +7,6 @@ color: "#000000"
 listen: https://caseoats.bandcamp.com/track/bluff
 image: "/uploads/case_oats_bluff.jpg"
 role: Guitar, engineering
-is_single: true
+type: single
 ---
 

@@ -8,5 +8,6 @@ listen: https://joanshelley.bandcamp.com/album/joan-shelley
 image: "/uploads/joan_shelley.jpg"
 role: Drums
 is_featured: true
+type: LP
 ---
 

@@ -8,5 +8,6 @@ listen: https://henrytrue.bandcamp.com/album/mass-to-gloria-hills
 image: "/uploads/henry_true_mass_to_gloria_hills.jpg"
 role: Drums, bass, engineering
 is_featured: true
+type: LP
 ---
 

@@ -6,6 +6,6 @@ year: "2024"
 color: "#000000"
 listen: https://spencertweedy.bandcamp.com/track/thinking-will-kill-you
 image: "/uploads/thinking-will-kill-you.jpg"
-is_single: true
+type: single
 is_featured: false
 ---

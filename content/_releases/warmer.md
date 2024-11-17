@@ -9,5 +9,6 @@ image: "/uploads/jeff_tweedy_warmer.jpg"
 role: Drums
 with_dad: true
 is_featured: true
+type: LP
 ---
 

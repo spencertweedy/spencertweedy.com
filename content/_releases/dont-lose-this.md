@@ -8,5 +8,6 @@ listen: http://hyperurl.co/ncm6eq
 image: "/uploads/dont_lose_this.jpg"
 role: Drums
 is_featured: true
+type: LP
 ---
 

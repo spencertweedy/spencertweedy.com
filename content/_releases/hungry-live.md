@@ -6,7 +6,7 @@ image: /uploads/finom-hungry.jpg
 color: "#f2f3e5"
 listen: https://finom.bandcamp.com/album/hungry-live
 role: Drums
-is_single: true
+type: single
 is_featured: false
 date: 2024-10-03T20:18:54.502Z
 ---

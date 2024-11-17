@@ -7,5 +7,6 @@ color: "#1E4C62"
 listen: https://spencertweedy.bandcamp.com/album/geezer-love
 image: "/uploads/geezer_love.jpg"
 is_featured: false
+type: EP
 ---
 

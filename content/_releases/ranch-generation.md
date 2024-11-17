@@ -7,5 +7,6 @@ color: "#200084"
 listen: https://sk8city.bandcamp.com/album/ranch-generation-2
 image: "/uploads/ranch_generation.jpg"
 role: Engineering
+type: LP
 ---
 

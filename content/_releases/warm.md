@@ -9,5 +9,6 @@ image: "/uploads/warm-jeff-tweedy.jpg"
 role: Drums
 with_dad: true
 is_featured: true
+type: LP
 ---
 

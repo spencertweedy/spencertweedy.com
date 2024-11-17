@@ -7,7 +7,7 @@ color: '#0f0f0f'
 listen: >-
   https://wilcostore.com/products/daniel-johnston-chicago-2017-vinyl-lp?variant=31351095361601
 role: Drums
-is_single: false
+type: single
 is_featured: true
 date: 2020-03-25T02:13:39.836Z
 ---

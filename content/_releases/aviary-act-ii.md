@@ -7,5 +7,6 @@ color: "#FF0000"
 listen: https://soundcloud.com/erynallenkane/sets/aviary-act-ii
 image: "/uploads/aviary_act_II.jpg"
 role: Drums (partial)
+type: EP
 ---
 

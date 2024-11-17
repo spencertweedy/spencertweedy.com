@@ -6,7 +6,7 @@ image: /uploads/maicin-che-guevara.jpg
 color: "#b64c36"
 listen: https://maicin.bandcamp.com/track/che-guevara
 role: Drums
-is_single: true
+type: single
 is_featured: false
 date: 2024-07-03T21:29:10.103Z
 ---

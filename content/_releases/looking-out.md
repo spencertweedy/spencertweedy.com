@@ -9,4 +9,5 @@ role: Drums (partial)
 is_single: false
 is_featured: false
 date: 2023-11-16T21:28:40.920Z
+type: LP
 ---

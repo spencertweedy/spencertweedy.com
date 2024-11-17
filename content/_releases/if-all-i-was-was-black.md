@@ -8,5 +8,6 @@ listen: https://mavisstaples.bandcamp.com/album/if-all-i-was-was-black
 image: "/uploads/if_all_i_was_was_black.jpg"
 role: Drums
 is_featured: true
+type: LP
 ---
 

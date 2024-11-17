@@ -7,5 +7,6 @@ color: "#C9A3BE"
 listen: https://thin-air.bandcamp.com/album/its-true
 image: "/uploads/thin-air-its-true.jpg"
 role: Mastering
+type: LP
 ---
 

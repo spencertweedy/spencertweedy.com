@@ -6,7 +6,7 @@ image: /uploads/lucky-cloud-vacation-again.jpg
 color: "#dcddb7"
 listen: https://lucky-cloud.bandcamp.com/album/vacation-again
 role: Drums
-is_single: true
+type: single
 is_featured: false
 date: 2024-10-31T15:46:51.504Z
 ---

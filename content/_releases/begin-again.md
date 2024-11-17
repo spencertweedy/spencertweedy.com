@@ -8,5 +8,6 @@ listen: http://www.bluenote.com/artists/norah-jones/begin-again
 image: "/uploads/norah_jones_begin_again.jpg"
 role: Drums
 is_featured: true
+type: LP
 ---
 

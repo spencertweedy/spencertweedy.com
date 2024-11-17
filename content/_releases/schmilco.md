@@ -8,5 +8,6 @@ listen: http://wilco.lnk.to/schmilco
 image: "/uploads/schmilco.jpg"
 role: Drums (partial)
 is_featured: false
+type: LP
 ---
 

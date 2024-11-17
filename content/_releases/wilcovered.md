@@ -6,7 +6,7 @@ image: /uploads/wilcovered.jpg
 color: "#db346b"
 listen: https://recordstoreday.com/SpecialRelease/12289
 role: Drums ("Sunloathe")
-is_single: false
+type: LP
 is_featured: false
 date: 2020-03-25T19:47:21.483Z
 ---

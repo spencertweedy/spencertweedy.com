@@ -8,5 +8,6 @@ listen: https://mavisstaples.bandcamp.com/album/one-true-vine
 image: "/uploads/one_true_vine.jpg"
 role: Drums
 is_featured: true
+type: LP
 ---
 

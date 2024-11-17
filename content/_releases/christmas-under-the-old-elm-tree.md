@@ -7,6 +7,6 @@ color: "#8C6B58"
 listen: https://honeytone.bandcamp.com/album/christmas-under-the-old-elm-tree
 image: "/uploads/julia_and_amos.jpg"
 role: Drums
-is_single: true
+type: single
 ---
 

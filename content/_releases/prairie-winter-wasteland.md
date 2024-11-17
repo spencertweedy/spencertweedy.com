@@ -6,7 +6,7 @@ image: /uploads/daughter-of-swords-prairie-winter-wasteland.jpg
 color: '#ea3c51'
 listen: 'https://daughterofswords.bandcamp.com/track/prairie-winter-wasteland'
 role: Drums
-is_single: true
+type: single
 is_featured: false
 date: 2020-03-25T02:23:26.700Z
 ---
