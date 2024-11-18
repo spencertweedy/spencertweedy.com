@@ -3,54 +3,40 @@ layout: page
 permalink: "/"
 ---
 
-<section>
-	<mark class="bg-yellow-400 dark:bg-violet-800/80 p-2 text-black dark:text-white/60 uppercase tracking-wide font-mono text-sm">Announcement 1</mark>
-	<p>
-		New song: <a href="https://spencertweedy.bandcamp.com/track/thinking-will-kill-you">Thinking Will Kill You</a>
-	</p>
-</section>
-
-<section>
-	<mark class="bg-yellow-400 dark:bg-violet-800/80 p-2 text-black dark:text-white/60 uppercase tracking-wide font-mono text-sm">Announcement 2</mark>
-	<p>
-		<a href="{% link pages/mirror-sound.html %}">Mirror Sound is on sale</a>
-	</p>
+<section class="space-y-2">
+	<div class="flex items-center gap-1">
+		<span class="ascii" aria-hidden="true">_.~"~</span>
+		<a href="{% link pages/music.html %}" class="link">music</a>
+		<span class="ascii" aria-hidden="true">~._</span>
+	</div>
+	<div class="flex items-center gap-1">
+		<span class="ascii" aria-hidden="true">    ~"~._</span>
+		<a href="{% link pages/shows.html %}" class="link">shows</a>
+		<span class="ascii" aria-hidden="true">_.~"</span>
+	</div>
+	<div class="flex items-center gap-1">
+		<span class="ascii" aria-hidden="true">        "~._.</span>
+		<a href="{% link pages/books.html %}" class="link">books</a>
+		<span class="ascii" aria-hidden="true">.~"~</span>
+	</div>
+	<div class="flex items-center gap-1">
+		<span class="ascii" aria-hidden="true">              ~"~</span>
+		<a href="https://spencertweedy.substack.com" class="link">subscribe</a>
+		<span class="ascii" aria-hidden="true">~"~._.~</span>
+	</div>
 </section>
 
 <section>
 	<p>I’m a drummer who lives in Chicago. You can listen to <a href="https://lnkfi.re/50dram">50 songs I dram</a> or look at my <a href="{% link pages/music.html %}">full discography</a>.</p>
-	<p>I also love to write and I send a newsletter a few times a month. <a href="https://spencertweedy.substack.com/">Join 5,600+ other subscribers.</a></p>
+	<p>I write about my life and “layperson philosophy” in a blog. <a href="https://spencertweedy.substack.com/">Subscribe here.</a></p>
 	<p>Thanks for being here.</p>
 </section>
 
 <section class="space-y-2">
 	<details>
-		<summary class="italic">Music</summary>
-		<ul class="link-list">
-			<li><a href="https://spencertweedy.bandcamp.com/track/thinking-will-kill-you">Thinking Will Kill You single</a> <span class="link-list-note">2024</span></li>
-			<li><a href="{% link pages/drumprints.html %}">Drumprints samples</a> <span class="link-list-note">2023</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/album/sleep-is-my-god">Sleep Is My God EP</a> <span class="link-list-note">2019</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/album/geezer-love">Geezer Love EP</a> <span class="link-list-note">2016</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/track/temple-state">Temple State single</a> <span class="link-list-note">2014</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/track/rushmore">Rushmore single</a> <span class="link-list-note">2012</span></li>
-			<li><a href="{% link pages/music.html %}">Full discography</a></li>
-		</ul>
-	</details>
-
-	<details>
-		<summary class="italic">Writing</summary>
-		<ul class="link-list">
-			<li><a href="https://spencertweedy.substack.com/">Substack</a><br>Newsletter, a few times a month</li>
-			<li><a href="{% link pages/mirror-sound.html %}">Mirror Sound</a><br>A book about self-recording musicians</li>
-			<li><a href="{% link pages/wire.html %}">Wire service</a><br>My common-blog</li>
-			<li><a href="{% link pages/observations/index.html %}">Observations</a><br>A blog and two chapbooks</li>
-		</ul>
-	</details>
-
-	<details>
 		<summary class="italic">More</summary>
 		<ul class="link-list">
-			<li><a href="{% link pages/shows.html %}">Tour dates</a></li>
+			<li><a href="{% link pages/wire.html %}">Wire service</a></li>
 			<li><a href="{% link pages/drumprints.html %}">Free drum samples</a></li>
 			<li><a href="https://literal.club/spencer">Books I’m reading</a></li>
 			<li><a href="{% link pages/colophon.html %}">Colophon</a></li>
