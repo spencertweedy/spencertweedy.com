@@ -77,6 +77,10 @@
 	.button {
 		@apply inline-block bg-blue-600 dark:bg-obs-green py-2 px-4 text-white dark:text-black no-underline transition-all hover:brightness-110;
 	}
+
+	.announcement-label {
+		@apply bg-yellow-400 dark:bg-violet-800/80 p-2 text-black dark:text-white/60 uppercase tracking-wide font-mono text-sm;
+	}
 }
 
 @layer utilities {
@@ -115,5 +119,9 @@
 
 	.link-list-note {
 		@apply opacity-25 ms-1 font-mono text-xs;
+	}
+
+	.ascii {
+		@apply font-mono text-xs whitespace-pre;
 	}
 }
