@@ -12,18 +12,7 @@ layout: page
 		{% for show in shows %}
 			{% assign show_date = show["Date"] | date: "%s" %}
 			{% if show_date > today_date %}
-				<li>
-					<div class="flex flex-row h-full items-center py-2 transition-all hover:text-obs-green hover:bg-obs-green/20">
-						<div class="pl-2 md:pl-4 pr-2 w-full flex-grow">
-							<span class="font-mono me-2 opacity-40 text-xs">{{ show["Date"] }}</span>
-							<span class="">{{ show["Artist"] }}</span>
-							<span class="">&#10139;</span>
-							<span class="">{{ show["Location"] }}</span>
-							<span class="opacity-40 text-xs uppercase font-mono ps-1">{{ show["Venue"] }}</span>
-						</div>
-						{% if show["Link"] %}<a href="{{ show['Link'] }}" class="button text-xs md:text-sm text-end">Tickets</a>{% endif %}
-					</div>
-				</li>
+				{% include show.html upcoming=true %}
 			{% endif %}
 		{% endfor %}
 	</ol>
@@ -35,18 +24,7 @@ layout: page
 		{% for show in shows %}
 			{% assign show_date = show["Date"] | date: "%s" %}
 			{% if today_date > show_date %}
-				<li>
-					<div class="flex flex-row h-full items-center py-2 transition-all hover:text-obs-green hover:bg-obs-green/20">
-						<div class="pl-2 md:pl-4 pr-2 w-full flex-grow">
-							<span class="font-mono me-2 opacity-40 text-xs">{{ show["Date"] }}</span>
-							<span class="">{{ show["Artist"] }}</span>
-							<span class="">&#10139;</span>
-							<span class="">{{ show["Location"] }}</span>
-							<span class="opacity-40 text-xs uppercase font-mono ps-1">{{ show["Venue"] }}</span>
-						</div>
-						{% if show["Link"] %}<a href="{{ show['Link'] }}" class="button text-xs md:text-sm text-end">Tickets</a>{% endif %}
-					</div>
-				</li>
+				{% include show.html %}
 			{% endif %}
 		{% endfor %}
 		<p>…and many more before Sept 2021 :-)</p>
