@@ -7,6 +7,9 @@
 # Direct /songs to Bandcamp for now
 /songs    https://spencertweedy.bandcamp.com/
 
+# Observations Y2 book discount
+/obs-discount https://store.spencertweedy.com/discount/OBSOFF?redirect=%2Fproducts%2Fobservations-year-two-book
+
 # Redirect subscribe page to Substack (as of 2023-01-02)
 /observations/subscribe    https://spencertweedy.substack.com
 /subscribe                 https://spencertweedy.substack.com
