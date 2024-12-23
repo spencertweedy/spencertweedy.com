@@ -3,76 +3,20 @@ layout: page
 permalink: "/"
 ---
 
-<section class="space-y-4">
-	<div class="flex items-center gap-1">
-		<span class="ascii" aria-hidden="true">_.~"~</span>
-		<a href="{% link pages/music.html %}" class="link">music</a>
-		<span class="ascii" aria-hidden="true">~._</span>
-	</div>
-	<div class="flex items-center gap-1">
-		<span class="ascii" aria-hidden="true">    ~"~._</span>
-		<a href="{% link pages/shows.html %}" class="link">shows</a>
-		<span class="ascii" aria-hidden="true">_.~"</span>
-	</div>
-	<div class="flex items-center gap-1">
-		<span class="ascii" aria-hidden="true">        "~._.</span>
-		<a href="{% link pages/books.html %}" class="link">books</a>
-		<span class="ascii" aria-hidden="true">.~"~</span>
-	</div>
-	<div class="flex items-center gap-1">
-		<span class="ascii" aria-hidden="true">              ~"~</span>
-		<a href="https://spencertweedy.substack.com" class="link">subscribe</a>
-		<span class="ascii" aria-hidden="true">~"~._.~</span>
-	</div>
+<ul class="space-y-8 text-4xl md:text-5xl">
+	<li><a href="{% link pages/music.html %}" class="link">music</a> &#9715;</li>
+	<li><a href="{% link pages/shows.html %}" class="link ms-8">shows</a> &#9706;</li>
+	<li><a href="https://spencertweedy.substack.com" class="link ms-16">subscribe</a> &#9686;</li>
+</ul>
+
+<section class="opacity-30 space-y-4 flex items-end justify-between">
+	<ul>
+		<li><a href="https://store.spencertweedy.com" class="link">store</a></li>
+		<li><a href="mailto:{{ site.email }}" class="link">contact</a></li>
+	</ul>
+	<ul class="text-right">
+		<li><a href="{% link pages/wire.html %}" class="link">wire service</a></li>
+		<li><a href="{% link pages/observations/index.html %}" class="link">observations archive</a></li>
+		<li><a href="{% link pages/colophon.html %}" class="link">colophon</a></li>
+	</ul>
 </section>
-
-<section>
-	<p>Spooncer Tweedy<br>
-	b.1995 in Chicago<br>
-	I play drums and I write. <button class="link" data-target="par2" onclick="reveal(this)">And…</button></p>
-	<p id="par2" class="sr-only *:ps-6 *:-indent-6 *:block">
-		<span>I <a href="{% link pages/music.html %}">make records</a> and <a href="{% link pages/shows.html %}">tour</a> with my dad, with Casey Walker, and with various friends and family members.</span>
-		<span>I run a studio in Chicago with my bandmate Jason, deets to be announced.</span>
-		<span>I wrote a book about musicians who record at home, <a href="{% link pages/mirror-sound.html %}" class="italic">Mirror Sound</a>.</span>
-		<span>I help produce an annual <a href="https://avromfarmparty.com/" target="_blank">music festival</a> with my friend Hayden on his farm. <button class="link" data-target="par3" onclick="reveal(this)">And…</button></span>
-	</p>
-	<p id="par3" class="sr-only *:ps-6 *:-indent-6 *:block">
-		<span>I love design and tinkering with computers. (But not the kind of design that saps wildness out of life!)</span>
-		<span>I want to see a return of the cottage industry of computing. (We can do our part by making little <a href="{% link pages/colophon.html %}">personal websites</a>.)</span>
-		<span>I think it’s possible for artists to make platforms that supersede the shitty ones run by careless/malicious people. <button class="link" data-target="par4" onclick="reveal(this)">And…</button></span>
-	</p>
-	<p id="par4" class="sr-only *:ps-6 *:-indent-6 *:block">
-		<span>I love records that fuse the newfangled with the oldfangled.</span>
-		<span>I’m learning how to abolish fear, to perform as if I don’t exist. <button class="link" data-target="par5" onclick="reveal(this)">And…</button></span>
-	</p>
-	<div id="par5" class="sr-only">
-		<p class="*:ps-6 *:-indent-6 *:block">
-			<span>I have an undergraduate degree in philos, sorry.</span>
-			<span>I volunteer on the board of a <a href="https://www.letterscharity.org/" target="_blank">direct-cash-infusion org</a>, a food justice org, and a <a href="https://www.chicagomusicscene.org/" target="_blank">local arts org</a>.</span>
-			<span>I think cooperation is generally better than competition and if we wanna make life better, we gotta convince other people that that’s the case.</span>
-		</p>
-		<p><a href="mailto:{{ site.email }}">Contact me</a></p>
-		<details>
-			<summary class="italic">More</summary>
-			<ul class="link-list">
-				<li><a href="{% link pages/wire.html %}">Wire service</a></li>
-				<li><a href="{% link pages/observations/index.html %}">Observations archive</a></li>
-				<li><a href="{% link pages/drumprints.html %}">Free drum samples</a></li>
-				<li><a href="https://literal.club/spencer">Books I’m reading</a></li>
-			</ul>
-		</details>
-	</div>
-</section>
-
-<figure class="block w-1/2 my-[5vw] sm:my-0 sm:w-auto sm:max-w-[70vw] sm:fixed sm:right-[5vw] sm:bottom-[5vw] bg-amber-400 dark:brightness-50 -z-10">
-	<img src="{% link assets/spencer-tweedy-cc-drumming.jpg %}" class="sm:max-h-[25vh] mix-blend-overlay saturate-0" alt="Spencer Tweedy playing a red onyx Slingerland drum kit, eyes closed, in front of yellow curtains.">
-</figure>
-
-<script>
-	function reveal(opener) {
-		let target = opener.getAttribute("data-target");
-		let element = document.getElementById(target);
-		opener.classList.toggle("sr-only");
-		element.classList.toggle("sr-only");
-	}
-</script>
