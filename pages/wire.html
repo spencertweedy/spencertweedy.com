@@ -3,14 +3,16 @@ layout: page
 permalink: "/wire"
 ---
 
-{% assign posts = site.wire | reverse %}
-{% for post in posts %}
-<article class="space-y-4">
-	<div class="uppercase font-mono text-sm opacity-40 float-start relative top-[0.35rem] pe-4">
-		<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>
-	</div>
-	{% if post.link %}<div class="max-w-prose"><h1><a href="{{ post.link }}" class="link">{{ post.title }}</a></h1></div>{% endif %}
-	<div>{{ post.content }}</div>
-	{% if post.tags != empty %}<div class="uppercase font-mono text-sm opacity-40">Filed {{ post.tags }}</div>{% endif %}
-</article>
-{% endfor %}
+<div class="space-y-8">
+	{% assign posts = site.wire | reverse %}
+	{% for post in posts %}
+	<article class="space-y-4">
+		<div class="uppercase font-mono text-sm opacity-40 float-start relative top-[0.35rem] pe-2">
+			<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>
+			{% if post.tags != empty %}<span>Filed: {{ post.tags }}</span>{% endif %}
+		</div>
+		{% if post.link %}<div class="max-w-prose"><h1><a href="{{ post.link }}" class="link">{{ post.title }}</a></h1></div>{% endif %}
+		<div>{{ post.content }}</div>
+	</article>
+	{% endfor %}
+</div>
