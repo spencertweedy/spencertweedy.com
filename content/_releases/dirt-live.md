@@ -2,7 +2,7 @@
 title: Dirt (live)
 artist: Finom
 year: "2024"
-image: https://f4.bcbits.com/img/a0277456414_65
+image: "/uploads/releases/finom-dirt.jpg"
 color: "#000000"
 listen: https://finom.bandcamp.com/album/dirt-live
 role: Drums
