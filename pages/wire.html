@@ -7,9 +7,9 @@ permalink: "/wire"
 	{% assign posts = site.wire | reverse %}
 	{% for post in posts %}
 	<article class="space-y-4">
-		<div class="uppercase float-start font-bold pe-2">
+		<div class="uppercase float-start font-bold pe-2 relative top-px">
 			<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>
-			{% if post.tags != empty %}<span>({{ post.tags }} file)</span>{% endif %}
+			{% if post.tags != empty %}<span>FILED: {{ post.tags }}</span>{% endif %}
 		</div>
 		{% if post.link %}<div class="max-w-prose"><h1><a href="{{ post.link }}" class="link">{{ post.title }}</a></h1></div>{% endif %}
 		<div>{{ post.content }}</div>
