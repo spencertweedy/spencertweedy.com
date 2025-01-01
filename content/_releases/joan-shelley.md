@@ -7,7 +7,6 @@ color: "#354140"
 listen: https://joanshelley.bandcamp.com/album/joan-shelley
 image: "/uploads/releases/joan_shelley.jpg"
 role: Drums
-is_featured: true
 type: LP
 ---
 

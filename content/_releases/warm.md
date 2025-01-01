@@ -8,7 +8,6 @@ listen: https://jefftweedy.bandcamp.com/
 image: "/uploads/releases/warm-jeff-tweedy.jpg"
 role: Drums
 with_dad: true
-is_featured: true
 type: LP
 ---
 
