@@ -14,6 +14,11 @@ module.exports = {
       },
       colors: {
         'obs-green': 'hsl(87, 47%, 52%)',
+        'buchla-blue': '#3D7FF2',
+        'buchla-orange': '#FF542E',
+        'buchla-yellow': '#FFD84D',
+        'buchla-green': '#39A362',
+        'buchla-red': '#E63B2C',
       },
       fontSize: {
         'biggie': 'calc(1.6em + 1.6vw)',
