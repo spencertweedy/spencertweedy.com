@@ -3,20 +3,19 @@ layout: page
 permalink: "/"
 ---
 
-<ul class="space-y-8 text-4xl md:text-5xl">
-	<li><a href="{% link pages/music.html %}" class="link">music</a> &#9715;</li>
-	<li><a href="{% link pages/shows.html %}" class="link ms-8">shows</a> &#9706;</li>
-	<li><a href="https://spencertweedy.substack.com" class="link ms-16">subscribe</a> &#9686;</li>
-</ul>
-
-<section class="opacity-30 space-y-4 flex items-end justify-between">
-	<ul>
-		<li><a href="https://store.spencertweedy.com" class="link">store</a></li>
-		<li><a href="mailto:{{ site.email }}" class="link">contact</a></li>
+<section class="space-y-8">
+	<img src="{% link _uploads/colbert.png %}" alt="A black-and-white photo of me drumming" class="max-w-[300px]">
+	<ul class="text-4xl space-y-4">
+		<li><span class="text-blue-600">&#9654;</span> <a href="https://lnkfi.re/50dram" class="link" target="_blank">50 Songs I Dram</a></li>
+		<li><a href="https://spencertweedy.substack.com/" target="_blank" class="link">Read my blog</a></li>
 	</ul>
-	<ul class="text-right">
-		<li><a href="{% link pages/wire.html %}" class="link">wire service</a></li>
-		<li><a href="{% link pages/observations/index.html %}" class="link">observations archive</a></li>
-		<li><a href="{% link pages/colophon.html %}" class="link">colophon</a></li>
+	<ul class="">
+		<li><a href="{% link pages/music.html %}" class="link">Music</a></li>
+		<li><a href="{% link pages/shows.html %}" class="link">Shows</a></li>
+		<li><a href="https://store.spencertweedy.com" class="link">Books</a></li>
+		<li><a href="{% link pages/wire.html %}" class="link">Wire Service</a></li>
+		<li><a href="{% link pages/observations/index.html %}" class="link">Observations Archive</a></li>
+		<li><a href="{% link pages/colophon.html %}" class="link">Colophon</a></li>
+		<li><a href="mailto:{{ site.email }}" class="link">Contact me</a></li>
 	</ul>
 </section>
