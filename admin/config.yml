@@ -52,6 +52,5 @@ collections:
       - {label: "Color", name: "color", widget: "string"}
       - {label: "Listen URL", name: "listen", widget: "string", required: false}
       - {label: "Role", name: "role", widget: "string", required: false}
-      - {label: "Is it a single?", name: "is_single", widget: "boolean", default: false}
-      - {label: "Feature it?", name: "is_featured", widget: "boolean", default: false}
+      - {label: "Type", name: "type", widget: "select", options: ["single", "EP", "LP"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
