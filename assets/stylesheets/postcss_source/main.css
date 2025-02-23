@@ -65,7 +65,11 @@
 	}
 
 	article ul {
-		@apply list-disc ms-4;
+		@apply list-disc ms-4 space-y-2;
+	}
+
+	article ol {
+		@apply list-decimal ms-4 space-y-2;
 	}
 	
 	input[type="email"] {
