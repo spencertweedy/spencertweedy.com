@@ -3,23 +3,19 @@ layout: page
 permalink: "/"
 ---
 
-<section class="space-y-8">
-	<div class="max-w-[500px]">
-		<a href="{% link pages/wire.html %}"><img src="{% link _uploads/colbert.png %}" alt="A black-and-white photo of me drumming" class="w-full"></a>
-	</div>
-	<p>I’m a drummer and a writer from Chicago.</p>
-	<ul>
-		<li><a href="https://lnkfi.re/50dram" class="link" target="_blank">Listen to 50 songs I dram</a></li>
-		<li><a href="https://spencertweedy.substack.com/" target="_blank" class="link">Subscribe to my newsletter</a></li>
-	</ul>
-	<ul>
-		<li><a href="{% link pages/music.html %}" class="link">Music</a></li>
-		<li><a href="{% link pages/shows.html %}" class="link">Shows</a></li>
-		<li><a href="https://store.spencertweedy.com" class="link">Books</a></li>
-		<li><a href="{% link pages/wire.html %}" class="link">Wire Service</a></li>
-		<li><a href="{% link pages/observations/index.html %}" class="link">Observations Archive</a></li>
-		<li><a href="{% link pages/videos.html %}" class="link">Videos</a></li>
-		<li><a href="{% link pages/colophon.html %}" class="link">Colophon</a></li>
-		<li><a href="mailto:{{ site.email }}" class="link">Contact me</a></li>
-	</ul>
-</section>
+<div class="md:flex justify-between">
+	<section>
+		<p>spencer tweedy</p>
+		<p>b. 1995, chicago</p>
+		<p>music 'n' writing</p>
+		<p>listen to <a href="https://lnkfi.re/50dram" class="link" target="_blank">50 songs I dram</a></p>
+		<p>or open my <a href="{% link pages/music.html %}" class="link">discography</a></p>
+		<p>go to a <a href="{% link pages/shows.html %}" class="link">show on the road</a></p>
+		<p>or read one of my <a href="https://store.spencertweedy.com" class="link">books</a></p>
+		<p>you can <a href="mailto:{{ site.email }}" class="link">contact me here</a></p>
+		<p>& <a href="https://spencertweedy.substack.com/" target="_blank" class="link">subscribe to my blog</a></p>
+		<div class="mt-8 max-w-16">
+			<a href="{% link pages/wire.html %}"><img src="{% link _uploads/colbert.png %}" alt="A black-and-white photo of me drumming" class="w-full"></a>
+		</div>
+	</section>
+</div>
