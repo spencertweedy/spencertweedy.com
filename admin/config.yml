@@ -8,6 +8,20 @@ public_folder: "/uploads" # Tells Netlify CMS where to read uploads in the ouput
 display_url: "https://spencertweedy.com" # Used in the UI
 # Define collections (must manually keep up-to-date with site generator config)
 collections:
+  - name: "Wire Service"
+    label: "Wires"
+    label_singular: "Wire"
+    folder: "content/_wire"
+    editor:
+      preview: false
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
   - name: "posts"
     label: "Posts"
     label_singular: "Post"
