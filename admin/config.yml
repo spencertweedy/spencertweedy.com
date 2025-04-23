@@ -12,6 +12,7 @@ collections:
     label: "Wire Service"
     label_singular: "Wire"
     folder: "content/_wire"
+    identifier_field: slug
     editor:
       preview: false
     create: true
@@ -21,6 +22,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Link", name: "link", widget: "string", required: false}
       - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
   - name: "posts"
     label: "Posts"
