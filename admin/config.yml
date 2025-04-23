@@ -9,7 +9,7 @@ display_url: "https://spencertweedy.com" # Used in the UI
 # Define collections (must manually keep up-to-date with site generator config)
 collections:
   - name: "Wire Service"
-    label: "Wires"
+    label: "Wire Service"
     label_singular: "Wire"
     folder: "content/_wire"
     editor:
@@ -17,10 +17,10 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
   - name: "posts"
     label: "Posts"
