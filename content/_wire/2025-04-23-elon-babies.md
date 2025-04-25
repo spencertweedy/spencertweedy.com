@@ -4,7 +4,7 @@ title: "WSJ: The Tactics Elon Musk Uses to Manage His ‘Legion’ of Babies—a
 link: https://www.wsj.com/politics/elon-musk-children-mothers-ashley-st-clair-grimes-dc7ba05c?reflink=desktopwebshare_permalink
 date: 2025-04-22
 ---
-B﻿ARF MALARF.
+BARF MALARF.
 
 > “Musk has said he is concerned about what he called Third World countries having higher birthrates than the U.S. and Europe, a person familiar with the conversation said. … One of the most important ways to change these dynamics, he has repeatedly told people close to him, is for educated people to have more children.
 >
