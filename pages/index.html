@@ -3,48 +3,26 @@ layout: page
 permalink: "/"
 ---
 
-<section>
-	<div class="">
-		<a href="https://lnkfi.re/50dram" class="">Listen to 50 songs I dram</a>
-		<a href="{% link pages/drumprints.html %}" class="">Download free drum samples</a>
-		<a href="https://spencertweedy.substack.com/" target="_blank" class="">Subscribe to my newsletter</a>
-	</div>
-</section>
-
-<div class="flex justify-between">
-	<section class="order-last space-y-8">
-		<div class="flex flex-col italic space-y-4 *:underline *:underline-offset-4 text-3xl">
-			<a href="{% link pages/music.html %}" class="text-buchla-orange">Music</a>
-			<a href="{% link pages/shows.html %}" class="text-buchla-yellow">Shows</a>
-			<a href="https://store.spencertweedy.com/" class="text-buchla-red">Books</a>
-			<a href="mailto:{{ site.email }}" class="text-buchla-green">Contact</a>
+<div class="space-y-8 md:space-y-0 md:flex justify-between">
+	<section>
+		<p>spencer tweedy</p>
+		<p>b. 1995, chicago</p>
+		<p>music 'n' writing</p>
+	</section>
+	<section>
+		<p><a href="https://lnkfi.re/50dram" class="link" target="_blank">listen to 50 songs I dram</a></p>
+		<p><a href="{% link pages/drumprints.html %}">download free drum samples</a></p>
+		<p><a href="https://spencertweedy.substack.com/" target="_blank" class="link">read my blog</a></p>
+	</section>
+	<section>
+		<p><a href="{% link pages/music.html %}" class="link">discography</a></p>
+		<p><a href="{% link pages/shows.html %}" class="link">showography</a></p>
+		<p><a href="{% link pages/books.html %}" class="link">bibliography</a></p>
+	</section>
+	<section>
+		<p><a href="mailto:{{ site.email }}" class="link">email me</a></p>
+		<div class="mt-8 max-w-16">
+			<a href="{% link pages/wire.html %}"><img src="{% link _uploads/colbert.png %}" alt="A black-and-white photo of me drumming" class="w-full"></a>
 		</div>
 	</section>
-	
-	<section class="space-y-8 max-w-[60ch]">
-		{% assign postsByDay = site.wire | group_by_exp:"post", "post.date" | date: '%F' | reverse %}
-		{% for day in postsByDay %}
-		<time class="block" datetime="{{ day.name | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a %b %d, %Y" }}</time>
-			{% for post in day.items %}
-			<article class="space-y-4 leading-6">
-				<div class="lowercase space-x-2 font-bold">
-					{{ post.slug }}
-					{% if post.tags != empty %}<span>FILED: {{ post.tags }}</span>{% endif %}
-				</div>
-				<div class="space-y-4">
-					{% if post.link %}<div><h1><a href="{{ post.link }}" class="link">{{ post.title }}</a></h1></div>{% endif %}
-					<div>{{ post.content }}</div>
-				</div>
-			</article>
-			{% endfor %}
-		{% endfor %}
-	</section>
 </div>
-
-<section>
-	<ul>
-		<li><a href="{% link pages/observations/index.html %}" class="link">Observations Archive</a></li>
-		<li><a href="{% link pages/videos.html %}" class="link">Videos</a></li>
-		<li><a href="{% link pages/colophon.html %}" class="link">Colophon</a></li>
-	</ul>
-</section>
