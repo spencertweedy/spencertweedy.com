@@ -100,6 +100,10 @@
 }
 
 @layer utilities {
+	.reg-spacing {
+		@apply my-4 first:mt-0 last:mb-0;
+	}
+
 	.h2 {
 		@apply opacity-50 font-sans text-sm flex gap-1 mb-2 items-center;
 	}
