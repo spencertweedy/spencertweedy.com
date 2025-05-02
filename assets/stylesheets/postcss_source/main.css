@@ -28,7 +28,7 @@
 	}
 	
 	p {
-		@apply max-w-prose leading-6 text-justify my-4;
+		@apply max-w-prose leading-[1.4em] reg-spacing;
 	}
 	
 	p:first-child {
