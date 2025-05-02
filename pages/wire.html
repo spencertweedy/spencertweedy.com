@@ -3,16 +3,19 @@ layout: page
 permalink: "/wire"
 ---
 
-<div class="space-y-8 max-w-[55ch]">
+<div class="max-w-[55ch]">
 	{% assign posts = site.wire | reverse %}
 	{% for post in posts %}
-	<article class="space-y-4 leading-6">
-		<div class="uppercase float-start font-bold pe-2">
-			<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>
-			{% if post.tags != empty %}<span>FILED: {{ post.tags }}</span>{% endif %}
+	<article class="py-2 first:pt-0">
+		<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
+		<div>
+			{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
+			{{ post.content }}
 		</div>
-		{% if post.link %}<div><h1><a href="{{ post.link }}" class="link">{{ post.title }}</a></h1></div>{% endif %}
-		<div>{{ post.content }}</div>
 	</article>
 	{% endfor %}
+</div>
+
+<div>
+	<p>Earlier? Check out <a href="{% link pages/observations/index.html %}">Observations</a></p>
 </div>
