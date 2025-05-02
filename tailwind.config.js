@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['jaf-facitweb', 'sans-serif'],
+        sans: ['sans-serif'],
         serif: ['"Times New Roman"', 'Times', 'Georgia', 'Cambria', 'serif'],
         mono: ['ISO','monospace'],
       },
