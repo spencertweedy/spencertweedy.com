@@ -71,7 +71,7 @@
 	ol {
 		@apply list-decimal ms-4 space-y-2 reg-spacing;
 	}
-	
+
 	ul a,
 	ol a {
 		@apply link;
