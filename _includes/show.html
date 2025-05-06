@@ -1,4 +1,4 @@
-<li>
+<div>
     <div class="flex flex-row h-full items-center py-2 transition-all hover:text-obs-green hover:bg-obs-green/20">
         <div class="w-full flex-grow space-y-1">
             <div class="md:inline-block font-mono md:me-2 opacity-40 text-xs">{{ show["Date"] }}</div>
@@ -7,4 +7,4 @@
         </div>
         {% if show["Link"] and include.upcoming %}<a href="{{ show['Link'] }}" class="button text-xs md:text-sm text-end ms-2">Tickets</a>{% endif %}
     </div>
-</li>
+</div>

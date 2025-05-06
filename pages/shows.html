@@ -5,7 +5,7 @@ layout: page
 ---
 
 <div class="space-y-8">
-	<ol class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
+	<div class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
 		{% assign shows = site.data.shows | sort:"Date" %}
 		{% assign today_date = "now" | date: "%s" %}
 		{% for show in shows %}
@@ -14,10 +14,10 @@ layout: page
 				{% include show.html upcoming=true %}
 			{% endif %}
 		{% endfor %}
-	</ol>
+	</div>
 
 	<div class="text-lg font-bold">Past shows</div>
-	<ol class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
+	<div class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
 		{% assign shows = site.data.shows | sort:"Date" | reverse %}
 		{% assign today_date = "now" | date: "%s" %}
 		{% for show in shows %}
@@ -26,6 +26,6 @@ layout: page
 				{% include show.html %}
 			{% endif %}
 		{% endfor %}
-		<p>…and many more before Sept 2021 :-)</p>
-	</ol>
+	</div>
+	<p>…and many more before Sept 2021 :-)</p>
 </div>

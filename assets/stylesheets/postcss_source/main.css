@@ -64,12 +64,17 @@
 		@apply mb-0;
 	}
 
-	article ul {
-		@apply list-disc ms-4 space-y-2 reg-spacing;
+	ul {
+		@apply list-[square] ms-4 space-y-2 reg-spacing;
 	}
 
-	article ol {
+	ol {
 		@apply list-decimal ms-4 space-y-2 reg-spacing;
+	}
+	
+	ul a,
+	ol a {
+		@apply link;
 	}
 	
 	input[type="email"] {
