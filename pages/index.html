@@ -3,26 +3,19 @@ layout: page
 permalink: "/"
 ---
 
-<div class="space-y-8 md:space-y-0 md:flex justify-between">
-	<section>
-		<p>spencer tweedy</p>
-		<p>b. 1995, chicago</p>
-		<p>music 'n' writing</p>
-	</section>
-	<section>
-		<p><a href="https://lnkfi.re/50dram" class="link" target="_blank">listen to 50 songs I dram</a></p>
-		<p><a href="{% link pages/drumprints.html %}">download free drum samples</a></p>
-		<p><a href="https://spencertweedy.substack.com/" target="_blank" class="link">read my blog</a></p>
-	</section>
-	<section>
-		<p><a href="{% link pages/music.html %}" class="link">discography</a></p>
-		<p><a href="{% link pages/shows.html %}" class="link">showography</a></p>
-		<p><a href="{% link pages/books.html %}" class="link">bibliography</a></p>
-	</section>
-	<section>
-		<p><a href="mailto:{{ site.email }}" class="link">email me</a></p>
-		<div class="mt-8 max-w-16">
-			<a href="{% link pages/wire.html %}"><img src="{% link _uploads/colbert.png %}" alt="A black-and-white photo of me drumming" class="w-full"></a>
+<div class="max-w-[65ch]">
+	{% assign posts = site.wire | reverse %}
+	{% for post in posts %}
+	<article class="py-2 first:pt-0">
+		<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
+		<div>
+			{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
+			{{ post.content }}
 		</div>
-	</section>
+	</article>
+	{% endfor %}
+</div>
+
+<div>
+	<p>Pre-wire: <a href="{% link pages/observations/index.html %}">Observations</a></p>
 </div>
