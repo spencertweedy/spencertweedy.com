@@ -131,7 +131,7 @@
 	}
 	
 	.link {
-		@apply underline text-blue-600 dark:text-obs-green decoration-obs-green dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
+		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
 	}
 	
 	ul.link-list {
