@@ -7,7 +7,7 @@ permalink: "/about"
 <div class="space-y-4">
     <a class="text-4xl block link" href="{% link pages/music.html %}">MUSIC</a>
     <a class="text-4xl block link" href="{% link pages/shows.html %}">SHOWS</a>
-    <a class="text-4xl block link" href="[{% link pages/shows.html %}](https://spencertweedy.substack.com/)">SUBSCRIBE</a>
+    <a class="text-4xl block link" href="https://spencertweedy.substack.com/">SUBSCRIBE</a>
 </div>
 
 ![Spencer Tweedy performs on The Late Show with Stephen Colbert]({% link _uploads/colbert.png %})
