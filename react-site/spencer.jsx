@@ -30,6 +30,8 @@ function parseCSV(text) {
 function App() {
   const [shows, setShows] = React.useState([]);
   const [query, setQuery] = React.useState('');
+  const [sortField, setSortField] = React.useState('');
+  const [asc, setAsc] = React.useState(true);
 
   React.useEffect(() => {
     fetch('shows.csv')
@@ -47,6 +49,15 @@ function App() {
     );
   });
 
+  const sorted = React.useMemo(() => {
+    if (!sortField) return filtered;
+    return [...filtered].sort((a, b) => {
+      const av = a[sortField] || '';
+      const bv = b[sortField] || '';
+      return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+    });
+  }, [filtered, sortField, asc]);
+
   return (
     <div className="container">
       <h1>Spencer Tweedy Shows</h1>
@@ -60,14 +71,22 @@ function App() {
       <table className="table">
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Location</th>
-            <th>Artist</th>
-            <th>Venue</th>
+            {['Date', 'Location', 'Artist', 'Venue'].map(field => (
+              <th
+                key={field}
+                onClick={() => {
+                  setSortField(field);
+                  setAsc(field === sortField ? !asc : true);
+                }}
+              >
+                {field}
+                {sortField === field ? (asc ? ' ▲' : ' ▼') : ''}
+              </th>
+            ))}
           </tr>
         </thead>
         <tbody>
-          {filtered.map((show, i) => (
+          {sorted.map((show, i) => (
             <tr key={i}>
               <td>{show['Date']}</td>
               <td>{show['Location']}</td>

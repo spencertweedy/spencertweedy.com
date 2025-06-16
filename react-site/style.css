@@ -1,5 +1,5 @@
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   margin: 0;
   background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   min-height: 100vh;
@@ -28,13 +28,29 @@ a:hover {
   text-decoration: underline;
 }
 
-nav ul {
-  list-style: none;
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 0;
+  list-style: none;
 }
 
-nav li {
-  margin-bottom: 0.5rem;
+.card {
+  flex: 1 1 200px;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.1s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .search {
@@ -56,4 +72,13 @@ nav li {
 
 .table th {
   background: #f0f0f0;
+  cursor: pointer;
+}
+
+.table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.table tr:hover {
+  background: #e6f7ff;
 }
