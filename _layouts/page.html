@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<h1 class="sr-only">{{ page.title }}</h1>
-<div class="px-[5vw] space-y-8">
+{% if page.title %}<h1 class="text-4xl mb-8 font-sans">{{ page.title }}</h1>{% endif %}
+<div class="space-y-4">
     {{ content }}
 </div>

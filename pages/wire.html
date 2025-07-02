@@ -1,12 +1,13 @@
 ---
 layout: page
+title: "Wire Service"
 permalink: "/wire"
 ---
 
-<div class="max-w-[65ch]">
+<div>
 	{% assign posts = site.wire | reverse %}
 	{% for post in posts %}
-	<article class="py-2 first:pt-0">
+	<article class="py-6">
 		<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
 		<div>
 			{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
@@ -17,5 +18,5 @@ permalink: "/wire"
 </div>
 
 <div>
-	<p>Earlier? Check out <a href="{% link pages/observations/index.html %}">Observations</a></p>
+	<p>Pre-wire: <a href="{% link pages/observations/index.html %}">Observations</a></p>
 </div>

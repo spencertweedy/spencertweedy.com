@@ -3,19 +3,51 @@ layout: page
 permalink: "/"
 ---
 
-<div class="max-w-[65ch]">
-	{% assign posts = site.wire | reverse %}
-	{% for post in posts %}
-	<article class="py-6 first:pt-0">
-		<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
-		<div>
-			{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
-			{{ post.content }}
-		</div>
-	</article>
-	{% endfor %}
-</div>
+<div class="space-y-8">
+	<p class="text-3xl">Hi, I’m Spencer and I…</p>
 
-<div>
-	<p>Pre-wire: <a href="{% link pages/observations/index.html %}">Observations</a></p>
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>play drums: <a href="{% link pages/artists/jeff-tweedy.html %}">Jeff Tweedy</a>, <a href="{% link pages/artists/mavis-staples.html %}">Mavis Staples</a>, <a href="{% link pages/artists/waxahatchee.html %}">Waxahatchee</a>, <a href="{% link pages/artists/norah-jones.html %}">Norah Jones</a>, <a href="{% link pages/artists/case-oats.html %}">Case Oats</a>, <a href="{% link pages/artists/finom.html %}">Finom</a>, <a href="{% link pages/artists/liam-kazar.html %}">Liam Kazar</a>, <a href="{% link pages/artists/lucky-cloud.html %}">Lucky Cloud</a>, <a href="{% link pages/music.html %}">and more</a>…</p>
+
+		<img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>write a <a href="https://spencertweedy.substack.com/">newsletter</a>…</p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>make music…</p>
+
+		<div class="flex items-center gap-8 py-8 justify-center">
+			<a class="w-12 md:w-16" href="https://spencertweedy.bandcamp.com/music"><img class="w-full" src="{% link _uploads/streaming/bandcamp.png %}" alt="Listen to Spencer Tweedy on Bandcamp"></a>
+			<a class="w-12 md:w-16" href="https://music.apple.com/us/artist/spencer-tweedy/1192853169"><img class="w-full" src="{% link _uploads/streaming/applemusic.png %}" alt="Stream Spencer Tweedy on Apple Music"></a>
+			<a class="w-12 md:w-16 bg-black h-12 md:h-16 flex items-center justify-center rounded-lg" href="https://tidal.com/browse/artist/8415400?u"><img class="w-4/5 invert" src="{% link _uploads/streaming/tidal.png %}" alt="Stream Spencer Tweedy on Tidal"></a>
+			<a class="w-12 md:w-16" href="https://open.spotify.com/artist/7vVAC0lEXRJiUM0dw1fAmg?si=tOerz0SHSUOnStjGuA_oHQ"><img class="w-full" src="{% link _uploads/streaming/spotify.png %}" alt="Stream Spencer Tweedy on Spotify"></a>
+		</div>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>publish books…</p>
+
+		<div class="flex justify-center items-center py-4">
+			<div class="w-32 -rotate-[3deg] z-30"><a href="{% link pages/mirror-sound.html %}"><img class="w-full" src="{% link _uploads/mirror-sound/mirror-sound-cover-small.jpg %}" alt="The cover of Mirror Sound"></a></div>
+			<div class="rotate-[2deg] w-24 z-10"><a href="{% link pages/observations/books/year-one.html %}"><img class="w-full" src="{% link _uploads/observations-cover-web.jpg %}" alt="The cover of Observations Year One"></a></div>
+			<div class="rotate-[4deg] w-24 z-20"><a href="https://store.spencertweedy.com/products/observations-year-two-book"><img class="w-full" src="{% link _uploads/observations-year-two.webp %}" alt="The cover of Observations Year Two"></a></div>
+		</div>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>produce records: <a href="{% link pages/artists/henry-true.html %}">Henry True</a>, <a href="{% link pages/artists/case-oats.html %}">Case Oats</a>, <a href="{% link pages/artists/elizabeth-moen.html %}">Elizabeth Moen</a>, and <a href="{% link pages/artists/spencer-tweedy.html %}">my music</a>…</p>
+
+		<img class="w-full rounded-3xl" src="{% link _uploads/produce.gif %}" alt="An animated selfie of Spencer at a drum set">
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>co-produce a <a href="https://avromfarmparty.com/">festival</a>, release free <a href="{% link pages/drumprints.html %}">drum samples</a>, co-own a <a href="https://pocketchicago.com/">studio</a>, founded a defunct <a href="https://fjordaudio.com/about">audio product company</a>, founded a defunct <a href="https://www.facebook.com/buckteesco/">t-shirt company</a>, ran a database of <a href="https://chicagoservicerelief.com/">service worker fundraisers</a>, made some <a href="https://vimeo.com/spencertweedy">music videos</a>, serve on the boards for <a href="https://www.letterscharity.org/">Letters Charity</a> and <a href="https://www.chicagomusicscene.org/">Chicago Music Scene</a>, wrote for <a href="https://www.rookiemag.com/author/spencertweedy/">Rookie Mag</a> and <a href="https://www.talkhouse.com/artist/spencer-tweedy/">Talkhouse</a>, published a <a href="https://www.popthomology.com/2011/04/dont-be-square-buy-spencer-tweedys-book.html">photo book</a>, was born in 1995, live in Chicago, love Montessori education, miss Lounge Ax, and like <a href="{% link pages/colophon.html %}">computers</a>…</p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>and you can <a href="mailto:{{ site.email }}">contact me</a> 💌</p>
+	</div>
 </div>
