@@ -1,5 +1,5 @@
 ---
-title: Dirt (live)
+title: Dirt (Live)
 artist: Finom
 year: "2024"
 image: "/uploads/releases/finom-dirt.jpg"
