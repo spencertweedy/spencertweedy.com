@@ -1,4 +1,4 @@
-<section class="space-y-4 text-base">
+<div class="space-y-4 text-base">
     {% if include.artist %}
         {% assign releases_by_year = site.releases |  where: 'artist', include.artist | group_by: "year" | sort: "name" | reverse %}
     {% else %}
@@ -10,7 +10,7 @@
             <div>
                 <span class="text-lg font-bold">{{ year.name }}</span>
             </div>
-            <div class="divide-y-2 divide-dotted divide-black/20 w-full">
+            <div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
                 {% for release in releases %}
                     <div>
                         <a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:bg-yellow-400">
@@ -23,4 +23,4 @@
             </div>
         </div>
     {% endfor %}
-</section>
+</div>
