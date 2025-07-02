@@ -5,7 +5,7 @@ layout: page
 ---
 
 <div class="space-y-8">
-	<div class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
+	<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
 		{% assign shows = site.data.shows | sort:"Date" %}
 		{% assign today_date = "now" | date: "%s" %}
 		{% for show in shows %}
@@ -17,7 +17,7 @@ layout: page
 	</div>
 
 	<div class="text-lg font-bold">Past shows</div>
-	<div class="divide-y-2 divide-dotted divide-obs-green/20 w-full">
+	<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
 		{% assign shows = site.data.shows | sort:"Date" | reverse %}
 		{% assign today_date = "now" | date: "%s" %}
 		{% for show in shows %}
