@@ -44,7 +44,24 @@ permalink: "/"
 	</div>
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p>co-produce a <a href="https://avromfarmparty.com/">festival</a>, release free <a href="{% link pages/drumprints.html %}">drum samples</a>, co-own a <a href="https://pocketchicago.com/">studio</a>, founded a defunct <a href="https://fjordaudio.com/about">audio product company</a>, founded a defunct <a href="https://www.facebook.com/buckteesco/">t-shirt company</a>, ran a database of <a href="https://chicagoservicerelief.com/">service worker fundraisers</a>, made some <a href="https://vimeo.com/spencertweedy">music videos</a>, serve on the boards for <a href="https://www.letterscharity.org/">Letters Charity</a> and <a href="https://www.chicagomusicscene.org/">Chicago Music Scene</a>, wrote for <a href="https://www.rookiemag.com/author/spencertweedy/">Rookie Mag</a> and <a href="https://www.talkhouse.com/artist/spencer-tweedy/">Talkhouse</a>, published a <a href="https://www.popthomology.com/2011/04/dont-be-square-buy-spencer-tweedys-book.html">photo book</a>, was born in 1995, live in Chicago, love Montessori education, miss Lounge Ax, and like <a href="{% link pages/colophon.html %}">computers</a>…</p>
+		<p>play shows…</p>
+
+		<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
+			{% assign shows = site.data.shows | sort:"Date" %}
+			{% assign today_date = "now" | date: "%s" %}
+			{% for show in shows %}
+				{% assign show_date = show["Date"] | date: "%s" %}
+				{% if show_date > today_date %}
+					{% include show.html upcoming=true %}
+				{% endif %}
+			{% endfor %}
+		</div>
+
+		<p><a href="{% link pages/shows.html %}">View past shows</a></p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>co-produce a <a href="https://avromfarmparty.com/">festival</a>, release free <a href="{% link pages/drumprints.html %}">drum samples</a>, co-own a <a href="https://pocketchicago.com/">studio</a>, founded a defunct <a href="https://fjordaudio.com/about">audio product company</a>, founded a defunct <a href="https://www.facebook.com/buckteesco/">t-shirt company</a>, ran a database of <a href="https://chicagoservicerelief.com/">service worker fundraisers</a>, made some <a href="https://vimeo.com/spencertweedy">music videos</a>, serve on the boards for <a href="https://www.letterscharity.org/">Letters Charity</a> and <a href="https://www.chicagomusicscene.org/">Chicago Music Scene</a>, wrote for <a href="https://www.rookiemag.com/author/spencertweedy/">Rookie Mag</a> and <a href="https://www.talkhouse.com/artist/spencer-tweedy/">Talkhouse</a>, published a <a href="https://www.popthomology.com/2011/04/dont-be-square-buy-spencer-tweedys-book.html">photo book</a>, was born in 1995, live in Chicago, love Montessori education, miss Lounge Ax, transmit <a href="{% link pages/wire.html %}">wires</a>, and like <a href="{% link pages/colophon.html %}">computers</a>…</p>
 	</div>
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
