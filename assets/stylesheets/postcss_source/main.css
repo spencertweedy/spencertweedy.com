@@ -131,7 +131,11 @@
 	}
 	
 	.link {
-		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
+		@apply underline whitespace-nowrap text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
+	}
+
+	.verb {
+		@apply font-bold font-sans italic text-base;
 	}
 	
 	ul.link-list {
