@@ -5,7 +5,8 @@ artist: Beta Males
 year: 2015
 color: "#00763B"
 listen: https://betamalesmusic.bandcamp.com/album/joy
-image: "/uploads/joy.jpg"
-role: Drums, engineering
+image: "/uploads/releases/joy.jpg"
+role: Drums, engineering, production
+type: EP
 ---
 

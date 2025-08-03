@@ -2,11 +2,11 @@
 title: Power Move
 artist: Joe Powers
 year: "2023"
-image: /uploads/power-move.png
+image: /uploads/releases/power-move.jpg
 color: "#cd3bab"
 listen: https://www.joepowerswebsite.com/
 role: Drums ("Dread," "It's Over," "Otro Planeta")
-is_single: false
+type: LP
 is_featured: false
 date: 2023-03-31T18:50:29.663Z
 ---

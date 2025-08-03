@@ -4,6 +4,15 @@
 # Netlify CMS admin fails if trailing slash isn't included, so…
 /admin    /admin/
 
+# Direct /songs to Bandcamp for now
+/songs    https://spencertweedy.bandcamp.com/
+
+# Short link for Metal Prism Chutes pop-up newsletter
+/mpc      https://spencertweedy.substack.com/s/metal-prism-chutes
+
+# Observations Y2 book discount
+/obs-discount https://store.spencertweedy.com/discount/OBSOFF?redirect=%2Fproducts%2Fobservations-year-two-book
+
 # Redirect subscribe page to Substack (as of 2023-01-02)
 /observations/subscribe    https://spencertweedy.substack.com
 /subscribe                 https://spencertweedy.substack.com

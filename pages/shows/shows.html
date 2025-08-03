@@ -1,0 +1,18 @@
+---
+title: Shows
+permalink: "/shows"
+layout: page
+---
+
+<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
+	{% assign shows = site.data.shows | sort:"Date" %}
+	{% assign today_date = "now" | date: "%s" %}
+	{% for show in shows %}
+		{% assign show_date = show["Date"] | date: "%s" %}
+		{% if show_date > today_date %}
+			{% include show.html upcoming=true %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<p><a href="{% link pages/shows/shows-archive.html %}">View past shows</a></p>

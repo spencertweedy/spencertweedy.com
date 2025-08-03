@@ -5,7 +5,8 @@ artist: Sk8 City High School All-Star Jazz Band
 year: 2016
 color: "#200084"
 listen: https://sk8city.bandcamp.com/album/ranch-generation-2
-image: "/uploads/ranch_generation.jpg"
+image: "/uploads/releases/ranch_generation.jpg"
 role: Engineering
+type: LP
 ---
 

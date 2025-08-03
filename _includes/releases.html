@@ -1,0 +1,26 @@
+<div class="space-y-4 text-base">
+    {% if include.artist %}
+        {% assign releases_by_year = site.releases |  where: 'artist', include.artist | group_by: "year" | sort: "name" | reverse %}
+    {% else %}
+        {% assign releases_by_year = site.releases | group_by: "year" | sort: "name" | reverse %}
+    {% endif %}
+    {% for year in releases_by_year %}
+        <div>
+            {% assign releases = year.items | reverse %}
+            <div>
+                <span class="text-lg font-bold">{{ year.name }}</span>
+            </div>
+            <div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
+                {% for release in releases %}
+                    <div>
+                        <a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 transition-all hover:bg-yellow-400">
+                            <div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full"></div>
+                            <div class="pl-2 md:pl-4 pr-2 w-full flex-grow leading-tight"><span>{{ release.artist }}</span><br><span class="inline-block text-sm md:text-base italic">{{ release.title }}</span> <span class="opacity-40 text-xs uppercase font-mono ps-1">{{ release.type }}</span></div>
+                            <div class="lowercase opacity-40 text-xs md:text-sm text-end">{{ release.role }}</div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

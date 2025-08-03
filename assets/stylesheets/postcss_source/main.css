@@ -28,7 +28,7 @@
 	}
 	
 	p {
-		@apply max-w-prose leading-relaxed my-4;
+		@apply leading-[1.4em] reg-spacing;
 	}
 	
 	p:first-child {
@@ -53,15 +53,40 @@
 	}
 	
 	blockquote {
-		@apply border-l-2 border-current pl-4 my-8;
+		@apply border-s-2 border-current ps-4 reg-spacing clear-start;
 	}
 
-	article ul {
-		@apply list-disc ms-4;
+	blockquote:first-child {
+		@apply mt-0;
+	}
+
+	blockquote:last-child {
+		@apply mb-0;
+	}
+
+	ul {
+		@apply list-[square] ms-4 space-y-2 reg-spacing;
+	}
+
+	ol {
+		@apply list-decimal ms-4 space-y-2 reg-spacing;
+	}
+
+	ul a,
+	ol a {
+		@apply link;
 	}
 	
 	input[type="email"] {
 		@apply drop-shadow-md bg-white p-4 rounded-md text-center;
+	}
+
+	summary {
+		@apply cursor-pointer;
+	}
+
+	mark {
+		@apply bg-yellow-400 p-0.5;
 	}
 }
 
@@ -71,11 +96,19 @@
 	}
 	
 	.button {
-		@apply inline-block bg-blue-600 dark:bg-obs-green py-2 px-4 text-white dark:text-black no-underline transition-all hover:brightness-110;
+		@apply inline-block bg-blue-600 py-2 px-4 text-white no-underline transition-all hover:brightness-110;
+	}
+
+	.announcement-label {
+		@apply bg-yellow-400 dark:bg-violet-800/80 p-2 text-black dark:text-white/60 uppercase tracking-wide font-mono text-sm;
 	}
 }
 
 @layer utilities {
+	.reg-spacing {
+		@apply my-4 first:mt-0 last:mb-0;
+	}
+
 	.h2 {
 		@apply opacity-50 font-sans text-sm flex gap-1 mb-2 items-center;
 	}
@@ -98,14 +131,26 @@
 	}
 	
 	.link {
-		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
+		@apply underline whitespace-nowrap text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
+	}
+
+	.verb {
+		@apply font-bold font-sans italic text-base;
 	}
 	
 	ul.link-list {
-		@apply space-y-2 [&_a]:link;
+		@apply space-y-2 ms-[0.3rem] ps-[0.6rem] border-l dark:border-white/25;
+	}
+
+	ul.link-list a {
+		@apply link;
 	}
 
 	.link-list-note {
 		@apply opacity-25 ms-1 font-mono text-xs;
+	}
+
+	.ascii {
+		@apply font-mono text-xs whitespace-pre;
 	}
 }

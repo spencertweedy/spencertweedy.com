@@ -1,62 +1,44 @@
 ---
-layout: base
+layout: page
 permalink: "/"
 ---
 
-<div class="px-[5vw] space-y-[10vh]">
-	<section>
-		<h2 class="h2">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
-		  	<path d="M7.25 1.75a.75.75 0 0 1 1.5 0v1.5a.75.75 0 0 1-1.5 0v-1.5ZM11.536 2.904a.75.75 0 1 1 1.06 1.06l-1.06 1.061a.75.75 0 0 1-1.061-1.06l1.06-1.061ZM14.5 7.5a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 .75-.75ZM4.464 9.975a.75.75 0 0 1 1.061 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061ZM4.5 7.5a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 .75-.75ZM5.525 3.964a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 1.06-1.061l1.061 1.06ZM8.779 7.438a.75.75 0 0 0-1.368.366l-.396 5.283a.75.75 0 0 0 1.212.646l.602-.474.288 1.074a.75.75 0 1 0 1.449-.388l-.288-1.075.759.11a.75.75 0 0 0 .726-1.165L8.78 7.438Z" />
-			</svg>
-			<span>start here</span>
-		</h2>
-		<ul class="link-list">
-			<li><a href="https://lnkfi.re/50dram">50 Songs I Dram playlist</a></li>
-		</ul>
-	</section>
-	
-	<section>		
-		<p class="mb-4">Subscribe to my newsletter. <br>There are 5,000+ of us under this log.</p>
-		<a href="https://spencertweedy.substack.com/" class="plausible-event-name=Substack+Button bg-[#ed7135] px-4 py-2 rounded text-white font-bold inline-block font-sans hover:brightness-110 text-base">Subscribe on Substack</a>
-	</section>
-	
-	<section>
-		<h2 class="h2">music</h2>
-		<ul class="link-list">
-			<li><a href="{% link pages/drumprints.html %}">Drumprints samples</a> <span class="link-list-note">2023</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/album/sleep-is-my-god">Sleep Is My God EP</a> <span class="link-list-note">2019</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/album/geezer-love">Geezer Love EP</a> <span class="link-list-note">2016</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/track/temple-state">Temple State single</a> <span class="link-list-note">2014</span></li>
-			<li><a href="https://spencertweedy.bandcamp.com/track/rushmore">Rushmore single</a> <span class="link-list-note">2012</span></li>
-		</ul>
-	</section>
-	
-	<section>
-		<h2 class="h2">books</h2>
-		<ul class="link-list">
-			<li><a href="https://store.spencertweedy.com/products/mirror-sound-hardcover-book">Mirror Sound</a></li>
-			<li><a href="https://store.spencertweedy.com/products/observations-year-two-book">Observations Y2</a></li>
-			<li><a href="{% link pages/observations/books/year-one.html %}">Observations Y1</a> <span class="link-list-note">(sold out)</span></li>
-			<li><a href="https://www.popthomology.com/2011/04/dont-be-square-buy-spencer-tweedys-book.html">Square Eye</a> <span class="link-list-note">(sold out)</span></li>
-		</ul>
-	</section>
-	
-	<section>
-		<h2 class="h2">more</h2>
-		<ul class="link-list">
-			<li><a href="{% link pages/music.html %}">discography</a></li>
-			<li><a href="{% link pages/shows.html %}">tour dates</a></li>
-			<li><a href="{% link pages/drumprints.html %}">free drum samples</a></li>
-			<li><a href="{% link pages/wire.html %}">wire service</a></li>
-			<li><a href="{% link pages/colophon.html %}">website colophon</a></li>
-			<li><a href="{% link pages/observations/index.html %}">observations archive</a></li>
-			<li><a href="https://literal.club/spencer">books I’m reading</a></li>
-			<li><a href="mailto:{{ site.email }}">contact me</a></li>
-		</ul>
-	</section>
-	
-	<figure class="block w-1/2 my-[5vw] sm:my-0 sm:w-auto sm:max-w-[70vw] sm:fixed sm:right-[5vw] sm:bottom-[5vw] bg-amber-400 dark:brightness-50 -z-10">
-		<img src="{% link assets/spencer-tweedy-cc-drumming.jpg %}" class="sm:max-h-[25vh] mix-blend-overlay saturate-0" alt="Spencer Tweedy playing a red onyx Slingerland drum kit, eyes closed, in front of yellow curtains.">
-	</figure>
+<div class="space-y-8">
+	<p class="text-3xl text-center">Hi, I’m Spencer and I…</p>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p><span class="verb">play</span> drums: Jeff Tweedy, Waxahatchee, Mavis Staples, Case Oats, Norah Jones, Finom, and more… <a href="{% link pages/releases/music.html %}">Open my discography</a></p>
+
+		<img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p><span class="verb">tour</span>… Dates with Jeff Tweedy, Waxahatchee, and Case Oats soon. <a href="{% link pages/shows/shows.html %}">Open my showography</a></p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p><span class="verb">produce</span> records: <a href="{% link pages/releases/artists/henry-true.html %}">Henry True</a>, <a href="{% link pages/releases/artists/case-oats.html %}">Case Oats</a>, <a href="{% link pages/releases/artists/elizabeth-moen.html %}">Elizabeth Moen</a>, and <a href="{% link pages/releases/artists/spencer-tweedy.html %}">my own</a>…</p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p><span class="verb">publish</span> books… <a href="{% link pages/books.html %}">Open my bibliography</a></p>
+
+		<div class="flex justify-center items-center py-4">
+			<div class="w-32 -rotate-[3deg] z-30"><a href="{% link pages/mirror-sound.html %}"><img class="w-full" src="{% link _uploads/mirror-sound/mirror-sound-cover-small.jpg %}" alt="The cover of Mirror Sound"></a></div>
+			<div class="rotate-[2deg] w-24 z-10"><a href="{% link pages/observations/books/year-one.html %}"><img class="w-full" src="{% link _uploads/observations-cover-web.jpg %}" alt="The cover of Observations Year One"></a></div>
+			<div class="rotate-[4deg] w-24 z-20"><a href="https://store.spencertweedy.com/products/observations-year-two-book"><img class="w-full" src="{% link _uploads/observations-year-two.webp %}" alt="The cover of Observations Year Two"></a></div>
+		</div>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p><span class="verb">write</span> a <a href="https://spencertweedy.substack.com/">newsletter</a>…</p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p><span class="verb">co-produce</span> a <a href="https://avromfarmparty.com/">festival</a>, <span class="verb">release</span> free <a href="{% link pages/drumprints.html %}">drum samples</a>, <span class="verb">co-operate</span> a <a href="https://pocketchicago.com/">studio</a>, <span class="verb">founded</span> a defunct audio product <a href="https://fjordaudio.com/about">company</a>, <span class="verb">founded</span> a defunct t-shirt <a href="https://www.facebook.com/buckteesco/">company</a>, <span class="verb">compiled</span> a database of service worker <a href="https://chicagoservicerelief.com/">fundraisers</a>, <span class="verb">made</span> some <a href="https://vimeo.com/spencertweedy">music videos</a>, <span class="verb">serve</span> on the boards for <a href="https://www.letterscharity.org/">Letters Charity</a> and <a href="https://www.chicagomusicscene.org/">Chicago Music Scene</a>, <span class="verb">wrote</span> for <a href="https://www.rookiemag.com/author/spencertweedy/">Rookie Mag</a> and <a href="https://www.talkhouse.com/artist/spencer-tweedy/">Talkhouse</a>, got <span class="verb">born</span> in 1995, live in Chicago, <span class="verb">love</span> Montessori education, <span class="verb">miss</span> Lounge Ax, <span class="verb">transmit</span> <a href="{% link pages/wire.html %}">wires</a>, and <span class="verb">like</span> <a href="{% link pages/colophon.html %}">computers</a>…</p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<p>and you can <a href="mailto:{{ site.email }}">contact me</a> 💌</p>
+	</div>
 </div>

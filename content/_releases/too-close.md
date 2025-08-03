@@ -5,8 +5,8 @@ artist: Amos Pitsch & Spencer Tweedy
 year: 2018
 color: "#7C9EBF"
 listen: https://amosandspencer.bandcamp.com
-image: "/uploads/too_close.jpg"
+image: "/uploads/releases/too_close.jpg"
 role: Drums, guitar, vocals (background)
-is_single: true
+type: single
 ---
 

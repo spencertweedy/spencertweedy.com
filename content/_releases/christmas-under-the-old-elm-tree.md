@@ -5,8 +5,8 @@ artist: " Julia Blair, Amos Pitsch & Friends "
 year: 2018
 color: "#8C6B58"
 listen: https://honeytone.bandcamp.com/album/christmas-under-the-old-elm-tree
-image: "/uploads/julia_and_amos.jpg"
+image: "/uploads/releases/julia_and_amos.jpg"
 role: Drums
-is_single: true
+type: single
 ---
 

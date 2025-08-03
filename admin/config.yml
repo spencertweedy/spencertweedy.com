@@ -8,6 +8,22 @@ public_folder: "/uploads" # Tells Netlify CMS where to read uploads in the ouput
 display_url: "https://spencertweedy.com" # Used in the UI
 # Define collections (must manually keep up-to-date with site generator config)
 collections:
+  - name: "Wire Service"
+    label: "Wire Service"
+    label_singular: "Wire"
+    folder: "content/_wire"
+    identifier_field: slug
+    editor:
+      preview: false
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
   - name: "posts"
     label: "Posts"
     label_singular: "Post"
@@ -52,6 +68,5 @@ collections:
       - {label: "Color", name: "color", widget: "string"}
       - {label: "Listen URL", name: "listen", widget: "string", required: false}
       - {label: "Role", name: "role", widget: "string", required: false}
-      - {label: "Is it a single?", name: "is_single", widget: "boolean", default: false}
-      - {label: "Feature it?", name: "is_featured", widget: "boolean", default: false}
+      - {label: "Type", name: "type", widget: "select", options: ["single", "EP", "LP"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}

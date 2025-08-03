@@ -5,7 +5,7 @@ artist: Spencer Tweedy
 year: 2014
 color: "#574860"
 listen: https://spencertweedy.bandcamp.com/track/temple-state
-image: "/uploads/temple_state.jpg"
-is_single: true
+image: "/uploads/releases/temple_state.jpg"
+type: single
 ---
 

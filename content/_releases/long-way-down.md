@@ -5,8 +5,9 @@ artist: Henry True
 year: 2018
 color: "#7DBF86"
 listen: https://henrytrue.bandcamp.com/album/long-way-down
-image: "/uploads/long_way_down.jpg"
+image: "/uploads/releases/long_way_down.jpg"
 role: Drums, engineering
 is_featured: false
+type: EP
 ---
 

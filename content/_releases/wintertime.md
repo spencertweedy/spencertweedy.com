@@ -5,9 +5,9 @@ artist: Norah Jones
 year: 2018
 color: "#3B7D93"
 listen: https://norahjones.lnk.to/Wintertime
-image: "/uploads/norah_jones_wintertime.jpg"
+image: "/uploads/releases/norah_jones_wintertime.jpg"
 role: Drums
-is_single: true
+type: single
 is_featured: false
 ---
 

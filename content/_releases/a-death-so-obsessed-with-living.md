@@ -5,7 +5,8 @@ artist: Isaac Levine
 year: 2018
 color: "#808275"
 listen: https://isaaclevine.bandcamp.com/album/a-death-so-obsessed-with-living
-image: "/uploads/isaac_levine.png"
-role: Engineering
+image: "/uploads/releases/isaac_levine.jpg"
+role: Engineering and production
+type: LP
 ---
 

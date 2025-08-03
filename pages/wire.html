@@ -1,18 +1,22 @@
 ---
-layout: base
+layout: page
+title: "Wire Service"
 permalink: "/wire"
 ---
 
-<div class="px-[5vw] space-y-[10vh]">
+<div>
 	{% assign posts = site.wire | reverse %}
 	{% for post in posts %}
-	<article class="space-y-4">
-		{% if post.link %}<h1><a href="{{ post.link }}" class="link">{{ post.title }}</a></h1>{% endif %}
-		<div>{{ post.content }}</div>
-		<div class="uppercase font-mono text-sm space-x-2">
-			<span class="opacity-40"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time></span>
-			<span>{{ post.tags }}</span>
+	<article class="py-6">
+		<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
+		<div>
+			{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
+			{{ post.content }}
 		</div>
 	</article>
 	{% endfor %}
+</div>
+
+<div>
+	<p>Pre-wire: <a href="{% link pages/observations/index.html %}">Observations</a></p>
 </div>
