@@ -1,0 +1,7809 @@
+[
+  {
+    "id": 1,
+    "order": "1.00000000000000000000",
+    "Date": "2021-09-22",
+    "Location": "Davenport, IA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      },
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Raccoon Motel",
+    "Lineup": "Liam Kazar, Case Oats",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 2,
+    "order": "2.00000000000000000000",
+    "Date": "2021-09-23",
+    "Location": "Kansas City, MO",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Lemonade Park",
+    "Lineup": "Shy Boys, Liam Kazar, Paris Williams",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 3,
+    "order": "3.00000000000000000000",
+    "Date": "2021-09-24",
+    "Location": "Des Moines, IA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Gas Lamp",
+    "Lineup": "Thelma and the Sleeze, Liam Kazar, Karen Meat",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 4,
+    "order": "4.00000000000000000000",
+    "Date": "2021-09-25",
+    "Location": "St. Paul, MN",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Turf Club",
+    "Lineup": "Liam Kazar, Loud Sun, Al Church",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 5,
+    "order": "5.00000000000000000000",
+    "Date": "2021-09-26",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Colectivo Back Room",
+    "Lineup": "Deeper/Ohmme, Liam Kazar",
+    "Gear Notes": "Deeper's drums (super kind Shiraz's) with super floppy bass drum",
+    "Link": null
+  },
+  {
+    "id": 6,
+    "order": "6.00000000000000000000",
+    "Date": "2021-10-01",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Golden Dagger",
+    "Lineup": "Case Oats, Rat Tally",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 7,
+    "order": "7.00000000000000000000",
+    "Date": "2021-10-02",
+    "Location": "Dallas, TX",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Double Wide",
+    "Lineup": "Deeper/Ohmme, Nicole Marxen",
+    "Gear Notes": "Deeper drums + my C&C gold sparkle snare",
+    "Link": null
+  },
+  {
+    "id": 8,
+    "order": "8.00000000000000000000",
+    "Date": "2021-10-03",
+    "Location": "Houston, TX",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Satellite Bar",
+    "Lineup": "Deeper/Ohmme, Astragal",
+    "Gear Notes": "Astragal's \"George Bonham\" Ludwig, big dimensions, they were using a floor tom on a stand as a rack tom",
+    "Link": null
+  },
+  {
+    "id": 9,
+    "order": "9.00000000000000000000",
+    "Date": "2021-10-04",
+    "Location": "New Orleans, LA",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Gasa Gasa",
+    "Lineup": "Deeper/Ohmme, Cash Advance",
+    "Gear Notes": "Deeper drums + my C&C gold sparkle snare",
+    "Link": null
+  },
+  {
+    "id": 10,
+    "order": "10.00000000000000000000",
+    "Date": "2021-10-05",
+    "Location": "Jackson, MS",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Hal & Mal's",
+    "Lineup": "Deeper/Ohmme, RCF",
+    "Gear Notes": "Deeper drums + my C&C gold sparkle snare",
+    "Link": null
+  },
+  {
+    "id": 11,
+    "order": "11.00000000000000000000",
+    "Date": "2021-10-06",
+    "Location": "Memphis, TN",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Hi-Tone Cafe",
+    "Lineup": "Deeper/Ohmme, Sunweight",
+    "Gear Notes": "Deeper drums + my C&C gold sparkle snare",
+    "Link": null
+  },
+  {
+    "id": 12,
+    "order": "12.00000000000000000000",
+    "Date": "2021-10-07",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "The End",
+    "Lineup": "Deeper/Ohmme, Bats",
+    "Gear Notes": "Deeper drums + my C&C gold sparkle snare",
+    "Link": null
+  },
+  {
+    "id": 13,
+    "order": "13.00000000000000000000",
+    "Date": "2021-10-08",
+    "Location": "St. Louis, MO",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Off Broadway",
+    "Lineup": "Deeper/Ohmme",
+    "Gear Notes": "Deeper drums + my C&C gold sparkle snare",
+    "Link": null
+  },
+  {
+    "id": 14,
+    "order": "14.00000000000000000000",
+    "Date": "2021-10-09",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Thee Best Western Festival at Empty Bottle",
+    "Lineup": "Ryley Walker, Liam Kazar, Hoyle Brothers, Tobacco City, Valebol",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 15,
+    "order": "15.00000000000000000000",
+    "Date": "2021-10-20",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Lincoln Hall",
+    "Lineup": "Felice Brothers, Sima Cunningham, Al Olender",
+    "Gear Notes": "Felice Brothers' Slingerland frankenkit",
+    "Link": null
+  },
+  {
+    "id": 16,
+    "order": "16.00000000000000000000",
+    "Date": "2021-10-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3007,
+        "value": "Aux Thom",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Christy Webber Farm & Garden",
+    "Lineup": "Aux Thom, Scary Garcia, Clay Frank",
+    "Gear Notes": "Scary Garcia (Rookie, Joe Bordenaro)'s bizarre pointy-concert-bottom'ed Slingerland with chrome wrap. Sounded great!",
+    "Link": null
+  },
+  {
+    "id": 17,
+    "order": "17.00000000000000000000",
+    "Date": "2021-10-24",
+    "Location": "Cleveland, OH",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Grog Shop",
+    "Lineup": "Shannon and the Clams, Ohmme, The D-Rays",
+    "Gear Notes": "Shannon and the Clams' awful rented Guitar Center Pearl Export kit",
+    "Link": null
+  },
+  {
+    "id": 18,
+    "order": "18.00000000000000000000",
+    "Date": "2021-10-29",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Lavender Country headliner",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 19,
+    "order": "19.00000000000000000000",
+    "Date": "2021-10-30",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Lavender Country headliner",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 20,
+    "order": "20.00000000000000000000",
+    "Date": "2021-10-31",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Lavender Country headliner",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 21,
+    "order": "21.00000000000000000000",
+    "Date": "2021-11-18",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Charlotte Cornfield, Case Oats",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 22,
+    "order": "22.00000000000000000000",
+    "Date": "2021-11-19",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3008,
+        "value": "Kelly Hogan",
+        "color": "pink"
+      }
+    ],
+    "Venue": "Thalia Hall",
+    "Lineup": "Mavis Staples, Kelly Hogan",
+    "Gear Notes": "Rented SIR Ludwig, blue sparkle, big dimensions",
+    "Link": null
+  },
+  {
+    "id": 23,
+    "order": "23.00000000000000000000",
+    "Date": "2021-11-20",
+    "Location": "Berwyn, IL",
+    "Artist": [
+      {
+        "id": 3008,
+        "value": "Kelly Hogan",
+        "color": "pink"
+      }
+    ],
+    "Venue": "Fitzgerald's",
+    "Lineup": "Mavis Staples, Kelly Hogan",
+    "Gear Notes": "Rented Ludwig Centennial",
+    "Link": null
+  },
+  {
+    "id": 24,
+    "order": "24.00000000000000000000",
+    "Date": "2021-12-14",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Liam Kazar, Dusk",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 25,
+    "order": "25.00000000000000000000",
+    "Date": "2021-12-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Metro",
+    "Lineup": "Jeff Tweedy, Tenci",
+    "Gear Notes": "Root beer candy Gretsch",
+    "Link": null
+  },
+  {
+    "id": 26,
+    "order": "26.00000000000000000000",
+    "Date": "2021-12-23",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Metro",
+    "Lineup": "Jeff Tweedy, Tenci",
+    "Gear Notes": "Root beer candy Gretsch",
+    "Link": null
+  },
+  {
+    "id": 27,
+    "order": "27.00000000000000000000",
+    "Date": "2022-01-18",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "Rented C&C",
+    "Link": null
+  },
+  {
+    "id": 28,
+    "order": "28.00000000000000000000",
+    "Date": "2022-01-19",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "Rented C&C",
+    "Link": null
+  },
+  {
+    "id": 29,
+    "order": "29.00000000000000000000",
+    "Date": "2022-02-02",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3009,
+        "value": "Andrew Sa",
+        "color": "light-cyan"
+      },
+      {
+        "id": 3008,
+        "value": "Kelly Hogan",
+        "color": "pink"
+      }
+    ],
+    "Venue": "Golden Dagger",
+    "Lineup": "Andrew Sa, Kelly Hogan",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 30,
+    "order": "30.00000000000000000000",
+    "Date": "2022-02-07",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3006,
+        "value": "Ripley",
+        "color": "dark-cyan"
+      }
+    ],
+    "Venue": "Schubas",
+    "Lineup": "Jaewon, Ripley, Kasia",
+    "Gear Notes": "Jaewon's drummer Eric's slick Pearl Masters gold sparkle",
+    "Link": null
+  },
+  {
+    "id": 31,
+    "order": "31.00000000000000000000",
+    "Date": "2022-02-08",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Lucky Cloud, Sleepy Gaucho, Alayne Mae (sp)",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 32,
+    "order": "32.00000000000000000000",
+    "Date": "2022-02-09",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Sabine McCalla, Elizabeth Moen, Wyatt Waddell, Mary Willamson, Andrew Sa",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 33,
+    "order": "33.00000000000000000000",
+    "Date": "2022-02-10",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 34,
+    "order": "34.00000000000000000000",
+    "Date": "2022-02-11",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 35,
+    "order": "35.00000000000000000000",
+    "Date": "2022-02-12",
+    "Location": "Madison, WI",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "UW Madison",
+    "Lineup": "Liam Kazar, EMTN (?)",
+    "Gear Notes": "Opener's drums",
+    "Link": null
+  },
+  {
+    "id": 36,
+    "order": "36.00000000000000000000",
+    "Date": "2022-02-21",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Jeff Tweedy, Mark Eitzel",
+    "Gear Notes": "Tweedy C&C",
+    "Link": null
+  },
+  {
+    "id": 37,
+    "order": "37.00000000000000000000",
+    "Date": "2022-02-22",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Jeff Tweedy, Mark Eitzel",
+    "Gear Notes": "Tweedy C&C",
+    "Link": null
+  },
+  {
+    "id": 38,
+    "order": "38.00000000000000000000",
+    "Date": "2022-02-24",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Largo",
+    "Lineup": "Jeff Tweedy, Pete Holmes",
+    "Gear Notes": "Tweedy C&C",
+    "Link": null
+  },
+  {
+    "id": 39,
+    "order": "39.00000000000000000000",
+    "Date": "2022-02-25",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Largo",
+    "Lineup": "Jeff Tweedy, Nick Offerman",
+    "Gear Notes": "Tweedy C&C",
+    "Link": null
+  },
+  {
+    "id": 40,
+    "order": "40.00000000000000000000",
+    "Date": "2022-02-26",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Metro",
+    "Lineup": "Liam Kazar, Lake James, Wyatt Waddell",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 41,
+    "order": "41.00000000000000000000",
+    "Date": "2022-03-03",
+    "Location": "Columbia, MO",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Missouri Theatre",
+    "Lineup": "True/False Festival",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 42,
+    "order": "42.00000000000000000000",
+    "Date": "2022-03-04",
+    "Location": "Columbia, MO",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      },
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Cafe Berlin",
+    "Lineup": "Liam Kazar, Little Mazarin, Case Oats",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 43,
+    "order": "43.00000000000000000000",
+    "Date": "2022-03-05",
+    "Location": "Columbia, MO",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "The Sanctuary at First Presbyterian Church",
+    "Lineup": "Living Hour, Spencer & Sammy Tweedy, Rae Fitzgerald, Lucas Oswald",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 44,
+    "order": "44.00000000000000000000",
+    "Date": "2022-03-05",
+    "Location": "Columbia, MO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Picturehouse",
+    "Lineup": "True/False Festival",
+    "Gear Notes": "Avocado green Gibson J-45",
+    "Link": null
+  },
+  {
+    "id": 45,
+    "order": "45.00000000000000000000",
+    "Date": "2022-03-05",
+    "Location": "Columbia, MO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Picturehouse ",
+    "Lineup": "True/False Festival",
+    "Gear Notes": "Avocado green Gibson J-45",
+    "Link": null
+  },
+  {
+    "id": 46,
+    "order": "46.00000000000000000000",
+    "Date": "2022-03-06",
+    "Location": "Columbia, MO",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "Blue Note",
+    "Lineup": "True/False Festival",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 47,
+    "order": "47.00000000000000000000",
+    "Date": "2022-03-06",
+    "Location": "Columbia, MO",
+    "Artist": [
+
+    ],
+    "Venue": "Blue Note",
+    "Lineup": "True/False Festival",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 48,
+    "order": "48.00000000000000000000",
+    "Date": "2022-03-09",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3006,
+        "value": "Ripley",
+        "color": "dark-cyan"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Ripley, Creature Fight, Kasia",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 49,
+    "order": "49.00000000000000000000",
+    "Date": "2022-03-16",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Spider House Ballroom",
+    "Lineup": "SXSW",
+    "Gear Notes": "Sonor Vintage series back line",
+    "Link": null
+  },
+  {
+    "id": 50,
+    "order": "50.00000000000000000000",
+    "Date": "2022-03-16",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "High Noon Saloon",
+    "Lineup": "SXSW",
+    "Gear Notes": "Unknown back line",
+    "Link": null
+  },
+  {
+    "id": 51,
+    "order": "51.00000000000000000000",
+    "Date": "2022-03-17",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Wax Myrtles",
+    "Lineup": "SXSW",
+    "Gear Notes": "Gretsch back line ",
+    "Link": null
+  },
+  {
+    "id": 52,
+    "order": "52.00000000000000000000",
+    "Date": "2022-03-18",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 3009,
+        "value": "Andrew Sa",
+        "color": "light-cyan"
+      }
+    ],
+    "Venue": "Spider House Ballroom",
+    "Lineup": "SXSW",
+    "Gear Notes": "Unknown borrowed kit",
+    "Link": null
+  },
+  {
+    "id": 53,
+    "order": "53.00000000000000000000",
+    "Date": "2022-03-19",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Spider House Ballroom",
+    "Lineup": "SXSW",
+    "Gear Notes": "Unknown borrowed kit",
+    "Link": null
+  },
+  {
+    "id": 54,
+    "order": "54.00000000000000000000",
+    "Date": "2022-03-19",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Adam Ostrar's House Party",
+    "Lineup": "SXSW",
+    "Gear Notes": "Red Onyx Slingerland (pared down)",
+    "Link": null
+  },
+  {
+    "id": 55,
+    "order": "55.00000000000000000000",
+    "Date": "2022-03-19",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Lambert's BBQ",
+    "Lineup": "SXSW",
+    "Gear Notes": "Unknown back line",
+    "Link": null
+  },
+  {
+    "id": 56,
+    "order": "56.00000000000000000000",
+    "Date": "2022-03-20",
+    "Location": "Dallas, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "New New Festival",
+    "Lineup": "Festival",
+    "Gear Notes": "Unknown back line",
+    "Link": null
+  },
+  {
+    "id": 57,
+    "order": "57.00000000000000000000",
+    "Date": "2022-03-21",
+    "Location": "Houston, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "White Oak Music Hall",
+    "Lineup": "Liam Kazar, Minor Moon",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 58,
+    "order": "58.00000000000000000000",
+    "Date": "2022-03-22",
+    "Location": "New Orleans, LA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Gasa Gasa",
+    "Lineup": "Liam Kazar, Minor Moon",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 59,
+    "order": "59.00000000000000000000",
+    "Date": "2022-03-24",
+    "Location": "Atlanta, GA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Eddie's Attic",
+    "Lineup": "Liam Kazar (evening with)",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 60,
+    "order": "60.00000000000000000000",
+    "Date": "2022-03-27",
+    "Location": "Richmond, VA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "The Camel",
+    "Lineup": "Liam Kazar, Abby Huston, Night Idea",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 61,
+    "order": "61.00000000000000000000",
+    "Date": "2022-03-28",
+    "Location": "Baltimore, MD",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Ottobar",
+    "Lineup": "Liam Kazar and there was a solo opener whose name I forgot, maybe also a second support",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 62,
+    "order": "62.00000000000000000000",
+    "Date": "2022-03-29",
+    "Location": "Washington, DC",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "DC9",
+    "Lineup": "Liam Kazar (no opener?)",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 63,
+    "order": "63.00000000000000000000",
+    "Date": "2022-03-30",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "TV Eye",
+    "Lineup": "Liam Kazar, Sweepea, Bill Waters ",
+    "Gear Notes": "House kit with my orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 64,
+    "order": "64.00000000000000000000",
+    "Date": "2022-03-31",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Silk City Diner",
+    "Lineup": "Liam Kazar, Good Things Take Time",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 65,
+    "order": "65.00000000000000000000",
+    "Date": "2022-04-02",
+    "Location": "Cincinnati, OH",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "MOTR Pub",
+    "Lineup": "The Yugos, Spoils, Liam Kazar, Brad Goodall",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 66,
+    "order": "66.00000000000000000000",
+    "Date": "2022-04-03",
+    "Location": "Bloomington, IN",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "The Bishop",
+    "Lineup": "Liam Kazar, Free Range",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 67,
+    "order": "67.00000000000000000000",
+    "Date": "2022-04-09",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3035,
+        "value": "Madeleine Kelson",
+        "color": "gray"
+      },
+      {
+        "id": 3011,
+        "value": "Alaina Stacey",
+        "color": "darker-cyan"
+      }
+    ],
+    "Venue": "Martyrs",
+    "Lineup": "Madeleine Kelson, Alaina Stacy, Carleton Koldyke",
+    "Gear Notes": "House kit with my orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 68,
+    "order": "68.00000000000000000000",
+    "Date": "2022-04-15",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3006,
+        "value": "Ripley",
+        "color": "dark-cyan"
+      }
+    ],
+    "Venue": "Gman Tavern",
+    "Lineup": "Aunt Kelly, Ripley, The Dearlys",
+    "Gear Notes": "Sarah Weddle's vintage Ludwig with my orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 69,
+    "order": "69.00000000000000000000",
+    "Date": "2022-04-16",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Lincoln Hall",
+    "Lineup": "Elizabeth Moen, Lucky Cloud",
+    "Gear Notes": "Liz's drummer David's cool Mapex orange kit, with my orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 70,
+    "order": "70.00000000000000000000",
+    "Date": "2022-05-06",
+    "Location": "Denver, CO",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Bluebird Theater",
+    "Lineup": "Fruit Bats, Liam Kazar",
+    "Gear Notes": "Backline blue sparkle vintage Ludwig",
+    "Link": null
+  },
+  {
+    "id": 71,
+    "order": "71.00000000000000000000",
+    "Date": "2022-05-07",
+    "Location": "Denver, CO",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Bluebird Theater",
+    "Lineup": "Fruit Bats, Liam Kazar",
+    "Gear Notes": "Backline blue sparkle vintage Ludwig",
+    "Link": null
+  },
+  {
+    "id": 72,
+    "order": "72.00000000000000000000",
+    "Date": "2022-05-12",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Sam Evian, Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 73,
+    "order": "73.00000000000000000000",
+    "Date": "2022-05-27",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 3002,
+        "value": "Ohmme",
+        "color": "light-orange"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "Orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 74,
+    "order": "74.00000000000000000000",
+    "Date": "2022-05-28",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 75,
+    "order": "75.00000000000000000000",
+    "Date": "2022-05-28",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 3019,
+        "value": "Mirror Sound",
+        "color": "dark-red"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 76,
+    "order": "76.00000000000000000000",
+    "Date": "2022-05-29",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "Tweedy C&C",
+    "Link": null
+  },
+  {
+    "id": 77,
+    "order": "77.00000000000000000000",
+    "Date": "2022-05-29",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 78,
+    "order": "78.00000000000000000000",
+    "Date": "2022-05-29",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "A cymbal and orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 79,
+    "order": "79.00000000000000000000",
+    "Date": "2022-05-31",
+    "Location": "Winooski, VT",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Monkey House",
+    "Lineup": "Liam Kazar, Bear's Tapestry",
+    "Gear Notes": "Bear's Tapestry's Starclassic drums",
+    "Link": null
+  },
+  {
+    "id": 80,
+    "order": "80.00000000000000000000",
+    "Date": "2022-06-01",
+    "Location": "Kingston, NY",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Tubby's",
+    "Lineup": "Liam Kazar, Hannah Cohen and Sam Evian",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 81,
+    "order": "81.00000000000000000000",
+    "Date": "2022-06-02",
+    "Location": "Troy, NY",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Hangar on the Hudson",
+    "Lineup": "Liam Kazar, The Greetings",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 82,
+    "order": "82.00000000000000000000",
+    "Date": "2022-06-03",
+    "Location": "New Haven, CT",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Cafe Nine",
+    "Lineup": "Liam Kazar, SG Carlson",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 83,
+    "order": "83.00000000000000000000",
+    "Date": "2022-06-05",
+    "Location": "Buffalo, NY",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Buffalo Iron Works",
+    "Lineup": "Liam Kazar (no opener)",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 84,
+    "order": "84.00000000000000000000",
+    "Date": "2022-06-06",
+    "Location": "Detroit, MI",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "UFO Factory",
+    "Lineup": "Liam Kazar, Rachele Eve",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 85,
+    "order": "85.00000000000000000000",
+    "Date": "2022-06-11",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Green Mill",
+    "Lineup": "Paper Machete",
+    "Gear Notes": "Red Onyx Slingerland bass drum, orange Acrolyte snare, house toms and hardware",
+    "Link": null
+  },
+  {
+    "id": 86,
+    "order": "86.00000000000000000000",
+    "Date": "2022-06-11",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Sima Cunningham",
+    "Gear Notes": "House kit with my orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 87,
+    "order": "87.00000000000000000000",
+    "Date": "2022-06-12",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Eli's house",
+    "Lineup": "Case Oats",
+    "Gear Notes": "Epiphone Cortez",
+    "Link": null
+  },
+  {
+    "id": 88,
+    "order": "88.00000000000000000000",
+    "Date": "2022-06-23",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3006,
+        "value": "Ripley",
+        "color": "dark-cyan"
+      }
+    ],
+    "Venue": "Gman Tavern",
+    "Lineup": "Honey Cellar, Ripley, Ester",
+    "Gear Notes": "Joey from Honey Cellar's mix of vintage and modern Ludwigs",
+    "Link": null
+  },
+  {
+    "id": 89,
+    "order": "89.00000000000000000000",
+    "Date": "2022-06-25",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "Mu Gallery",
+    "Lineup": "BSA Gold, Sammy & Spencer Tweedy",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 90,
+    "order": "90.00000000000000000000",
+    "Date": "2022-07-21",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Pritzker Pavilion",
+    "Lineup": "Jeff Tweedy, People's Music School",
+    "Gear Notes": "Tweedy C&C",
+    "Link": null
+  },
+  {
+    "id": 91,
+    "order": "91.00000000000000000000",
+    "Date": "2022-07-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Golden Dagger",
+    "Lineup": "Alayne May, Morinda, Lucky Cloud",
+    "Gear Notes": "Seth Engel's kit (Tama?), orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 92,
+    "order": "92.00000000000000000000",
+    "Date": "2022-07-23",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3012,
+        "value": "Joan Shelley",
+        "color": "dark-yellow"
+      }
+    ],
+    "Venue": "Old Town School of Folk Music",
+    "Lineup": "Joan Shelley, Health and Beauty",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 93,
+    "order": "93.00000000000000000000",
+    "Date": "2022-07-24",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3020,
+        "value": "Dougie Poole",
+        "color": "darker-purple"
+      }
+    ],
+    "Venue": "Judson & Moore Distillery",
+    "Lineup": "Cosmic Country Cookout",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 94,
+    "order": "94.00000000000000000000",
+    "Date": "2022-07-29",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Postock",
+    "Lineup": "Postock",
+    "Gear Notes": "Whitehall",
+    "Link": null
+  },
+  {
+    "id": 95,
+    "order": "95.00000000000000000000",
+    "Date": "2022-07-29",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3028,
+        "value": "Dida Pelled",
+        "color": "dark-purple"
+      }
+    ],
+    "Venue": "Postock",
+    "Lineup": "Postock",
+    "Gear Notes": "Whitehall",
+    "Link": null
+  },
+  {
+    "id": 96,
+    "order": "96.00000000000000000000",
+    "Date": "2022-07-30",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3007,
+        "value": "Aux Thom",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Postock",
+    "Lineup": "Postock",
+    "Gear Notes": "Jack Henry kit",
+    "Link": null
+  },
+  {
+    "id": 97,
+    "order": "97.00000000000000000000",
+    "Date": "2022-07-30",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Postock",
+    "Lineup": "Postock",
+    "Gear Notes": "Jack Henry kit",
+    "Link": null
+  },
+  {
+    "id": 98,
+    "order": "98.00000000000000000000",
+    "Date": "2022-08-05",
+    "Location": "Fishers, IN",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Nickel Plate District Amphitheater",
+    "Lineup": "Waxahatchee, Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 99,
+    "order": "99.00000000000000000000",
+    "Date": "2022-08-06",
+    "Location": "Evanston, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Out of Space at Canal Shores Golf Course",
+    "Lineup": "Lucinda Williams, Waxahatchee, Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 100,
+    "order": "100.00000000000000000000",
+    "Date": "2022-08-07",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Pabst Theater",
+    "Lineup": "Waxahatchee, Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland",
+    "Link": null
+  },
+  {
+    "id": 101,
+    "order": "101.00000000000000000000",
+    "Date": "2022-08-12",
+    "Location": "Green Lake, WI",
+    "Artist": [
+      {
+        "id": 3007,
+        "value": "Aux Thom",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Avrom Farm Party",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 102,
+    "order": "102.00000000000000000000",
+    "Date": "2022-08-12",
+    "Location": "Green Lake, WI",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Avrom Farm Party",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 103,
+    "order": "103.00000000000000000000",
+    "Date": "2022-08-13",
+    "Location": "Green Lake, WI",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Avrom Farm Party",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 104,
+    "order": "104.00000000000000000000",
+    "Date": "2022-08-13",
+    "Location": "Green Lake, WI",
+    "Artist": [
+      {
+        "id": 3022,
+        "value": "Sabine McCalla",
+        "color": "light-pink"
+      }
+    ],
+    "Venue": "Avrom Farm Party",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 105,
+    "order": "105.00000000000000000000",
+    "Date": "2022-08-19",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Schubas",
+    "Lineup": "Astrachan, Lucky Cloud, Pyzow",
+    "Gear Notes": "Astrachan kit, I think it was a Gretsch?",
+    "Link": null
+  },
+  {
+    "id": 106,
+    "order": "106.00000000000000000000",
+    "Date": "2022-08-24",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "The Giant Penny Whistle",
+    "Lineup": "Cass Cwik, Tommy Goodroad, Case Oats",
+    "Gear Notes": "Alan from Cass's band's tiny jazz-y kit. Tiny kick drum, not very good-sounding on stage but great in the house.",
+    "Link": null
+  },
+  {
+    "id": 107,
+    "order": "107.00000000000000000000",
+    "Date": "2022-09-04",
+    "Location": "Traverse City, MI",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Iron Fish Distillery",
+    "Lineup": "All Call Music Festival",
+    "Gear Notes": "Backline Farmer nesting kit",
+    "Link": null
+  },
+  {
+    "id": 108,
+    "order": "108.00000000000000000000",
+    "Date": "2022-09-08",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3006,
+        "value": "Ripley",
+        "color": "dark-cyan"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Mid-American Elevator, Ripley, Leah Jean",
+    "Gear Notes": "British Drum Co. headliner backline, with my orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 109,
+    "order": "109.00000000000000000000",
+    "Date": "2022-09-22",
+    "Location": "Dubuque, IA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Fox Den Motel",
+    "Lineup": "Case Oats, Trevor Sensor",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 110,
+    "order": "110.00000000000000000000",
+    "Date": "2022-09-23",
+    "Location": "Lincoln, NE",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Lincoln Calling Festival",
+    "Lineup": "Lincoln Calling Festival",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 111,
+    "order": "111.00000000000000000000",
+    "Date": "2022-09-24",
+    "Location": "St. Louis, MO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Music Record Shop",
+    "Lineup": "VV Lightbody, Case Oats, Ashley Byrne",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 112,
+    "order": "112.00000000000000000000",
+    "Date": "2022-09-25",
+    "Location": "St. Louis, MO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Joe's Cafe",
+    "Lineup": "Brothers Lazaroff, Case Oats",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 113,
+    "order": "113.00000000000000000000",
+    "Date": "2022-09-26",
+    "Location": "Louisville, KY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Mag Bar",
+    "Lineup": "Case Oats, Bats, Warner Brownfield, \"You Bred Raptors?\"",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 114,
+    "order": "114.00000000000000000000",
+    "Date": "2022-09-27",
+    "Location": "South Bend, IN",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Stockroom East",
+    "Lineup": "Joe Baughman and the Righteous Few, Case Oats, Bailey Williams",
+    "Gear Notes": "Whitehall with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 115,
+    "order": "115.00000000000000000000",
+    "Date": "2022-09-28",
+    "Location": "Oberlin, OH",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Cat in the Cream",
+    "Lineup": "Finom, Friko",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 116,
+    "order": "116.00000000000000000000",
+    "Date": "2022-09-29",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Johnny Brenda's",
+    "Lineup": "Finom, mmeadows, Grocer",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 117,
+    "order": "117.00000000000000000000",
+    "Date": "2022-09-30",
+    "Location": "Kingston, NY",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Tubby's",
+    "Lineup": "Finom, mmeadows",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 118,
+    "order": "118.00000000000000000000",
+    "Date": "2022-10-01",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "TV Eye",
+    "Lineup": "Finom, mmeadows, Emily Robb",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 119,
+    "order": "119.00000000000000000000",
+    "Date": "2022-10-02",
+    "Location": "Washington, DC",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Comet Ping Pong",
+    "Lineup": "Finom, mmeadows, \"Yours, River\"",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 120,
+    "order": "120.00000000000000000000",
+    "Date": "2022-10-03",
+    "Location": "Columbia, SC",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "New Brookland Tavern",
+    "Lineup": "Finom, mmeadows, Outerego",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 121,
+    "order": "121.00000000000000000000",
+    "Date": "2022-10-04",
+    "Location": "Atlanta, GA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "529",
+    "Lineup": "Finom, mmeadows, Lowtown",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 122,
+    "order": "122.00000000000000000000",
+    "Date": "2022-10-05",
+    "Location": "Knoxville, TN",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Pilot Light",
+    "Lineup": "Finom, mmeadows, [plus 2 local bands]",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 123,
+    "order": "123.00000000000000000000",
+    "Date": "2022-10-06",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Blue Room",
+    "Lineup": "Finom, mmeadows, Joe Kenkel",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 124,
+    "order": "124.00000000000000000000",
+    "Date": "2022-10-08",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Thalia Hall",
+    "Lineup": "The Regrettes, Finom, Child Seat",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 125,
+    "order": "125.00000000000000000000",
+    "Date": "2022-10-13",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3016,
+        "value": "Hayden Holbert and Lydia Nye",
+        "color": "dark-gray"
+      }
+    ],
+    "Venue": "Gossip Farm (Lydia's backyard, 1041 N California)",
+    "Lineup": "Morinda, Hayden & Lydia, Shoulderbrid, Henry True, Sarai's band, others",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 126,
+    "order": "126.00000000000000000000",
+    "Date": "2022-10-22",
+    "Location": "Louisville, KY",
+    "Artist": [
+      {
+        "id": 3012,
+        "value": "Joan Shelley",
+        "color": "dark-yellow"
+      }
+    ],
+    "Venue": "St. Phillip Neri",
+    "Lineup": "Joan Shelley, Giant Dunes",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 127,
+    "order": "127.00000000000000000000",
+    "Date": "2022-10-26",
+    "Location": "Davenport, IA",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Raccoon Motel",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 128,
+    "order": "128.00000000000000000000",
+    "Date": "2022-10-28",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 129,
+    "order": "129.00000000000000000000",
+    "Date": "2022-10-29",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 130,
+    "order": "130.00000000000000000000",
+    "Date": "2022-10-31",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 131,
+    "order": "131.00000000000000000000",
+    "Date": "2022-11-13",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Frank Riley surprise birthday party",
+    "Gear Notes": "Pearl Export chrome belonging to Dean and Britta, with my Yamaha Oak Custom snare",
+    "Link": null
+  },
+  {
+    "id": 132,
+    "order": "132.00000000000000000000",
+    "Date": "2022-12-01",
+    "Location": "Seattle, WA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Sunset Tavern",
+    "Lineup": "Liam Kazar, Fruit Juice",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 133,
+    "order": "133.00000000000000000000",
+    "Date": "2022-12-02",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Aladdin Theater",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 134,
+    "order": "134.00000000000000000000",
+    "Date": "2022-12-03",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Aladdin Theater",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 135,
+    "order": "135.00000000000000000000",
+    "Date": "2022-12-05",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 136,
+    "order": "136.00000000000000000000",
+    "Date": "2022-12-06",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 137,
+    "order": "137.00000000000000000000",
+    "Date": "2022-12-07",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Regent Theater",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 138,
+    "order": "138.00000000000000000000",
+    "Date": "2022-12-08",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Regent Theater",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 139,
+    "order": "139.00000000000000000000",
+    "Date": "2022-12-10",
+    "Location": "Solana Beach, CA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Belly Up Tavern",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 140,
+    "order": "140.00000000000000000000",
+    "Date": "2022-12-11",
+    "Location": "Solana Beach, CA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Belly Up Tavern",
+    "Lineup": "The New Pornographers, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 141,
+    "order": "141.00000000000000000000",
+    "Date": "2022-12-13",
+    "Location": "Phoenix, AZ",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Valley Bar",
+    "Lineup": "Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 142,
+    "order": "142.00000000000000000000",
+    "Date": "2022-12-14",
+    "Location": "Santa Fe, NM",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Tumbleroot Brewery",
+    "Lineup": "Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 143,
+    "order": "143.00000000000000000000",
+    "Date": "2022-12-16",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "The Mohawk Indoors",
+    "Lineup": "Liam Kazar, Dorio",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 144,
+    "order": "144.00000000000000000000",
+    "Date": "2022-12-17",
+    "Location": "Dallas, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Ruins",
+    "Lineup": "Liam Kazar, Yellow Jones",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 145,
+    "order": "145.00000000000000000000",
+    "Date": "2022-12-18",
+    "Location": "Oklahoma City, OK",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Ponyboy",
+    "Lineup": "Liam Kazar, This Coast Bias",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 146,
+    "order": "146.00000000000000000000",
+    "Date": "2022-12-19",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3011,
+        "value": "Alaina Stacey",
+        "color": "darker-cyan"
+      }
+    ],
+    "Venue": "Constellation",
+    "Lineup": "24 Hour Marathon",
+    "Gear Notes": "Constellation C&C backline with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 147,
+    "order": "147.00000000000000000000",
+    "Date": "2022-12-19",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3026,
+        "value": "The Blisters",
+        "color": "dark-pink"
+      }
+    ],
+    "Venue": "Constellation",
+    "Lineup": "24 Hour Marathon",
+    "Gear Notes": "Constellation C&C backline with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 148,
+    "order": "148.00000000000000000000",
+    "Date": "2022-12-20",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "Constellation",
+    "Lineup": "24 Hour Marathon",
+    "Gear Notes": "Constellation C&C backline with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 149,
+    "order": "149.00000000000000000000",
+    "Date": "2022-12-21",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Thalia Hall",
+    "Lineup": "Whitney, Liam Kazar",
+    "Gear Notes": "Whitehall (nested) with orange Acrolyte",
+    "Link": null
+  },
+  {
+    "id": 150,
+    "order": "150.00000000000000000000",
+    "Date": "2022-12-29",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Liam Kazar, Tasha, Morinda",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 151,
+    "order": "151.00000000000000000000",
+    "Date": "2022-12-30",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Liam Kazar, Macie Stewart",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 152,
+    "order": "152.00000000000000000000",
+    "Date": "2023-01-04",
+    "Location": "Durham, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Pinhook",
+    "Lineup": "Waxahatchee, Kym Register, Meltdown Rodeo",
+    "Gear Notes": "Joe Westerlund’s drums",
+    "Link": null
+  },
+  {
+    "id": 153,
+    "order": "153.00000000000000000000",
+    "Date": "2023-02-11",
+    "Location": "At sea",
+    "Artist": [
+      {
+        "id": 3018,
+        "value": "Courtney Marie Andrews",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Norwegian Pearl",
+    "Lineup": "Cayamo",
+    "Gear Notes": "Backline",
+    "Link": null
+  },
+  {
+    "id": 154,
+    "order": "154.00000000000000000000",
+    "Date": "2023-02-14",
+    "Location": "At sea",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Norwegian Pearl",
+    "Lineup": "Cayamo",
+    "Gear Notes": "Backline",
+    "Link": null
+  },
+  {
+    "id": 155,
+    "order": "155.00000000000000000000",
+    "Date": "2023-02-15",
+    "Location": "At sea",
+    "Artist": [
+      {
+        "id": 3015,
+        "value": "Brady Blade",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Norwegian Pearl",
+    "Lineup": "Cayamo",
+    "Gear Notes": "Backline",
+    "Link": null
+  },
+  {
+    "id": 156,
+    "order": "156.00000000000000000000",
+    "Date": "2023-02-15",
+    "Location": "At sea",
+    "Artist": [
+      {
+        "id": 3021,
+        "value": "Devon Gilfilian and the Black Opry",
+        "color": "light-green"
+      }
+    ],
+    "Venue": "Norwegian Pearl",
+    "Lineup": "Cayamo",
+    "Gear Notes": "Backline",
+    "Link": null
+  },
+  {
+    "id": 157,
+    "order": "157.00000000000000000000",
+    "Date": "2023-02-24",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Schubas",
+    "Lineup": "Free Range, Minor Moon, Henry True",
+    "Gear Notes": "Jack Henry kit",
+    "Link": null
+  },
+  {
+    "id": 158,
+    "order": "158.00000000000000000000",
+    "Date": "2023-03-01",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Empty Bottle",
+    "Lineup": "Jodi, Lucky Cloud, Shoulderbird",
+    "Gear Notes": "Jodi drummer’s kit",
+    "Link": null
+  },
+  {
+    "id": 159,
+    "order": "159.00000000000000000000",
+    "Date": "2023-03-18",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Golden Dagger",
+    "Lineup": "Case Oats, Dusk",
+    "Gear Notes": "Amos’s drums?",
+    "Link": null
+  },
+  {
+    "id": 160,
+    "order": "160.00000000000000000000",
+    "Date": "2023-03-26",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 161,
+    "order": "161.00000000000000000000",
+    "Date": "2023-04-01",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": "Scout Gillett, The Bascinets, Henry True",
+    "Gear Notes": "One of the other band’s drums",
+    "Link": null
+  },
+  {
+    "id": 162,
+    "order": "162.00000000000000000000",
+    "Date": "2023-04-14",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Cosmic Country Showcase feat. Honey Harper",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 163,
+    "order": "163.00000000000000000000",
+    "Date": "2023-04-15",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Cosmic Country Showcase feat. Honey Harper",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 164,
+    "order": "164.00000000000000000000",
+    "Date": "2023-04-29",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3014,
+        "value": "Horizon of Darkness",
+        "color": "purple"
+      }
+    ],
+    "Venue": "Metro",
+    "Lineup": "Eleventh Dream Day, Lifeguard, Horizon of Darkness",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 165,
+    "order": "165.00000000000000000000",
+    "Date": "2023-05-07",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Gossip Farm",
+    "Lineup": "",
+    "Gear Notes": "Jack Henry’s kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 166,
+    "order": "166.00000000000000000000",
+    "Date": "2023-06-01",
+    "Location": "Three Oaks, MI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Acorn Theater",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 167,
+    "order": "167.00000000000000000000",
+    "Date": "2023-06-02",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Constellation",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 168,
+    "order": "168.00000000000000000000",
+    "Date": "2023-06-09",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Sima Cunningham, Hannah Frances",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 169,
+    "order": "169.00000000000000000000",
+    "Date": "2023-06-10",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Sima Cunningham, Hannah Frances",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 170,
+    "order": "170.00000000000000000000",
+    "Date": "2023-06-27",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Greg Freeman, Case Oats, Hemlock",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 171,
+    "order": "171.00000000000000000000",
+    "Date": "2023-06-30",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Cole’s Bar",
+    "Lineup": "Bubbles Brown, Elijah Berlow, Lucky Cloud",
+    "Gear Notes": "Bubble Brown’s drummer’s drums",
+    "Link": null
+  },
+  {
+    "id": 172,
+    "order": "172.00000000000000000000",
+    "Date": "2023-07-01",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Sammy Tweedy and Spencer Tweedy",
+    "Gear Notes": "House kit and Nord Drum",
+    "Link": null
+  },
+  {
+    "id": 173,
+    "order": "173.00000000000000000000",
+    "Date": "2023-07-05",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Golden Dagger",
+    "Lineup": "Henry True, Ari Lindo, Elizabeth Moen",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 174,
+    "order": "174.00000000000000000000",
+    "Date": "2023-07-08",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Square Roots Festival",
+    "Lineup": "Square Roots Festival",
+    "Gear Notes": "Backline with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 175,
+    "order": "175.00000000000000000000",
+    "Date": "2023-07-09",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Gossip Farm",
+    "Lineup": "Case Oats, Henry True, Red PK, Lydia cover band",
+    "Gear Notes": "Jack Henry kit",
+    "Link": null
+  },
+  {
+    "id": 176,
+    "order": "176.00000000000000000000",
+    "Date": "2023-07-10",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Carol’s Pub",
+    "Lineup": "Alex Grelle and Andrew Sa with Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 177,
+    "order": "177.00000000000000000000",
+    "Date": "2023-07-16",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Alicia Walter, Carlile, Sima Cunningham",
+    "Gear Notes": "Alicia’s drummer’s drums",
+    "Link": null
+  },
+  {
+    "id": 178,
+    "order": "178.00000000000000000000",
+    "Date": "2023-07-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3010,
+        "value": "MJ Lenderman",
+        "color": "deep-dark-orange"
+      }
+    ],
+    "Venue": "Pitchfork Music Festival",
+    "Lineup": "Pitchfork Music Festival",
+    "Gear Notes": "Backline with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 179,
+    "order": "179.00000000000000000000",
+    "Date": "2023-07-24",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Pritzker Pavilion",
+    "Lineup": "Kurt Vile, Finom",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 180,
+    "order": "180.00000000000000000000",
+    "Date": "2023-08-04",
+    "Location": "Ripon, WI",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Avrom Farm",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "Whitehall with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 181,
+    "order": "181.00000000000000000000",
+    "Date": "2023-08-05",
+    "Location": "Ripon, WI",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Avrom Farm",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "Whitehall with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 182,
+    "order": "182.00000000000000000000",
+    "Date": "2023-08-12",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3007,
+        "value": "Aux Thom",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Post Farm",
+    "Lineup": "Sima & Doriain wedding",
+    "Gear Notes": "Whitehall with Cunningham purple snare",
+    "Link": null
+  },
+  {
+    "id": 183,
+    "order": "183.00000000000000000000",
+    "Date": "2023-08-18",
+    "Location": "Bonner, MT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "KettleHouse Amphitheater",
+    "Lineup": "Nathaniel Rateliff & The Night Sweats, Waxahatchee",
+    "Gear Notes": "Backline and my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 184,
+    "order": "184.00000000000000000000",
+    "Date": "2023-08-19",
+    "Location": "Bonner, MT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "KettleHouse Amphitheater",
+    "Lineup": "Nathaniel Rateliff & The Night Sweats, Waxahatchee",
+    "Gear Notes": "Backline and my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 185,
+    "order": "185.00000000000000000000",
+    "Date": "2023-08-22",
+    "Location": "Morrison, CO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Red Rocks Amphitheater",
+    "Lineup": "Nathaniel Rateliff & The Night Sweats, Waxahatchee",
+    "Gear Notes": "Backline and my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 186,
+    "order": "186.00000000000000000000",
+    "Date": "2023-08-23",
+    "Location": "Morrison, CO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Red Rocks Amphitheater",
+    "Lineup": "Nathaniel Rateliff & The Night Sweats, Waxahatchee",
+    "Gear Notes": "Backline and my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 187,
+    "order": "187.00000000000000000000",
+    "Date": "2023-08-30",
+    "Location": "Mount Tremper, NY",
+    "Artist": [
+      {
+        "id": 3032,
+        "value": "Critter Bonus",
+        "color": "red"
+      }
+    ],
+    "Venue": "The Pines",
+    "Lineup": "Critter Bonus",
+    "Gear Notes": "The Pines vintage Ludwig? my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 188,
+    "order": "188.00000000000000000000",
+    "Date": "2023-09-03",
+    "Location": "Woodstock, NY",
+    "Artist": [
+      {
+        "id": 3030,
+        "value": "Sam Evian and Hannah Cohen",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Levon Helm Studios",
+    "Lineup": "Sam Evian, Hannah Cohen",
+    "Gear Notes": "Levon’s Gretsch, my cymbals and orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 189,
+    "order": "189.00000000000000000000",
+    "Date": "2023-09-07",
+    "Location": "Raleigh, NC",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Hopscotch Music Festival",
+    "Lineup": "Hopscotch Music Festival",
+    "Gear Notes": "Sam’s Rogers kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 190,
+    "order": "190.00000000000000000000",
+    "Date": "2023-09-08",
+    "Location": "Atlanta, GA",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "The Earl",
+    "Lineup": "Sam Evian, Seafoam Walls",
+    "Gear Notes": "Sam’s Rogers kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 191,
+    "order": "191.00000000000000000000",
+    "Date": "2023-09-09",
+    "Location": "Savannah, GA",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "El Rocko Lounge",
+    "Lineup": "Sam Evian, two local bands",
+    "Gear Notes": "Sam’s Rogers kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 192,
+    "order": "192.00000000000000000000",
+    "Date": "2023-09-12",
+    "Location": "Chattanooga, TN",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Barking Legs Theater",
+    "Lineup": "Sam Evian, Seafoam Walls",
+    "Gear Notes": "Sam’s Rogers kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 193,
+    "order": "193.00000000000000000000",
+    "Date": "2023-09-13",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "WNXP Studios",
+    "Lineup": "Sam Evian",
+    "Gear Notes": "Sam’s Rogers kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 194,
+    "order": "194.00000000000000000000",
+    "Date": "2023-09-13",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 3004,
+        "value": "Sam Evian",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "The Blue Room",
+    "Lineup": "Sam Evian, Seafoam Walls",
+    "Gear Notes": "Sam’s Rogers kit with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 195,
+    "order": "195.00000000000000000000",
+    "Date": "2023-09-14",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Judson & Moore Distillery",
+    "Lineup": "Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 196,
+    "order": "196.00000000000000000000",
+    "Date": "2023-09-30",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3014,
+        "value": "Horizon of Darkness",
+        "color": "purple"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Horizon of Darkness, Hali Palombo, Michael Zerang’s Velvet Bell",
+    "Gear Notes": "Red Onyx Slingerland with WFL snare",
+    "Link": null
+  },
+  {
+    "id": 197,
+    "order": "197.00000000000000000000",
+    "Date": "2023-10-17",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Devil’s Backbone Tavern",
+    "Lineup": "Waxahatchee",
+    "Gear Notes": "Backline Ludwig",
+    "Link": null
+  },
+  {
+    "id": 198,
+    "order": "198.00000000000000000000",
+    "Date": "2023-10-18",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3029,
+        "value": "Spencer Tweedy & Lia Kohl",
+        "color": "light-gray"
+      }
+    ],
+    "Venue": "Archive House",
+    "Lineup": "Spencer Tweedy & Lia Kohl",
+    "Gear Notes": "Partial Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 199,
+    "order": "199.00000000000000000000",
+    "Date": "2023-10-19",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Empty Bottle",
+    "Lineup": "Free Range, Sima Cunningham, Hazel City",
+    "Gear Notes": "Jack Henry’s drums with my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 200,
+    "order": "200.00000000000000000000",
+    "Date": "2023-10-26",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Casey and Dana Halloween: Case Oats, Free Range, Tootsie, DJ Scary Stevens",
+    "Gear Notes": "Whitehall with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 201,
+    "order": "201.00000000000000000000",
+    "Date": "2023-10-27",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Lincoln Hall",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland with orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 202,
+    "order": "202.00000000000000000000",
+    "Date": "2023-11-01",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Leah Senior, Joanna Samuels, Case Oats (duo)",
+    "Gear Notes": "Casey’s Epiphone Cortez and my/dad’s paisley Music Master with silverface Champ",
+    "Link": null
+  },
+  {
+    "id": 203,
+    "order": "203.00000000000000000000",
+    "Date": "2023-11-07",
+    "Location": "San Diego, CA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Music Box",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 204,
+    "order": "204.00000000000000000000",
+    "Date": "2023-11-08",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Fonda Theatre",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 205,
+    "order": "205.00000000000000000000",
+    "Date": "2023-11-09",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Bimbo’s 365 Club",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 206,
+    "order": "206.00000000000000000000",
+    "Date": "2023-11-10",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Bimbo’s 365 Club",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 207,
+    "order": "207.00000000000000000000",
+    "Date": "2023-11-11",
+    "Location": "Sacramento, CA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Ace of Spades",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 208,
+    "order": "208.00000000000000000000",
+    "Date": "2023-11-14",
+    "Location": "Vancouver, BC",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Commodore Ballroom",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 209,
+    "order": "209.00000000000000000000",
+    "Date": "2023-11-15",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Revolution Hall",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 210,
+    "order": "210.00000000000000000000",
+    "Date": "2023-11-16",
+    "Location": "Seattle, WA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Showbox",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 211,
+    "order": "211.00000000000000000000",
+    "Date": "2023-11-17",
+    "Location": "Boise, ID",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Knitting Factory",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 212,
+    "order": "212.00000000000000000000",
+    "Date": "2023-11-18",
+    "Location": "Salt Lake City, UT",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Commonwealth",
+    "Lineup": "The New Pornographers, Finom",
+    "Gear Notes": "Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 213,
+    "order": "213.00000000000000000000",
+    "Date": "2023-12-04",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Sky Blue Sky",
+    "Lineup": "Sky Blue Sky",
+    "Gear Notes": "C&C backline with my cymbals",
+    "Link": null
+  },
+  {
+    "id": 214,
+    "order": "214.00000000000000000000",
+    "Date": "2023-12-05",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Sky Blue Sky",
+    "Lineup": "Sky Blue Sky",
+    "Gear Notes": "Backline with my cymbals",
+    "Link": null
+  },
+  {
+    "id": 215,
+    "order": "215.00000000000000000000",
+    "Date": "2023-12-17",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "Emanuel Congregation",
+    "Lineup": "Songs for Peace",
+    "Gear Notes": "Black Martin acoustic guitar",
+    "Link": null
+  },
+  {
+    "id": 216,
+    "order": "216.00000000000000000000",
+    "Date": "2024-01-10",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Schubas",
+    "Lineup": "Half Gringa, Lucky Cloud",
+    "Gear Notes": "Quin Kirchner’s drums, my orange Acrolyte and cymbals",
+    "Link": null
+  },
+  {
+    "id": 217,
+    "order": "217.00000000000000000000",
+    "Date": "2024-01-25",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland, orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 218,
+    "order": "218.00000000000000000000",
+    "Date": "2024-01-26",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Cosmic Country Showcase",
+    "Gear Notes": "Red Onyx Slingerland, orange Acrolyte snare",
+    "Link": null
+  },
+  {
+    "id": 219,
+    "order": "219.00000000000000000000",
+    "Date": "2024-03-06",
+    "Location": "Tokyo, Japan",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Ex Theater Rippongi",
+    "Lineup": "Wilco, Finom",
+    "Gear Notes": "Backline black Yamaha Maple Custom, my cymbals",
+    "Link": null
+  },
+  {
+    "id": 220,
+    "order": "220.00000000000000000000",
+    "Date": "2024-03-07",
+    "Location": "Tokyo, Japan",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Zepp Haneda",
+    "Lineup": "Wilco, Finom",
+    "Gear Notes": "Backline black Yamaha Maple Custom, my cymbals",
+    "Link": null
+  },
+  {
+    "id": 221,
+    "order": "221.00000000000000000000",
+    "Date": "2024-03-08",
+    "Location": "Osaka, Japan",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Hatch",
+    "Lineup": "Wilco, Finom",
+    "Gear Notes": "Backline black Yamaha Maple Custom, my cymbals",
+    "Link": null
+  },
+  {
+    "id": 222,
+    "order": "222.00000000000000000000",
+    "Date": "2024-03-09",
+    "Location": "Kyoto, Japan",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "UrBANGUILD",
+    "Lineup": "Finom, Eucademix (Yuka C Honda), Quarru",
+    "Gear Notes": "Venue black Pearl, my cymbals",
+    "Link": null
+  },
+  {
+    "id": 223,
+    "order": "223.00000000000000000000",
+    "Date": "2024-03-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Empty Bottle",
+    "Lineup": "Waxahatchee, Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland, I think C&C abalone snare?",
+    "Link": null
+  },
+  {
+    "id": 224,
+    "order": "224.00000000000000000000",
+    "Date": "2024-03-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Empty Bottle",
+    "Lineup": "Waxahatchee, Liam Kazar",
+    "Gear Notes": "Red Onyx Slingerland, I think C&C abalone snare?",
+    "Link": null
+  },
+  {
+    "id": 225,
+    "order": "225.00000000000000000000",
+    "Date": "2024-03-24",
+    "Location": "Knoxville, TN",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Big Ears Festival",
+    "Lineup": "Big Ears Festival",
+    "Gear Notes": "Backline with my cymbals and one of my snares",
+    "Link": null
+  },
+  {
+    "id": 226,
+    "order": "226.00000000000000000000",
+    "Date": "2024-03-26",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Late Show with Stephen Colbert",
+    "Lineup": "",
+    "Gear Notes": "Backline with my cymbals and my C&C abalone snare",
+    "Link": null
+  },
+  {
+    "id": 227,
+    "order": "227.00000000000000000000",
+    "Date": "2024-03-27",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "SiriusXM",
+    "Lineup": "",
+    "Gear Notes": "Backline with my cymbals and my C&C abalone snare",
+    "Link": null
+  },
+  {
+    "id": 228,
+    "order": "228.00000000000000000000",
+    "Date": "2024-03-28",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Union Pool",
+    "Lineup": "Liam Kazar, Katie Von Schleicher",
+    "Gear Notes": "Backline with my cymbals and my C&C abalone snare",
+    "Link": null
+  },
+  {
+    "id": 229,
+    "order": "229.00000000000000000000",
+    "Date": "2024-03-28",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "World Cafe",
+    "Lineup": "",
+    "Gear Notes": "Backline with my cymbals and my C&C abalone snare",
+    "Link": null
+  },
+  {
+    "id": 230,
+    "order": "230.00000000000000000000",
+    "Date": "2024-03-31",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Sleeping Village",
+    "Lineup": "Patrick Jasper, Henry True, Adelaide",
+    "Gear Notes": "Andy Danstrom’s blue sparkle Rogers with my cymbals and C&C abalone snare",
+    "Link": null
+  },
+  {
+    "id": 231,
+    "order": "231.00000000000000000000",
+    "Date": "2024-04-07",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Liam Kazar, Sarah Weddle (duo)",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 232,
+    "order": "232.00000000000000000000",
+    "Date": "2024-04-08",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Hideout",
+    "Lineup": "Liam Kazar, Sarah Weddle (duo)",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 233,
+    "order": "233.00000000000000000000",
+    "Date": "2024-04-10",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Finom, VV Lightbody, Ellie Jackson",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 234,
+    "order": "234.00000000000000000000",
+    "Date": "2024-04-11",
+    "Location": "Minneapolis, MN",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Icehouse",
+    "Lineup": "Finom, VV Lightbody, Holly Hansen",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 235,
+    "order": "235.00000000000000000000",
+    "Date": "2024-04-12",
+    "Location": "Northfield, MN",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Cave at Carleton College",
+    "Lineup": "Finom, Work Wife",
+    "Gear Notes": "Backline with my cymbals and my C&C abalone snare",
+    "Link": null
+  },
+  {
+    "id": 236,
+    "order": "236.00000000000000000000",
+    "Date": "2024-04-18",
+    "Location": "Kansas City, MO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Uptown Theater",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 237,
+    "order": "237.00000000000000000000",
+    "Date": "2024-04-19",
+    "Location": "St Paul, MN",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Palace Theatre",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 238,
+    "order": "238.00000000000000000000",
+    "Date": "2024-04-20",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Salt Shed",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 239,
+    "order": "239.00000000000000000000",
+    "Date": "2024-04-21",
+    "Location": "Detroit, MI",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Majestic Theatre",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 240,
+    "order": "240.00000000000000000000",
+    "Date": "2024-04-23",
+    "Location": "Toronto, ON",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Massey Hall",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 241,
+    "order": "241.00000000000000000000",
+    "Date": "2024-04-25",
+    "Location": "New Haven, CT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Toad’s Place",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 242,
+    "order": "242.00000000000000000000",
+    "Date": "2024-04-26",
+    "Location": "Boston, MA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Orpheum Theatre",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 243,
+    "order": "243.00000000000000000000",
+    "Date": "2024-04-27",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Brooklyn Paramount Theatre",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 244,
+    "order": "244.00000000000000000000",
+    "Date": "2024-04-28",
+    "Location": "Richmond, VA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The National",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 245,
+    "order": "245.00000000000000000000",
+    "Date": "2024-04-30",
+    "Location": "Asheville, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Orange Peel",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 246,
+    "order": "246.00000000000000000000",
+    "Date": "2024-05-01",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Ryman Auditorium",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 247,
+    "order": "247.00000000000000000000",
+    "Date": "2024-05-03",
+    "Location": "St Petersburg, FL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Jannus Live",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 248,
+    "order": "248.00000000000000000000",
+    "Date": "2024-05-04",
+    "Location": "Orlando, FL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Beacham Theater",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 249,
+    "order": "249.00000000000000000000",
+    "Date": "2024-05-05",
+    "Location": "Atlanta, GA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Shaky Knees Festival",
+    "Lineup": "Shaky Knees Festival",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 250,
+    "order": "250.00000000000000000000",
+    "Date": "2024-05-06",
+    "Location": "Birmingham, AL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Lyric Theatre",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 251,
+    "order": "251.00000000000000000000",
+    "Date": "2024-05-08",
+    "Location": "Tulsa, OK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Cain’s Ballroom",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 252,
+    "order": "252.00000000000000000000",
+    "Date": "2024-05-09",
+    "Location": "Fort Worth, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Tannahill’s Tavern & Music Hall",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 253,
+    "order": "253.00000000000000000000",
+    "Date": "2024-05-10",
+    "Location": "Houston, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Heights Theater",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 254,
+    "order": "254.00000000000000000000",
+    "Date": "2024-05-11",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "ACL Live at the Moody Theater",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 255,
+    "order": "255.00000000000000000000",
+    "Date": "2024-05-13",
+    "Location": "Phoenix, AZ",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Van Buren",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 256,
+    "order": "256.00000000000000000000",
+    "Date": "2024-05-14",
+    "Location": "San Diego, CA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Observatory North Park",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 257,
+    "order": "257.00000000000000000000",
+    "Date": "2024-05-16",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Hollywood Palladium",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 258,
+    "order": "258.00000000000000000000",
+    "Date": "2024-05-17",
+    "Location": "Paso Robles, CA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Barrelhouse Brewing Company",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 259,
+    "order": "259.00000000000000000000",
+    "Date": "2024-05-18",
+    "Location": "Oakland, CA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Fox Theater",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 260,
+    "order": "260.00000000000000000000",
+    "Date": "2024-05-21",
+    "Location": "Salt Lake City, UT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Depot",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 261,
+    "order": "261.00000000000000000000",
+    "Date": "2024-05-23",
+    "Location": "Denver, CO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Mission Ballroom",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "Red Onyx Slingerland with abalone snare",
+    "Link": null
+  },
+  {
+    "id": 262,
+    "order": "262.00000000000000000000",
+    "Date": "2024-05-24",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Hideout",
+    "Lineup": "",
+    "Gear Notes": "Rootbeer Gretsch",
+    "Link": null
+  },
+  {
+    "id": 263,
+    "order": "263.00000000000000000000",
+    "Date": "2024-05-25",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Shuga Records",
+    "Lineup": "Finom",
+    "Gear Notes": "Rootbeer Gretsch",
+    "Link": null
+  },
+  {
+    "id": 264,
+    "order": "264.00000000000000000000",
+    "Date": "2024-05-31",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Sultan Room",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 265,
+    "order": "265.00000000000000000000",
+    "Date": "2024-06-02",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "The Hideout",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 266,
+    "order": "266.00000000000000000000",
+    "Date": "2024-06-05",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Zebulon",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 267,
+    "order": "267.00000000000000000000",
+    "Date": "2024-06-09",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Midsommar Festival",
+    "Lineup": "Midsommar Festival",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 268,
+    "order": "268.00000000000000000000",
+    "Date": "2024-06-28",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 3031,
+        "value": "Ten Oh Ten (Sammy & Spencer)",
+        "color": "green"
+      }
+    ],
+    "Venue": "Mass MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 269,
+    "order": "269.00000000000000000000",
+    "Date": "2024-06-28",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Mass MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 270,
+    "order": "270.00000000000000000000",
+    "Date": "2024-06-30",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Mass MoCA",
+    "Lineup": "Solid Sound",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 271,
+    "order": "271.00000000000000000000",
+    "Date": "2024-07-09",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "BBC",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 272,
+    "order": "272.00000000000000000000",
+    "Date": "2024-07-11",
+    "Location": "Amsterdam, NL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Paradiso",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 273,
+    "order": "273.00000000000000000000",
+    "Date": "2024-07-12",
+    "Location": "Koln, DE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Gebäude 9",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 274,
+    "order": "274.00000000000000000000",
+    "Date": "2024-07-13",
+    "Location": "Hamburg, DE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Mojo Club",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 275,
+    "order": "275.00000000000000000000",
+    "Date": "2024-07-14",
+    "Location": "Bruges, BE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Cactusfestival",
+    "Lineup": "Cactusfestival",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 276,
+    "order": "276.00000000000000000000",
+    "Date": "2024-07-15",
+    "Location": "Berlin, DE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Lido",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 277,
+    "order": "277.00000000000000000000",
+    "Date": "2024-07-17",
+    "Location": "Schorndorf, DE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Club Manufaktur",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 278,
+    "order": "278.00000000000000000000",
+    "Date": "2024-07-18",
+    "Location": "Feldkirch, AT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Poolbar Festival",
+    "Lineup": "Poolbar Festival",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 279,
+    "order": "279.00000000000000000000",
+    "Date": "2024-07-19",
+    "Location": "Sittersdorf, AT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Acoustic Lakeside Festival",
+    "Lineup": "Acoustic Lakeside Festival",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 280,
+    "order": "280.00000000000000000000",
+    "Date": "2024-07-21",
+    "Location": "Zurich, CH",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Bogen F",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 281,
+    "order": "281.00000000000000000000",
+    "Date": "2024-07-22",
+    "Location": "Paris, FR",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "La Maroquinerie",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 282,
+    "order": "282.00000000000000000000",
+    "Date": "2024-07-24",
+    "Location": "Brighton, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Chalk",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 283,
+    "order": "283.00000000000000000000",
+    "Date": "2024-07-25",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "O2 Forum Kentish Town",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 284,
+    "order": "284.00000000000000000000",
+    "Date": "2024-07-26",
+    "Location": "Southwold, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Latitude Festival",
+    "Lineup": "Latitude Festival",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 285,
+    "order": "285.00000000000000000000",
+    "Date": "2024-07-27",
+    "Location": "Manchester, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "New Century",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 286,
+    "order": "286.00000000000000000000",
+    "Date": "2024-07-29",
+    "Location": "Leeds, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Leeds Irish Centre",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 287,
+    "order": "287.00000000000000000000",
+    "Date": "2024-07-30",
+    "Location": "Glasgow, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Queen Margaret Union",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 288,
+    "order": "288.00000000000000000000",
+    "Date": "2024-07-31",
+    "Location": "Belfast, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Belfast Empire Music Hall",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 289,
+    "order": "289.00000000000000000000",
+    "Date": "2024-08-01",
+    "Location": "Dublin, IE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Vicar Street",
+    "Lineup": "Waxahatchee, Anna St Louis",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 290,
+    "order": "290.00000000000000000000",
+    "Date": "2024-08-03",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Post Farm",
+    "Lineup": "Postock",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 291,
+    "order": "291.00000000000000000000",
+    "Date": "2024-08-03",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3023,
+        "value": "Charlotte Cornfield",
+        "color": "dark-brown"
+      }
+    ],
+    "Venue": "Post Farm",
+    "Lineup": "Postock",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 292,
+    "order": "292.00000000000000000000",
+    "Date": "2024-08-03",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3007,
+        "value": "Aux Thom",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Post Farm",
+    "Lineup": "Postock",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 293,
+    "order": "293.00000000000000000000",
+    "Date": "2024-08-04",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Post Farm",
+    "Lineup": "Postock",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 294,
+    "order": "294.00000000000000000000",
+    "Date": "2024-08-04",
+    "Location": "Albany, WI",
+    "Artist": [
+      {
+        "id": 3034,
+        "value": "Al Scorch",
+        "color": "light-brown"
+      }
+    ],
+    "Venue": "Post Farm",
+    "Lineup": "Postock",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 295,
+    "order": "295.00000000000000000000",
+    "Date": "2024-08-14",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Jimmy Kimmel Live",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 296,
+    "order": "296.00000000000000000000",
+    "Date": "2024-08-16",
+    "Location": "Vancouver, BC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Orpheum Theatre",
+    "Lineup": "Waxahatchee, Woods",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 297,
+    "order": "297.00000000000000000000",
+    "Date": "2024-08-17",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Pioneer Courthouse Square",
+    "Lineup": "Waxahatchee, Woods, Toody Cole",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 298,
+    "order": "298.00000000000000000000",
+    "Date": "2024-08-18",
+    "Location": "Seattle, WA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Woodland Park Zoo Amphitheater",
+    "Lineup": "Waxahatchee, Woods",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 299,
+    "order": "299.00000000000000000000",
+    "Date": "2024-08-19",
+    "Location": "Boise, ID",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Treefort Music Hall",
+    "Lineup": "Waxahatchee, Tre Burt",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 300,
+    "order": "300.00000000000000000000",
+    "Date": "2024-08-21",
+    "Location": "Fort Collins, CO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Washington's",
+    "Lineup": "Waxahatchee, Tre Burt",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 301,
+    "order": "301.00000000000000000000",
+    "Date": "2024-08-23",
+    "Location": "St Louis, MO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Pageant",
+    "Lineup": "Waxahatchee, Tre Burt",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 302,
+    "order": "302.00000000000000000000",
+    "Date": "2024-08-24",
+    "Location": "Madison, WI",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Sylvee",
+    "Lineup": "Waxahatchee, Tre Burt",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 303,
+    "order": "303.00000000000000000000",
+    "Date": "2024-08-25",
+    "Location": "Kalamazoo, MI",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Bell's Beer Garden",
+    "Lineup": "Waxahatchee, Tre Burt",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 304,
+    "order": "304.00000000000000000000",
+    "Date": "2024-08-26",
+    "Location": "Pittsburgh, PA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Warhol at Carnegie Music Hall",
+    "Lineup": "Waxahatchee, Tre Burt",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 305,
+    "order": "305.00000000000000000000",
+    "Date": "2024-08-28",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Beacon Theatre",
+    "Lineup": "Waxahatchee, Woods",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 306,
+    "order": "306.00000000000000000000",
+    "Date": "2024-08-29",
+    "Location": "South Deerfield, MA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Tree House Summer Stage",
+    "Lineup": "Waxahatchee, Snail Mail, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 307,
+    "order": "307.00000000000000000000",
+    "Date": "2024-08-30",
+    "Location": "Portland, ME",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "State Theater",
+    "Lineup": "Waxahatchee, Snail Mail, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 308,
+    "order": "308.00000000000000000000",
+    "Date": "2024-08-31",
+    "Location": "Accord, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Arrowood Farms",
+    "Lineup": "Waxahatchee, Snail Mail, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 309,
+    "order": "309.00000000000000000000",
+    "Date": "2024-09-01",
+    "Location": "Asbury Park, NJ",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Stone Pony Summerstage",
+    "Lineup": "Waxahatchee, Snail Mail, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 310,
+    "order": "310.00000000000000000000",
+    "Date": "2024-09-04",
+    "Location": "Charlotesville, VA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Ting Pavilion",
+    "Lineup": "Waxahatchee, Snail Mail, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 311,
+    "order": "311.00000000000000000000",
+    "Date": "2024-09-05",
+    "Location": "Raleigh, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Hopscotch Music Festival",
+    "Lineup": "Hopscotch Music Festival",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 312,
+    "order": "312.00000000000000000000",
+    "Date": "2024-09-06",
+    "Location": "Vienna, VA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Filene Center at Wolf Trap",
+    "Lineup": "Waxahatchee, Snail Mail, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 313,
+    "order": "313.00000000000000000000",
+    "Date": "2024-09-07",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Waxahatchee, Snail Mail, Gladie",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 314,
+    "order": "314.00000000000000000000",
+    "Date": "2024-09-08",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Waxahatchee, Tim Heidecker",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 315,
+    "order": "315.00000000000000000000",
+    "Date": "2024-09-10",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "CBS This Morning",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 316,
+    "order": "316.00000000000000000000",
+    "Date": "2024-09-13",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Gman Tavern",
+    "Lineup": "Lake James, Lucky Cloud",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 317,
+    "order": "317.00000000000000000000",
+    "Date": "2024-09-19",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Americana Fest (ANTI- Showcase)",
+    "Lineup": "Neko Case, Waxahatchee, Madi Diaz, MJ Lenderman, Christian Lee Hutson, Leyla McCalla",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 318,
+    "order": "318.00000000000000000000",
+    "Date": "2024-09-19",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 3010,
+        "value": "MJ Lenderman",
+        "color": "deep-dark-orange"
+      }
+    ],
+    "Venue": "Americana Fest (ANTI- Showcase)",
+    "Lineup": "Neko Case, Waxahatchee, Madi Diaz, MJ Lenderman, Christian Lee Hutson, Leyla McCalla",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 319,
+    "order": "319.00000000000000000000",
+    "Date": "2024-09-21",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Riot Fest",
+    "Lineup": "Riot Fest",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 320,
+    "order": "320.00000000000000000000",
+    "Date": "2024-10-04",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Apricot Vintage",
+    "Lineup": "Lucky Cloud, Case Oats (duo)",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 321,
+    "order": "321.00000000000000000000",
+    "Date": "2024-10-10",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Judson & Moore Distillery",
+    "Lineup": "Liam Kazar",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 322,
+    "order": "322.00000000000000000000",
+    "Date": "2024-10-12",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3013,
+        "value": "Sammy Tweedy and Spencer Tweedy",
+        "color": "yellow"
+      }
+    ],
+    "Venue": "Emanuel Congregation",
+    "Lineup": "Yom Kippur services!",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 323,
+    "order": "323.00000000000000000000",
+    "Date": "2024-10-13",
+    "Location": "Union Pier, MI",
+    "Artist": [
+      {
+        "id": 3036,
+        "value": "Vinyl DJ set",
+        "color": "dark-green"
+      }
+    ],
+    "Venue": "Out There",
+    "Lineup": "DJ Case Oats and Spencer Tweedy",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 324,
+    "order": "324.00000000000000000000",
+    "Date": "2024-10-17",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3003,
+        "value": "Henry True",
+        "color": "light-blue"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": "Katie Malco, Henry True",
+    "Gear Notes": "",
+    "Link": null
+  },
+  {
+    "id": 325,
+    "order": "325.00000000000000000000",
+    "Date": "2024-10-21",
+    "Location": "REDACTED",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "REDACTED",
+    "Lineup": null,
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 326,
+    "order": "326.00000000000000000000",
+    "Date": "2024-10-22",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Ardmore Music Hall",
+    "Lineup": "Philly Music Fest",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 327,
+    "order": "327.00000000000000000000",
+    "Date": "2024-10-24",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": null,
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 328,
+    "order": "328.00000000000000000000",
+    "Date": "2024-10-25",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": null,
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 329,
+    "order": "329.00000000000000000000",
+    "Date": "2024-10-26",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": null,
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 330,
+    "order": "330.00000000000000000000",
+    "Date": "2024-10-24",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2998,
+        "value": "Cosmic Country Showcase",
+        "color": "dark-blue"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": null,
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 331,
+    "order": "331.00000000000000000000",
+    "Date": "2024-10-30",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Gman Tavern",
+    "Lineup": "Lucky Cloud, Zach Morp",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 332,
+    "order": "332.00000000000000000000",
+    "Date": "2024-10-31",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Case Oats, Liam Kazar, TV Buddha, DJ Scary Stevens",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 333,
+    "order": "333.00000000000000000000",
+    "Date": "2024-11-02",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Metro",
+    "Lineup": "Finom, Cabeza De Chivo",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 334,
+    "order": "334.00000000000000000000",
+    "Date": "2024-11-06",
+    "Location": "Detroit, MI",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Lager House",
+    "Lineup": "Finom, Meg Elsier",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 335,
+    "order": "335.00000000000000000000",
+    "Date": "2024-11-07",
+    "Location": "Toronto, Canada",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Baby G",
+    "Lineup": "Finom, Meg Elsier, Beams",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 336,
+    "order": "336.00000000000000000000",
+    "Date": "2024-11-08",
+    "Location": "Montreal, Canada",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Cabaret Foufs",
+    "Lineup": "Finom, Meg Elsier",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 337,
+    "order": "337.00000000000000000000",
+    "Date": "2024-11-09",
+    "Location": "Burlington, VT",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Radio Bean",
+    "Lineup": "Finom, Meg Elsier",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 338,
+    "order": "338.00000000000000000000",
+    "Date": "2024-11-11",
+    "Location": "Boston, MA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "The Rockwell",
+    "Lineup": "Finom, Meg Elsier",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 339,
+    "order": "339.00000000000000000000",
+    "Date": "2024-11-13",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Johnny Brenda's",
+    "Lineup": "Finom, Meg Elsier",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 340,
+    "order": "340.00000000000000000000",
+    "Date": "2024-11-14",
+    "Location": "Brooklyn, NY",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Baby's All Right",
+    "Lineup": "Finom, Meg Elsier, Work Wife",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 341,
+    "order": "341.00000000000000000000",
+    "Date": "2024-11-15",
+    "Location": "Pittsburgh, PA",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "brown"
+      }
+    ],
+    "Venue": "Club Cafe",
+    "Lineup": "Finom, Meg Elsier",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 342,
+    "order": "342.00000000000000000000",
+    "Date": "2024-11-23",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Letters to Santa",
+    "Lineup": "Letters to Santa 2024",
+    "Gear Notes": null,
+    "Link": null
+  },
+  {
+    "id": 343,
+    "order": "343.00000000000000000000",
+    "Date": "2024-11-29",
+    "Location": "Perth, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Astor Theatre",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/f7518b23-9528-4783-8c1a-21b1c82cb62d"
+  },
+  {
+    "id": 344,
+    "order": "344.00000000000000000000",
+    "Date": "2024-12-01",
+    "Location": "Brisbane City, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Tivoli",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/ffe948c9-cdf6-4705-87e1-427fe00ac6c5"
+  },
+  {
+    "id": 345,
+    "order": "345.00000000000000000000",
+    "Date": "2024-12-02",
+    "Location": "Sydney, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Sydney Opera House",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/f01e0940-287e-4b32-a4c8-d45a5ef3f487"
+  },
+  {
+    "id": 346,
+    "order": "346.00000000000000000000",
+    "Date": "2024-12-04",
+    "Location": "Melbourne, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Corner Hotel",
+    "Lineup": "Waxahatchee, Good Morning",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/4352686e-52c1-4303-9599-c6f6f05439e6"
+  },
+  {
+    "id": 347,
+    "order": "347.00000000000000000000",
+    "Date": "2024-12-05",
+    "Location": "Melbourne, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Forum",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/aa021de0-fbf7-4a68-84f8-ec408f342f81"
+  },
+  {
+    "id": 348,
+    "order": "348.00000000000000000000",
+    "Date": "2024-12-06",
+    "Location": "Meredith, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Meredith Music Festival",
+    "Lineup": "Meredith Music Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/54c0d600-fcb3-4373-99d7-d9d982e74357"
+  },
+  {
+    "id": 349,
+    "order": "349.00000000000000000000",
+    "Date": "2024-12-08",
+    "Location": "Hobart, Australia",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Odeon Theatre",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/dae57c0c-31d8-4ede-859d-e7f00a8c5f27"
+  },
+  {
+    "id": 350,
+    "order": "350.00000000000000000000",
+    "Date": "2024-12-13",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Constellation",
+    "Lineup": "Sima Cunningham, Max Subar",
+    "Gear Notes": "",
+    "Link": "https://www.seetickets.us/event/sima-cunningham-high-roller-album-release-wmax-subar/618581"
+  },
+  {
+    "id": 351,
+    "order": "351.00000000000000000000",
+    "Date": "2024-12-14",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Thalia Hall",
+    "Lineup": "Neal Francis, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketweb.com/event/sold-out-neal-francis-with-thalia-hall-tickets/13821523"
+  },
+  {
+    "id": 352,
+    "order": "352.00000000000000000000",
+    "Date": "2025-01-04",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 3017,
+        "value": "Sweet Sixteen with Katie Crutchfield",
+        "color": "dark-green"
+      },
+      {
+        "id": 3027,
+        "value": "D'Arcy Carden and Allison Crutchfield",
+        "color": "blue"
+      }
+    ],
+    "Venue": "Largo at the Coronet",
+    "Lineup": "Katie Crutchfield, D'Arcy Carden, Allison Crutchfield, and guests",
+    "Gear Notes": "",
+    "Link": "https://wl.seetickets.us/event/sweet-sixteen-with-katie-crutchfield-darcy-carden/631250?afflky=LargoAtTheCoronet"
+  },
+  {
+    "id": 353,
+    "order": "353.00000000000000000000",
+    "Date": "2025-02-08",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "Fitzgeralds",
+    "Lineup": "Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.fitzgeraldsnightclub.com/tm-event/liam-kazar-returns-to-fitzgeralds-nightclub/"
+  },
+  {
+    "id": 354,
+    "order": "354.00000000000000000000",
+    "Date": "2025-02-21",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Robert's Westside",
+    "Lineup": "Sima Cunningham, VV Lightbody and Minor Moon duo",
+    "Gear Notes": "",
+    "Link": "https://robertswestside.com/listing/sima-cunninghams-residency-roberts-westside/"
+  },
+  {
+    "id": 355,
+    "order": "355.00000000000000000000",
+    "Date": "2025-02-24",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Tonight Show Starring Jimmy Fallon",
+    "Lineup": "The Tonight Show",
+    "Gear Notes": "",
+    "Link": ""
+  },
+  {
+    "id": 356,
+    "order": "356.00000000000000000000",
+    "Date": "2025-03-05",
+    "Location": "At sea",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Cayamo Cruise",
+    "Lineup": "Cayamo Cruise",
+    "Gear Notes": "",
+    "Link": "https://www.cayamo.com/"
+  },
+  {
+    "id": 357,
+    "order": "357.00000000000000000000",
+    "Date": "2025-03-11",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Antone's",
+    "Lineup": "High Road Touring Showcase",
+    "Gear Notes": "",
+    "Link": "https://www.highroadtouring.com/high-road-2025-sxsw-showcase-tuesday-march-11th-at-antones/"
+  },
+  {
+    "id": 358,
+    "order": "358.00000000000000000000",
+    "Date": "2025-03-12",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-brown"
+      }
+    ],
+    "Venue": "The Long Time",
+    "Lineup": "Kevin Morby and his Sandlot All-Stars",
+    "Gear Notes": "",
+    "Link": "https://www.eventbrite.com/e/kevin-morby-and-his-sandlot-all-stars-tickets-1205496044119"
+  },
+  {
+    "id": 359,
+    "order": "359.00000000000000000000",
+    "Date": "2025-03-12",
+    "Location": "Austin TX",
+    "Artist": [
+      {
+        "id": 3033,
+        "value": "Kevin Morby",
+        "color": "light-purple"
+      }
+    ],
+    "Venue": "The Long Time",
+    "Lineup": "Kevin Morby and his Sandlot All-Stars",
+    "Gear Notes": "",
+    "Link": "https://www.eventbrite.com/e/kevin-morby-and-his-sandlot-all-stars-tickets-1205496044119"
+  },
+  {
+    "id": 360,
+    "order": "360.00000000000000000000",
+    "Date": "2025-03-13",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "YETI Flagship Store",
+    "Lineup": "YETI Music Showcase",
+    "Gear Notes": "",
+    "Link": "https://www.bmi.com/events/entry/591886"
+  },
+  {
+    "id": 361,
+    "order": "361.00000000000000000000",
+    "Date": "2025-03-13",
+    "Location": "Spicewood, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Luck Reunion",
+    "Lineup": "Waxahatchee, Lucinda Williams, and special guests",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/71628ce0-a50f-4b31-be7b-954bdc613e95"
+  },
+  {
+    "id": 362,
+    "order": "362.00000000000000000000",
+    "Date": "2025-03-14",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Hotel San José",
+    "Lineup": "South By San José",
+    "Gear Notes": "",
+    "Link": "https://www.bunkhousehotels.com/hotel-san-jose/events/south-by-san-jose"
+  },
+  {
+    "id": 363,
+    "order": "363.00000000000000000000",
+    "Date": "2025-03-14",
+    "Location": "Spicewood, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Luck Reunion",
+    "Lineup": "Waxahatchee, Lucinda Williams, and special guests",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/71628ce0-a50f-4b31-be7b-954bdc613e95"
+  },
+  {
+    "id": 364,
+    "order": "364.00000000000000000000",
+    "Date": "2025-03-15",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "The Swan Dive",
+    "Lineup": "Line of Best Fit Showcase",
+    "Gear Notes": "",
+    "Link": "https://www.thelineofbestfit.com/news/best-fit-sxsw-2025-showcase-lineup-yhwh-nailgun-jasmine-4-t-man-woman-chainsaw"
+  },
+  {
+    "id": 365,
+    "order": "365.00000000000000000000",
+    "Date": "2025-03-21",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3001,
+        "value": "Sima Cunningham",
+        "color": "light-yellow"
+      }
+    ],
+    "Venue": "Robert's Westside",
+    "Lineup": "Sima Cunningham, Judson Claiborne",
+    "Gear Notes": "",
+    "Link": "https://robertswestside.com/listing/sima-cunninghams-residency-roberts-westside/"
+  },
+  {
+    "id": 366,
+    "order": "366.00000000000000000000",
+    "Date": "2025-04-05",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Schubas",
+    "Lineup": "Lucky Cloud, Lake J, Shoulderbird",
+    "Gear Notes": "",
+    "Link": "https://lh-st.com/shows/04-05-2025-lucky-cloud/"
+  },
+  {
+    "id": 367,
+    "order": "367.00000000000000000000",
+    "Date": "2025-04-06",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Cactus Club",
+    "Lineup": "Nona Invie, Lucky Cloud, Ellie Jackson",
+    "Gear Notes": "",
+    "Link": "https://www.cactusclubmilwaukee.com/events/41665/"
+  },
+  {
+    "id": 368,
+    "order": "368.00000000000000000000",
+    "Date": "2025-04-12",
+    "Location": "Charleston, WV",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Culture Center Theater",
+    "Lineup": "WV Hall of Fame Induction",
+    "Gear Notes": "",
+    "Link": "https://www.wvmusichalloffame.com/10thCeremony.html"
+  },
+  {
+    "id": 369,
+    "order": "369.00000000000000000000",
+    "Date": "2025-04-13",
+    "Location": "Charleston, WV",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Mountain Stage",
+    "Lineup": "Mountain Stage",
+    "Gear Notes": "",
+    "Link": "https://www.eventbrite.com/e/jeff-tweedy-johnnyswim-olivia-ellen-lloyd-and-more-on-mountain-stage-tickets-1200252410269?aff=Tweedy"
+  },
+  {
+    "id": 370,
+    "order": "370.00000000000000000000",
+    "Date": "2025-04-26",
+    "Location": "Tallahassee, FL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Adderley Amphitheater",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/a4ab1662-b10c-4cd0-ad08-c484c75f5319"
+  },
+  {
+    "id": 371,
+    "order": "371.00000000000000000000",
+    "Date": "2025-04-27",
+    "Location": "Charleston, SC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "High Water Festival",
+    "Lineup": "High Water Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/168d7996-52fc-4ce9-9333-779f18afd3ae"
+  },
+  {
+    "id": 372,
+    "order": "372.00000000000000000000",
+    "Date": "2025-04-29",
+    "Location": "Miami Beach, FL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Fillmore Miami Beach",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/28c4a54f-0379-457b-ba83-5e9c7827a056"
+  },
+  {
+    "id": 373,
+    "order": "373.00000000000000000000",
+    "Date": "2025-04-30",
+    "Location": "St. Augustine, FL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The St. Augustine Amphitheatre",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/62acbc55-99b5-4a01-8477-556c6edd09ae"
+  },
+  {
+    "id": 374,
+    "order": "374.00000000000000000000",
+    "Date": "2025-05-03",
+    "Location": "New Orleans, LA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Saenger Theatre",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/c3a26b22-cc47-4d80-8106-4f401643b60b"
+  },
+  {
+    "id": 375,
+    "order": "375.00000000000000000000",
+    "Date": "2025-05-04",
+    "Location": "Houston, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "White Oak Music Hall (Lawn)",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/40c8c469-04b0-4d73-b5f6-0de4a5bf9f62"
+  },
+  {
+    "id": 376,
+    "order": "376.00000000000000000000",
+    "Date": "2025-05-06",
+    "Location": "San Antonio, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Espee",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/25fe0147-6979-4d63-aa06-04a5488110dc"
+  },
+  {
+    "id": 377,
+    "order": "377.00000000000000000000",
+    "Date": "2025-05-07",
+    "Location": "Irving, TX",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Pavilion at Toyota Music Factory",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/edd3d2fb-6e92-4602-854d-7cc3c9f3e466"
+  },
+  {
+    "id": 378,
+    "order": "378.00000000000000000000",
+    "Date": "2025-05-09",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Pinnacle",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/d24a5f22-acb1-4ab0-b6ec-ed1ed3f1bfab"
+  },
+  {
+    "id": 379,
+    "order": "379.00000000000000000000",
+    "Date": "2025-05-10",
+    "Location": "Atlanta, GA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Cadence Bank Amphitheatre at Chastain Park",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/a41d81bc-47f5-4bff-9528-aeead3578a14"
+  },
+  {
+    "id": 380,
+    "order": "380.00000000000000000000",
+    "Date": "2025-05-11",
+    "Location": "Chattanooga, TN",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Soldiers and Sailors Memorial Auditorium",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/26347d80-8579-4a13-8af9-4ebeaf93e94a"
+  },
+  {
+    "id": 381,
+    "order": "381.00000000000000000000",
+    "Date": "2025-05-12",
+    "Location": "Birmingham, AL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Avondale Brewing Company",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/50f55575-79c8-48a8-b345-a6c87449a9ed"
+  },
+  {
+    "id": 382,
+    "order": "382.00000000000000000000",
+    "Date": "2025-05-13",
+    "Location": "Wilmington, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Live Oak Bank Pavilion",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/2a5dd6a7-9fcb-4e70-8745-758f9490d628"
+  },
+  {
+    "id": 383,
+    "order": "383.00000000000000000000",
+    "Date": "2025-05-14",
+    "Location": "Durham, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Durham Performing Arts Center",
+    "Lineup": "Waxahatchee, Cameron Winter",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/cfd95667-a8cc-44ab-91c7-f2ba2cce1af1"
+  },
+  {
+    "id": 384,
+    "order": "384.00000000000000000000",
+    "Date": "2025-05-15",
+    "Location": "Charlotte, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Amp Ballantyne",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/01c2f4f1-b48c-4150-93e7-1dc39eac0bf3"
+  },
+  {
+    "id": 385,
+    "order": "385.00000000000000000000",
+    "Date": "2025-05-16",
+    "Location": "Asheville, NC",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Asheville Yards Amphitheater",
+    "Lineup": "Wilco, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/6d047934-bb00-4da5-89ea-60fe1f85c24f"
+  },
+  {
+    "id": 386,
+    "order": "386.00000000000000000000",
+    "Date": "2025-06-01",
+    "Location": "Denver, CO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Outside Festival",
+    "Lineup": "Outside Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/27b52c37-d75f-4188-bd70-a8e8bc578a13"
+  },
+  {
+    "id": 387,
+    "order": "387.00000000000000000000",
+    "Date": "2025-06-06",
+    "Location": "Barcelona, Spain",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Primavera Sound",
+    "Lineup": "Primavera Sound",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/b924a8d7-2adc-4aca-b4ea-4786a43640fb"
+  },
+  {
+    "id": 388,
+    "order": "388.00000000000000000000",
+    "Date": "2025-06-08",
+    "Location": "Glasgow, Scotland",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Barrowland Ballroom",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/dd4f4cf6-9758-4719-9a22-291cd748f320"
+  },
+  {
+    "id": 389,
+    "order": "389.00000000000000000000",
+    "Date": "2025-06-09",
+    "Location": "Manchester, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Albert Hall",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/79ddf447-f61b-4a55-bac2-7610352c03a5"
+  },
+  {
+    "id": 390,
+    "order": "390.00000000000000000000",
+    "Date": "2025-06-10",
+    "Location": "Bristol, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "SWX",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/a35ec586-259a-4d33-a400-b0922dcd8a6d"
+  },
+  {
+    "id": 391,
+    "order": "391.00000000000000000000",
+    "Date": "2025-06-11",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Hammersmith Apollo",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/0509024a-e14e-4424-b85c-91cf7c02c421"
+  },
+  {
+    "id": 392,
+    "order": "392.00000000000000000000",
+    "Date": "2025-06-13",
+    "Location": "Porto, Portugal",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Primavera Porto",
+    "Lineup": "Primavera Porto",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/018f3cbd-1c45-4b2c-afd4-3c05751ff661"
+  },
+  {
+    "id": 393,
+    "order": "393.00000000000000000000",
+    "Date": "2025-06-15",
+    "Location": "Hilvarenbeek, Netherlands",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Best Kept Secret Festival",
+    "Lineup": "Best Kept Secret Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/61f5d0ee-7126-4aba-8abe-008b4a2ec486"
+  },
+  {
+    "id": 394,
+    "order": "394.00000000000000000000",
+    "Date": "2025-06-20",
+    "Location": "Greenfield, MA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Green River Festival",
+    "Lineup": "Green River Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/2d18cddf-e2ca-4e05-92e9-2a0893af7aac"
+  },
+  {
+    "id": 395,
+    "order": "395.00000000000000000000",
+    "Date": "2025-06-21",
+    "Location": "Lafayette, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Beak & Skiff Apple Orchards",
+    "Lineup": "Waxahatchee, MJ Lenderman, Hurray For The Riff Raff",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/d5811faf-e28b-4cd3-8d58-1d4d25406e37"
+  },
+  {
+    "id": 396,
+    "order": "396.00000000000000000000",
+    "Date": "2025-06-22",
+    "Location": "Greenfield, MA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Green River Festival",
+    "Lineup": "Green River Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/2d18cddf-e2ca-4e05-92e9-2a0893af7aac"
+  },
+  {
+    "id": 397,
+    "order": "397.00000000000000000000",
+    "Date": "2025-06-23",
+    "Location": "Shelburne, VT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Green at Shelburne Museum",
+    "Lineup": "Waxahatchee, Kevin Morby",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/b70601c5-5710-4b77-b131-e62a5a1564cc"
+  },
+  {
+    "id": 398,
+    "order": "398.00000000000000000000",
+    "Date": "2025-07-23",
+    "Location": "Brooklyn, NY",
+    "Artist": [
+      {
+        "id": 3025,
+        "value": "Eric Slick's Unlimited Edition",
+        "color": "dark-orange"
+      }
+    ],
+    "Venue": "Brooklyn Bowl",
+    "Lineup": "Eric Slick's Unlimited Edition",
+    "Gear Notes": "",
+    "Link": "https://www.brooklynbowl.com/brooklyn/events/detail/eric-slick-friends-play-krautrock-k7vgfbnxurbbc"
+  },
+  {
+    "id": 399,
+    "order": "399.00000000000000000000",
+    "Date": "2025-07-24",
+    "Location": "South Deerfield, MA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Tree House Brewing",
+    "Lineup": "Jeff Tweedy, Hannah Cohen",
+    "Gear Notes": "",
+    "Link": "https://www.tixr.com/groups/treehousebrew/events/jeff-tweedy-132837"
+  },
+  {
+    "id": 400,
+    "order": "400.00000000000000000000",
+    "Date": "2025-07-26",
+    "Location": "Newport, RI",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Newport Folk Festival",
+    "Lineup": "Newport Folk Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/3f231569-c994-4fca-90db-0d5e378cb958"
+  },
+  {
+    "id": 401,
+    "order": "401.00000000000000000000",
+    "Date": "2025-07-29",
+    "Location": "Columbia, MD",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Merriweather Post Pavilion",
+    "Lineup": "Lord Huron, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/a8952174-7e0a-403b-b64e-4cdf1d601e5a"
+  },
+  {
+    "id": 402,
+    "order": "402.00000000000000000000",
+    "Date": "2025-07-30",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Madison Square Garden",
+    "Lineup": "Lord Huron, Waxahatchee",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/4359d8ff-b3dc-4a41-a282-b06bbaefee93"
+  },
+  {
+    "id": 403,
+    "order": "403.00000000000000000000",
+    "Date": "2025-08-01",
+    "Location": "Bloomington, IL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "The Castle Theatre",
+    "Lineup": "Waxahatchee, Brennan Wedl",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/79164610-c9f3-46ed-95c1-3103257be225"
+  },
+  {
+    "id": 404,
+    "order": "404.00000000000000000000",
+    "Date": "2025-08-02",
+    "Location": "Omaha, NE",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Maha Festival",
+    "Lineup": "Maha Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/dac5eb05-da84-4692-9b9e-c21fc4246340"
+  },
+  {
+    "id": 405,
+    "order": "405.00000000000000000000",
+    "Date": "2025-08-04",
+    "Location": "Santa Fe, NM",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Santa Fe Brewing Co",
+    "Lineup": "Waxahatchee, Brennan Wedl",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/2ac23513-a3ed-4412-88e2-b16d533aea34"
+  },
+  {
+    "id": 406,
+    "order": "406.00000000000000000000",
+    "Date": "2025-08-05",
+    "Location": "Boulder, CO",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Chautauqua Auditorium",
+    "Lineup": "Waxahatchee, Brennan Wedl",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/4194f30f-b5f8-4532-81df-00dc8c3c338a"
+  },
+  {
+    "id": 407,
+    "order": "407.00000000000000000000",
+    "Date": "2025-08-06",
+    "Location": "Salt Lake City, UT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Pioneer Park",
+    "Lineup": "Waxahatchee, Foxwarren",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/574e4a0e-ddaf-44cf-b427-919e5f83b832"
+  },
+  {
+    "id": 408,
+    "order": "408.00000000000000000000",
+    "Date": "2025-08-08",
+    "Location": "Jacksonville, OR",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Britt Festival Pavilion",
+    "Lineup": "Waxahatchee, Foxwarren",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/919d4b86-88c7-4e37-bc95-4d6d5bce553a"
+  },
+  {
+    "id": 409,
+    "order": "409.00000000000000000000",
+    "Date": "2025-08-09",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Pioneer Courthouse Square",
+    "Lineup": "Waxahatchee, Foxwarren",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/fa403b4e-09e7-48d1-b1a5-b6d0ba856928"
+  },
+  {
+    "id": 410,
+    "order": "410.00000000000000000000",
+    "Date": "2025-08-10",
+    "Location": "Seattle, WA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Woodland Park Zoo",
+    "Lineup": "Waxahatchee, Foxwarren",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/3f680a56-cfb6-4586-aaa4-4ffdb0e24619"
+  },
+  {
+    "id": 411,
+    "order": "411.00000000000000000000",
+    "Date": "2025-08-16",
+    "Location": "Ripon, WI",
+    "Artist": [
+      {
+        "id": 3000,
+        "value": "Lucky Cloud",
+        "color": "cyan"
+      }
+    ],
+    "Venue": "Avrom Farm Party",
+    "Lineup": "Avrom Farm Party",
+    "Gear Notes": "",
+    "Link": "https://avromfarmparty.com/"
+  },
+  {
+    "id": 412,
+    "order": "412.00000000000000000000",
+    "Date": "2025-08-19",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "Nightclub 101",
+    "Lineup": "Case Oats, Isaac Stalling (solo)",
+    "Gear Notes": "",
+    "Link": "https://www.ticketweb.com/event/case-oats-isaac-stalling-solo-night-club-101-tickets/14500223"
+  },
+  {
+    "id": 413,
+    "order": "413.00000000000000000000",
+    "Date": "2025-08-20",
+    "Location": "Toronto, ON",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "The Drake Underground",
+    "Lineup": "Case Oats, Burs",
+    "Gear Notes": "",
+    "Link": "https://dice.fm/partner/dice/event/dk9q56-case-oats-20th-aug-the-drake-underground-toronto-tickets"
+  },
+  {
+    "id": 414,
+    "order": "414.00000000000000000000",
+    "Date": "2025-08-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "deep-dark-green"
+      }
+    ],
+    "Venue": "The Hideout",
+    "Lineup": "Case Oats, TV Buddha",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/47494456/case-oats-with-tv-buddha-chicago-hideout-chicago"
+  },
+  {
+    "id": 415,
+    "order": "415.00000000000000000000",
+    "Date": "2025-09-05",
+    "Location": "Bangor, ME",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Maine Savings Amphitheater",
+    "Lineup": "Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/a929b99c-b668-4cf0-818b-112103c0f57a"
+  },
+  {
+    "id": 416,
+    "order": "416.00000000000000000000",
+    "Date": "2025-09-06",
+    "Location": "Hartford, CT",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Xfinity Theatre",
+    "Lineup": "Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/deb5c055-43f7-4fbc-98da-7ea8db28f615"
+  },
+  {
+    "id": 417,
+    "order": "417.00000000000000000000",
+    "Date": "2025-09-07",
+    "Location": "Mansfield, MA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Xfinity Center",
+    "Lineup": "Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/011f8954-4fd5-4301-8bd8-d84f695a6596"
+  },
+  {
+    "id": 418,
+    "order": "418.00000000000000000000",
+    "Date": "2025-09-11",
+    "Location": "Louisville, KY",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Bourbon & Beyond Festival",
+    "Lineup": "Bourbon & Beyond Festival",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/4b09d5f4-cc91-4c26-a410-604dd17eab6f"
+  },
+  {
+    "id": 419,
+    "order": "419.00000000000000000000",
+    "Date": "2025-09-12",
+    "Location": "Camden, NJ",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Freedom Mortgage Pavilion",
+    "Lineup": "Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/5ff388ff-49ff-4d09-b8a6-83797527ed94"
+  },
+  {
+    "id": 420,
+    "order": "420.00000000000000000000",
+    "Date": "2025-09-13",
+    "Location": "Holmdel, NJ",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "PNC Bank Arts Center",
+    "Lineup": "Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/c03890b5-df09-44b8-8171-541fc5f027ee"
+  },
+  {
+    "id": 421,
+    "order": "421.00000000000000000000",
+    "Date": "2025-09-19",
+    "Location": "East Troy, WI",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "light-red"
+      }
+    ],
+    "Venue": "Alpine Valley Music Theatre",
+    "Lineup": "Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",
+    "Gear Notes": "",
+    "Link": "https://link.seated.com/0f02858e-533b-403c-9022-b594bb107d1f"
+  },
+  {
+    "id": 422,
+    "order": "422.00000000000000000000",
+    "Date": "2025-10-08",
+    "Location": "Three Oaks, MI",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Acorn Theater",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/8-oct-2025-three-oaks-mi-acorn-theater/"
+  },
+  {
+    "id": 423,
+    "order": "423.00000000000000000000",
+    "Date": "2025-10-10",
+    "Location": "Toronto, ON",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "The Concert Hall",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/l68aec20ba3e"
+  },
+  {
+    "id": 424,
+    "order": "424.00000000000000000000",
+    "Date": "2025-10-11",
+    "Location": "Montreal, QC",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Théâtre Beanfield",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.ca/event/310062E8C6F21FB0?lang=en-ca&brand=evenko"
+  },
+  {
+    "id": 425,
+    "order": "425.00000000000000000000",
+    "Date": "2025-10-13",
+    "Location": "Burlington, VT",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Higher Ground",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wl.seetickets.us/event/jeff-tweedy/657631?afflky=HigherGround"
+  },
+  {
+    "id": 426,
+    "order": "426.00000000000000000000",
+    "Date": "2025-10-14",
+    "Location": "Lebanon,  NH",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Lebanon Opera House",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://lebanonoperahouse.my.salesforce-sites.com/ticket/#/events/a0SUU000001752P2AQ"
+  },
+  {
+    "id": 428,
+    "order": "428.00000000000000000000",
+    "Date": "2025-10-16",
+    "Location": "Portland, ME",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "The State Theatre",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/010062EABB3F68EA"
+  },
+  {
+    "id": 429,
+    "order": "429.00000000000000000000",
+    "Date": "2025-10-17",
+    "Location": "Norwalk, CT",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "District Music Hall",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.eventbrite.com/e/jeff-tweedy-twilight-override-tour-tickets-1481378275299"
+  },
+  {
+    "id": 430,
+    "order": "430.00000000000000000000",
+    "Date": "2025-10-18",
+    "Location": "Boston, MA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Royale",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/events/1049303/jeff-tweedy-tickets?skin=boweryboston"
+  },
+  {
+    "id": 431,
+    "order": "431.00000000000000000000",
+    "Date": "2025-10-20",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Union Transfer",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/events/1046875/jeff-tweedy-tickets?skin=uniontransfer"
+  },
+  {
+    "id": 432,
+    "order": "432.00000000000000000000",
+    "Date": "2025-10-22",
+    "Location": "Brooklyn, NY",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Brooklyn Steel",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/events/1052833/jeff-tweedy-tickets?skin=brooklynsteel"
+  },
+  {
+    "id": 433,
+    "order": "433.00000000000000000000",
+    "Date": "2025-10-24",
+    "Location": "Patchogue, NY",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Patchogue Theatre",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://ci.ovationtix.com/34780/performance/11670156"
+  },
+  {
+    "id": 434,
+    "order": "434.00000000000000000000",
+    "Date": "2025-10-25",
+    "Location": "Richmond, VA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Lewis Ginter Botanical Garden",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/97191721/jeff-tweedy-wspecial-guest-liam-kazar-henrico-lewis-ginter-botanical-garden"
+  },
+  {
+    "id": 435,
+    "order": "435.00000000000000000000",
+    "Date": "2025-10-26",
+    "Location": "Washington, DC",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Lincoln Theater",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/150062E890DC1541"
+  },
+  {
+    "id": 436,
+    "order": "436.00000000000000000000",
+    "Date": "2025-10-27",
+    "Location": "Washington, DC",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "9:30 Club",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/150062E7BAAD24F0"
+  },
+  {
+    "id": 437,
+    "order": "437.00000000000000000000",
+    "Date": "2025-10-29",
+    "Location": "Grundy County, TN",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Caverns",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://tixr.com/e/150600"
+  },
+  {
+    "id": 438,
+    "order": "438.00000000000000000000",
+    "Date": "2025-10-30",
+    "Location": "Louisville, KY",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Headliners",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://tixr.com/e/150410"
+  },
+  {
+    "id": 439,
+    "order": "439.00000000000000000000",
+    "Date": "2025-11-01",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Salt Shed",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/040062EB21BC49CD"
+  },
+  {
+    "id": 440,
+    "order": "440.00000000000000000000",
+    "Date": "2025-11-05",
+    "Location": "Milwaukee, WI",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Pabst Theater",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.pabsttheatergroup.com/events/detail/jeff-tweedy-2025"
+  },
+  {
+    "id": 441,
+    "order": "441.00000000000000000000",
+    "Date": "2025-11-06",
+    "Location": "Minneapolis, MN",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "First Ave",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/6-nov-2025-minneapolis-mn-first-ave/"
+  },
+  {
+    "id": 442,
+    "order": "442.00000000000000000000",
+    "Date": "2025-11-08",
+    "Location": "Lawrence, KS",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Liberty Hall",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/060062E8EBA22E8F"
+  },
+  {
+    "id": 443,
+    "order": "443.00000000000000000000",
+    "Date": "2025-11-09",
+    "Location": "Tulsa, OK",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Cain's Ballroom",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/30841135/"
+  },
+  {
+    "id": 444,
+    "order": "444.00000000000000000000",
+    "Date": "2025-11-11",
+    "Location": "Dallas, TX",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Longhorn",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.prekindle.com/promo/id/-2853111880159915394"
+  },
+  {
+    "id": 445,
+    "order": "445.00000000000000000000",
+    "Date": "2025-11-12",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Paramount Theater",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://tickets.austintheatre.org/12807/12808"
+  },
+  {
+    "id": 446,
+    "order": "446.00000000000000000000",
+    "Date": "2025-11-14",
+    "Location": "Houston, TX",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "The Heights",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.prekindle.com/promo/id/-2853111880214572196"
+  },
+  {
+    "id": 447,
+    "order": "447.00000000000000000000",
+    "Date": "2025-11-15",
+    "Location": "New Orleans, LA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Chickie Wah Wah",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/15-nov-2025-new-orleans-la-chickie-wah-wah/"
+  },
+  {
+    "id": 448,
+    "order": "448.00000000000000000000",
+    "Date": "2025-11-16",
+    "Location": "New Orleans, LA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Chickie Wah Wah",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/16-nov-2025-new-orleans-la-chickie-wah-wah/"
+  },
+  {
+    "id": 449,
+    "order": "449.00000000000000000000",
+    "Date": "2025-11-18",
+    "Location": "Hattiesburg, MS",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Saenger Theatre",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/1B0062EA9EAF24AA"
+  },
+  {
+    "id": 450,
+    "order": "450.00000000000000000000",
+    "Date": "2025-11-20",
+    "Location": "Peoria, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "TempleLive Scottish Rite",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/070062E99AC41714"
+  },
+  {
+    "id": 451,
+    "order": "451.00000000000000000000",
+    "Date": "2025-11-21",
+    "Location": "Madison, WI",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Shannon Hall",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://artsticketing.wisc.edu/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=70E247DB-136A-46E9-9CFF-DD10C2892600"
+  },
+  {
+    "id": 452,
+    "order": "452.00000000000000000000",
+    "Date": "2026-02-11",
+    "Location": "Madrid, Spain",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Teatro Eslava",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://feverup.com/m/398922"
+  },
+  {
+    "id": 453,
+    "order": "453.00000000000000000000",
+    "Date": "2026-02-12",
+    "Location": "Barcelona, Spain",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Paral-lel 62",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://feverup.com/m/386330"
+  },
+  {
+    "id": 454,
+    "order": "454.00000000000000000000",
+    "Date": "2026-02-14",
+    "Location": "Paris, France",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Alhambra",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://www.aegpresents.fr/event/jeff-tweedy/"
+  },
+  {
+    "id": 455,
+    "order": "455.00000000000000000000",
+    "Date": "2026-02-15",
+    "Location": "Geneva, Switzerland",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Antigel Festival",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/15-feb-2026-geneva-switzerland-antigel-festival/"
+  },
+  {
+    "id": 456,
+    "order": "456.00000000000000000000",
+    "Date": "2026-02-17",
+    "Location": "Antwerp, Belgium",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "De Roma",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://apps.ticketmatic.com/widgets/de_roma/flow/roma?event=134549679012"
+  },
+  {
+    "id": 457,
+    "order": "457.00000000000000000000",
+    "Date": "2026-02-18",
+    "Location": "Utrecht, Netherlands",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "TivoliVredenburg",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://www.tivolivredenburg.nl/agenda/59137635/jeff-tweedy-18-02-2026?utm_source=ext&utm_medium=arbo"
+  },
+  {
+    "id": 458,
+    "order": "458.00000000000000000000",
+    "Date": "2026-02-20",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Islington Assembly Hall",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/20-feb-2026-london-uk-islington-assembly-hall/"
+  },
+  {
+    "id": 459,
+    "order": "459.00000000000000000000",
+    "Date": "2026-02-21",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "orange"
+      }
+    ],
+    "Venue": "Islington Assembly Hall",
+    "Lineup": "",
+    "Gear Notes": "",
+    "Link": "https://myticket.co.uk/artists/jeff-tweedy"
+  }
+]
