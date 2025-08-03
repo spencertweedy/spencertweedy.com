@@ -30,8 +30,9 @@
     <link rel="icon" type="image/png" href="{% link assets/favicons/favicon.png %}">
     <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}">
 
-    <!-- Link RSS feed -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% link feed.xml %}">
+    <!-- Link RSS feeds -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Wire Service" href="{% link feed-wire.xml %}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Observations" href="{% link feed-obs.xml %}">
     
     <!-- Define canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
