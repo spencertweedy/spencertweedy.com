@@ -4,28 +4,15 @@ permalink: "/shows"
 layout: page
 ---
 
-<div class="space-y-8">
-	<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
-		{% assign shows = site.data.shows | sort:"Date" %}
-		{% assign today_date = "now" | date: "%s" %}
-		{% for show in shows %}
-			{% assign show_date = show["Date"] | date: "%s" %}
-			{% if show_date > today_date %}
-				{% include show.html upcoming=true %}
-			{% endif %}
-		{% endfor %}
-	</div>
-
-	<div class="text-lg font-bold">Past shows</div>
-	<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
-		{% assign shows = site.data.shows | sort:"Date" | reverse %}
-		{% assign today_date = "now" | date: "%s" %}
-		{% for show in shows %}
-			{% assign show_date = show["Date"] | date: "%s" %}
-			{% if today_date > show_date %}
-				{% include show.html %}
-			{% endif %}
-		{% endfor %}
-	</div>
-	<p>…and many more before Sept 2021 :-)</p>
+<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
+	{% assign shows = site.data.shows | sort:"Date" %}
+	{% assign today_date = "now" | date: "%s" %}
+	{% for show in shows %}
+		{% assign show_date = show["Date"] | date: "%s" %}
+		{% if show_date > today_date %}
+			{% include show.html upcoming=true %}
+		{% endif %}
+	{% endfor %}
 </div>
+
+<p><a href="{% link pages/shows/shows-archive.html %}">View past shows</a></p>
