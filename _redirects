@@ -19,6 +19,7 @@
 # Redirect subscribe page to Substack (as of 2023-01-02)
 /observations/subscribe    https://spencertweedy.substack.com
 /subscribe                 https://spencertweedy.substack.com
+/mail                      https://spencertweedy.substack.com
 
 # Rename releases page and permalink
 /releases    /music
