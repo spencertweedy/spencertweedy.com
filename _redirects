@@ -1,6 +1,9 @@
 # This is the file that defines all the page redirects for Netlify.
 # It has nothing to do with the static site generator.
 
+# Arbitrary redirects for social media
+/boo    /
+
 # Netlify CMS admin fails if trailing slash isn't included, so…
 /admin    /admin/
 
