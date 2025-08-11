@@ -18,7 +18,7 @@ layout: null
     <item>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <title>{{ post.title | xml_escape }}</title>
-        {% if post.link %}<link>{{ post.link | prepend: site.url }}</link>{% endif %}
+        {% if post.link %}<link>{{ post.link }}</link>{% endif %}
         <description>{{ post.content | xml_escape }}</description>
     </item>
 	{% endfor %}
