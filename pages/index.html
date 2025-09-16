@@ -8,12 +8,14 @@ permalink: "/"
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
 		<p><span class="verb"><a href="{% link pages/releases/music.html %}">makes records</a>:</span> Jeff Tweedy, Waxahatchee, Mavis Staples, Case Oats, Norah Jones, Finom, Liam Kazar, and more…</p>
-
-		<a href="{% link pages/releases/music.html %}"><img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
 	</div>
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
 		<p><span class="verb"><a href="{% link pages/shows/shows.html %}">plays shows</a>:</span> Upcoming dates with Waxahatchee and Jeff Tweedy…</p>
+	</div>
+
+	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
+		<a href="https://spencertweedy.substack.com/"><p><span class="verb"><span class="link">writes a newsletter</span>:</span> free and easy…</p></a>
 	</div>
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
@@ -27,14 +29,25 @@ permalink: "/"
 	</div>
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p><span class="verb"><a href="https://spencertweedy.substack.com/">sends a newsletter</a></span>…</p>
-	</div>
-
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
 		<p><a href="https://avromfarmparty.com/" target="_blank" class="verb">co-produces</a> a festival, <a href="{% link pages/drumprints.html %}" class="verb">releases</a> free drum samples, <a href="https://pocketchicago.com/" target="_blank" class="verb">co-operates</a> a studio, <a href="https://fjordaudio.com/" target="_blank" class="verb">founded</a> a defunct audio cable company, <a href="https://www.facebook.com/buckteesco/" target="_blank" class="verb">founded</a> a defunct t-shirt company</a>, <a href="https://chicagoservicerelief.com/" target="_blank" class="verb">compiled</a> a database of service worker fundraisers, <a href="https://vimeo.com/spencertweedy" target="_blank" class="verb">made</a> some music videos, <a href="https://www.letterscharity.org/" target="_blank" class="verb">serves</a> on the board for Letters Charity, <a href="https://www.rookiemag.com/author/spencertweedy/" target="_blank" class="verb">wrote</a> for Rookie Mag, <a href="https://www.talkhouse.com/artist/spencer-tweedy/" target="_blank" class="verb">wrote</a> for Talkhouse, got <span class="verb">born</span> in 1995, <span class="verb">lives</span> in Chicago, <span class="verb">loves</span> Montessori, <span class="verb">misses</span> Lounge Ax, <a href="{% link pages/wire.html %}" class="verb">transmits</a> wires, and <a href="{% link pages/colophon.html %}" class="verb">likes</a> computers…</p>
 	</div>
 
 	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p>and you can <a href="mailto:{{ site.email }}" class="verb">contact him (me)</a> 💌</p>
+		<p>and you can <a href="mailto:{{ site.email }}" class="verb">contact Spencer</a> 💌</p>
+	</div>
+
+	<a href="{% link pages/releases/music.html %}"><img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
+
+	<div class="bg-yellow-400/20 border border-yellow-400/60 border-dotted p-4 rounded-3xl space-y-4 text-base font-mono max-h-[80vh] overflow-y-scroll divide-y divide-dotted divide-yellow-400/60">
+		{% assign posts = site.wire | reverse %}
+		{% for post in posts limit:50 %}
+		<article class="pt-4">
+			<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
+			<div>
+				{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
+				{{ post.content }}
+			</div>
+		</article>
+		{% endfor %}
 	</div>
 </div>
