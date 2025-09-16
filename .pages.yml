@@ -7,15 +7,15 @@ content:
     type: collection
     path: 'content/_wire'
     view:
-      fields: [ date ]
+      fields: [ date, slug ]
+      primary: slug
     fields:
-      - name: published
-        label: Published
-        type: boolean
-        default: true
       - name: date
         label: Date
         type: date
+      - name: slug
+        label: Slug
+        type: string
       - name: title
         label: Title
         type: string
@@ -27,3 +27,7 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: published
+        label: Published
+        type: boolean
+        default: true
