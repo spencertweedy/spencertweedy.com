@@ -1,0 +1,29 @@
+media:
+  input: content/_uploads
+  output: /uploads
+content:
+  - name: wires
+    label: Wires
+    type: collection
+    path: 'content/_wire'
+    view:
+      fields: [ date ]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
+        required: false
+      - name: link
+        label: Link
+        type: string
+        required: false
+      - name: body
+        label: Body
+        type: rich-text
