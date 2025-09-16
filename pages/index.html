@@ -38,16 +38,7 @@ permalink: "/"
 
 	<a href="{% link pages/releases/music.html %}"><img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
 
-	<div class="bg-yellow-400/20 border border-yellow-400/60 border-dotted p-4 rounded-3xl space-y-4 text-base font-mono max-h-[80vh] overflow-y-scroll divide-y divide-dotted divide-yellow-400/60">
-		{% assign posts = site.wire | reverse %}
-		{% for post in posts limit:50 %}
-		<article class="pt-4">
-			<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
-			<div>
-				{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
-				{{ post.content }}
-			</div>
-		</article>
-		{% endfor %}
+	<div class="bg-yellow-400/20 border border-yellow-400/60 border-dotted p-4 rounded-3xl space-y-4 text-lg text-center font-mono">
+		<p><a href="{% link pages/wire.html %}" class="text-yellow-400/60 decoration-yellow-400/60">Open Wire Service</a></p>
 	</div>
 </div>
