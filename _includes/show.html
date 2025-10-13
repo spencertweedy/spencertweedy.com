@@ -1,10 +1,7 @@
 <div>
-    <div class="flex flex-row h-full items-center py-2 transition-all hover:bg-yellow-400">
-        <div class="w-full flex-grow">
-            <div class="font-mono opacity-40 text-xs">{{ show["Date"] }}</div>
-            <div class="leading-tight">{{ show["Artist"][0].value }} &#10139; {{ show["Location"] }}</div>
-            <div class="mt-1 opacity-40 text-xs uppercase font-mono">{{ show["Venue"] }}</div>
-        </div>
-        {% if show["Link"] and include.upcoming %}<a href="{{ show['Link'] }}" class="button text-xs md:text-sm text-end ms-2">Tickets</a>{% endif %}
-    </div>
+    <a href="{{ show['Link'] }}" target="_blank" class="block text-center sm:text-start sm:flex flex-row items-center py-2 sm:py-1 sm:gap-2 transition-all hover:bg-yellow-400 hover:text-black border-black dark:border-white hover:border-black px-[3vw] -mx-[3vw]">
+        <div>{{ show["Location"] }} with {{ show["Artist"][0].value }}</div>
+        <div class="hidden sm:block flex-grow border-inherit border-t-2 border-dotted"></div>
+        <div class="link sm:text-end">{{ show["Date"] | date: "%e %b %Y" }} at {{ show["Venue"] }}</div>
+    </a>
 </div>

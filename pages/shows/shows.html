@@ -1,18 +1,17 @@
 ---
-title: Shows
+title: "Upcoming Shows"
 permalink: "/shows"
 layout: page
 ---
 
-<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
+<div>
 	{% assign shows = site.data.shows | sort:"Date" %}
 	{% assign today_date = "now" | date: "%s" %}
 	{% for show in shows %}
 		{% assign show_date = show["Date"] | date: "%s" %}
 		{% if show_date > today_date %}
-			{% include show.html upcoming=true %}
+            {% include show.html %}
 		{% endif %}
 	{% endfor %}
+    <p class="text-center sm:text-start py-4 sm:py-1 transition-all hover:bg-yellow-400 px-[3vw] -mx-[3vw]"><a class="block hover:text-black hover:decoration-black transition-all" href="{% link pages/shows/shows-archive.html %}">Travel to the past</a>
 </div>
-
-<p><a href="{% link pages/shows/shows-archive.html %}">View past shows</a></p>

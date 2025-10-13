@@ -4,7 +4,7 @@ permalink: "/shows-archive"
 layout: page
 ---
 
-<div class="divide-y-2 divide-dotted divide-black/20 dark:divide-white/20 w-full">
+<div class="w-full">
     {% assign shows = site.data.shows | sort:"Date" | reverse %}
     {% assign today_date = "now" | date: "%s" %}
     {% for show in shows %}
@@ -13,5 +13,5 @@ layout: page
             {% include show.html %}
         {% endif %}
     {% endfor %}
+    <div>…and many more before Sept 2021 :-)</div>
 </div>
-<p>…and many more before Sept 2021 :-)</p>
