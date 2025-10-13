@@ -87,7 +87,7 @@
     
     <footer class="px-[3vw] text-center mb-[10vh] text-sm space-y-2">
         {% unless page.url == "/" %}<p><a href="{% link pages/index.html %}" class="link">Home</a></p>{% endunless %}
-        <p><a href="{% link pages/colophon.md %}">Colophon</a></p>
+        {% unless page.url == "/colophon" %}<p><a href="{% link pages/colophon.md %}">Colophon</a></p>{% endunless %}
     </footer>
     
     <a href="#site-header" class="sr-only">Back to start of page</a>
