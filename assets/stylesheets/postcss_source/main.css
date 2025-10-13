@@ -104,7 +104,7 @@
 	}
 
 	.callout {
-		@apply bg-yellow-400 p-2 dark:bg-obs-green dark:*:text-white dark:*:decoration-white;
+		@apply bg-yellow-400 p-2 dark:bg-obs-green dark:*:text-black dark:*:decoration-black;
 	}
 }
 
