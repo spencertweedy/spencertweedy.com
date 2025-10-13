@@ -3,46 +3,33 @@ layout: page
 permalink: "/"
 ---
 
-<div class="space-y-8">
-	<p class="text-3xl text-center font-sans">{{ site.title }}</p>
-
-	<div class="bg-yellow-400/20 border border-yellow-400/60 border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<a href="https://spencertweedy.substack.com/p/willies-tent?r=62534"><p><span class="verb"><span class="link">new post</span>:</span> Willie’s Tent</p></a>
+<section class="md:flex gap-[3vw] space-y-8 md:space-y-0 items-center mb-[10vh]">
+	<div class="order-2 basis-1/2">
+		<a href="{% link pages/releases/releases.html %}" class="block"><img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
 	</div>
+	
+	<div class="basis-1/2 space-y-4">
+		<p>Spencer aka Spooncer aka Spoon <br>I’m a drummer and a writer in Chicago</p>
 
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p><span class="verb"><a href="{% link pages/releases/music.html %}">makes records</a>:</span> Jeff Tweedy, Waxahatchee, Mavis Staples, Case Oats, Norah Jones, Finom, Liam Kazar, and more…</p>
+		<p>Recently…</p>
+
+		<ul>
+			{% assign featured_releases = site.releases | where: "featured", true | reverse %}
+			{% for release in featured_releases %}
+			<li><a href="{{ release.listen }}" target="_blank">{{ release.title }}</a> by {{ release.artist }}</li>
+			{% endfor %}
+		</ul>
+
+		<p>Listen in an easy <a href="https://lnkfi.re/50dram" target="_blank">playlist</a></p>
+
+		<p>I’m <a href="{% link pages/shows/shows.html %}">on tour</a> with my dad right now</p>
+
+		<p>You can <a href="mailto:{{ site.email }}">contact me</a></p>
+
+		<p><a href="https://spencertweedy.substack.com" target="_blank">Subscribe to my newsletter</a></p>
 	</div>
+</section>
 
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p><span class="verb"><a href="{% link pages/shows/shows.html %}">plays shows</a>:</span> Upcoming dates with Waxahatchee and Jeff Tweedy…</p>
-	</div>
-
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<a href="https://spencertweedy.substack.com/"><p><span class="verb"><span class="link">writes a newsletter</span>:</span> free and easy…</p></a>
-	</div>
-
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p><span class="verb"><a href="{% link pages/books.html %}">writes books</a>:</span> <i>Mirror Sound</i> and <i>Observations</i>…</p>
-
-		<div class="flex justify-center items-center py-4">
-			<div class="w-32 -rotate-[3deg] z-30"><a href="{% link pages/mirror-sound.html %}"><img class="w-full" src="{% link _uploads/mirror-sound/mirror-sound-cover-small.jpg %}" alt="The cover of Mirror Sound"></a></div>
-			<div class="rotate-[2deg] w-24 z-10"><a href="{% link pages/observations/books/year-one.html %}"><img class="w-full" src="{% link _uploads/observations-cover-web.jpg %}" alt="The cover of Observations Year One"></a></div>
-			<div class="rotate-[4deg] w-24 z-20"><a href="https://store.spencertweedy.com/products/observations-year-two-book"><img class="w-full" src="{% link _uploads/observations-year-two.webp %}" alt="The cover of Observations Year Two"></a></div>
-		</div>
-	</div>
-
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p><a href="https://avromfarmparty.com/" target="_blank" class="verb">co-produces</a> a festival, <a href="{% link pages/drumprints.html %}" class="verb">releases</a> free drum samples, <a href="https://pocketchicago.com/" target="_blank" class="verb">co-operates</a> a studio, <a href="https://fjordaudio.com/" target="_blank" class="verb">founded</a> a defunct audio cable company, <a href="https://www.facebook.com/buckteesco/" target="_blank" class="verb">founded</a> a defunct t-shirt company</a>, <a href="https://chicagoservicerelief.com/" target="_blank" class="verb">compiled</a> a database of service worker fundraisers, <a href="https://vimeo.com/spencertweedy" target="_blank" class="verb">made</a> some music videos, <a href="https://www.letterscharity.org/" target="_blank" class="verb">serves</a> on the board for Letters Charity, <a href="https://www.rookiemag.com/author/spencertweedy/" target="_blank" class="verb">wrote</a> for Rookie Mag, <a href="https://www.talkhouse.com/artist/spencer-tweedy/" target="_blank" class="verb">wrote</a> for Talkhouse, got <span class="verb">born</span> in 1995, <span class="verb">lives</span> in Chicago, <span class="verb">loves</span> Montessori, <span class="verb">misses</span> Lounge Ax, <a href="{% link pages/wire.html %}" class="verb">transmits</a> wires, and <a href="{% link pages/colophon.html %}" class="verb">likes</a> computers…</p>
-	</div>
-
-	<div class="border border-current border-dotted p-4 rounded-3xl space-y-4 text-lg">
-		<p>and you can <a href="mailto:{{ site.email }}" class="verb">contact Spencer</a> 💌</p>
-	</div>
-
-	<a href="{% link pages/releases/music.html %}"><img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
-
-	<div class="bg-yellow-400/20 border border-yellow-400/60 border-dotted p-4 rounded-3xl space-y-4 text-lg text-center font-mono">
-		<p><a href="{% link pages/wire.html %}" class="text-yellow-400/60 decoration-yellow-400/60">Open Wire Service</a></p>
-	</div>
-</div>
+<section class="pt-[10vh] px-[3vw] -mx-[3vw] border-t border-black/20 dark:border-white/20">
+	{% include wire.html limit=14 %}
+</section>

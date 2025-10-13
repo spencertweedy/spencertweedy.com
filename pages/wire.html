@@ -1,22 +1,9 @@
 ---
 layout: page
-title: "Spencer Tweedy Wire Service"
+title: "Wire Service"
 permalink: "/wire"
 ---
 
-<div>
-	{% assign posts = site.wire | reverse %}
-	{% for post in posts %}
-	<article class="py-6">
-		<p class="my-0 float-start pe-2 font-bold"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%F" }}</time></p>
-		<div>
-			{% if post.link %}<p class="mb-4 last:mb-0"><a href="{{ post.link }}" class="link">{{ post.title }}</a></p>{% endif %}
-			{{ post.content }}
-		</div>
-	</article>
-	{% endfor %}
-</div>
+{% include wire.html %}
 
-<div>
-	<p>Pre-wire: <a href="{% link pages/observations/index.html %}">Observations</a></p>
-</div>
+<p class="callout"><a href="{% link pages/observations/index.html %}">Read Observations…</a></p>

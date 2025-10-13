@@ -28,7 +28,7 @@
 	}
 	
 	p {
-		@apply leading-[1.4em] reg-spacing;
+		@apply leading-[1.4em];
 	}
 	
 	p:first-child {
@@ -99,8 +99,12 @@
 		@apply inline-block bg-blue-600 py-2 px-4 text-white no-underline transition-all hover:brightness-110;
 	}
 
-	.announcement-label {
-		@apply bg-yellow-400 dark:bg-violet-800/80 p-2 text-black dark:text-white/60 uppercase tracking-wide font-mono text-sm;
+	.button-full {
+		@apply button block w-full text-center;
+	}
+
+	.callout {
+		@apply bg-yellow-400 p-2 dark:bg-obs-green dark:*:text-white dark:*:decoration-white;
 	}
 }
 
@@ -131,11 +135,7 @@
 	}
 	
 	.link {
-		@apply underline whitespace-nowrap text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
-	}
-
-	.verb {
-		@apply font-bold font-sans italic text-base;
+		@apply underline font-bold font-sans italic text-[85%] text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-1 underline-offset-4 hover:brightness-110;
 	}
 	
 	ul.link-list {
