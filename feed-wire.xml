@@ -14,13 +14,13 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
     {% assign posts = site.wire | reverse %}
-	{% for post in posts %}
-    <item>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.link %}<link>{{ post.link }}</link>{% endif %}
-        <description>{{ post.content | xml_escape }}</description>
-    </item>
-	{% endfor %}
+    {% for post in posts %}
+      <item>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <title>{{ post.title | xml_escape }}</title>
+          {% if post.link %}<link>{{ post.link | xml_escape }}</link>{% endif %}
+          <description>{{ post.content | xml_escape }}</description>
+      </item>
+    {% endfor %}
   </channel>
 </rss>
