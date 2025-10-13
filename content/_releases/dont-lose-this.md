@@ -7,7 +7,6 @@ color: "#D70000"
 listen: http://hyperurl.co/ncm6eq
 image: "/uploads/releases/dont_lose_this.jpg"
 role: Drums
-is_featured: true
 type: LP
 ---
 

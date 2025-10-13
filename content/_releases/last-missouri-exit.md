@@ -8,4 +8,5 @@ listen: https://lnk.to/LastMissouriExit
 image: "/uploads/releases/last-missouri-exit.jpg"
 role: Production, engineering, drums, various instruments
 type: LP
+featured: true
 ---

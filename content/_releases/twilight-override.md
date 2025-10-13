@@ -8,4 +8,5 @@ listen: https://jefftweedy.lnk.to/TwilightOverride
 image: "/uploads/releases/twilight-override.jpg"
 role: Drums, background vocals, various instruments
 type: LP
+featured: true
 ---

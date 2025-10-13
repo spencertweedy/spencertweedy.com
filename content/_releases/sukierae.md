@@ -8,7 +8,6 @@ listen: https://antirecords.bandcamp.com/album/sukierae
 image: "/uploads/releases/sukierae.jpg"
 role: Drums
 with_dad: true
-is_featured: true
 type: LP
 ---
 
