@@ -13,4 +13,4 @@ My website’s underlying code and more information about the technologies it us
 
 The typesetting is in flux. Right now the site is set in Times New Roman, your browser’s default sans-serif font, and [ISO](https://www.scribbletone.com/typefaces/iso) by Scribble Tone. The drum icon is by [Arthur Shlain](https://thenounproject.com/icon/drum-135575/) via The Noun Project.
 
-[Many people](http://localhost:4000/i-like) have inspired and informed me on this journey of homegrown website cooking, which I began as a teen in the late aughts.
+[Many people]({% link pages/i-like.html %}) have inspired and informed me on this journey of homegrown website cooking, which I began as a teen in the late aughts.
