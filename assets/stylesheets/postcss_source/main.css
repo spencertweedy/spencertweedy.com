@@ -86,7 +86,7 @@
 	}
 
 	mark {
-		@apply bg-yellow-400 p-0.5;
+		@apply highlight;
 	}
 }
 
@@ -103,8 +103,12 @@
 		@apply button block w-full text-center;
 	}
 
-	.callout {
-		@apply bg-yellow-400 p-2 dark:bg-obs-green dark:*:text-black dark:*:decoration-black;
+	.highlight {
+		@apply bg-yellow-400 text-black p-3;
+	}
+
+	.highlight a {
+		@apply text-black decoration-black;
 	}
 }
 

@@ -27,6 +27,10 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: highlighted
+        label: Highlighted
+        type: boolean
+        default: false
       - name: published
         label: Published
         type: boolean
