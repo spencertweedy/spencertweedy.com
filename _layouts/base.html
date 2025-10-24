@@ -86,8 +86,11 @@
     </main>
     
     <footer class="px-[3vw] text-center mb-[10vh] text-sm space-y-2">
-        {% unless page.url == "/" %}<p><a href="{% link pages/index.html %}" class="link">Home</a></p>{% endunless %}
-        {% unless page.url == "/colophon" %}<p><a href="{% link pages/colophon.md %}">Colophon</a></p>{% endunless %}
+        <nav class="*:link flex gap-2">
+            {% unless page.url == "/" %}<a href="{% link pages/index.html %}" class="link">Home</a>{% endunless %}
+            {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
+            <a href="mailto:{{ site.email }}">Contact</a>
+        </nav>
     </footer>
     
     <a href="#site-header" class="sr-only">Back to start of page</a>
