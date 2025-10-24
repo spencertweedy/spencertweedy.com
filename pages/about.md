@@ -17,6 +17,7 @@ Here’s how to <a href="mailto:{{ site.email }}">contact me</a>.
 
 And here’s a list of some other stuff I’ve done or like to do:
 
+* [The Tweedy Show](https://tweedyshow.com/), my family’s livestream show
 * [Avrom Farm Party](https://avromfarmparty.com/), a festival I cofounded
 * [drumprints]({% link pages/drumprints.html %}), a free pack of drum samples
 * [The Pocket](https://pocketchicago.com/), the studio I co-own with [Jason Ashworth](https://www.jasongordonashworth.com/)
