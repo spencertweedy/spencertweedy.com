@@ -139,7 +139,7 @@
 	}
 	
 	.link {
-		@apply underline font-bold font-sans italic text-[85%] text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-2 underline-offset-2 hover:brightness-110;
+		@apply underline font-bold font-sans italic text-[85%] text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-2 underline-offset-2 hover:brightness-110 relative -top-[0.075em];
 	}
 	
 	ul.link-list {
