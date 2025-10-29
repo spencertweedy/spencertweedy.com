@@ -41,7 +41,7 @@ content:
     path: 'content/_releases'
     view:
       fields: [ title, artist, year ]
-      primary: artist
+      primary: title
     fields:
       - name: title
         label: Title
