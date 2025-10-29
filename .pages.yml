@@ -35,3 +35,47 @@ content:
         label: Published
         type: boolean
         default: true
+  - name: releases
+    label: Releases
+    type: collection
+    path: 'content/_releases'
+    view:
+      fields: [ artist, title, year ]
+      primary: artist
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: artist
+        label: Artist
+        type: string
+        required: true
+      - name: year
+        label: Year
+        type: string
+        required: true
+      - name: image
+        label: Artwork
+        type: image
+        required: true
+        options:
+          path: releases
+      - name: listen
+        label: Listen Link
+        type: string
+        required: false
+      - name: role
+        label: Role
+        type: string
+        required: false
+      - name: type
+        label: Type
+        type: select
+        required: true
+        options:
+          values: [ LP, EP, single ]
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
