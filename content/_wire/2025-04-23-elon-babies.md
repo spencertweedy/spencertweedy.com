@@ -1,5 +1,5 @@
 ---
-title: "WSJ: The Tactics Elon Musk Uses to Manage His ‘Legion’ of Babies—and
+headline: "WSJ: The Tactics Elon Musk Uses to Manage His ‘Legion’ of Babies—and
   Their Mothers"
 link: https://www.wsj.com/politics/elon-musk-children-mothers-ashley-st-clair-grimes-dc7ba05c?reflink=desktopwebshare_permalink
 date: 2025-04-22

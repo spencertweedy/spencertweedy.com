@@ -7,7 +7,11 @@
         <div class="space-y-4">
             {% for post in day.items reversed %}
                 <article class="before:content-['▚'] before:float-start {% if post.highlighted == true %}highlight{% endif %} before:pe-2 before:top-1 before:relative before:text-xs space-y-2 max-w-screen-md mx-auto break-inside-avoid">
-                    {% if post.link %}<p><a href="{{ post.link }}" class="">{{ post.title }}</a></p>{% endif %}
+                    {% if post.link and post.headline %}
+                        <p><a href="{{ post.link }}">{{ post.headline }}</a></p>
+                    {% elsif post.headline %}
+                        <p class="font-bold">{{ post.headline }}</p>
+                    {% endif %}
                     {{ post.content }}
                 </article>
             {% endfor %}

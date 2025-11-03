@@ -1,7 +1,7 @@
 ---
 date: 2025-09-17
 slug: willie-bus
-title: '"The Last Word on the Willie Nelson Bus That’s NOT Willie Nelson’s Bus"'
+headline: '"The Last Word on the Willie Nelson Bus That’s NOT Willie Nelson’s Bus"'
 link: https://www.texasmonthly.com/articles/the-last-word-on-the-willie-nelson-bus-thats-not-willie-nelsons-bus/
 published: true
 ---

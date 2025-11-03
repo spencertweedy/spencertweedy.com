@@ -1,7 +1,7 @@
 ---
 date: 2025-11-02
 slug: online-markets
-title: Regulate online markets
+headline: Regulate online markets
 link: https://www.nytimes.com/2025/10/25/opinion/big-tech-platforms-reform.html
 highlighted: false
 published: true

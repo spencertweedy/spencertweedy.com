@@ -1,5 +1,5 @@
 ---
-title: "Aarik Danielsen: The Drummer"
+headline: "Aarik Danielsen: The Drummer"
 link: https://www.whaleroadreview.com/danielsen/
 date: 2024-12-25
 ---

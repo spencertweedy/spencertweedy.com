@@ -1,5 +1,5 @@
 ---
-title: "Under the missiles: U.N. force caught between Israel and Hezbollah"
+headline: "Under the missiles: U.N. force caught between Israel and Hezbollah"
 link: https://apple.news/AQ1p9ELPeQn6gUhFlHj9f8w
 tags: israel-palestine
 date: 2024-09-16

@@ -1,5 +1,5 @@
 ---
-title: Boots theory
+headline: Boots theory
 link: https://en.wikipedia.org/wiki/Boots_theory
 date: 2024-11-03
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2024-11-30
-title: Craig Mod on voting for play
+headline: Craig Mod on voting for play
 link: https://craigmod.com/roden/096/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "New Yorker: What’s Next in the Israel-Iran Conflict?"
+headline: "New Yorker: What’s Next in the Israel-Iran Conflict?"
 link: https://www.newyorker.com/news/the-lede/whats-next-in-the-israel-iran-conflict
 date: 2024-10-13
 tags: israel-palestine
