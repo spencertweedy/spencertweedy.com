@@ -16,8 +16,8 @@ content:
       - name: slug
         label: Slug
         type: string
-      - name: title
-        label: Title
+      - name: headline
+        label: Headline
         type: string
         required: false
       - name: link
