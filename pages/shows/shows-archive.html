@@ -4,6 +4,109 @@ permalink: "/shows-archive"
 layout: page
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<div id="map" class="h-[50vh]"></div>
+<p class="italic">Since September 2021</p>
+<script>
+    const map = L.map('map').setView([35, -95], 3);
+
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png', {
+        maxZoom: 20,
+        attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const shows = {{ site.data.shows | jsonify }};
+    const coords = {{ site.data.location_coords | jsonify }};
+
+    // Count by location
+    const locationCounts = shows.reduce((acc, show) => {
+        const location = show.Location;
+
+        if (!acc[location]) {
+            acc[location] = {
+                location: location,
+                shows: 0,
+                venues: new Set(),
+                artists: new Set()
+            };
+        }
+
+        acc[location].shows++;
+        if (show.Venue) {
+            acc[location].venues.add(show.Venue);
+        }
+
+        if (show.Artist && Array.isArray(show.Artist)) {
+            show.Artist.forEach(artist => {
+                acc[location].artists.add(artist.value);
+            });
+        }
+
+        return acc;
+    }, {});
+
+    // Create object from the location counts
+    const locationData = Object.values(locationCounts).map(loc => ({
+        location: loc.location,
+        shows: loc.shows,
+        venues: Array.from(loc.venues),
+        artists: Array.from(loc.artists),
+        lat: coords[loc.location]?.lat,
+        lng: coords[loc.location]?.lng
+    })).filter(loc => loc.lat && loc.lng);
+
+    // Function to determine marker style
+    function getMarkerStyle(showCount) {
+    if (showCount >= 10) return { size: 16, color: 'oklch(85.2% 0.199 91.936)' };
+    if (showCount >= 2) return { size: 16, color: 'oklch(54.6% 0.245 262.881)' };
+    return { size: 16, color: 'oklch(70.7% 0.165 254.624)' };
+    }
+
+    // Add markers
+    locationData.forEach(loc => {
+    const style = getMarkerStyle(loc.shows);
+
+    const markerHtml = `
+        <div style="
+            width: ${style.size}px;
+            height: ${style.size}px;
+            background: ${style.color};
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            font-size: ${style.size * 0.4}px;
+        ">
+            ${loc.shows}
+        </div>
+    `;
+
+    const icon = L.divIcon({
+        html: markerHtml,
+        className: '',
+        iconSize: [style.size, style.size],
+        iconAnchor: [style.size / 2, style.size / 2]
+    });
+
+    const marker = L.marker([loc.lat, loc.lng], { icon: icon }).addTo(map);
+
+    marker.bindPopup(`
+        <div style="min-width: 200px;">
+            <h3 style="margin: 0 0 8px 0;">${loc.location}</h3>
+            <p style="margin: 4px 0;">${loc.shows} show${loc.shows > 1 ? 's' : ''} at ${loc.venues.length} venue${loc.venues.length > 1 ? 's' : ''}</p>
+            <p style="margin: 4px 0; font-size: 13px;">${loc.venues.slice(0, 3).join(', ')}${loc.venues.length > 3 ? '...' : ''}</p>
+        </div>
+    `);
+    });
+
+    // Fit map to markers
+    // const group = L.featureGroup(locationData.map(l => L.marker([l.lat, l.lng])));
+    // map.fitBounds(group.getBounds());
+</script>
+
 <div class="w-full">
     {% assign shows = site.data.shows | sort:"Date" | reverse %}
     {% assign today_date = "now" | date: "%s" %}
@@ -13,5 +116,5 @@ layout: page
             {% include show.html %}
         {% endif %}
     {% endfor %}
-    <div>…and many more before Sept 2021 :-)</div>
+    <div>…and more before Sept 2021 :-)</div>
 </div>

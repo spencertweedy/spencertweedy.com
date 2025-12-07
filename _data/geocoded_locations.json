@@ -1,0 +1,690 @@
+{
+  "Davenport, IA": {
+    "lat": 41.5235808,
+    "lng": -90.5770967
+  },
+  "Kansas City, MO": {
+    "lat": 39.100105,
+    "lng": -94.5781416
+  },
+  "Des Moines, IA": {
+    "lat": 41.5868654,
+    "lng": -93.6249494
+  },
+  "St. Paul, MN": {
+    "lat": 44.9497487,
+    "lng": -93.0931028
+  },
+  "Milwaukee, WI": {
+    "lat": 43.0386475,
+    "lng": -87.9090751
+  },
+  "Chicago, IL": {
+    "lat": 41.8755616,
+    "lng": -87.6244212
+  },
+  "Dallas, TX": {
+    "lat": 32.7762719,
+    "lng": -96.7968559
+  },
+  "Houston, TX": {
+    "lat": 29.7589382,
+    "lng": -95.3676974
+  },
+  "New Orleans, LA": {
+    "lat": 29.9559145,
+    "lng": -90.0730259
+  },
+  "Jackson, MS": {
+    "lat": 32.2998686,
+    "lng": -90.1830408
+  },
+  "Memphis, TN": {
+    "lat": 35.1460249,
+    "lng": -90.0517638
+  },
+  "Nashville, TN": {
+    "lat": 36.1622767,
+    "lng": -86.7742984
+  },
+  "St. Louis, MO": {
+    "lat": 38.6280278,
+    "lng": -90.1910154
+  },
+  "Cleveland, OH": {
+    "lat": 41.4996574,
+    "lng": -81.6936772
+  },
+  "Berwyn, IL": {
+    "lat": 41.8505874,
+    "lng": -87.7936685
+  },
+  "Riviera Maya, Mexico": {
+    "lat": 20.621933,
+    "lng": -87.0757075
+  },
+  "Madison, WI": {
+    "lat": 43.07469,
+    "lng": -89.3841663
+  },
+  "San Francisco, CA": {
+    "lat": 37.7932754,
+    "lng": -122.3963589
+  },
+  "Los Angeles, CA": {
+    "lat": 34.0536909,
+    "lng": -118.242766
+  },
+  "Columbia, MO": {
+    "lat": 38.951883,
+    "lng": -92.3337366
+  },
+  "Austin, TX": {
+    "lat": 30.2711286,
+    "lng": -97.7436995
+  },
+  "Atlanta, GA": {
+    "lat": 33.7544657,
+    "lng": -84.3898151
+  },
+  "Richmond, VA": {
+    "lat": 37.5385087,
+    "lng": -77.43428
+  },
+  "Baltimore, MD": {
+    "lat": 39.2908816,
+    "lng": -76.610759
+  },
+  "Washington, DC": {
+    "lat": 38.8950368,
+    "lng": -77.0365427
+  },
+  "New York, NY": {
+    "lat": 40.7127281,
+    "lng": -74.0060152
+  },
+  "Philadelphia, PA": {
+    "lat": 39.9527237,
+    "lng": -75.1635262
+  },
+  "Cincinnati, OH": {
+    "lat": 39.1014537,
+    "lng": -84.5124602
+  },
+  "Bloomington, IN": {
+    "lat": 39.1670396,
+    "lng": -86.5342881
+  },
+  "Denver, CO": {
+    "lat": 39.7392364,
+    "lng": -104.984862
+  },
+  "North Adams, MA": {
+    "lat": 42.6990349,
+    "lng": -73.1118997
+  },
+  "Winooski, VT": {
+    "lat": 44.4910402,
+    "lng": -73.1861064
+  },
+  "Kingston, NY": {
+    "lat": 41.9287812,
+    "lng": -74.0023825
+  },
+  "Troy, NY": {
+    "lat": 42.7284117,
+    "lng": -73.6917878
+  },
+  "New Haven, CT": {
+    "lat": 41.3082138,
+    "lng": -72.9250518
+  },
+  "Buffalo, NY": {
+    "lat": 42.8867166,
+    "lng": -78.8783922
+  },
+  "Detroit, MI": {
+    "lat": 42.3315509,
+    "lng": -83.0466403
+  },
+  "Albany, WI": {
+    "lat": 42.7076431,
+    "lng": -89.4378557
+  },
+  "Fishers, IN": {
+    "lat": 39.9555928,
+    "lng": -86.0138729
+  },
+  "Evanston, IL": {
+    "lat": 42.0470043,
+    "lng": -87.6846053
+  },
+  "Green Lake, WI": {
+    "lat": 43.7971612,
+    "lng": -89.0402508
+  },
+  "Traverse City, MI": {
+    "lat": 44.7606481,
+    "lng": -85.6165976
+  },
+  "Dubuque, IA": {
+    "lat": 42.5006243,
+    "lng": -90.6647985
+  },
+  "Lincoln, NE": {
+    "lat": 40.8088861,
+    "lng": -96.7077751
+  },
+  "Louisville, KY": {
+    "lat": 38.2542376,
+    "lng": -85.759407
+  },
+  "South Bend, IN": {
+    "lat": 41.6833813,
+    "lng": -86.2500066
+  },
+  "Oberlin, OH": {
+    "lat": 41.2939386,
+    "lng": -82.2173786
+  },
+  "Columbia, SC": {
+    "lat": 34.000754,
+    "lng": -81.0352313
+  },
+  "Knoxville, TN": {
+    "lat": 35.9603948,
+    "lng": -83.9210261
+  },
+  "Seattle, WA": {
+    "lat": 47.6038321,
+    "lng": -122.330062
+  },
+  "Portland, OR": {
+    "lat": 45.5202471,
+    "lng": -122.674194
+  },
+  "Solana Beach, CA": {
+    "lat": 32.9919141,
+    "lng": -117.2678124
+  },
+  "Phoenix, AZ": {
+    "lat": 33.4484367,
+    "lng": -112.074141
+  },
+  "Santa Fe, NM": {
+    "lat": 35.6876096,
+    "lng": -105.938456
+  },
+  "Oklahoma City, OK": {
+    "lat": 35.4729886,
+    "lng": -97.5170536
+  },
+  "Durham, NC": {
+    "lat": 35.996653,
+    "lng": -78.9018053
+  },
+  "At sea": {
+    "lat": 12.1463353,
+    "lng": -68.27611
+  },
+  "Three Oaks, MI": {
+    "lat": 41.7986545,
+    "lng": -86.6105778
+  },
+  "Ripon, WI": {
+    "lat": 43.8442406,
+    "lng": -88.8387158
+  },
+  "Bonner, MT": {
+    "lat": 46.873806,
+    "lng": -113.8637614
+  },
+  "Morrison, CO": {
+    "lat": 39.6535988,
+    "lng": -105.191099
+  },
+  "Mount Tremper, NY": {
+    "lat": 42.0448136,
+    "lng": -74.2754247
+  },
+  "Woodstock, NY": {
+    "lat": 42.0410578,
+    "lng": -74.1182492
+  },
+  "Raleigh, NC": {
+    "lat": 35.7803977,
+    "lng": -78.6390989
+  },
+  "Savannah, GA": {
+    "lat": 32.0790074,
+    "lng": -81.0921335
+  },
+  "Chattanooga, TN": {
+    "lat": 35.0457219,
+    "lng": -85.3094883
+  },
+  "San Diego, CA": {
+    "lat": 32.7174202,
+    "lng": -117.162772
+  },
+  "Sacramento, CA": {
+    "lat": 38.5810606,
+    "lng": -121.493895
+  },
+  "Vancouver, BC": {
+    "lat": 49.2608724,
+    "lng": -123.113952
+  },
+  "Boise, ID": {
+    "lat": 43.6166163,
+    "lng": -116.200886
+  },
+  "Salt Lake City, UT": {
+    "lat": 40.7596198,
+    "lng": -111.886797
+  },
+  "Tokyo, Japan": {
+    "lat": 35.6768601,
+    "lng": 139.7638947
+  },
+  "Osaka, Japan": {
+    "lat": 34.6198813,
+    "lng": 135.490357
+  },
+  "Kyoto, Japan": {
+    "lat": 35.0115754,
+    "lng": 135.7681441
+  },
+  "Minneapolis, MN": {
+    "lat": 44.9772995,
+    "lng": -93.2654692
+  },
+  "Northfield, MN": {
+    "lat": 44.4582041,
+    "lng": -93.161159
+  },
+  "St Paul, MN": {
+    "lat": 44.9497487,
+    "lng": -93.0931028
+  },
+  "Toronto, ON": {
+    "lat": 43.6534817,
+    "lng": -79.3839347
+  },
+  "Boston, MA": {
+    "lat": 42.3588336,
+    "lng": -71.0578303
+  },
+  "Asheville, NC": {
+    "lat": 35.595363,
+    "lng": -82.5508407
+  },
+  "St Petersburg, FL": {
+    "lat": 27.7712264,
+    "lng": -82.6340259
+  },
+  "Orlando, FL": {
+    "lat": 28.5421218,
+    "lng": -81.379045
+  },
+  "Birmingham, AL": {
+    "lat": 33.5206824,
+    "lng": -86.8024326
+  },
+  "Tulsa, OK": {
+    "lat": 36.1563122,
+    "lng": -95.9927516
+  },
+  "Fort Worth, TX": {
+    "lat": 32.753177,
+    "lng": -97.3327459
+  },
+  "Paso Robles, CA": {
+    "lat": 35.6262618,
+    "lng": -120.6901319
+  },
+  "Oakland, CA": {
+    "lat": 37.8044557,
+    "lng": -122.271356
+  },
+  "London, UK": {
+    "lat": 51.5074456,
+    "lng": -0.1277653
+  },
+  "Amsterdam, NL": {
+    "lat": 52.3730796,
+    "lng": 4.8924534
+  },
+  "Koln, DE": {
+    "lat": 50.938361,
+    "lng": 6.959974
+  },
+  "Hamburg, DE": {
+    "lat": 53.550341,
+    "lng": 10.000654
+  },
+  "Bruges, BE": {
+    "lat": 51.2085526,
+    "lng": 3.226772
+  },
+  "Berlin, DE": {
+    "lat": 52.5173885,
+    "lng": 13.3951309
+  },
+  "Schorndorf, DE": {
+    "lat": 48.8055169,
+    "lng": 9.5272665
+  },
+  "Feldkirch, AT": {
+    "lat": 47.2375671,
+    "lng": 9.5981724
+  },
+  "Sittersdorf, AT": {
+    "lat": 46.5397157,
+    "lng": 14.6167182
+  },
+  "Zurich, CH": {
+    "lat": 47.3744489,
+    "lng": 8.5410422
+  },
+  "Paris, FR": {
+    "lat": 48.8534951,
+    "lng": 2.3483915
+  },
+  "Brighton, UK": {
+    "lat": 50.8214626,
+    "lng": -0.1400561
+  },
+  "Southwold, UK": {
+    "lat": 52.3260841,
+    "lng": 1.6793095
+  },
+  "Manchester, UK": {
+    "lat": 53.4794892,
+    "lng": -2.2451148
+  },
+  "Leeds, UK": {
+    "lat": 53.7974185,
+    "lng": -1.5437941
+  },
+  "Glasgow, UK": {
+    "lat": 55.861155,
+    "lng": -4.2501687
+  },
+  "Belfast, UK": {
+    "lat": 54.5975805,
+    "lng": -5.9277097
+  },
+  "Dublin, IE": {
+    "lat": 53.3493795,
+    "lng": -6.2605593
+  },
+  "Fort Collins, CO": {
+    "lat": 40.5871782,
+    "lng": -105.0770113
+  },
+  "St Louis, MO": {
+    "lat": 38.6280278,
+    "lng": -90.1910154
+  },
+  "Kalamazoo, MI": {
+    "lat": 42.291707,
+    "lng": -85.5872286
+  },
+  "Pittsburgh, PA": {
+    "lat": 40.4406968,
+    "lng": -80.0025666
+  },
+  "South Deerfield, MA": {
+    "lat": 42.4773046,
+    "lng": -72.6079039
+  },
+  "Portland, ME": {
+    "lat": 43.6573605,
+    "lng": -70.2586618
+  },
+  "Accord, NY": {
+    "lat": 41.7981195,
+    "lng": -74.2292982
+  },
+  "Asbury Park, NJ": {
+    "lat": 40.2203907,
+    "lng": -74.0120817
+  },
+  "Vienna, VA": {
+    "lat": 38.9013729,
+    "lng": -77.2651762
+  },
+  "Union Pier, MI": {
+    "lat": 41.8280974,
+    "lng": -86.6925251
+  },
+  "Toronto, Canada": {
+    "lat": 43.6534817,
+    "lng": -79.3839347
+  },
+  "Montreal, Canada": {
+    "lat": 45.5031824,
+    "lng": -73.5698065
+  },
+  "Burlington, VT": {
+    "lat": 44.4761601,
+    "lng": -73.212906
+  },
+  "Brooklyn, NY": {
+    "lat": 40.6526006,
+    "lng": -73.9497211
+  },
+  "Perth, Australia": {
+    "lat": -31.9558967,
+    "lng": 115.8605784
+  },
+  "Brisbane City, Australia": {
+    "lat": -27.470301,
+    "lng": 153.0258187
+  },
+  "Sydney, Australia": {
+    "lat": -33.8698439,
+    "lng": 151.2082848
+  },
+  "Melbourne, Australia": {
+    "lat": -37.8142454,
+    "lng": 144.9631732
+  },
+  "Meredith, Australia": {
+    "lat": -37.8436639,
+    "lng": 144.0754653
+  },
+  "Hobart, Australia": {
+    "lat": -42.8825088,
+    "lng": 147.3281233
+  },
+  "Spicewood, TX": {
+    "lat": 30.4759222,
+    "lng": -98.1566355
+  },
+  "Charleston, WV": {
+    "lat": 38.3505995,
+    "lng": -81.6332812
+  },
+  "Tallahassee, FL": {
+    "lat": 30.4380832,
+    "lng": -84.2809332
+  },
+  "Charleston, SC": {
+    "lat": 32.7884363,
+    "lng": -79.9399309
+  },
+  "Miami Beach, FL": {
+    "lat": 25.7929198,
+    "lng": -80.1353006
+  },
+  "St. Augustine, FL": {
+    "lat": 29.8946952,
+    "lng": -81.3145395
+  },
+  "San Antonio, TX": {
+    "lat": 29.4246002,
+    "lng": -98.4951405
+  },
+  "Irving, TX": {
+    "lat": 32.8295183,
+    "lng": -96.9442177
+  },
+  "Wilmington, NC": {
+    "lat": 34.2352853,
+    "lng": -77.9487284
+  },
+  "Charlotte, NC": {
+    "lat": 35.2272086,
+    "lng": -80.8430827
+  },
+  "Barcelona, Spain": {
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  "Glasgow, Scotland": {
+    "lat": 55.861155,
+    "lng": -4.2501687
+  },
+  "Bristol, UK": {
+    "lat": 51.4538022,
+    "lng": -2.5972985
+  },
+  "Porto, Portugal": {
+    "lat": 41.1502195,
+    "lng": -8.6103497
+  },
+  "Hilvarenbeek, Netherlands": {
+    "lat": 51.486984,
+    "lng": 5.1469728
+  },
+  "Nelsonville, OH": {
+    "lat": 39.458681,
+    "lng": -82.2318156
+  },
+  "Lafayette, NY": {
+    "lat": 42.892289,
+    "lng": -76.1052019
+  },
+  "Greenfield, MA": {
+    "lat": 42.5876342,
+    "lng": -72.6002068
+  },
+  "Shelburne, VT": {
+    "lat": 44.3783486,
+    "lng": -73.2276183
+  },
+  "Sawyer, MI": {
+    "lat": 41.8853207,
+    "lng": -86.5894666
+  },
+  "Newport, RI": {
+    "lat": 41.4899827,
+    "lng": -71.3137707
+  },
+  "Columbia, MD": {
+    "lat": 39.1938429,
+    "lng": -76.8646092
+  },
+  "Bloomington, IL": {
+    "lat": 40.4797828,
+    "lng": -88.9939147
+  },
+  "Omaha, NE": {
+    "lat": 41.2587459,
+    "lng": -95.9383758
+  },
+  "Boulder, CO": {
+    "lat": 40.0149856,
+    "lng": -105.270545
+  },
+  "Jacksonville, OR": {
+    "lat": 42.314411,
+    "lng": -122.965346
+  },
+  "Bangor, ME": {
+    "lat": 44.8016255,
+    "lng": -68.7713289
+  },
+  "Hartford, CT": {
+    "lat": 41.764582,
+    "lng": -72.6908547
+  },
+  "Mansfield, MA": {
+    "lat": 42.0334326,
+    "lng": -71.2189405
+  },
+  "Camden, NJ": {
+    "lat": 39.9448402,
+    "lng": -75.1198911
+  },
+  "Holmdel, NJ": {
+    "lat": 40.3451095,
+    "lng": -74.1840322
+  },
+  "Noblesville, IN": {
+    "lat": 40.0460881,
+    "lng": -86.0139854
+  },
+  "East Troy, WI": {
+    "lat": 42.7851871,
+    "lng": -88.4054374
+  },
+  "Montreal, QC": {
+    "lat": 45.5031824,
+    "lng": -73.5698065
+  },
+  "Lebanon,  NH": {
+    "lat": 43.643032,
+    "lng": -72.251587
+  },
+  "Norwalk, CT": {
+    "lat": 41.1175966,
+    "lng": -73.4078968
+  },
+  "Patchogue, NY": {
+    "lat": 40.7656539,
+    "lng": -73.0151084
+  },
+  "Grundy County, TN": {
+    "lat": 35.3697894,
+    "lng": -85.7106606
+  },
+  "Lawrence, KS": {
+    "lat": 38.9719137,
+    "lng": -95.2359403
+  },
+  "Germantown, TN": {
+    "lat": 35.0867577,
+    "lng": -89.8100858
+  },
+  "Hattiesburg, MS": {
+    "lat": 31.3271189,
+    "lng": -89.2903392
+  },
+  "Madrid, Spain": {
+    "lat": 40.416782,
+    "lng": -3.703507
+  },
+  "Paris, France": {
+    "lat": 48.8534951,
+    "lng": 2.3483915
+  },
+  "Geneva, Switzerland": {
+    "lat": 46.2017559,
+    "lng": 6.1466014
+  },
+  "Antwerp, Belgium": {
+    "lat": 51.2211097,
+    "lng": 4.3997081
+  },
+  "Utrecht, Netherlands": {
+    "lat": 52.0907006,
+    "lng": 5.1215634
+  },
+  "Charlottesville, VA": {
+    "lat": 38.029306,
+    "lng": -78.4766781
+  }
+}
