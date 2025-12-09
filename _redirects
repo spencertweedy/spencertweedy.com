@@ -10,7 +10,8 @@
 # Short link for Metal Prism Chutes pop-up newsletter
 /mpc      https://spencertweedy.substack.com/s/metal-prism-chutes
 
-# Observations Y2 book discount
+# Observations Y2 redirects
+/yeartwo    https://store.spencertweedy.com/products/observations-year-two-book
 /obs-discount https://store.spencertweedy.com/discount/OBSOFF?redirect=%2Fproducts%2Fobservations-year-two-book
 
 # Redirect subscribe page to Substack (as of 2023-01-02)
