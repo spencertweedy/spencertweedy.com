@@ -2759,7 +2759,7 @@
     "id": 153,
     "order": "153.00000000000000000000",
     "Date": "2023-02-11",
-    "Location": "At sea",
+    "Location": "Miami, FL",
     "Artist": [
       {
         "id": 3018,
@@ -2777,7 +2777,7 @@
     "id": 154,
     "order": "154.00000000000000000000",
     "Date": "2023-02-14",
-    "Location": "At sea",
+    "Location": "Miami, FL",
     "Artist": [
       {
         "id": 2999,
@@ -2795,7 +2795,7 @@
     "id": 155,
     "order": "155.00000000000000000000",
     "Date": "2023-02-15",
-    "Location": "At sea",
+    "Location": "Miami, FL",
     "Artist": [
       {
         "id": 3015,
@@ -2813,7 +2813,7 @@
     "id": 156,
     "order": "156.00000000000000000000",
     "Date": "2023-02-15",
-    "Location": "At sea",
+    "Location": "Miami, FL",
     "Artist": [
       {
         "id": 3021,
@@ -6431,7 +6431,7 @@
     "id": 356,
     "order": "356.00000000000000000000",
     "Date": "2025-03-05",
-    "Location": "At sea",
+    "Location": "Miami, FL",
     "Artist": [
       {
         "id": 2999,
