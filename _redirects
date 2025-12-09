@@ -4,9 +4,6 @@
 # Arbitrary redirects for social media
 /boo    /
 
-# Netlify CMS admin fails if trailing slash isn't included, so…
-/admin    /admin/
-
 # Direct /songs to Bandcamp for now
 /songs    https://spencertweedy.bandcamp.com/
 
