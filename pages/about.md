@@ -1,5 +1,5 @@
 ---
-title: About Spencer
+title: About Me
 permalink: "/about"
 layout: page
 width: constrained
@@ -9,24 +9,20 @@ width: constrained
 
 I’m a drummer and a writer in Chicago.
 
-I love to [make records]({% link pages/releases/releases.html %}) with my friends and family.
+I make [music]({% link pages/releases/releases.html %}) with my family, my friends, and strangers who ask.
 
-I also love writing. I’ve written a few [books]({% link pages/books.md %}). And you can <a href="https://spencertweedy.substack.com" target="_blank">subscribe to my newsletter</a>.
+I co-own [The Pocket](https://pocketchicago.com/), a record studio, with Jason Ashworth.
 
-Here’s how to <a href="mailto:{{ site.email }}">contact me</a>.
+I co-organize a small music festival, [Avrom Farm Party](https://avromfarmparty.com/).
 
-And here’s a list of some other stuff I’ve done or like to do:
+I co-created [*Mirror Sound*]({% link pages/mirror-sound.html %}), a book about musicians who self-record.
 
-* [The Tweedy Show](https://tweedyshow.com/), my family’s livestream show
-* [Avrom Farm Party](https://avromfarmparty.com/), a festival I cofounded
-* [drumprints]({% link pages/drumprints.html %}), a free pack of drum samples
-* [The Pocket](https://pocketchicago.com/), the studio I co-own with [Jason Ashworth](https://www.jasongordonashworth.com/)
-* [Fjord Audio](https://fjordaudio.com/), an audio product company (defunct)
-* [Buck Tees](https://www.facebook.com/buckteesco/), a graphic t-shirt company (defunct)
-* [Chicago Service Relief](https://chicagoservicerelief.com/), a database of fundraisers for service workers (during COVID)
-* [Various music videos](https://vimeo.com/spencertweedy)
-* [Letters Charity](https://www.letterscharity.org/), Heather Whinna’s nonprofit — I’m on the board
-* [Rookie Mag](https://www.rookiemag.com/author/spencertweedy/), high-school-era essays
-* [The Talkhouse](https://www.talkhouse.com/artist/spencer-tweedy/), a little bit of music writing
+I like writing [HTML]({% link pages/colophon.md %}) and making things with computers.
 
-I love Montessori education. I like computers and wanna see them used more humanely. And I miss Lounge Ax.
+Some people call me Spoon.
+
+You can listen to [50 songs I dram](https://lnkfi.re/50dram).
+
+Or [subscribe to my newsletter]({{ site.subscribe_url }}).
+
+And here’s how to <a href="{% link pages/contact.md %}">contact me</a>.
