@@ -3,33 +3,12 @@ layout: page
 permalink: "/"
 ---
 
-<section class="md:flex gap-[3vw] space-y-8 md:space-y-0 items-center mb-[10vh]">
-	<div class="order-2 basis-1/2">
-		<a href="{% link pages/releases/releases.html %}" class="block"><img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
-	</div>
-	
+<section class="md:flex gap-[3vw] space-y-8 md:space-y-0 items-center mb-[5vh]">	
 	<div class="basis-1/2 space-y-4">
-		<p>Spencer aka Spooncer aka Spoon</p>
-
-		<p>Recently…</p>
-
-		<ul>
-			{% assign featured_releases = site.releases | where: "featured", true | reverse %}
-			{% for release in featured_releases %}
-			<li><a href="{{ release.listen }}" target="_blank">{{ release.title }}</a> by {{ release.artist }}</li>
-			{% endfor %}
-		</ul>
-
-		<p>Listen in an easy <a href="https://lnkfi.re/50dram" target="_blank">playlist</a></p>
-
-		<p>I’m <a href="{% link pages/shows/shows.html %}">on tour</a> with my dad right now</p>
-
-		<p>You can <a href="mailto:{{ site.email }}">contact me</a></p>
-
-		<p><a href="https://spencertweedy.substack.com" target="_blank">Subscribe to my newsletter</a></p>
+		<p>I’m Spencer this is my blog you can listen to <a href="{% link pages/releases/releases.html %}">music</a> see a <a href="{% link pages/shows/shows.html %}">show</a> read my <a href="{% link pages/books.md %}">books</a> learn <a href="{% link pages/about.md %}">about me</a> subscribe to <a href="{{ site.subscribe_url }}">letters</a></p>
 	</div>
 </section>
 
-<section class="pt-[10vh] px-[3vw] -mx-[3vw] border-t border-black/20 dark:border-white/20">
+<section class="pt-[5vh] px-[3vw] -mx-[3vw] border-t border-black/20 dark:border-white/20">
 	{% include wire.html limit=14 %}
 </section>
