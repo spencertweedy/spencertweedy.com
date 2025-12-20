@@ -11,13 +11,11 @@ I’m a drummer and a writer in Chicago.
 
 I make [music]({% link pages/releases/releases.html %}) with my family, my friends, and strangers who ask.
 
-I co-own [The Pocket](https://pocketchicago.com/), a record studio, with Jason Ashworth.
+I co-own [The Pocket](https://pocketchicago.com/), a recording studio, with Jason Ashworth.
 
 I co-organize a small music festival, [Avrom Farm Party](https://avromfarmparty.com/).
 
 I co-created [*Mirror Sound*]({% link pages/mirror-sound.html %}), a book about musicians who self-record.
-
-I like writing [HTML]({% link pages/colophon.md %}) and making things with computers.
 
 Some people call me Spoon.
 
