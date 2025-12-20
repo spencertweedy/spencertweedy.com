@@ -118,11 +118,7 @@
 	}
 
 	.h2 {
-		@apply opacity-50 font-sans text-sm flex gap-1 mb-2 items-center;
-	}
-	
-	.h3 {
-		@apply font-sans text-sm uppercase tracking-widest opacity-40 mb-2;
+		@apply text-3xl mb-[5vh] font-sans font-bold;
 	}
 	
 	.picture {
