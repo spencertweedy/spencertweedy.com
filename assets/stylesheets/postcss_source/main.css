@@ -117,8 +117,8 @@
 		@apply my-4 first:mt-0 last:mb-0;
 	}
 
-	.h2 {
-		@apply text-3xl mb-[5vh] font-sans font-bold;
+	h2, .h2 {
+		@apply text-xl font-sans font-bold mb-2;
 	}
 	
 	.picture {
