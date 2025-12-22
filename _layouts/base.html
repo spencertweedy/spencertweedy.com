@@ -66,7 +66,7 @@
 </head>
 
 <body class="min-h-screen flex flex-col items-center">
-    <header id="site-header" class="w-full py-2 px-[3vw] border-b border-black/20 dark:border-white/20 font-sans flex justify-between gap-2">
+    <header id="site-header" class="w-full py-2 px-[3vw] border-b border-black/20 dark:border-white/20 font-sans flex justify-between gap-4">
         <a href="#site-content" class="sr-only">Skip to content</a>
         
         <a href="{% link pages/index.html %}" class="flex justify-start items-center gap-1 flex-shrink-0">
@@ -74,10 +74,12 @@
             <h1 id="site-title">{{ site.title }}</h1>
         </a>
 
-        <nav class="space-x-2 text-end">
+        <nav class="space-x-2 text-end overflow-x-scroll text-nowrap">
             <a href="{% link pages/releases/releases.html %}">Music</a>
             <a href="{% link pages/shows/shows.html %}">Shows</a>
+            <a href="{% link pages/books.md %}">Books</a>
             <a href="{% link pages/about.md %}">About</a>
+            <a href="{{ site.subscribe_url }}">Subscribe</a>
         </nav>
     </header>
     
