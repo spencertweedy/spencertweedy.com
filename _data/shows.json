@@ -687,7 +687,7 @@
         "color": "darker-pink"
       }
     ],
-    "Venue": "Largo",
+    "Venue": "Largo at the Coronet",
     "Lineup": "Jeff Tweedy, Pete Holmes",
     "Gear Notes": "Tweedy C&C",
     "Link": null,
@@ -705,7 +705,7 @@
         "color": "darker-pink"
       }
     ],
-    "Venue": "Largo",
+    "Venue": "Largo at the Coronet",
     "Lineup": "Jeff Tweedy, Nick Offerman",
     "Gear Notes": "Tweedy C&C",
     "Link": null,
@@ -3847,8 +3847,8 @@
         "color": "darker-pink"
       }
     ],
-    "Venue": "Sky Blue Sky",
-    "Lineup": "Sky Blue Sky",
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
     "Gear Notes": "C&C backline with my cymbals",
     "Link": null,
     "Created on": "2025-08-03"
@@ -3865,8 +3865,8 @@
         "color": "darker-red"
       }
     ],
-    "Venue": "Sky Blue Sky",
-    "Lineup": "Sky Blue Sky",
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
     "Gear Notes": "Backline with my cymbals",
     "Link": null,
     "Created on": "2025-08-03"
@@ -4081,8 +4081,8 @@
         "color": "darker-red"
       }
     ],
-    "Venue": "The Late Show with Stephen Colbert",
-    "Lineup": "",
+    "Venue": "The Late Show With Stephen Colbert",
+    "Lineup": "Waxahatchee",
     "Gear Notes": "Backline with my cymbals and my C&C abalone snare",
     "Link": null,
     "Created on": "2025-08-03"
@@ -6035,7 +6035,7 @@
     "id": 335,
     "order": "335.00000000000000000000",
     "Date": "2024-11-07",
-    "Location": "Toronto, Canada",
+    "Location": "Toronto, ON",
     "Artist": [
       {
         "id": 2996,
@@ -6053,7 +6053,7 @@
     "id": 336,
     "order": "336.00000000000000000000",
     "Date": "2024-11-08",
-    "Location": "Montreal, Canada",
+    "Location": "Montreal, QC",
     "Artist": [
       {
         "id": 2996,
@@ -6125,7 +6125,7 @@
     "id": 340,
     "order": "340.00000000000000000000",
     "Date": "2024-11-14",
-    "Location": "Brooklyn, NY",
+    "Location": "New York, NY",
     "Artist": [
       {
         "id": 2996,
@@ -7367,7 +7367,7 @@
     "id": 398,
     "order": "398.00000000000000000000",
     "Date": "2025-07-23",
-    "Location": "Brooklyn, NY",
+    "Location": "New York, NY",
     "Artist": [
       {
         "id": 3025,
@@ -7614,6 +7614,24 @@
     "Gear Notes": "",
     "Link": "https://link.seated.com/fa403b4e-09e7-48d1-b1a5-b6d0ba856928",
     "Created on": "2025-08-03"
+  },
+  {
+    "id": 489,
+    "order": "409.50000000000000000000",
+    "Date": "2025-08-11",
+    "Location": "Seattle, WA",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "KEXP",
+    "Lineup": "Waxahatchee",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
   },
   {
     "id": 410,
@@ -8156,6 +8174,24 @@
     "Created on": "2025-08-03"
   },
   {
+    "id": 490,
+    "order": "430.50000000000000000000",
+    "Date": "2025-10-21",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Late Show With Stephen Colbert",
+    "Lineup": "Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
     "id": 431,
     "order": "431.00000000000000000000",
     "Date": "2025-10-20",
@@ -8177,7 +8213,7 @@
     "id": 432,
     "order": "432.00000000000000000000",
     "Date": "2025-10-22",
-    "Location": "Brooklyn, NY",
+    "Location": "New York, NY",
     "Artist": [
       {
         "id": 2999,
@@ -8280,6 +8316,24 @@
     "Gear Notes": "",
     "Link": "https://tixr.com/e/150600",
     "Created on": "2025-08-03"
+  },
+  {
+    "id": 491,
+    "order": "437.50000000000000000000",
+    "Date": "2025-10-31",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Hungry Brain",
+    "Lineup": "Case Oats, Alga, Winefred RT",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
   },
   {
     "id": 438,
@@ -8534,6 +8588,42 @@
     "Created on": "2025-08-03"
   },
   {
+    "id": 495,
+    "order": "450.25000000000000000000",
+    "Date": "2025-12-19",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Bowery Ballroom",
+    "Lineup": "Yo La Tengo, Jo Firestone, Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 494,
+    "order": "450.33333333333331438553",
+    "Date": "2025-12-17",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3042,
+        "value": "Erin Rae",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Thalia Hall",
+    "Lineup": "The Lemonheads, Erin Rae",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
     "id": 488,
     "order": "450.50000000000000000000",
     "Date": "2025-12-13",
@@ -8550,6 +8640,42 @@
     "Gear Notes": "",
     "Link": "https://lh-st.com/shows/12-13-2025-case-oats/",
     "Created on": "2025-10-29"
+  },
+  {
+    "id": 493,
+    "order": "450.60000000000002273737",
+    "Date": "2025-11-29",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Letters to Santa",
+    "Lineup": "Letters to Santa",
+    "Gear Notes": "",
+    "Link": "https://www.letterscharity.org/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 492,
+    "order": "450.66666666666668561447",
+    "Date": "2025-11-22",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3041,
+        "value": "Elizabeth Moen",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Timber Lanes (sit-in)",
+    "Lineup": "Elizabeth Moen, Alex Leeds",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
   },
   {
     "id": 451,
@@ -8696,6 +8822,42 @@
     "Created on": "2025-08-03"
   },
   {
+    "id": 507,
+    "order": "458.50000000000000000000",
+    "Date": "2026-02-22",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2996,
+        "value": "Finom",
+        "color": "darker-purple"
+      }
+    ],
+    "Venue": "The Lexington",
+    "Lineup": "Finom, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/Y8d33ac49310?dice_id=Y8d33ac49310",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 508,
+    "order": "458.66666666666668561447",
+    "Date": "2026-02-22",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "The Lexington",
+    "Lineup": "Finom, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/Y8d33ac49310?dice_id=Y8d33ac49310",
+    "Created on": "2025-12-30"
+  },
+  {
     "id": 459,
     "order": "459.00000000000000000000",
     "Date": "2026-02-21",
@@ -8730,5 +8892,617 @@
     "Gear Notes": "",
     "Link": "",
     "Created on": "2025-09-23"
+  },
+  {
+    "id": 500,
+    "order": "460.25000000000000000000",
+    "Date": "2026-01-04",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Largo at the Coronet",
+    "Lineup": "Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 504,
+    "order": "460.26666666666665150842",
+    "Date": "2026-01-16",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "",
+    "Link": "https://wilcoskybluesky.com/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 505,
+    "order": "460.26923076923077360334",
+    "Date": "2026-01-16",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "",
+    "Link": "https://wilcoskybluesky.com/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 506,
+    "order": "460.27027027027025951611",
+    "Date": "2026-01-15",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "",
+    "Link": "https://wilcoskybluesky.com/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 503,
+    "order": "460.27272727272725205694",
+    "Date": "2026-01-08",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Largo at the Coronet",
+    "Lineup": "Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 501,
+    "order": "460.28571428571427759380",
+    "Date": "2026-01-05",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Largo at the Coronet",
+    "Lineup": "Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 502,
+    "order": "460.30000000000001136868",
+    "Date": "2026-01-07",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Largo at the Coronet",
+    "Lineup": "Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 499,
+    "order": "460.33333333333331438553",
+    "Date": "2025-12-31",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3007,
+        "value": "Aux Thom",
+        "color": "darker-gray"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": "Aux Thom",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/Pb526bf2b694?dice_id=Pb526bf2b694",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 498,
+    "order": "460.50000000000000000000",
+    "Date": "2025-12-27",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 3043,
+        "value": "Sammy Tweedy",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Color Club",
+    "Lineup": "Sammy Tweedy, Jonah Wallach, rubbersands",
+    "Gear Notes": "",
+    "Link": "https://dice.fm/event/dk8m5q-sammy-tweedy-jonah-wallach-rubbersands-27th-dec-color-club-chicago-tickets",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 497,
+    "order": "461.00000000000000000000",
+    "Date": "2025-12-20",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Bitter End",
+    "Lineup": "Jeff Tweedy",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 509,
+    "order": "462.00000000000000000000",
+    "Date": "2026-03-10",
+    "Location": "Des Moines, IA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Hoyt Sherman Place",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/0600636CE268F7CB",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 510,
+    "order": "463.00000000000000000000",
+    "Date": "2026-03-11",
+    "Location": "Omaha, NE",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Waiting Room",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/36988154/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 511,
+    "order": "464.00000000000000000000",
+    "Date": "2026-03-13",
+    "Location": "Denver, CO",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Ogden Theatre",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/events/1225443/jeff-tweedy-tickets",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 512,
+    "order": "465.00000000000000000000",
+    "Date": "2026-03-14",
+    "Location": "Santa Fe, NM",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Lensic",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/14-march-2026-santa-fe-nm-the-lensic/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 513,
+    "order": "466.00000000000000000000",
+    "Date": "2026-03-16",
+    "Location": "Phoenix, AZ",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Van Buren",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/1900636BBD316949",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 514,
+    "order": "467.00000000000000000000",
+    "Date": "2026-03-17",
+    "Location": "Tucson, AZ",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "La Rosa Tucson",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/17-march-2026-tucson-az-la-rosa-tucson/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 515,
+    "order": "468.00000000000000000000",
+    "Date": "2026-03-20",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Belasco",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/0900636ED038562E",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 516,
+    "order": "469.00000000000000000000",
+    "Date": "2026-03-21",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The United Theater on Broadway",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/events/1231169/jeff-tweedy-tickets",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 517,
+    "order": "470.00000000000000000000",
+    "Date": "2026-03-22",
+    "Location": "Ventura, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Ventura Theatre",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketweb.com/event/jeff-tweedy-with-special-guest-ventura-theater-tickets/14685073",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 518,
+    "order": "471.00000000000000000000",
+    "Date": "2026-03-24",
+    "Location": "Santa Cruz, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Rio Theatre",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/24-march-2026-santa-cruz-ca-the-rio-theatre/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 519,
+    "order": "472.00000000000000000000",
+    "Date": "2026-03-25",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/1C00637048479AAF",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 520,
+    "order": "473.00000000000000000000",
+    "Date": "2026-03-26",
+    "Location": "San Francisco, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Fillmore",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/26-march-2026-san-francisco-ca-the-fillmore/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 521,
+    "order": "474.00000000000000000000",
+    "Date": "2026-03-27",
+    "Location": "Napa, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Uptown Theatre",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://wilcoworld.net/tour_date_type/27-march-2026-napa-ca-uptown-theatre/",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 522,
+    "order": "475.00000000000000000000",
+    "Date": "2026-03-28",
+    "Location": "Redding, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Cascade Theatre",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/62900356/jeff-tweedytwilight-override-tour-redding-cascade-theatre",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 523,
+    "order": "476.00000000000000000000",
+    "Date": "2026-03-30",
+    "Location": "Eugene, OR",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Shedd Jaqua Concert Hall",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://tickets.theshedd.org/10441/10442",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 524,
+    "order": "477.00000000000000000000",
+    "Date": "2026-03-31",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Revolution Hall",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/54164747/jeff-tweedy-twilight-override-tour-night-1-portland-revolution-hall",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 525,
+    "order": "478.00000000000000000000",
+    "Date": "2026-04-01",
+    "Location": "Portland, OR",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Revolution Hall",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/76074244/jeff-tweedy-twilight-override-tour-night-2-portland-revolution-hall",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 526,
+    "order": "479.00000000000000000000",
+    "Date": "2026-04-02",
+    "Location": "Seattle, WA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Moore Theater",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/0F006378E75B861F",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 527,
+    "order": "480.00000000000000000000",
+    "Date": "2026-04-04",
+    "Location": "Vancouver, BC",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Commodore Ballroom",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.ca/event/1100636D8EED807E",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 528,
+    "order": "481.00000000000000000000",
+    "Date": "2026-04-05",
+    "Location": "Victoria, BC",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Royal Theatre",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://admitone.com/events/jeff-tweedy-victoria-10193938",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 529,
+    "order": "482.00000000000000000000",
+    "Date": "2026-04-07",
+    "Location": "Missoula, MT",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Wilma",
+    "Lineup": "Jeff Tweedy, Macie Stewart",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/1E00636ED2089B01?brand=logjampresents",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 530,
+    "order": "483.00000000000000000000",
+    "Date": "2026-04-08",
+    "Location": "Great Falls, MT",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The Newberry",
+    "Lineup": "Jeff Tweedy, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/47796039/jeff-tweedy-with-special-guest-liam-kazar-great-falls-the-newberry",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 531,
+    "order": "484.00000000000000000000",
+    "Date": "2026-04-09",
+    "Location": "Bozeman, MT",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "The ELM",
+    "Lineup": "Jeff Tweedy, Sima Cunningham",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/1E00636EE27FA673?brand=logjampresents",
+    "Created on": "2025-12-30"
+  },
+  {
+    "id": 532,
+    "order": "485.00000000000000000000",
+    "Date": "2026-06-28",
+    "Location": "North Adams, MA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "MASS MoCA",
+    "Lineup": "Solid Sound Festival",
+    "Gear Notes": "",
+    "Link": "https://solidsoundfestival.com/",
+    "Created on": "2025-12-30"
   }
 ]
