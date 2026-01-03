@@ -4,10 +4,19 @@ permalink: "/music"
 layout: page
 ---
 
-<div class="space-y-4">
-	<p>✨ Listen to <a href="https://lnkfi.re/50dram">50 songs I dram</a> <br>📺 Watch some <a href="https://youtube.com/playlist?list=PLqYW-VP-pvnnNRAbqByvkrSKL7PsRLxBj&si=lQmRwJHEpFTG9bAz" target="_blank">videos</a></p>
+<div class="space-y-8">
+	<p>Listen to <a href="https://lnkfi.re/50dram" target="_blank">50 songs I dram</a> <br>Watch some <a href="https://youtube.com/playlist?list=PLqYW-VP-pvnnNRAbqByvkrSKL7PsRLxBj&si=lQmRwJHEpFTG9bAz" target="_blank">videos</a> <br>Or browse below…</p>
 	
-	{% include releases.html %}
+	{% include release-carousel.html artist="Jeff Tweedy" %}
+	{% include release-carousel.html artist="Waxahatchee" secondary_artist="Plains" %}
+	{% include release-carousel.html artist="Mavis Staples" secondary_artist="Pops Staples" %}
+	{% include release-carousel.html artist="Spencer Tweedy" %}
+
+	<section class="space-y-4">
+		<h2>All releases</h2>
+
+		{% include releases.html %}
+	</section>
 
 	<section>
 		{% assign LPs = site.releases | where: "type", "LP" %}
@@ -15,6 +24,7 @@ layout: page
 		{% assign singles = site.releases | where: "type", "single" %}
 		<p class="opacity-40 text-xs">{{ LPs.size }} LPs, {{ EPs.size }} EPs, and {{ singles.size }} singles</p>
 	</section>
+
 	<section>
 		<p><a href="mailto:{{ site.email }}">Contact me</a></p>
 	</section>
