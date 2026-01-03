@@ -89,10 +89,10 @@
     
     <footer class="px-[3vw] text-center mb-[10vh] text-sm space-y-2">
         <nav class="*:link flex gap-2">
-            {% unless page.url == "/" %}<a href="{% link pages/index.html %}" class="link">Home</a>{% endunless %}
-            {% unless page.url == "/music" %}<a href="{% link pages/releases/releases.html %}" class="link">Music</a>{% endunless %}
-            {% unless page.url == "/shows" %}<a href="{% link pages/shows/shows.html %}" class="link">Shows</a>{% endunless %}
-            {% unless page.url == "/about" %}<a href="{% link pages/about.md %}" class="link">About</a>{% endunless %}
+            {% unless page.url == "/" %}<a href="{% link pages/index.html %}">Home</a>{% endunless %}
+            {% unless page.url == "/music" %}<a href="{% link pages/releases/releases.html %}">Music</a>{% endunless %}
+            {% unless page.url == "/shows" %}<a href="{% link pages/shows/shows.html %}">Shows</a>{% endunless %}
+            {% unless page.url == "/about" %}<a href="{% link pages/about.md %}">About</a>{% endunless %}
             {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
             <a href="mailto:{{ site.email }}">Contact</a>
         </nav>
