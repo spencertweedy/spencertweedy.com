@@ -7,7 +7,7 @@
     {% for year in releases_by_year %}
         <div>
             {% assign releases = year.items | reverse %}
-            <div class="text-xl font-sans font-bold mb-2">{{ year.name }}</div>
+            <h3>{{ year.name }}</h3>
             {% for release in releases %}
                 <div class="px-[3vw] -mx-[3vw] transition-colors hover:text-black hover:bg-yellow-400">
                     <a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 border-b border-black/20 dark:border-white/20">
