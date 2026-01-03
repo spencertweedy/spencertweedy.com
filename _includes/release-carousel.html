@@ -1,0 +1,19 @@
+<div class="space-y-2">
+    {% if include.artist == "Spencer Tweedy" %}
+        <h2>On my own</h2>
+    {% else %}
+        <h2>With {{ include.artist }}{% if include.secondary_artist %} and {{ include.secondary_artist }}{% endif %}</h2>
+    {% endif %}
+    <div class="flex flex-row gap-2 overflow-x-scroll -me-[3vw] pe-[3vw]">
+        {% assign artist_releases = site.releases | where_exp: "release", "release.artist == include.artist or release.artist == include.secondary_artist" | sort: "year" | reverse %}
+        {% for release in artist_releases %}
+            <div class="max-w-32">
+                <a href="{{ release.listen }}" target="_blank" class="">
+                    <div class="w-32 flex-shrink-0 mb-2"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full border border-black/20 dark:border-white/20"></div>
+                    <div class="leading-[1.2] line-clamp-2">{{ release.title }}</div>
+                    <div class="mt-1 text-sm lowercase opacity-40 line-clamp-2">{{ release.role }}</div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
