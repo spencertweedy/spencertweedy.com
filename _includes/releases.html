@@ -11,7 +11,7 @@
             {% for release in releases %}
                 <div class="px-[3vw] -mx-[3vw] transition-colors hover:text-black hover:bg-yellow-400">
                     <a href="{{ release.listen }}" target="_blank" class="flex flex-row h-full items-center py-2 border-b border-black/20 dark:border-white/20">
-                        <div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full"></div>
+                        <div class="w-10 md:w-12 flex-shrink-0"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full border border-black/20 dark:border-white/20"></div>
                         <div class="pl-2 md:pl-4 pr-2 w-full flex-grow leading-tight"><span>{{ release.artist }}</span><br><span class="inline-block text-sm md:text-base italic">{{ release.title }}</span> <span class="opacity-40 text-xs uppercase font-mono ps-1">{{ release.type }}</span></div>
                         <div class="lowercase opacity-40 text-xs md:text-sm text-end">{{ release.role }}</div>
                     </a>
