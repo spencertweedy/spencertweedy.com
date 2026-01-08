@@ -1,7 +1,7 @@
-<div class="columns-2xs [column-rule:solid_1px_rgba(0,0,0,0.2)] dark:[column-rule:solid_1px_rgba(255,255,255,0.2)] gap-[3vw] space-y-4">
+<div class="columns-2xs [column-rule:solid_1px_rgba(0,0,0,0.2)] dark:[column-rule:solid_1px_rgba(255,255,255,0.2)] gap-[3vw] space-y-[5vh] md:space-y-4">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
-    <div class="border-b pb-4 border-black/20 dark:border-white/20">
+    <div class="border-b pb-[5vh] md:pb-4 border-black/20 dark:border-white/20">
         <p class="font-bold mb-2 break-after-avoid"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
 
         <div class="space-y-4">
