@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13
+date: 2026-01-12
 slug: tomato-thaw
 highlighted: false
 published: true
