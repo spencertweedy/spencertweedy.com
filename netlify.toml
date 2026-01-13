@@ -1,5 +1,5 @@
 [build]
-	command = "npm run build" # Tell Netlify what command to use to build the site
+	command = "gem install bundler && bundle install && npm run build" # Tell Netlify what command to use to build the site
 	publish = "_site" # Tell Netlify where the publishable build resides
 	environment = { NODE_VERSION = "18.12.1" }
 
