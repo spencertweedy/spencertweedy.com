@@ -1,12 +1,12 @@
-<div class="columns-2xs [column-rule:solid_1px_rgba(0,0,0,0.2)] dark:[column-rule:solid_1px_rgba(255,255,255,0.2)] gap-[3vw] space-y-[5vh] md:space-y-4">
+<div class="space-y-24">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
-    <div class="border-b pb-[5vh] md:pb-4 border-black/20 dark:border-white/20">
-        <p class="font-bold mb-2 break-after-avoid"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
+    <div class="max-w-[50ch] mx-auto space-y-12">
+        <p class="font-bold break-after-avoid"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
 
-        <div class="space-y-4">
+        <div class="space-y-8">
             {% for post in day.items reversed %}
-                <article class="before:content-['▚'] before:float-start {% if post.highlighted == true %}highlight{% endif %} before:pe-2 before:top-1 before:relative before:text-xs space-y-2 max-w-screen-md mx-auto break-inside-avoid">
+                <article class="space-y-4 before:content-['▚'] before:float-start {% if post.highlighted == true %}highlight{% endif %} before:pe-2 before:top-1 before:relative before:text-xs mx-auto break-inside-avoid">
                     {% if post.link and post.headline %}
                         <p><a href="{{ post.link }}">{{ post.headline }}</a></p>
                     {% elsif post.headline %}
@@ -19,5 +19,5 @@
     </div>
     {% endfor %}
 
-    {% if include.limit %}<p class="highlight"><a href="{% link pages/wire.html %}">Continue reading Wire Service</a></p>{% endif %}
+    {% if include.limit %}<p class="max-w-[50ch] mx-auto highlight"><a href="{% link pages/wire.html %}">Continue reading Wire Service</a></p>{% endif %}
 </div>
