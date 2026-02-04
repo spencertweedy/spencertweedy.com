@@ -17,15 +17,18 @@ And I love writing on the internet.
 
 Quick links:
 
-- [50 Songs I Dram](https://lnkfi.re/50dram), a playlist
-- [drumprints]({% link pages/drumprints.html %}), free drum samples
+- [50 Songs I Dram](https://lnkfi.re/50dram)
+- [Bandcamp](https://spencertweedy.bandcamp.com/)  
+- [Instagram](https://www.instagram.com/spencertweedy)
+- [My books]({% link pages/books.md %})
+- [My newsletter]({{ site.subscribe_url }})
+- [Contact]({% link pages/contact.md %})
+
+More links:
+
+- [Case Oats](https://caseoats.com/), Casey’s band
 - [The Pocket](https://pocketchicago.com/), a recording studio
 - [Avrom Farm Party](https://avromfarmparty.com/), a music and food festival
-- [Mirror Sound]({% link pages/mirror-sound.html %}), a book about musicians who self-record
-- [My Bandcamp](https://spencertweedy.bandcamp.com/)  
-- [My Instagram](https://www.instagram.com/spencertweedy)
-- [My newsletter]({{ site.subscribe_url }})
-- [My contact info]({% link pages/contact.md %})
 
 Thanks for being here.
 
