@@ -5,20 +5,28 @@ layout: page
 width: constrained
 ---
 
-<img class="rounded-3xl w-full" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
+I’m a drummer and a writer in Chicago.
 
+Some people call me Spoon.
 
+I love to [record]({% link pages/releases/releases.html %}) and [tour]({% link pages/shows/shows.html %}).
 
-I’m a drummer and a writer in Chicago. Some people call me Spoon. Here are some [records]({% link pages/releases/releases.html %}) I’ve helped make. I love to [tour]({% link pages/shows/shows.html %}). I co-own a studio in Chicago, [The Pocket](https://pocketchicago.com/), and I co-run a festival, [Avrom Farm Party](https://avromfarmparty.com/). In 2020, I co-created [*Mirror Sound*]({% link pages/mirror-sound.html %}), a book about musicians who self-record.
+And I love writing on the internet.
 
-For convenient listening on streaming: [50 Songs I Dram](https://lnkfi.re/50dram)  
-For your production and music ideating: [drumprints]({% link pages/drumprints.html %})  
-[My Bandcamp](https://spencertweedy.bandcamp.com/)  
-[My Instagram](https://www.instagram.com/spencertweedy)
+<img class="rounded-3xl w-full my-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
 
-[Subscribe to my newsletter]({{ site.subscribe_url }}) to stay in touch. And here’s how to <a href="{% link pages/contact.md %}">contact me</a>.
+Quick links:
+
+- [50 Songs I Dram](https://lnkfi.re/50dram), a playlist
+- [drumprints]({% link pages/drumprints.html %}), free drum samples
+- [The Pocket](https://pocketchicago.com/), a recording studio
+- [Avrom Farm Party](https://avromfarmparty.com/), a music and food festival
+- [Mirror Sound]({% link pages/mirror-sound.html %}), a book about musicians who self-record
+- [My Bandcamp](https://spencertweedy.bandcamp.com/)  
+- [My Instagram](https://www.instagram.com/spencertweedy)
+- [My newsletter]({{ site.subscribe_url }})
+- [My contact info]({% link pages/contact.md %})
 
 Thanks for being here.
 
-xo,  
 Spoon
