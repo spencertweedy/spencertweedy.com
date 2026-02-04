@@ -6,6 +6,6 @@ published: true
 ---
 From Pynchon's _Shadow Ticket_:
 
-> ”You are a practical people, Americans, everyone is either some kind of inventor or at least a gifted repairman.”
+> “You are a practical people, Americans, everyone is either some kind of inventor or at least a gifted repairman.”
 
 My mom's dad was an inventor. My dad's dad was a gifted repairman.
