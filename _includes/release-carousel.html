@@ -9,7 +9,7 @@
         {% for release in artist_releases %}
             <div class="max-w-32">
                 <a href="{{ release.listen }}" target="_blank" class="">
-                    <div class="w-32 flex-shrink-0 mb-2"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full border border-black/20 dark:border-white/20"></div>
+                    <div class="w-32 flex-shrink-0 mb-2"><img src="{{ release.image }}" alt="{{ release.title }} artwork" class="w-full border border-black/10 dark:border-white/20"></div>
                     <div class="leading-[1.2] line-clamp-2 text-base">{{ release.title }}</div>
                     <div class="leading-[1.2] mt-1 text-sm md:text-xs lowercase opacity-40 line-clamp-2">{{ release.role }}</div>
                 </a>
