@@ -88,6 +88,10 @@
 	mark {
 		@apply highlight;
 	}
+
+	hr {
+		@apply my-12 !important;
+	}
 }
 
 @layer components {
