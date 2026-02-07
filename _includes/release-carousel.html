@@ -4,7 +4,7 @@
     {% else %}
         <h2>With {{ include.artist }}{% if include.secondary_artist %} and {{ include.secondary_artist }}{% endif %}</h2>
     {% endif %}
-    <div class="flex flex-row gap-2 overflow-x-scroll -me-[3vw] pe-[3vw]">
+    <div class="flex flex-row md:flex-wrap gap-2 overflow-x-scroll -me-[3vw] pe-[3vw]">
         {% assign artist_releases = site.releases | where_exp: "release", "release.artist == include.artist or release.artist == include.secondary_artist" | sort: "year" | reverse %}
         {% for release in artist_releases %}
             <div class="max-w-32">
