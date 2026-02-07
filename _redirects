@@ -28,6 +28,9 @@
 # Update 2024-09-09: Disabled because I created a new, native page for drumprints
 # /drumprints    https://spencertweedy.substack.com/p/new-music-drumprints-vol-1
 
+# 50 Songs I Dram playlist
+/50dram    https://lnkfi.re/50dram
+
 # Redirecting the old Tumblr posts.
 # If I use a /post/:id/:slug scheme again in the future, this rule will conflict with it.
 /post/:id/:slug    https://tumblr.spencertweedy.com/post/:id/:slug
