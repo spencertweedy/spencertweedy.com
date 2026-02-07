@@ -79,3 +79,20 @@ content:
         label: Featured
         type: boolean
         default: false
+  - name: ext_posts
+    label: External Posts
+    type: file
+    path: _date/ext_posts.yml
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: url
+        label: URL
+        type: string
+        required: true
