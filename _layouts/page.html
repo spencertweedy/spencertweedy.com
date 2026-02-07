@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="space-y-4 text-lg w-full mx-auto {% if page.width == 'constrained' %}max-w-[50ch]{% endif %}">
+<div class="space-y-4 text-lg w-full mx-auto {% if page.width == 'constrained' %}max-w-screen-sm{% endif %}">
     {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
     {{ content }}
 </div>
