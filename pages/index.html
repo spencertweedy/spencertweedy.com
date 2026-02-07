@@ -3,6 +3,39 @@ layout: page
 permalink: "/"
 ---
 
-<section>
-	{% include wire.html limit=30 %}
-</section>
+<div class="max-w-screen-sm mx-auto space-y-12">
+	<section class="text-xl space-y-4">
+		<p>Welcome to my website ⚐</p>
+
+		<p>In this internet grotto there are <a href="{% link pages/releases/releases.html %}">records I’ve worked on</a>, <a href="{% link pages/shows/shows.html %}">tour dates</a>, <a href="{% link pages/books.md %}">my books</a>, and <a href="{% link pages/about.md %}">other projects</a>.</p>
+
+		<p>There’s also a <a href="/50dram">playlist</a> for quick listening, and a free pack of <a href="{% link pages/drumprints.html %}">drum samples</a> for writing and recording.</p>
+
+		<p>I write a <a href="{{ site.subscribe_url }}">newsletter</a> once in a while, no strings attached. My life + things I’m thinking about = letter to you. <a href="https://open.substack.com/pub/spencertweedy/p/willies-tent?utm_campaign=post-expanded-share&utm_medium=web">Try a sample</a>.</p>
+
+		<p>Thanks for stopping by.</p>
+		
+		<p>Spencer AKA Spoon</p>
+	</section>
+
+	<hr>
+
+	<section>
+		<h1>Letters</h1>
+
+		<ul class="text-xl">
+			{% assign ext_posts = site.data.ext_posts | sort: "date" | reverse %}
+			{% for post in ext_posts %}
+				<li><a href="{{ post.url }}" target="_blank">{{ post.title }}</a> <span class="opacity-40 text-xs md:text-sm">{{ post.date | date: "%b %e, %Y" }}</span></li>
+			{% endfor %}
+		</ul>
+	</section>
+
+	<hr>
+
+	<section>
+		<h1>Wire Service</h1>
+
+		<p><a href="{% link pages/wire.html %}">Portal</a> 🌀</p>
+	</section>
+</div>
