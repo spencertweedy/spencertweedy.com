@@ -82,7 +82,7 @@ content:
   - name: ext_posts
     label: External Posts
     type: file
-    path: _date/ext_posts.yml
+    path: _data/ext_posts.yml
     fields:
       - name: title
         label: Title
