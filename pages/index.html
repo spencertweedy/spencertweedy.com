@@ -4,7 +4,7 @@ permalink: "/"
 ---
 
 <div class="max-w-screen-sm mx-auto space-y-12">
-	<section class="text-xl space-y-4">
+	<section class="space-y-4">
 		<p>Welcome to my website ⚐</p>
 
 		<p>In this internet grotto there are <a href="{% link pages/releases/releases.html %}">records I’ve worked on</a>, <a href="{% link pages/shows/shows.html %}">tour dates</a>, <a href="{% link pages/books.md %}">my books</a>, and <a href="{% link pages/about.md %}">other projects</a>.</p>
@@ -21,9 +21,9 @@ permalink: "/"
 	<hr>
 
 	<section>
-		<h1>Letters</h1>
+		<h2>Letters</h2>
 
-		<ul class="text-xl">
+		<ul class="">
 			{% assign ext_posts = site.data.ext_posts | sort: "date" | reverse %}
 			{% for post in ext_posts %}
 				<li><a href="{{ post.url }}" target="_blank">{{ post.title }}</a> <span class="opacity-40 text-xs md:text-sm">{{ post.date | date: "%b %e, %Y" }}</span></li>
@@ -34,7 +34,7 @@ permalink: "/"
 	<hr>
 
 	<section>
-		<h1>Wire Service</h1>
+		<h2>Wire Service</h2>
 
 		<p><a href="{% link pages/wire.html %}">Portal</a> 🌀</p>
 	</section>
