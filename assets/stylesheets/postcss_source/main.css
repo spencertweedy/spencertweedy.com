@@ -90,7 +90,7 @@
 	}
 
 	hr {
-		@apply my-12 !important;
+		@apply my-12 dark:opacity-20 !important;
 	}
 }
 
