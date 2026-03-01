@@ -2,7 +2,7 @@
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
     <div class="space-y-4">
-        <p class="font-bold break-after-avoid text-xl"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
+        <p class="font-bold break-after-avoid"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
 
         <div class="space-y-4">
             {% for post in day.items reversed %}
