@@ -8696,6 +8696,42 @@
     "Created on": "2025-08-03"
   },
   {
+    "id": 533,
+    "order": "451.50000000000000000000",
+    "Date": "2026-01-17",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 3209,
+        "value": "Yo La Tengo",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "",
+    "Link": "https://wilcoskybluesky.com/",
+    "Created on": "2026-03-01"
+  },
+  {
+    "id": 535,
+    "order": "451.66666666666668561447",
+    "Date": "2026-01-17",
+    "Location": "Riviera Maya, Mexico",
+    "Artist": [
+      {
+        "id": 3210,
+        "value": "Golden Smog",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "Sky Blue Sky Festival",
+    "Lineup": "Sky Blue Sky Festival",
+    "Gear Notes": "",
+    "Link": "https://wilcoskybluesky.com/",
+    "Created on": "2026-03-01"
+  },
+  {
     "id": 452,
     "order": "452.00000000000000000000",
     "Date": "2026-02-11",
