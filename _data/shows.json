@@ -9540,5 +9540,599 @@
     "Gear Notes": "",
     "Link": "https://solidsoundfestival.com/",
     "Created on": "2025-12-30"
+  },
+  {
+    "id": 536,
+    "order": "486.00000000000000000000",
+    "Date": "2026-05-07",
+    "Location": "Columbus, OH",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Rumba Cafe",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://www.ticketweb.com/event/case-oats-henry-true-rumba-cafe-tickets/14745203?pl=celebrity",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 537,
+    "order": "487.00000000000000000000",
+    "Date": "2026-05-09",
+    "Location": "Brooklyn, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Union Pool",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/s8f7358086ef",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 538,
+    "order": "488.00000000000000000000",
+    "Date": "2026-05-10",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Johnny Brendas",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/91248032/case-oats-philadelphia-johnny-brendas",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 539,
+    "order": "489.00000000000000000000",
+    "Date": "2026-05-12",
+    "Location": "Washington, DC",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Pie Shop",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://app.opendate.io/e/case-oats-w-henry-true-may-12-2026-678740",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 540,
+    "order": "490.00000000000000000000",
+    "Date": "2026-05-14",
+    "Location": "Cambridge, MA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Club Passim",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://www.passim.org/live-music/events/case-oats/",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 541,
+    "order": "491.00000000000000000000",
+    "Date": "2026-05-15",
+    "Location": "Northampton, MA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Iron Horse",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://theparlorroom.my.salesforce-sites.com/ticket/#/events/a0SV500000BDqbxMAD",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 542,
+    "order": "492.00000000000000000000",
+    "Date": "2026-05-16",
+    "Location": "Burlington, VT",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Radio Bean",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://www.tickettailor.com/events/radiobean/2090586",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 543,
+    "order": "493.00000000000000000000",
+    "Date": "2026-05-18",
+    "Location": "Cleveland, OH",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Beachland Tavern",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://app.opendate.io/e/case-oats-may-18-2026-678775",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 544,
+    "order": "494.00000000000000000000",
+    "Date": "2026-05-19",
+    "Location": "Toronto, ON",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Drake",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://www.ticketweb.ca/event/case-oats-drake-underground-tickets/14740273?pl=WRITF",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 545,
+    "order": "495.00000000000000000000",
+    "Date": "2026-05-20",
+    "Location": "Detroit, MI",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Lager House",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://wl.eventim.us/event/case-oats/682898?afflky=KickstandProductions",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 546,
+    "order": "496.00000000000000000000",
+    "Date": "2026-05-21",
+    "Location": "Bloomington, IN",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Bishop",
+    "Lineup": "Case Oats, Henry True",
+    "Gear Notes": "",
+    "Link": "https://www.simpletix.com/e/case-oats-tickets-261595",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 547,
+    "order": "497.00000000000000000000",
+    "Date": "2026-05-27",
+    "Location": "Trondheim, NO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Bar Moskus",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://moskus.hoopla.no/event/1589969530",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 548,
+    "order": "498.00000000000000000000",
+    "Date": "2026-05-28",
+    "Location": "Bergen, NO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Victoria Cafe & Pub",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://perfectsounds.ticketco.events/no/nb/e/280526/tellus",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 549,
+    "order": "499.00000000000000000000",
+    "Date": "2026-05-29",
+    "Location": "Oslo, NO",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Kaktus Fest",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://kaktusfest.no/",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 550,
+    "order": "500.00000000000000000000",
+    "Date": "2026-05-31",
+    "Location": "Bristol, UK",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Louisiana",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/uk/events/1313774/case-oats-tickets",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 551,
+    "order": "501.00000000000000000000",
+    "Date": "2026-06-01",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Waiting Room",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/zc21119bd577",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 552,
+    "order": "502.00000000000000000000",
+    "Date": "2026-06-02",
+    "Location": "Manchester, UK",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Gullivers",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.seetickets.com/event/case-oats/gullivers/3598624",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 553,
+    "order": "503.00000000000000000000",
+    "Date": "2026-06-03",
+    "Location": "Glasgow, UK",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Hug and Pint",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://thehugandpint.seetickets.com/event/case-oats/the-hug-and-pint/3600779",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 554,
+    "order": "504.00000000000000000000",
+    "Date": "2026-06-05",
+    "Location": "Madrid, ES",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Fun House",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://ticketmaster.evyy.net/c/219208/2038750/23886?u=https%3A%2F%2Fwww.ticketmaster.es%2Fevent%2Fcase-oats-entradas%2F822960793&utm_medium=affiliate",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 555,
+    "order": "505.00000000000000000000",
+    "Date": "2026-06-07",
+    "Location": "Barcelona, ES",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Aclam",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.aclamclub.cat/activitats/case-oats/",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 556,
+    "order": "506.00000000000000000000",
+    "Date": "2026-06-08",
+    "Location": "València, ES",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "16 Toneladas",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.16toneladas.com/events/event/case-oaks/",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 557,
+    "order": "507.00000000000000000000",
+    "Date": "2026-06-09",
+    "Location": "Donostia-San Sebastián, ES",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Dabadaba",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/p57a724bec8e",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 558,
+    "order": "508.00000000000000000000",
+    "Date": "2026-06-21",
+    "Location": "Baltimore, MD",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Metro Baltimore",
+    "Lineup": "S.G. Goodman, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://link.dice.fm/w4d6bc6e8b56",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 559,
+    "order": "509.00000000000000000000",
+    "Date": "2026-06-23",
+    "Location": "Pittsburgh, PA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Thunderbird Café & Music Hall",
+    "Lineup": "S.G. Goodman, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/90375034/sggoodman-pittsburgh-thunderbird-caf%C3%A9-music-hall",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 560,
+    "order": "510.00000000000000000000",
+    "Date": "2026-06-24",
+    "Location": "Lancaster, PA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "West Art",
+    "Lineup": "S.G. Goodman, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.westartlanc.com/concert/sg-goodman-and-case-oats",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 561,
+    "order": "511.00000000000000000000",
+    "Date": "2026-04-16",
+    "Location": "Philadelphia, PA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Underground Arts",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.tixr.com/e/169917",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 562,
+    "order": "512.00000000000000000000",
+    "Date": "2026-04-17",
+    "Location": "Washington, DC",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Union Stage",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://app.opendate.io/e/cut-worms-april-17-2026-629981?utm_source=bandsintown",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 563,
+    "order": "513.00000000000000000000",
+    "Date": "2026-04-18",
+    "Location": "Durham, NC",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Motorco Music Hall",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://motorcomusic.com/event/cut-worms/",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 564,
+    "order": "514.00000000000000000000",
+    "Date": "2026-04-20",
+    "Location": "Atlanta, GA",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "The Earl",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.freshtix.com/events/cut-worms-the-earl-2",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 565,
+    "order": "515.00000000000000000000",
+    "Date": "2026-04-21",
+    "Location": "Nashville, TN",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Basement East",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.ticketweb.com/event/cut-worms-w-liam-kazar-the-basement-east-tickets/14076694?utm_medium=affiliate&irgwc=1&afsrc=1&clickid=Q96T%3ArxiAxyZUDiVX6xh0SpbUkuzwBQZI1M8T80&camefrom=CFC_BUYAT_219208&impradid=219208&REFERRAL_ID=tmfeedbuyat219208&wt.mc_id=aff_BUYAT_219208&utm_source=219208-Bandsintown&impradname=Bandsintown&ircid=4272",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 566,
+    "order": "516.00000000000000000000",
+    "Date": "2026-04-23",
+    "Location": "Fayetteville, AR",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "George's Majestic",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://stubs.net/event/7645/cut-worms",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 567,
+    "order": "517.00000000000000000000",
+    "Date": "2026-04-24",
+    "Location": "Denton, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Rubber Gloves",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.prekindle.com/event/44429-cut-worms-denton",
+    "Created on": "2026-03-06"
+  },
+  {
+    "id": 568,
+    "order": "518.00000000000000000000",
+    "Date": "2026-04-25",
+    "Location": "Austin, TX",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Mohawk",
+    "Lineup": "Cut Worms, Liam Kazar",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/64606984/cut-worms-austin-resound-presents?clickref=1011lCaxvmQ7",
+    "Created on": "2026-03-06"
   }
 ]
