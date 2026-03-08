@@ -5,17 +5,23 @@ permalink: "/"
 
 <div class="max-w-screen-sm mx-auto space-y-12">
 	<section class="space-y-4">
-		<p>Welcome to my website ⚐</p>
+		<p>I’m <a href="{% link pages/about.md %}">Spencer</a>. This is my website. Thanks for coming here.</p>
+	</section>
 
-		<p>Here are <a href="{% link pages/releases/releases.html %}">records I’ve worked on</a>, <a href="{% link pages/shows/shows.html %}">tour dates</a>, <a href="{% link pages/books.md %}">my books</a>, and <a href="{% link pages/about.md %}">other projects</a>.</p>
+	<section>
+		<h2>What’s New</h2>
 
-		<p>There’s also a <a href="/50dram">playlist</a> for quick listening, and a free pack of <a href="{% link pages/drumprints.html %}">drum samples</a> for writing and recording.</p>
+		{% assign news = site.wire | reverse %}
 
-		<p>I write a <a href="{{ site.subscribe_url }}">newsletter</a> once in a while, no strings attached. <a href="https://open.substack.com/pub/spencertweedy/p/willies-tent?utm_campaign=post-expanded-share&utm_medium=web">Try a sample</a>.</p>
+		<p class="italic opacity-40">As of {{ news.first.date | date: "%b %e, %Y" }}</p>
 
-		<p>Thanks for stopping by.</p>
-		
-		<p>Spencer AKA Spoon</p>
+		<ul>
+		{% for post in news limit:5 %}
+			{% if post.categories contains "news" %}
+				<li>{{ post.content }}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
 	</section>
 
 	<hr>
