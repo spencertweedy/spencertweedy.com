@@ -1,12 +1,12 @@
 <div class="space-y-16">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
-    <div class="space-y-4">
-        <p class="font-bold break-after-avoid"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
+    <div class="space-y-8">
+        <p class="opacity-40 italic break-after-avoid"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time></p>
 
-        <div class="space-y-4">
+        <div class="space-y-8">
             {% for post in day.items reversed %}
-                <article class="space-y-4 before:content-['▚'] before:float-start {% if post.highlighted == true %}highlight{% endif %} before:pe-2 before:top-1 before:relative before:text-xs mx-auto break-inside-avoid">
+                <article class="space-y-4 before:content-['▚'] before:float-start before:opacity-40 before:-ms-4 ps-4 {% if post.highlighted == true %}highlight{% endif %} before:pe-2 before:top-1 before:relative before:text-xs mx-auto break-inside-avoid">
                     {% if post.link and post.headline %}
                         <p><a href="{{ post.link }}">{{ post.headline }}</a></p>
                     {% elsif post.headline %}
