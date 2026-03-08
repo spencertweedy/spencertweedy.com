@@ -24,11 +24,4 @@ width: constrained
 
 		{% include releases.html %}
 	</section>
-
-	<section>
-		{% assign LPs = site.releases | where: "type", "LP" %}
-		{% assign EPs = site.releases | where: "type", "EP" %}
-		{% assign singles = site.releases | where: "type", "single" %}
-		<p class="opacity-40 text-xs">{{ LPs.size }} LPs, {{ EPs.size }} EPs, and {{ singles.size }} singles</p>
-	</section>
 </div>
