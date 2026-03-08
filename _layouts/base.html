@@ -88,7 +88,7 @@
     </main>
     
     <footer class="px-[3vw] text-center mb-[10vh] text-sm space-y-2">
-        <nav class="font-sans flex gap-2">
+        <nav class="font-sans flex gap-2 flex-wrap justify-center">
             {% unless page.url == "/" %}<a href="{% link pages/index.html %}">Home</a>{% endunless %}
             {% unless page.url == "/music" %}<a href="{% link pages/releases/releases.html %}">Music</a>{% endunless %}
             {% unless page.url == "/books" %}<a href="{% link pages/books.md %}">Books</a>{% endunless %}
