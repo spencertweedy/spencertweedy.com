@@ -11,15 +11,13 @@ permalink: "/"
 	<section>
 		<h2>What’s New</h2>
 
-		{% assign news = site.wire | reverse %}
+		{% assign news = site.wire | where: "category", "news" | reverse %}
 
 		<p class="italic opacity-40">As of {{ news.first.date | date: "%b %e, %Y" }}</p>
 
 		<ul>
-		{% for post in news limit:5 %}
-			{% if post.categories contains "news" %}
-				<li>{{ post.content }}</li>
-			{% endif %}
+		{% for post in news limit:10 %}
+			<li>{{ post.content }}</li>
 		{% endfor %}
 		</ul>
 	</section>
