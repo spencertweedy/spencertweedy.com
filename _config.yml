@@ -88,3 +88,10 @@ obs-archives:
   layout: obs-archive
   permalinks:
     month: '/observations/:year:month/'
+feed:
+  posts_limit: 15
+  collections:
+    wire:
+      path: "/feed.atom"
+plugins:
+  - jekyll-feed
