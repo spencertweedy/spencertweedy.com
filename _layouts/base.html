@@ -66,6 +66,7 @@
 
     <!-- Micropub config -->
     <link rel="micropub" href="https://wire-micropub.spencertweedy.com/.netlify/functions/micropub">
+    <link rel="me" href="mailto:{{ site.email }}">
 </head>
 
 <body class="min-h-screen flex flex-col items-center">
@@ -98,7 +99,7 @@
             {% unless page.url == "/shows" %}<a href="{% link pages/shows/shows.html %}">Shows</a>{% endunless %}
             {% unless page.url == "/about" %}<a href="{% link pages/about.md %}">About</a>{% endunless %}
             {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
-            <a rel="me" href="mailto:{{ site.email }}">Contact</a>
+            <a href="mailto:{{ site.email }}">Contact</a>
         </nav>
     </footer>
     
