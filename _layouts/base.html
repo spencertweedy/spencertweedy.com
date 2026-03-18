@@ -65,8 +65,10 @@
     {% if jekyll.environment == "production" %}<script defer data-domain="spencertweedy.com" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>{% endif %}
 
     <!-- Micropub config -->
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link rel="micropub" href="https://wire-micropub.spencertweedy.com/.netlify/functions/micropub">
-    <link rel="me" href="mailto:{{ site.email }}">
+    <link rel="me" href="https://github.com/spencertweedy">
 </head>
 
 <body class="min-h-screen flex flex-col items-center">
