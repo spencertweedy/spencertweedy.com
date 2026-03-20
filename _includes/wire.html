@@ -7,7 +7,7 @@
         <div class="space-y-8">
             {% for post in day.items reversed %}
                 <article id="{{ post.slug }}" class="space-y-4 ps-4 {% if post.highlighted == true %}highlight{% endif %} mx-auto break-inside-avoid">
-                    <a href="#{{ post.slug }}" class="float-start opacity-40 -ms-4 pe-2 top-1 relative text-xs">▚</a>
+                    <a href="#{{ post.slug }}" class="float-start -ms-4 pe-2 top-1 relative text-xs">▚</a>
                     {% if post.link and post.headline %}
                         <p><a href="{{ post.link }}">{{ post.headline }}</a></p>
                     {% elsif post.headline %}
