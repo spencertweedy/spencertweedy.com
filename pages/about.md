@@ -18,6 +18,7 @@ And I love writing on the internet.
 Quick links:
 
 - [50 Songs I Dram](https://lnkfi.re/50dram)
+- [Free drum samples]({% link pages/drumprints.html %})
 - [Bandcamp](https://spencertweedy.bandcamp.com/)  
 - [Instagram](https://www.instagram.com/spencertweedy)
 - [My books]({% link pages/books.md %})
