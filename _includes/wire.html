@@ -1,4 +1,4 @@
-<div class="space-y-16">
+<div class="space-y-8">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
     <div class="space-y-4">
