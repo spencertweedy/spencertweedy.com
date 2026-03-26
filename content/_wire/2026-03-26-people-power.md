@@ -1,5 +1,5 @@
 ---
-title: “People Power”
+headline: People Power
 ---
 
 “People power” is an interesting concept. Pretty vague, so it can be made to encompass a lot.
