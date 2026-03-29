@@ -151,7 +151,7 @@
 	}
 	
 	.link {
-		@apply underline font-bold font-sans italic text-[85%] text-blue-600 dark:text-obs-green decoration-blue-600 dark:decoration-obs-green decoration-2 underline-offset-2 hover:brightness-110 relative -top-[0.075em];
+		@apply underline font-sans font-bold text-[87%] text-blue-600 dark:text-obs-green decoration-blue-600/60 dark:decoration-obs-green/60 decoration-dotted decoration-1 underline-offset-4 hover:brightness-110;
 	}
 	
 	ul.link-list {
