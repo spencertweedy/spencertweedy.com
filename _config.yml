@@ -24,7 +24,7 @@ collections:
   wire:
     title: Wire
     output: true
-    permalink: "/wire/:title/"
+    permalink: "/:collection/:title/"
 defaults:
   - scope:
       path: ""
