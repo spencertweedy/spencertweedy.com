@@ -23,36 +23,43 @@ collections:
     output: true
   wire:
     title: Wire
-    output: false
+    output: true
+    permalink: "/wire/:title/"
 defaults:
-- scope:
-    path: ''
-    type: observations
-  values:
-    layout: obs-post
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    image: 
-    image_caption: 
-- scope:
-    path: ''
-    type: releases
-  values:
-    artist: ''
-    year: ''
-    color: ''
-    listen: ''
-    image: ''
-    role: ''
-    type: ''
-- scope:
-    path: ''
-    type: newsletters
-  values:
-    layout: obs-newsletter
+  - scope:
+      path: ""
+      type: "wire"
+    values:
+      layout: "page"
+      width: "constrained"
+  - scope:
+      path: ''
+      type: observations
+    values:
+      layout: obs-post
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      image: 
+      image_caption: 
+  - scope:
+      path: ''
+      type: releases
+    values:
+      artist: ''
+      year: ''
+      color: ''
+      listen: ''
+      image: ''
+      role: ''
+      type: ''
+  - scope:
+      path: ''
+      type: newsletters
+    values:
+      layout: obs-newsletter
 collections_dir: content
 email: me@spencertweedy.com
 description: Hi! I play drums.
