@@ -1,7 +1,7 @@
 ---
 date: 2026-02-16
 slug: ftrain-returns
-title: Paul Ford Relaunches Blog
+headline: Paul Ford Relaunches Blog
 ---
 
 Paul Ford, twenty-nine-year blogging veteran, accidentally relaunches his blog. “[Once I saw that text box I had to type into it](https://ftrain.com/it-was-tweets).”
