@@ -20,7 +20,7 @@ permalink: "/"
 
 			<ul>
 			{% for post in news limit:10 %}
-				<li>{{ post.content }}</li>
+				<li>{{ post.content | markdownify }}</li>
 			{% endfor %}
 			</ul>
 		</section>
