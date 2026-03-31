@@ -90,8 +90,8 @@ Spoon
 * 2009: start learning how to self-record
 * 2009: Bar Mitzvah’d
 * 2009: sit in on “The Late Greats” during Wilco’s set opening for Neil Young at Madison Square Garden
-* 2011: my first essay published in Rookie Mag
-* 2011: my first self-publishing project, *Square Eye* (photo book)
+* 2011: first published essay, in Rookie Mag
+* 2011: self-published *Square Eye*, a photo book
 * 2011: make a music video for “The Whole Love”
 * 2012: my first single, uploaded to Tumblr/SoundCloud
 * 2012: my first recording session at The Loft
@@ -126,13 +126,13 @@ Spoon
 * 2022: *I Walked With You a Ways* by Plains is released
 * 2023: *drumprints vol. 1* is released under Creative Commons license
 * 2023: stop publishing Observations and restart a newsletter
-* 2023: I’m the First Aid coordinator at Pitchfork Music Festival Chicago
+* 2023: coordinate first-aid at Pitchfork Music Festival Chicago
 * 2024: *Tigers Blood* by Waxahatchee was released and nominated for a Grammy
 * 2024: *Not God* by Finom was released
 * 2024: self-publish *Observations: Year Two*
 * 2025: The Pocket opens its doors
 * 2025: Casey’s band, Case Oats, signs to Merge Records, and *Last Missouri Exit* is released
-* 2025: *Twilight Override* by Jeff Tweedy is released
+* 2025: *Twilight Override* is released
 
 ***
 
