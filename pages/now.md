@@ -6,7 +6,7 @@ width: constrained
 ---
 
 - [on tour]({% link pages/shows/shows.html %}) with my [family band](https://jefftweedy.lnk.to/TwilightOverride) in the Western US
-- getting ready to release [Avrom Farm Party](https://avromfarmparty.com/) tickets
+- booking and planning [Avrom Farm Party](https://avromfarmparty.com/)
 - planning and promoting [Case Oats](https://caseoats.com/) US and Euro tours
 
 During free time I’m…
@@ -15,4 +15,4 @@ During free time I’m…
 - working on a lil widget that shows the time wherever your partner is
 
 This is a “[/now](https://nownownow.com/about)” page.  
-Updated March 19, 2026, from Los Angeles.
+Updated March 30, 2026, from Eugene, Oregon.
