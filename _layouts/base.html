@@ -31,7 +31,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicons/apple-icon.png %}">
 
     <!-- Link RSS feeds -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Wire Service" href="/feed.atom">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Wire Service" href="{% link feed.xml %}">
     
     <!-- Define canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
