@@ -51,6 +51,22 @@
 	p a {
 		@apply link;
 	}
+
+	p img {
+		@apply my-8 rounded-3xl max-w-full mx-auto;
+	}
+
+	figure {
+		@apply py-4 mx-auto;
+	}
+
+	figure img {
+		@apply rounded-3xl max-w-full;
+	}
+
+	figure figcaption {
+		@apply mt-2 text-center opacity-40 text-xs;
+	}
 	
 	blockquote {
 		@apply border-s-2 ms-px space-y-4 border-current ps-4 reg-spacing clear-start;
