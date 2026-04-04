@@ -106,7 +106,7 @@
 	}
 
 	hr {
-		@apply my-12 dark:opacity-20 !important;
+		@apply my-4 border-dashed w-1/4 border-black/10 dark:border-white/20 !important;
 	}
 }
 
