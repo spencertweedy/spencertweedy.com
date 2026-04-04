@@ -5,9 +5,9 @@ layout: base
 <div class="space-y-4 text-lg w-full mx-auto {% if page.width == 'constrained' %}max-w-screen-sm{% else %}max-w-screen-lg{% endif %}">
     {% if page.date %}<time class="block opacity-40 text-sm break-after-avoid" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%a, %e %b %Y" }}</time>{% endif %}
     
-    {% if page.headline %}
-        <h1>{{ page.headline }}</h1>
-    {% elsif page.title %}
+    {% if page.show_title %}
+        <h1>{{ page.title }}</h1>
+    {% elsif page.title and page.collection != "wire" %}
         <h1>{{ page.title }}</h1>
     {% endif %}
     {{ content | markdownify }}

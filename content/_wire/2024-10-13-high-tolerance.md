@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: "\"A far higher risk of civilian casualties\""
+title: "\"A far higher risk of civilian casualties\""
 link: https://apple.news/Als64BgnKSaOI9Au41NiopA
 date: 2024-10-13
 tags: israel-palestine

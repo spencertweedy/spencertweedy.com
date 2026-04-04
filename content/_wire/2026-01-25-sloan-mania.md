@@ -2,7 +2,7 @@
 date: 2026-01-25
 slug: sloan-mania
 show_title: true
-headline: "Robin Sloan: Language models are a fundamentally manic technology"
+title: "Robin Sloan: Language models are a fundamentally manic technology"
 link: https://www.robinsloan.com/lab/manic-technology/
 highlighted: false
 published: true

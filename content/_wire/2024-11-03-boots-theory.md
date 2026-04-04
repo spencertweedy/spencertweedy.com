@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: Boots theory
+title: Boots theory
 link: https://en.wikipedia.org/wiki/Boots_theory
 date: 2024-11-03
 ---

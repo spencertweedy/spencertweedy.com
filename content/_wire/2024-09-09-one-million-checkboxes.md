@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: "The Secret Message Contained in One Million Checkboxes"
+title: "The Secret Message Contained in One Million Checkboxes"
 link: https://kottke.org/24/08/secret-message-in-one-million-checkboxes
 date: 2024-09-09
 ---

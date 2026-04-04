@@ -2,7 +2,7 @@
 date: 2026-01-18
 slug: russia-nato
 show_title: true
-headline: We Used to Talk About Russia Joining NATO
+title: We Used to Talk About Russia Joining NATO
 link: https://en.wikipedia.org/wiki/Russia–NATO_relations#Possible_Russian_membership_of_NATO
 highlighted: false
 published: true

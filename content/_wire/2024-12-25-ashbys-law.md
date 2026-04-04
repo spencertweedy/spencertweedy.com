@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: "Ashby’s Law of Requisite Variety"
+title: "Ashby’s Law of Requisite Variety"
 link: https://open.substack.com/pub/kschroeder/p/coping-strategies?r=62534&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 tags: politics
 date: 2024-12-25

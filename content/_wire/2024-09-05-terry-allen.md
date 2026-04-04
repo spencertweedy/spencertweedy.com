@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: Terry Allen in The Creative Independent
+title: Terry Allen in The Creative Independent
 link: https://thecreativeindependent.com/people/musician-and-visual-artist-terry-allen-on-the-artists-job-of-confronting-your-curiosity/
 date: 2024-09-05
 ---

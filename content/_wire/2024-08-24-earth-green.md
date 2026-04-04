@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: Earth is pretty dang green when you look at it
+title: Earth is pretty dang green when you look at it
 link: https://maps.app.goo.gl/1NqoDtrTSjUZZ4Zr5
 date: 2024-08-24
 ---

@@ -2,7 +2,7 @@
 date: 2026-01-18
 slug: chernobyl-cost
 show_title: true
-headline: Chernobyl Cost Over 900 Billion Dollars
+title: Chernobyl Cost Over 900 Billion Dollars
 link: https://en.wikipedia.org/wiki/List_of_disasters_by_cost
 highlighted: false
 published: true

@@ -2,7 +2,7 @@
 date: 2026-01-23
 slug: van-gogh-slap
 show_title: true
-headline: 'Van Gogh: "Just slap something on it"'
+title: 'Van Gogh: "Just slap something on it"'
 link: https://www.theparisreview.org/blog/2014/10/02/just-slap-something-on-it/
 highlighted: false
 published: true

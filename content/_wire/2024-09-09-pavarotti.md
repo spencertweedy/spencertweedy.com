@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: Pavarotti with Watermelon
+title: Pavarotti with Watermelon
 link: https://kagi.com/images?q=pavarotti+watermelon+photo+shoot
 date: 2024-09-09
 ---

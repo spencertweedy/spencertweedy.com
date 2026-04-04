@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: Iran turns to Hells Angels and other criminal gangs to target critics
+title: Iran turns to Hells Angels and other criminal gangs to target critics
 link: https://www.washingtonpost.com/world/2024/09/12/iran-criminal-gangs-target-dissidents/
 date: 2024-09-16
 tags: israel-palestine

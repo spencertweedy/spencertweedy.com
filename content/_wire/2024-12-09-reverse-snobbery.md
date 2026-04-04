@@ -1,7 +1,7 @@
 ---
 date: 2024-12-09
 show_title: true
-headline: "W. David Marx: The Reverse Snobbery of Ultra-Poptimism"
+title: "W. David Marx: The Reverse Snobbery of Ultra-Poptimism"
 link: https://culture.ghost.io/three-ways-of-enjoying-music-and-the-snobbery-of-ultra-poptimism/?ref=culture-an-owners-manual-newsletter
 ---
 

@@ -2,7 +2,7 @@
 date: 2026-01-29
 slug: chris-arnade-not-walking-chicago
 show_title: true
-headline: Not Walking Chicago
+title: Not Walking Chicago
 link: https://open.substack.com/pub/walkingtheworld/p/not-walking-chicago?utm_campaign=post-expanded-share&utm_medium=web
 highlighted: false
 published: true

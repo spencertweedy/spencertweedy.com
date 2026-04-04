@@ -2,7 +2,7 @@
 date: 2026-01-25
 slug: arnade-modernity
 show_title: true
-headline: "Chris Arnade: Modern life is good, actually"
+title: "Chris Arnade: Modern life is good, actually"
 link: https://open.substack.com/pub/walkingtheworld/p/modern-life-is-good-actually?utm_campaign=post-expanded-share&utm_medium=web
 highlighted: false
 published: true

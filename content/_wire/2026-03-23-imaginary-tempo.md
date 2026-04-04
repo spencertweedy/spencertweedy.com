@@ -1,6 +1,6 @@
 ---
 show_title: true
-headline: Don't Play the Song at a Tempo That Doesn't Exist
+title: Don't Play the Song at a Tempo That Doesn't Exist
 ---
 
 It’s not a good idea to imagine other tempos while you’re playing a song.

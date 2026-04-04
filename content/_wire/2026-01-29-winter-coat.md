@@ -2,7 +2,7 @@
 date: 2026-01-29
 slug: winter-coat
 show_title: true
-headline: Adulthood
+title: Adulthood
 highlighted: false
 published: true
 ---

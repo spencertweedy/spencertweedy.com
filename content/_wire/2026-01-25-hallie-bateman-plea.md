@@ -2,7 +2,7 @@
 date: 2026-01-25
 slug: hallie-bateman-plea
 show_title: true
-headline: Hallie Bateman's plea for the new year
+title: Hallie Bateman's plea for the new year
 link: https://open.substack.com/pub/halmail/p/plea-for-the-new-year?utm_campaign=post-expanded-share&utm_medium=web
 highlighted: false
 published: true
