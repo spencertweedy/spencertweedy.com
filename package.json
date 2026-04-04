@@ -11,7 +11,7 @@
     "tailwindcss": "^3.4.7"
   },
   "scripts": {
-    "jekyll:dev": "bundle exec jekyll serve --incremental",
+    "jekyll:dev": "bundle exec jekyll serve",
     "jekyll:build": "JEKYLL_ENV=production bundle exec jekyll build",
     "postcss:dev": "postcss assets/stylesheets/postcss_source/main.css --output assets/stylesheets/postcss_dist/main.css --watch",
     "postcss:build": "NODE_ENV=production postcss assets/stylesheets/postcss_source/main.css --output assets/stylesheets/postcss_dist/main.css",
