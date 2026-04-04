@@ -1,6 +1,7 @@
 ---
 date: 2026-01-02
 slug: neutrinos
+show_title: true
 headline: 100 Trillion Neutrinos
 link: https://icecube.wisc.edu/news/press-releases/2017/11/first-look-at-how-earth-stops-high-energy-neutrinos-in-their-tracks/
 highlighted: false

@@ -1,5 +1,6 @@
 ---
 date: 2025-05-05 23:23:11 
+show_title: true
 headline: "The majesty of Mitsubishi and Tombow pencils"
 link: "https://notes.stlartsupply.com/the-golden-age-of-japanese-pencils-1952-1967/"
 ---

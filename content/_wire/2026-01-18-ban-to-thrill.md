@@ -1,6 +1,7 @@
 ---
 date: 2026-01-18
 slug: ban-to-thrill
+show_title: true
 headline: Ban to Thrill; Institutionalize to Kill
 link: https://www.theatlantic.com/ideas/2026/01/reading-crisis-solution-literature-personal-passion/685461/
 highlighted: false

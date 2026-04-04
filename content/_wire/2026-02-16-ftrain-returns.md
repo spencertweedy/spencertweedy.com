@@ -1,6 +1,7 @@
 ---
 date: 2026-02-16
 slug: ftrain-returns
+show_title: true
 headline: Paul Ford Relaunches Blog
 ---
 

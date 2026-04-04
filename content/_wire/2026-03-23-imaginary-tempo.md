@@ -1,4 +1,5 @@
 ---
+show_title: true
 headline: Don't Play the Song at a Tempo That Doesn't Exist
 ---
 

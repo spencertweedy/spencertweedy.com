@@ -1,6 +1,7 @@
 ---
 date: 2025-05-24
 link: https://collections.anseladams.com/tom-killions-high-sierra/
+show_title: true
 headline: "Tom Killion's High Sierra"
 ---
 

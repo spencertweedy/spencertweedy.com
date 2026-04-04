@@ -1,4 +1,5 @@
 ---
+show_title: true
 headline: Looking Back at Year Four of Punk Planet
 link: https://dansinker.com/posts/2024-08-31-ppy4/
 date: 2024-08-31

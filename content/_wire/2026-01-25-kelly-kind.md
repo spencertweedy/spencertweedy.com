@@ -1,6 +1,7 @@
 ---
 date: 2026-01-25
 slug: kelly-kind
+show_title: true
 headline: "Kevin Kelly: How will the miracle happen today?"
 link: https://open.substack.com/pub/kevinkelly/p/how-will-the-miracle-happen-today?r=62534&utm_medium=ios&shareImageVariant=overlay
 highlighted: false

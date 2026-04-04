@@ -1,6 +1,7 @@
 ---
 date: 2026-01-25
 slug: angine-de-poitrine
+show_title: true
 headline: This band is nuts
 link: https://youtu.be/V83SiA5zskU?si=zLVjvli-uYm_hlL4
 highlighted: false

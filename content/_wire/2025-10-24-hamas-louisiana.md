@@ -1,6 +1,7 @@
 ---
 date: 2025-10-23
 slug: hamas-louisiana
+show_title: true
 headline: "The Guardian: Man who fought for Hamas in October 7 attack fled to US
   and lived in Louisiana, FBI alleges"
 link: https://www.theguardian.com/us-news/2025/oct/17/hamas-fighter-louisiana-fbi

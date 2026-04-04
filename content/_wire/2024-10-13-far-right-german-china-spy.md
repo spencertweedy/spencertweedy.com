@@ -1,4 +1,5 @@
 ---
+show_title: true
 headline: "CNN: Germany arrests aide to far-right MEP on suspicion of spying for China"
 link: https://www.cnn.com/2024/04/23/europe/germany-china-spying-arrest-eu-parliament-intl/index.html
 date: 2024-10-13

@@ -1,5 +1,6 @@
 ---
 date: 2024-11-30
+show_title: true
 headline: "Forward: Arab Americans and Israel hawks battle for influence in Trump’s second term"
 link: https://forward.com/news/673507/arab-americans-trump-israel-palestinians-peace/
 tags: israel-palestine

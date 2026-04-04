@@ -1,5 +1,6 @@
 ---
 date: 2025-05-24
+show_title: true
 headline: Bernadette Mayer's Writing Experiments
 link: https://writing.upenn.edu/library/Mayer-Bernadette_Experiments.html
 ---

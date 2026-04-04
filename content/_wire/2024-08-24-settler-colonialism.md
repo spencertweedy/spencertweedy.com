@@ -1,4 +1,5 @@
 ---
+show_title: true
 headline: "Adam Kirsch: The False Narrative of Settler-Colonialism"
 link: https://apple.news/A0T27beQVSXCE2kdf8TdwMQ
 date: 2024-08-24

@@ -1,6 +1,7 @@
 ---
 date: 2026-01-29
 slug: endurance-art
+show_title: true
 headline: Relationships are an endurance art
 highlighted: false
 published: true

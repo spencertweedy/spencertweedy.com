@@ -1,6 +1,7 @@
 ---
 date: 2026-01-12
 slug: leonardo-lizard
+show_title: true
 headline: Leonardo da Vinci, Prankster
 highlighted: false
 published: true
