@@ -100,5 +100,9 @@ feed:
   collections:
     wire:
       path: "/feed.atom"
+picture:
+  source: "content/_uploads"
+  output: "assets/images"
 plugins:
   - jekyll-feed
+  - jekyll_picture_tag
