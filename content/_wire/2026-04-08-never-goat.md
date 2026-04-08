@@ -3,6 +3,7 @@ title: Never Let Them Have Your Goat
 date: 2026-04-08 01:59:47 -0600
 tags: tour-report
 show_title: true
+excerpt: "I knew that Manosphere guys were fragile; I didn’t think they’d cave from something as unaggressive as an aging British documentarian’s quiet eye contact…"
 ---
 
 The cold that ravaged my tourmates a few weeks ago caught up with me. Maybe it’s not the same bug but I feel like it was dormant in me since then and jumped out as soon as we had an early morning ferry crossing (i.e. very little sleep). How it always gets ya. Every membrane feels red hot and drinking water makes me gag a little, but It Could Be Worse. And war didn’t escalate today.
