@@ -1,0 +1,9 @@
+---
+layout: base
+---
+
+<div class="space-y-4 text-lg w-[375px] h-[375px] mx-auto overflow-hidden text-ellipsis">
+    {% if page.date %}<time class="block opacity-40 text-sm break-after-avoid" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%a, %e %b %Y" }}</time>{% endif %}
+    <h3>{{ page.title }}</h3>
+    <p>{{ page.excerpt }}</p>
+</div>

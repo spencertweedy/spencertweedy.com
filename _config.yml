@@ -32,6 +32,7 @@ defaults:
     values:
       layout: "page"
       width: "constrained"
+      social_url: "/social/:year/:month/:day/:slug/"
   - scope:
       path: ''
       type: observations
