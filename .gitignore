@@ -22,6 +22,9 @@ vendor/
 .AppleDouble
 .LSOverride
 
+### Obsidian ###
+content/_wire/.obsidian
+
 # Icon must end with two \r
 Icon
 
