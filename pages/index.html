@@ -19,7 +19,7 @@ permalink: "/"
 			<p class="italic opacity-40 text-xs md:text-sm">As of {{ news.first.date | date: "%b %e, %Y" }}</p>
 
 			<ul>
-			{% for post in news limit:10 %}
+			{% for post in news limit:3 %}
 				<li>{{ post.content | markdownify }}</li>
 			{% endfor %}
 			</ul>
