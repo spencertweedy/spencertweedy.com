@@ -5819,7 +5819,7 @@
     "id": 323,
     "order": "323.00000000000000000000",
     "Date": "2024-10-13",
-    "Location": "Union Pier, MI",
+    "Location": "Sawyer, MI",
     "Artist": [
       {
         "id": 3036,
@@ -9540,6 +9540,222 @@
     "Gear Notes": "",
     "Link": "https://www.ticketmaster.com/event/1E00636EE27FA673?brand=logjampresents",
     "Created on": "2025-12-30"
+  },
+  {
+    "id": 599,
+    "order": "484.07692307692309441336",
+    "Date": "2026-11-07",
+    "Location": "Davenport, IA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Capitol Theatre",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.axs.com/events/1480580/jeff-tweedy-solo-tickets",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 598,
+    "order": "484.08333333333331438553",
+    "Date": "2026-11-06",
+    "Location": "Carmel, IN",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Tarkington",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://thecenterpresents.org/tickets-events/events/2627/center-presents/jeff-tweedy/",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 597,
+    "order": "484.09090909090906507117",
+    "Date": "2026-11-03",
+    "Location": "Providence, RI",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Uptown Theater",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.uptownpvd.com/events/jeff-tweedy-with-special",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 596,
+    "order": "484.10000000000002273737",
+    "Date": "2026-10-31",
+    "Location": "Groton, MA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Groton Hill Music Center",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.grotonhill.org/concerts/jeff-tweedy-with-special-guest-case-oats.",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 595,
+    "order": "484.11111111111108584737",
+    "Date": "2026-10-30",
+    "Location": "Great Barrington, MA",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Mahaiwe PAC",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://mahaiwe.my.salesforce-sites.com/ticket/#/instances/a0FQK000008N18T2AS",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 594,
+    "order": "484.12500000000000000000",
+    "Date": "2026-10-28",
+    "Location": "New York, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Town Hall",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.ticketmaster.com/event/030064C7177526DF",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 593,
+    "order": "484.14285714285716721861",
+    "Date": "2026-10-27",
+    "Location": "Woodstock, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Bearsville Theater",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/99710988/jeff-tweedy-woodstock-bearsville-theater",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 592,
+    "order": "484.16666666666668561447",
+    "Date": "2026-10-26",
+    "Location": "Woodstock, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Bearsville Theater",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/40027463/jeff-tweedy-woodstock-bearsville-theater",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 591,
+    "order": "484.19999999999998863132",
+    "Date": "2026-10-24",
+    "Location": "Ithaca, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "State Theatre",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://tixr.com/e/193670.",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 590,
+    "order": "484.25000000000000000000",
+    "Date": "2026-10-23",
+    "Location": "Rochester, NY",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "RIT PAC",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://rittickets.com/Online/default.asp",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 589,
+    "order": "484.33333333333331438553",
+    "Date": "2026-10-21",
+    "Location": "Kent, OH",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "The Kent Stage",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://www.etix.com/ticket/p/69052830/jeff-tweedy-with-special-guest-case-oats-kent-the-kent-stage",
+    "Created on": "2026-06-13"
+  },
+  {
+    "id": 588,
+    "order": "484.50000000000000000000",
+    "Date": "2026-10-20",
+    "Location": "Three Oaks, MI",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Acorn Theater",
+    "Lineup": "Jeff Tweedy, Case Oats",
+    "Gear Notes": "",
+    "Link": "https://acornlive.my.salesforce-sites.com/ticket/#/events/a0SPd000004D68XMAS",
+    "Created on": "2026-06-13"
   },
   {
     "id": 532,
