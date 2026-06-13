@@ -16,3 +16,5 @@ The only times the situation back there ever got really bad were when non-alcoho
 They built a fort once out of the whole blocks' garbage and recycling cans. It felt like a line was crossed because, hey, we need those to throw garbage and recycling in. But, you know, they put ’em back. And I kinda loved the idea of building a fort as an adult. They weren't thriving. Who knows what family were left unsatisfied, hurt or wondering in the alcohol's wake. God knows their own bodies were suffering. But there are worse ways to spend a night than fort-building, and worse ways to inconvenience a city block.
 
 I hate that they were probably taken. Or if not, then scared into a new shadow. It's not as though the block was a good enough home for them; it wasn't. And when they fought and tumbled into the family next door's yard, they weren't good enough for the block, either. But they're full people, with rights, if not known legal names. They’re Chicagoans, not much more difficult than plenty who sleep in beds. And it shouldn't have ended like this.
+
+Update 2026-06-13: I heard a rumor from my neighbor. The Tiger might be back.
