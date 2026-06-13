@@ -9200,6 +9200,24 @@
     "Created on": "2025-12-30"
   },
   {
+    "id": 569,
+    "order": "466.50000000000000000000",
+    "Date": "2026-03-19",
+    "Location": "Los Angeles, CA",
+    "Artist": [
+      {
+        "id": 2999,
+        "value": "Jeff Tweedy",
+        "color": "darker-pink"
+      }
+    ],
+    "Venue": "Jimmy Kimmel Live!",
+    "Lineup": "Jimmy Kimmel Live!",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2026-06-13"
+  },
+  {
     "id": 514,
     "order": "467.00000000000000000000",
     "Date": "2026-03-17",
@@ -9776,10 +9794,28 @@
     "Created on": "2026-03-06"
   },
   {
+    "id": 572,
+    "order": "498.50000000000000000000",
+    "Date": "2026-05-31",
+    "Location": "London, UK",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "BBC Radio 6 Music",
+    "Lineup": "Case Oats",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2026-06-13"
+  },
+  {
     "id": 549,
     "order": "499.00000000000000000000",
     "Date": "2026-05-29",
-    "Location": "Oslo, NO",
+    "Location": "Halden, NO",
     "Artist": [
       {
         "id": 2997,
@@ -9866,6 +9902,24 @@
     "Created on": "2026-03-06"
   },
   {
+    "id": 573,
+    "order": "503.50000000000000000000",
+    "Date": "2026-06-06",
+    "Location": "Madrid, ES",
+    "Artist": [
+      {
+        "id": 2997,
+        "value": "Case Oats",
+        "color": "darker-blue"
+      }
+    ],
+    "Venue": "Block Party Festival",
+    "Lineup": "Block Party Festival",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2026-06-13"
+  },
+  {
     "id": 554,
     "order": "504.00000000000000000000",
     "Date": "2026-06-05",
@@ -9920,10 +9974,28 @@
     "Created on": "2026-03-06"
   },
   {
+    "id": 574,
+    "order": "506.50000000000000000000",
+    "Date": "2026-06-20",
+    "Location": "Bloomington, IN",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "darker-red"
+      }
+    ],
+    "Venue": "Switchyard Park",
+    "Lineup": "Waxahatchee, Kathleen Edwards",
+    "Gear Notes": "",
+    "Link": "https://www.visitbloomington.com/event/waxahatchee%3A-granfalloon-concert-series-at-switchyard-park/58753/",
+    "Created on": "2026-06-13"
+  },
+  {
     "id": 557,
     "order": "507.00000000000000000000",
     "Date": "2026-06-09",
-    "Location": "Donostia-San Sebastián, ES",
+    "Location": "San Sebastián, ES",
     "Artist": [
       {
         "id": 2997,
@@ -10028,6 +10100,24 @@
     "Created on": "2026-03-06"
   },
   {
+    "id": 570,
+    "order": "512.50000000000000000000",
+    "Date": "2026-04-19",
+    "Location": "Marshall, NC",
+    "Artist": [
+      {
+        "id": 2995,
+        "value": "Liam Kazar",
+        "color": "darker-yellow"
+      }
+    ],
+    "Venue": "Tea Tent",
+    "Lineup": "Liam Kazar, Julie Opell, Special Strength",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2026-06-13"
+  },
+  {
     "id": 563,
     "order": "513.00000000000000000000",
     "Date": "2026-04-18",
@@ -10116,6 +10206,29 @@
     "Gear Notes": "",
     "Link": "https://www.prekindle.com/event/44429-cut-worms-denton",
     "Created on": "2026-03-06"
+  },
+  {
+    "id": 571,
+    "order": "517.50000000000000000000",
+    "Date": "2026-04-27",
+    "Location": "Chicago, IL",
+    "Artist": [
+      {
+        "id": 2994,
+        "value": "Waxahatchee",
+        "color": "darker-red"
+      },
+      {
+        "id": 3010,
+        "value": "MJ Lenderman",
+        "color": "darker-green"
+      }
+    ],
+    "Venue": "The Auditorium Theatre",
+    "Lineup": "Waxahatchee and MJ Lenderman, Brennan Wedl",
+    "Gear Notes": "",
+    "Link": "",
+    "Created on": "2026-06-13"
   },
   {
     "id": 568,
