@@ -79,15 +79,13 @@ Spoon
 * 1998: somebody plops me on a drum kit in the basement of Lounge Ax
 * 2000: Lounge Ax closes :(
 * 2001: Dad sends a child-sized drum kit home from the road
-* 2002: receive a hand-me-down laptop (with no internet), explore every nook and cranny of it
 * 2002: treated for Kawasaki Disease with strangers’ plasma
 * 2002: The Blisters’ first show, at Second City
 * 2004: Heather Whinna buys spencertweedy.com for me
 * 2004: Dad and I record The Raccoonists’ debut EP, direct to CD-R
 * 2005: first recording in a studio, “Crack a Smile” (Jandek cover)
-* 2005: The Blisters appear in a Quaker Oats ad directed by Errol Morris
-* 2007: my first blog
-* 2009: start learning how to self-record
+* 2007: start blogging
+* 2009: start self-recording
 * 2009: Bar Mitzvah’d
 * 2009: sit in on “The Late Greats” during Wilco’s set opening for Neil Young at Madison Square Garden
 * 2011: first published essay, in Rookie Mag
@@ -102,33 +100,19 @@ Spoon
 * 2015: *Don’t Lose This* by Pops Staples is released
 * 2015: enroll at Lawrence University
 * 2016: self-release my first EP
-* 2016: The Blisters’ second LP is released
-* 2017: the Tweedy band is Daniel Johnston’s backing band for two nights
-* 2017: *If All I Was Was Black* by Mavis Staples is released
 * 2018: meet Casey Walker, whom I’ll marry in 2026
 * 2018: co-found Avrom Farm Party, an annual music and food festival
-* 2018: *WARM* by Jeff Tweedy is released
-* 2018: *Mass to Gloria Hills* by Henry True is released
 * 2018: run a Kickstarter campaign for Fjord Audio
 * 2018: start Observations
 * 2018: graduate from Lawrence University with a BA in Philosophy
-* 2019: *WARMER* by Jeff Tweedy is released, and my second EP
 * 2019: self-publish *Observations: Year One*
-* 2019: work door and sound at the Hungry Brain
-* 2020: *Love Is The King* by Jeff Tweedy is released
 * 2020: co-create *Mirror Sound*, a book about musicians who self-record, published by Prestel
 * 2020: Mom starts The Tweedy Show
 * 2020: Jason Ashworth and I start building The Pocket recording studio
-* 2020: compile Chicago Service Relief
-* 2021: *Due North* by Liam Kazar is released
 * 2021: my first (real) van tour, with Finom
-* 2021: contribute poems to Ray Seebeck’s *Multipurpose Friends*
-* 2022: *I Walked With You a Ways* by Plains is released
 * 2023: *drumprints vol. 1* is released under Creative Commons license
 * 2023: stop publishing Observations and restart a newsletter
-* 2023: coordinate first-aid at Pitchfork Music Festival Chicago
 * 2024: *Tigers Blood* by Waxahatchee was released and nominated for a Grammy
-* 2024: *Not God* by Finom was released
 * 2024: self-publish *Observations: Year Two*
 * 2025: The Pocket opens its doors
 * 2025: Casey’s band, Case Oats, signs to Merge Records, and *Last Missouri Exit* is released
@@ -136,4 +120,4 @@ Spoon
 
 ***
 
-You made it all the way down here. Whoa!
+You made it all the way down here. Hi!
