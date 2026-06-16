@@ -1,6 +1,6 @@
 ---
 title: I'll Take You There (An All-Star Concert Celebration)
-artist: Various Artists
+artist: Mavis Staples
 year: "2017"
 image: /releases/ill-take-you-there.jpg
 color: "#b22f27"

@@ -1,6 +1,6 @@
 ---
 title: Wilcovered
-artist: Various Artists
+artist: Liam Kazar
 year: "2020"
 image: /releases/wilcovered.jpg
 color: "#db346b"

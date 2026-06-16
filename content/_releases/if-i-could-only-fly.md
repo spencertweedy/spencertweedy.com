@@ -1,6 +1,6 @@
 ---
 title: If I Could Only Fly
-artist: Various
+artist: Various Artists
 year: "2025"
 image: /if-i-could-only-fly.jpg
 color: "#fcdc5a"
