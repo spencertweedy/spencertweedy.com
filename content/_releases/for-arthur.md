@@ -2,7 +2,7 @@
 title: For Arthur
 artist: Elizabeth Moen
 year: "2023"
-image: /uploads/releases/img_8102.jpg
+image: /releases/img_8102.jpg
 color: "#FDF5EB"
 listen: https://elizabethmoen.bandcamp.com/album/for-arthur
 role: Drums

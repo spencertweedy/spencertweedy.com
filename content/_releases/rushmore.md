@@ -5,7 +5,7 @@ artist: Spencer Tweedy
 year: "2012"
 color: "#8B336B"
 listen: https://spencertweedy.bandcamp.com/track/rushmore
-image: "/uploads/releases/rushmore.jpg"
+image: "/releases/rushmore.jpg"
 type: single
 is_featured: false
 ---

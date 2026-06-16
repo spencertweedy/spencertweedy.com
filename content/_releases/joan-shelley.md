@@ -5,7 +5,7 @@ artist: Joan Shelley
 year: 2017
 color: "#354140"
 listen: https://joanshelley.bandcamp.com/album/joan-shelley
-image: "/uploads/releases/joan_shelley.jpg"
+image: "/releases/joan_shelley.jpg"
 role: Drums
 type: LP
 ---

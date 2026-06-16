@@ -2,7 +2,7 @@
 title: Mud
 artist: Waxahatchee
 year: "2025"
-image: /uploads/mud.jpg
+image: /mud.jpg
 color: "#da633d"
 listen: https://waxahatchee.bandcamp.com/album/mud
 role: Drums and background vocals

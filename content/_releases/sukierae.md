@@ -5,7 +5,7 @@ artist: Jeff Tweedy
 year: 2014
 color: "#DA5B37"
 listen: https://antirecords.bandcamp.com/album/sukierae
-image: "/uploads/releases/sukierae.jpg"
+image: "/releases/sukierae.jpg"
 role: Drums
 with_dad: true
 type: LP

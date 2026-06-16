@@ -2,7 +2,7 @@
 title: Prairie Winter Wasteland
 artist: Daughter of Swords
 year: '2020'
-image: /uploads/releases/daughter-of-swords-prairie-winter-wasteland.jpg
+image: /releases/daughter-of-swords-prairie-winter-wasteland.jpg
 color: '#ea3c51'
 listen: 'https://daughterofswords.bandcamp.com/track/prairie-winter-wasteland'
 role: Drums

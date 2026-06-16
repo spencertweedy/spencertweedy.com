@@ -2,7 +2,7 @@
 title: Che Guevara
 artist: Maicín
 year: "2024"
-image: /uploads/releases/maicin-che-guevara.jpg
+image: /releases/maicin-che-guevara.jpg
 color: "#b64c36"
 listen: https://maicin.bandcamp.com/track/che-guevara
 role: Drums

@@ -2,7 +2,7 @@
 title: Foreground
 artist: Lucky Cloud
 year: "2025"
-image: /uploads/lucky-cloud-foreground.jpg
+image: /lucky-cloud-foreground.jpg
 color: "#a99f55"
 listen: https://lucky-cloud.bandcamp.com/album/foreground
 role: Drums (1, 4, 5, 8, 9)

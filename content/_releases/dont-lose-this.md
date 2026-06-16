@@ -5,7 +5,7 @@ artist: Pops Staples
 year: 2015
 color: "#D70000"
 listen: http://hyperurl.co/ncm6eq
-image: "/uploads/releases/dont_lose_this.jpg"
+image: "/releases/dont_lose_this.jpg"
 role: Drums
 type: LP
 ---

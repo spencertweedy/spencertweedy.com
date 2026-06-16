@@ -5,7 +5,7 @@ artist: Mavis Staples
 year: 2013
 color: "#6C511A"
 listen: https://mavisstaples.bandcamp.com/album/one-true-vine
-image: "/uploads/releases/one_true_vine.jpg"
+image: "/releases/one_true_vine.jpg"
 role: Drums
 type: LP
 ---

@@ -2,7 +2,7 @@
 title: Cousin
 artist: Wilco
 year: "2023"
-image: /uploads/cousin.jpg
+image: /cousin.jpg
 color: "#b0bedd"
 listen: https://wilcohq.bandcamp.com/album/cousin
 role: Percussion and background vocals

@@ -2,7 +2,7 @@
 title: Oar On, Penelope!
 artist: The Minus 5
 year: "2025"
-image: /uploads/minus-5-oar-on.jpg
+image: /minus-5-oar-on.jpg
 color: "#e2dcd3"
 listen: https://theminus5.bandcamp.com/album/oar-on-penelope
 role: Drums (“Bison Queen” and “Falling Like Jets”)

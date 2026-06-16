@@ -5,7 +5,7 @@ artist: Henry True
 year: 2018
 color: "#005E78"
 listen: https://henrytrue.bandcamp.com/album/mass-to-gloria-hills
-image: "/uploads/releases/henry_true_mass_to_gloria_hills.jpg"
+image: "/releases/henry_true_mass_to_gloria_hills.jpg"
 role: Drums, bass, engineering
 type: LP
 ---

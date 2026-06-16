@@ -5,7 +5,7 @@ artist: Jeff Tweedy
 year: 2025
 color: "#3c402d"
 listen: https://jefftweedy.lnk.to/TwilightOverride
-image: "/uploads/releases/twilight-override.jpg"
+image: "/releases/twilight-override.jpg"
 role: Drums, background vocals, various instruments
 type: LP
 featured: true

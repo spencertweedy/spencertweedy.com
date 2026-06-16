@@ -2,7 +2,7 @@
 title: Psalms
 artist: Nathan Salsburg
 year: "2021"
-image: /uploads/releases/psalms.jpg
+image: /releases/psalms.jpg
 color: "#8c423b"
 listen: https://nathansalsburg.bandcamp.com/album/psalms
 role: Drums

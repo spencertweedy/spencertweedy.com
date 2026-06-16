@@ -2,7 +2,7 @@
 title: Audiotree Live
 artist: Finom
 year: "2025"
-image: /uploads/finom-audiotree.jpg
+image: /finom-audiotree.jpg
 color: "#3f5068"
 listen: https://audiotree.bandcamp.com/album/finom-on-audiotree-live
 role: Drums
