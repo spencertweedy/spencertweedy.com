@@ -1,5 +1,6 @@
 ---
 title: The People Here
+show_title: true
 ---
 
 I love the way people here carry themselves.
