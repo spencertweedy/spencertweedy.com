@@ -8,5 +8,5 @@ listen: https://finom.bandcamp.com/album/not-god
 role: Drums
 type: LP
 date: 2024-03-06T23:38:06.553Z
-featured: true
+featured: false
 ---
