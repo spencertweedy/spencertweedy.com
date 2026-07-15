@@ -9,14 +9,14 @@
     {% elsif artist.size > 0 %}
         <h2>With {{ artist }}{% if secondary.size > 0 %} and {{ secondary }}{% endif %}</h2>
     {% endif %}
-    <div class="flex flex-row md:flex-wrap gap-2 overflow-x-scroll -me-[3vw] pe-[3vw]">
+    <div class="grid grid-cols-3 md:grid-cols-4 gap-2">
         {% if artist.size > 0 %}
             {% assign releases = site.releases | where_exp: "release", "release.artist == artist or release.artist == secondary" | sort: "year" | reverse %}
         {% elsif include.show_featured == true %}
             {% assign releases = site.releases | where_exp: "release", "release.featured == true" | sort: "year" | reverse %}
         {% endif %}
         {% for release in releases %}
-            <div class="min-w-32 w-[calc(25%-0.5rem)]">
+            <div class="">
                 <a href="{{ release.listen }}" target="_blank" class="">
                     <div class="w-full flex-shrink-0 mb-2">{% picture "{{ release.image }}" --alt {{ release.title }} artwork --img class="w-full border border-black/10 dark:border-white/20" %}</div>
                     <div class="leading-[1.2] line-clamp-2 text-base">{{ release.title }}</div>
