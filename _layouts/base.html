@@ -65,7 +65,7 @@
 </head>
 
 <body class="min-h-screen flex flex-col items-center">
-    <header id="site-header" class="w-full mx-auto pt-8 pb-4 px-[3vw] border-b border-black/10 dark:border-white/10 font-sans">
+    <header id="site-header" class="w-full mx-auto pt-8 pb-4 px-[3vw] border-b border-black/10 dark:border-white/15 font-sans">
         <div class="max-w-[880px] mx-auto flex justify-between gap-4">
             <a href="#site-content" class="sr-only">Skip to content</a>
 
@@ -90,7 +90,7 @@
         {{ content }}
     </main>
     
-    <footer class="w-full px-[3vw] text-center pb-8 pt-4 text-sm border-t border-black/10 dark:border-white/10">
+    <footer class="w-full px-[3vw] text-center pb-8 pt-4 text-sm border-t border-black/10 dark:border-white/15">
         <nav class="font-sans flex gap-3 flex-wrap justify-center">
             <a href="{% link pages/index.html %}">{{ site.title }}</a>
             {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
