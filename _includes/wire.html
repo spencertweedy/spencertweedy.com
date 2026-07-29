@@ -1,8 +1,8 @@
-<div class="space-y-8">
+<div class="space-y-4">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
-    <div class="space-y-4">
-        <time class="block opacity-40 text-sm break-after-avoid" datetime="{{ day.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%a, %e %b %Y" }}</time>
+    <div class="space-y-4 {% unless forloop.last %}border-b border-black/10 dark:border-white/20{% endunless %}">
+        <time class="block h3 break-after-avoid" datetime="{{ day.date | date_to_xmlschema }}" itemprop="datePublished">{{ day.name | date: "%B %e, %Y" }}</time>
 
         <div class="space-y-4">
             {% for post in day.items reversed %}
