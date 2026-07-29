@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="space-y-4 text-lg w-full mx-auto {% if page.width == 'constrained' %}max-w-screen-sm{% else %}max-w-screen-lg{% endif %}">
+<div class="space-y-4 text-base w-full mx-auto {% if page.width == 'constrained' %}max-w-screen-sm{% else %}max-w-[880px]{% endif %}">
     {% if page.date %}<time class="block opacity-40 text-sm break-after-avoid" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%a, %e %b %Y" }}</time>{% endif %}
     
     {% if page.show_title %}
