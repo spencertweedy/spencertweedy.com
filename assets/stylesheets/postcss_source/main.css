@@ -150,7 +150,7 @@
 	}
 
 	h4, .h4 {
-		@apply font-bold mb-2;
+		@apply text-base font-bold font-sans;
 	}
 	
 	.picture {
