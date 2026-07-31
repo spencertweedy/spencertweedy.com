@@ -1,5 +1,5 @@
 ---
-title: "Where Is Ollie Halsall’s 1972 solo album?"
+title: "Where Is Ollie Halsall’s 1972 Solo Album?"
 show_title: true
 ---
 
