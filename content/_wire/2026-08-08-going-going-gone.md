@@ -5,4 +5,4 @@ show_title: true
 category: listening
 ---
 
-Revisiting *Planet Waves*. Love this one.
+Revisiting *Planet Waves*.
