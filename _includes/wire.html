@@ -8,10 +8,7 @@
             {% for post in day.items reversed %}
                 <article id="{{ post.slug }}" class="{% unless forloop.last %}border-b border-black/10 dark:border-white/15{% endunless %} pb-4 space-y-4 break-inside-avoid">
                     {% if post.show_title %}
-                        <div class="">
-                            {% if post.category %}<span class="inline-flex items-center leading-none font-bold font-sans text-[0.5rem] tracking-wider px-2 pt-[5px] pb-[3px] bg-blue-600/10 border border-blue-600 uppercase text-blue-600 rounded relative -top-px">{{ post.category }}</span>{% endif %}
-                            <h4 class="inline"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }} <span class="link relative -top-[0.075em]">⚓︎</span></a></h4>
-                        </div>
+                        <h4><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }} <span class="link relative -top-[0.075em]">⚓︎</span></a></h4>
                     {% endif %}
                     
                     {{ post.content | markdownify }}
