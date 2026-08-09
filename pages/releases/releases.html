@@ -15,11 +15,26 @@ width: constrained
 
 	<p>Thank you!</p>
 	
-	{% include release-carousel.html artist="Jeff Tweedy" %}
-	{% include release-carousel.html artist="Waxahatchee" secondary_artist="Plains" %}
-	{% include release-carousel.html artist="Mavis Staples" secondary_artist="Pops Staples" %}
-	{% include release-carousel.html artist="Case Oats" %}
-	{% include release-carousel.html artist="Spencer Tweedy" %}
+	<div class="space-y-2">
+		<h2>With my dad</h2>
+		{% include release-carousel.html artist="Jeff Tweedy" %}
+	</div>
+	<div class="space-y-2">
+		<h2>With Waxahatchee and Plains</h2>
+		{% include release-carousel.html artist="Waxahatchee" secondary_artist="Plains" %}
+	</div>
+	<div class="space-y-2">
+		<h2>With Mavis Staples and Pops Staples</h2>
+		{% include release-carousel.html artist="Mavis Staples" secondary_artist="Pops Staples" %}
+	</div>
+	<div class="space-y-2">
+		<h2>With Case Oats</h2>
+		{% include release-carousel.html artist="Case Oats" %}
+	</div>
+	<div class="space-y-2">
+		<h2>On my own</h2>
+		{% include release-carousel.html artist="Spencer Tweedy" %}
+	</div>
 
 	<section class="space-y-4">
 		<h2>All releases</h2>
