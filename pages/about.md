@@ -5,39 +5,37 @@ layout: page
 width: constrained
 ---
 
-I’m a drummer and a writer in Chicago.
-
-Some people call me Spoon.
-
-I love to [record]({% link pages/releases/releases.html %}) and [tour]({% link pages/shows/shows.html %}).
-
-And I love writing on the internet.
-
-<img class="rounded-3xl w-full my-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
-
-Quick links:
-
-- [50 Songs I Dram](https://lnkfi.re/50dram)
-- [Free drum samples]({% link pages/drumprints.html %})
-- [Bandcamp](https://spencertweedy.bandcamp.com/)  
-- [Instagram](https://www.instagram.com/spencertweedy)
-- [My books]({% link pages/books.md %})
-- [My newsletter]({{ site.subscribe_url }})
-- [Contact]({% link pages/contact.md %})
-
-More links:
-
-- [Case Oats](https://caseoats.com/), Casey’s band
-- [The Pocket](https://pocketchicago.com/), a recording studio I co-run
-- [Avrom Farm Party](https://avromfarmparty.com/), a music and food festival I co-founded
-- [Starship Casual](https://jefftweedy.substack.com/), my dad’s newsletter
-- [The Tweedy Show](https://thetweedyshow.com/), our livestream show
+I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/releases/releases.html %}) and [tour]({% link pages/shows/shows.html %}). I’ve been blogging since I was twelve.
 
 Thanks for being here.
 
 Spoon
 
-***
+<img class="rounded-3xl w-full my-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
+
+<div class="space-y-8">
+	<div class="space-y-2">
+		<h2>Featured albums</h2>
+		{% include release-carousel.html show_featured=true %}
+		<p><a href="#">View all &rarr;</a> <br><a href="#">Listen in a playlist &rarr;</a></p>
+	</div>
+	<div class="space-y-2">
+		<h2>My own records</h2>
+		{% include release-carousel.html artist="Spencer Tweedy" %}
+	</div>
+</div>
+
+## Links
+
+- [Instagram](https://www.instagram.com/spencertweedy)
+- [My books]({% link pages/books.md %})
+- [My newsletter]({{ site.subscribe_url }})
+- [Case Oats](https://caseoats.com/), Casey’s band
+- [The Pocket](https://pocketchicago.com/), a recording studio I co-run
+- [Avrom Farm Party](https://avromfarmparty.com/), a music and food festival I co-founded
+- [Starship Casual](https://jefftweedy.substack.com/), my dad’s newsletter
+- [The Tweedy Show](https://thetweedyshow.com/), our livestream show
+- [Contact]({% link pages/contact.md %})
 
 ## Some of my close friends and collaborators
 
@@ -51,9 +49,7 @@ Spoon
 - [Max Subar](https://maxsubar.bandcamp.com/album/max-subar)
 - [Tory P-Lopez](https://www.instagram.com/ripley.rocks/)
 
-***
-
-## Special Projects, Hare-Brained Schemes, and Failed (?) Experiments
+## Special Projects, Hare-Brained Schemes, and Failed Experiments
 
 **Observations books.** In 2018, I started a [daily blog]({% link pages/observations/index.html %}) about interesting things and people I encountered out in the world. I published at least one item on it every day until 2023, when I stopped liking the rigid format. Over the course of the blog I published [two paper chapbooks]({% link pages/books.md %}) compiling my favorite posts.
 
@@ -70,8 +66,6 @@ Spoon
 **Spoon’s General Store.** In 2022 I ran an experiment in online… retailing? Some remnants of my great-grandfather’s, great-uncles’, and grandfather’s DNA are in me, calling me to try to curate and sell cool things. (They ran a department store in downtown Chicago in the mid-twentieth century.) In this case, “cool things” was a line of custom hats, t-shirts, photographic prints, and honey made by Chicago bees, centered on the theme “Plant Something.” It was a fun creative project, but I lacked the will and skill to market it effectively enough, so I shut it down. The coolest part was that 500 people signed up for the store’s mailing list when I teased it on Instagram.
 
 **Macatron.** When I was a tiny child I tried to distribute Mac “apps” under the name Macatron. They weren’t really apps; they were packaged scripts that would do little things like turn off translucency for the menubar or whatever else was available in the OS.
-
-***
 
 ## A timeline, why not?
 
