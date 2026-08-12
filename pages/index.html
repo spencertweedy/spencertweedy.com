@@ -22,13 +22,18 @@ permalink: "/"
 				<li><a href="https://www.instagram.com/spencertweedy">My Instagram</a></li>
 				<li><a href="{{ site.subscribe_url }}">My newsletter</a></li>
 				<li><a href="{% link pages/now.md %}">Now</a></li>
+				<li><a href="{% link feed.xml %}">Subscribe via RSS</a></li>
 				<li><a href="{% link pages/contact.md %}">Contact</a></li>
 			</ul>
 		</section>
 
-		<section class="border-t border-black/10 dark:border-white/20 pt-4 flex justify-center gap-2">
+		<section class="border-t border-black/10 dark:border-white/20 pt-4 flex *:flex-shrink-0 flex-wrap justify-center gap-2">
+			<a href="{% link feed.xml %}" target="_blank"><img src="{% link _uploads/rss.gif %}" alt="Subscribe via RSS badge"></a>
+			<a href="mailto:{{ site.email }}" target="_blank"><img src="{% link _uploads/reply-via-email.gif %}" alt="Reply via email badge"></a>
+			<a href="https://www.apple.com/mac/" target="_blank"><img src="{% link _uploads/made-on-macintosh.gif %}" alt="Made on Macintosh badge"></a>
 			<a href="https://kagi.com/smallweb/" target="_blank"><img src="{% link _uploads/kagi-small-web.gif %}" alt="Kagi Small Web webring graphic - the Kagi.com dog is a ship hurtling through space"></a>
 			<a href="https://indieweb.org/" target="_blank"><img src="{% link _uploads/indieweb-retro.gif %}" alt="An IndieWeb.org badge"></a>
+			<a href="https://lmnt.me/badges/" target="_blank"><img src="{% link _uploads/lmnt-animated.gif %}" alt="LMNT badge"></a>
 		</section>
 	</div>
 </div>
