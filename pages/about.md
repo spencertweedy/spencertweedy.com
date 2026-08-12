@@ -7,12 +7,6 @@ width: constrained
 
 I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/releases/releases.html %}) and [tour]({% link pages/shows/shows.html %}). I’ve been blogging since I was twelve.
 
-Thanks for being here.
-
-Spoon
-
-<img class="rounded-3xl w-full my-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
-
 <div class="space-y-8">
 	<div class="space-y-2">
 		<h2>Featured albums</h2>
@@ -48,6 +42,8 @@ Spoon
 - [Lucky Cloud (Chet Zenor)](https://lucky-cloud.bandcamp.com/)
 - [Max Subar](https://maxsubar.bandcamp.com/album/max-subar)
 - [Tory P-Lopez](https://www.instagram.com/ripley.rocks/)
+
+<img class="rounded-3xl w-full my-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
 
 ## Special Projects, Hare-Brained Schemes, and Failed Experiments
 
