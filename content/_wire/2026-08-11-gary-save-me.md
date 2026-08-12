@@ -11,7 +11,7 @@ We pulled off in Gary and drove for the sturdiest building we could see, a combi
 
 The glass doors were locked and the security guards on the other side didn’t want to let us in. They have a no-pets policy, and we had Basil with us, wearing a summer bandana instead of his service regalia.
 
-“Even in a tornado?” Casey asked. But before they could answer, someone else unlocked and barreled through the doors to shelter someplace else, and we stepped in after him.
+“Even in a tornado?” Casey asked. But before they could answer, someone else unlocked the doors and barreled out of them to shelter someplace else, and we stepped in after him.
 
 A sweet guard, pro-Basil, or at least indifferent to him, showed us to the stairwell where a dozen other employees and clients sheltered.
 
