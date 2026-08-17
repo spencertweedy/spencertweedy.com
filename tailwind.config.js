@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['sans-serif'],
+        sansAlt: ['Verdana','system-ui','Helvetica','sans-serif'],
         serif: ['"Times New Roman"', 'Times', 'Georgia', 'Cambria', 'serif'],
         mono: ['ISO','monospace'],
       },
