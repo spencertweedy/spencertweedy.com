@@ -28,7 +28,7 @@
 	}
 	
 	p {
-		@apply leading-[1.4em];
+		@apply sansAlt;
 	}
 	
 	p:first-child {
@@ -54,6 +54,10 @@
 
 	p img {
 		@apply my-8 rounded-3xl max-w-full mx-auto;
+	}
+	
+	p:has(img) {
+		@apply mx-auto;
 	}
 
 	figure {
@@ -81,11 +85,11 @@
 	}
 
 	ul {
-		@apply list-[square] ms-4 space-y-2 reg-spacing;
+		@apply sansAlt list-[square] ms-4 space-y-1 reg-spacing;
 	}
 
 	ol {
-		@apply list-decimal ms-4 space-y-2 reg-spacing;
+		@apply sansAlt list-decimal ms-4 space-y-1 reg-spacing;
 	}
 
 	ul a,
@@ -146,7 +150,7 @@
 	}
 
 	h3, .h3 {
-		@apply text-lg font-sans font-bold mb-2;
+		@apply text-lg font-sans font-bold mb-2 leading-[1.2em];
 	}
 
 	h4, .h4 {
@@ -166,8 +170,12 @@
 		display: none;
 	}
 	
+	.sansAlt {
+		@apply font-sansAlt text-[0.8em] leading-[1.6em];
+	}
+	
 	.link {
-		@apply underline font-sans font-bold text-[87%] text-blue-600 dark:text-obs-green decoration-blue-600/60 dark:decoration-obs-green/60 decoration-dotted decoration-1 underline-offset-4 hover:brightness-110;
+		@apply underline text-blue-600 dark:text-obs-green decoration-blue-600/60 dark:decoration-obs-green/60 decoration-dotted decoration-1 underline-offset-4 hover:brightness-110;
 	}
 	
 	ul.link-list {
