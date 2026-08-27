@@ -96,17 +96,17 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 91,2022-07-22,"Chicago, IL",Lucky Cloud,Golden Dagger,"Alayne May, Morinda, Lucky Cloud","Seth Engel's kit (Tama?), orange Acrolyte",,2025-08-03
 92,2022-07-23,"Chicago, IL",Joan Shelley,Old Town School of Folk Music,"Joan Shelley, Health and Beauty",Red Onyx Slingerland,,2025-08-03
 93,2022-07-24,"Chicago, IL",Dougie Poole,Judson & Moore Distillery,Cosmic Country Cookout,Red Onyx Slingerland,,2025-08-03
-94,2022-07-29,"Albany, WI",Case Oats,Postock,Postock,Whitehall,,2025-08-03
-95,2022-07-29,"Albany, WI",Dida Pelled,Postock,Postock,Whitehall,,2025-08-03
-96,2022-07-30,"Albany, WI",Aux Thom,Postock,Postock,Jack Henry kit,,2025-08-03
-97,2022-07-30,"Albany, WI",Sima Cunningham,Postock,Postock,Jack Henry kit,,2025-08-03
+94,2022-07-29,"Albany, WI",Case Oats,Post Farm,Postock,Whitehall,,2025-08-03
+95,2022-07-29,"Albany, WI",Dida Pelled,Post Farm,Postock,Whitehall,,2025-08-03
+96,2022-07-30,"Albany, WI",Aux Thom,Postock,Post Farm,Jack Henry kit,,2025-08-03
+97,2022-07-30,"Albany, WI",Sima Cunningham,Post Farm,Postock,Jack Henry kit,,2025-08-03
 98,2022-08-05,"Fishers, IN",Liam Kazar,Nickel Plate District Amphitheater,"Waxahatchee, Liam Kazar",Red Onyx Slingerland,,2025-08-03
 99,2022-08-06,"Evanston, IL",Liam Kazar,Out of Space at Canal Shores Golf Course,"Lucinda Williams, Waxahatchee, Liam Kazar",Red Onyx Slingerland,,2025-08-03
 100,2022-08-07,"Milwaukee, WI",Liam Kazar,Pabst Theater,"Waxahatchee, Liam Kazar",Red Onyx Slingerland,,2025-08-03
-101,2022-08-12,"Green Lake, WI",Aux Thom,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
-102,2022-08-12,"Green Lake, WI",Sima Cunningham,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
-103,2022-08-13,"Green Lake, WI",Henry True,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
-104,2022-08-13,"Green Lake, WI",Sabine McCalla,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+101,2022-08-12,"Ripon, WI",Aux Thom,Avrom Farm,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+102,2022-08-12,"Ripon, WI",Sima Cunningham,Avrom Farm,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+103,2022-08-13,"Ripon, WI",Henry True,Avrom Farm,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+104,2022-08-13,"Ripon, WI",Sabine McCalla,Avrom Farm,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
 105,2022-08-19,"Chicago, IL",Lucky Cloud,Schubas,"Astrachan, Lucky Cloud, Pyzow","Astrachan kit, I think it was a Gretsch?",,2025-08-03
 106,2022-08-24,"Chicago, IL",Case Oats,The Giant Penny Whistle,"Cass Cwik, Tommy Goodroad, Case Oats","Alan from Cass's band's tiny jazz-y kit. Tiny kick drum, not very good-sounding on stage but great in the house.",,2025-08-03
 107,2022-09-04,"Traverse City, MI",Finom,Iron Fish Distillery,All Call Music Festival,Backline Farmer nesting kit,,2025-08-03
@@ -427,7 +427,7 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 409,2025-08-09,"Portland, OR",Waxahatchee,Pioneer Courthouse Square,"Waxahatchee, Foxwarren",,https://link.seated.com/fa403b4e-09e7-48d1-b1a5-b6d0ba856928,2025-08-03
 489,2025-08-11,"Seattle, WA",Waxahatchee,KEXP,Waxahatchee,,,2025-12-30
 410,2025-08-10,"Seattle, WA",Waxahatchee,Woodland Park Zoo,"Waxahatchee, Foxwarren",,https://link.seated.com/3f680a56-cfb6-4586-aaa4-4ffdb0e24619,2025-08-03
-411,2025-08-16,"Ripon, WI",Lucky Cloud,Avrom Farm Party,Avrom Farm Party,,https://avromfarmparty.com/,2025-08-03
+411,2025-08-16,"Ripon, WI",Lucky Cloud,Avrom Farm,Avrom Farm Party,,https://avromfarmparty.com/,2025-08-03
 412,2025-08-19,"New York, NY",Case Oats,Nightclub 101,"Case Oats, Isaac Stalling (solo)",,https://www.ticketweb.com/event/case-oats-isaac-stalling-solo-night-club-101-tickets/14500223,2025-08-03
 413,2025-08-20,"Toronto, ON",Case Oats,The Drake Underground,"Case Oats, Burs",,https://dice.fm/partner/dice/event/dk9q56-case-oats-20th-aug-the-drake-underground-toronto-tickets,2025-08-03
 414,2025-08-22,"Chicago, IL",Case Oats,The Hideout,"Case Oats, TV Buddha",,https://www.etix.com/ticket/p/47494456/case-oats-with-tv-buddha-chicago-hideout-chicago,2025-08-03
