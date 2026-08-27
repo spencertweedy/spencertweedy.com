@@ -1,4 +1,3 @@
-2026-07-30-fear-of-meaning
 ---
 title: Fear of Meaning
 show_title: true
