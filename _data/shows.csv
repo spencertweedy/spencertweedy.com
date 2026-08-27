@@ -1,4 +1,4 @@
-﻿id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
+id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 1,2021-09-22,"Davenport, IA","Liam Kazar,Case Oats",Raccoon Motel,"Liam Kazar, Case Oats",Red Onyx Slingerland,,2025-08-03
 2,2021-09-23,"Kansas City, MO",Liam Kazar,Lemonade Park,"Shy Boys, Liam Kazar, Paris Williams",Red Onyx Slingerland,,2025-08-03
 3,2021-09-24,"Des Moines, IA",Liam Kazar,Gas Lamp,"Thelma and the Sleeze, Liam Kazar, Karen Meat",Red Onyx Slingerland,,2025-08-03
@@ -579,3 +579,19 @@
 567,2026-04-24,"Denton, TX",Liam Kazar,Rubber Gloves,"Cut Worms, Liam Kazar",,https://www.prekindle.com/event/44429-cut-worms-denton,2026-03-06
 571,2026-04-27,"Chicago, IL","Waxahatchee,MJ Lenderman",The Auditorium Theatre,"Waxahatchee and MJ Lenderman, Brennan Wedl",,,2026-06-13
 568,2026-04-25,"Austin, TX",Liam Kazar,Mohawk,"Cut Worms, Liam Kazar",,https://www.etix.com/ticket/p/64606984/cut-worms-austin-resound-presents?clickref=1011lCaxvmQ7,2026-03-06
+,2026-06-14,"Chicago, IL",Spencer and Sammy Tweedy,Emanuel Congregation,Cantor Shelly Retirement Party,,,2026-08-26
+,2026-06-25,"North Adams, MA","Finom,Liam Kazar",TOURISTS,"Finom, Liam Kazar",,,2026-08-26
+,2026-06-26,"North Adams, MA",Scott The Hoople,MASS MoCA,Solid Sound Festival,,,2026-08-26
+,2026-06-27,"North Adams, MA",Scott The Hoople,MASS MoCA,Solid Sound Festival,,,2026-08-26
+,2026-06-27,"North Adams, MA",Elizabeth Moen,MASS MoCA,Solid Sound Festival,,,2026-08-26
+,2026-07-02,"Milwaukee, WI",Case Oats,Henry Maier Festival Park,Summerfest,,,2026-08-26
+,2026-07-24,"Chicago, IL",Max Subar,The Hideout,"Max Subar, Sarah Weddle",,,2026-08-26
+,2026-07-26,"Newport, RI",Case Oats,Newport Folk Festival,Newport Folk Festival,,,2026-08-26
+,2026-07-30,"Chicago, IL",Case Oats,CBS News,,,,2026-08-26
+,2026-07-31,"Albany, WI",Case Oats,Post Farm,Postock,,,2026-08-26
+,2026-07-31,"Albany, WI",Liam Kazar,Post Farm,Postock,,,2026-08-26
+,2026-08-01,"Albany, WI",Aux Thom,Post Farm,Postock,,,2026-08-26
+,2026-08-02,"Chicago, IL",Case Oats,Grant Park,Lollapalooza,,,2026-08-26
+,2026-08-04,"Chicago, IL",Finom,MCA Chicago,Finom,,,2026-08-26
+,2026-08-21,"Ripon, WI",Case Oats,Avrom Farm,Avrom Farm Party,,,2026-08-26
+,2026-08-25,"Chicago, IL",Willie Nelson,Huntington Bank Pavilion,Outlaw Music Festival,,,2026-08-26
