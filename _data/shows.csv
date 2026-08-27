@@ -1,5 +1,6 @@
 id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
-1,2021-09-22,"Davenport, IA","Liam Kazar,Case Oats",Raccoon Motel,"Liam Kazar, Case Oats",Red Onyx Slingerland,,2025-08-03
+1,2021-09-22,"Davenport, IA","Liam Kazar",Raccoon Motel,"Liam Kazar, Case Oats",Red Onyx Slingerland,,2025-08-03
+,2021-09-22,"Davenport, IA","Case Oats",Raccoon Motel,"Liam Kazar, Case Oats",Red Onyx Slingerland,,2025-08-03
 2,2021-09-23,"Kansas City, MO",Liam Kazar,Lemonade Park,"Shy Boys, Liam Kazar, Paris Williams",Red Onyx Slingerland,,2025-08-03
 3,2021-09-24,"Des Moines, IA",Liam Kazar,Gas Lamp,"Thelma and the Sleeze, Liam Kazar, Karen Meat",Red Onyx Slingerland,,2025-08-03
 4,2021-09-25,"St. Paul, MN",Liam Kazar,Turf Club,"Liam Kazar, Loud Sun, Al Church",Red Onyx Slingerland,,2025-08-03
@@ -27,7 +28,8 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 26,2021-12-23,"Chicago, IL",Jeff Tweedy,Metro,"Jeff Tweedy, Tenci",Root beer candy Gretsch,,2025-08-03
 27,2022-01-18,"Riviera Maya, Mexico",Ohmme,Sky Blue Sky Festival,Sky Blue Sky Festival,Rented C&C,,2025-08-03
 28,2022-01-19,"Riviera Maya, Mexico",Jeff Tweedy,Sky Blue Sky Festival,Sky Blue Sky Festival,Rented C&C,,2025-08-03
-29,2022-02-02,"Chicago, IL","Andrew Sa,Kelly Hogan",Golden Dagger,"Andrew Sa, Kelly Hogan",Red Onyx Slingerland,,2025-08-03
+29,2022-02-02,"Chicago, IL","Andrew Sa",Golden Dagger,"Andrew Sa, Kelly Hogan",Red Onyx Slingerland,,2025-08-03
+,2022-02-02,"Chicago, IL","Kelly Hogan",Golden Dagger,"Andrew Sa, Kelly Hogan",Red Onyx Slingerland,,2025-08-03
 30,2022-02-07,"Chicago, IL",Ripley,Schubas,"Jaewon, Ripley, Kasia",Jaewon's drummer Eric's slick Pearl Masters gold sparkle,,2025-08-03
 31,2022-02-08,"Chicago, IL",Lucky Cloud,Sleeping Village,"Lucky Cloud, Sleepy Gaucho, Alayne Mae (sp)",Red Onyx Slingerland,,2025-08-03
 32,2022-02-09,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,"Sabine McCalla, Elizabeth Moen, Wyatt Waddell, Mary Willamson, Andrew Sa",Red Onyx Slingerland,,2025-08-03
@@ -40,7 +42,8 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 39,2022-02-25,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,"Jeff Tweedy, Nick Offerman",Tweedy C&C,,2025-08-03
 40,2022-02-26,"Chicago, IL",Liam Kazar,Metro,"Liam Kazar, Lake James, Wyatt Waddell",Red Onyx Slingerland,,2025-08-03
 41,2022-03-03,"Columbia, MO",Liam Kazar,Missouri Theatre,True/False Festival,Red Onyx Slingerland,,2025-08-03
-42,2022-03-04,"Columbia, MO","Liam Kazar,Case Oats",Cafe Berlin,"Liam Kazar, Little Mazarin, Case Oats",Red Onyx Slingerland,,2025-08-03
+42,2022-03-04,"Columbia, MO","Liam Kazar",Cafe Berlin,"Liam Kazar, Little Mazarn, Case Oats",Red Onyx Slingerland,,2025-08-03
+,2022-03-04,"Columbia, MO","Case Oats",Cafe Berlin,"Liam Kazar, Little Mazarn, Case Oats",Red Onyx Slingerland,,2025-08-03
 43,2022-03-05,"Columbia, MO",Sammy Tweedy and Spencer Tweedy,The Sanctuary at First Presbyterian Church,"Living Hour, Spencer & Sammy Tweedy, Rae Fitzgerald, Lucas Oswald",Red Onyx Slingerland,,2025-08-03
 44,2022-03-05,"Columbia, MO",Case Oats,Picturehouse,True/False Festival,Avocado green Gibson J-45,,2025-08-03
 45,2022-03-05,"Columbia, MO",Case Oats,Picturehouse ,True/False Festival,Avocado green Gibson J-45,,2025-08-03
@@ -65,7 +68,8 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 64,2022-03-31,"Philadelphia, PA",Liam Kazar,Silk City Diner,"Liam Kazar, Good Things Take Time",Red Onyx Slingerland,,2025-08-03
 65,2022-04-02,"Cincinnati, OH",Liam Kazar,MOTR Pub,"The Yugos, Spoils, Liam Kazar, Brad Goodall",Red Onyx Slingerland,,2025-08-03
 66,2022-04-03,"Bloomington, IN",Liam Kazar,The Bishop,"Liam Kazar, Free Range",Red Onyx Slingerland,,2025-08-03
-67,2022-04-09,"Chicago, IL","Madeleine Kelson,Alaina Stacey",Martyrs,"Madeleine Kelson, Alaina Stacy, Carleton Koldyke",House kit with my orange Acrolyte,,2025-08-03
+67,2022-04-09,"Chicago, IL","Madeleine Kelson",Martyrs,"Madeleine Kelson, Alaina Stacy, Carleton Koldyke",House kit with my orange Acrolyte,,2025-08-03
+,2022-04-09,"Chicago, IL","Alaina Stacey",Martyrs,"Madeleine Kelson, Alaina Stacy, Carleton Koldyke",House kit with my orange Acrolyte,,2025-08-03
 68,2022-04-15,"Chicago, IL",Ripley,Gman Tavern,"Aunt Kelly, Ripley, The Dearlys",Sarah Weddle's vintage Ludwig with my orange Acrolyte,,2025-08-03
 69,2022-04-16,"Chicago, IL",Lucky Cloud,Lincoln Hall,"Elizabeth Moen, Lucky Cloud","Liz's drummer David's cool Mapex orange kit, with my orange Acrolyte",,2025-08-03
 70,2022-05-06,"Denver, CO",Liam Kazar,Bluebird Theater,"Fruit Bats, Liam Kazar",Backline blue sparkle vintage Ludwig,,2025-08-03
@@ -321,7 +325,7 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 320,2024-10-04,"Chicago, IL",Case Oats,Apricot Vintage,"Lucky Cloud, Case Oats (duo)",,,2025-08-03
 321,2024-10-10,"Chicago, IL",Liam Kazar,Judson & Moore Distillery,Liam Kazar,,,2025-08-03
 322,2024-10-12,"Chicago, IL",Sammy Tweedy and Spencer Tweedy,Emanuel Congregation,Yom Kippur services!,,,2025-08-03
-323,2024-10-13,"Sawyer, MI",Vinyl DJ set,Out There,DJ Case Oats and Spencer Tweedy,,,2025-08-03
+323,2024-10-13,"Sawyer, MI",DJ Case Oats,Out There,DJ Case Oats and Spencer Tweedy,,,2025-08-03
 324,2024-10-17,"Chicago, IL",Henry True,Color Club,"Katie Malco, Henry True",,,2025-08-03
 325,2024-10-21,"Washington, DC",Waxahatchee,NPR Tiny Desk,Waxahatchee,,,2025-08-03
 326,2024-10-22,"Philadelphia, PA",Waxahatchee,Ardmore Music Hall,Philly Music Fest,,,2025-08-03
@@ -405,7 +409,7 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 397,2025-06-23,"Shelburne, VT",Waxahatchee,The Green at Shelburne Museum,"Waxahatchee, Kevin Morby",,https://link.seated.com/b70601c5-5710-4b77-b131-e62a5a1564cc,2025-08-03
 468,2025-06-26,"Chicago, IL",Henry True,The Hideout,"Henry Geragthy, Sara Geist, Henry True",,,2025-08-04
 469,2025-06-29,"Chicago, IL",Lucky Cloud,The Whistler,"Lucky Cloud, NadNavillus",,,2025-08-04
-470,2025-07-06,"Sawyer, MI",Vinyl DJ set,Out There,DJ Case Oats b2b DJ Spencer Tweedy,,,2025-08-04
+470,2025-07-06,"Sawyer, MI",DJ Case Oats,Out There,DJ Case Oats b2b DJ Spencer Tweedy,,,2025-08-04
 471,2025-07-19,"Chicago, IL",Finom,Jarvis Square Music & Arts Fest,Jarvis Square Music & Arts Fest,,,2025-08-04
 398,2025-07-23,"New York, NY",Eric Slick's Unlimited Edition,Brooklyn Bowl,Eric Slick's Unlimited Edition,,https://www.brooklynbowl.com/brooklyn/events/detail/eric-slick-friends-play-krautrock-k7vgfbnxurbbc,2025-08-03
 399,2025-07-24,"South Deerfield, MA",Jeff Tweedy,Tree House Brewing,"Jeff Tweedy, Hannah Cohen",,https://www.tixr.com/groups/treehousebrew/events/jeff-tweedy-132837,2025-08-03
@@ -577,10 +581,11 @@ id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
 565,2026-04-21,"Nashville, TN",Liam Kazar,Basement East,"Cut Worms, Liam Kazar",,https://www.ticketweb.com/event/cut-worms-w-liam-kazar-the-basement-east-tickets/14076694?utm_medium=affiliate&irgwc=1&afsrc=1&clickid=Q96T%3ArxiAxyZUDiVX6xh0SpbUkuzwBQZI1M8T80&camefrom=CFC_BUYAT_219208&impradid=219208&REFERRAL_ID=tmfeedbuyat219208&wt.mc_id=aff_BUYAT_219208&utm_source=219208-Bandsintown&impradname=Bandsintown&ircid=4272,2026-03-06
 566,2026-04-23,"Fayetteville, AR",Liam Kazar,George's Majestic,"Cut Worms, Liam Kazar",,https://stubs.net/event/7645/cut-worms,2026-03-06
 567,2026-04-24,"Denton, TX",Liam Kazar,Rubber Gloves,"Cut Worms, Liam Kazar",,https://www.prekindle.com/event/44429-cut-worms-denton,2026-03-06
-571,2026-04-27,"Chicago, IL","Waxahatchee,MJ Lenderman",The Auditorium Theatre,"Waxahatchee and MJ Lenderman, Brennan Wedl",,,2026-06-13
+571,2026-04-27,"Chicago, IL","Waxahatchee and MJ Lenderman",The Auditorium Theatre,"Waxahatchee and MJ Lenderman, Brennan Wedl",,,2026-06-13
 568,2026-04-25,"Austin, TX",Liam Kazar,Mohawk,"Cut Worms, Liam Kazar",,https://www.etix.com/ticket/p/64606984/cut-worms-austin-resound-presents?clickref=1011lCaxvmQ7,2026-03-06
-,2026-06-14,"Chicago, IL",Spencer and Sammy Tweedy,Emanuel Congregation,Cantor Shelly Retirement Party,,,2026-08-26
-,2026-06-25,"North Adams, MA","Finom,Liam Kazar",TOURISTS,"Finom, Liam Kazar",,,2026-08-26
+,2026-06-14,"Chicago, IL",Spencer Tweedy and Sammy Tweedy,Emanuel Congregation,Cantor Shelly Retirement Party,,,2026-08-26
+,2026-06-25,"North Adams, MA","Finom",TOURISTS,"Finom, Liam Kazar",,,2026-08-26
+,2026-06-25,"North Adams, MA","Liam Kazar",TOURISTS,"Finom, Liam Kazar",,,2026-08-26
 ,2026-06-26,"North Adams, MA",Scott The Hoople,MASS MoCA,Solid Sound Festival,,,2026-08-26
 ,2026-06-27,"North Adams, MA",Scott The Hoople,MASS MoCA,Solid Sound Festival,,,2026-08-26
 ,2026-06-27,"North Adams, MA",Elizabeth Moen,MASS MoCA,Solid Sound Festival,,,2026-08-26
