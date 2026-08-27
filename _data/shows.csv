@@ -1,0 +1,581 @@
+﻿id,Date,Location,Artist,Venue,Lineup,Gear Notes,Link,Created on
+1,2021-09-22,"Davenport, IA","Liam Kazar,Case Oats",Raccoon Motel,"Liam Kazar, Case Oats",Red Onyx Slingerland,,2025-08-03
+2,2021-09-23,"Kansas City, MO",Liam Kazar,Lemonade Park,"Shy Boys, Liam Kazar, Paris Williams",Red Onyx Slingerland,,2025-08-03
+3,2021-09-24,"Des Moines, IA",Liam Kazar,Gas Lamp,"Thelma and the Sleeze, Liam Kazar, Karen Meat",Red Onyx Slingerland,,2025-08-03
+4,2021-09-25,"St. Paul, MN",Liam Kazar,Turf Club,"Liam Kazar, Loud Sun, Al Church",Red Onyx Slingerland,,2025-08-03
+5,2021-09-26,"Milwaukee, WI",Liam Kazar,Colectivo Back Room,"Deeper/Ohmme, Liam Kazar",Deeper's drums (super kind Shiraz's) with super floppy bass drum,,2025-08-03
+6,2021-10-01,"Chicago, IL",Case Oats,Golden Dagger,"Case Oats, Rat Tally",Red Onyx Slingerland,,2025-08-03
+7,2021-10-02,"Dallas, TX",Ohmme,Double Wide,"Deeper/Ohmme, Nicole Marxen",Deeper drums + my C&C gold sparkle snare,,2025-08-03
+8,2021-10-03,"Houston, TX",Ohmme,Satellite Bar,"Deeper/Ohmme, Astragal","Astragal's ""George Bonham"" Ludwig, big dimensions, they were using a floor tom on a stand as a rack tom",,2025-08-03
+9,2021-10-04,"New Orleans, LA",Ohmme,Gasa Gasa,"Deeper/Ohmme, Cash Advance",Deeper drums + my C&C gold sparkle snare,,2025-08-03
+10,2021-10-05,"Jackson, MS",Ohmme,Hal & Mal's,"Deeper/Ohmme, RCF",Deeper drums + my C&C gold sparkle snare,,2025-08-03
+11,2021-10-06,"Memphis, TN",Ohmme,Hi-Tone Cafe,"Deeper/Ohmme, Sunweight",Deeper drums + my C&C gold sparkle snare,,2025-08-03
+12,2021-10-07,"Nashville, TN",Ohmme,The End,"Deeper/Ohmme, Bats",Deeper drums + my C&C gold sparkle snare,,2025-08-03
+13,2021-10-08,"St. Louis, MO",Ohmme,Off Broadway,Deeper/Ohmme,Deeper drums + my C&C gold sparkle snare,,2025-08-03
+14,2021-10-09,"Chicago, IL",Liam Kazar,Thee Best Western Festival at Empty Bottle,"Ryley Walker, Liam Kazar, Hoyle Brothers, Tobacco City, Valebol",Red Onyx Slingerland,,2025-08-03
+15,2021-10-20,"Chicago, IL",Sima Cunningham,Lincoln Hall,"Felice Brothers, Sima Cunningham, Al Olender",Felice Brothers' Slingerland frankenkit,,2025-08-03
+16,2021-10-22,"Chicago, IL",Aux Thom,Christy Webber Farm & Garden,"Aux Thom, Scary Garcia, Clay Frank","Scary Garcia (Rookie, Joe Bordenaro)'s bizarre pointy-concert-bottom'ed Slingerland with chrome wrap. Sounded great!",,2025-08-03
+17,2021-10-24,"Cleveland, OH",Ohmme,Grog Shop,"Shannon and the Clams, Ohmme, The D-Rays",Shannon and the Clams' awful rented Guitar Center Pearl Export kit,,2025-08-03
+18,2021-10-29,"Chicago, IL",Cosmic Country Showcase,Hideout,Lavender Country headliner,Red Onyx Slingerland,,2025-08-03
+19,2021-10-30,"Chicago, IL",Cosmic Country Showcase,Hideout,Lavender Country headliner,Red Onyx Slingerland,,2025-08-03
+20,2021-10-31,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,Lavender Country headliner,Red Onyx Slingerland,,2025-08-03
+21,2021-11-18,"Chicago, IL",Case Oats,Hideout,"Charlotte Cornfield, Case Oats",Red Onyx Slingerland,,2025-08-03
+22,2021-11-19,"Chicago, IL",Kelly Hogan,Thalia Hall,"Mavis Staples, Kelly Hogan","Rented SIR Ludwig, blue sparkle, big dimensions",,2025-08-03
+23,2021-11-20,"Berwyn, IL",Kelly Hogan,Fitzgerald's,"Mavis Staples, Kelly Hogan",Rented Ludwig Centennial,,2025-08-03
+24,2021-12-14,"Milwaukee, WI",Liam Kazar,Cactus Club,"Liam Kazar, Dusk",Red Onyx Slingerland,,2025-08-03
+25,2021-12-22,"Chicago, IL",Jeff Tweedy,Metro,"Jeff Tweedy, Tenci",Root beer candy Gretsch,,2025-08-03
+26,2021-12-23,"Chicago, IL",Jeff Tweedy,Metro,"Jeff Tweedy, Tenci",Root beer candy Gretsch,,2025-08-03
+27,2022-01-18,"Riviera Maya, Mexico",Ohmme,Sky Blue Sky Festival,Sky Blue Sky Festival,Rented C&C,,2025-08-03
+28,2022-01-19,"Riviera Maya, Mexico",Jeff Tweedy,Sky Blue Sky Festival,Sky Blue Sky Festival,Rented C&C,,2025-08-03
+29,2022-02-02,"Chicago, IL","Andrew Sa,Kelly Hogan",Golden Dagger,"Andrew Sa, Kelly Hogan",Red Onyx Slingerland,,2025-08-03
+30,2022-02-07,"Chicago, IL",Ripley,Schubas,"Jaewon, Ripley, Kasia",Jaewon's drummer Eric's slick Pearl Masters gold sparkle,,2025-08-03
+31,2022-02-08,"Chicago, IL",Lucky Cloud,Sleeping Village,"Lucky Cloud, Sleepy Gaucho, Alayne Mae (sp)",Red Onyx Slingerland,,2025-08-03
+32,2022-02-09,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,"Sabine McCalla, Elizabeth Moen, Wyatt Waddell, Mary Willamson, Andrew Sa",Red Onyx Slingerland,,2025-08-03
+33,2022-02-10,"Chicago, IL",Cosmic Country Showcase,Hideout,,Red Onyx Slingerland,,2025-08-03
+34,2022-02-11,"Chicago, IL",Cosmic Country Showcase,Hideout,,Red Onyx Slingerland,,2025-08-03
+35,2022-02-12,"Madison, WI",Liam Kazar,UW Madison,"Liam Kazar, EMTN (?)",Opener's drums,,2025-08-03
+36,2022-02-21,"San Francisco, CA",Jeff Tweedy,The Fillmore,"Jeff Tweedy, Mark Eitzel",Tweedy C&C,,2025-08-03
+37,2022-02-22,"San Francisco, CA",Jeff Tweedy,The Fillmore,"Jeff Tweedy, Mark Eitzel",Tweedy C&C,,2025-08-03
+38,2022-02-24,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,"Jeff Tweedy, Pete Holmes",Tweedy C&C,,2025-08-03
+39,2022-02-25,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,"Jeff Tweedy, Nick Offerman",Tweedy C&C,,2025-08-03
+40,2022-02-26,"Chicago, IL",Liam Kazar,Metro,"Liam Kazar, Lake James, Wyatt Waddell",Red Onyx Slingerland,,2025-08-03
+41,2022-03-03,"Columbia, MO",Liam Kazar,Missouri Theatre,True/False Festival,Red Onyx Slingerland,,2025-08-03
+42,2022-03-04,"Columbia, MO","Liam Kazar,Case Oats",Cafe Berlin,"Liam Kazar, Little Mazarin, Case Oats",Red Onyx Slingerland,,2025-08-03
+43,2022-03-05,"Columbia, MO",Sammy Tweedy and Spencer Tweedy,The Sanctuary at First Presbyterian Church,"Living Hour, Spencer & Sammy Tweedy, Rae Fitzgerald, Lucas Oswald",Red Onyx Slingerland,,2025-08-03
+44,2022-03-05,"Columbia, MO",Case Oats,Picturehouse,True/False Festival,Avocado green Gibson J-45,,2025-08-03
+45,2022-03-05,"Columbia, MO",Case Oats,Picturehouse ,True/False Festival,Avocado green Gibson J-45,,2025-08-03
+46,2022-03-06,"Columbia, MO",Sammy Tweedy and Spencer Tweedy,Blue Note,True/False Festival,Red Onyx Slingerland,,2025-08-03
+47,2022-03-06,"Columbia, MO",Sammy Tweedy and Spencer Tweedy,Blue Note,True/False Festival,Red Onyx Slingerland,,2025-08-03
+48,2022-03-09,"Chicago, IL",Ripley,Sleeping Village,"Ripley, Creature Fight, Kasia",Red Onyx Slingerland,,2025-08-03
+49,2022-03-16,"Austin, TX",Liam Kazar,Spider House Ballroom,SXSW,Sonor Vintage series back line,,2025-08-03
+50,2022-03-16,"Austin, TX",Liam Kazar,High Noon Saloon,SXSW,Unknown back line,,2025-08-03
+51,2022-03-17,"Austin, TX",Liam Kazar,Wax Myrtles,SXSW,Gretsch back line ,,2025-08-03
+52,2022-03-18,"Austin, TX",Andrew Sa,Spider House Ballroom,SXSW,Unknown borrowed kit,,2025-08-03
+53,2022-03-19,"Austin, TX",Liam Kazar,Spider House Ballroom,SXSW,Unknown borrowed kit,,2025-08-03
+54,2022-03-19,"Austin, TX",Liam Kazar,Adam Ostrar's House Party,SXSW,Red Onyx Slingerland (pared down),,2025-08-03
+55,2022-03-19,"Austin, TX",Liam Kazar,Lambert's BBQ,SXSW,Unknown back line,,2025-08-03
+56,2022-03-20,"Dallas, TX",Liam Kazar,New New Festival,Festival,Unknown back line,,2025-08-03
+57,2022-03-21,"Houston, TX",Liam Kazar,White Oak Music Hall,"Liam Kazar, Minor Moon",Red Onyx Slingerland,,2025-08-03
+58,2022-03-22,"New Orleans, LA",Liam Kazar,Gasa Gasa,"Liam Kazar, Minor Moon",Red Onyx Slingerland,,2025-08-03
+59,2022-03-24,"Atlanta, GA",Liam Kazar,Eddie's Attic,Liam Kazar (evening with),Red Onyx Slingerland,,2025-08-03
+60,2022-03-27,"Richmond, VA",Liam Kazar,The Camel,"Liam Kazar, Abby Huston, Night Idea",Red Onyx Slingerland,,2025-08-03
+61,2022-03-28,"Baltimore, MD",Liam Kazar,Ottobar,"Liam Kazar and there was a solo opener whose name I forgot, maybe also a second support",Red Onyx Slingerland,,2025-08-03
+62,2022-03-29,"Washington, DC",Liam Kazar,DC9,Liam Kazar (no opener?),Red Onyx Slingerland,,2025-08-03
+63,2022-03-30,"New York, NY",Liam Kazar,TV Eye,"Liam Kazar, Sweepea, Bill Waters ",House kit with my orange Acrolyte,,2025-08-03
+64,2022-03-31,"Philadelphia, PA",Liam Kazar,Silk City Diner,"Liam Kazar, Good Things Take Time",Red Onyx Slingerland,,2025-08-03
+65,2022-04-02,"Cincinnati, OH",Liam Kazar,MOTR Pub,"The Yugos, Spoils, Liam Kazar, Brad Goodall",Red Onyx Slingerland,,2025-08-03
+66,2022-04-03,"Bloomington, IN",Liam Kazar,The Bishop,"Liam Kazar, Free Range",Red Onyx Slingerland,,2025-08-03
+67,2022-04-09,"Chicago, IL","Madeleine Kelson,Alaina Stacey",Martyrs,"Madeleine Kelson, Alaina Stacy, Carleton Koldyke",House kit with my orange Acrolyte,,2025-08-03
+68,2022-04-15,"Chicago, IL",Ripley,Gman Tavern,"Aunt Kelly, Ripley, The Dearlys",Sarah Weddle's vintage Ludwig with my orange Acrolyte,,2025-08-03
+69,2022-04-16,"Chicago, IL",Lucky Cloud,Lincoln Hall,"Elizabeth Moen, Lucky Cloud","Liz's drummer David's cool Mapex orange kit, with my orange Acrolyte",,2025-08-03
+70,2022-05-06,"Denver, CO",Liam Kazar,Bluebird Theater,"Fruit Bats, Liam Kazar",Backline blue sparkle vintage Ludwig,,2025-08-03
+71,2022-05-07,"Denver, CO",Liam Kazar,Bluebird Theater,"Fruit Bats, Liam Kazar",Backline blue sparkle vintage Ludwig,,2025-08-03
+72,2022-05-12,"Chicago, IL",Liam Kazar,Hideout,"Sam Evian, Liam Kazar",Red Onyx Slingerland,,2025-08-03
+73,2022-05-27,"North Adams, MA",Ohmme,MASS MoCA,Solid Sound,Orange Acrolyte snare,,2025-08-03
+74,2022-05-28,"North Adams, MA",Liam Kazar,MASS MoCA,Solid Sound,Red Onyx Slingerland,,2025-08-03
+75,2022-05-28,"North Adams, MA",Mirror Sound,MASS MoCA,Solid Sound,Red Onyx Slingerland,,2025-08-03
+76,2022-05-29,"North Adams, MA",Jeff Tweedy,MASS MoCA,Solid Sound,Tweedy C&C,,2025-08-03
+77,2022-05-29,"North Adams, MA",Liam Kazar,MASS MoCA,Solid Sound,Red Onyx Slingerland,,2025-08-03
+78,2022-05-29,"North Adams, MA",Sam Evian,MASS MoCA,Solid Sound,A cymbal and orange Acrolyte snare,,2025-08-03
+79,2022-05-31,"Winooski, VT",Liam Kazar,Monkey House,"Liam Kazar, Bear's Tapestry",Bear's Tapestry's Starclassic drums,,2025-08-03
+80,2022-06-01,"Kingston, NY",Liam Kazar,Tubby's,"Liam Kazar, Hannah Cohen and Sam Evian",Red Onyx Slingerland,,2025-08-03
+81,2022-06-02,"Troy, NY",Liam Kazar,Hangar on the Hudson,"Liam Kazar, The Greetings",Red Onyx Slingerland,,2025-08-03
+82,2022-06-03,"New Haven, CT",Liam Kazar,Cafe Nine,"Liam Kazar, SG Carlson",Red Onyx Slingerland,,2025-08-03
+83,2022-06-05,"Buffalo, NY",Liam Kazar,Buffalo Iron Works,Liam Kazar (no opener),Red Onyx Slingerland,,2025-08-03
+84,2022-06-06,"Detroit, MI",Liam Kazar,UFO Factory,"Liam Kazar, Rachele Eve",Red Onyx Slingerland,,2025-08-03
+85,2022-06-11,"Chicago, IL",Sima Cunningham,Green Mill,Paper Machete,"Red Onyx Slingerland bass drum, orange Acrolyte snare, house toms and hardware",,2025-08-03
+86,2022-06-11,"Chicago, IL",Sima Cunningham,Hungry Brain,Sima Cunningham,House kit with my orange Acrolyte,,2025-08-03
+87,2022-06-12,"Chicago, IL",Case Oats,Eli's house,Case Oats,Epiphone Cortez,,2025-08-03
+88,2022-06-23,"Chicago, IL",Ripley,Gman Tavern,"Honey Cellar, Ripley, Ester",Joey from Honey Cellar's mix of vintage and modern Ludwigs,,2025-08-03
+89,2022-06-25,"Chicago, IL",Sammy Tweedy and Spencer Tweedy,Mu Gallery,"BSA Gold, Sammy & Spencer Tweedy",Red Onyx Slingerland,,2025-08-03
+90,2022-07-21,"Chicago, IL",Jeff Tweedy,Pritzker Pavilion,"Jeff Tweedy, People's Music School",Tweedy C&C,,2025-08-03
+91,2022-07-22,"Chicago, IL",Lucky Cloud,Golden Dagger,"Alayne May, Morinda, Lucky Cloud","Seth Engel's kit (Tama?), orange Acrolyte",,2025-08-03
+92,2022-07-23,"Chicago, IL",Joan Shelley,Old Town School of Folk Music,"Joan Shelley, Health and Beauty",Red Onyx Slingerland,,2025-08-03
+93,2022-07-24,"Chicago, IL",Dougie Poole,Judson & Moore Distillery,Cosmic Country Cookout,Red Onyx Slingerland,,2025-08-03
+94,2022-07-29,"Albany, WI",Case Oats,Postock,Postock,Whitehall,,2025-08-03
+95,2022-07-29,"Albany, WI",Dida Pelled,Postock,Postock,Whitehall,,2025-08-03
+96,2022-07-30,"Albany, WI",Aux Thom,Postock,Postock,Jack Henry kit,,2025-08-03
+97,2022-07-30,"Albany, WI",Sima Cunningham,Postock,Postock,Jack Henry kit,,2025-08-03
+98,2022-08-05,"Fishers, IN",Liam Kazar,Nickel Plate District Amphitheater,"Waxahatchee, Liam Kazar",Red Onyx Slingerland,,2025-08-03
+99,2022-08-06,"Evanston, IL",Liam Kazar,Out of Space at Canal Shores Golf Course,"Lucinda Williams, Waxahatchee, Liam Kazar",Red Onyx Slingerland,,2025-08-03
+100,2022-08-07,"Milwaukee, WI",Liam Kazar,Pabst Theater,"Waxahatchee, Liam Kazar",Red Onyx Slingerland,,2025-08-03
+101,2022-08-12,"Green Lake, WI",Aux Thom,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+102,2022-08-12,"Green Lake, WI",Sima Cunningham,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+103,2022-08-13,"Green Lake, WI",Henry True,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+104,2022-08-13,"Green Lake, WI",Sabine McCalla,Avrom Farm Party,Avrom Farm Party,Whitehall with orange Acrolyte,,2025-08-03
+105,2022-08-19,"Chicago, IL",Lucky Cloud,Schubas,"Astrachan, Lucky Cloud, Pyzow","Astrachan kit, I think it was a Gretsch?",,2025-08-03
+106,2022-08-24,"Chicago, IL",Case Oats,The Giant Penny Whistle,"Cass Cwik, Tommy Goodroad, Case Oats","Alan from Cass's band's tiny jazz-y kit. Tiny kick drum, not very good-sounding on stage but great in the house.",,2025-08-03
+107,2022-09-04,"Traverse City, MI",Finom,Iron Fish Distillery,All Call Music Festival,Backline Farmer nesting kit,,2025-08-03
+108,2022-09-08,"Chicago, IL",Ripley,Hideout,"Mid-American Elevator, Ripley, Leah Jean","British Drum Co. headliner backline, with my orange Acrolyte",,2025-08-03
+109,2022-09-22,"Dubuque, IA",Case Oats,Fox Den Motel,"Case Oats, Trevor Sensor",Whitehall with orange Acrolyte,,2025-08-03
+110,2022-09-23,"Lincoln, NE",Case Oats,Lincoln Calling Festival,Lincoln Calling Festival,Whitehall with orange Acrolyte,,2025-08-03
+111,2022-09-24,"St. Louis, MO",Case Oats,Music Record Shop,"VV Lightbody, Case Oats, Ashley Byrne",Whitehall with orange Acrolyte,,2025-08-03
+112,2022-09-25,"St. Louis, MO",Case Oats,Joe's Cafe,"Brothers Lazaroff, Case Oats",Whitehall with orange Acrolyte,,2025-08-03
+113,2022-09-26,"Louisville, KY",Case Oats,Mag Bar,"Case Oats, Bats, Warner Brownfield, ""You Bred Raptors?""",Whitehall with orange Acrolyte,,2025-08-03
+114,2022-09-27,"South Bend, IN",Case Oats,Stockroom East,"Joe Baughman and the Righteous Few, Case Oats, Bailey Williams",Whitehall with orange Acrolyte,,2025-08-03
+115,2022-09-28,"Oberlin, OH",Finom,The Cat in the Cream,"Finom, Friko",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+116,2022-09-29,"Philadelphia, PA",Finom,Johnny Brenda's,"Finom, mmeadows, Grocer",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+117,2022-09-30,"Kingston, NY",Finom,Tubby's,"Finom, mmeadows",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+118,2022-10-01,"New York, NY",Finom,TV Eye,"Finom, mmeadows, Emily Robb",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+119,2022-10-02,"Washington, DC",Finom,Comet Ping Pong,"Finom, mmeadows, ""Yours, River""",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+120,2022-10-03,"Columbia, SC",Finom,New Brookland Tavern,"Finom, mmeadows, Outerego",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+121,2022-10-04,"Atlanta, GA",Finom,529,"Finom, mmeadows, Lowtown",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+122,2022-10-05,"Knoxville, TN",Finom,The Pilot Light,"Finom, mmeadows, [plus 2 local bands]",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+123,2022-10-06,"Nashville, TN",Finom,The Blue Room,"Finom, mmeadows, Joe Kenkel",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+124,2022-10-08,"Chicago, IL",Finom,Thalia Hall,"The Regrettes, Finom, Child Seat",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+125,2022-10-13,"Chicago, IL",Hayden Holbert and Lydia Nye,"Gossip Farm (Lydia's backyard, 1041 N California)","Morinda, Hayden & Lydia, Shoulderbrid, Henry True, Sarai's band, others",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+126,2022-10-22,"Louisville, KY",Joan Shelley,St. Phillip Neri,"Joan Shelley, Giant Dunes",Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+127,2022-10-26,"Davenport, IA",Cosmic Country Showcase,Raccoon Motel,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+128,2022-10-28,"Chicago, IL",Cosmic Country Showcase,Sleeping Village,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+129,2022-10-29,"Chicago, IL",Cosmic Country Showcase,Sleeping Village,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+130,2022-10-31,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte,,2025-08-03
+131,2022-11-13,"San Francisco, CA",Jeff Tweedy,The Fillmore,Frank Riley surprise birthday party,"Pearl Export chrome belonging to Dean and Britta, with my Yamaha Oak Custom snare",,2025-08-03
+132,2022-12-01,"Seattle, WA",Liam Kazar,Sunset Tavern,"Liam Kazar, Fruit Juice",Whitehall (nested) with orange Acrolyte,,2025-08-03
+133,2022-12-02,"Portland, OR",Liam Kazar,Aladdin Theater,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+134,2022-12-03,"Portland, OR",Liam Kazar,Aladdin Theater,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+135,2022-12-05,"San Francisco, CA",Liam Kazar,The Fillmore,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+136,2022-12-06,"San Francisco, CA",Liam Kazar,The Fillmore,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+137,2022-12-07,"Los Angeles, CA",Liam Kazar,Regent Theater,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+138,2022-12-08,"Los Angeles, CA",Liam Kazar,Regent Theater,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+139,2022-12-10,"Solana Beach, CA",Liam Kazar,Belly Up Tavern,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+140,2022-12-11,"Solana Beach, CA",Liam Kazar,Belly Up Tavern,"The New Pornographers, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+141,2022-12-13,"Phoenix, AZ",Liam Kazar,Valley Bar,Liam Kazar,Whitehall (nested) with orange Acrolyte,,2025-08-03
+142,2022-12-14,"Santa Fe, NM",Liam Kazar,Tumbleroot Brewery,Liam Kazar,Whitehall (nested) with orange Acrolyte,,2025-08-03
+143,2022-12-16,"Austin, TX",Liam Kazar,The Mohawk Indoors,"Liam Kazar, Dorio",Whitehall (nested) with orange Acrolyte,,2025-08-03
+144,2022-12-17,"Dallas, TX",Liam Kazar,Ruins,"Liam Kazar, Yellow Jones",Whitehall (nested) with orange Acrolyte,,2025-08-03
+145,2022-12-18,"Oklahoma City, OK",Liam Kazar,Ponyboy,"Liam Kazar, This Coast Bias",Whitehall (nested) with orange Acrolyte,,2025-08-03
+146,2022-12-19,"Chicago, IL",Alaina Stacey,Constellation,24 Hour Marathon,Constellation C&C backline with orange Acrolyte,,2025-08-03
+147,2022-12-19,"Chicago, IL",The Blisters,Constellation,24 Hour Marathon,Constellation C&C backline with orange Acrolyte,,2025-08-03
+148,2022-12-20,"Chicago, IL",Sammy Tweedy and Spencer Tweedy,Constellation,24 Hour Marathon,Constellation C&C backline with orange Acrolyte,,2025-08-03
+149,2022-12-21,"Chicago, IL",Liam Kazar,Thalia Hall,"Whitney, Liam Kazar",Whitehall (nested) with orange Acrolyte,,2025-08-03
+150,2022-12-29,"Chicago, IL",Liam Kazar,Hungry Brain,"Liam Kazar, Tasha, Morinda",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+151,2022-12-30,"Chicago, IL",Liam Kazar,Hungry Brain,"Liam Kazar, Macie Stewart",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+152,2023-01-04,"Durham, NC",Waxahatchee,Pinhook,"Waxahatchee, Kym Register, Meltdown Rodeo",Joe Westerlund’s drums,,2025-08-03
+153,2023-02-11,"Miami, FL",Courtney Marie Andrews,Norwegian Pearl,Cayamo,Backline,,2025-08-03
+154,2023-02-14,"Miami, FL",Jeff Tweedy,Norwegian Pearl,Cayamo,Backline,,2025-08-03
+155,2023-02-15,"Miami, FL",Brady Blade Extravaganza,Norwegian Pearl,Cayamo,Backline,,2025-08-03
+156,2023-02-15,"Miami, FL",Devon Gilfilian and the Black Opry,Norwegian Pearl,Cayamo,Backline,,2025-08-03
+157,2023-02-24,"Chicago, IL",Henry True,Schubas,"Free Range, Minor Moon, Henry True",Jack Henry kit,,2025-08-03
+158,2023-03-01,"Chicago, IL",Lucky Cloud,Empty Bottle,"Jodi, Lucky Cloud, Shoulderbird",Jodi drummer’s kit,,2025-08-03
+159,2023-03-18,"Chicago, IL",Case Oats,Golden Dagger,"Case Oats, Dusk",Amos’s drums?,,2025-08-03
+160,2023-03-26,"Chicago, IL",Lucky Cloud,,,,,2025-08-03
+161,2023-04-01,"Chicago, IL",Henry True,Color Club,"Scout Gillett, The Bascinets, Henry True",One of the other band’s drums,,2025-08-03
+162,2023-04-14,"Chicago, IL",Cosmic Country Showcase,Sleeping Village,Cosmic Country Showcase feat. Honey Harper,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+163,2023-04-15,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,Cosmic Country Showcase feat. Honey Harper,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+164,2023-04-29,"Chicago, IL",Horizon of Darkness,Metro,"Eleventh Dream Day, Lifeguard, Horizon of Darkness",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+165,2023-05-07,"Chicago, IL",Lucky Cloud,Gossip Farm,,Jack Henry’s kit with my orange Acrolyte snare,,2025-08-03
+166,2023-06-01,"Three Oaks, MI",Cosmic Country Showcase,Acorn Theater,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+167,2023-06-02,"Chicago, IL",Cosmic Country Showcase,Constellation,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+168,2023-06-09,"Chicago, IL",Sima Cunningham,Hungry Brain,"Sima Cunningham, Hannah Frances",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+169,2023-06-10,"Chicago, IL",Sima Cunningham,Hungry Brain,"Sima Cunningham, Hannah Frances",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+170,2023-06-27,"Chicago, IL",Case Oats,Sleeping Village,"Greg Freeman, Case Oats, Hemlock",,,2025-08-03
+171,2023-06-30,"Chicago, IL",Lucky Cloud,Cole’s Bar,"Bubbles Brown, Elijah Berlow, Lucky Cloud",Bubble Brown’s drummer’s drums,,2025-08-03
+172,2023-07-01,"Chicago, IL",Sammy Tweedy and Spencer Tweedy,Hungry Brain,Sammy Tweedy and Spencer Tweedy,House kit and Nord Drum,,2025-08-03
+173,2023-07-05,"Chicago, IL",Henry True,Golden Dagger,"Henry True, Ari Lindo, Elizabeth Moen",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+174,2023-07-08,"Chicago, IL",Cosmic Country Showcase,Square Roots Festival,Square Roots Festival,Backline with my orange Acrolyte snare,,2025-08-03
+175,2023-07-09,"Chicago, IL",Henry True,Gossip Farm,"Case Oats, Henry True, Red PK, Lydia cover band",Jack Henry kit,,2025-08-03
+176,2023-07-10,"Chicago, IL",Cosmic Country Showcase,Carol’s Pub,Alex Grelle and Andrew Sa with Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+177,2023-07-16,"Chicago, IL",Sima Cunningham,Sleeping Village,"Alicia Walter, Carlile, Sima Cunningham",Alicia’s drummer’s drums,,2025-08-03
+178,2023-07-22,"Chicago, IL",MJ Lenderman,Pitchfork Music Festival,Pitchfork Music Festival,Backline with my orange Acrolyte snare,,2025-08-03
+179,2023-07-24,"Chicago, IL",Finom,Pritzker Pavilion,"Kurt Vile, Finom",Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+180,2023-08-04,"Ripon, WI",Henry True,Avrom Farm,Avrom Farm Party,Whitehall with orange Acrolyte snare,,2025-08-03
+181,2023-08-05,"Ripon, WI",Case Oats,Avrom Farm,Avrom Farm Party,Whitehall with orange Acrolyte snare,,2025-08-03
+182,2023-08-12,"Albany, WI",Aux Thom,Post Farm,Sima & Doriain wedding,Whitehall with Cunningham purple snare,,2025-08-03
+183,2023-08-18,"Bonner, MT",Waxahatchee,KettleHouse Amphitheater,"Nathaniel Rateliff & The Night Sweats, Waxahatchee",Backline and my orange Acrolyte snare,,2025-08-03
+184,2023-08-19,"Bonner, MT",Waxahatchee,KettleHouse Amphitheater,"Nathaniel Rateliff & The Night Sweats, Waxahatchee",Backline and my orange Acrolyte snare,,2025-08-03
+185,2023-08-22,"Morrison, CO",Waxahatchee,Red Rocks Amphitheater,"Nathaniel Rateliff & The Night Sweats, Waxahatchee",Backline and my orange Acrolyte snare,,2025-08-03
+186,2023-08-23,"Morrison, CO",Waxahatchee,Red Rocks Amphitheater,"Nathaniel Rateliff & The Night Sweats, Waxahatchee",Backline and my orange Acrolyte snare,,2025-08-03
+187,2023-08-30,"Mount Tremper, NY",Critter Bonus,The Pines,Critter Bonus,The Pines vintage Ludwig? my orange Acrolyte snare,,2025-08-03
+188,2023-09-03,"Woodstock, NY",Sam Evian and Hannah Cohen,Levon Helm Studios,"Sam Evian, Hannah Cohen","Levon’s Gretsch, my cymbals and orange Acrolyte snare",,2025-08-03
+189,2023-09-07,"Raleigh, NC",Sam Evian,Hopscotch Music Festival,Hopscotch Music Festival,Sam’s Rogers kit with my orange Acrolyte snare,,2025-08-03
+190,2023-09-08,"Atlanta, GA",Sam Evian,The Earl,"Sam Evian, Seafoam Walls",Sam’s Rogers kit with my orange Acrolyte snare,,2025-08-03
+191,2023-09-09,"Savannah, GA",Sam Evian,El Rocko Lounge,"Sam Evian, two local bands",Sam’s Rogers kit with my orange Acrolyte snare,,2025-08-03
+192,2023-09-12,"Chattanooga, TN",Sam Evian,Barking Legs Theater,"Sam Evian, Seafoam Walls",Sam’s Rogers kit with my orange Acrolyte snare,,2025-08-03
+193,2023-09-13,"Nashville, TN",Sam Evian,WNXP Studios,Sam Evian,Sam’s Rogers kit with my orange Acrolyte snare,,2025-08-03
+194,2023-09-13,"Nashville, TN",Sam Evian,The Blue Room,"Sam Evian, Seafoam Walls",Sam’s Rogers kit with my orange Acrolyte snare,,2025-08-03
+195,2023-09-14,"Chicago, IL",Liam Kazar,Judson & Moore Distillery,Liam Kazar,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+196,2023-09-30,"Chicago, IL",Horizon of Darkness,Hideout,"Horizon of Darkness, Hali Palombo, Michael Zerang’s Velvet Bell",Red Onyx Slingerland with WFL snare,,2025-08-03
+197,2023-10-17,"Austin, TX",Waxahatchee,Devil’s Backbone Tavern,Waxahatchee,Backline Ludwig,,2025-08-03
+198,2023-10-18,"Chicago, IL",Spencer Tweedy & Lia Kohl,Archive House,Spencer Tweedy & Lia Kohl,Partial Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+199,2023-10-19,"Chicago, IL",Sima Cunningham,Empty Bottle,"Free Range, Sima Cunningham, Hazel City",Jack Henry’s drums with my orange Acrolyte snare,,2025-08-03
+200,2023-10-26,"Chicago, IL",Case Oats,Hungry Brain,"Casey and Dana Halloween: Case Oats, Free Range, Tootsie, DJ Scary Stevens",Whitehall with orange Acrolyte snare,,2025-08-03
+201,2023-10-27,"Chicago, IL",Cosmic Country Showcase,Lincoln Hall,Cosmic Country Showcase,Red Onyx Slingerland with orange Acrolyte snare,,2025-08-03
+202,2023-11-01,"Chicago, IL",Case Oats,Hideout,"Leah Senior, Joanna Samuels, Case Oats (duo)",Casey’s Epiphone Cortez and my/dad’s paisley Music Master with silverface Champ,,2025-08-03
+203,2023-11-07,"San Diego, CA",Finom,Music Box,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+204,2023-11-08,"Los Angeles, CA",Finom,Fonda Theatre,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+205,2023-11-09,"San Francisco, CA",Finom,Bimbo’s 365 Club,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+206,2023-11-10,"San Francisco, CA",Finom,Bimbo’s 365 Club,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+207,2023-11-11,"Sacramento, CA",Finom,Ace of Spades,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+208,2023-11-14,"Vancouver, BC",Finom,The Commodore Ballroom,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+209,2023-11-15,"Portland, OR",Finom,Revolution Hall,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+210,2023-11-16,"Seattle, WA",Finom,Showbox,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+211,2023-11-17,"Boise, ID",Finom,Knitting Factory,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+212,2023-11-18,"Salt Lake City, UT",Finom,Commonwealth,"The New Pornographers, Finom","Stephen Buono’s fiberglass Pearl, my orange Acrolyte snare",,2025-08-03
+213,2023-12-04,"Riviera Maya, Mexico",Jeff Tweedy,Sky Blue Sky Festival,Sky Blue Sky Festival,C&C backline with my cymbals,,2025-08-03
+214,2023-12-05,"Riviera Maya, Mexico",Waxahatchee,Sky Blue Sky Festival,Sky Blue Sky Festival,Backline with my cymbals,,2025-08-03
+215,2023-12-17,"Chicago, IL",Sammy Tweedy and Spencer Tweedy,Emanuel Congregation,Songs for Peace,Black Martin acoustic guitar,,2025-08-03
+216,2024-01-10,"Chicago, IL",Lucky Cloud,Schubas,"Half Gringa, Lucky Cloud","Quin Kirchner’s drums, my orange Acrolyte and cymbals",,2025-08-03
+217,2024-01-25,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,Cosmic Country Showcase,"Red Onyx Slingerland, orange Acrolyte snare",,2025-08-03
+218,2024-01-26,"Chicago, IL",Cosmic Country Showcase,Sleeping Village,Cosmic Country Showcase,"Red Onyx Slingerland, orange Acrolyte snare",,2025-08-03
+219,2024-03-06,"Tokyo, Japan",Finom,Ex Theater Rippongi,"Wilco, Finom","Backline black Yamaha Maple Custom, my cymbals",,2025-08-03
+220,2024-03-07,"Tokyo, Japan",Finom,Zepp Haneda,"Wilco, Finom","Backline black Yamaha Maple Custom, my cymbals",,2025-08-03
+221,2024-03-08,"Osaka, Japan",Finom,Hatch,"Wilco, Finom","Backline black Yamaha Maple Custom, my cymbals",,2025-08-03
+222,2024-03-09,"Kyoto, Japan",Finom,UrBANGUILD,"Finom, Eucademix (Yuka C Honda), Quarru","Venue black Pearl, my cymbals",,2025-08-03
+223,2024-03-22,"Chicago, IL",Waxahatchee,Empty Bottle,"Waxahatchee, Liam Kazar","Red Onyx Slingerland, I think C&C abalone snare?",,2025-08-03
+224,2024-03-22,"Chicago, IL",Liam Kazar,Empty Bottle,"Waxahatchee, Liam Kazar","Red Onyx Slingerland, I think C&C abalone snare?",,2025-08-03
+225,2024-03-24,"Knoxville, TN",Finom,Big Ears Festival,Big Ears Festival,Backline with my cymbals and one of my snares,,2025-08-03
+226,2024-03-26,"New York, NY",Waxahatchee,The Late Show With Stephen Colbert,Waxahatchee,Backline with my cymbals and my C&C abalone snare,,2025-08-03
+227,2024-03-27,"New York, NY",Waxahatchee,SiriusXM,,Backline with my cymbals and my C&C abalone snare,,2025-08-03
+228,2024-03-28,"New York, NY",Liam Kazar,Union Pool,"Liam Kazar, Katie Von Schleicher",Backline with my cymbals and my C&C abalone snare,,2025-08-03
+229,2024-03-28,"Philadelphia, PA",Waxahatchee,World Cafe,,Backline with my cymbals and my C&C abalone snare,,2025-08-03
+230,2024-03-31,"Chicago, IL",Henry True,Sleeping Village,"Patrick Jasper, Henry True, Adelaide",Andy Danstrom’s blue sparkle Rogers with my cymbals and C&C abalone snare,,2025-08-03
+231,2024-04-07,"Chicago, IL",Liam Kazar,Hideout,"Liam Kazar, Sarah Weddle (duo)",Red Onyx Slingerland with abalone snare,,2025-08-03
+232,2024-04-08,"Chicago, IL",Liam Kazar,Hideout,"Liam Kazar, Sarah Weddle (duo)",Red Onyx Slingerland with abalone snare,,2025-08-03
+233,2024-04-10,"Milwaukee, WI",Finom,Cactus Club,"Finom, VV Lightbody, Ellie Jackson",Red Onyx Slingerland with abalone snare,,2025-08-03
+234,2024-04-11,"Minneapolis, MN",Finom,Icehouse,"Finom, VV Lightbody, Holly Hansen",Red Onyx Slingerland with abalone snare,,2025-08-03
+235,2024-04-12,"Northfield, MN",Finom,The Cave at Carleton College,"Finom, Work Wife",Backline with my cymbals and my C&C abalone snare,,2025-08-03
+236,2024-04-18,"Kansas City, MO",Waxahatchee,Uptown Theater,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+237,2024-04-19,"St Paul, MN",Waxahatchee,Palace Theatre,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+238,2024-04-20,"Chicago, IL",Waxahatchee,Salt Shed,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+239,2024-04-21,"Detroit, MI",Waxahatchee,Majestic Theatre,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+240,2024-04-23,"Toronto, ON",Waxahatchee,Massey Hall,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+241,2024-04-25,"New Haven, CT",Waxahatchee,Toad’s Place,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+242,2024-04-26,"Boston, MA",Waxahatchee,Orpheum Theatre,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+243,2024-04-27,"New York, NY",Waxahatchee,Brooklyn Paramount Theatre,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+244,2024-04-28,"Richmond, VA",Waxahatchee,The National,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+245,2024-04-30,"Asheville, NC",Waxahatchee,The Orange Peel,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+246,2024-05-01,"Nashville, TN",Waxahatchee,Ryman Auditorium,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+247,2024-05-03,"St Petersburg, FL",Waxahatchee,Jannus Live,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+248,2024-05-04,"Orlando, FL",Waxahatchee,Beacham Theater,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+249,2024-05-05,"Atlanta, GA",Waxahatchee,Shaky Knees Festival,Shaky Knees Festival,Red Onyx Slingerland with abalone snare,,2025-08-03
+250,2024-05-06,"Birmingham, AL",Waxahatchee,Lyric Theatre,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+251,2024-05-08,"Tulsa, OK",Waxahatchee,Cain’s Ballroom,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+252,2024-05-09,"Fort Worth, TX",Waxahatchee,Tannahill’s Tavern & Music Hall,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+253,2024-05-10,"Houston, TX",Waxahatchee,The Heights Theater,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+254,2024-05-11,"Austin, TX",Waxahatchee,ACL Live at the Moody Theater,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+255,2024-05-13,"Phoenix, AZ",Waxahatchee,The Van Buren,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+256,2024-05-14,"San Diego, CA",Waxahatchee,The Observatory North Park,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+257,2024-05-16,"Los Angeles, CA",Waxahatchee,Hollywood Palladium,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+258,2024-05-17,"Paso Robles, CA",Waxahatchee,Barrelhouse Brewing Company,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+259,2024-05-18,"Oakland, CA",Waxahatchee,Fox Theater,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+260,2024-05-21,"Salt Lake City, UT",Waxahatchee,The Depot,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+261,2024-05-23,"Denver, CO",Waxahatchee,Mission Ballroom,"Waxahatchee, Good Morning",Red Onyx Slingerland with abalone snare,,2025-08-03
+262,2024-05-24,"Chicago, IL",Finom,The Hideout,,Rootbeer Gretsch,,2025-08-03
+263,2024-05-25,"Chicago, IL",Finom,Shuga Records,Finom,Rootbeer Gretsch,,2025-08-03
+264,2024-05-31,"New York, NY",Finom,Sultan Room,,,,2025-08-03
+265,2024-06-02,"Chicago, IL",Case Oats,The Hideout,,,,2025-08-03
+266,2024-06-05,"Los Angeles, CA",Finom,Zebulon,,,,2025-08-03
+267,2024-06-09,"Chicago, IL",Finom,Midsommar Festival,Midsommar Festival,,,2025-08-03
+268,2024-06-28,"North Adams, MA",Ten Oh Ten (Sammy & Spencer),Mass MoCA,Solid Sound,,,2025-08-03
+269,2024-06-28,"North Adams, MA",Case Oats,Mass MoCA,Solid Sound,,,2025-08-03
+270,2024-06-30,"North Adams, MA",Jeff Tweedy,Mass MoCA,Solid Sound,,,2025-08-03
+271,2024-07-09,"London, UK",Waxahatchee,BBC,,,,2025-08-03
+272,2024-07-11,"Amsterdam, NL",Waxahatchee,Paradiso,"Waxahatchee, Anna St Louis",,,2025-08-03
+273,2024-07-12,"Koln, DE",Waxahatchee,Gebäude 9,"Waxahatchee, Anna St Louis",,,2025-08-03
+274,2024-07-13,"Hamburg, DE",Waxahatchee,Mojo Club,"Waxahatchee, Anna St Louis",,,2025-08-03
+275,2024-07-14,"Bruges, BE",Waxahatchee,Cactusfestival,Cactusfestival,,,2025-08-03
+276,2024-07-15,"Berlin, DE",Waxahatchee,Lido,"Waxahatchee, Anna St Louis",,,2025-08-03
+277,2024-07-17,"Schorndorf, DE",Waxahatchee,Club Manufaktur,"Waxahatchee, Anna St Louis",,,2025-08-03
+278,2024-07-18,"Feldkirch, AT",Waxahatchee,Poolbar Festival,Poolbar Festival,,,2025-08-03
+279,2024-07-19,"Sittersdorf, AT",Waxahatchee,Acoustic Lakeside Festival,Acoustic Lakeside Festival,,,2025-08-03
+280,2024-07-21,"Zurich, CH",Waxahatchee,Bogen F,"Waxahatchee, Anna St Louis",,,2025-08-03
+281,2024-07-22,"Paris, FR",Waxahatchee,La Maroquinerie,"Waxahatchee, Anna St Louis",,,2025-08-03
+282,2024-07-24,"Brighton, UK",Waxahatchee,Chalk,"Waxahatchee, Anna St Louis",,,2025-08-03
+283,2024-07-25,"London, UK",Waxahatchee,O2 Forum Kentish Town,"Waxahatchee, Anna St Louis",,,2025-08-03
+284,2024-07-26,"Southwold, UK",Waxahatchee,Latitude Festival,Latitude Festival,,,2025-08-03
+285,2024-07-27,"Manchester, UK",Waxahatchee,New Century,"Waxahatchee, Anna St Louis",,,2025-08-03
+286,2024-07-29,"Leeds, UK",Waxahatchee,Leeds Irish Centre,"Waxahatchee, Anna St Louis",,,2025-08-03
+287,2024-07-30,"Glasgow, UK",Waxahatchee,Queen Margaret Union,"Waxahatchee, Anna St Louis",,,2025-08-03
+288,2024-07-31,"Belfast, UK",Waxahatchee,Belfast Empire Music Hall,"Waxahatchee, Anna St Louis",,,2025-08-03
+289,2024-08-01,"Dublin, IE",Waxahatchee,Vicar Street,"Waxahatchee, Anna St Louis",,,2025-08-03
+290,2024-08-03,"Albany, WI",Finom,Post Farm,Postock,,,2025-08-03
+291,2024-08-03,"Albany, WI",Charlotte Cornfield,Post Farm,Postock,,,2025-08-03
+292,2024-08-03,"Albany, WI",Aux Thom,Post Farm,Postock,,,2025-08-03
+293,2024-08-04,"Albany, WI",Sima Cunningham,Post Farm,Postock,,,2025-08-03
+294,2024-08-04,"Albany, WI",Al Scorch,Post Farm,Postock,,,2025-08-03
+295,2024-08-14,"Los Angeles, CA",Waxahatchee,Jimmy Kimmel Live,,,,2025-08-03
+296,2024-08-16,"Vancouver, BC",Waxahatchee,Orpheum Theatre,"Waxahatchee, Woods",,,2025-08-03
+297,2024-08-17,"Portland, OR",Waxahatchee,Pioneer Courthouse Square,"Waxahatchee, Woods, Toody Cole",,,2025-08-03
+298,2024-08-18,"Seattle, WA",Waxahatchee,Woodland Park Zoo Amphitheater,"Waxahatchee, Woods",,,2025-08-03
+299,2024-08-19,"Boise, ID",Waxahatchee,Treefort Music Hall,"Waxahatchee, Tre Burt",,,2025-08-03
+300,2024-08-21,"Fort Collins, CO",Waxahatchee,Washington's,"Waxahatchee, Tre Burt",,,2025-08-03
+301,2024-08-23,"St Louis, MO",Waxahatchee,The Pageant,"Waxahatchee, Tre Burt",,,2025-08-03
+302,2024-08-24,"Madison, WI",Waxahatchee,The Sylvee,"Waxahatchee, Tre Burt",,,2025-08-03
+303,2024-08-25,"Kalamazoo, MI",Waxahatchee,Bell's Beer Garden,"Waxahatchee, Tre Burt",,,2025-08-03
+304,2024-08-26,"Pittsburgh, PA",Waxahatchee,The Warhol at Carnegie Music Hall,"Waxahatchee, Tre Burt",,,2025-08-03
+305,2024-08-28,"New York, NY",Waxahatchee,Beacon Theatre,"Waxahatchee, Woods",,,2025-08-03
+306,2024-08-29,"South Deerfield, MA",Waxahatchee,Tree House Summer Stage,"Waxahatchee, Snail Mail, Tim Heidecker",,,2025-08-03
+307,2024-08-30,"Portland, ME",Waxahatchee,State Theater,"Waxahatchee, Snail Mail, Tim Heidecker",,,2025-08-03
+308,2024-08-31,"Accord, NY",Waxahatchee,Arrowood Farms,"Waxahatchee, Snail Mail, Tim Heidecker",,,2025-08-03
+309,2024-09-01,"Asbury Park, NJ",Waxahatchee,Stone Pony Summerstage,"Waxahatchee, Snail Mail, Tim Heidecker",,,2025-08-03
+310,2024-09-04,"Charlottesville, VA",Waxahatchee,Ting Pavilion,"Waxahatchee, Snail Mail, Tim Heidecker",,,2025-08-03
+311,2024-09-05,"Raleigh, NC",Waxahatchee,Hopscotch Music Festival,Hopscotch Music Festival,,,2025-08-03
+312,2024-09-06,"Vienna, VA",Waxahatchee,Filene Center at Wolf Trap,"Waxahatchee, Snail Mail, Tim Heidecker",,,2025-08-03
+313,2024-09-07,"Philadelphia, PA",Waxahatchee,The Fillmore,"Waxahatchee, Snail Mail, Gladie",,,2025-08-03
+314,2024-09-08,"Philadelphia, PA",Waxahatchee,The Fillmore,"Waxahatchee, Tim Heidecker",,,2025-08-03
+315,2024-09-10,"New York, NY",Waxahatchee,CBS This Morning,,,,2025-08-03
+316,2024-09-13,"Chicago, IL",Lucky Cloud,Gman Tavern,"Lake James, Lucky Cloud",,,2025-08-03
+317,2024-09-19,"Nashville, TN",Waxahatchee,Americana Fest (ANTI- Showcase),"Neko Case, Waxahatchee, Madi Diaz, MJ Lenderman, Christian Lee Hutson, Leyla McCalla",,,2025-08-03
+318,2024-09-19,"Nashville, TN",MJ Lenderman,Americana Fest (ANTI- Showcase),"Neko Case, Waxahatchee, Madi Diaz, MJ Lenderman, Christian Lee Hutson, Leyla McCalla",,,2025-08-03
+319,2024-09-21,"Chicago, IL",Waxahatchee,Riot Fest,Riot Fest,,,2025-08-03
+320,2024-10-04,"Chicago, IL",Case Oats,Apricot Vintage,"Lucky Cloud, Case Oats (duo)",,,2025-08-03
+321,2024-10-10,"Chicago, IL",Liam Kazar,Judson & Moore Distillery,Liam Kazar,,,2025-08-03
+322,2024-10-12,"Chicago, IL",Sammy Tweedy and Spencer Tweedy,Emanuel Congregation,Yom Kippur services!,,,2025-08-03
+323,2024-10-13,"Sawyer, MI",Vinyl DJ set,Out There,DJ Case Oats and Spencer Tweedy,,,2025-08-03
+324,2024-10-17,"Chicago, IL",Henry True,Color Club,"Katie Malco, Henry True",,,2025-08-03
+325,2024-10-21,"Washington, DC",Waxahatchee,NPR Tiny Desk,Waxahatchee,,,2025-08-03
+326,2024-10-22,"Philadelphia, PA",Waxahatchee,Ardmore Music Hall,Philly Music Fest,,,2025-08-03
+327,2024-10-24,"Chicago, IL",Cosmic Country Showcase,Color Club,,,,2025-08-03
+328,2024-10-25,"Chicago, IL",Cosmic Country Showcase,Color Club,,,,2025-08-03
+329,2024-10-26,"Chicago, IL",Cosmic Country Showcase,Color Club,,,,2025-08-03
+330,2024-10-24,"Milwaukee, WI",Cosmic Country Showcase,Cactus Club,,,,2025-08-03
+331,2024-10-30,"Chicago, IL",Lucky Cloud,Gman Tavern,"Lucky Cloud, Zach Morp",,,2025-08-03
+332,2024-10-31,"Chicago, IL",Case Oats,Hungry Brain,"Case Oats, Liam Kazar, TV Buddha, DJ Scary Stevens",,,2025-08-03
+333,2024-11-02,"Chicago, IL",Finom,Metro,"Finom, Cabeza De Chivo",,,2025-08-03
+334,2024-11-06,"Detroit, MI",Finom,Lager House,"Finom, Meg Elsier",,,2025-08-03
+335,2024-11-07,"Toronto, ON",Finom,Baby G,"Finom, Meg Elsier, Beams",,,2025-08-03
+336,2024-11-08,"Montreal, QC",Finom,Cabaret Foufs,"Finom, Meg Elsier",,,2025-08-03
+337,2024-11-09,"Burlington, VT",Finom,Radio Bean,"Finom, Meg Elsier",,,2025-08-03
+338,2024-11-11,"Boston, MA",Finom,The Rockwell,"Finom, Meg Elsier",,,2025-08-03
+339,2024-11-13,"Philadelphia, PA",Finom,Johnny Brenda's,"Finom, Meg Elsier",,,2025-08-03
+340,2024-11-14,"New York, NY",Finom,Baby's All Right,"Finom, Meg Elsier, Work Wife",,,2025-08-03
+341,2024-11-15,"Pittsburgh, PA",Finom,Club Cafe,"Finom, Meg Elsier",,,2025-08-03
+342,2024-11-23,"Chicago, IL",Jeff Tweedy,Letters to Santa,Letters to Santa 2024,,,2025-08-03
+343,2024-11-29,"Perth, Australia",Waxahatchee,Astor Theatre,,,https://link.seated.com/f7518b23-9528-4783-8c1a-21b1c82cb62d,2025-08-03
+344,2024-12-01,"Brisbane City, Australia",Waxahatchee,The Tivoli,,,https://link.seated.com/ffe948c9-cdf6-4705-87e1-427fe00ac6c5,2025-08-03
+345,2024-12-02,"Sydney, Australia",Waxahatchee,Sydney Opera House,,,https://link.seated.com/f01e0940-287e-4b32-a4c8-d45a5ef3f487,2025-08-03
+346,2024-12-04,"Melbourne, Australia",Waxahatchee,Corner Hotel,"Waxahatchee, Good Morning",,https://link.seated.com/4352686e-52c1-4303-9599-c6f6f05439e6,2025-08-03
+347,2024-12-05,"Melbourne, Australia",Waxahatchee,The Forum,,,https://link.seated.com/aa021de0-fbf7-4a68-84f8-ec408f342f81,2025-08-03
+348,2024-12-06,"Meredith, Australia",Waxahatchee,Meredith Music Festival,Meredith Music Festival,,https://link.seated.com/54c0d600-fcb3-4373-99d7-d9d982e74357,2025-08-03
+349,2024-12-08,"Hobart, Australia",Waxahatchee,Odeon Theatre,,,https://link.seated.com/dae57c0c-31d8-4ede-859d-e7f00a8c5f27,2025-08-03
+350,2024-12-13,"Chicago, IL",Sima Cunningham,Constellation,"Sima Cunningham, Max Subar",,https://www.seetickets.us/event/sima-cunningham-high-roller-album-release-wmax-subar/618581,2025-08-03
+351,2024-12-14,"Chicago, IL",Liam Kazar,Thalia Hall,"Neal Francis, Liam Kazar",,https://www.ticketweb.com/event/sold-out-neal-francis-with-thalia-hall-tickets/13821523,2025-08-03
+352,2025-01-04,"Los Angeles, CA","""Sweet Sixteen with Katie Crutchfield, D'Arcy Carden, and Allison Crutchfield""",Largo at the Coronet,"Katie Crutchfield, D'Arcy Carden, Allison Crutchfield, and guests",,https://wl.seetickets.us/event/sweet-sixteen-with-katie-crutchfield-darcy-carden/631250?afflky=LargoAtTheCoronet,2025-08-03
+353,2025-02-08,"Chicago, IL",Liam Kazar,Fitzgeralds,Liam Kazar,,https://www.fitzgeraldsnightclub.com/tm-event/liam-kazar-returns-to-fitzgeralds-nightclub/,2025-08-03
+460,2025-02-17,"Chicago, IL",Finom,Audiotree Live,Finom,,,2025-08-03
+354,2025-02-21,"Chicago, IL",Sima Cunningham,Robert's Westside,"Sima Cunningham, VV Lightbody and Minor Moon duo",,https://robertswestside.com/listing/sima-cunninghams-residency-roberts-westside/,2025-08-03
+355,2025-02-24,"New York, NY",Waxahatchee,The Tonight Show Starring Jimmy Fallon,The Tonight Show,,,2025-08-03
+356,2025-03-05,"Miami, FL",Jeff Tweedy,Cayamo Cruise,Cayamo Cruise,,https://www.cayamo.com/,2025-08-03
+357,2025-03-11,"Austin, TX",Case Oats,Antone's,High Road Touring Showcase,,https://www.highroadtouring.com/high-road-2025-sxsw-showcase-tuesday-march-11th-at-antones/,2025-08-03
+358,2025-03-12,"Austin, TX",Liam Kazar,The Long Time,Kevin Morby and his Sandlot All-Stars,,https://www.eventbrite.com/e/kevin-morby-and-his-sandlot-all-stars-tickets-1205496044119,2025-08-03
+359,2025-03-12,"Austin, TX",Kevin Morby,The Long Time,Kevin Morby and his Sandlot All-Stars,,https://www.eventbrite.com/e/kevin-morby-and-his-sandlot-all-stars-tickets-1205496044119,2025-08-03
+360,2025-03-13,"Austin, TX",Case Oats,YETI Flagship Store,YETI Music Showcase,,https://www.bmi.com/events/entry/591886,2025-08-03
+361,2025-03-13,"Spicewood, TX",Waxahatchee,Luck Reunion,"Waxahatchee, Lucinda Williams, and special guests",,https://link.seated.com/71628ce0-a50f-4b31-be7b-954bdc613e95,2025-08-03
+362,2025-03-14,"Austin, TX",Case Oats,Hotel San José,South By San José,,https://www.bunkhousehotels.com/hotel-san-jose/events/south-by-san-jose,2025-08-03
+363,2025-03-14,"Spicewood, TX",Waxahatchee,Luck Reunion,"Waxahatchee, Lucinda Williams, and special guests",,https://link.seated.com/71628ce0-a50f-4b31-be7b-954bdc613e95,2025-08-03
+364,2025-03-14,"Austin, TX",Case Oats,The Swan Dive,Line of Best Fit Showcase,,https://www.thelineofbestfit.com/news/best-fit-sxsw-2025-showcase-lineup-yhwh-nailgun-jasmine-4-t-man-woman-chainsaw,2025-08-03
+365,2025-03-21,"Chicago, IL",Sima Cunningham,Robert's Westside,"Sima Cunningham, Judson Claiborne",,https://robertswestside.com/listing/sima-cunninghams-residency-roberts-westside/,2025-08-03
+461,2025-03-24,"Chicago, IL",Case Oats,The Getaway,Welcome to the Show,,,2025-08-03
+366,2025-04-05,"Chicago, IL",Lucky Cloud,Schubas,"Lucky Cloud, Lake J, Shoulderbird",,https://lh-st.com/shows/04-05-2025-lucky-cloud/,2025-08-03
+462,2025-04-08,"Chicago, IL",Al Scorch,The Hideout,Al Scorch's Big Fantastical Residency,,,2025-08-03
+368,2025-04-12,"Charleston, WV",Jeff Tweedy,Culture Center Theater,WV Hall of Fame Induction for Daniel Johnston,,https://www.wvmusichalloffame.com/10thCeremony.html,2025-08-03
+369,2025-04-13,"Charleston, WV",Jeff Tweedy,Mountain Stage,Mountain Stage,,https://www.eventbrite.com/e/jeff-tweedy-johnnyswim-olivia-ellen-lloyd-and-more-on-mountain-stage-tickets-1200252410269?aff=Tweedy,2025-08-03
+463,2025-04-18,"Chicago, IL",Jeff Tweedy,The Vic Theatre,Jeff Tweedy,,,2025-08-03
+464,2025-04-19,"Chicago, IL",Jeff Tweedy,The Vic Theatre,Jeff Tweedy,,,2025-08-03
+370,2025-04-26,"Tallahassee, FL",Waxahatchee,The Adderley Amphitheater,"Wilco, Waxahatchee",,https://link.seated.com/a4ab1662-b10c-4cd0-ad08-c484c75f5319,2025-08-03
+371,2025-04-27,"Charleston, SC",Waxahatchee,High Water Festival,High Water Festival,,https://link.seated.com/168d7996-52fc-4ce9-9333-779f18afd3ae,2025-08-03
+372,2025-04-29,"Miami Beach, FL",Waxahatchee,The Fillmore Miami Beach,"Wilco, Waxahatchee",,https://link.seated.com/28c4a54f-0379-457b-ba83-5e9c7827a056,2025-08-03
+373,2025-04-30,"St. Augustine, FL",Waxahatchee,The St. Augustine Amphitheatre,"Wilco, Waxahatchee",,https://link.seated.com/62acbc55-99b5-4a01-8477-556c6edd09ae,2025-08-03
+374,2025-05-03,"New Orleans, LA",Waxahatchee,Saenger Theatre,"Wilco, Waxahatchee",,https://link.seated.com/c3a26b22-cc47-4d80-8106-4f401643b60b,2025-08-03
+375,2025-05-04,"Houston, TX",Waxahatchee,White Oak Music Hall (Lawn),"Wilco, Waxahatchee",,https://link.seated.com/40c8c469-04b0-4d73-b5f6-0de4a5bf9f62,2025-08-03
+376,2025-05-06,"San Antonio, TX",Waxahatchee,The Espee,"Wilco, Waxahatchee",,https://link.seated.com/25fe0147-6979-4d63-aa06-04a5488110dc,2025-08-03
+377,2025-05-07,"Irving, TX",Waxahatchee,The Pavilion at Toyota Music Factory,"Wilco, Waxahatchee",,https://link.seated.com/edd3d2fb-6e92-4602-854d-7cc3c9f3e466,2025-08-03
+378,2025-05-09,"Nashville, TN",Waxahatchee,The Pinnacle,"Wilco, Waxahatchee",,https://link.seated.com/d24a5f22-acb1-4ab0-b6ec-ed1ed3f1bfab,2025-08-03
+379,2025-05-10,"Atlanta, GA",Waxahatchee,Cadence Bank Amphitheatre at Chastain Park,"Wilco, Waxahatchee",,https://link.seated.com/a41d81bc-47f5-4bff-9528-aeead3578a14,2025-08-03
+380,2025-05-11,"Chattanooga, TN",Waxahatchee,Soldiers and Sailors Memorial Auditorium,"Wilco, Waxahatchee",,https://link.seated.com/26347d80-8579-4a13-8af9-4ebeaf93e94a,2025-08-03
+381,2025-05-12,"Birmingham, AL",Waxahatchee,Avondale Brewing Company,"Wilco, Waxahatchee",,https://link.seated.com/50f55575-79c8-48a8-b345-a6c87449a9ed,2025-08-03
+382,2025-05-13,"Wilmington, NC",Waxahatchee,Live Oak Bank Pavilion,"Wilco, Waxahatchee",,https://link.seated.com/2a5dd6a7-9fcb-4e70-8745-758f9490d628,2025-08-03
+383,2025-05-14,"Durham, NC",Waxahatchee,Durham Performing Arts Center,"Waxahatchee, Cameron Winter",,https://link.seated.com/cfd95667-a8cc-44ab-91c7-f2ba2cce1af1,2025-08-03
+384,2025-05-15,"Charlotte, NC",Waxahatchee,The Amp Ballantyne,"Wilco, Waxahatchee",,https://link.seated.com/01c2f4f1-b48c-4150-93e7-1dc39eac0bf3,2025-08-03
+385,2025-05-16,"Asheville, NC",Waxahatchee,Asheville Yards Amphitheater,"Wilco, Waxahatchee",,https://link.seated.com/6d047934-bb00-4da5-89ea-60fe1f85c24f,2025-08-03
+465,2025-05-19,"Austin, TX",Waxahatchee,Austin City Limits,Austin City Limits,,,2025-08-04
+466,2025-05-30,"Chicago, IL",Spencer Tweedy,First Church of Chicago,"Parking, Spencer Tweedy, Macie Stewart, Johnny Skin",,,2025-08-04
+386,2025-06-01,"Denver, CO",Waxahatchee,Outside Festival,Outside Festival,,https://link.seated.com/27b52c37-d75f-4188-bd70-a8e8bc578a13,2025-08-03
+387,2025-06-06,"Barcelona, Spain",Waxahatchee,Primavera Sound,Primavera Sound,,https://link.seated.com/b924a8d7-2adc-4aca-b4ea-4786a43640fb,2025-08-03
+388,2025-06-08,"Glasgow, Scotland",Waxahatchee,Barrowland Ballroom,,,https://link.seated.com/dd4f4cf6-9758-4719-9a22-291cd748f320,2025-08-03
+389,2025-06-09,"Manchester, UK",Waxahatchee,Albert Hall,,,https://link.seated.com/79ddf447-f61b-4a55-bac2-7610352c03a5,2025-08-03
+390,2025-06-10,"Bristol, UK",Waxahatchee,SWX,,,https://link.seated.com/a35ec586-259a-4d33-a400-b0922dcd8a6d,2025-08-03
+391,2025-06-11,"London, UK",Waxahatchee,Hammersmith Apollo,,,https://link.seated.com/0509024a-e14e-4424-b85c-91cf7c02c421,2025-08-03
+392,2025-06-13,"Porto, Portugal",Waxahatchee,Primavera Porto,Primavera Porto,,https://link.seated.com/018f3cbd-1c45-4b2c-afd4-3c05751ff661,2025-08-03
+393,2025-06-15,"Hilvarenbeek, Netherlands",Waxahatchee,Best Kept Secret Festival,Best Kept Secret Festival,,https://link.seated.com/61f5d0ee-7126-4aba-8abe-008b4a2ec486,2025-08-03
+467,2025-06-18,"London, UK",Case Oats,Rough Trade West,Case Oats,,,2025-08-04
+394,2025-06-20,"Nelsonville, OH",Waxahatchee,Nelsonville Music Festival,Nelsonville Music Festival,,https://nelsonvillefest.org/,2025-08-03
+395,2025-06-21,"Lafayette, NY",Waxahatchee,Beak & Skiff Apple Orchards,"Waxahatchee, MJ Lenderman, Hurray For The Riff Raff",,https://link.seated.com/d5811faf-e28b-4cd3-8d58-1d4d25406e37,2025-08-03
+396,2025-06-22,"Greenfield, MA",Waxahatchee,Green River Festival,Green River Festival,,https://link.seated.com/2d18cddf-e2ca-4e05-92e9-2a0893af7aac,2025-08-03
+397,2025-06-23,"Shelburne, VT",Waxahatchee,The Green at Shelburne Museum,"Waxahatchee, Kevin Morby",,https://link.seated.com/b70601c5-5710-4b77-b131-e62a5a1564cc,2025-08-03
+468,2025-06-26,"Chicago, IL",Henry True,The Hideout,"Henry Geragthy, Sara Geist, Henry True",,,2025-08-04
+469,2025-06-29,"Chicago, IL",Lucky Cloud,The Whistler,"Lucky Cloud, NadNavillus",,,2025-08-04
+470,2025-07-06,"Sawyer, MI",Vinyl DJ set,Out There,DJ Case Oats b2b DJ Spencer Tweedy,,,2025-08-04
+471,2025-07-19,"Chicago, IL",Finom,Jarvis Square Music & Arts Fest,Jarvis Square Music & Arts Fest,,,2025-08-04
+398,2025-07-23,"New York, NY",Eric Slick's Unlimited Edition,Brooklyn Bowl,Eric Slick's Unlimited Edition,,https://www.brooklynbowl.com/brooklyn/events/detail/eric-slick-friends-play-krautrock-k7vgfbnxurbbc,2025-08-03
+399,2025-07-24,"South Deerfield, MA",Jeff Tweedy,Tree House Brewing,"Jeff Tweedy, Hannah Cohen",,https://www.tixr.com/groups/treehousebrew/events/jeff-tweedy-132837,2025-08-03
+472,2025-07-25,"Newport, RI",Friends of New Time Music with Brad Cook,Jane Pickens Theater,Friends of New Time Music with Brad Cook,,https://link.dice.fm/folkaftershows25,2025-08-04
+400,2025-07-26,"Newport, RI",Waxahatchee,Newport Folk Festival,Newport Folk Festival,,https://link.seated.com/3f231569-c994-4fca-90db-0d5e378cb958,2025-08-03
+473,2025-07-27,"Newport, RI",Jeff Tweedy,Newport Folk Festival,Newport Folk Festival,,https://newportfolk.org/,2025-08-04
+401,2025-07-29,"Columbia, MD",Waxahatchee,Merriweather Post Pavilion,"Lord Huron, Waxahatchee",,https://link.seated.com/a8952174-7e0a-403b-b64e-4cdf1d601e5a,2025-08-03
+402,2025-07-30,"New York, NY",Waxahatchee,Madison Square Garden,"Lord Huron, Waxahatchee",,https://link.seated.com/4359d8ff-b3dc-4a41-a282-b06bbaefee93,2025-08-03
+403,2025-08-01,"Bloomington, IL",Waxahatchee,The Castle Theatre,"Waxahatchee, Brennan Wedl",,https://link.seated.com/79164610-c9f3-46ed-95c1-3103257be225,2025-08-03
+404,2025-08-02,"Omaha, NE",Waxahatchee,Maha Festival,Maha Festival,,https://link.seated.com/dac5eb05-da84-4692-9b9e-c21fc4246340,2025-08-03
+405,2025-08-04,"Santa Fe, NM",Waxahatchee,Santa Fe Brewing Co,"Waxahatchee, Brennan Wedl",,https://link.seated.com/2ac23513-a3ed-4412-88e2-b16d533aea34,2025-08-03
+406,2025-08-05,"Boulder, CO",Waxahatchee,Chautauqua Auditorium,"Waxahatchee, Brennan Wedl",,https://link.seated.com/4194f30f-b5f8-4532-81df-00dc8c3c338a,2025-08-03
+407,2025-08-06,"Salt Lake City, UT",Waxahatchee,Pioneer Park,"Waxahatchee, Foxwarren",,https://link.seated.com/574e4a0e-ddaf-44cf-b427-919e5f83b832,2025-08-03
+408,2025-08-08,"Jacksonville, OR",Waxahatchee,Britt Festival Pavilion,"Waxahatchee, Foxwarren",,https://link.seated.com/919d4b86-88c7-4e37-bc95-4d6d5bce553a,2025-08-03
+409,2025-08-09,"Portland, OR",Waxahatchee,Pioneer Courthouse Square,"Waxahatchee, Foxwarren",,https://link.seated.com/fa403b4e-09e7-48d1-b1a5-b6d0ba856928,2025-08-03
+489,2025-08-11,"Seattle, WA",Waxahatchee,KEXP,Waxahatchee,,,2025-12-30
+410,2025-08-10,"Seattle, WA",Waxahatchee,Woodland Park Zoo,"Waxahatchee, Foxwarren",,https://link.seated.com/3f680a56-cfb6-4586-aaa4-4ffdb0e24619,2025-08-03
+411,2025-08-16,"Ripon, WI",Lucky Cloud,Avrom Farm Party,Avrom Farm Party,,https://avromfarmparty.com/,2025-08-03
+412,2025-08-19,"New York, NY",Case Oats,Nightclub 101,"Case Oats, Isaac Stalling (solo)",,https://www.ticketweb.com/event/case-oats-isaac-stalling-solo-night-club-101-tickets/14500223,2025-08-03
+413,2025-08-20,"Toronto, ON",Case Oats,The Drake Underground,"Case Oats, Burs",,https://dice.fm/partner/dice/event/dk9q56-case-oats-20th-aug-the-drake-underground-toronto-tickets,2025-08-03
+414,2025-08-22,"Chicago, IL",Case Oats,The Hideout,"Case Oats, TV Buddha",,https://www.etix.com/ticket/p/47494456/case-oats-with-tv-buddha-chicago-hideout-chicago,2025-08-03
+475,2025-08-28,"Austin, TX",Jandek,Austin Scottish Rite Theater,Jandek,,https://corwoodindustries.com/product/austin-concert-ticket/,2025-08-06
+477,2025-08-31,"Austin, TX",Case Oats,End of an Ear (signing only),Case Oats,,https://www.instagram.com/p/DNmC7VOvmxk/,2025-08-24
+476,2025-09-03,"Chicago, IL",Lucky Cloud,The Hideout,"Lucky Cloud, Katy Pinke, Astrachan",,https://hideoutchicago.com/event/lucky-cloud-katy-pinke-astrachan/hideout-chicago/chicago/,2025-08-24
+415,2025-09-05,"Bangor, ME",Waxahatchee,Maine Savings Amphitheater,"Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",,https://link.seated.com/a929b99c-b668-4cf0-818b-112103c0f57a,2025-08-03
+416,2025-09-06,"Hartford, CT",Waxahatchee,Xfinity Theatre,"Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",,https://link.seated.com/deb5c055-43f7-4fbc-98da-7ea8db28f615,2025-08-03
+417,2025-09-07,"Mansfield, MA",Waxahatchee,Xfinity Center,"Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",,https://link.seated.com/011f8954-4fd5-4301-8bd8-d84f695a6596,2025-08-03
+479,2025-09-09,"Chicago, IL",Waxahatchee,Salt Shed,"Waxahatchee, Jessica Pratt, Sharp Pins",,https://link.seated.com/3802395f-4b9e-4068-94d3-6b4f18200031,2025-09-04
+418,2025-09-11,"Louisville, KY",Waxahatchee,Bourbon & Beyond Festival,Bourbon & Beyond Festival,,https://link.seated.com/4b09d5f4-cc91-4c26-a410-604dd17eab6f,2025-08-03
+419,2025-09-12,"Camden, NJ",Waxahatchee,Freedom Mortgage Pavilion,"Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",,https://link.seated.com/5ff388ff-49ff-4d09-b8a6-83797527ed94,2025-08-03
+420,2025-09-13,"Holmdel, NJ",Waxahatchee,PNC Bank Arts Center,"Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",,https://link.seated.com/c03890b5-df09-44b8-8171-541fc5f027ee,2025-08-03
+480,2025-09-14,"Columbia, MD",Waxahatchee,Merriweather Post Pavilion,"Willie Nelson, Bob Dylan, Sheryl Crow, and Madeline Edwards",,https://link.seated.com/4e1a1a11-5561-46d9-840a-85671cf190e2,2025-09-04
+481,2025-09-16,"Cleveland, OH",Waxahatchee,The Roxy,"Waxahatchee, Bill Fox",,https://link.seated.com/76c947e6-58e2-4b91-a5c0-83f66abd1402,2025-09-04
+482,2025-09-18,"Noblesville, IN",Waxahatchee,Ruoff Music Center,"Willie Nelson, Bob Dylan, Sheryl Crow, and Madeline Edwards",,https://link.seated.com/3f648119-a473-423b-bc08-762a70c11b52,2025-09-04
+421,2025-09-19,"East Troy, WI",Waxahatchee,Alpine Valley Music Theatre,"Willie Nelson, Bob Dylan, Sheryl Crow, Waxahatchee, and Madeline Edwards",,https://link.seated.com/0f02858e-533b-403c-9022-b594bb107d1f,2025-08-03
+484,2025-10-04,"San Francisco, CA",Jeff Tweedy,Hardly Strictly Bluegrass,Hardly Strictly Bluegrass,,https://wilcoworld.net/tour_date_type/4-oct-san-francisco-ca-hardly-strictly-bluegrass/,2025-09-16
+483,2025-09-25,"Chicago, IL",Jeff Tweedy,Adler Planetarium,Jeff Tweedy,,https://wilcoworld.net/tour_date_type/25-sept-2025-chicago-il-secret-location/,2025-09-16
+478,2025-09-20,"Minneapolis, MN",Waxahatchee,Farm Aid 40,"Willie Nelson, Neil Young, John Mellencamp, and more",,https://link.seated.com/cc46249d-6723-42c3-bf25-2994e80c26d6,2025-08-25
+422,2025-10-08,"Three Oaks, MI",Jeff Tweedy,Acorn Theater,"Jeff Tweedy, Sima Cunningham",,https://wilcoworld.net/tour_date_type/8-oct-2025-three-oaks-mi-acorn-theater/,2025-08-03
+423,2025-10-10,"Toronto, ON",Jeff Tweedy,The Concert Hall,"Jeff Tweedy, Macie Stewart",,https://link.dice.fm/l68aec20ba3e,2025-08-03
+424,2025-10-11,"Montreal, QC",Jeff Tweedy,Théâtre Beanfield,"Jeff Tweedy, Liam Kazar",,https://www.ticketmaster.ca/event/310062E8C6F21FB0?lang=en-ca&brand=evenko,2025-08-03
+425,2025-10-13,"Burlington, VT",Jeff Tweedy,Higher Ground,"Jeff Tweedy, Sima Cunningham",,https://wl.seetickets.us/event/jeff-tweedy/657631?afflky=HigherGround,2025-08-03
+426,2025-10-14,"Lebanon,  NH",Jeff Tweedy,Lebanon Opera House,"Jeff Tweedy, Macie Stewart",,https://lebanonoperahouse.my.salesforce-sites.com/ticket/#/events/a0SUU000001752P2AQ,2025-08-03
+428,2025-10-16,"Portland, ME",Jeff Tweedy,The State Theatre,"Jeff Tweedy, Liam Kazar",,https://www.ticketmaster.com/event/010062EABB3F68EA,2025-08-03
+429,2025-10-17,"Norwalk, CT",Jeff Tweedy,District Music Hall,"Jeff Tweedy, Sima Cunningham",,https://www.eventbrite.com/e/jeff-tweedy-twilight-override-tour-tickets-1481378275299,2025-08-03
+430,2025-10-18,"Boston, MA",Jeff Tweedy,Royale,"Jeff Tweedy, Macie Stewart",,https://www.axs.com/events/1049303/jeff-tweedy-tickets?skin=boweryboston,2025-08-03
+490,2025-10-21,"New York, NY",Jeff Tweedy,The Late Show With Stephen Colbert,Jeff Tweedy,,,2025-12-30
+431,2025-10-20,"Philadelphia, PA",Jeff Tweedy,Union Transfer,"Jeff Tweedy, Sima Cunningham",,https://www.axs.com/events/1046875/jeff-tweedy-tickets?skin=uniontransfer,2025-08-03
+432,2025-10-22,"New York, NY",Jeff Tweedy,Brooklyn Steel,"Jeff Tweedy, Liam Kazar",,https://www.axs.com/events/1052833/jeff-tweedy-tickets?skin=brooklynsteel,2025-08-03
+433,2025-10-24,"Patchogue, NY",Jeff Tweedy,Patchogue Theatre,"Jeff Tweedy, Macie Stewart",,https://ci.ovationtix.com/34780/performance/11670156,2025-08-03
+434,2025-10-25,"Richmond, VA",Jeff Tweedy,Lewis Ginter Botanical Garden,"Jeff Tweedy, Liam Kazar",,https://www.etix.com/ticket/p/97191721/jeff-tweedy-wspecial-guest-liam-kazar-henrico-lewis-ginter-botanical-garden,2025-08-03
+435,2025-10-26,"Washington, DC",Jeff Tweedy,Lincoln Theater,"Jeff Tweedy, Sima Cunningham",,https://www.ticketmaster.com/event/150062E890DC1541,2025-08-03
+436,2025-10-27,"Washington, DC",Jeff Tweedy,9:30 Club,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/150062E7BAAD24F0,2025-08-03
+437,2025-10-29,"Grundy County, TN",Jeff Tweedy,Caverns,"Jeff Tweedy, Liam Kazar",,https://tixr.com/e/150600,2025-08-03
+491,2025-10-31,"Chicago, IL",Case Oats,Hungry Brain,"Case Oats, Alga, Winefred RT",,,2025-12-30
+438,2025-10-30,"Louisville, KY",Jeff Tweedy,Headliners,"Jeff Tweedy, Sima Cunningham",,https://tixr.com/e/150410,2025-08-03
+439,2025-11-01,"Chicago, IL",Jeff Tweedy,Salt Shed,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/040062EB21BC49CD,2025-08-03
+440,2025-11-05,"Milwaukee, WI",Jeff Tweedy,Pabst Theater,"Jeff Tweedy, Liam Kazar",,https://www.pabsttheatergroup.com/events/detail/jeff-tweedy-2025,2025-08-03
+441,2025-11-06,"Minneapolis, MN",Jeff Tweedy,First Ave,"Jeff Tweedy, Sima Cunningham",,https://wilcoworld.net/tour_date_type/6-nov-2025-minneapolis-mn-first-ave/,2025-08-03
+442,2025-11-08,"Lawrence, KS",Jeff Tweedy,Liberty Hall,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/060062E8EBA22E8F,2025-08-03
+443,2025-11-09,"Tulsa, OK",Jeff Tweedy,Cain's Ballroom,"Jeff Tweedy, Liam Kazar",,https://www.etix.com/ticket/p/30841135/,2025-08-03
+444,2025-11-11,"Dallas, TX",Jeff Tweedy,Longhorn,"Jeff Tweedy, Sima Cunningham",,https://www.prekindle.com/promo/id/-2853111880159915394,2025-08-03
+445,2025-11-12,"Austin, TX",Jeff Tweedy,Paramount Theater,"Jeff Tweedy, Macie Stewart",,https://tickets.austintheatre.org/12807/12808,2025-08-03
+446,2025-11-14,"Houston, TX",Jeff Tweedy,The Heights,"Jeff Tweedy, Liam Kazar",,https://www.prekindle.com/promo/id/-2853111880214572196,2025-08-03
+447,2025-11-15,"New Orleans, LA",Jeff Tweedy,Chickie Wah Wah,"Jeff Tweedy, Sima Cunningham",,https://wilcoworld.net/tour_date_type/15-nov-2025-new-orleans-la-chickie-wah-wah/,2025-08-03
+448,2025-11-16,"New Orleans, LA",Jeff Tweedy,Chickie Wah Wah,"Jeff Tweedy, Macie Stewart",,https://wilcoworld.net/tour_date_type/16-nov-2025-new-orleans-la-chickie-wah-wah/,2025-08-03
+485,2025-11-19,"Germantown, TN",Jeff Tweedy,Germantown PAC,"Jeff Tweedy, Liam Kazar",,,2025-09-16
+449,2025-11-18,"Hattiesburg, MS",Jeff Tweedy,Saenger Theatre,"Jeff Tweedy, Liam Kazar",,https://www.ticketmaster.com/event/1B0062EA9EAF24AA,2025-08-03
+450,2025-11-20,"Bloomington, IN",Jeff Tweedy,Buskirk-Chumley Theater,"Jeff Tweedy, Sima Cunningham",,https://www.ticketmaster.com/event/070062E99AC41714,2025-08-03
+495,2025-12-19,"New York, NY",Jeff Tweedy,Bowery Ballroom,"Yo La Tengo, Jo Firestone, Jeff Tweedy",,,2025-12-30
+494,2025-12-17,"Chicago, IL",Erin Rae,Thalia Hall,"The Lemonheads, Erin Rae",,,2025-12-30
+488,2025-12-13,"Chicago, IL",Case Oats,Schubas,"Case Oats, Oyeme",,https://lh-st.com/shows/12-13-2025-case-oats/,2025-10-29
+493,2025-11-29,"Chicago, IL",Jeff Tweedy,Letters to Santa,Letters to Santa,,https://www.letterscharity.org/,2025-12-30
+492,2025-11-22,"Chicago, IL",Elizabeth Moen,Timber Lanes (sit-in),"Elizabeth Moen, Alex Leeds",,,2025-12-30
+451,2025-11-21,"Madison, WI",Jeff Tweedy,Shannon Hall,"Jeff Tweedy, Macie Stewart",,https://artsticketing.wisc.edu/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=70E247DB-136A-46E9-9CFF-DD10C2892600,2025-08-03
+533,2026-01-17,"Riviera Maya, Mexico",Yo La Tengo,Sky Blue Sky Festival,Sky Blue Sky Festival,,https://wilcoskybluesky.com/,2026-03-01
+535,2026-01-17,"Riviera Maya, Mexico",Golden Smog,Sky Blue Sky Festival,Sky Blue Sky Festival,,https://wilcoskybluesky.com/,2026-03-01
+452,2026-02-11,"Madrid, Spain",Jeff Tweedy,Teatro Eslava,,,https://feverup.com/m/398922,2025-08-03
+453,2026-02-12,"Barcelona, Spain",Jeff Tweedy,Paral-lel 62,,,https://feverup.com/m/386330,2025-08-03
+454,2026-02-14,"Paris, France",Jeff Tweedy,Alhambra,,,https://www.aegpresents.fr/event/jeff-tweedy/,2025-08-03
+455,2026-02-15,"Geneva, Switzerland",Jeff Tweedy,Antigel Festival,,,https://wilcoworld.net/tour_date_type/15-feb-2026-geneva-switzerland-antigel-festival/,2025-08-03
+456,2026-02-17,"Antwerp, Belgium",Jeff Tweedy,De Roma,,,https://apps.ticketmatic.com/widgets/de_roma/flow/roma?event=134549679012,2025-08-03
+457,2026-02-18,"Utrecht, Netherlands",Jeff Tweedy,TivoliVredenburg,,,https://www.tivolivredenburg.nl/agenda/59137635/jeff-tweedy-18-02-2026?utm_source=ext&utm_medium=arbo,2025-08-03
+458,2026-02-20,"London, UK",Jeff Tweedy,Islington Assembly Hall,,,https://wilcoworld.net/tour_date_type/20-feb-2026-london-uk-islington-assembly-hall/,2025-08-03
+507,2026-02-22,"London, UK",Finom,The Lexington,"Finom, Liam Kazar",,https://link.dice.fm/Y8d33ac49310?dice_id=Y8d33ac49310,2025-12-30
+508,2026-02-22,"London, UK",Liam Kazar,The Lexington,"Finom, Liam Kazar",,https://link.dice.fm/Y8d33ac49310?dice_id=Y8d33ac49310,2025-12-30
+459,2026-02-21,"London, UK",Jeff Tweedy,Islington Assembly Hall,,,https://myticket.co.uk/artists/jeff-tweedy,2025-08-03
+486,2025-09-24,"Chicago, IL",Liam Kazar,Judson & Moore Distillery (private),Liam Kazar,,,2025-09-23
+500,2026-01-04,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,Jeff Tweedy,,,2025-12-30
+504,2026-01-16,"Riviera Maya, Mexico",Jeff Tweedy,Sky Blue Sky Festival,Sky Blue Sky Festival,,https://wilcoskybluesky.com/,2025-12-30
+505,2026-01-16,"Riviera Maya, Mexico",Case Oats,Sky Blue Sky Festival,Sky Blue Sky Festival,,https://wilcoskybluesky.com/,2025-12-30
+506,2026-01-15,"Riviera Maya, Mexico",Waxahatchee,Sky Blue Sky Festival,Sky Blue Sky Festival,,https://wilcoskybluesky.com/,2025-12-30
+503,2026-01-08,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,Jeff Tweedy,,,2025-12-30
+501,2026-01-05,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,Jeff Tweedy,,,2025-12-30
+502,2026-01-07,"Los Angeles, CA",Jeff Tweedy,Largo at the Coronet,Jeff Tweedy,,,2025-12-30
+499,2025-12-31,"Chicago, IL",Aux Thom,Color Club,Aux Thom,,https://link.dice.fm/Pb526bf2b694?dice_id=Pb526bf2b694,2025-12-30
+498,2025-12-27,"Chicago, IL",Sammy Tweedy,Color Club,"Sammy Tweedy, Jonah Wallach, rubbersands",,https://dice.fm/event/dk8m5q-sammy-tweedy-jonah-wallach-rubbersands-27th-dec-color-club-chicago-tickets,2025-12-30
+497,2025-12-20,"New York, NY",Jeff Tweedy,The Bitter End,Jeff Tweedy,,,2025-12-30
+509,2026-03-10,"Des Moines, IA",Jeff Tweedy,Hoyt Sherman Place,"Jeff Tweedy, Sima Cunningham",,https://www.ticketmaster.com/event/0600636CE268F7CB,2025-12-30
+510,2026-03-11,"Omaha, NE",Jeff Tweedy,The Waiting Room,"Jeff Tweedy, Macie Stewart",,https://www.etix.com/ticket/p/36988154/,2025-12-30
+511,2026-03-13,"Denver, CO",Jeff Tweedy,The Ogden Theatre,"Jeff Tweedy, Liam Kazar",,https://www.axs.com/events/1225443/jeff-tweedy-tickets,2025-12-30
+512,2026-03-14,"Santa Fe, NM",Jeff Tweedy,The Lensic,"Jeff Tweedy, Sima Cunningham",,https://wilcoworld.net/tour_date_type/14-march-2026-santa-fe-nm-the-lensic/,2025-12-30
+513,2026-03-16,"Phoenix, AZ",Jeff Tweedy,The Van Buren,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/1900636BBD316949,2025-12-30
+569,2026-03-19,"Los Angeles, CA",Jeff Tweedy,Jimmy Kimmel Live!,Jimmy Kimmel Live!,,,2026-06-13
+514,2026-03-17,"Tucson, AZ",Jeff Tweedy,La Rosa Tucson,"Jeff Tweedy, Liam Kazar",,https://wilcoworld.net/tour_date_type/17-march-2026-tucson-az-la-rosa-tucson/,2025-12-30
+515,2026-03-20,"Los Angeles, CA",Jeff Tweedy,The Belasco,"Jeff Tweedy, Sima Cunningham",,https://www.ticketmaster.com/event/0900636ED038562E,2025-12-30
+516,2026-03-21,"Los Angeles, CA",Jeff Tweedy,The United Theater on Broadway,"Jeff Tweedy, Macie Stewart",,https://www.axs.com/events/1231169/jeff-tweedy-tickets,2025-12-30
+517,2026-03-22,"Ventura, CA",Jeff Tweedy,The Ventura Theatre,"Jeff Tweedy, Liam Kazar",,https://www.ticketweb.com/event/jeff-tweedy-with-special-guest-ventura-theater-tickets/14685073,2025-12-30
+518,2026-03-24,"Santa Cruz, CA",Jeff Tweedy,The Rio Theatre,"Jeff Tweedy, Sima Cunningham",,https://wilcoworld.net/tour_date_type/24-march-2026-santa-cruz-ca-the-rio-theatre/,2025-12-30
+519,2026-03-25,"San Francisco, CA",Jeff Tweedy,The Fillmore,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/1C00637048479AAF,2025-12-30
+520,2026-03-26,"San Francisco, CA",Jeff Tweedy,The Fillmore,"Jeff Tweedy, Liam Kazar",,https://wilcoworld.net/tour_date_type/26-march-2026-san-francisco-ca-the-fillmore/,2025-12-30
+521,2026-03-27,"Napa, CA",Jeff Tweedy,Uptown Theatre,"Jeff Tweedy, Sima Cunningham",,https://wilcoworld.net/tour_date_type/27-march-2026-napa-ca-uptown-theatre/,2025-12-30
+522,2026-03-28,"Redding, CA",Jeff Tweedy,Cascade Theatre,"Jeff Tweedy, Macie Stewart",,https://www.etix.com/ticket/p/62900356/jeff-tweedytwilight-override-tour-redding-cascade-theatre,2025-12-30
+523,2026-03-30,"Eugene, OR",Jeff Tweedy,Shedd Jaqua Concert Hall,"Jeff Tweedy, Liam Kazar",,https://tickets.theshedd.org/10441/10442,2025-12-30
+524,2026-03-31,"Portland, OR",Jeff Tweedy,Revolution Hall,"Jeff Tweedy, Liam Kazar",,https://www.etix.com/ticket/p/54164747/jeff-tweedy-twilight-override-tour-night-1-portland-revolution-hall,2025-12-30
+525,2026-04-01,"Portland, OR",Jeff Tweedy,Revolution Hall,"Jeff Tweedy, Sima Cunningham",,https://www.etix.com/ticket/p/76074244/jeff-tweedy-twilight-override-tour-night-2-portland-revolution-hall,2025-12-30
+526,2026-04-02,"Seattle, WA",Jeff Tweedy,The Moore Theater,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/0F006378E75B861F,2025-12-30
+527,2026-04-04,"Vancouver, BC",Jeff Tweedy,Commodore Ballroom,"Jeff Tweedy, Liam Kazar",,https://www.ticketmaster.ca/event/1100636D8EED807E,2025-12-30
+528,2026-04-05,"Victoria, BC",Jeff Tweedy,Royal Theatre,"Jeff Tweedy, Sima Cunningham",,https://admitone.com/events/jeff-tweedy-victoria-10193938,2025-12-30
+529,2026-04-07,"Missoula, MT",Jeff Tweedy,The Wilma,"Jeff Tweedy, Macie Stewart",,https://www.ticketmaster.com/event/1E00636ED2089B01?brand=logjampresents,2025-12-30
+530,2026-04-08,"Great Falls, MT",Jeff Tweedy,The Newberry,"Jeff Tweedy, Liam Kazar",,https://www.etix.com/ticket/p/47796039/jeff-tweedy-with-special-guest-liam-kazar-great-falls-the-newberry,2025-12-30
+531,2026-04-09,"Bozeman, MT",Jeff Tweedy,The ELM,"Jeff Tweedy, Sima Cunningham",,https://www.ticketmaster.com/event/1E00636EE27FA673?brand=logjampresents,2025-12-30
+599,2026-11-07,"Davenport, IA",Case Oats,Capitol Theatre,"Jeff Tweedy, Case Oats",,https://www.axs.com/events/1480580/jeff-tweedy-solo-tickets,2026-06-13
+598,2026-11-06,"Carmel, IN",Case Oats,The Tarkington,"Jeff Tweedy, Case Oats",,https://thecenterpresents.org/tickets-events/events/2627/center-presents/jeff-tweedy/,2026-06-13
+597,2026-11-03,"Providence, RI",Case Oats,Uptown Theater,"Jeff Tweedy, Case Oats",,https://www.uptownpvd.com/events/jeff-tweedy-with-special,2026-06-13
+596,2026-10-31,"Groton, MA",Case Oats,Groton Hill Music Center,"Jeff Tweedy, Case Oats",,https://www.grotonhill.org/concerts/jeff-tweedy-with-special-guest-case-oats.,2026-06-13
+595,2026-10-30,"Great Barrington, MA",Case Oats,Mahaiwe PAC,"Jeff Tweedy, Case Oats",,https://mahaiwe.my.salesforce-sites.com/ticket/#/instances/a0FQK000008N18T2AS,2026-06-13
+594,2026-10-28,"New York, NY",Case Oats,Town Hall,"Jeff Tweedy, Case Oats",,https://www.ticketmaster.com/event/030064C7177526DF,2026-06-13
+593,2026-10-27,"Woodstock, NY",Case Oats,Bearsville Theater,"Jeff Tweedy, Case Oats",,https://www.etix.com/ticket/p/99710988/jeff-tweedy-woodstock-bearsville-theater,2026-06-13
+592,2026-10-26,"Woodstock, NY",Case Oats,Bearsville Theater,"Jeff Tweedy, Case Oats",,https://www.etix.com/ticket/p/40027463/jeff-tweedy-woodstock-bearsville-theater,2026-06-13
+591,2026-10-24,"Ithaca, NY",Case Oats,State Theatre,"Jeff Tweedy, Case Oats",,https://tixr.com/e/193670.,2026-06-13
+590,2026-10-23,"Rochester, NY",Case Oats,RIT PAC,"Jeff Tweedy, Case Oats",,https://rittickets.com/Online/default.asp,2026-06-13
+589,2026-10-21,"Kent, OH",Case Oats,The Kent Stage,"Jeff Tweedy, Case Oats",,https://www.etix.com/ticket/p/69052830/jeff-tweedy-with-special-guest-case-oats-kent-the-kent-stage,2026-06-13
+588,2026-10-20,"Three Oaks, MI",Case Oats,Acorn Theater,"Jeff Tweedy, Case Oats",,https://acornlive.my.salesforce-sites.com/ticket/#/events/a0SPd000004D68XMAS,2026-06-13
+532,2026-06-28,"North Adams, MA",Jeff Tweedy,MASS MoCA,Solid Sound Festival,,https://solidsoundfestival.com/,2025-12-30
+536,2026-05-07,"Columbus, OH",Case Oats,Rumba Cafe,"Case Oats, Henry True",,https://www.ticketweb.com/event/case-oats-henry-true-rumba-cafe-tickets/14745203?pl=celebrity,2026-03-06
+537,2026-05-09,"Brooklyn, NY",Case Oats,Union Pool,"Case Oats, Henry True",,https://link.dice.fm/s8f7358086ef,2026-03-06
+538,2026-05-10,"Philadelphia, PA",Case Oats,Johnny Brendas,"Case Oats, Henry True",,https://www.etix.com/ticket/p/91248032/case-oats-philadelphia-johnny-brendas,2026-03-06
+539,2026-05-12,"Washington, DC",Case Oats,The Pie Shop,"Case Oats, Henry True",,https://app.opendate.io/e/case-oats-w-henry-true-may-12-2026-678740,2026-03-06
+540,2026-05-14,"Cambridge, MA",Case Oats,Club Passim,"Case Oats, Henry True",,https://www.passim.org/live-music/events/case-oats/,2026-03-06
+541,2026-05-15,"Northampton, MA",Case Oats,Iron Horse,"Case Oats, Henry True",,https://theparlorroom.my.salesforce-sites.com/ticket/#/events/a0SV500000BDqbxMAD,2026-03-06
+542,2026-05-16,"Burlington, VT",Case Oats,Radio Bean,"Case Oats, Henry True",,https://www.tickettailor.com/events/radiobean/2090586,2026-03-06
+543,2026-05-18,"Cleveland, OH",Case Oats,Beachland Tavern,"Case Oats, Henry True",,https://app.opendate.io/e/case-oats-may-18-2026-678775,2026-03-06
+544,2026-05-19,"Toronto, ON",Case Oats,The Drake,"Case Oats, Henry True",,https://www.ticketweb.ca/event/case-oats-drake-underground-tickets/14740273?pl=WRITF,2026-03-06
+545,2026-05-20,"Detroit, MI",Case Oats,Lager House,"Case Oats, Henry True",,https://wl.eventim.us/event/case-oats/682898?afflky=KickstandProductions,2026-03-06
+546,2026-05-21,"Bloomington, IN",Case Oats,The Bishop,"Case Oats, Henry True",,https://www.simpletix.com/e/case-oats-tickets-261595,2026-03-06
+547,2026-05-27,"Trondheim, NO",Case Oats,Bar Moskus,Case Oats,,https://moskus.hoopla.no/event/1589969530,2026-03-06
+548,2026-05-28,"Bergen, NO",Case Oats,Victoria Cafe & Pub,Case Oats,,https://perfectsounds.ticketco.events/no/nb/e/280526/tellus,2026-03-06
+572,2026-05-31,"London, UK",Case Oats,BBC Radio 6 Music,Case Oats,,,2026-06-13
+549,2026-05-29,"Halden, NO",Case Oats,Kaktus Fest,Case Oats,,https://kaktusfest.no/,2026-03-06
+550,2026-05-31,"Bristol, UK",Case Oats,The Louisiana,Case Oats,,https://www.axs.com/uk/events/1313774/case-oats-tickets,2026-03-06
+551,2026-06-01,"London, UK",Case Oats,Waiting Room,Case Oats,,https://link.dice.fm/zc21119bd577,2026-03-06
+552,2026-06-02,"Manchester, UK",Case Oats,Gullivers,Case Oats,,https://www.seetickets.com/event/case-oats/gullivers/3598624,2026-03-06
+553,2026-06-03,"Glasgow, UK",Case Oats,The Hug and Pint,Case Oats,,https://thehugandpint.seetickets.com/event/case-oats/the-hug-and-pint/3600779,2026-03-06
+573,2026-06-06,"Madrid, ES",Case Oats,Block Party Festival,Block Party Festival,,,2026-06-13
+554,2026-06-05,"Madrid, ES",Case Oats,Fun House,Case Oats,,https://ticketmaster.evyy.net/c/219208/2038750/23886?u=https%3A%2F%2Fwww.ticketmaster.es%2Fevent%2Fcase-oats-entradas%2F822960793&utm_medium=affiliate,2026-03-06
+555,2026-06-07,"Barcelona, ES",Case Oats,Aclam,Case Oats,,https://www.aclamclub.cat/activitats/case-oats/,2026-03-06
+556,2026-06-08,"València, ES",Case Oats,16 Toneladas,Case Oats,,https://www.16toneladas.com/events/event/case-oaks/,2026-03-06
+574,2026-06-20,"Bloomington, IN",Waxahatchee,Switchyard Park,"Waxahatchee, Kathleen Edwards",,https://www.visitbloomington.com/event/waxahatchee%3A-granfalloon-concert-series-at-switchyard-park/58753/,2026-06-13
+557,2026-06-09,"San Sebastián, ES",Case Oats,Dabadaba,Case Oats,,https://link.dice.fm/p57a724bec8e,2026-03-06
+558,2026-06-21,"Baltimore, MD",Case Oats,Metro Baltimore,"S.G. Goodman, Case Oats",,https://link.dice.fm/w4d6bc6e8b56,2026-03-06
+559,2026-06-23,"Pittsburgh, PA",Case Oats,Thunderbird Café & Music Hall,"S.G. Goodman, Case Oats",,https://www.etix.com/ticket/p/90375034/sggoodman-pittsburgh-thunderbird-caf%C3%A9-music-hall,2026-03-06
+560,2026-06-24,"Lancaster, PA",Case Oats,West Art,"S.G. Goodman, Case Oats",,https://www.westartlanc.com/concert/sg-goodman-and-case-oats,2026-03-06
+561,2026-04-16,"Philadelphia, PA",Liam Kazar,Underground Arts,"Cut Worms, Liam Kazar",,https://www.tixr.com/e/169917,2026-03-06
+562,2026-04-17,"Washington, DC",Liam Kazar,Union Stage,"Cut Worms, Liam Kazar",,https://app.opendate.io/e/cut-worms-april-17-2026-629981?utm_source=bandsintown,2026-03-06
+570,2026-04-19,"Marshall, NC",Liam Kazar,Tea Tent,"Liam Kazar, Julie Opell, Special Strength",,,2026-06-13
+563,2026-04-18,"Durham, NC",Liam Kazar,Motorco Music Hall,"Cut Worms, Liam Kazar",,https://motorcomusic.com/event/cut-worms/,2026-03-06
+564,2026-04-20,"Atlanta, GA",Liam Kazar,The Earl,"Cut Worms, Liam Kazar",,https://www.freshtix.com/events/cut-worms-the-earl-2,2026-03-06
+565,2026-04-21,"Nashville, TN",Liam Kazar,Basement East,"Cut Worms, Liam Kazar",,https://www.ticketweb.com/event/cut-worms-w-liam-kazar-the-basement-east-tickets/14076694?utm_medium=affiliate&irgwc=1&afsrc=1&clickid=Q96T%3ArxiAxyZUDiVX6xh0SpbUkuzwBQZI1M8T80&camefrom=CFC_BUYAT_219208&impradid=219208&REFERRAL_ID=tmfeedbuyat219208&wt.mc_id=aff_BUYAT_219208&utm_source=219208-Bandsintown&impradname=Bandsintown&ircid=4272,2026-03-06
+566,2026-04-23,"Fayetteville, AR",Liam Kazar,George's Majestic,"Cut Worms, Liam Kazar",,https://stubs.net/event/7645/cut-worms,2026-03-06
+567,2026-04-24,"Denton, TX",Liam Kazar,Rubber Gloves,"Cut Worms, Liam Kazar",,https://www.prekindle.com/event/44429-cut-worms-denton,2026-03-06
+571,2026-04-27,"Chicago, IL","Waxahatchee,MJ Lenderman",The Auditorium Theatre,"Waxahatchee and MJ Lenderman, Brennan Wedl",,,2026-06-13
+568,2026-04-25,"Austin, TX",Liam Kazar,Mohawk,"Cut Worms, Liam Kazar",,https://www.etix.com/ticket/p/64606984/cut-worms-austin-resound-presents?clickref=1011lCaxvmQ7,2026-03-06
