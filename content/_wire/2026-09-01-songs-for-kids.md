@@ -1,5 +1,5 @@
 ---
-title: "Songs For Kids Sings Pavement”
+title: "Songs For Kids Sing Pavement"
 show_title: true
 link: https://www.instagram.com/p/DcwBFsJRzyz/
 ---
