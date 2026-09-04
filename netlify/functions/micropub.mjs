@@ -65,6 +65,10 @@ exports.handler = async (event) => {
 
   // 2. Build the post.
   const props = parsed.properties || {};
+  if (pick(props["post-status"]) === "draft")
+	return json(400, { error: "invalid_request",
+	  error_description: "drafts not supported" }, cors);
+  
   const title = pick(props.name);
   const content = pick(props.content) || parsed.content || "";
   const category = props.category || parsed.category || [];
