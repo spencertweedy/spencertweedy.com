@@ -86,6 +86,7 @@ exports.handler = async (event) => {
   const filename = `${yyyy}-${mm}-${dd}-${slug}.md`;
   const dir = process.env.POSTS_DIR || "_posts";
   const path = `${dir}/${filename}`;
+  const permalinkPrefix = dir.match(/(?:^|\/)_(.*)/)?.[1] ?? dir;
 
   const front = {
 	date: date.toISOString(),
@@ -134,7 +135,7 @@ exports.handler = async (event) => {
   }
 
   // 4. Return 201 with the post URL.
-  const postUrl = `${expected}${yyyy}/${mm}/${dd}/${slug}.html`;
+  const postUrl = `${expected}${permalinkPrefix}${yyyy}/${mm}/${dd}/${slug}/`;
   return { statusCode: 201, headers: { ...cors, Location: postUrl }, body: "" };
 };
 
