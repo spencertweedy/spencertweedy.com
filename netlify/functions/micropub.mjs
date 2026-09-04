@@ -88,7 +88,6 @@ exports.handler = async (event) => {
   const path = `${dir}/${filename}`;
 
   const front = {
-	layout: isArticle ? "post" : "note",
 	date: date.toISOString(),
   };
   if (title) front.title = title;
