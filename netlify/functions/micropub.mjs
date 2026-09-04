@@ -135,7 +135,7 @@ exports.handler = async (event) => {
   }
 
   // 4. Return 201 with the post URL.
-  const postUrl = `${expected}${permalinkPrefix}${yyyy}/${mm}/${dd}/${slug}/`;
+  const postUrl = `${expected}${permalinkPrefix}/${yyyy}/${mm}/${dd}/${slug}/`;
   return { statusCode: 201, headers: { ...cors, Location: postUrl }, body: "" };
 };
 
