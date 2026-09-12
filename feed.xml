@@ -23,7 +23,7 @@ layout: null
           {% else %}
             <link>{{ post.url | prepend: site.url }}</link>
           {% endif %}
-          <description>{{ post.content | escape }}</description>
+          <description>{{ post.content | markdownify | xml_escape }}</description>
           <guid>{{ post.url | prepend: site.url }}</guid>
       </item>
     {% endfor %}
