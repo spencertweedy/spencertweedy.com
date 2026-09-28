@@ -3,37 +3,14 @@ layout: page
 permalink: "/"
 ---
 
-<div class="flex flex-col md:flex-row gap-16 md:gap-12 justify-between items-center md:items-start">
-	<div class="basis-[65%] max-w-[500px] space-y-12">
-		{% include wire.html limit=30 %}
-	</div>
-
+<div class="flex flex-col md:flex-row-reverse gap-8 justify-between items-center md:items-start">
 	<div class="basis-[35%] space-y-4">
-		<a href="{% link pages/about.md %}"><img class="rounded-3xl mb-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
+		<a href="{% link pages/about.md %}"><img class="rounded-3xl mx-auto" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
 		
-		<p>Welcome to my computer apartment. <br>Let’s hear it for the open web. <br>Thanks for being here.</p>
-
-		<section>
-			<ul>
-				<li><a href="{% link pages/about.md %}">About</a></li>
-				<li><a href="{% link pages/releases/releases.html %}">Music</a></li>
-				<li><a href="{% link pages/shows/shows.html %}">Tour dates</a></li>
-				<li><a href="{% link pages/books.md %}">My books</a></li>
-				<li><a href="https://www.instagram.com/spencertweedy">My Instagram</a></li>
-				<li><a href="{{ site.subscribe_url }}">My newsletter</a></li>
-				<li><a href="{% link pages/now.md %}">Now</a></li>
-				<li><a href="{% link feed.xml %}">Subscribe via RSS</a></li>
-				<li><a href="{% link pages/contact.md %}">Contact</a></li>
-			</ul>
-		</section>
-
-		<section class="border-t border-black/10 dark:border-white/20 pt-4 flex *:flex-shrink-0 flex-wrap justify-center gap-2">
-			<a href="{% link feed.xml %}" target="_blank"><img src="{% link _uploads/rss.gif %}" alt="Subscribe via RSS badge"></a>
-			<a href="mailto:{{ site.email }}" target="_blank"><img src="{% link _uploads/reply-via-email.gif %}" alt="Reply via email badge"></a>
-			<a href="https://www.apple.com/mac/" target="_blank"><img src="{% link _uploads/made-on-macintosh.gif %}" alt="Made on Macintosh badge"></a>
-			<a href="https://kagi.com/smallweb/" target="_blank"><img src="{% link _uploads/kagi-small-web.gif %}" alt="Kagi Small Web webring graphic - the Kagi.com dog is a ship hurtling through space"></a>
-			<a href="https://indieweb.org/" target="_blank"><img src="{% link _uploads/indieweb-retro.gif %}" alt="An IndieWeb.org badge"></a>
-			<a href="https://lmnt.me/badges/" target="_blank"><img src="{% link _uploads/lmnt-animated.gif %}" alt="LMNT badge"></a>
-		</section>
+		<p class="italic text-center">Welcome to my internet apartment.</p>
+	</div>
+	
+	<div class="basis-[65%] max-w-[500px]">
+		{% include wire.html limit=30 %}
 	</div>
 </div>
