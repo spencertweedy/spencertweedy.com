@@ -70,34 +70,41 @@
     <link rel="me" href="https://github.com/spencertweedy">
 </head>
 
-<body class="min-h-screen flex flex-col items-center">
-    <header id="site-header" class="w-full mx-auto pt-8 pb-4 px-[3vw] border-b border-black/10 dark:border-white/15 font-sans">
-        <div class="max-w-[880px] mx-auto flex justify-between gap-4">
-            <a href="#site-content" class="sr-only">Skip to content</a>
-
-            <a href="{% link pages/index.html %}" class="flex justify-start items-center gap-2 flex-shrink-0">
-                <div class="bg-yellow-400 p-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" class="w-6 fill-black relative -top-px"><path d="M109.3 31.7c-1-1-2.6-1-3.5 0L92.5 45c-7.5-2.5-17-4-27.5-4-25.7 0-45 8.6-45 20v30.2c.2 11.3 19.5 19.8 45 19.8s44.8-8.5 45-19.8V61c0-5.6-4.7-10.5-12.4-14.1l11.7-11.7c.9-.9.9-2.5 0-3.5-1-.9.9 1 0 0ZM25 91.1l1.5-10.5 4.6 18.1c-3.8-2.4-6-5-6.1-7.6Zm5-17.3c4 2.2 9 3.9 14.7 5.1l-9 17.4L30 73.8Zm8.5 28.2 10-19.5 12.3 23.4c-8.8-.3-16.4-1.8-22.3-3.9ZM53 80.3c3.8.4 7.8.7 12 .7s8.2-.2 12-.7l-12 22.8-12-22.8Zm16.2 25.6 12.3-23.4 10 19.5c-5.9 2.1-13.5 3.6-22.3 3.9ZM85.3 79c5.8-1.2 10.8-3 14.7-5.1l-5.8 22.5L85.3 79Zm13.5 19.7 4.6-18.1 1.6 10.5c-.1 2.6-2.3 5.2-6.2 7.6ZM105 61c0 7.1-16.4 15-40 15s-40-7.9-40-15 16.4-15 40-15c9.1 0 17 1.2 23.5 3L78.2 59.2c-2.3 2.3 1.3 5.8 3.5 3.5l12-12c7.2 3 11.3 6.7 11.3 10.3ZM56.8 35.9c3.1.9 4.5-3.9 1.4-4.8l-35-10c-3.1-.9-4.5 3.9-1.4 4.8l35 10Z"/></svg>
-                </div>
-                <span id="site-title" class="sr-only sm:not-sr-only">{{ site.title }}</span>
-            </a>
-
-            <nav class="flex gap-3 items-center text-end overflow-x-scroll text-nowrap">
-                <a href="{% link pages/releases/releases.html %}">Music</a>
-                <a href="{% link pages/shows/shows.html %}">Shows</a>
-                <a href="https://store.spencertweedy.com/">Books</a>
-                <a href="{% link pages/about.md %}">About</a>
-                <a href="{{ site.subscribe_url }}" class="text-blue-600 dark:text-obs-green">Subscribe</a>
-            </nav>
-        </div>
+<body class="flex flex-col px-4 gap-8 md:gap-16">
+    <a href="#site-content" class="sr-only">Skip to content</a>
+    
+    <header id="site-header" class="mt-4 md:mt-8 w-full space-y-4 max-w-[640px] mx-auto">
+        <a href="{% link pages/index.html %}" class="border-standard w-full p-4 flex justify-center bg-yellow-400 items-center gap-2 flex-shrink-0 text-xl">
+            <div class="bg-yellow-400 p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" class="w-6 fill-black relative -top-px"><path d="M109.3 31.7c-1-1-2.6-1-3.5 0L92.5 45c-7.5-2.5-17-4-27.5-4-25.7 0-45 8.6-45 20v30.2c.2 11.3 19.5 19.8 45 19.8s44.8-8.5 45-19.8V61c0-5.6-4.7-10.5-12.4-14.1l11.7-11.7c.9-.9.9-2.5 0-3.5-1-.9.9 1 0 0ZM25 91.1l1.5-10.5 4.6 18.1c-3.8-2.4-6-5-6.1-7.6Zm5-17.3c4 2.2 9 3.9 14.7 5.1l-9 17.4L30 73.8Zm8.5 28.2 10-19.5 12.3 23.4c-8.8-.3-16.4-1.8-22.3-3.9ZM53 80.3c3.8.4 7.8.7 12 .7s8.2-.2 12-.7l-12 22.8-12-22.8Zm16.2 25.6 12.3-23.4 10 19.5c-5.9 2.1-13.5 3.6-22.3 3.9ZM85.3 79c5.8-1.2 10.8-3 14.7-5.1l-5.8 22.5L85.3 79Zm13.5 19.7 4.6-18.1 1.6 10.5c-.1 2.6-2.3 5.2-6.2 7.6ZM105 61c0 7.1-16.4 15-40 15s-40-7.9-40-15 16.4-15 40-15c9.1 0 17 1.2 23.5 3L78.2 59.2c-2.3 2.3 1.3 5.8 3.5 3.5l12-12c7.2 3 11.3 6.7 11.3 10.3ZM56.8 35.9c3.1.9 4.5-3.9 1.4-4.8l-35-10c-3.1-.9-4.5 3.9-1.4 4.8l35 10Z"/></svg>
+            </div>
+            <span id="site-title" class="">{{ site.title }}</span>
+        </a>
+        
+        <nav class="w-full text-center flex gap-2 justify-center *:link">
+            <a href="{% link pages/releases/releases.html %}">Music</a>
+            <a href="{% link pages/shows/shows.html %}">Tour</a>
+            <a href="https://store.spencertweedy.com/">Store</a>
+            <a href="{% link pages/about.md %}">About</a>
+            <a href="{% link pages/subscribe.md %}" class="flex gap-1 items-center">Subscribe <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><rect width="16" height="16" rx="3" fill="#F78422"/><circle cx="4.5" cy="11.5" r="1.5" fill="#fff"/><path d="M3 7.5a5.5 5.5 0 0 1 5.5 5.5M3 3.5a9.5 9.5 0 0 1 9.5 9.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg></a>
+        </nav>
     </header>
     
-    <main id="site-content" class="my-24 mx-auto w-full px-[3vw]">
+    <main id="site-content" class="mx-auto w-full">
         {{ content }}
     </main>
     
-    <footer class="w-full px-[3vw] text-center pb-8 pt-4 text-sm border-t border-black/10 dark:border-white/15">
-        <nav class="font-sans flex gap-3 flex-wrap justify-center">
+    <footer class="my-8 w-full space-y-4 max-w-[640px] mx-auto">
+        <div class="flex *:flex-shrink-0 flex-wrap justify-center gap-2">
+            <a href="{% link feed.xml %}" target="_blank"><img src="{% link _uploads/rss.gif %}" alt="Subscribe via RSS badge"></a>
+            <a href="mailto:{{ site.email }}" target="_blank"><img src="{% link _uploads/reply-via-email.gif %}" alt="Reply via email badge"></a>
+            <a href="https://www.apple.com/mac/" target="_blank"><img src="{% link _uploads/made-on-macintosh.gif %}" alt="Made on Macintosh badge"></a>
+            <a href="https://kagi.com/smallweb/" target="_blank"><img src="{% link _uploads/kagi-small-web.gif %}" alt="Kagi Small Web webring graphic - the Kagi.com dog is a ship hurtling through space"></a>
+            <a href="https://indieweb.org/" target="_blank"><img src="{% link _uploads/indieweb-retro.gif %}" alt="An IndieWeb.org badge"></a>
+            <a href="https://lmnt.me/badges/" target="_blank"><img src="{% link _uploads/lmnt-animated.gif %}" alt="LMNT badge"></a>
+        </div>
+        
+        <nav class="p-4 w-full text-sm border-standard flex gap-2 flex-wrap justify-center">
             <a href="{% link pages/index.html %}">{{ site.title }}</a>
             {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
             <a href="mailto:{{ site.email }}">Contact</a>
