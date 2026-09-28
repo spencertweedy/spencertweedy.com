@@ -140,9 +140,13 @@
 	.reg-spacing {
 		@apply my-4 first:mt-0 last:mb-0;
 	}
+	
+	.border-standard {
+		@apply border-2 border-dotted border-black dark:border-white;
+	}
 
 	h1, .h1 {
-		@apply text-3xl mb-8 font-sans font-bold;
+		@apply text-3xl mb-4 font-sans font-bold;
 	}
 
 	h2, .h2 {
