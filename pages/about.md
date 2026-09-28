@@ -43,8 +43,6 @@ I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [r
 - [Max Subar](https://maxsubar.bandcamp.com/album/max-subar)
 - [Tory P-Lopez](https://www.instagram.com/ripley.rocks/)
 
-<img class="rounded-3xl w-full my-8" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert">
-
 ## Special Projects, Hare-Brained Schemes, and Failed Experiments
 
 **Observations books.** In 2018, I started a [daily blog]({% link pages/observations/index.html %}) about interesting things and people I encountered out in the world. I published at least one item on it every day until 2023, when I stopped liking the rigid format. Over the course of the blog I published [two paper chapbooks]({% link pages/books.md %}) compiling my favorite posts.
