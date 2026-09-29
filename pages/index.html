@@ -3,14 +3,46 @@ layout: page
 permalink: "/"
 ---
 
-<div class="flex flex-col md:flex-row-reverse gap-8 justify-between items-center md:items-start">
-	<div class="basis-[35%] space-y-4">
+<div class="grid gap-8 md:grid-cols-[1fr_300px] md:grid-rows-[auto_1fr]">
+	<div class="md:col-start-2 md:row-start-1 space-y-4">
 		<a href="{% link pages/about.md %}"><img class="border-standard mx-auto" src="{% link _uploads/colbert.gif %}" alt="Spencer performs on The Late Show with Stephen Colbert"></a>
 		
 		<p class="italic text-center">Welcome to my internet apartment.</p>
 	</div>
 	
-	<div class="basis-[65%] max-w-[500px]">
+	<div class="md:col-start-1 md:row-span-2 md:row-start-1">
 		{% include wire.html limit=30 %}
 	</div>
+	
+	<aside class="md:col-start-2 md:row-start-2">
+		<h4>Recent releases</h4>
+		
+		{% assign sorted = "" | split: "" %}
+		{% assign years = site.releases | group_by: "year" | sort: "name" | reverse %}
+		{% for year in years %}
+			{% assign items = year.items | sort: "date" %}
+			{% assign sorted = sorted | concat: items %}
+		{% endfor %}
+		
+		<ul>
+		{% for release in sorted limit:5 %}
+			<li><a href="{{ release.listen }}" target="_blank">{{ release.title }}{% unless release.artist == "Spencer Tweedy" %} by {{ release.artist }}{% endunless %}</a></li>
+		{% endfor %}
+		</ul>
+		<p><a href="{% link pages/music.html %}">View all &rarr;</a></p>
+		
+		<h4>Upcoming shows</h4>
+		{% assign shows = site.data.shows | sort:"Date" %}
+		{% assign today_date = "now" | date: "%s" %}
+		
+		<ul>
+		{% for show in shows %}
+			{% assign show_date = show["Date"] | date: "%s" %}
+			{% if show_date > today_date %}
+				<li><a href="{{ show['Link'] }}">{{ show["Location"] }} with {{ show["Artist"] }}</a></li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+		<p><a href="{% link pages/shows.html %}">More info &rarr;</a></p>
+	</aside>
 </div>
