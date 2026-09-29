@@ -28,7 +28,7 @@
 	}
 	
 	p {
-		@apply sansAlt;
+		@apply spacing-standard sansAlt;
 	}
 	
 	p:first-child {
@@ -73,7 +73,7 @@
 	}
 	
 	blockquote {
-		@apply border-s-2 ms-px space-y-4 border-current ps-4 reg-spacing clear-start;
+		@apply border-s-2 ms-px space-y-4 border-current ps-4 spacing-standard clear-start;
 	}
 
 	blockquote:first-child {
@@ -85,11 +85,11 @@
 	}
 
 	ul {
-		@apply sansAlt list-[square] ms-4 space-y-1 reg-spacing;
+		@apply sansAlt list-[square] ms-4 space-y-1 spacing-standard;
 	}
 
 	ol {
-		@apply sansAlt list-decimal ms-4 space-y-1 reg-spacing;
+		@apply sansAlt list-decimal ms-4 space-y-1 spacing-standard;
 	}
 
 	ul a,
@@ -137,7 +137,7 @@
 }
 
 @layer utilities {
-	.reg-spacing {
+	.spacing-standard {
 		@apply my-4 first:mt-0 last:mb-0;
 	}
 	
@@ -150,7 +150,7 @@
 	}
 
 	h2, .h2 {
-		@apply text-xl font-sans font-bold mb-2;
+		@apply text-xl font-sans font-bold mt-8 mb-4;
 	}
 
 	h3, .h3 {
