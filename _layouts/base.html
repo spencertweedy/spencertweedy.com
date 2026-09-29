@@ -104,8 +104,8 @@
             <a href="https://lmnt.me/badges/" target="_blank"><img src="{% link _uploads/lmnt-animated.gif %}" alt="LMNT badge"></a>
         </div>
         
-        <nav class="p-4 w-full text-sm border-standard flex gap-2 flex-wrap justify-center">
-            <a href="{% link pages/index.html %}">{{ site.title }}</a>
+        <nav class="p-4 w-full text-sm *:link flex gap-2 flex-wrap justify-center">
+            {% unless page.url == "/" %}<a href="{% link pages/index.html %}">Home</a>{% endunless %}
             {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
             <a href="mailto:{{ site.email }}">Contact</a>
         </nav>
