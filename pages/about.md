@@ -7,17 +7,15 @@ width: constrained
 
 I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/releases/releases.html %}) and [tour]({% link pages/shows/shows.html %}). I’ve been blogging since I was twelve.
 
-<div class="space-y-8">
-	<div class="space-y-2">
-		<h2>Featured albums</h2>
-		{% include release-carousel.html show_featured=true %}
-		<p><a href="#">View all &rarr;</a> <br><a href="#">Listen in a playlist &rarr;</a></p>
-	</div>
-	<div class="space-y-2">
-		<h2>My own records</h2>
-		{% include release-carousel.html artist="Spencer Tweedy" %}
-	</div>
-</div>
+## Featured albums
+
+{% include release-carousel.html show_featured=true %}
+
+[View all &rarr;]({% link pages/releases/releases.html %})
+
+## My own records
+
+{% include release-carousel.html artist="Spencer Tweedy" %}
 
 ## Links
 
