@@ -97,7 +97,7 @@
     <footer class="my-8 w-full space-y-4 max-w-[640px] mx-auto">
         <div class="flex *:flex-shrink-0 flex-wrap justify-center gap-2">
             <a href="{% link feed.xml %}" target="_blank"><img src="{% link _uploads/rss.gif %}" alt="Subscribe via RSS badge"></a>
-            <a href="mailto:{{ site.email }}" target="_blank"><img src="{% link _uploads/reply-via-email.gif %}" alt="Reply via email badge"></a>
+            <a href="{% link pages/contact.md %}" target="_blank"><img src="{% link _uploads/reply-via-email.gif %}" alt="Reply via email badge"></a>
             <a href="https://www.apple.com/mac/" target="_blank"><img src="{% link _uploads/made-on-macintosh.gif %}" alt="Made on Macintosh badge"></a>
             <a href="https://kagi.com/smallweb/" target="_blank"><img src="{% link _uploads/kagi-small-web.gif %}" alt="Kagi Small Web webring graphic - the Kagi.com dog is a ship hurtling through space"></a>
             <a href="https://indieweb.org/" target="_blank"><img src="{% link _uploads/indieweb-retro.gif %}" alt="An IndieWeb.org badge"></a>
@@ -107,7 +107,7 @@
         <nav class="p-4 w-full text-sm *:link flex gap-2 flex-wrap justify-center">
             {% unless page.url == "/" %}<a href="{% link pages/index.html %}">Home</a>{% endunless %}
             {% unless page.url == "/colophon" %}<a href="{% link pages/colophon.md %}">Colophon</a>{% endunless %}
-            <a href="mailto:{{ site.email }}">Contact</a>
+            <a href="{% link pages/contact.md %}">Contact</a>
         </nav>
     </footer>
     
