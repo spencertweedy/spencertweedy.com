@@ -5,7 +5,7 @@ layout: page
 width: constrained
 ---
 
-I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/music.html %}) and [tour]({% link pages/shows/shows.html %}). I’ve been blogging since I was twelve.
+I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/music.html %}) and [tour]({% link pages/shows.html %}). I’ve been blogging since I was twelve.
 
 ## Featured albums
 
