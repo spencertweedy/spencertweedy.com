@@ -2,7 +2,7 @@
 {% assign secondary = include.secondary_artist | strip %}
 
 <div class="space-y-2">
-    <div class="grid grid-cols-3 md:grid-cols-4 gap-2">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
         {% if artist.size > 0 %}
             {% assign releases = site.releases | where_exp: "release", "release.artist == artist or release.artist == secondary" | sort: "year" | reverse %}
         {% elsif include.show_featured == true %}
