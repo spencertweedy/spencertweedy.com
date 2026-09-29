@@ -19,15 +19,14 @@ I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [r
 
 ## Links
 
-- [Instagram](https://www.instagram.com/spencertweedy)
-- [My books]({% link pages/books.md %})
-- [My newsletter]({{ site.subscribe_url }})
+- [Now page]({% link pages/now.md %})
+- [My Instagram](https://www.instagram.com/spencertweedy)
 - [Case Oats](https://caseoats.com/), Casey’s band
 - [The Pocket](https://pocketchicago.com/), a recording studio I co-run
 - [Avrom Farm Party](https://avromfarmparty.com/), a music and food festival I co-founded
 - [Starship Casual](https://jefftweedy.substack.com/), my dad’s newsletter
 - [The Tweedy Show](https://thetweedyshow.com/), our livestream show
-- [Contact]({% link pages/contact.md %})
+- [Contact me]({% link pages/contact.md %})
 
 ## Some of my close friends and collaborators
 
