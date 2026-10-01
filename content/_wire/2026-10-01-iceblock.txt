@@ -1,0 +1,11 @@
+---
+title: Apple Explains Why It Removed ICE Tracking Apps Last Year
+show_title: true
+link: https://www.macrumors.com/2026/09/29/apple-explains-why-it-removed-ice-tracking-apps/
+---
+
+I (think I) understand the calculation, that the fight over this particular app is not the hill they want to die on with the Trump administration. But I still find it despicable that Apple bent the definition of their own rules this way.
+
+The app is banned because it provides “location information about law enforcement officers that can be used to harm such officers individually or as a group.” Location information about your friends in Find My can be used to harm your friends individually or as a group. Does that mean Apple should ban their own Find My app?
+
+The purpose of ICE-tracking apps isn’t to go and hurt ICE officers; it’s to stop them from kidnapping or killing people.
