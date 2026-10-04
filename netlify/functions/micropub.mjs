@@ -1,6 +1,6 @@
 // netlify/functions/micropub.mjs
 // Micropub endpoint for a Jekyll site. Verifies bearer tokens against
-// tokens.indieauth.com, then commits a markdown post to GitHub, which
+// indiekey.id/token, then commits a markdown post to GitHub, which
 // triggers a Netlify rebuild.
 //
 // Required env vars:
@@ -12,7 +12,7 @@
 //
 // Written primarily by Claude
 
-const TOKEN_ENDPOINT = "https://tokens.indieauth.com/token";
+const TOKEN_ENDPOINT = "https://indiekey.id/token";
 
 exports.handler = async (event) => {
   const cors = {
