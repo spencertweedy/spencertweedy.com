@@ -7,7 +7,7 @@
         <div class="space-y-6 border-b border-dashed border-black/30 dark:border-white/15">
             {% for post in day.items reversed %}
                 <article id="{{ post.slug }}" class="{% unless forloop.last %}border-b border-dashed border-black/30 dark:border-white/15{% endunless %} pb-6 space-y-4 break-inside-avoid">
-                    <h3 class="{% unless post.show_title %}sr-only {% endunless %}"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }} <span class="link relative -top-[0.075em]">⚓︎</span></a></h3>
+                    <h3 class="{% unless post.show_title %}hidden {% endunless %}"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }} <span class="link relative -top-[0.075em]">⚓︎</span></a></h3>
                     
                     {{ post.content | markdownify }}
 
