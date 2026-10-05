@@ -5,17 +5,13 @@ layout: page
 width: constrained
 ---
 
-I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/music.html %}) and [tour]({% link pages/shows.html %}). I’ve been blogging since I was twelve.
+I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/music.html %}) and [tour]({% link pages/shows.html %}).
 
 ## Featured albums
 
 {% include release-carousel.html show_featured=true %}
 
 [View all &rarr;]({% link pages/music.html %})
-
-## My own records
-
-{% include release-carousel.html artist="Spencer Tweedy" %}
 
 ## Links
 
