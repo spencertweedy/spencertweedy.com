@@ -1,0 +1,21 @@
+# Additional settings for Jekyll Picture Tag plug-in
+
+# Based off Tailwind defaults
+media_queries:
+  sm: 'max-width: 640px'
+  md: 'max-width: 768px'
+
+presets:
+  default:
+    widths: [400, 600, 800, 1200]
+    sizes:
+      md: 800px
+      sm: 600px
+    size: 100vw
+  release:
+    widths: [100, 200, 300]
+    fallback_width: 300
+    sizes:
+      md: 300px
+      sm: 200px
+    size: 100px

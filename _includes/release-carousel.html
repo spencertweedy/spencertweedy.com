@@ -11,7 +11,7 @@
         {% for release in releases %}
             <div class="">
                 <a href="{{ release.listen }}" target="_blank" class="">
-                    <div class="w-full flex-shrink-0 mb-2">{% picture "{{ release.image }}" --alt {{ release.title }} artwork --img class="w-full border border-black/10 dark:border-white/20" %}</div>
+                    <div class="w-full flex-shrink-0 mb-2">{% picture release "{{ release.image }}" --alt {{ release.title }} artwork --img class="w-full border border-black/10 dark:border-white/20" %}</div>
                     <div class="leading-[1.2] line-clamp-2 text-base">{{ release.title }}</div>
                     {% if include.show_featured == true %}
                         <div class="leading-[1.2] mt-1 text-sm line-clamp-2">{{ release.artist }}</div>
