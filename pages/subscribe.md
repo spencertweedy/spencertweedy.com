@@ -2,6 +2,7 @@
 layout: page
 permalink: "/subscribe"
 width: constrained
+title: Subscribe
 ---
 
 You can subscribe to my posts [via Substack](https://spencertweedy.substack.com).
