@@ -7,13 +7,13 @@ width: constrained
 
 I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [record]({% link pages/music.html %}) and [tour]({% link pages/shows.html %}).
 
-## Featured albums
+### Featured albums
 
 {% include release-carousel.html show_featured=true %}
 
 [View all &rarr;]({% link pages/music.html %})
 
-## Links
+### Links
 
 - [Now page]({% link pages/now.md %})
 - [My Instagram](https://www.instagram.com/spencertweedy)
@@ -24,7 +24,7 @@ I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [r
 - [The Tweedy Show](https://thetweedyshow.com/), our livestream show
 - [Contact me]({% link pages/contact.md %})
 
-## Some of my close friends and collaborators
+### Some of my close friends and collaborators
 
 - [Henry True](https://henrytrue.bandcamp.com/album/henry-true)
 - [Liam Kazar](https://liamkazar.com/)
@@ -36,7 +36,7 @@ I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [r
 - [Max Subar](https://maxsubar.bandcamp.com/album/max-subar)
 - [Tory P-Lopez](https://www.instagram.com/ripley.rocks/)
 
-## Special Projects, Hare-Brained Schemes, and Failed Experiments
+### Special Projects, Hare-Brained Schemes, and Failed Experiments
 
 **Observations books.** In 2018, I started a [daily blog]({% link pages/observations/index.html %}) about interesting things and people I encountered out in the world. I published at least one item on it every day until 2023, when I stopped liking the rigid format. Over the course of the blog I published [two paper chapbooks]({% link pages/books.md %}) compiling my favorite posts.
 
@@ -54,7 +54,7 @@ I’m a drummer and a writer in Chicago. Some people call me Spoon. I love to [r
 
 **Macatron.** When I was a tiny child I tried to distribute Mac “apps” under the name Macatron. They weren’t really apps; they were packaged scripts that would do little things like turn off translucency for the menubar or whatever else was available in the OS.
 
-## A timeline, why not?
+### A timeline, why not?
 
 * 1995: born in Chicago
 * 1998: somebody plops me on a drum kit in the basement of Lounge Ax

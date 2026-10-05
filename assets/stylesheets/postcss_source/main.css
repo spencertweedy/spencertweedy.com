@@ -39,7 +39,6 @@
 		@apply mb-0;
 	}
 	
-	h1 + p,
 	h2 + p,
 	h3 + p,
 	h4 + p,
@@ -145,19 +144,19 @@
 		@apply border-2 border-dotted border-black dark:border-white;
 	}
 
-	h1, .h1 {
+	h2, .h2 {
 		@apply text-3xl mb-4 font-sans font-bold;
 	}
 
-	h2, .h2 {
+	h3, .h3 {
 		@apply text-xl font-sans font-bold mt-8 mb-4;
 	}
 
-	h3, .h3 {
+	h4, .h4 {
 		@apply text-lg font-sans font-bold mb-2 leading-[1.2em];
 	}
 
-	h4, .h4 {
+	h5, .h5 {
 		@apply text-base font-bold font-sans;
 	}
 	

@@ -11,13 +11,13 @@ permalink: "/"
 	</div>
 	
 	<div class="md:col-start-1 md:row-span-2 md:row-start-1">
-		<h1 class="sr-only">Blog Posts</h1>
+		<h2 class="sr-only">Blog Posts</h2>
 		
 		{% include wire.html limit=30 %}
 	</div>
 	
 	<aside class="md:col-start-2 md:row-start-2">
-		<h4>Recent releases</h4>
+		<h5>Recent releases</h5>
 		
 		{% assign sorted = "" | split: "" %}
 		{% assign years = site.releases | group_by: "year" | sort: "name" | reverse %}
@@ -33,7 +33,7 @@ permalink: "/"
 		</ul>
 		<p><a href="{% link pages/music.html %}">View all &rarr;</a></p>
 		
-		<h4>Upcoming shows</h4>
+		<h5>Upcoming shows</h5>
 		{% assign shows = site.data.shows | sort:"Date" %}
 		{% assign today_date = "now" | date: "%s" %}
 		
