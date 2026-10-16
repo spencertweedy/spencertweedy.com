@@ -52,7 +52,7 @@
 	}
 
 	p img {
-		@apply my-8 rounded-3xl max-w-full mx-auto;
+		@apply my-4 rounded-3xl max-w-full mx-auto;
 	}
 	
 	p:has(img) {
@@ -153,7 +153,7 @@
 	}
 
 	h4, .h4 {
-		@apply text-lg font-sans font-bold mb-2 leading-[1.2em];
+		@apply text-lg font-sans font-bold leading-[1.1em];
 	}
 
 	h5, .h5 {
