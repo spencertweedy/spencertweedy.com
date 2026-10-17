@@ -31,14 +31,6 @@
 		@apply spacing-standard sansAlt;
 	}
 	
-	p:first-child {
-		@apply mt-0;
-	}
-	
-	p:last-child {
-		@apply mb-0;
-	}
-	
 	h2 + p,
 	h3 + p,
 	h4 + p,
@@ -137,7 +129,7 @@
 
 @layer utilities {
 	.spacing-standard {
-		@apply my-4 first:mt-0 last:mb-0;
+		@apply mb-4 last:mb-0;
 	}
 	
 	.border-standard {
@@ -153,7 +145,7 @@
 	}
 
 	h4, .h4 {
-		@apply text-lg font-sans font-bold leading-[1.1em];
+		@apply text-lg font-sans font-bold mb-4 leading-[1.1em];
 	}
 
 	h5, .h5 {
