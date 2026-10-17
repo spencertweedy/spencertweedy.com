@@ -149,7 +149,7 @@
 	}
 
 	h5, .h5 {
-		@apply text-base font-bold font-sans;
+		@apply text-base font-bold font-sans mb-2;
 	}
 	
 	.picture {
