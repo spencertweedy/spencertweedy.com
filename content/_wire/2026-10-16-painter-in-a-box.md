@@ -9,4 +9,4 @@ show_title: true
 
 I agree with that.
 
-But you can also imagine a painter in a box with a slot only big enough to pass notes and paintings out. You wouldn’t doubt the painter is alive.
+But you can also imagine a painter in a box with a slot only big enough to pass notes in and paintings out. You wouldn’t doubt the painter is alive.
