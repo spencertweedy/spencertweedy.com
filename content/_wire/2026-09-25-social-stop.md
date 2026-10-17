@@ -1,6 +1,7 @@
 ---
 title: "Dan Sinker: What If We Just Stopped?"
 show_title: true
+link: https://dansinker.com/posts/2026-09-23-stopped/
 ---
 
 [Dan Sinker](https://dansinker.com/posts/2026-09-23-stopped/):
