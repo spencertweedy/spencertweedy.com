@@ -1,31 +1,29 @@
-<div class="space-y-8">
+<div class="space-y-16">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
-    <div class="space-y-2">
-        <h3 class="text-xs my-0 font-normal opacity-60">{{ day.name | date: "%A, %e %b %Y" }}</h3>
+    <div class="{% unless forloop.first %}border-t border-dashed border-black/30 dark:border-white/15 pt-2{% endunless %}">
+        <h3 class="text-xs mt-0 mb-8 font-normal opacity-60">{{ day.name | date: "%A, %e %b %Y" }}</h3>
 
-        <div class="space-y-8 border-b border-dashed border-black/30 dark:border-white/15">
-            {% for post in day.items reversed %}
-                <article id="{{ post.slug }}" class="{% unless forloop.last %}border-b border-dashed border-black/30 dark:border-white/15{% endunless %} pb-8 space-y-4 break-inside-avoid">
-                    <h4 class="{% unless post.show_title %}hidden{% endunless %}"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                    
-                    {% if post.link %}<div class="text-xs italic"><span class="opacity-60">Link:</span> <a href="{{ post.link }}" class="link">{{ post.link | split: "//" | last | split: "/" | first | remove_first: "www." }}</a></div>{% endif %}
-                    
-                    {{ post.content | markdownify }}
+        {% for post in day.items reversed %}
+            <article id="{{ post.slug }}" class="space-y-4 break-inside-avoid {% unless forloop.first %}mt-8 pt-8 border-t border-dashed border-black/30 dark:border-white/15{% endunless %}">
+                {% if post.show_title %}<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>{% endif %}
+                
+                {% if post.link %}<div class="text-xs italic"><span class="opacity-60">Link:</span> <a href="{{ post.link }}" class="link">{{ post.link | split: "//" | last | split: "/" | first | remove_first: "www." }}</a></div>{% endif %}
+                
+                {{ post.content | markdownify }}
 
-                    <div class="text-xs">
-                        <a href="{{ post.url }}" class="link">Permalink <span class="">⚓︎</span></a>
-                        {% if post.tags != empty %}
-                            <p>Tags:
-                                {% for tag in post.tags %}
-                                    {{ tag }}{% unless forloop.last %}, {% endunless %}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    </div>
-                </article>
-            {% endfor %}
-        </div>
+                <div class="text-xs">
+                    <a href="{{ post.url }}" class="link">Permalink <span class="">⚓︎</span></a>
+                    {% if post.tags != empty %}
+                        <p>Tags:
+                            {% for tag in post.tags %}
+                                {{ tag }}{% unless forloop.last %}, {% endunless %}
+                            {% endfor %}
+                        </p>
+                    {% endif %}
+                </div>
+            </article>
+        {% endfor %}
     </div>
     {% endfor %}
 
