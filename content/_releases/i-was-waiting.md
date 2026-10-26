@@ -5,6 +5,6 @@ artist: forestlike
 year: 2026
 listen: https://forestlike.bandcamp.com/album/i-was-waiting
 image: "/releases/i-was-waiting.jpg"
-role: Drums
+role: Drums ("tranquil light," "josefin," and "black cherry soda")
 type: LP
 ---
