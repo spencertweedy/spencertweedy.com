@@ -1,5 +1,5 @@
 ---
-title: Everyone’s Doing It and Afraid Their Friends Will Find Out
+title: Let's Do It and Say We Did
 date: 2026-10-30
 show_title: true
 ---
