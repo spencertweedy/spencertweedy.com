@@ -141,11 +141,11 @@
 	}
 
 	h3, .h3 {
-		@apply text-xl font-sans font-bold mt-8 mb-4;
+		@apply text-2xl font-sans font-bold mt-8 mb-4;
 	}
 
 	h4, .h4 {
-		@apply text-lg font-sans font-bold mb-4 leading-[1.1em];
+		@apply text-xl font-sans font-bold mb-4 leading-[1.1em];
 	}
 
 	h5, .h5 {
