@@ -2,10 +2,10 @@
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
     <div>
-        {% unless forloop.first %}<h3 class="text-xs dark:text-white/60 mt-0 mb-8 font-normal border-standard dark:border-black bg-purple-300/80 dark:bg-purple-500/40 p-2">{{ day.name | date: "%A, %e %b %Y" }}</h3>{% endunless %}
+        {% unless forloop.first %}<h3 class="text-xs dark:text-black dark:opacity-40 text-center mt-0 mb-8 font-normal border-standard dark:border-black bg-gray-100 p-2">{{ day.name | date: "%A, %e %b %Y" }}</h3>{% endunless %}
 
         {% for post in day.items reversed %}
-            <article id="{{ post.slug }}" class="space-y-4 break-inside-avoid {% unless forloop.first %}mt-8 pt-8 border-t-2 border-dotted border-black/20 dark:border-white/10{% endunless %}">
+            <article id="{{ post.slug }}" class="space-y-4 break-inside-avoid {% unless forloop.first %}mt-8 pt-8 border-t-2 border-dotted border-black dark:border-white/10{% endunless %}">
                 {% if post.show_title %}<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>{% endif %}
                 
                 {% if post.link %}<div class="text-xs italic"><span class="opacity-60">Link:</span> <a href="{{ post.link }}" class="link">{{ post.link | split: "//" | last | split: "/" | first | remove_first: "www." }}</a></div>{% endif %}
