@@ -133,7 +133,7 @@
 	}
 	
 	.border-standard {
-		@apply border-2 border-dotted border-black dark:border-white;
+		@apply border-2 border-dotted border-black;
 	}
 
 	h2, .h2 {
