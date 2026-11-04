@@ -21,6 +21,6 @@ Approximate readership:
 * Open rate: 51%
 * 2,000 unique web visitors per month
 
-Introductory price: $300 until March 2027
+Introductory price (until March 2027): $300
 
 To schedule a sponsorship, [email me](mailto:me@spencertweedy.com?subject=Blog%20Sponsorship).
