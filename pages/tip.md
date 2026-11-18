@@ -22,3 +22,5 @@ I’ll admit the election is rigged. I wouldn’t honor the results if they said
   publishable-key="pk_live_51H5DeSDiaVKmOzidjKTZ4OEOfYdHTrOZLq9BKOs7Wl1hQXIxTPuZ2tsAozgGaswchsidgCnhs077giA0vvHxJcGV00g3XPAy1L"
 >
 </stripe-buy-button>
+
+If you run a business, I’m also offering [sponsorships]({% link pages/sponsor.md %}).
