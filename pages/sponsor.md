@@ -1,5 +1,5 @@
 ---
-title: Sponsor Me
+title: Sponsor spencertweedy.com
 permalink: "/sponsor"
 layout: page
 width: constrained
@@ -19,7 +19,7 @@ Approximate readership:
 
 * 9,000 email subscribers
 * Open rate: 51%
-* 2,000 unique web visitors per month
+* 2,700 unique web visitors per month
 
 Introductory price (until March 2027): $300
 
