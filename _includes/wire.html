@@ -1,18 +1,18 @@
-<div class="space-y-16">
+<div class="space-y-12 md:space-y-16">
     {% assign posts = site.wire | group_by_exp: "post", "post.date | date: '%F'" | reverse %}
     {% for day in posts limit: include.limit %}
     <div>
-        <h3 class="text-xs dark:text-white/60 mt-0 mb-6 font-normal border-standard bg-gray-100 dark:bg-gray-100/20 p-2">{{ day.name | date: "%a, %e %b %Y" }}</h3>
+        <h3 class="text-xs dark:text-white/60 mt-0 mb-4 font-bold border-standard bg-gray-100 dark:bg-gray-100/20 p-2">{{ day.name | date: "%a, %e %b %Y" }}</h3>
 
         {% for post in day.items reversed %}
             <article id="{{ post.slug }}" class="space-y-4 break-inside-avoid {% unless forloop.first %}mt-6 pt-6 border-t-2 border-dotted border-black dark:border-white/10{% endunless %}">
-                {% if post.show_title %}<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>{% endif %}
+                {% if post.show_title %}<h4><a href="{{ post.url }}" class="link">{{ post.title }}</a></h4>{% endif %}
                 
-                {% if post.link %}<div class="text-xs italic"><span class="opacity-60">Link:</span> <a href="{{ post.link }}" class="link">{{ post.link | split: "//" | last | split: "/" | first | remove_first: "www." }}</a></div>{% endif %}
+                {% if post.link %}<div class="text-xs font-sans italic"><span class="opacity-60">Link:</span> <a href="{{ post.link }}" class="link">{{ post.link | split: "//" | last | split: "/" | first | remove_first: "www." }}</a></div>{% endif %}
                 
                 {{ post.content | markdownify }}
 
-                <div class="text-xs">
+                <div class="text-xs font-sans">
                     <a href="{{ post.url }}" class="link">Permalink <span class="">⚓︎</span></a>
                     {% if post.tags != empty %}
                         <p>Tags:

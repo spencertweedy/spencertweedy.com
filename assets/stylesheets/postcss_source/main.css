@@ -28,7 +28,7 @@
 	}
 	
 	p {
-		@apply spacing-standard sansAlt;
+		@apply spacing-standard leading-[1.4];
 	}
 	
 	h2 + p,
@@ -76,11 +76,11 @@
 	}
 
 	ul {
-		@apply sansAlt list-[square] ms-4 space-y-1 spacing-standard;
+		@apply list-[square] ms-4 space-y-1 spacing-standard;
 	}
 
 	ol {
-		@apply sansAlt list-decimal ms-4 space-y-1 spacing-standard;
+		@apply list-decimal ms-4 space-y-1 spacing-standard;
 	}
 
 	ul a,
@@ -145,7 +145,7 @@
 	}
 
 	h4, .h4 {
-		@apply text-xl font-sans font-bold mb-4 leading-[1.1em];
+		@apply text-lg font-sans font-bold mb-4 leading-[1.4];
 	}
 
 	h5, .h5 {
@@ -163,10 +163,6 @@
 	
 	.no-scrollbars::-webkit-scrollbar {
 		display: none;
-	}
-	
-	.sansAlt {
-		@apply font-sansAlt text-[0.8em] leading-[1.6em];
 	}
 	
 	.link {
