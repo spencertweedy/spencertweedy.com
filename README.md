@@ -18,6 +18,8 @@ Jekyll uses a templating language called [Liquid](https://shopify.github.io/liqu
 
 [Netlify](https://www.netlify.com/) watches this GitHub repository and automatically builds the site when there are new commits. Certain files, like 'netlify.toml' and '\_redirects' tell Netlify how to build the site.
 
+The 'markdown_mirror' plugin writes a Markdown copy of every Markdown-sourced page next to its HTML (for example, '/now.md' beside '/now.html'), plus a table of contents at '/.well-known/toc.opml'. This makes the site readable in [BonBon](https://github.com/scripting/bonBon) and other browsers for the Markdown web. A Netlify edge function in 'netlify/edge-functions' serves those Markdown copies at the normal URLs to any browser that asks for 'text/markdown'.
+
 I use [Plausible](https://plausible.io) to log anonymous, basic traffic data and no third party can access it.
 
 ## Copyright/license

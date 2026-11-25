@@ -5,3 +5,21 @@
 
 [build.processing.html]
 	pretty_urls = false
+
+# Markdown mirror for BonBon (see _plugins/markdown_mirror.rb)
+[[headers]]
+	for = "/*.md"
+	[headers.values]
+		Content-Type = "text/markdown; charset=utf-8"
+		Access-Control-Allow-Origin = "*"
+
+[[headers]]
+	for = "/*.opml"
+	[headers.values]
+		Content-Type = "text/x-opml; charset=utf-8"
+		Access-Control-Allow-Origin = "*"
+
+[[headers]]
+	for = "/.well-known/bonbon.json"
+	[headers.values]
+		Access-Control-Allow-Origin = "*"
